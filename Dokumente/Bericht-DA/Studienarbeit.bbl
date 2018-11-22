@@ -1,0 +1,1229 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{din_en_iso_10628-2_schemata_2013}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=DEI}{%
+         family={10628-2},
+         familyi={\bibinitperiod-\bibinitperiod},
+         given={DIN EN\bibnamedelima ISO},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
+  I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Deutsche Norm}%
+    }
+    \strng{namehash}{DEI1}
+    \strng{fullhash}{DEI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{1}
+    \field{sortinithash}{1}
+    \field{title}{Schemata für die chemische und petrochemische {Industrie}}
+    \field{month}{04}
+    \field{year}{2013}
+  \endentry
+
+  \entry{din_en_iso_1319-1_grundlagen_1995}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=DEI}{%
+         family={1319-1},
+         familyi={\bibinitperiod-\bibinitperiod},
+         given={DIN EN\bibnamedelima ISO},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
+  I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Deutsche Norm}%
+    }
+    \strng{namehash}{DEI2}
+    \strng{fullhash}{DEI2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{1}
+    \field{sortinithash}{1}
+    \field{title}{Grundlagen der Messtechnik}
+    \field{month}{01}
+    \field{year}{1995}
+  \endentry
+
+  \entry{arroyo_esquivel_capturing_2017}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=AEE}{%
+         family={Arroyo\bibnamedelima Esquivel},
+         familyi={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+         given={Esteban},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AEE1}
+    \strng{fullhash}{AEE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Capturing and {Exploiting} {Plant} {Topology} and {Process}
+  {Information} as a {Basis} to {Support} {Engineering} and {Operational}
+  {Activities} in {Process} {Plants}}
+    \list{location}{1}{%
+      {Hamburg}%
+    }
+    \list{institution}{1}{%
+      {Helmut Schmidt Universität}%
+    }
+    \field{type}{Dissertation}
+    \field{year}{2017}
+  \endentry
+
+  \entry{bockh_fluidmechanik_2013}{book}{}
+    \name{author}{2}{}{%
+      {{hash=BPv}{%
+         family={Böckh},
+         familyi={B\bibinitperiod},
+         given={Peter\bibnamedelima von},
+         giveni={P\bibinitperiod\bibinitdelim v\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Saumweber},
+         familyi={S\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Vieweg}%
+    }
+    \strng{namehash}{BPvSC1}
+    \strng{fullhash}{BPvSC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{edition}{3. bearb. und erg. Auflage}
+    \field{series}{Lehrbuch}
+    \field{shorttitle}{Fluidmechanik}
+    \field{title}{Fluidmechanik: einführendes {Lehrbuch}}
+    \list{location}{1}{%
+      {Berlin}%
+    }
+    \field{year}{2013}
+  \endentry
+
+  \entry{bernshausen_namur_2016}{article}{}
+    \name{author}{6}{}{%
+      {{hash=BJ}{%
+         family={Bernshausen},
+         familyi={B\bibinitperiod},
+         given={Jens},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Haller},
+         familyi={H\bibinitperiod},
+         given={Axel},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Holm},
+         familyi={H\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hoernicke},
+         familyi={H\bibinitperiod},
+         given={Mario},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=OM}{%
+         family={Obst},
+         familyi={O\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Ladiges},
+         familyi={L\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJ+1}
+    \strng{fullhash}{BJHAHTHMOMLJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{pages}{72 \bibrangedash  81}
+    \field{title}{Namur {Modul} {Type} {Package} – {Definition}}
+    \field{volume}{58}
+    \field{journaltitle}{atp edition}
+    \field{month}{01}
+    \field{year}{2016}
+  \endentry
+
+  \entry{bernstein_messelektronik_2014}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BH}{%
+         family={Bernstein},
+         familyi={B\bibinitperiod},
+         given={Herbert},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Vieweg}%
+    }
+    \strng{namehash}{BH1}
+    \strng{fullhash}{BH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{series}{Lehrbuch}
+    \field{shorttitle}{Messelektronik und {Sensoren}}
+    \field{title}{Messelektronik und {Sensoren}: {Grundlagen} der
+  {Messtechnik}, {Sensoren}, analoge und digitale {Signalverarbeitung}}
+    \list{location}{1}{%
+      {Wiesbaden}%
+    }
+    \field{year}{2014}
+  \endentry
+
+  \entry{bramsiepe_low-cost_2012}{article}{}
+    \name{author}{11}{}{%
+      {{hash=BC}{%
+         family={Bramsiepe},
+         familyi={B\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Sievers},
+         familyi={S\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Seifert},
+         familyi={S\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Stefanidis},
+         familyi={S\bibinitperiod},
+         given={G.D.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=VD}{%
+         family={Vlachos},
+         familyi={V\bibinitperiod},
+         given={D.G.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Schnitzer},
+         familyi={S\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MB}{%
+         family={Muster},
+         familyi={M\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Brunner},
+         familyi={B\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Sanders},
+         familyi={S\bibinitperiod},
+         given={J.P.M.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bruins},
+         familyi={B\bibinitperiod},
+         given={M.E.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Schembecker},
+         familyi={S\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BC+1}
+    \strng{fullhash}{BCSSSTSGVDSHMBBCSJBMSG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1016/j.cep.2011.08.005
+    \endverb
+    \field{pages}{32\bibrangedash 52}
+    \field{title}{Low-cost small scale processing technologies for production
+  applications in various environments—{Mass} produced factories}
+    \field{volume}{51}
+    \field{journaltitle}{Chemical Engineering and Processing: Process
+  Intensification}
+    \field{month}{01}
+    \field{year}{2012}
+  \endentry
+
+  \entry{busing_graphen_2010}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BC}{%
+         family={Büsing},
+         familyi={B\bibinitperiod},
+         given={Christina},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {ger}%
+    }
+    \list{publisher}{1}{%
+      {Spektrum, Akademischer Verlag}%
+    }
+    \strng{namehash}{BC1}
+    \strng{fullhash}{BC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Graphen- und {Netzwerkoptimierung}}
+    \list{location}{1}{%
+      {Heidelberg}%
+    }
+    \field{year}{2010}
+  \endentry
+
+  \entry{caspary_auswertung_2007}{book}{}
+    \name{author}{2}{}{%
+      {{hash=CW}{%
+         family={Caspary},
+         familyi={C\bibinitperiod},
+         given={Wilhelm},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=WK}{%
+         family={Wichmann},
+         familyi={W\bibinitperiod},
+         given={Klaus},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {ger}%
+    }
+    \list{publisher}{1}{%
+      {Oldenbourg}%
+    }
+    \strng{namehash}{CWWK1}
+    \strng{fullhash}{CWWK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{shorttitle}{Auswertung von {Messdaten}}
+    \field{title}{Auswertung von {Messdaten}: statistische {Methoden} für
+  {Geo}- und {Ingenieurwissenschaften}}
+    \list{location}{1}{%
+      {München}%
+    }
+    \field{year}{2007}
+  \endentry
+
+  \entry{christen_praxiswissen_2010}{book}{}
+    \name{author}{1}{}{%
+      {{hash=CDS}{%
+         family={Christen},
+         familyi={C\bibinitperiod},
+         given={Daniel\bibnamedelima S.},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{CDS1}
+    \strng{fullhash}{CDS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{edition}{2., bearbeitete und ergänzte Auflage}
+    \field{series}{{VDI}-{Buch}}
+    \field{shorttitle}{Praxiswissen der chemischen {Verfahrenstechnik}}
+    \field{title}{Praxiswissen der chemischen {Verfahrenstechnik}: {Handbuch}
+  für {Chemiker} und {Verfahrensingenieure}}
+    \list{location}{1}{%
+      {Heidelberg}%
+    }
+    \field{year}{2010}
+  \endentry
+
+  \entry{cleve_data_2016}{book}{}
+    \name{author}{2}{}{%
+      {{hash=CJ}{%
+         family={Cleve},
+         familyi={C\bibinitperiod},
+         given={Jürgen},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LU}{%
+         family={Lämmel},
+         familyi={L\bibinitperiod},
+         given={Uwe},
+         giveni={U\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {De Gruyter Oldenbourg}%
+    }
+    \strng{namehash}{CJLU1}
+    \strng{fullhash}{CJLU1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{edition}{2. Auflage}
+    \field{series}{Studium}
+    \field{title}{Data mining}
+    \list{location}{1}{%
+      {Berlin Boston}%
+    }
+    \field{year}{2016}
+  \endentry
+
+  \entry{draht_grundarchitektur_2010}{incollection}{}
+    \name{author}{2}{}{%
+      {{hash=DR}{%
+         family={Drath},
+         familyi={D\bibinitperiod},
+         given={Rainer},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Schleipen},
+         familyi={S\bibinitperiod},
+         given={Miriam},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=DR}{%
+         family={Draht},
+         familyi={D\bibinitperiod},
+         given={Rainer},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Berlin Heidelberg}%
+    }
+    \strng{namehash}{DRSM1}
+    \strng{fullhash}{DRSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{booktitle}{Datenaustausch in der {Anlagenplanung} mit
+  {AutomationML}}
+    \verb{doi}
+    \verb 10.1007/978-3-642-04674-2_2
+    \endverb
+    \field{pages}{45\bibrangedash 94}
+    \field{shorttitle}{Grundarchitektur}
+    \field{title}{Grundarchitektur: das {Objektmodell}}
+    \list{location}{1}{%
+      {Berlin, Heidelberg}%
+    }
+    \field{year}{2010}
+  \endentry
+
+  \entry{fay_wissensbasierte_2015}{article}{}
+    \name{author}{6}{}{%
+      {{hash=FA}{%
+         family={Fay},
+         familyi={F\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Rebbe},
+         familyi={R\bibinitperiod},
+         given={Christopfer},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Glawe},
+         familyi={G\bibinitperiod},
+         given={Matthias},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Scholz},
+         familyi={S\bibinitperiod},
+         given={Andre},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=NKH}{%
+         family={Niemann},
+         familyi={N\bibinitperiod},
+         given={Karl-Heinz},
+         giveni={K\bibinitperiod-H\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dittgen},
+         familyi={D\bibinitperiod},
+         given={Josha},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FA+1}
+    \strng{fullhash}{FARCGMSANKHDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{number}{4}
+    \field{pages}{56\bibrangedash 66}
+    \field{title}{Wissensbasierte {Sicherheitsanalyse} in der {Automation}}
+    \field{journaltitle}{Atp Edition}
+    \field{year}{2015}
+  \endentry
+
+  \entry{hahn_virtuelle_2016}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HA}{%
+         family={Hahn},
+         familyi={H\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Pech},
+         familyi={P\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=UL}{%
+         family={Urbas},
+         familyi={U\bibinitperiod},
+         given={Leon},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HAPSUL1}
+    \strng{fullhash}{HAPSUL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.17560/atp.v58i11.589
+    \endverb
+    \field{number}{11}
+    \field{pages}{54\bibrangedash 63}
+    \field{title}{Virtuelle funktionale {Module} in der {Prozessindustrie}}
+    \field{volume}{58}
+    \field{journaltitle}{Atp Edition}
+    \field{year}{2016}
+  \endentry
+
+  \entry{hahn_concept_2016}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=HA}{%
+         family={Hahn},
+         familyi={H\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hensel},
+         familyi={H\bibinitperiod},
+         given={Stephan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hoernicke},
+         familyi={H\bibinitperiod},
+         given={Mario},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=UL}{%
+         family={Urbas},
+         familyi={U\bibinitperiod},
+         given={Leon},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{HA+1}
+    \strng{fullhash}{HAHSHMUL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1109/INDIN.2016.7819273
+    \endverb
+    \field{pages}{820\bibrangedash 825}
+    \field{title}{Concept for the detection of virtual functional modules in
+  existing plant topologies}
+    \field{month}{07}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Hayes-Roth1985}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HRF}{%
+         family={Hayes-Roth},
+         familyi={H\bibinitperiod-R\bibinitperiod},
+         given={Frederick},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HRF1}
+    \strng{fullhash}{HRF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1145/4284.4286
+    \endverb
+    \field{number}{9}
+    \field{pages}{921\bibrangedash 932}
+    \field{title}{{Rule-based systems}}
+    \field{volume}{28}
+    \field{journaltitle}{Communications of the ACM}
+    \field{year}{1985}
+  \endentry
+
+  \entry{hemming_verfahrenstechnik_2011}{book}{}
+    \name{author}{2}{}{%
+      {{hash=HW}{%
+         family={Hemming},
+         familyi={H\bibinitperiod},
+         given={Werner},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=WW}{%
+         family={Wagner},
+         familyi={W\bibinitperiod},
+         given={Walter},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Vogel}%
+    }
+    \strng{namehash}{HWWW1}
+    \strng{fullhash}{HWWW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{edition}{11., korrigierte Auflage}
+    \field{series}{Vogel-{Fachbuch}}
+    \field{title}{Verfahrenstechnik}
+    \list{location}{1}{%
+      {Würzburg}%
+    }
+    \field{year}{2011}
+  \endentry
+
+  \entry{hering_sensoren_2018}{book}{}
+    \name{editor}{2}{}{%
+      {{hash=HE}{%
+         family={Hering},
+         familyi={H\bibinitperiod},
+         given={Ekbert},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Schönfelder},
+         familyi={S\bibinitperiod},
+         given={Gert},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Fachmedien Wiesbaden GmbH}%
+    }
+    \strng{namehash}{HESG1}
+    \strng{fullhash}{HESG1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{edition}{2., überarbeitete und aktualisierte Auflage}
+    \field{shorttitle}{Sensoren in {Wissenschaft} und {Technik}}
+    \field{title}{Sensoren in {Wissenschaft} und {Technik}: {Funktionsweise}
+  und {Einsatzgebiete}}
+    \list{location}{1}{%
+      {Wiesbaden}%
+    }
+    \field{year}{2018}
+  \endentry
+
+  \entry{Hoernicke2015}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HM}{%
+         family={Hoernicke},
+         familyi={H\bibinitperiod},
+         given={Mario},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{automation of automation,industrial use case,plant topology}
+    \strng{namehash}{HM1}
+    \strng{fullhash}{HM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{7-8}
+    \field{pages}{44\bibrangedash 55}
+    \field{title}{{Automatisierung der Automatisierung in der Praxis}}
+    \field{journaltitle}{Atp Edition}
+    \field{year}{2015}
+  \endentry
+
+  \entry{hoernicke_anlagentopologien_2014}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HM}{%
+         family={Hoernicke},
+         familyi={H\bibinitperiod},
+         given={Mario},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Christiansen},
+         familyi={C\bibinitperiod},
+         given={Lars},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Fay},
+         familyi={F\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{automation of automation, lant topology, topology model}
+    \strng{namehash}{HMCLFA1}
+    \strng{fullhash}{HMCLFA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{4}
+    \field{pages}{28\bibrangedash 40}
+    \field{title}{Anlagentopologien automatisch erstellen}
+    \field{journaltitle}{Atp Edition}
+    \field{year}{2014}
+  \endentry
+
+  \entry{draht_verhaltensbeschreibung_2010}{incollection}{}
+    \name{author}{4}{}{%
+      {{hash=HL}{%
+         family={Hundt},
+         familyi={H\bibinitperiod},
+         given={Lorenz},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Lüder},
+         familyi={L\bibinitperiod},
+         given={Arndt},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Drath},
+         familyi={D\bibinitperiod},
+         given={Rainer},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GB}{%
+         family={Grimm},
+         familyi={G\bibinitperiod},
+         given={Björn},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=DR}{%
+         family={Draht},
+         familyi={D\bibinitperiod},
+         given={Rainer},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Berlin Heidelberg}%
+    }
+    \strng{namehash}{HL+1}
+    \strng{fullhash}{HLLADRGB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{booktitle}{Datenaustausch in der {Anlagenplanung} mit
+  {AutomationML}}
+    \verb{doi}
+    \verb 10.1007/978-3-642-04674-2_4
+    \endverb
+    \field{pages}{135\bibrangedash 193}
+    \field{title}{Verhaltensbeschreibung mit {PLCopen} {XML}}
+    \list{location}{1}{%
+      {Berlin, Heidelberg}%
+    }
+    \field{year}{2010}
+  \endentry
+
+  \entry{ignatowitz_chemietechnik_2015}{book}{}
+    \name{author}{1}{}{%
+      {{hash=IE}{%
+         family={Ignatowitz},
+         familyi={I\bibinitperiod},
+         given={Eckhard},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Verlag Europa-Lehrmittel}%
+    }
+    \strng{namehash}{IE1}
+    \strng{fullhash}{IE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{edition}{12. Auflage}
+    \field{series}{Europa-{Fachbuchreihe} für {Chemieberufe}}
+    \field{title}{Chemietechnik}
+    \list{location}{1}{%
+      {Haan-Gruiten}%
+    }
+    \field{year}{2015}
+  \endentry
+
+  \entry{jakovlev_mathematische_1952}{book}{}
+    \name{author}{1}{}{%
+      {{hash=JKP}{%
+         family={Jakovlev},
+         familyi={J\bibinitperiod},
+         given={K.\bibnamedelima P.\bibnamedelima ;},
+         giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  \bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Verl. Technik}%
+    }
+    \strng{namehash}{JKP1}
+    \strng{fullhash}{JKP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{title}{Mathematische {Auswertung} von {Messergebnissen}}
+    \list{location}{1}{%
+      {Berlin}%
+    }
+    \field{year}{1952}
+  \endentry
+
+  \entry{Kern-Isberner;Beierle2008}{book}{}
+    \name{author}{1}{}{%
+      {{hash=KICGB}{%
+         family={Kern-Isberner},
+         familyi={K\bibinitperiod-I\bibinitperiod},
+         suffix={Gabriele;\bibnamedelima Beierle},
+         suffixi={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={Christoph},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {ger}%
+    }
+    \list{publisher}{1}{%
+      {Vieweg Teubner}%
+    }
+    \strng{namehash}{KIGBC1}
+    \strng{fullhash}{KIGBC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{booktitle}{Studium}
+    \field{title}{{Methoden wissensbasierter Systeme / Grundlagen, Algorithmen,
+  Anwendungen}}
+    \list{location}{1}{%
+      {Wiesbaden}%
+    }
+    \field{year}{2008}
+  \endentry
+
+  \entry{klose_erstellung_2018}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=KA}{%
+         family={Klose},
+         familyi={K\bibinitperiod},
+         given={Anselm},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KA1}
+    \strng{fullhash}{KA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{title}{Erstellung von {Pfadregeln} basierend auf einer qualitativen
+  {Bewertung} von {Messstellen} einer Bestandsanlage}
+    \list{location}{1}{%
+      {Dresden}%
+    }
+    \list{institution}{1}{%
+      {Technische Universität Dresden}%
+    }
+    \field{type}{Diplomarbeit}
+    \field{year}{2018}
+  \endentry
+
+  \entry{krumke_graphentheoretische_2012}{book}{}
+    \name{author}{2}{}{%
+      {{hash=KSO}{%
+         family={Krumke},
+         familyi={K\bibinitperiod},
+         given={Sven\bibnamedelima Oliver},
+         giveni={S\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=NH}{%
+         family={Noltemeier},
+         familyi={N\bibinitperiod},
+         given={Hartmut},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {ger}%
+    }
+    \list{publisher}{1}{%
+      {Springer Vieweg}%
+    }
+    \strng{namehash}{KSONH1}
+    \strng{fullhash}{KSONH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{edition}{3. Auflage}
+    \field{series}{Studium}
+    \field{title}{Graphentheoretische {Konzepte} und {Algorithmen}}
+    \list{location}{1}{%
+      {Wiesbaden}%
+    }
+    \field{year}{2012}
+  \endentry
+
+  \entry{Lunze2010}{book}{}
+    \name{author}{1}{}{%
+      {{hash=LJ}{%
+         family={Lunze},
+         familyi={L\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oldenbourg}%
+    }
+    \strng{namehash}{LJ1}
+    \strng{fullhash}{LJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{edition}{2. Auflage}
+    \field{title}{{K{\"{u}}nstliche Intelligenz f{\"{u}}r Ingenieure}}
+    \list{location}{1}{%
+      {M{\"{u}}nchen}%
+    }
+    \field{year}{2010}
+  \endentry
+
+  \entry{mehlig_erweiterung_2018}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=MS}{%
+         family={Mehlig},
+         familyi={M\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MS1}
+    \strng{fullhash}{MS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Erweiterung einer {Bewertungsmethode} von {Messstellen}
+  innerhalb einer verfahrenstechnischen {Prozessanlage} um quantitative
+  {Regeln}}
+    \list{location}{1}{%
+      {Dresden}%
+    }
+    \list{institution}{1}{%
+      {Technische Universität Dresden}%
+    }
+    \field{type}{Diplomarbeit}
+    \field{year}{2018}
+  \endentry
+
+  \entry{papula_vektoranalysis_1999}{book}{}
+    \name{author}{1}{}{%
+      {{hash=PL}{%
+         family={Papula},
+         familyi={P\bibinitperiod},
+         given={Lothar},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Vieweg}%
+    }
+    \strng{namehash}{PL1}
+    \strng{fullhash}{PL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{edition}{3. verb. Auflage}
+    \field{number}{Band 3}
+    \field{pages}{645\bibrangedash 400}
+    \field{series}{Mathematik für {Ingenieure} und {Naturwissenschaftler}}
+    \field{shorttitle}{Vektoranalysis, {Wahrscheinlichkeitsrechnung},
+  mathematische {Statistik}, {Fehler}- und {Ausgleichsrechnung}}
+    \field{title}{Vektoranalysis, {Wahrscheinlichkeitsrechnung}, mathematische
+  {Statistik}, {Fehler}- und {Ausgleichsrechnung}}
+    \list{location}{1}{%
+      {Braunschweig}%
+    }
+    \field{year}{1999}
+  \endentry
+
+  \entry{profos_mesfehler_1984}{book}{}
+    \name{author}{1}{}{%
+      {{hash=PP}{%
+         family={Profos},
+         familyi={P\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Teubner}%
+    }
+    \strng{namehash}{PP1}
+    \strng{fullhash}{PP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{series}{Teubner-{Studienbücher} {Maschinenbau}, {Elektrotechnik}}
+    \field{shorttitle}{Meßfehler}
+    \field{title}{Meßfehler: eine {Einführung} in die {Meßtheorie}}
+    \list{location}{1}{%
+      {Stuttgart}%
+    }
+    \field{year}{1984}
+  \endentry
+
+  \entry{profos_handbuch_1994}{book}{}
+    \name{editor}{2}{}{%
+      {{hash=PP}{%
+         family={Profos},
+         familyi={P\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Pfeifer},
+         familyi={P\bibinitperiod},
+         given={Tilo},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oldenbourg}%
+    }
+    \strng{namehash}{PPPT1}
+    \strng{fullhash}{PPPT1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{edition}{6., durchges. und korr. Aufl}
+    \field{shorttitle}{Handbuch der industriellen {Meßtechnik}}
+    \field{title}{Handbuch der industriellen {Meßtechnik}}
+    \list{location}{1}{%
+      {München}%
+    }
+    \field{year}{1994}
+  \endentry
+
+  \entry{puppe_problemlosungsmethoden_1990}{book}{}
+    \name{author}{1}{}{%
+      {{hash=PF}{%
+         family={Puppe},
+         familyi={P\bibinitperiod},
+         given={Frank},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{PF1}
+    \strng{fullhash}{PF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{series}{Studienreihe {Informatik}}
+    \field{title}{Problemlösungsmethoden in {Expertensystemen}}
+    \list{location}{1}{%
+      {Berlin}%
+    }
+    \field{year}{1990}
+  \endentry
+
+  \entry{Schmidberger2007}{article}{}
+    \name{author}{2}{}{%
+      {{hash=ST}{%
+         family={Schmidberger},
+         familyi={S\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Fay},
+         familyi={F\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{STFA1}
+    \strng{fullhash}{STFA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1109/EFTA.2007.4416790
+    \endverb
+    \field{pages}{360\bibrangedash 367}
+    \field{title}{{A rule format for industrial plant information reasoning}}
+    \field{journaltitle}{IEEE International Conference on Emerging Technologies
+  and Factory Automation, ETFA}
+    \field{annotation}{%
+    Aufbau von Regeln%
+    }
+    \field{year}{2007}
+  \endentry
+
+  \entry{schwister_verfahrenstechnik_2013}{book}{}
+    \name{author}{2}{}{%
+      {{hash=SK}{%
+         family={Schwister},
+         familyi={S\bibinitperiod},
+         given={Karl},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LV}{%
+         family={Leven},
+         familyi={L\bibinitperiod},
+         given={Volker},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Fachbuchverl. Leipzig im Carl Hanser Verl}%
+    }
+    \strng{namehash}{SKLV1}
+    \strng{fullhash}{SKLV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{shorttitle}{Verfahrenstechnik für {Ingenieure}}
+    \field{title}{Verfahrenstechnik für {Ingenieure}: {Lehr}- und Übungsbuch}
+    \list{location}{1}{%
+      {München}%
+    }
+    \field{year}{2013}
+  \endentry
+
+  \entry{woschni_messfehler_1969}{book}{}
+    \name{author}{1}{}{%
+      {{hash=WEG}{%
+         family={Woschni},
+         familyi={W\bibinitperiod},
+         given={Eugen-Georg;},
+         giveni={E\bibinitperiod-G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Verl. Technik}%
+    }
+    \strng{namehash}{WEG1}
+    \strng{fullhash}{WEG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{series}{Reihe {Automatisierungstechnik} ; 90}
+    \field{title}{Meßfehler bei dynamischen {Messungen} und {Auswertung} von
+  {Meßergebnissen}}
+    \field{volume}{90}
+    \list{location}{1}{%
+      {Berlin}%
+    }
+    \field{year}{1969}
+  \endentry
+\enddatalist
+\endinput
