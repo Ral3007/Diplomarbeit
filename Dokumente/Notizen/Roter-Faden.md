@@ -5,4 +5,3 @@
   + Vorteile von kollaborativem Arbeiten
   + Vorteile von digitaler Assistenz
 + Wichtiger Aspekt dabei ist die Kommunikation und Wissensvermittlung
-
