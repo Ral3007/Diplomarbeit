@@ -78,3 +78,15 @@
 + interaktives Assistenzsystem: mobiles Endgerät oder Wearable Computer
   + mit Rückkopplungseinheit zur Ausgabe von Informationen an den Anwender verbunden
 + Assistenzsysteme wirken als Fähigkeitsverstärker
+
+
+
+## Lukas Merkel et. al. - Digitale Assistenzsysteme in der Kommissionierung
+
+### Motivation
+
++ wachsende Nachfrage nach kundenindividuellen Produkten und kürzere Entwicklungszyklen
+  + Variantenzahl in der Produktion steiget an
++ neue Flexibiltätanforderungen
+  + sehr unterschiedliche statt wiederholte Arbeitsanforderungen
++ 
