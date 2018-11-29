@@ -8,6 +8,12 @@ Assistenz im weitesten Sinne gibt es schon lange. Computer unterstützes Lernen;
 
 + Laut Duden: Beistand Mithilfe
 + assistieren laut Duden: jemandem nach dessen Anweisungen zur Hand gehen, bei einer Arbeit oder Tätigkeit behilflich sein
++ Unterstützen des Nutzers
+
+## Was tut Assistenz (Aufgabe)?
+
++ Kluft zwischen Systemfunktionalität und Fähigkeiten des menschlichen Nutzers überbrücken
++ 
 
 ## Was muss/sollte Assistenz leisten?
 
