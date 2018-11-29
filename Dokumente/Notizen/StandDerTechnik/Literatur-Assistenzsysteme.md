@@ -301,3 +301,61 @@
   + häufig haben nutzer mehr / andere kontextinformationen, als das system
   + nutzer kann frustiert werden
 
+## Klocke - Assistenzsysteme in der Produktionstechnik
+
++ durch geeignete Assistenzsysteme aus historischen Prozessdaten systematisch lernen
++ Assistenzsysteme leiten aus Daten verschiedene Services ab
++ Asssistenzsysteme unterstützen den Menschen bei der Entscheidungsfindung - ersetzen ihn nicht
++ geben Entscheidungshilfe bei komplexen Prozesssituationen
++ mechanische Prozesse sind mittlerweile gut und stark automatisiert
++ analytische Prozesse sind unstrukturiert, schwer reproduzierbar, kognitiv komplex
++ Assistenzsysteme müssen teilweise analytische Entscheidungsfindung abbilden
+
+### Assistenzsystem erster Stufe
+
++ signalisiert aktuelle Prozessstände ohne Wertung
+
+###zweite Stufe
+
++ Meldung, wenn Prozess vom Soll abweicht
++ Bediener entscheidet, was gemacht wird
++ keine Prognose, was passiert, wenn nichts gemacht wird
+
+### dirtte Stufe
+
++ zeigt Ursache-Wirkung auf
++ Starke Krafteinwirkung -> hoher Achslast
+  + Bediener muss selber wissen, dass er die Kraft verringern sollte
+
+### vierte Stufe
+
++ Durch geeignete Algorithmen kann das Prozessverhalten mit hoher Wahrscheinlichkeit unter Verwendung von Echtzeitdatenin- formationen prognostiziert werden und es lässt sich eine Entscheidungsempfehlung für den Maschinenbediener formulieren
+
+### Komponenten von Assistenzsystemen
+
++ Mensch
+  1. Wahrnehmung von Eingangsinformationen
+  2. Daten werden kognitiv analysiert und verarbeitet
+  3. Entscheidung in Aktionen umsetzen
+  4. Erweiterung des Erfahrungsschatzes
+
+### Aufgaben von Assistenzsystemen
+
+> Assistenzsysteme sind softwaregestützte Anwendungen (Tech-Apps), welche die Entscheidungsfindung des Menschen bei der Umsetzung von Aus- legungs-, Optimierungs- und Planungsaufgaben auf Basis von Sensor- und Modellierungs- daten, aufbereitet mittels Algorithmen künstlicher Intelligenz, entlang der Wertschöpfungs- kette unterstützen.
+
+### Lernende Assistanten
+
++ Clustering
++ Regression und machine Learning
++ Entscheidungsvorschlag definieren
+
+
+
+## Buchholz - Assistenzsysteme für die Entscheidungsunterstützung
+
++ Assistenzssystem, dass beim entscheiden untersützung und Handlungsalternativen anbietet
++ Entscheidungsprozess
+  + Entscheidungsvorbereitung
+  + Entscheiden
+  + Handeln
++ 
