@@ -468,8 +468,8 @@
         \end{tabular}
         \vfill
         \ifthenelse{\equal{\@ifaThesis}{Diplomarbeit}}{
-          {\large zur Erlangung des akademischen Grades eines} \\[0.2cm]
-          {\Large Diplomingenieurs\\[0.2cm](Dipl.-Ing.)}
+          {\large zur Erlangung des akademischen Grades einer} \\[0.2cm]
+          {\Large Diplomingenieurin\\[0.2cm](Dipl.-Ing.)}
           \vfill
         }{
           \vfill
