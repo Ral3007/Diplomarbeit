@@ -71,7 +71,22 @@
 
 ## K. Weisner et. al. - Assistenzsystem zur Individualisierung
 
++ Für die Implementierung und Aufrechterhaltung störungsresistenter Prozesse sind daher das Erfahrungswissen und die kogniti- ven Fähigkeiten des Menschen im Be- reich der Problemlösung und Kreativität von zentraler Bedeutung
++ geforderte Einsatzflexibilität -> hohe Anforderungen an die kognitiven und motorischen Fähigkeiten
++ physische und psychische Beanspruchung optimieren (Überlastung vermeiden)
++ kognitive Unterstützung durch geeingnete Assistenzsysteme
 
+### Assistenzssysteme
+
++ Bedeutung: gesteuerte technische Einrichtung, die den Nutzer bei der Ausführung seiner jeweiligen Arbeitsaufgabe durch die Übernchme von (Teil-)Tätigkeiten zielgerichtet unterstützt
++ smart Devices: 
+  + Mobilität
+  + Vernetzung mit anderen Technologien
+  + Aussattung mit Sensoren
+  + Konfigurierbarkeit in Abhängigkeit des Nutzers (Anwendungsfall)
++ zielgerichteter Einsatz von Smart Wearables -> Kenntnisse über individuelle Informationsbedürfnisse, Einsatzbedingungen und daraus abgeleitete Nutzeranforderungen
++ Fähigkeiten des Menschen müssen berücksichtigt werden
++ 
 
 ## Sebastian Kasselmann - Technologie Kompendium Interaktive Assistenzsysteme
 
@@ -92,7 +107,7 @@
 
 
 
-## Wandk H. - Assistance in human-machine interaction
+## Wandke H. - Assistance in human-machine interaction
 
 + Vorschlag: Assistenz als Zugang zu Maschinenfunktionen
 + Mehrere Stages
