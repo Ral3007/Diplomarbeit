@@ -12,6 +12,8 @@
 ### Literaturrecherche
 
 + Wie wichtig ist das Thema modulare Anlagen?
++ Gibt es schon einen Überblick darüber, was man bei der Störungsdiagnose über die Anlage weiß?
++ Was gibt es für Besonderheiten bei der Störungsdiagnose in modularen Anlagen?
 
 ### Analyse
 
