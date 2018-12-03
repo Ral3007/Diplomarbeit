@@ -1,11 +1,15 @@
 # Roter Faden
 
 + Modulare Anlagen bieten viele Vorteile, bringen aber auch neue Herausforderungen
-+ Assistenz in der Produktion schon allgegenwärtig (Anleitung, Checklisten)
-+ In Prozessumfeld noch Nachholbedarf, da starke Veränderungen
-+ Kolaboratives Arbeiten und Assistenzfunktionen können ein Lösungsweg sein
-  + Vorteile von kollaborativem Arbeiten
-  + Vorteile von digitaler Assistenz
+  + Assistenz in der Produktion schon allgegenwärtig (Anleitung, Checklisten)
+  + In Prozessumfeld noch Nachholbedarf, da starke Veränderungen
++ Automatisierung stellt Menschen vor große Herausforderungen
+  + komplexe Systeme, schwer zu überblicken
++ Assistenz kann mit fehlenden Informationen aushelfen
++ 
+  + Kolaboratives Arbeiten und Assistenzfunktionen können ein Lösungsweg sein
+    + Vorteile von kollaborativem Arbeiten
+    + Vorteile von digitaler Assistenz
 + Wichtiger Aspekt dabei ist die Kommunikation und Wissensvermittlung
 
 

@@ -48,5 +48,13 @@
 
 > Dies setzt ein großes Vertrauen in den Lieferanten voraus, da unter anderem sicherheitsrele- vante Funktionen vom Modulhersteller implementiert werden müssen, die sicherheitstechnische Verantwor- tung aber in der Hand des Anlagen- beziehungsweise Modulbetreibers bleibt.
 
++ klassische Produktionsanlage
+  + Betriebserfahrung gewonnen -> wir berücksichtigt
+  + durchgängige Bedienung und Nutzung einheitlicher Geräte in der Anlage
++ Modularisierung
+  + unterschiedliche Ausrüstung der Module bei unterschiedlichen Herrstellern
+
+> Um dem Bedien- und Wartungspersonal Eingriffsmöglichkeiten zu geben, muss der Bezug zwi- schen örtlicher Kennzeichnung, innerhalb des Moduls und der Kennzeichnung im übergeordneten Automa- tisierungssystem bekannt gemacht werden.
+
 + 
 

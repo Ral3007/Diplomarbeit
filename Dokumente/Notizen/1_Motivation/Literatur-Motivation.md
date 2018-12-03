@@ -81,7 +81,7 @@
 
 ## K. Weisner et. al. - Assistenzsystem zur Individualisierung
 
-+ Für die Implementierung und Aufrechterhaltung störungsresistenter Prozesse sind daher das Erfahrungswissen und die kogniti- ven Fähigkeiten des Menschen im Be- reich der Problemlösung und Kreativität von zentraler Bedeutung
++ Für die Implementierung und Aufrechterhaltung störungsresistenter Prozesse sind daher das Erfahrungswissen und die kognitiven Fähigkeiten des Menschen im Bereich der Problemlösung und Kreativität von zentraler Bedeutung
 + geforderte Einsatzflexibilität -> hohe Anforderungen an die kognitiven und motorischen Fähigkeiten
 + physische und psychische Beanspruchung optimieren (Überlastung vermeiden)
 + kognitive Unterstützung durch geeingnete Assistenzsysteme
