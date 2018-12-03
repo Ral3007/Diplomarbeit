@@ -7,10 +7,13 @@
 ### Zur Aufgabenstellung
 
 + wer kollaboriert mit wem? (Kollegen untereinander, mit Modulhersteller, mit Assistenz)
+  + Antwort: Assistenz mit Mensch
 + wer sucht das Problem? Modulbetreiber oder Modulhersteller?
+  + Antwort: Eher Modulbetreiber
 + Wie wichtig ist das Thema UI Design? -> Literaturrecherche
 + Was soll die Assistenz können? "Nur" Entscheidungfindung unterstützen oder auch das Lernen fördern, Anleitungen geben?
 + Meinst du mit kollaborativ und kooperativ das gleiche?
+  + Anwort: Ja, es ist das gleiche gemeint. Können aber grundsätzlich zwei verschiedene Dinge sein
 + Strukturierung der Problemlösung (wie werden Probleme gelöst) -> wie wird unterstützt? (was meinte ich damit?)
 
 ### Literaturrecherche

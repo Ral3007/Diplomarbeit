@@ -40,9 +40,6 @@
     \field{number}{6}
     \field{pages}{775\bibrangedash 779}
     \field{title}{{Ironies of Automation}}
-    \verb{url}
-    \verb homepage.univie.ac.at/christian.puff/AS{\_}8{\_}KINABALU.ppt{\%}5Cn
-    \endverb
     \field{volume}{19}
     \field{journaltitle}{Automatica}
     \field{year}{1983}
@@ -84,6 +81,76 @@
     \field{title}{{Industrie 4.0 in Produktion, Automatisierung und Logistik}}
     \field{volume}{136}
     \field{year}{2007}
+  \endentry
+
+  \entry{Bernshausen2016}{article}{}
+    \name{author}{6}{}{%
+      {{hash=BJ}{%
+         family={Bernshausen},
+         familyi={B\bibinitperiod},
+         given={Jens},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Haller},
+         familyi={H\bibinitperiod},
+         given={Axel},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Holm},
+         familyi={H\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hoernicke},
+         familyi={H\bibinitperiod},
+         given={Mario},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=OM}{%
+         family={Obst},
+         familyi={O\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Ladiges},
+         familyi={L\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJ+1}
+    \strng{fullhash}{BJHAHTHMOMLJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{pages}{72\bibrangedash 81}
+    \field{title}{{Namur Modul Type Package – Definition}}
+    \field{volume}{1-2}
+    \field{journaltitle}{Atp Edition}
+    \field{year}{2016}
+  \endentry
+
+  \entry{NAMURArbeitskreis1.122013}{article}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={{NAMUR Arbeitskreis 1.12}},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{pages}{1\bibrangedash 32}
+    \field{title}{{Ne 148}}
+    \field{year}{2013}
   \endentry
 
   \entry{Obst2013}{article}{}
@@ -162,6 +229,63 @@
     \field{volume}{1-2}
     \field{journaltitle}{Atp Edition}
     \field{year}{2013}
+  \endentry
+
+  \entry{Urbas2012}{article}{}
+    \name{author}{6}{}{%
+      {{hash=UL}{%
+         family={Urbas},
+         familyi={U\bibinitperiod},
+         given={Leon},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Bleuel},
+         familyi={B\bibinitperiod},
+         given={Stephan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=JT}{%
+         family={J{\"{a}}ger},
+         familyi={J\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Schmitz},
+         familyi={S\bibinitperiod},
+         given={Stephan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=EL}{%
+         family={Evetz},
+         familyi={E\bibinitperiod},
+         given={Lars},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=NT}{%
+         family={Nekolla},
+         familyi={N\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{UL+1}
+    \strng{fullhash}{ULBSJTSSELNT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \verb{doi}
+    \verb 10.1140/epje/i2017-11542-4
+    \endverb
+    \field{issn}{1292-8941}
+    \field{number}{February}
+    \field{pages}{44\bibrangedash 53}
+    \field{title}{{Automatisierung von Prozessmodulen}}
+    \field{volume}{1-2}
+    \field{journaltitle}{Atp Edition}
+    \field{year}{2012}
   \endentry
 
   \entry{Weisner2018}{article}{}

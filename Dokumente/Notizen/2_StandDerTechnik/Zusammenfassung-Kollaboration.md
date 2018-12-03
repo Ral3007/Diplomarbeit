@@ -4,3 +4,10 @@
   + Symmetrie
   + gleiche Ziele
   + 
+
+## Was heißt Kollaboration?
+
+
+
+## Was ist eine gute Kollaboration?
+

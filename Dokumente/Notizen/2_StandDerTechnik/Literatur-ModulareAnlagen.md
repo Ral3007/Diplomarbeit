@@ -5,9 +5,9 @@
 + krüzer werdende Produkteinführungszeiten -> Entwicklung von Modularisierungskonzepten
 + Steigerung der Flexibilität
 + Modul sollte möglichst breit angelegt sein
-+ Um die vorhandenen Anlagenkomponenten effizienter in Instandhaltungsmaßnahmen miteinzubeziehen, ist es für den Anlagenbe- treiber unabdingbar, den Gesundheitszustand der Assets mithilfe der daraus resultierenden Diagnoseinformationen zu verwalten und zu bewerten.
++ Um die vorhandenen Anlagenkomponenten effizienter in Instandhaltungsmaßnahmen miteinzubeziehen, ist es für den Anlagenbetreiber unabdingbar, den Gesundheitszustand der Assets mithilfe der daraus resultierenden Diagnoseinformationen zu verwalten und zu bewerten.
 
-+ Es ist darauf hinzuweisen, dass nur die- jenigen Diagnoseinformationen im überge- ordneten Leitsystem zur Verfügung stehen, die die Module bereitstellen!!!
++ Es ist darauf hinzuweisen, dass nur diejenigen Diagnoseinformationen im übergeordneten Leitsystem zur Verfügung stehen, die die Module bereitstellen!!!
 
 
 
@@ -58,3 +58,73 @@
 
 + 
 
+## Bernshausen - Namur Modul Type Package
+
++ Modularisierung: Möglichkeit zukünftige Anforderungen an Prozessindustrie zu bewältigen
++ Änderungen in der Prozessindustrie:
+  + schwankende Beschaffungs- und absatzmärkte
+  + kürzere Produktlebenszyklen
+  + kürzere Innovationszyklen
+  + kundenspezifische Spezialisierungen
++ aktuelle Prozessleitsysteme untersützen Engineeriung und Betrieb von modularen Anlagen nicht
++ es musste von bekannten Strukturen des Automatisierungssystems abgewichen werden
++ funktionsorientierte Modularisierung
++ Modul: verfahrenstechnische Grundfunktion als Dienst für PFE
++ Grundfunktionalitäten der PFE unterstützen
+  + Mensch-Maschine-Schnittstelle
+    + Daten zur Anzeige und Bedienung
+  + Steuern und Überwachen
+    + interne Zustände de moduls
++ Jedes Modul besitzt eine eigene Steuerung
++ Dienstorientierte Konzept
++ Modul ist/ sollte für verschiedene Einsatzarten ausgelegt sein
++ Zustandbasierte Prozessfürhung
+  + modulübergreifende Dienstorchestrierung
+    + Kenntnis der aktuellen Zustände und Zustandsübergänge notwendig
+  + Definition der Zustände hersteller- und modulunabhängig
+  + prozesstechnischen Dienste werden als Funktionen gekapselt
++ Modulspezifische Bedienbilder
++ MTP-Manifest
+  + Zustandmodekk des Moduls bzw aller Dienste
+  + Beschreibung der Kommunikationsschnittstelle
+    + bei integriertem OPC-UA-Server: URL und IP-Adresse
+  + alle Dienste, die das Modul der PFE zur Verfügung stellt
+  + Beschreibung der Bedienerschnittstelle
+    + Bedinebildhierchie
+    + PLT_Stelleninformation
+
+## Namur - NE 148
+
++ geschlossene funktionale Einheit
++ für die angeschlossenen Automatisierungssysteme der Module ist eine Diagnose zu realisieren
++ Systemzustände anzeigen, bei Abweichung von Sollzustand soll Alamierung möglich sein
++ Einzelsteuerebene (Sensoren, Aktoren) soll in Diagnosefunktion voll eingebunden sein
+
+### Datenaustausch und Informationsschnittstellen
+
++ Übertragung der Daten sind zu unterscheiden
++ Strukturdaten
+  + Prozessgrafiken
+  + Verriegelung-, Steuerung- und Regelungsstrukturen
+  + Modulproxis / Steuerungsfunktionen
+  + statische Daten über Export- / Importfunktion nach Bedarf übertragen
++ Dynamische Daten
+  + Prozesswerte
+  + Sollwerte
+  + Modi
+  + Status
+  + (Aktuelle) Leistungsdaten
+  + Identifikation
+  + Austausch in Echtzeit zyklisch oder ereignisgesteuert
++ Zugriff des Modullieferanten
+  + Wartungszwecke
+  + Zugriff auf hersteller- und modulspezifische Daten
++ Bezug zwischen örtlicher Kennzeichnung un der Kennzeichnung im übergeordneten Automatisierungssystem muss bekannt gemacht werden (für Bedin- und Wartungspersonal)
++ 
+
+### Wartung, Instandhaltung
+
++ Absprache bezüglich möglicher Wartungseingriffe muss mit Liferanten getroffen werden
++ Wartung muss durchgehend dokumentiert sein
++ Nachteilig, wenn Betreiber nicht mehr die Rechte zur eigenständigen Fehlerbehebung besitzt
++ 
