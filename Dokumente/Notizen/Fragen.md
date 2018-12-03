@@ -7,15 +7,17 @@
 ### Zur Aufgabenstellung
 
 + wer kollaboriert mit wem? (Kollegen untereinander, mit Modulhersteller, mit Assistenz)
++ wer sucht das Problem? Modulbetreiber oder Modulhersteller?
 + Wie wichtig ist das Thema UI Design? -> Literaturrecherche
 + Was soll die Assistenz können? "Nur" Entscheidungfindung unterstützen oder auch das Lernen fördern, Anleitungen geben?
 + Meinst du mit kollaborativ und kooperativ das gleiche?
-+ Strukturierung der Problemlösung (wie werden Probleme gelöst) -> wie wird unterstützt?
++ Strukturierung der Problemlösung (wie werden Probleme gelöst) -> wie wird unterstützt? (was meinte ich damit?)
 
 ### Literaturrecherche
 
 + Wie wichtig ist das Thema modulare Anlagen?
 + Gibt es schon einen Überblick darüber, was man bei der Störungsdiagnose über die Anlage weiß?
+  + man kennt den konkreten Aufbau des Moduls nicht!!?
 + Was gibt es für Besonderheiten bei der Störungsdiagnose in modularen Anlagen? (wie sehen Use Cases aus?)
 
 ### Analyse

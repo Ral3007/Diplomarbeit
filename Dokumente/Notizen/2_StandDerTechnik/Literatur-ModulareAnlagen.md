@@ -9,3 +9,44 @@
 
 + Es ist darauf hinzuweisen, dass nur die- jenigen Diagnoseinformationen im überge- ordneten Leitsystem zur Verfügung stehen, die die Module bereitstellen!!!
 
+
+
+## Urbas - Automatisierung von Prozessmodulen
+
++ Modularisierung und Standardisierung hat weitreichende Ausweirkungen auf das Engineering und den Betrieb der Anlage
++ beschleunigt: Konzeption, Engineering, Aufbau und Inbetriebnahe von Anlagen
++ Beim Anschließen der Module muss ein Plausibilitätcheck durchgeführt werden
++ Sicherheitsbetrachtung bleibt Einzelfallbetrachtung
+  + Schutzeinrichtungen der Module müssen mit gehandhabten Stoffen kombiniert werden
++ besondere Herausforderungen: modulübergreifende Sicherheitskreise (ist nicht mehr relavent! Module sollen/müssen eigensicher sein!)
++ HMI-System und Archiv
+  + Fließbilder mit dynamischen Anzeigen von Prozess- und Gerätezuständen
+  + Darstellung von Verriegelungen
+  + Trendkurven und Trendkurvengruppen
+  + Alarm- / Meldesystem
++ geeigneter Zugang für Parameterierung und Diagnose des Moduls gehört zum Lieferumfang
+
+> Aufgrund der gewollten Flexibilität in der Ausgestaltung der einzelnen Module besteht ein Risiko für unvorhersehbare Wechselwirkungen an den technischen Schnittstellen des Moduls zur übergeordneten Anlage
+
++ Standardisierung soll diese Problem beheben. Das muss in Tests geprüft werden
++ Funktionstest nach Anschließen des Moduls
+  + Achten auf Beeinflussung weiterer Module und mögliche Rückwirkungen
+
+>  Wartung der Module durch den Betreiber nur sehr eingeschränkt möglich
+
+> Tritt beim Betrieb einer Anlage ein Problem auf, so wird der Hersteller zumindest an der Lösung beteiligt sein (wenn es sich um ein Problem im Verfahren handelt) oder die Lösung selbst entwickeln müssen (wenn das Problem innerhalb seines Moduls liegt und technischer Natur ist)
+
+
+
+## Obst - Automatisierung im Life Cycle modularer Anlagen
+
++ Konzepte zur Standardisierung der Modularisierung
++ Modularisierung hat Auswirkung auf Engineering und Betrieb der Anlage
++ Verkürzung der Zeit zwischen Produktidee und Markteinführung
++ es entstehen neue Anlagenkonzepte
++ Modul: funktionale Einheit, die geschlossen eine technische Funktion ausführen kann
+
+> Dies setzt ein großes Vertrauen in den Lieferanten voraus, da unter anderem sicherheitsrele- vante Funktionen vom Modulhersteller implementiert werden müssen, die sicherheitstechnische Verantwor- tung aber in der Hand des Anlagen- beziehungsweise Modulbetreibers bleibt.
+
++ 
+
