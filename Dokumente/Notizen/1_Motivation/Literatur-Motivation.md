@@ -132,3 +132,52 @@
 + es werden nur vermeintlich relevante Informationen festgehalten
   + im Kommunikationsprozess gehen detaillierte Informationen verloren
 + 
+
+## Arbeit weiter denken
+
++ menschenzetrierte Komplemntarität
+  + Mensch hat gestaltende und entscheidende Autorität
+  + ist Erfahrungsträger
+  + Assistenzsysteme untersützen
+
+## Bainbridge - Ironies of Automation
+
++ der Operator hat nach wie vor die Verantwortung für abnormal conditions
++ automatisierte Systeme sind nach wie vor man-machine Systeme für die sowohl der technische als auch der menschliche Faktor relevant ist
++ This paper suggests that the increased interest in human factors among engineers reflects the irony that the more advanced a control system is, so the more crucial may be the contribution of the human operator.
++ Problem von automtisiertem und manueller Kontrolle: Prozessverhalten vorherhsehen
++ Daten werden zurückgehalten -> aktuelle Kennzahlen sind schwer zu interpretieren
++ Operator wird die Aufgabe überlassen, bei denen nicht klar ist, wie sie automatisiert werden sollen
++ Tasks afert automation
+  + überwachen, dass das automatisierte System richtig arbeitet
++ Manual control skills
+  + unerfahrener Operator: System schwingt sich bei Problemen möglicherweise auf 
+  + Faktoren sind schwierig zu interpretieren
+  + Operator musss über den Prozess viel wissen, um ihn im Notfall in einen sicheren Zustand fahren zu können
++ Cognitive skills
+  + hohes Wissen an mögliches Prozessverhalten
+    + kann in unbekannten Fällen neue Strategien entwickeln
+  + für effektive Anwenudung muss das Wissen regelmäßg genutzt werden
+  + Wissen wird durch Anwendung und Feedback generiert
+    + theoretisches Wissen bringt meist nicht viel
+  + wenn man den Prozess nur kurz beobachtet, dann hat man geringest Wissen, was passiert ist
+    + muss darauf aufbauend dann agieren bei Problemen
++ Monitoring
+  + nur überwachen: wenig komplexe Tätigkeit
+  + übernahme: schwierig
+  + Mensch ist nicht aufmerksam für Dinge, die selten passieren (kleine Veränderungen)
+    + -> Alarmsystem
++ Operator attitudes
+  + Operator muss wissen, dass der die Anlage richtig übernehmen kann, wenn es notwendig ist
+
+#### Mögliche Lösungen
+
++ wenn ein Event schnell erkannt werden muss: Assistenz ist notwendig (Alarms on Alarms)
++ es muss klar sein, wo das Problem ist
++ am besten auch Alarmanalyse
++ wenn überall alles rot blinkt hilft das auch nicht weiter
++ Zielwert anzeigen
+  + für einzelne Toleranzbänder einfach
+  + komplex, wenn Toleranz sich über den Batchprozess ändert
++ Automatische Kontrolle kann Systemfailure verdekcen, wenn es gegen die veränderten Variablen steuert
++ 
