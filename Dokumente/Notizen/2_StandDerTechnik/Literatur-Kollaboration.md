@@ -89,3 +89,10 @@
   + Fragen stellen ist wichtig, um ungeteilite Informationen auszutauschen
   + ungeteilte Informationen sind ein kritische Aspekt!
   + 
+
+## karacapilidis - Computer supported argumentation
+
++ jeder Entscheider schlägt seine Strategy vor, die eine Ziele auf einem bestimmten Level erfüllt
++ manche Informationen fehlen, einige Informationen sind zu viel des guten (beschränkend)
++ 
+

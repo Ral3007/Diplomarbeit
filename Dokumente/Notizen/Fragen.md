@@ -12,6 +12,7 @@
   + Antwort: Eher Modulbetreiber
 + Wie wichtig ist das Thema UI Design? -> Literaturrecherche
 + Was soll die Assistenz können? "Nur" Entscheidungfindung unterstützen oder auch das Lernen fördern, Anleitungen geben?
++ Geht es ums Problem finden oder eine Störung zu beheben (mit Anleitung zur Reparatur)?
 + Meinst du mit kollaborativ und kooperativ das gleiche?
   + Anwort: Ja, es ist das gleiche gemeint. Können aber grundsätzlich zwei verschiedene Dinge sein
 + Strukturierung der Problemlösung (wie werden Probleme gelöst) -> wie wird unterstützt? (was meinte ich damit?)
@@ -37,3 +38,7 @@
   + Anpassungsmöglichkeiten bauen (Anhand von Erfahrung)
   + Auswertung von Nutzereingaben?
 
+### Verifikation
+
++ Eine Art Studie durchführen und prüfen, ob sich das Assistenzsystem an die Kenntnisse der Probanden anpasst?
++ Schauen, wie gut die Interaktion mit der Assistenz funktioniert.
