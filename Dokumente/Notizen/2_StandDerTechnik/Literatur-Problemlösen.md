@@ -171,13 +171,6 @@
 
 
 
-## karacapilidis - Computer supported argumentation
-
-+ jeder Entscheider schlägt seine Strategy vor, die eine Ziele auf einem bestimmten Level erfüllt
-+ 
-
-
-
 ## Rasmussen - Reprasentation of Process state, structure and control
 
 + supervisiong contorl = decision-making activity
@@ -387,3 +380,39 @@
 + *Ergebnisbewertung*
   + Ergebnis ist zu bewerten
   + je nach Anspruchniveau: Lösung muss nachgebssert werden
+
+### Unterscheidung von Problemen
+
++ wohl-definierte von schlecht-definierten Problemen: Unterscheiden sich hinsichtlich der Klarheit ihrer Ziele und Mittel
++ wohl-definiert: Ausgangs- und Zielzustand sowie einsetzbare Hilfsmittel sind klar beschrieben
++ Unterscheidung von der Zeitskala von kurstfristig bis langfriestig
++ Zeitdruck: rasche Entscheidung ohne Möglichkeite alle Varianten zu durchdenken
++ Komplexität:
++ Unterscheidung nach Art der gefordetene kognitiven Aktivitäten
++ Unterscheidung nach Bereichen: akademische / nichtakademische Probleme, etc.
++ *Arten von Problemen*
+  + einfachste Unterscheidung: wohl und schlecht definierte Probleme
+  + wohl definiert: man weiß, wann das Problem gelöst ist
+  + schlecht definiert: kein klares Ziel - unscharfe Ränder
++ *Einfaches und komplexe Problemlösen*
+  + einfach: singuläre Lücke
+  + komplex: eine vielzahl an unbekannten Lücken; manche tun sich erst beim Bearbeiten des Problems auf
+    + man kann manchmal kaum erkennen, ob der Lösungsentwurf zielführend ist
+    + Merkmale: 
+      + Komplexität
+      + Vernetztheit
+      + Intransparenz
+      + Dynamik
+      + Vielzieligkeit
++ *Arten von Problemlösern*
+  + Problemlösestiele unterscheiden sich in drei bipolaren Dimensionen
+  + Veränderungsorientierung (explorer vs. developer)
+    + Umgang mit Grenzen und Vorgaben
+    + Explorer: überwindet vorgegebene Grenzen, sucht neue Herausforderungen, improvisiert
+    + Developer: liebt Pläne und Vorgaben, gut organisiert, vermeiden Risiken
+  + Verarbeitungsstil (external vs. internal)
+    + External: Ideen durch Diskussion mit anderen wachsen lassen, unruhige Umgebung stört nicht, handeln, wenn andere noch nachdenken
+    + Internal: entwickelt Idee für sich alleine und teilt dann, stilles Nachdenken, ruhige Umgebung
+  + Entscheidungsfokus (People vs task)
+    + Personenebezogene Entscheider: erst Konzequenzen in Bezug auf Person, Harmonie ist wichtig
+    + Augabenbezogene Entscheider: Wert liegt auf begründbaren, logisch nachvollziehbaren Entscheidungen
