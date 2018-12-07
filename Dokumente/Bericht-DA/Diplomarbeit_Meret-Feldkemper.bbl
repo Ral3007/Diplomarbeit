@@ -135,6 +135,61 @@
     \field{year}{2016}
   \endentry
 
+  \entry{Dorner1984}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DD}{%
+         family={D{\"{o}}rner},
+         familyi={D\bibinitperiod},
+         given={Dietrich},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DD1}
+    \strng{fullhash}{DD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{number}{1}
+    \field{pages}{10\bibrangedash 20}
+    \field{title}{{Denken , Probleml{\"{o}}sen und Intelligenz}}
+    \field{volume}{XXXV}
+    \field{year}{1984}
+  \endentry
+
+  \entry{Funke2015}{book}{}
+    \name{author}{1}{}{%
+      {{hash=FJ}{%
+         family={Funke},
+         familyi={F\bibinitperiod},
+         given={Joachim},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Kohlhammer}%
+    }
+    \strng{namehash}{FJ1}
+    \strng{fullhash}{FJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{edition}{1. Auflage}
+    \field{number}{January 2003}
+    \field{title}{{Probleml{\"{o}}sendes Denken}}
+    \verb{url}
+    \verb https://www.researchgate.net/profile/Joachim{\_}Funke/publication/262
+    \verb 179219{\_}Problemlosendes{\_}Denken{\_}Problem{\_}solving{\_}thinking
+    \verb /links/55e0290408aede0b572bf736/Problemloesendes-Denken-Problem-solvi
+    \verb ng-thinking.pdf
+    \endverb
+    \list{location}{1}{%
+      {Stuttgart}%
+    }
+    \field{year}{2003}
+  \endentry
+
   \entry{NAMURArbeitskreis1.122013}{article}{}
     \name{author}{1}{}{%
       {{hash=N}{%

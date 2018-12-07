@@ -71,3 +71,38 @@
 + an das Vorwissen angepasste Erklärun- gen von Experten an Laien kognitive Verständnisprobleme vermindern und den Erwerb neuen Wissens begünstigen
 + Erklärung muss kein Monolog sein
 + 
+
+## Forgas - Soziale Interaktion und Kommunikation
+
+### Ausrcuksmodell von Kommunikation
+
++ Eine Person will einer anderen eine Vorstellung, einen Gedanken, eine Be- obachtung oder irgendetwas, das in ihrem Kopf ist, mitteilen
++ wählt dazu sprachliche und nicht-sprachliche Zeichen, die diese Vorstellung, den Gedanken etc. ausdrücken
++ Gegenüber interpretiert
+
+### Systemmodelle von Kommunikation
+
++ Kommunikationsereignis steht im Mittelpunkt
++ *Kommunikation als Interaktion*
+  + Wechselwirkung zwischen Handlungen
+  + wechselweisen Bezug des Handelns
++ *Kybernetische Kommunikationstheorie*
+  + Beziehungsgeflecht und die Dynamik
+  + 
+
+
+
+## Kommunikationspsychologie - ein Versuch der Verortung
+
++ Idealtypische Kommunikationssituation; Sprecher, der verstanden werden sll muss folgende Ansprüche erfüllen:
+  + Verständlichkeit: Sprcher muss wissen, wie er sich ausdrücken muss um verstanden zu werden
+  + Wahrheit: er muss wissen über was er sprechen muss, damit der Kommunikationspartner es als existierend ansieht
+  + Wahrhaftigkeit: Absichten müssen ausgedrückt werden, damit Partner nicht getäuscht wird
+  + Richtigkeit: Sprecher muss sich vor dem Hintergrund anerkannter sozialer Normen und Werte äußern
++ Sinn von spracherlicher Kommunkation: sich über etwas verständigen
++ strategische Kommunikation: Zweck des eigenen Erfolgs: Einfluss auf die Einstellung des Partners nehmen
+
+### gelingende Kommunikation
+
++ Kommunikation scheint gelungen, wenn sich die Kommunikationspartner verstanden haben
++ 

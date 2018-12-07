@@ -7,11 +7,11 @@
 \contentsline {subsection}{\numberline {2.2.1}Unterscheidung von Problemen}{3}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Arten von Probleml\IeC {\"o}sern}{4}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Einfl\IeC {\"u}sse}{5}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Phasen des Probleml\IeC {\"o}sens}{5}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.4}Phasen des Probleml\IeC {\"o}sens}{6}{subsection.2.2.4}
 \contentsline {subsection}{\numberline {2.2.5}St\IeC {\"o}rungsdiagnose}{6}{subsection.2.2.5}
-\contentsline {section}{\numberline {2.3}Kollaboration}{6}{section.2.3}
-\contentsline {section}{\numberline {2.4}Kommunikation}{6}{section.2.4}
-\contentsline {section}{\numberline {2.5}Assistenz}{6}{section.2.5}
+\contentsline {section}{\numberline {2.3}Kollaboration}{7}{section.2.3}
+\contentsline {section}{\numberline {2.4}Kommunikation}{7}{section.2.4}
+\contentsline {section}{\numberline {2.5}Assistenz}{7}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Assistenzsysteme}{7}{subsection.2.5.1}
 \contentsline {chapter}{\numberline {3}Analyse}{8}{chapter.3}
 \contentsline {chapter}{\numberline {4}Konzept}{9}{chapter.4}
@@ -21,4 +21,4 @@
 \contentsline {chapter}{\numberline {8}Ausblick}{13}{chapter.8}
 \contentsfinish 
 \contentsline {chapter}{Anhang \numberline {A}Anhang}{15}{Anhang.a.A}
-\contentsline {chapter}{Literaturverzeichnis}{16}{chapter*.13}
+\contentsline {chapter}{Literaturverzeichnis}{16}{chapter*.14}

@@ -30,9 +30,12 @@
 
 Assistenzsysteme 
 
+
+
 ## Analyse
 
-
++ Was weiß ich über die Anlage?
+  + Welche Informationen sollte man darstellen können?
 
 ##Konzept
 
