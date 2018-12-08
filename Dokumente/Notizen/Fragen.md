@@ -11,7 +11,9 @@
 + wer sucht das Problem? Modulbetreiber oder Modulhersteller?
   + Antwort: Eher Modulbetreiber
 + Wie wichtig ist das Thema UI Design? -> Literaturrecherche
+  + Teilaspekte
 + Was soll die Assistenz können? "Nur" Entscheidungfindung unterstützen oder auch das Lernen fördern, Anleitungen geben?
+  + Folien zum Thema Digital Companion
 + Geht es ums Problem finden oder eine Störung zu beheben (mit Anleitung zur Reparatur)?
 + Meinst du mit kollaborativ und kooperativ das gleiche?
   + Anwort: Ja, es ist das gleiche gemeint. Können aber grundsätzlich zwei verschiedene Dinge sein
@@ -27,12 +29,16 @@
 ### Analyse
 
 + Erstellung eines Fragebogens zur Identifikation von Informationsanpassung und Informationsbedarf?
+  + Personas erstellen
 + Informationsbedarf: Soll auch untersucht werden, was das System wissen muss, um bestimmt Rückschlüsse zu ziehen?
+  + JA!
+  +  Anforderungen erstellen
 + Informationsanpassung: Spielen auch Faktoren, wie geistige Behinderung eine Rolle? (Anderer Umgang)
 
 ### Implementierung
 
 + Nur Entwicklung der grafischen Oberfläche?
+  + Christophs Arbeit anschauen
 + wie viel Funktionalität muss/ sollte vorhanden sein?
 + Austausch mit Assistenzsystem
   + Anpassungsmöglichkeiten bauen (Anhand von Erfahrung)
@@ -41,4 +47,6 @@
 ### Verifikation
 
 + Eine Art Studie durchführen und prüfen, ob sich das Assistenzsystem an die Kenntnisse der Probanden anpasst?
+  + Experteninterview
 + Schauen, wie gut die Interaktion mit der Assistenz funktioniert.
+
