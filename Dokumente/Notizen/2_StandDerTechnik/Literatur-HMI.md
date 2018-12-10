@@ -106,11 +106,41 @@
 
 ### Gedächtnis und mentale Modelle
 
+### Eigenschaften menschlichen Handelns
+
+### Fehlerarten
+
++ Fehler auf der intellektuellen Ebene
+  + Zielbildungsphase -> Denkfehler
+    + Außerachtlassen von Nebenwirkungen
+    + Auswahl ungeeigneter Werkzeuge
+  + Person kann sich nicht mehr an Teile des Handlungsplans erinnern -> Merk- und VErgessensfehler
+    + treten bei komplexen Handlungsplänen auf
+  + Fehler im VErgleich von Ergebnis und Ziel -> Urteilsfehler
+    + Wissen zur Interpretation der Rückmeldung fehlt
+    + Wissen zur Interpretation der Rückmeldung wird falsch angewandt
++ FEhler in den Grundlagen des Handlungsregulation
+  + Wissensfehler
+  + fehlende Kenntnisse über den Bereich des Handelns
+
+#### Fehlerbewältigung
+
++ 
+
+#### Fehlervermeidung
+
++ Ziel der ergonomischen Gestaltung von Mensch-Computer-Systemen: Fehler von vorhnherein vermeiden
++ Heuptziel: Minimirung von Fehlern der unteren Regulationsebene
+  + Gewohnheitsfehler, Unterlassensfehler, Erkennensfehler, Bewegungsfehler
+
 ### Eingabegeräte
 
 #### Arten von Eingabegeräten
 
 + Sensoren, die Änderung des Verhaltens des Benutzers feststellen
+
++ in Signale übersetzten, die das intersaktive System interpretieren kann
+
 + [ISO9241-400]: 4 Typologien
   + Typologie nach der Körperbewegung
     + mit Hand und Finger gesteuert
@@ -120,4 +150,159 @@
     + blickgesteuert
     + bewegungsgesteuert
   + Typologie nach Elementaraufgaben
-  + Typologie nach Freiheitsgrade
+    + Codeeingabe
+    + Zeigen
+    + Ziehen
+    + Auswahl
+    + Verfolgen
+  + Typologie nach Freiheitsgraden
+    + eindimensional
+    + zweidimensional
+    + dreidimensional
+  + Typologie nach erfasster Größe
+    + Druck
+    + Bewegung
+    + Position
+    + Schall
+    + optische Merkmale
+  + *Tastature*
+  + *Wertgeber*
+  + *Zeigegeräte*
+  + *Optische Eingabegeräte*
+  + *Akustische Eingabegeräte*
+
+  #### Gestaltungsanforderungen
+
+  + Konzept der Gebrauchstauglichkeit
+    + funktionale Merkmale
+    + elektrische und meschanische Eigenschaften, die Wartung oder Sicherheit des GEräts betreffen
+  + [ISO9241-400]
+  + [ISO9241-410]
+    + Angemessenheit
+    + Handhabbarkeit
+    + Steuerbarkeit
+    + Minimierung biomechanischer Belastung
+  + *Angemessenheit*
+    + angemessenes Eingabegerät ermöglicht Benuter den erforderlichen Grad an Effektivität zu erreichen
+    + ist effizient und zufriedenstellend für die vorgesehenen Benuterpopulation und die vorgesehene Nutzung
+  + *Handhabbarkeit*
+    + Eingabegerät muss eindeutig, vorhersehbar und konsistent sein
+    + Benutzerkompotibilität
+    + Rückmeldung zur Handhabbarkeit
+    + *Eindeutigkeit*, wenn der beabsichtigte Gebrauch offensichtlich oder leicht erkennbar ist
+    + *Vorhersehbarkeit*, wenn es entsprechend der Erwartungen funktioniert
+    + *Konsistenz*, wenn das Gerät im angegebenen Nutzungskontext auf gleiche ARt und Weise funktioniert und reagiert
+    + *Benutzerkompatibilität*: Berücksichtigung der Köpermaße und der Kraft der Benutzer
+    + *Rückmeldung*: Gerät reagiert auf die Eingaben des Nutzers
+  + *Steuerbarkeit*
+    + Gerät muss ansprechbar sein und Bentuzung darf die eigene Funktionalität nicht einschränken
+    + angemessener und zuverlässiger Zugriff
+    + unbeabsichtigten Verlust der Kontrolle verhindern
+    + *Ansprechbarkeit*, 
+  + *Minimierung biometischer Belastung*
+    + soll mit neutraler Körperhaltung bedienbar sein
+
+  ### Gestaltung der Ein-/Ausgabe
+
+  #### GEstaltungsprinzipien
+
+  + Informationsdarstellung: [ISO9241-12]
+    + Klarheit
+    + Unterscheidbarkeit
+    + Kompaktheit
+    + Konsistenz
+    + Erkennbarkeit
+    + Lesbarkeit
+    + Verständlichkeit
+
+  #### Visuelle Informationsdarstellung
+
+  + [ISO9241-303]
+  + *Farben*
+    + Farbfehlsichtigkeit
+    + jede Farbe eine Informationskategorie
+    + Standardfarbpalette mit nicht mehr als elf Farben
+  + *Effekte*
+  + *Schrift*
+  + 
+
+  ### Interaktion
+
+  #### Funktionsorientiert Interaktion
+
+  + Operation auswählen, wie ausgeführt werden soll
+  + dann Operanden bestimmen auf die die Operation wirken soll
+
+  #### Objektorientierte Interaktion
+
+  + Operanden auswählen, die bearbeitet weden soll
+  + dann Operation
+
+  ### Dialogarten
+
+  #### Kommandodialog
+
+  + Zeichenfolgen über Tastatur eingeben
+
+  #### Menüdialog
+
+  + Wahrnehmen und Auswählen
+
+  #### Dialog mit Formularen
+
+  #### Dialog mit Fenstersystemen
+
+  #### Direkte Manipulation
+
+  ### Gestaltung des Dialogs
+
+  #### GEstaltungsgrundsätze
+
+  + DIN EN ISO 9241-110
+    + Aufgabenangemssenheit
+    + Selsbtbeschreibungsfähigkeit
+    + Erwartungskonformität
+    + Lernförderlichkeit
+    + Steuerbarkeit
+    + Fehlertoleranz
+    + Individualisierbarkeit
+  + Kommandodialge: [ISO9241-15].
+  + Menüdialoge: [ISO9241-14].
+  + Dialoge mit Eingabeformularen: [ISO9241-17], [ISO9241-143]
+  + Dialoge mit FEnstersystemen
+  + Direkte Manipulation: [ISO9241-16].
+
+  ### Individualisierung
+
+  + [ISO9241-20], [ISO9241-171] und [ISO24786] müssen erfüllt sein
+
+  ### Menschenzentrierte Systementwicklung
+
+  + DIN EN ISO 9241 Teil 210 Prozess zur Gestaltung gebrauchstauglicher interaktiver Systeme
+    + Gesatlung beruht auf umfassenden Verständnis der Benutzer, Arbeitsaufgabe und Arbeitsumgebung
+    + Benutzer sind während der GEstaltung und Entwicklung einbezogen
+    + VErfeinern und Anpassen mittels forlaufender Evaluierung
+    + Prozess ist itertiv
+    + Berücksichtigung der gesamten User Experience
+    + GEstaltungsteam: fachübergreifende Kenntnisse und Perspektiven
+
+  ### Evaluation
+
+  + Aufgabenbewältigung
+  + Benutzung
+  + Funktionalität
+
+  #### Evaluationsmethoden
+
+  + *Objektive Methoden*
+    + Effektivität
+    + Effizienz
+  + *Subjektive Methoden*
+    + Bewertung durch den Benutzer
+    + Fragebogen
+    + Interview
+  + *Experimentelle Methoden*
+  + *Leitfadenorientierte Methoden*
+    + Kombination von subjektiv und objektiv
+    + Experte prüft anhand eines Prfleitfadens die ergonomische Qualität
+    + 

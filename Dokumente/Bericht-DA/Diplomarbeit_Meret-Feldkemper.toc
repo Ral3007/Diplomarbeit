@@ -12,13 +12,19 @@
 \contentsline {section}{\numberline {2.3}Kollaboration}{7}{section.2.3}
 \contentsline {section}{\numberline {2.4}Kommunikation}{7}{section.2.4}
 \contentsline {section}{\numberline {2.5}Assistenz}{7}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Assistenzsysteme}{7}{subsection.2.5.1}
-\contentsline {chapter}{\numberline {3}Analyse}{8}{chapter.3}
-\contentsline {chapter}{\numberline {4}Konzept}{9}{chapter.4}
-\contentsline {chapter}{\numberline {5}Implementierung}{10}{chapter.5}
-\contentsline {chapter}{\numberline {6}Verifikation}{11}{chapter.6}
-\contentsline {chapter}{\numberline {7}Zusammenfassung}{12}{chapter.7}
-\contentsline {chapter}{\numberline {8}Ausblick}{13}{chapter.8}
+\contentsline {subsection}{\numberline {2.5.1}Anforderungen an digitale Assistenz}{8}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Einsatz von digitaler Assistenz}{8}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Assistenzsysteme}{9}{subsection.2.5.3}
+\contentsline {section}{\numberline {2.6}Gestaltung von Mensch-Maschine-Schnittstellen}{9}{section.2.6}
+\contentsline {chapter}{\numberline {3}Analyse}{10}{chapter.3}
+\contentsline {section}{\numberline {3.1}Informationsbedarf}{10}{section.3.1}
+\contentsline {section}{\numberline {3.2}Informationsanpassung}{10}{section.3.2}
+\contentsline {section}{\numberline {3.3}Interaktionsmechaniken}{10}{section.3.3}
+\contentsline {chapter}{\numberline {4}Konzept}{11}{chapter.4}
+\contentsline {chapter}{\numberline {5}Implementierung}{12}{chapter.5}
+\contentsline {chapter}{\numberline {6}Verifikation}{13}{chapter.6}
+\contentsline {chapter}{\numberline {7}Zusammenfassung}{14}{chapter.7}
+\contentsline {chapter}{\numberline {8}Ausblick}{15}{chapter.8}
 \contentsfinish 
-\contentsline {chapter}{Anhang \numberline {A}Anhang}{15}{Anhang.a.A}
-\contentsline {chapter}{Literaturverzeichnis}{16}{chapter*.14}
+\contentsline {chapter}{Anhang \numberline {A}Anhang}{17}{Anhang.a.A}
+\contentsline {chapter}{Literaturverzeichnis}{18}{chapter*.14}

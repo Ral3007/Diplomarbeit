@@ -1,4 +1,4 @@
-# Literatur
+# Assistenz
 
 ## Bernd Ludwig - Planbasierte Mensch-Maschine-Interaktion
 
@@ -71,7 +71,7 @@
 
 ## K. Weisner et. al. - Assistenzsystem zur Individualisierung
 
-+ Für die Implementierung und Aufrechterhaltung störungsresistenter Prozesse sind daher das Erfahrungswissen und die kogniti- ven Fähigkeiten des Menschen im Be- reich der Problemlösung und Kreativität von zentraler Bedeutung
++ Für die Implementierung und Aufrechterhaltung störungsresistenter Prozesse sind daher das Erfahrungswissen und die kognitiven Fähigkeiten des Menschen im Bereich der Problemlösung und Kreativität von zentraler Bedeutung
 + geforderte Einsatzflexibilität -> hohe Anforderungen an die kognitiven und motorischen Fähigkeiten
 + physische und psychische Beanspruchung optimieren (Überlastung vermeiden)
 + kognitive Unterstützung durch geeingnete Assistenzsysteme
@@ -107,7 +107,7 @@
 
 
 
-## Wandke H. - Assistance in human-machine interaction
+## !Wandke H. - Assistance in human-machine interaction
 
 + Vorschlag: Assistenz als Zugang zu Maschinenfunktionen
 + Mehrere Stages
@@ -373,4 +373,8 @@
   + Entscheidungsvorbereitung
   + Entscheiden
   + Handeln
++ Assistenzsystem zur Entscheidungsunterstüzung
+  + Identifikation der Lösungemenge
+  + Auswahl und Bewertung von Alternative
+  + autonomes Agieren
 + 

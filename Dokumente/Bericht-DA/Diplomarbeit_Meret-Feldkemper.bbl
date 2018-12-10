@@ -135,6 +135,42 @@
     \field{year}{2016}
   \endentry
 
+  \entry{Betsch2011}{book}{}
+    \name{author}{3}{}{%
+      {{hash=BT}{%
+         family={Betsch},
+         familyi={B\bibinitperiod},
+         given={Tilmann},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Funke},
+         familyi={F\bibinitperiod},
+         given={Joachim},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PH}{%
+         family={Plessner},
+         familyi={P\bibinitperiod},
+         given={Henning},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BTFJPH1}
+    \strng{fullhash}{BTFJPH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{booktitle}{Springer-Verlag}
+    \field{isbn}{9783642124730}
+    \field{title}{{Denken - Urteilen, Entscheiden, Probleml{\"{o}}sen}}
+    \list{location}{1}{%
+      {Berlin Heidelberg}%
+    }
+    \field{year}{2011}
+  \endentry
+
   \entry{Dorner1984}{article}{}
     \name{author}{1}{}{%
       {{hash=DD}{%
