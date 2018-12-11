@@ -378,3 +378,35 @@
   + Auswahl und Bewertung von Alternative
   + autonomes Agieren
 + 
+
+# Assistenzsysteme
+
+## Funk - visuelle Kommissionierassistenzsysteme
+
++ Assistenzsystem in drei bereiche
+  + Systeme, die direkt befestigt sind
+  + Systemen, die der Arbeit mit führt
+  + Systeme, die an der Kleidung getragen werden
++ traditionell: Pick-by-Papier
++ neu: Pick-by-Vision
+
+### Stationär
+
++ aktuelle Position des Mitarbeiters und der zu entnehmenden Teile
++ fest verbaute Kameras und Projektoren
++ mit Projektor Objekt beleuchten, das entnommen werden soll
+
+### Körpergebunden
+
++ Datenbrillen
++ Position und Orientierung des Arbeiters im Raum erkennen
++ Gewicht belastet Träger
++ Aufmerksamkeitskanal beeinträchtigt visuelle Aufmerksamkeit
++ dargestelle Inhalte können sicherheitsrelevante Informationen im Arbeitsumfeld verdecken
++ Kopfschmerzen, Schwierigkeiten beim Fokussieren auf Anweisungen
++ 
+
+### Mobile Systeme
+
++ mitgeführte Wagen
++ 
