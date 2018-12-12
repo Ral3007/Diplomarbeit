@@ -48,5 +48,16 @@
 
 + Eine Art Studie durchführen und prüfen, ob sich das Assistenzsystem an die Kenntnisse der Probanden anpasst?
   + Experteninterview
-+ Schauen, wie gut die Interaktion mit der Assistenz funktioniert.
+  + Schauen, wie gut die Interaktion mit der Assistenz funktioniert.
 
+
+
+## 13.12.2018
+
+### Analyse
+
++ Umfrage, was sich Nutzer von der Assistenz wünschen würden
+
+### Implementierung
+
++ Nutzerprofile anlegen, die gespeichert werden?

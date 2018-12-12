@@ -306,3 +306,64 @@
     + Kombination von subjektiv und objektiv
     + Experte prüft anhand eines Prfleitfadens die ergonomische Qualität
     + 
+
+## Zühlke - Nutzergerechte Entwicklung von Mensch-Maschine-Systemen
+
+### Userware-Entwicklung
+
++ gestiegene Komplexität von Maschinen und Anlagen -> komplexe Bedienung
++ Bedeutung von nutzerfreundlicher Bedienung wächst
++ Orientierung an den Bedürfnissen der Nutzer
+
+#### Entwicklungsprozess
+
++ Meist Verwendung von exitierender Hardware
++ Sorftware wird immer wichtiger
++ Nutzer sollen immer wieder mit einbezogen werden
+
+#### Analyse
+
++ Untersuchung von Mensch und Maschine
++ viele Systeme sind nicht an den Nutzer angepasst, da unerfahrene Nutzer selten Kritik üben
++ Menschen lernen, denken und lösen Probleme sehr unterschiedlich
++ für Anfänger: Leichtigkeit des Lernens
++ für Experten: Leichtigkeit des Gebrauchs
++ 
+
+#### Strukturgestaltung
+
++ aufgabenorientierte, plattformunabhängige Sichtweise
++ wichtige Aufgabenmerkmale
+  + Statische Aufgabenstruktur
+  + Dynamische Handlungsabläufe
+  + Benötigte Funktionen und Informationen
+  + Ausführungsregeln, Vor- und Nachbedingungen
+  + Kontextparameter wie bspw. Häufigkeit der ausführbaren Aufgaben
++ aufgabenorientierte Sichtweise nur bis zu einem gewissen Maß möglich
+  + technische Vorgaben und Einschränkungen der Maschine beeinflussen Bedienphilosophie
+
+#### Gestaltung
+
++ steigende Komplexität von Produkten -> Funktionen sind für Nutzer schwer zu erfassen
++ Berücksichtigung von nutzerspezifischen Anforderungen
++ ergonomische Gestaltung hat große Bedeutung
++ Sturktur des Bediensystems und Anordnung der Elemente tragen wesentlich zur Akzeptanz bei
++ Es müssen viele Einflussfaktoren bei Auswahl der Plattform berücksichtig werden
++ Bediensysteme lassen sich nach objektorientiert oder funktionsorientiert strukturieren
++ objektorientiert: Nutzer wählt erst Objekt und dann Funktion
++ funktionsorientiert: Nutzer wählt erst und Funktion und dann Objekt auf die es angewendet werden soll
++ Klassifikation von Informationen
+  + reaktionspflichtig: Eigriff des Nutzers ist zwingend erforderlich
+  + bestätigungspflichtig: Nutzer hat Information zur Kenntnis genommen
+  + nichtbestätigungspflichtig: Hinweise
+  + VDI 3850
+  + richtige Einordnung in Informationsklassen ist wichtig für Nutzer
+
+####Dialoge
+
++ DIN EN ISO 9241
++ VDI 3850
++ Dialogebenen:
+  + primäre: direkt für Aufgabe
+  + sekundär: Onlinehilfe
++ Dialogobjekte

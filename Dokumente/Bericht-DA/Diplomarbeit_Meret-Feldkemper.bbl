@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 2.5 $
+% $ biblatex bbl format version 2.9 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,358 +16,426 @@
   {}
 \endgroup
 
-\entry{Bainbridge1983}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Bainbridget}{B.}%
-     {Lisanne}{L.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{BL1}
-  \strng{fullhash}{BL1}
-  \field{sortinit}{B}
-  \verb{doi}
-  \verb 10.1016/0005-1098(83)90046-8
-  \endverb
-  \field{isbn}{0005-1098}
-  \field{issn}{00051098}
-  \field{number}{6}
-  \field{pages}{775\bibrangedash 779}
-  \field{title}{{Ironies of Automation}}
-  \field{volume}{19}
-  \field{journaltitle}{Automatica}
-  \field{year}{1983}
-\endentry
+\datalist[entry]{nty/global//global/global}
+  \entry{Bainbridge1983}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BL}{%
+         family={Bainbridget},
+         familyi={B\bibinitperiod},
+         given={Lisanne},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BL1}
+    \strng{fullhash}{BL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1016/0005-1098(83)90046-8
+    \endverb
+    \field{isbn}{0005-1098}
+    \field{issn}{00051098}
+    \field{number}{6}
+    \field{pages}{775\bibrangedash 779}
+    \field{title}{{Ironies of Automation}}
+    \field{volume}{19}
+    \field{journaltitle}{Automatica}
+    \field{year}{1983}
+  \endentry
 
-\entry{Dalgleish2007}{book}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Bauernhansl}{B.}%
-     {Thomas}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Hompel}{H.}%
-     {Michael}{M.}%
-     {ten}{t.}%
-     {}{}}%
-    {{}%
-     {Vogel-Heuser}{V.-H.}%
-     {Brigit}{B.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{BTHMtVHB1}
-  \strng{fullhash}{BTHMtVHB1}
-  \field{sortinit}{B}
-  \field{booktitle}{Journal of Experimental Psychology: General}
-  \field{isbn}{9783658046811}
-  \field{number}{1}
-  \field{pages}{23\bibrangedash 42}
-  \field{title}{{Industrie 4.0 in Produktion, Automatisierung und Logistik}}
-  \field{volume}{136}
-  \field{year}{2007}
-\endentry
+  \entry{Dalgleish2007}{book}{}
+    \name{author}{3}{}{%
+      {{hash=BT}{%
+         family={Bauernhansl},
+         familyi={B\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=tHM}{%
+         prefix={ten},
+         prefixi={t\bibinitperiod},
+         family={Hompel},
+         familyi={H\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=VHB}{%
+         family={Vogel-Heuser},
+         familyi={V\bibinitperiod-H\bibinitperiod},
+         given={Brigit},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BTHMtVHB1}
+    \strng{fullhash}{BTHMtVHB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{booktitle}{Journal of Experimental Psychology: General}
+    \field{isbn}{9783658046811}
+    \field{number}{1}
+    \field{pages}{23\bibrangedash 42}
+    \field{title}{{Industrie 4.0 in Produktion, Automatisierung und Logistik}}
+    \field{volume}{136}
+    \field{year}{2007}
+  \endentry
 
-\entry{Bernshausen2016}{article}{}
-  \name{author}{6}{}{%
-    {{}%
-     {Bernshausen}{B.}%
-     {Jens}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Haller}{H.}%
-     {Axel}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Holm}{H.}%
-     {Thomas}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Hoernicke}{H.}%
-     {Mario}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Obst}{O.}%
-     {Michael}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Ladiges}{L.}%
-     {Jan}{J.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{BJ+1}
-  \strng{fullhash}{BJHAHTHMOMLJ1}
-  \field{sortinit}{B}
-  \field{pages}{72\bibrangedash 81}
-  \field{title}{{Namur Modul Type Package – Definition}}
-  \field{volume}{1-2}
-  \field{journaltitle}{Atp Edition}
-  \field{year}{2016}
-\endentry
+  \entry{Bernshausen2016}{article}{}
+    \name{author}{6}{}{%
+      {{hash=BJ}{%
+         family={Bernshausen},
+         familyi={B\bibinitperiod},
+         given={Jens},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Haller},
+         familyi={H\bibinitperiod},
+         given={Axel},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Holm},
+         familyi={H\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hoernicke},
+         familyi={H\bibinitperiod},
+         given={Mario},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=OM}{%
+         family={Obst},
+         familyi={O\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Ladiges},
+         familyi={L\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJ+1}
+    \strng{fullhash}{BJHAHTHMOMLJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{pages}{72\bibrangedash 81}
+    \field{title}{{Namur Modul Type Package – Definition}}
+    \field{volume}{1-2}
+    \field{journaltitle}{Atp Edition}
+    \field{year}{2016}
+  \endentry
 
-\entry{Betsch2011}{book}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Betsch}{B.}%
-     {Tilmann}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Funke}{F.}%
-     {Joachim}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Plessner}{P.}%
-     {Henning}{H.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{BTFJPH1}
-  \strng{fullhash}{BTFJPH1}
-  \field{sortinit}{B}
-  \field{booktitle}{Springer-Verlag}
-  \field{isbn}{9783642124730}
-  \field{title}{{Denken - Urteilen, Entscheiden, Probleml{\"{o}}sen}}
-  \list{location}{1}{%
-    {Berlin Heidelberg}%
-  }
-  \field{year}{2011}
-\endentry
+  \entry{Betsch2011}{book}{}
+    \name{author}{3}{}{%
+      {{hash=BT}{%
+         family={Betsch},
+         familyi={B\bibinitperiod},
+         given={Tilmann},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Funke},
+         familyi={F\bibinitperiod},
+         given={Joachim},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PH}{%
+         family={Plessner},
+         familyi={P\bibinitperiod},
+         given={Henning},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BTFJPH1}
+    \strng{fullhash}{BTFJPH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{booktitle}{Springer-Verlag}
+    \field{isbn}{9783642124730}
+    \field{title}{{Denken - Urteilen, Entscheiden, Probleml{\"{o}}sen}}
+    \list{location}{1}{%
+      {Berlin Heidelberg}%
+    }
+    \field{year}{2011}
+  \endentry
 
-\entry{Dorner1984}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {D{\"{o}}rner}{D.}%
-     {Dietrich}{D.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{DD1}
-  \strng{fullhash}{DD1}
-  \field{sortinit}{D}
-  \field{number}{1}
-  \field{pages}{10\bibrangedash 20}
-  \field{title}{{Denken , Probleml{\"{o}}sen und Intelligenz}}
-  \field{volume}{XXXV}
-  \field{year}{1984}
-\endentry
+  \entry{Dorner1984}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DD}{%
+         family={D{\"{o}}rner},
+         familyi={D\bibinitperiod},
+         given={Dietrich},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DD1}
+    \strng{fullhash}{DD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{number}{1}
+    \field{pages}{10\bibrangedash 20}
+    \field{title}{{Denken , Probleml{\"{o}}sen und Intelligenz}}
+    \field{volume}{XXXV}
+    \field{year}{1984}
+  \endentry
 
-\entry{Funke2015}{book}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Funke}{F.}%
-     {Joachim}{J.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Kohlhammer}%
-  }
-  \strng{namehash}{FJ1}
-  \strng{fullhash}{FJ1}
-  \field{sortinit}{F}
-  \field{edition}{1. Auflage}
-  \field{number}{January 2003}
-  \field{title}{{Probleml{\"{o}}sendes Denken}}
-  \verb{url}
-  \verb https://www.researchgate.net/profile/Joachim{\_}Funke/publication/26217
-  \verb 9219{\_}Problemlosendes{\_}Denken{\_}Problem{\_}solving{\_}thinking/lin
-  \verb ks/55e0290408aede0b572bf736/Problemloesendes-Denken-Problem-solving-thi
-  \verb nking.pdf
-  \endverb
-  \list{location}{1}{%
-    {Stuttgart}%
-  }
-  \field{year}{2003}
-\endentry
+  \entry{Funke2015}{book}{}
+    \name{author}{1}{}{%
+      {{hash=FJ}{%
+         family={Funke},
+         familyi={F\bibinitperiod},
+         given={Joachim},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Kohlhammer}%
+    }
+    \strng{namehash}{FJ1}
+    \strng{fullhash}{FJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{edition}{1. Auflage}
+    \field{number}{January 2003}
+    \field{title}{{Probleml{\"{o}}sendes Denken}}
+    \verb{url}
+    \verb https://www.researchgate.net/profile/Joachim{\_}Funke/publication/262
+    \verb 179219{\_}Problemlosendes{\_}Denken{\_}Problem{\_}solving{\_}thinking
+    \verb /links/55e0290408aede0b572bf736/Problemloesendes-Denken-Problem-solvi
+    \verb ng-thinking.pdf
+    \endverb
+    \list{location}{1}{%
+      {Stuttgart}%
+    }
+    \field{year}{2003}
+  \endentry
 
-\entry{NAMURArbeitskreis1.122013}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{NAMUR Arbeitskreis 1.12}}{N.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{N1}
-  \strng{fullhash}{N1}
-  \field{sortinit}{N}
-  \field{pages}{1\bibrangedash 32}
-  \field{title}{{Ne 148}}
-  \field{year}{2013}
-\endentry
+  \entry{NAMURArbeitskreis1.122013}{article}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={{NAMUR Arbeitskreis 1.12}},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{pages}{1\bibrangedash 32}
+    \field{title}{{Ne 148}}
+    \field{year}{2013}
+  \endentry
 
-\entry{Obst2013}{article}{}
-  \name{author}{10}{}{%
-    {{}%
-     {Obst}{O.}%
-     {Michael}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Holm}{H.}%
-     {Thomas}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Bleuel}{B.}%
-     {Stephan}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Claussnitzer}{C.}%
-     {Ulf}{U.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Evetz}{E.}%
-     {Lars}{L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {J{\"{a}}ger}{J.}%
-     {Tobias}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Nekolla}{N.}%
-     {Tobias}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Pech}{P.}%
-     {Stephan}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Schmitz}{S.}%
-     {Stefan}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Urbas}{U.}%
-     {Leon}{L.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{automation,life cycle,odularisation}
-  \strng{namehash}{OM+1}
-  \strng{fullhash}{OMHTBSCUELJTNTPSSSUL1}
-  \field{sortinit}{O}
-  \field{number}{January}
-  \field{pages}{24\bibrangedash 31}
-  \field{title}{{Automatisierung im Life Cycle modularer Anlagen}}
-  \field{volume}{1-2}
-  \field{journaltitle}{Atp Edition}
-  \field{year}{2013}
-\endentry
+  \entry{Obst2013}{article}{}
+    \name{author}{10}{}{%
+      {{hash=OM}{%
+         family={Obst},
+         familyi={O\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Holm},
+         familyi={H\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Bleuel},
+         familyi={B\bibinitperiod},
+         given={Stephan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CU}{%
+         family={Claussnitzer},
+         familyi={C\bibinitperiod},
+         given={Ulf},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=EL}{%
+         family={Evetz},
+         familyi={E\bibinitperiod},
+         given={Lars},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=JT}{%
+         family={J{\"{a}}ger},
+         familyi={J\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=NT}{%
+         family={Nekolla},
+         familyi={N\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Pech},
+         familyi={P\bibinitperiod},
+         given={Stephan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Schmitz},
+         familyi={S\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=UL}{%
+         family={Urbas},
+         familyi={U\bibinitperiod},
+         given={Leon},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \keyw{automation,life cycle,odularisation}
+    \strng{namehash}{OM+1}
+    \strng{fullhash}{OMHTBSCUELJTNTPSSSUL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{number}{January}
+    \field{pages}{24\bibrangedash 31}
+    \field{title}{{Automatisierung im Life Cycle modularer Anlagen}}
+    \field{volume}{1-2}
+    \field{journaltitle}{Atp Edition}
+    \field{year}{2013}
+  \endentry
 
-\entry{Urbas2012}{article}{}
-  \name{author}{6}{}{%
-    {{}%
-     {Urbas}{U.}%
-     {Leon}{L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Bleuel}{B.}%
-     {Stephan}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {J{\"{a}}ger}{J.}%
-     {Tobias}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Schmitz}{S.}%
-     {Stephan}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Evetz}{E.}%
-     {Lars}{L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Nekolla}{N.}%
-     {Tobias}{T.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{UL+1}
-  \strng{fullhash}{ULBSJTSSELNT1}
-  \field{sortinit}{U}
-  \verb{doi}
-  \verb 10.1140/epje/i2017-11542-4
-  \endverb
-  \field{issn}{1292-8941}
-  \field{number}{February}
-  \field{pages}{44\bibrangedash 53}
-  \field{title}{{Automatisierung von Prozessmodulen}}
-  \field{volume}{1-2}
-  \field{journaltitle}{Atp Edition}
-  \field{year}{2012}
-\endentry
+  \entry{Urbas2012}{article}{}
+    \name{author}{6}{}{%
+      {{hash=UL}{%
+         family={Urbas},
+         familyi={U\bibinitperiod},
+         given={Leon},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Bleuel},
+         familyi={B\bibinitperiod},
+         given={Stephan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=JT}{%
+         family={J{\"{a}}ger},
+         familyi={J\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Schmitz},
+         familyi={S\bibinitperiod},
+         given={Stephan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=EL}{%
+         family={Evetz},
+         familyi={E\bibinitperiod},
+         given={Lars},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=NT}{%
+         family={Nekolla},
+         familyi={N\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{UL+1}
+    \strng{fullhash}{ULBSJTSSELNT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \verb{doi}
+    \verb 10.1140/epje/i2017-11542-4
+    \endverb
+    \field{issn}{1292-8941}
+    \field{number}{February}
+    \field{pages}{44\bibrangedash 53}
+    \field{title}{{Automatisierung von Prozessmodulen}}
+    \field{volume}{1-2}
+    \field{journaltitle}{Atp Edition}
+    \field{year}{2012}
+  \endentry
 
-\entry{Weisner2018}{article}{}
-  \name{author}{7}{}{%
-    {{}%
-     {Weisner}{W.}%
-     {Kirsten}{K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Knittel}{K.}%
-     {Marco}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Wischniewski}{W.}%
-     {Sascha}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Jaitner}{J.}%
-     {Thomas}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Enderlein}{E.}%
-     {Heiko}{H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Kuhlang}{K.}%
-     {Peter}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Deuse}{D.}%
-     {Jochen}{J.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{WK+1}
-  \strng{fullhash}{WKKMWSJTEHKPDJ1}
-  \field{sortinit}{W}
-  \field{number}{2016}
-  \field{pages}{2016\bibrangedash 2019}
-  \field{title}{{Assistenzsystem zur Individualisierung der Arbeitsgestaltung}}
-  \field{volume}{111}
-  \field{year}{2018}
-\endentry
-
-\lossort
-\endlossort
-
+  \entry{Weisner2018}{article}{}
+    \name{author}{7}{}{%
+      {{hash=WK}{%
+         family={Weisner},
+         familyi={W\bibinitperiod},
+         given={Kirsten},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Knittel},
+         familyi={K\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Wischniewski},
+         familyi={W\bibinitperiod},
+         given={Sascha},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=JT}{%
+         family={Jaitner},
+         familyi={J\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=EH}{%
+         family={Enderlein},
+         familyi={E\bibinitperiod},
+         given={Heiko},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Kuhlang},
+         familyi={K\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Deuse},
+         familyi={D\bibinitperiod},
+         given={Jochen},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WK+1}
+    \strng{fullhash}{WKKMWSJTEHKPDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{number}{2016}
+    \field{pages}{2016\bibrangedash 2019}
+    \field{title}{{Assistenzsystem zur Individualisierung der
+  Arbeitsgestaltung}}
+    \field{volume}{111}
+    \field{year}{2018}
+  \endentry
+\enddatalist
 \endinput

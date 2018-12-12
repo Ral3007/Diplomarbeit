@@ -1,6 +1,5 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
-\select@language {ngerman}
+\babel@toc {ngerman}{}
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Stand der Technik}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}Modulare Anlagen}{2}{section.2.1}
@@ -13,19 +12,19 @@
 \contentsline {section}{\numberline {2.3}Kollaboration}{7}{section.2.3}
 \contentsline {section}{\numberline {2.4}Kommunikation}{7}{section.2.4}
 \contentsline {section}{\numberline {2.5}Assistenz}{7}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Anforderungen an digitale Assistenz}{8}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.1}Anforderungen an digitale Assistenzsysteme}{8}{subsection.2.5.1}
 \contentsline {subsection}{\numberline {2.5.2}Einsatz von digitaler Assistenz}{8}{subsection.2.5.2}
 \contentsline {subsection}{\numberline {2.5.3}Assistenzsysteme}{9}{subsection.2.5.3}
-\contentsline {section}{\numberline {2.6}Gestaltung von Mensch-Maschine-Schnittstellen}{12}{section.2.6}
-\contentsline {chapter}{\numberline {3}Analyse}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}Informationsbedarf}{13}{section.3.1}
-\contentsline {section}{\numberline {3.2}Informationsanpassung}{13}{section.3.2}
-\contentsline {section}{\numberline {3.3}Interaktionsmechaniken}{13}{section.3.3}
-\contentsline {chapter}{\numberline {4}Konzept}{14}{chapter.4}
-\contentsline {chapter}{\numberline {5}Implementierung}{15}{chapter.5}
-\contentsline {chapter}{\numberline {6}Verifikation}{16}{chapter.6}
-\contentsline {chapter}{\numberline {7}Zusammenfassung}{17}{chapter.7}
-\contentsline {chapter}{\numberline {8}Ausblick}{18}{chapter.8}
+\contentsline {section}{\numberline {2.6}Gestaltung von Mensch-Maschine-Schnittstellen}{13}{section.2.6}
+\contentsline {chapter}{\numberline {3}Analyse}{14}{chapter.3}
+\contentsline {section}{\numberline {3.1}Informationsbedarf}{14}{section.3.1}
+\contentsline {section}{\numberline {3.2}Informationsanpassung}{14}{section.3.2}
+\contentsline {section}{\numberline {3.3}Interaktionsmechaniken}{14}{section.3.3}
+\contentsline {chapter}{\numberline {4}Konzept}{15}{chapter.4}
+\contentsline {chapter}{\numberline {5}Implementierung}{16}{chapter.5}
+\contentsline {chapter}{\numberline {6}Verifikation}{17}{chapter.6}
+\contentsline {chapter}{\numberline {7}Zusammenfassung}{18}{chapter.7}
+\contentsline {chapter}{\numberline {8}Ausblick}{19}{chapter.8}
 \contentsfinish 
-\contentsline {chapter}{Anhang \numberline {A}Anhang}{20}{Anhang.a.A}
-\contentsline {chapter}{Literaturverzeichnis}{21}{chapter*.18}
+\contentsline {chapter}{Anhang \numberline {A}Anhang}{21}{Anhang.a.A}
+\contentsline {chapter}{Literaturverzeichnis}{22}{chapter*.18}
