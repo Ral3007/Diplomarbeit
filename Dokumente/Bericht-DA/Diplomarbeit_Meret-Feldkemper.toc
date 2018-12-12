@@ -1,5 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Stand der Technik}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}Modulare Anlagen}{2}{section.2.1}
@@ -15,16 +16,16 @@
 \contentsline {subsection}{\numberline {2.5.1}Anforderungen an digitale Assistenz}{8}{subsection.2.5.1}
 \contentsline {subsection}{\numberline {2.5.2}Einsatz von digitaler Assistenz}{8}{subsection.2.5.2}
 \contentsline {subsection}{\numberline {2.5.3}Assistenzsysteme}{9}{subsection.2.5.3}
-\contentsline {section}{\numberline {2.6}Gestaltung von Mensch-Maschine-Schnittstellen}{9}{section.2.6}
-\contentsline {chapter}{\numberline {3}Analyse}{10}{chapter.3}
-\contentsline {section}{\numberline {3.1}Informationsbedarf}{10}{section.3.1}
-\contentsline {section}{\numberline {3.2}Informationsanpassung}{10}{section.3.2}
-\contentsline {section}{\numberline {3.3}Interaktionsmechaniken}{10}{section.3.3}
-\contentsline {chapter}{\numberline {4}Konzept}{11}{chapter.4}
-\contentsline {chapter}{\numberline {5}Implementierung}{12}{chapter.5}
-\contentsline {chapter}{\numberline {6}Verifikation}{13}{chapter.6}
-\contentsline {chapter}{\numberline {7}Zusammenfassung}{14}{chapter.7}
-\contentsline {chapter}{\numberline {8}Ausblick}{15}{chapter.8}
+\contentsline {section}{\numberline {2.6}Gestaltung von Mensch-Maschine-Schnittstellen}{12}{section.2.6}
+\contentsline {chapter}{\numberline {3}Analyse}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Informationsbedarf}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Informationsanpassung}{13}{section.3.2}
+\contentsline {section}{\numberline {3.3}Interaktionsmechaniken}{13}{section.3.3}
+\contentsline {chapter}{\numberline {4}Konzept}{14}{chapter.4}
+\contentsline {chapter}{\numberline {5}Implementierung}{15}{chapter.5}
+\contentsline {chapter}{\numberline {6}Verifikation}{16}{chapter.6}
+\contentsline {chapter}{\numberline {7}Zusammenfassung}{17}{chapter.7}
+\contentsline {chapter}{\numberline {8}Ausblick}{18}{chapter.8}
 \contentsfinish 
-\contentsline {chapter}{Anhang \numberline {A}Anhang}{17}{Anhang.a.A}
-\contentsline {chapter}{Literaturverzeichnis}{18}{chapter*.16}
+\contentsline {chapter}{Anhang \numberline {A}Anhang}{20}{Anhang.a.A}
+\contentsline {chapter}{Literaturverzeichnis}{21}{chapter*.18}
