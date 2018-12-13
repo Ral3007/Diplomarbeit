@@ -367,3 +367,76 @@
   + primäre: direkt für Aufgabe
   + sekundär: Onlinehilfe
 + Dialogobjekte
+  + Toplevel
+  + Basis
+  + komplexe und zusaemmengesetzte
+  + Anwendungsfenster
+  + Dialogfenster
+  + Mitteilungsfenster
+
+#### Bildschirmlayout
+
++ Bildschirmbereiche
+  + Statusbereich
+  + Hinweisbereich
+  + Navigationsbereich
+  + Arbeitsbereich
++ DIN 33414
+
+### Interaktionstechniken
+
++ DIN 19227: Symbole, Kennbuchstaben PLT
++ DIN 19235: Meldungen Betriebszustände
++ EN 894: Nutzerinterkation Anzeigen, Stellteile
++ IEC 16336: Mansch-Maschie-Schnittstelle
+
+#### Gestaltungsprinzipien Bediensysteme
+
++ wichtigstes Kriterium für Anordnung: richtige und eindeutige Übermittlung von Imformationen
+  + Übersehen und Verwechseln von Informationen soll ausgeschlossen werden
++ DIN EN ISO 9241 Teil 110: Grundsätze der Dialoggestaltung
+  + Aufgabenangemessen: Nuter unterstützen ohne unnötige Belastung
+  + Erwartungkonformität
+  + Selbstbeschreibungsfähigkeit
+  + Fehlertoleranz
+  + Steuerbarkeit
+  + Individualisierbarkeit
+  + Lernförderlichkeit
++ Prinzipien für die Gestaltung
+  + Kompatibilität
+    + Übereinstimmtung der Anordnung zwischen Realität und Bediensystem
+    + Ort
+    + Richtung
+    + Folge
+  + Konsistenz
+  + Gruppierung
+
+#### Interaktionsgestaltung
+
++ dient zur Kommunikation zwischen Nutzer und System
++ Kommandosprache
+  + Befehlssatz ist auf vordefinierten Satz an Befehlen beschränkt
+  + direkter Zugang zur Systemfunktionalität
+  + Schnelle Bedienung
++ Maskendialoge
+  + zweidimensionale Anzeigen des Zustand von interkativen Systmen
++ Windows, Icons, Menüs, Pointer
+  + in Menüs organisierte Kommandos -> können mit Zeigegerät ausgewählt werden
++ Direkte Manipulation
+
+## Butz - Mensch-Maschine-Interaktion
+
+### Grundregeln UI Gestaltung
+
++ Affordances
+  + Eigenschaft eine bestimmte Handlung mit einem Objekt oder an einem Ort zu ermöglichen
+  + Benutzerschnittstelle muss immer klar erkennen lassen, welche Operationen möglich sind
++ Constraints
+  + Einschränkung der Interaktionsmöglichkeit
+  + erwartete Zuordnung
++ Mappings
+  + Zuordnung von Bedienelementen zu Objekten in der physikalischen Welt
++ Konsistenz und Vorhersagbarkeit
+  + Funktion bestimmter Bedienelemente vorhersagen
++ 
+
