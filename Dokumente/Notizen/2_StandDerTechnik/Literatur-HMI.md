@@ -438,5 +438,77 @@
   + Zuordnung von Bedienelementen zu Objekten in der physikalischen Welt
 + Konsistenz und Vorhersagbarkeit
   + Funktion bestimmter Bedienelemente vorhersagen
++ Feedback
+  + nach Auslösung eine Opteration -> Rückmeldung, dass diese tatsöchlich ausgeführt wurde erwünscht
+  + wesentliche Funktion: verstehen, was das Sytem tut
++ Fehlertoleranz und Fehlervermeidung
+  + Systeme sollten robust und fehlertolerant sein
++ Interface Animation
+  + physikalisches Verhlaten mitgeben
++ Metaphern
+  + Analogien zur realen Umwelt
+  + Papierkorb
+
+### Interaktionsstile
+
++ Kommandos
++ Dialoge
+  + Dialog zwischen Nutzer und Computer
+  + Computer gibt Asuwahl -> Nutzer wählt aus -> ....
+
+### Grundmuster grafischer Benutzerschnittstellen
+
++ Rezepte zum Bau von Benutzerschnittstellen
++ Model-View-Controller
+
+### User Centerd Design
++ Benutzbarkeit ist entscheident
++ Ziele beschreiben, was erreicht werden soll
+  + welcher Kontext
+  + welche Nutzer
++ Design ist Beschränkungen unterworfen
++ man muss diese kennen
++ große Anzahl Beschränkungen -> optimales Design ist nicht erreichbar
++ zwei Phasen
+  + Verständnis der Problemdomäne
+  + Erarbeitung von Lösungen
++ Hauptelemente UCD
+  + Verstehen
+  + Vergegenwärtigen
+  + Evaluieren
+  + Designen
++ Verstehen
+  + Verständnis der menschlichen und technischen Beschränkungen
++ Designen
+  + konzeptuelles Design und konkretes physisches Design
+  + konzeptuell
+    + beschreiben, welche Aktivitäten und Objekte im Zusammenhang mit Entwurf der Benutzerschnittstelle stehen
+    + steht im Zusammenhang mit mentalem Modell des Nutzers
+    + muss abstrakt genug bleiben und konkretes physikalisches Design offen lassen
+  + physikalisch
+    + konkrete grafische Umsetzung und genaue Benutzerführung
+    + welchen Eindruck hinterlässt das Produkt beim Nutzer?
++ Vergegenwärtigen
+  + Designentwurf kommunizieren
++ Evaluieren
++ Iteratives Designen
++ Implementierung
+
+### Experience Design
+
+#### Ziele und Bedürfnisse
+
++ gezielt positive Erlebnisse erziegen
++ Betrachtung von psychologischen Grundbedürfnissen
++ Hierarschie von Zielen
+  + unten: motorisch
+  + dann Handlung: was machen wir
+  + Motive: innere Antriebskräft, warum
+
+#### Beschreibung von UE
+
++ Erlebnis muss im Entwurfsprozess klar definiert sein
++ gibt keinen Formalismus und keine klar definierte Beschreibungssprache
 + 
+
 
