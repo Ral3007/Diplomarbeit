@@ -1,5 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Stand der Technik}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}Modulare Anlagen}{2}{section.2.1}
@@ -31,4 +32,4 @@
 \contentsline {chapter}{\numberline {8}Ausblick}{20}{chapter.8}
 \contentsfinish 
 \contentsline {chapter}{Anhang \numberline {A}Anhang}{22}{Anhang.a.A}
-\contentsline {chapter}{Literaturverzeichnis}{23}{chapter*.18}
+\contentsline {chapter}{Literaturverzeichnis}{23}{chapter*.19}
