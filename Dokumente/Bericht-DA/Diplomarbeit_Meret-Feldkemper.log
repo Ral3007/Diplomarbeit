@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.30)  13 DEC 2018 08:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.30)  13 DEC 2018 15:01
 entering extended mode
 **./Diplomarbeit_Meret-Feldkemper.tex
 (Diplomarbeit_Meret-Feldkemper.tex
@@ -2725,7 +2725,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-eur.cfg"
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-<TU_Logo_SW.pdf, id=118, 256.96pt x 75.28125pt>
+<TU_Logo_SW.pdf, id=134, 256.96pt x 75.28125pt>
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
 Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 144.
@@ -2734,12 +2734,12 @@ Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 144.
 
 pdfTeX warning: pdflatex (file ./PLT_Logo_SW.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<PLT_Logo_SW.pdf, id=119, 507.09451pt x 282.0939pt>
+<PLT_Logo_SW.pdf, id=135, 507.09451pt x 282.0939pt>
 File: PLT_Logo_SW.pdf Graphic file (type pdf)
 <use PLT_Logo_SW.pdf>
 Package pdftex.def Info: PLT_Logo_SW.pdf  used on input line 144.
 (pdftex.def)             Requested size: 85.5627pt x 47.60144pt.
-<IfA_Header.pdf, id=120, 350.60385pt x 12.99957pt>
+<IfA_Header.pdf, id=136, 350.60385pt x 12.99957pt>
 File: IfA_Header.pdf Graphic file (type pdf)
 <use IfA_Header.pdf>
 Package pdftex.def Info: IfA_Header.pdf  used on input line 144.
@@ -2759,7 +2759,7 @@ Package microtype Info: Character `029' is missing
 
 pdfTeX warning: pdflatex (file ./DA_files/00_Aufgabenstellung.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
-<DA_files/00_Aufgabenstellung.pdf, id=153, 597.50786pt x 845.01837pt>
+<DA_files/00_Aufgabenstellung.pdf, id=169, 597.50786pt x 845.01837pt>
 File: DA_files/00_Aufgabenstellung.pdf Graphic file (type pdf)
 <use DA_files/00_Aufgabenstellung.pdf>
 Package pdftex.def Info: DA_files/00_Aufgabenstellung.pdf  used on input line 1
@@ -2782,7 +2782,7 @@ on: found PDF version <1.6>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./DA_files/00_Aufgabenstellung.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
-<DA_files/00_Aufgabenstellung.pdf, id=156, page=1, 597.50786pt x 845.01837pt>
+<DA_files/00_Aufgabenstellung.pdf, id=172, page=1, 597.50786pt x 845.01837pt>
 File: DA_files/00_Aufgabenstellung.pdf Graphic file (type pdf)
 <use DA_files/00_Aufgabenstellung.pdf, page 1>
 Package pdftex.def Info: DA_files/00_Aufgabenstellung.pdf , page1 used on input
@@ -2887,18 +2887,23 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 24.
 Package tocbasic Info: Using my definition of `\numberline' on input line 25.
 Package tocbasic Info: Using my definition of `\numberline' on input line 26.
 Package tocbasic Info: Using my definition of `\numberline' on input line 27.
+Package tocbasic Info: Using my definition of `\numberline' on input line 28.
 Package tocbasic Info: Using my definition of `\numberline' on input line 29.
 Package tocbasic Info: Using my definition of `\numberline' on input line 30.
-)
-\tf@toc=\write8
-\openout8 = `Diplomarbeit_Meret-Feldkemper.toc'.
-
+Package tocbasic Info: Using my definition of `\numberline' on input line 31.
  [5
 
 
 
 
-] [6]
+]
+Package tocbasic Info: Using my definition of `\numberline' on input line 33.
+Package tocbasic Info: Using my definition of `\numberline' on input line 34.
+)
+\tf@toc=\write8
+\openout8 = `Diplomarbeit_Meret-Feldkemper.toc'.
+
+ [6]
 Package tocbasic Info: character protrusion at lof deactivated on input line 14
 4.
  (Diplomarbeit_Meret-Feldkemper.lof)
@@ -3076,6 +3081,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--161
  []
 
 
+Underfull \hbox (badness 3895) in paragraph at lines 161--162
+[]|\T1/lmr/m/n/12 (+20) als Mau-ser-satz,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+\T1/lmr/m/n/12 (+20) bei Ziel-ver-fol-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 163--163
 []|\T1/lmr/m/n/12 (+20) Direkte Be-die-nung,
  []
@@ -3183,42 +3198,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 191--191
 []|\T1/lmr/m/n/12 (+20) stationärer
  []
 
-[11] [12]) (DA_files/03_Anforderungsanalyse.tex [13]
+[11] [12]) (DA_files/03_Anforderungsanalyse.tex [13] [14]
 chapter 3.
-) (DA_files/04_Konzept.tex [14
+) (DA_files/04_Konzept.tex [15
 
 
 ]
 chapter 4.
-) (DA_files/05_Implementierung.tex [15
+) (DA_files/05_Implementierung.tex [16
 
 
 ]
 chapter 5.
-) (DA_files/06_Verifikation.tex [16
+) (DA_files/06_Verifikation.tex [17
 
 
 ]
 chapter 6.
-) (DA_files/07_Zusammenfassung.tex [17
+) (DA_files/07_Zusammenfassung.tex [18
 
 
 ]
 chapter 7.
-) (DA_files/08_Ausblick.tex [18
+) (DA_files/08_Ausblick.tex [19
 
 
 ]
 chapter 8.
-) [19
+) [20
 
 
-] [20
+] [21
 
 
 ] (DA_files/Anhang.tex
 chapter A.
-) [21
+) [22
 
 
 
@@ -3241,12 +3256,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-[22
+[23
 
 
 
 
-] [23] [24
+] [24] [25
 
 
 
@@ -3259,7 +3274,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
 Package rerunfilecheck Info: File `Diplomarbeit_Meret-Feldkemper.out' has not c
 hanged.
-(rerunfilecheck)             Checksum: 67A4670042CD26E562E4FD04C07A6DF6;1784.
+(rerunfilecheck)             Checksum: 26A499CECCF7DCC6360094C587591425;2076.
 
 
 LaTeX Warning: There were undefined references.
@@ -3270,11 +3285,11 @@ Package logreq Info: Writing requests to 'Diplomarbeit_Meret-Feldkemper.run.xml
 
  ) 
 Here is how much of TeX's memory you used:
- 47662 strings out of 493305
- 907234 string characters out of 3138839
+ 47673 strings out of 493305
+ 907379 string characters out of 3138839
  1449561 words of memory out of 3000000
- 50158 multiletter control sequences out of 15000+200000
- 638972 words of font info for 150 fonts, out of 3000000 for 9000
+ 50162 multiletter control sequences out of 15000+200000
+ 639063 words of font info for 151 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  73i,18n,79p,9111b,2267s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/sourcecodepro/a_ind2fo.enc}{C:/P
@@ -3288,9 +3303,9 @@ m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9
 c/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Diplomarbeit_Meret-Feldkemper.pdf (33 pages, 1067964 bytes).
+Output written on Diplomarbeit_Meret-Feldkemper.pdf (34 pages, 1073550 bytes).
 PDF statistics:
- 474 PDF objects out of 1000 (max. 8388607)
- 98 named destinations out of 1000 (max. 500000)
- 33552 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 499 PDF objects out of 1000 (max. 8388607)
+ 103 named destinations out of 1000 (max. 500000)
+ 33584 words of extra memory for PDF output out of 35830 (max. 10000000)
 

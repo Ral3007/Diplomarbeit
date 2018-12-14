@@ -16,15 +16,19 @@
 \contentsline {subsection}{\numberline {2.5.2}Einsatz von digitaler Assistenz}{8}{subsection.2.5.2}
 \contentsline {subsection}{\numberline {2.5.3}Assistenzsysteme}{9}{subsection.2.5.3}
 \contentsline {section}{\numberline {2.6}Gestaltung von Mensch-Maschine-Schnittstellen}{13}{section.2.6}
-\contentsline {chapter}{\numberline {3}Analyse}{14}{chapter.3}
-\contentsline {section}{\numberline {3.1}Informationsbedarf}{14}{section.3.1}
-\contentsline {section}{\numberline {3.2}Informationsanpassung}{14}{section.3.2}
-\contentsline {section}{\numberline {3.3}Interaktionsmechaniken}{14}{section.3.3}
-\contentsline {chapter}{\numberline {4}Konzept}{15}{chapter.4}
-\contentsline {chapter}{\numberline {5}Implementierung}{16}{chapter.5}
-\contentsline {chapter}{\numberline {6}Verifikation}{17}{chapter.6}
-\contentsline {chapter}{\numberline {7}Zusammenfassung}{18}{chapter.7}
-\contentsline {chapter}{\numberline {8}Ausblick}{19}{chapter.8}
+\contentsline {subsection}{\numberline {2.6.1}Ergonomisch gute Gestaltung}{13}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Individualisierung}{14}{subsection.2.6.2}
+\contentsline {chapter}{\numberline {3}Analyse}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Informationsbedarf}{15}{section.3.1}
+\contentsline {section}{\numberline {3.2}Informationsanpassung}{15}{section.3.2}
+\contentsline {section}{\numberline {3.3}Interaktionsmechaniken}{15}{section.3.3}
+\contentsline {chapter}{\numberline {4}Konzept}{16}{chapter.4}
+\contentsline {section}{\numberline {4.1}Konzeptuelles Design}{16}{section.4.1}
+\contentsline {section}{\numberline {4.2}physikalisches Design}{16}{section.4.2}
+\contentsline {chapter}{\numberline {5}Implementierung}{17}{chapter.5}
+\contentsline {chapter}{\numberline {6}Verifikation}{18}{chapter.6}
+\contentsline {chapter}{\numberline {7}Zusammenfassung}{19}{chapter.7}
+\contentsline {chapter}{\numberline {8}Ausblick}{20}{chapter.8}
 \contentsfinish 
-\contentsline {chapter}{Anhang \numberline {A}Anhang}{21}{Anhang.a.A}
-\contentsline {chapter}{Literaturverzeichnis}{22}{chapter*.18}
+\contentsline {chapter}{Anhang \numberline {A}Anhang}{22}{Anhang.a.A}
+\contentsline {chapter}{Literaturverzeichnis}{23}{chapter*.18}
