@@ -511,4 +511,65 @@
 + gibt keinen Formalismus und keine klar definierte Beschreibungssprache
 + 
 
+## ISO 9241-129 - Individualisierung von Software
 
+### Funktion der Individualisierung
+
++ Modifizierung des Verhaltens des interaktiven Systems und der Darstellung seiner Benutzerschnittstellen-Elemente
+
+#### Wann Möglichkeit zur Individualisierung?
+
++ Veraiation der Benutzermerkmale
+  + Fähigkeiten und Präferenzen
+  + vorrübergehende oder dauerhafte Änderungen der Benutzermerkmale (neu erworbene Kenntnisse, Krankheit)
++ Unterscheidliche Bedürfnisse und Ziele
+  + VErbesserung des VErstehens durch die Benutzer
+  + Befriedigung bei unregelmäßiger Nutzung
+  + Nutzer unterschützen, denen neue Arbeitsverfahren schwer fallen
++ Schwankung der Aufgabenmerkmale
+  + Komplexität, Schwierigkeit, Häufigkeit, Informationsgehalt ...
+  + zeitweile oder dauerhafte Änderungen der Aufgabenmerkmale
++ VErschiedene Einrichtungen, die von einem einzelnen Benutzer verwendet werden
+  + Desktop, Mobiltelefon
++ Unterschiedliche Umgebungen, denen ein einzelner Benutzer ausgesetzt ist
+
+#### Grenzen für BEreitstellung individueller Einstellungen
+
++ nicht, wenn
++ ERsatz für ergonomisch gestaltete Dialoge
++ sicherheitskritische und aufgabenkritische Systeme
++ Rationalisierung der Ablöufe aus organisatorischen oder kundenspezifischen Erwägungen
++ sie zu Problemen mit der Gebauchstauglichkeit oder Zugänglichkeit fpr die vorgesehenen Benutzer führt
+
+#### Initiierung individueller Einstellungen
+
++ durch einzelnen Nutzer
++ System selbst
+
+###Leitlinien
+
+#### Zugänglichkeit
+
++ muss ISo 9241-171 entsprechen
+
+#### Steuerbarkeit
+
++ Aufrechterhaltung der Kontrolle druch den Nutzer nach einer Individualisierung
++ Aktivierung oder Deaktivierung der Individualisierbarkeit durch den Benutzer
++ Begrenzung der Verwendung von Individualisierungsfunktionen
+  + Hinweise, wenn es zu Problemen mit Gebrauchstauglichkeit kommt
++ Umkerhbarkeit: Individualisierung zurücksetzen
++ Datenschutz: 
++ Schutz und Sicherheit: sicherheitskritische Funktionen dürfen icht ausgeschaltet ewrden
+
+#### Erkennbarkeit
+
++ Benutzer über Individualisierungsmöglichkeiten informieren
++ Störungsfreie Informationen über Individualisierungsmöglichkeiten
++ Zusätzliche Informationen über Individualisierungsmöglichkeiten zur Verfügung stellen
+  + Umstände der Wirksamkeit der Individualisierung
+  + Riskien
+  + wie zu steuern
++ Einstellungen verfügbar machen
++ Benutzerprofile verfügbar machen
++ 
