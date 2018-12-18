@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.5)  14 DEC 2018 11:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.5)  18 DEC 2018 11:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2784,42 +2784,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 191--191
 []|\T1/lmr/m/n/12 (+20) stationärer
  []
 
-[11] [12] [13]) (./DA_files/03_Anforderungsanalyse.tex [14]
+[11] [12] [13] [14] [15]) (./DA_files/03_Anforderungsanalyse.tex [16]
 Kapitel 3.
-) (./DA_files/04_Konzept.tex [15
+) (./DA_files/04_Konzept.tex [17
 
 
 ]
 Kapitel 4.
-) (./DA_files/05_Implementierung.tex [16
+) (./DA_files/05_Implementierung.tex [18
 
 
 ]
 Kapitel 5.
-) (./DA_files/06_Verifikation.tex [17
+) (./DA_files/06_Verifikation.tex [19
 
 
 ]
 Kapitel 6.
-) (./DA_files/07_Zusammenfassung.tex [18
+) (./DA_files/07_Zusammenfassung.tex [20
 
 
 ]
 Kapitel 7.
-) (./DA_files/08_Ausblick.tex [19
+) (./DA_files/08_Ausblick.tex [21
 
 
 ]
 Kapitel 8.
-) [20
+) [22
 
 
-] [21
+] [23
 
 
 ] (./DA_files/Anhang.tex
 Anhang A.
-) [22
+) [24
 
 
 
@@ -2842,12 +2842,12 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `SourceCodePro-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [23
+ [25
 
 
 
 
-] [24] [25
+] [26] [27
 
 
 
@@ -2860,7 +2860,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
 Package rerunfilecheck Info: File `Diplomarbeit_Meret-Feldkemper.out' has not c
 hanged.
-(rerunfilecheck)             Checksum: 5D7562D0BB96C184B08B6D1684E1F562;2044.
+(rerunfilecheck)             Checksum: C6002C99C9D31CA0AA8FC482BA3FE481;2044.
 
 
 LaTeX Warning: There were undefined references.
@@ -2871,11 +2871,11 @@ Package logreq Info: Writing requests to 'Diplomarbeit_Meret-Feldkemper.run.xml
 
  ) 
 Here is how much of TeX's memory you used:
- 41780 strings out of 493089
- 797593 string characters out of 6134843
+ 41802 strings out of 493089
+ 797907 string characters out of 6134843
  1187275 words of memory out of 5000000
- 44220 multiletter control sequences out of 15000+600000
- 107572 words of font info for 140 fonts, out of 8000000 for 9000
+ 44226 multiletter control sequences out of 15000+600000
+ 108004 words of font info for 144 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  73i,18n,76p,10434b,1914s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/sourcecodepro/a_mqb3sg.en
@@ -2890,10 +2890,10 @@ lic/lm/lmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr8
 .pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Diplomarbeit_Meret-Feldkemper.pdf (34 pages, 1012600 bytes).
+Output written on Diplomarbeit_Meret-Feldkemper.pdf (36 pages, 1020218 bytes).
 PDF statistics:
- 506 PDF objects out of 1000 (max. 8388607)
- 428 compressed objects within 5 object streams
- 104 named destinations out of 1000 (max. 500000)
+ 539 PDF objects out of 1000 (max. 8388607)
+ 459 compressed objects within 5 object streams
+ 112 named destinations out of 1000 (max. 500000)
  33072 words of extra memory for PDF output out of 35830 (max. 10000000)
 

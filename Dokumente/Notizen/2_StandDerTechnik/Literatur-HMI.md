@@ -572,4 +572,193 @@
   + wie zu steuern
 + Einstellungen verfügbar machen
 + Benutzerprofile verfügbar machen
+
+
+
+## Schmidt - Ergonomie und Mensch-Maschine-Systeme
+
+### Modellbasierte Gestaltung von benutzungsschnittstellen zur Prozessführung- und überwachung
+
++ Vielzahl der Informationen so darstellen, dass menschliche Diagnose- und Zustandsberurteilungsprozess unterstütz wird
++ systematische Gliederung der visualisierten Daten
++ Decision Step Ladder / Entscheidungsleiter
+
+### Wissensbasierte Unterstützung der Problembearbeitung in natürlichen Situationen
+
++ 
+
+# Adaption
+
+## Liu - An Adaptive User Interface
+
++ adaptives user interface erkennt pattern und can die Assistenz entsprechend anpassen
++ erknnen des user action plans durch Verfolgen und analysieren der nutzer aktions sequenzen
++ hat 5 Probleme
+  + beobachten der interaktion zwischen nutzer und system
+  + idntifizierung von verschiedenen episoden der Aktionen die in der nutzer-computer-interaktion beobachtet werden
+    + menu selection, button clicking ist jeweils eine basic episode
+  + erkennen von nuterzerverhalten patterns
+  + Nuter adaptiv unterstützen durch erkennen des plans des nutzers
+  + Profile anlegen für jeden Nutzer
+
+## Benyon - Accomondation Individual Differences through an Adaptive User Interface
+
++ Coputer Systeme sind sehr verschieden
++ Menschen sind sehr verschieden
++ Interpreteation von Computer Displays: Nutzer schließen verschiedene Rückschlüsse, jenachdem wie sie die dargestellten Dinge assoziieren
++ Gibt Möglichkeiten die Probleme mit der Schnittstelle zu beheben
++ allgemein die Mensch-Maschine Interkations Design verbessern -> mit einem Design alle erfassen
++ Oder anpassung von Hilfe und Assistenz anhand der needs
++ Computer können die Interaktion beobachten. Wenn diese mit Logik versehen ist, dann kann das System sich anpassen.
++ Computer kann sich selbst anpassen
+
+### Individual Differences
+
++ berücksichtigung von den Charakteristika der Menschen und denen der Aufgabe -> verstehen, wie diese interagieren
++ individuelle differencen sind ziemlich unberechenbar
++ Charkateristika identifizieren, die sehr stabil sind
++ personality factors sind für Menschen schwierig zu verändern
+  + intelligenz
+  + introvertiert-extrovertiert
+  + fear of failure
+  + möglicherweise kreativität
++ umgebung muss flexibel gunug sein, um sich an die persönliche Unterschiede anzupassen
++ kogigtive styles und lernstrategien können schwer verändert werden
++ Menschen können das veränden, wenn gute bildung, motivation und zeit gegeben ist
++ wenn menschen sich nicht verändern können sollte der Computer sich verändern
++ große Unterschide bei: Text editieren, Informationserwerb und Programmierung
+
+### Dealing with individual differences
+
++ beim Design sollen die individuellen Unterscheide prüfen
++ Hilfe kann angeboten werden
+  + lenkt meist eher ab
+  + die Hilfe zu verstehen dauert manchmal längern, als das Problem zu erklären
++ 3 Stage approach to deal with individuellen Differnezen
+  + “Untersuchen” oder der Umfang der differenzen einschätzen
+  + wichtige Unterschiede müssen von verwirrenden Faktoren isoliert werden
+  + die Features einbringen
+
+### Adaptive User Interface
+
++ relevante Nutercharakteristika: räumliche Fähigkeiten, command language experience und frequenze of system use
+
+
+
+## Viano - Adaptive user interface for process control
+
++ viele Systeme für Operator sind fix und können sich nicht an die Systemoperationen anpassen
++ Operator muss flexibel sein, um mit Schwierigkeiten und ungeplanten Situationen agieren zu können
++ "Adaptive systems are systems which can alter aspects of their structure, functionality or interface in order to accommodate the differing needs of individuals or groups of users and the changing needs of users over time" [BEN87]
++ ohne adaption arbeitet der Operator ineffektiv, muss nach richtigen Informationen suchen
++ Designer des System kann nicht alle Szenarien kennen
++ es ist ein Interfacedesign gefordert, das adaptive Elemente verbinden kann, jenachdem wie die Informationen präsentiert werden
+
+### Industrial Needs
+
++ control systems werden immer komplexer
++ mehr und mehr funktionalität wird hinzugefügt
++ adaption des Interface ist trotzdem noch ein Problem, da das system immer gleich reagiert, egal was passiert
++ Controlsystem muss konstitent reagieren und sich nicht in den Operator einmischen, aber soll dem Operator die hervorstechenden Inforamtionen auf dem besten Weg präsentieren
+
+#### Application requierements
+
++ adaptation triggering
+  + bedingungen für das starten der Adaption
+    + process derivation: wenn sich der Status von Normal zu alamierend ändert operator häufig gestresst. Adaption sollte dem Operator helfen das Problem zu identifiieren und zu lösen
+    + operator derivation: Operator versteht das Problem nicht korrekt. Problem higehtliten und vorschläge liefern
++ adaptation effetcs
+  + organise the interface
+  + Informationen bestmöglich präsenterien
+  + Aktionen, damit das möglich wird
+    + highlight relevant information
+    + optimise space usage
+    + select best representation
+    + consider time
+
+### Konzept
+
++ möglichst wenig Änderungen, da Operators konsistenz mögen
++ nur geringe anpassungen. So viel, dass Operator die hervorstechenden Infromationen sieht
++ größtes Probleme adaptiver Systeme: die Bedingungen für die adaptiven Funktionen zu identifizieren
++ abweichungen von Mensch und Maschine identifizieren
+  + messbarer Status, Parametern, Aktionen
+  + Prozess Stauts. sehr eindeutig den Systemstatus zu identifizieren und mit einem bestimmtne Pattern zu vergleichen
+  + Operator Status: aufmerksam/ nicht aufmerksam ist schwierig zu messen. Es können nur Aktionen gemessen werden
+
+## Gajos - Predictability and accuracy in adaptive user interfaces
+
++ Adaption Potential oder Disorientierung?
++ Machine Learning-directed Adaption kann das Potential der Interaktion optimieren
++ gibt viele Charakteristika, die einen Erfolg oder Misserfolg hervorrufen können
++ sowohl Vorhersagbarkeit, als auch Genauigkeit beeinflussen die Zufriedenheit des Nutzers
++ nur Genauigkeit (accurancy) hat einen signifikanten Effekt auf die nutzerperformance oder Nutzung des adaptiven Interface
+
+## Gajos - Exploring the Design Space for Adaptive Graphical User Interfaces
+
++ nutzen von Duplikaten. Einmal in der adaptiven Anzeige und einmal am Ursprungsort
++ nutzergetriebene Anpassung schlägt meist fehl
++ wenn sie gut geht, dann ist es schwierig auf die neue Situation wieder anzupassen
+
+## Benyon - Adaptive Systems: A solution to usability problems
+
++ 4 Komponenten in jeder Arbeitssituation
+  + Nutzer, Aufgabe, System und Umgebung
++ System ist Mensch-Computer Interaktion
++ usbility, 4 operational Kriterien: Effektifität, Learnability, Flexibilität und Einstellung (Akzeptanzlevel des Menschen)
++ adaptive Systeme sind charakterisiert durch die Design Variation
++ The models of the interacting systems only define what adaptations are possible - how the system can change and what it can adapt to
++ das interaktionsmodell beschreibt die aktuelle adaption, die das System macht
++ traditionelle Methoden der Analyse, die einfach auf funktionalität und datenanforderungen beruhen sind unangebracht.
++ erweitertes Konzept
+  + funktionale Analyse: Hauptfunktionen des Systems
+  + Daten Analyse: meaning and structure of Data
+  + Task Knowledge Analyse: kognitive Charakteristika des Nutzers. Ist Device Abhängig
+  + Nutzer Analyse: Scope of user population.
+  + Umgebunsanalyse:
++ Der Designer muss sich überlegen, was adaptiert werden muss und was gebruacht wird, um  zu adaptieren.
++ ob ein adaptives System benötigt wird muss der Designer anhand der Analyse entscheiden
++ die Notwendigkeit und Funktionen eines adaptiven Systems muss vorsichtig formuliert und verstanden werden
++ Scope of adaptive mechanism muss vorsichtig und prezise spezifiziert werden
++ 
+
+## Farbig - Modellbasierte Entwicklung mobiler mulitmodaler Nutzerschnittstellen
+
++ Spezifikation von Aufgabenmodellen
+  + enthalten alle vom System und dessen Nutzern abzuarbeitende Aufgaben und deren Beziehungen untereinander
+  + zeitliche Abhängigkeiten, Alternativen, optionale Teilaufgaben und Iterationen definieren (ist möglich)
++ Dialoggraph
+  + Dialogsichten sind durch Transitionen miteinander verbunden
+
+## Michael Herczeg - interaktionsdesign
+
+### Individualisierungssysteme
+
++ adaptierbar: Nutzer verändernt die Eigenschaften der Benutzerschnittstelle
++ adaptiv: automatische Anpassung
+
+#### Adaptierbare Systeme
+
++ physikalische anpassungen
+  + Helligkeit des Bildschirms
+  + Lautstärke
++ Benutzerprofile
+  + Änderung von Systemparametern
++ Voreinstellungen
+
+#### Adaptive Systeme
+
++ System muss wissen über die Gestaltungsmöglichkeiten und ihre Wirkung besitzen
++ Wissen des Systems über den Benutzer ist von größter Bedeutung
++ Formen von Adaptivität:
+  + Individuelle Hilfesysteme
+  + automatische Korrektur
+  + Anpassung von Voreinstellungen in Abhängigkeit des Arbeitskontext
+  + Sortieren von Menüeinträgen
+  + Anpassung von Menühierarchien
++ es werden wichtige Grundsätze verletzt: Konsistenz und Erwartungskonformität
++ System könnte über automatische Änderungen informieren: Nutzer kann eventuell zustimmen
+
+## Browne - Adaptive User Interface
+
 + 

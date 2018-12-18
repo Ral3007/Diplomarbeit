@@ -190,6 +190,55 @@
   \field{year}{2003}
 \endentry
 
+\entry{Jermann2004}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Jermann}{J.}%
+     {Patrick}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{JP1}
+  \strng{fullhash}{JP1}
+  \field{sortinit}{J}
+  \field{booktitle}{Proceedings of Computer Support for Collaborative Learning,
+  CSCL 2002}
+  \field{pages}{601\bibrangedash 602}
+  \field{title}{{Computer Support for Interaction Regulation in Collaborative
+  Problem-Solving}}
+  \verb{url}
+  \verb citeseer.ist.psu.edu/509609.html
+  \endverb
+  \field{type}{phdthesis}
+  \field{year}{2004}
+\endentry
+
+\entry{Ludwig}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ludwig}{L.}%
+     {Bernd}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer Vieweg}%
+  }
+  \strng{namehash}{LB1}
+  \strng{fullhash}{LB1}
+  \field{sortinit}{L}
+  \verb{doi}
+  \verb 10.1007/978-3-662-44819-9 ISBN
+  \endverb
+  \field{isbn}{9783662448182}
+  \field{title}{{Planbasierte Mensch-Maschine- Interaktion in multimodalen
+  Assistenzsystemen}}
+  \list{location}{1}{%
+    {Berlin Heidelberg}%
+  }
+  \field{year}{2015}
+\endentry
+
 \entry{NAMURArbeitskreis1.122013}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -271,6 +320,62 @@
   \field{year}{2013}
 \endentry
 
+\entry{Rohner2016}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {R{\"{o}}hner}{R.}%
+     {Jessica}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sch{\"{u}}tz}{S.}%
+     {Astrid}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RJSA1}
+  \strng{fullhash}{RJSA1}
+  \field{sortinit}{R}
+  \verb{doi}
+  \verb 10.1007/978-3-658-10024-7
+  \endverb
+  \field{isbn}{978-3-658-10023-0}
+  \field{title}{{Psychologie der Kommunikation}}
+  \verb{url}
+  \verb http://link.springer.com/10.1007/978-3-658-10024-7
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\entry{Rummel1958}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Rummel}{R.}%
+     {Nikol}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Spada}{S.}%
+     {Hans}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RNSH1}
+  \strng{fullhash}{RNSH1}
+  \field{sortinit}{R}
+  \verb{doi}
+  \verb 10.1207/s15327809jls1402
+  \endverb
+  \field{isbn}{1050-8406}
+  \field{issn}{02729490}
+  \field{number}{4 , Part 1}
+  \field{title}{{Learning to Collaborate: An Instructional Approach to
+  Promoting Collaborative Problem Solving in Computer-Mediated Settings}}
+  \field{volume}{12}
+  \field{journaltitle}{The Journal of the Learning Sciences}
+  \field{year}{1958}
+\endentry
+
 \entry{Urbas2012}{article}{}
   \name{author}{6}{}{%
     {{}%
@@ -317,6 +422,33 @@
   \field{volume}{1-2}
   \field{journaltitle}{Atp Edition}
   \field{year}{2012}
+\endentry
+
+\entry{Wandke}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wandke}{W.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WH1}
+  \strng{fullhash}{WH1}
+  \field{sortinit}{W}
+  \verb{doi}
+  \verb 10.1109/ETFA.2014.7005150
+  \endverb
+  \verb{eprint}
+  \verb arXiv:1011.1669v3
+  \endverb
+  \field{issn}{1464536X}
+  \field{number}{2}
+  \field{pages}{129\bibrangedash 155}
+  \field{title}{{Assistance in human–machine interaction: A conceptual
+  framework and a proposal for a taxonomy}}
+  \field{volume}{6}
+  \field{journaltitle}{Theoretical Issues in Ergonomics Science}
+  \field{year}{2005}
 \endentry
 
 \entry{Weisner2018}{article}{}

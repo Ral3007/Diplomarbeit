@@ -106,3 +106,16 @@
 
 + Kommunikation scheint gelungen, wenn sich die Kommunikationspartner verstanden haben
 + 
+
+## Schenk - Mensch-Maschine-Kommunikation
+
++ Eingenschaften von interaktiven Systemen
+  + intuitive Ein- / Ausgabetechniken
+  + hohes Maß an Interaktivität durch Benutzerfreundliche Schnittstelle und Dialogfähigkei
+  + intelligentes Systemverhalten 
+
+### Dialoggestaltung
+
++ Dialog ensteht, wenn Maschine in Kooperation mit dem Menschen eine Aufgabe bewältigt und dies in mehreren Schritten erfolgen muss
++ verarbeitet Eingaben des Menschen und meldet Status der Maschine / Aufgabe zurück
++ 
