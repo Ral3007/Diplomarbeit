@@ -12,10 +12,10 @@
 \contentsline {subsection}{\numberline {2.2.5}St\IeC {\"o}rungsdiagnose}{6}{subsection.2.2.5}
 \contentsline {section}{\numberline {2.3}Kollaboration}{7}{section.2.3}
 \contentsline {section}{\numberline {2.4}Kommunikation}{7}{section.2.4}
-\contentsline {section}{\numberline {2.5}Assistenz}{7}{section.2.5}
+\contentsline {section}{\numberline {2.5}Assistenz}{8}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Anforderungen an digitale Assistenzsysteme}{8}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Einsatz von digitaler Assistenz}{8}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Assistenzsysteme}{9}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.2}Einsatz von digitaler Assistenz}{9}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Assistenzsysteme}{10}{subsection.2.5.3}
 \contentsline {section}{\numberline {2.6}Gestaltung von Mensch-Maschine-Schnittstellen}{13}{section.2.6}
 \contentsline {subsection}{\numberline {2.6.1}Ergonomisch gute Gestaltung}{13}{subsection.2.6.1}
 \contentsline {subsection}{\numberline {2.6.2}Individualisierung}{14}{subsection.2.6.2}

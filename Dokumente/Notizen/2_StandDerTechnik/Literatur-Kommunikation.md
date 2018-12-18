@@ -118,4 +118,25 @@
 
 + Dialog ensteht, wenn Maschine in Kooperation mit dem Menschen eine Aufgabe bewältigt und dies in mehreren Schritten erfolgen muss
 + verarbeitet Eingaben des Menschen und meldet Status der Maschine / Aufgabe zurück
++ Aufgabe ist zu betrachten
++ Entwicklung von Dialogen auf Basis von Zustandsautomaten.
++ intelligente Dialogsysteme
+  + Expertensysteme
+  + 
+
+## herczeg - interaktionsdesign
+
 + 
+
+## Stary - Interaktive Systeme
+
++ Kommandosprachen
+  + erleichtern Interaktion mit Computersystem
++ Masken
+  + Bildschirmausschnitt, der die strukturierte Eingabe von Daten unterstützt
++ Menüs
+  + Menge von Operationen
++ Piktorgramme
++ direkte Manipulation
+  + drag and drop
+  + 
