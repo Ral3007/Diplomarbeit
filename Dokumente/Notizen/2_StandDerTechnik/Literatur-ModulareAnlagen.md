@@ -26,7 +26,7 @@
 + Beim Anschließen der Module muss ein Plausibilitätcheck durchgeführt werden
 + Sicherheitsbetrachtung bleibt Einzelfallbetrachtung
   + Schutzeinrichtungen der Module müssen mit gehandhabten Stoffen kombiniert werden
-+ besondere Herausforderungen: modulübergreifende Sicherheitskreise (ist nicht mehr relavent! Module sollen/müssen eigensicher sein!)
++ besondere Herausforderungen: modulübergreifende Sicherheitskreise (ist nicht mehr relavent? Module sollen/müssen eigensicher sein!)
 + HMI-System und Archiv
   + Fließbilder mit dynamischen Anzeigen von Prozess- und Gerätezuständen
   + Darstellung von Verriegelungen
@@ -166,7 +166,7 @@
 + Art der Raltion
   + Allow:
     + hat Zustand eines Service als Quelle
-    + Zustand eines anderen Service als Ziel
+    + Zustandsübergang eines anderen Service als Ziel
     + Ziel-Zustandübergang darf nur vorgenommen werden, wenn der Quell-Zustand aktiv ist
     + Service darf nur gestartet werden, wenn anderer Service in bestimmten Zustand
   + Prohibit
@@ -184,5 +184,9 @@
 + 
 
 ## Obst - Beschreibung von Prozessmodulen
+
++ 
+
+## Hohmann - Modules in process industry
 
 + 

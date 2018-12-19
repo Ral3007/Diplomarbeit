@@ -7,14 +7,22 @@
 %%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Modulare Anlagen}
-Aufgrund immer kürzerer Produkteinführungszeiten werden Modularisierungskonzepte entwickelt. Die Modularisierung ermöglicht eine höhere Flexibilität und beschleunigt Konzeption, Engineering, Aufbau und Inbetriebnahme der Anlage \cite{Urbas2012}. Ein Modul ist eine geschlossene funktionale Einheit und stellt eine verfahrenstechnische Grundfunktion als Dienst der Prozessführungsebene (PFE) zur Verfügung. Die Grundfunktionalitäten der PFE müssen unterstützt werden \cite{Bernshausen2016}
+Aufgrund immer kürzerer Produkteinführungszeiten werden Modularisierungskonzepte entwickelt. Die Modularisierung ermöglicht eine höhere Flexibilität und beschleunigt Konzeption, Engineering, Aufbau und Inbetriebnahme der Anlage \cite{Urbas2012}. Ein Modul ist eine geschlossene funktionale Einheit und stellt eine verfahrenstechnische Grundfunktion als Dienst der Prozessführungsebene (PFE) zur Verfügung. Die Grundfunktionalitäten der PFE müssen unterstützt werden. \cite{Bernshausen2016}
 \begin{itemize}
 \item \textbf{Mensch-Maschine-Schnittstelle:} Übertragung der Daten zur Anzeige und Bedienung
 \item \textbf{Steuern und Überwachen:} Übertragung der internen Zustände des Moduls
 \end{itemize}
 
-In der Namur-Empfehlung NE 148 \cite{NAMURArbeitskreis1.122013} ist beschrieben, welche Daten an das übergeordnete Automatisierungssystem übertragen werden und welche dem Modullieferanten zur Wartungsunterstützung zur Verfügung stehen. Die Daten für das übergeordnete Automatisierungssystemen umfassen unter anderem die Verriegelungs-, Steuerungs- und Reglungsstruktur, die Prozess- und Sollwerte sowie den Status des Moduls / der Services. Für die Wartungsunterstüzungen werden nur hersteller- und modulspezifische und keine prozessspezifischen Daten übertragen.
+In der Namur-Empfehlung NE 148 \cite{NAMURArbeitskreis1.122013} ist beschrieben, welche Daten an das übergeordnete Automatisierungssystem übertragen werden und welche dem Modullieferanten zur Wartungsunterstützung zur Verfügung stehen. Die Daten für das übergeordnete Automatisierungssystemen umfassen unter anderem die Verriegelungs-, Steuerungs- und Regelungsstruktur, die Prozess- und Sollwerte sowie den Status des Moduls / der Services. Für die Wartungsunterstüzungen werden nur hersteller- und modulspezifische und keine prozessspezifischen Daten übertragen.
 
+Die Funktionalitäten der Module sind in Services gekapselt und werden zustandsbasiert gesteuert. Diese Services können nicht nur modulintern, sondern auch modulübergreifend Abhängigkeiten aufweisen. Die Abhängigkeiten werden in 4 Relationen eingeteilt.
+\begin{itemize}
+\item \textbf{Allow:} Service 2 darf nur gestartet werden, wenn Service 1 in einem bestimmten Zustand ist.
+\item \textbf{Prohibit:} Service 2 darf nur gestartet werden, wenn Service 1 NICHT in einem bestimmten Zustand ist.
+\item \textbf{Change:} Service 1 darf zu Betriebsart 2 in Zustand 2 nur wechseln, wenn Service 1 in Betriebsart 1 in Zustand 1 ist.
+\item \textbf{Sync:} Service 2 wechselt in Zustand 2, wenn Service 1 in Zustand 1 wechselt.
+\end{itemize} 
+Die Deklaration der Services und ihrer Betriebsarten sind modulspezifisch und müssen vom Modulingenieur angegeben werden. \cite{Ladiges2018}
 
 \section{Problemlösen}
 Die Gesellschaft geht davon aus, dass Probleme selbstverständlich existieren. Probleme entstehen allerdings erst, wenn eine konkrete Zielsetzung vorhanden ist, die sich nicht durch Routine erreichen lässt. Ohne Handlungsziele gäbe es keine Probleme. \cite{Funke2015, Betsch2011,  Dorner1984}
@@ -207,8 +215,6 @@ Mit Schnittstelle ist gemeint, wie und mit welchen Mitteln Informationen dem Nut
 Die richtige Gestaltung der Mensch-Maschine-Schnittstelle ist essenziell. Durch die steigende Komplexität von Maschinen und Anlagen wird meist auch die Bedienung komplexer. Umso wichtiger ist eine nutzerfreundliche Gestaltung. Diese orientiert sich maßgeblich an den Bedürfnissen des Nutzers, welche in den Entwicklungsprozess mit einzubeziehen sind. Es gibt eine Vielzahl an Richtlinien, die erläutern, was eine ergonomisch gute Gestaltung von Benutzerschnittstellen ausmacht. Die gute Gestaltung soll Benutzungsprobleme vermeiden.
 
 \subsection{Ergonomisch gute Gestaltung}
-
-
 In der DIN EN ISO 9241 sind Empfehlungen für die Ergonomie der Mensch-System-Interaktion aufgelistet. An dieser Stelle wird nur auf einige für diese Arbeit relevante Aspekte eingegangen. So sind in Teil 110 die Grundsätze der Dialoggestaltung beschrieben:
 \begin{itemize}
 \item \textbf{Aufgabenangemessenheit:} Funktionalität und Dialog sollen den Eigenschaften der Arbeitsaufgabe entsprechen.
@@ -260,10 +266,5 @@ Um diesen Anforderungen gerecht zu werden wurden entsprechende Leitlinien formul
 
 \subsubsection*{Adaptive Systeme}
 Eine Möglichkeit Individualisierung umzusetzen sind adaptive Systeme. Diese erkennen das Nutzer- und/oder Systemverhalten und passen sich entsprechend an. Diese Anpassungen sind jedoch mit Vorsicht zu genießen, da es viele Charakteristika gibt, die einen Erfolg oder einen Misserfolg hervorrufen können. x fand in seiner Studie heraus, dass die präzise Anpassung an den jeweiligen Menschen, neben der Vorhersagbarkeit, ein wichtiger Faktor ist. Das größte Problem der adaptiven Systeme ist die Identifizierung der Bedingungen für die adaptiven Funktionen. So müssen sowohl die Abweichungen von Mensch, als auch von Maschine erfasst werden. Der Status der Maschine ist sehr eindeutig und kann mit bestimmten Pattern verglichen werden. Der Status des Menschen, beispielsweise die Aufmerksamkeit des Operators, lässt sich nur schwer messen. Dies ist meist nur über Interaktionen mit dem System möglich.
-
-
-
-Auch bei einer individualisierten Mensch-Maschine-Schnittstelle müssen die Grundsätze der ergonomisch guten Gestaltung eingehalten werden. 
-Individualisierung durch den Menschen. Individualisierung durch die Maschine.
 
 
