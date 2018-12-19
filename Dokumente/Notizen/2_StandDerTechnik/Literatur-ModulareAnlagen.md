@@ -6,8 +6,16 @@
 + Steigerung der Flexibilität
 + Modul sollte möglichst breit angelegt sein
 + Um die vorhandenen Anlagenkomponenten effizienter in Instandhaltungsmaßnahmen miteinzubeziehen, ist es für den Anlagenbetreiber unabdingbar, den Gesundheitszustand der Assets mithilfe der daraus resultierenden Diagnoseinformationen zu verwalten und zu bewerten.
-
 + Es ist darauf hinzuweisen, dass nur diejenigen Diagnoseinformationen im übergeordneten Leitsystem zur Verfügung stehen, die die Module bereitstellen!!!
++ zustandbasierte Steuerung
+  + Zustandsmodell ist zugänglich
+  + einzige Schnittstellen zur logischen Verbindung zwischen den Modulen
++ relevante Prozess-informationen
+  + aktueller Zustand des Moduls
+  + Zustandsüberwachung im Hinblick auf zustandsbasierte Instandhaltung
+  + Fokus auf produktrelevanten Daten: Qualität, Fortschritt des Produktionsablaufs
+  + Fokus auf betriebsrelevante Daten: Energieverbrauch, Auftragslage & Scheduling
++ 
 
 
 
@@ -120,11 +128,61 @@
   + Wartungszwecke
   + Zugriff auf hersteller- und modulspezifische Daten
 + Bezug zwischen örtlicher Kennzeichnung un der Kennzeichnung im übergeordneten Automatisierungssystem muss bekannt gemacht werden (für Bedin- und Wartungspersonal)
-+ 
+
+### Optimierung
+
++ Umbau/ Austausch von Feldgeräten nicht möglich
++ Steruerungssysteme: Verriegelungen und Reglerstrukturen kennt nur der Hersteller
 
 ### Wartung, Instandhaltung
 
 + Absprache bezüglich möglicher Wartungseingriffe muss mit Liferanten getroffen werden
 + Wartung muss durchgehend dokumentiert sein
 + Nachteilig, wenn Betreiber nicht mehr die Rechte zur eigenständigen Fehlerbehebung besitzt
++ 
+
+## Urbas - Modularisierung und Prozessführung
+
++ ein Modul enthält alle für die Implementierung der Prozessfunktion notwendigen Equipments, alle Instrumente und Automatisierungsfunktionen
+
+## Ladiges - Entwurf, Modellierung und Verifikaton von Serviceabhängigkeiten
+
++ Modulare Prozessanlagen bestehen aus Modulen mit definierten (Grund-) Funktionen
++ Funktionen wurden implementierut und werden der PFE zur Verfügung gestellt
++ MTP beinhaltet
+  + Beschreibung der Modulfunktionalitäten
+  + sämtliche Kommunikationkanäle und -variablen
+  + alle notwendigen Infromationen zur automatisierten HMI-Generierung
++ die Funktionlitäten der Module werden in Dienste/Service gekapselt
++ Voraussetung für automatisierungstechnische Intergrationsengineering: Serviceorchestrierung und -parametrierung
++ zustandbasierte Steuerung von Services
++ Bedarf an verschiedenen Modul- und Service-Betriebsarten
++ verfahrenstechnische Services lönnen Abhängigkeiten aufweisen
++ Abhängigkeiten können modulintern, aber auch modulübergreifend bestehen
++ Informationen zur Deklarationen aller Services und Betriebsarten sind Modulspezifisch. Müssen vom Modulingenieur angegeben werden
++ aus Deklaration Rupf für Serviceabhängigkeitsmatrix
++ überfüung der Matrix in Petri-Netz
++ Quelle und Ziel kann Zustand oder Zustandsübergang sein
++ Art der Raltion
+  + Allow:
+    + hat Zustand eines Service als Quelle
+    + Zustand eines anderen Service als Ziel
+    + Ziel-Zustandübergang darf nur vorgenommen werden, wenn der Quell-Zustand aktiv ist
+    + Service darf nur gestartet werden, wenn anderer Service in bestimmten Zustand
+  + Prohibit
+    + Quelle: Zustand eines Service
+    + Ziel: Zustandübergang eines anderen Service
+    + Ziel-Übergang darf nur stattfinden, wenn Quell-Zustand NICHT aktiv
+  + Change
+    + Betriebsrtenwechsl
+    + Quelle: Service in einer Betriebsart mit Zustand
+    + Ziel: Service n anderer Betrisbart mit Zustand
+  + Sync
+    + Synchronisation von Zustandswechseln zwischen Services
+    + ein Service startet z.B. gleichzeitig einen aderen Service
++ Bedingungen für Zustandwechsel können von mehreren Quellen abhängen
++ 
+
+## Obst - Beschreibung von Prozessmodulen
+
 + 
