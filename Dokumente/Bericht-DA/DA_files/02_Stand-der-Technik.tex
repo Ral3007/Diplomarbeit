@@ -7,6 +7,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Modulare Anlagen}
+\todo{Einführen in allgemeine Prozessindustrie}
+
 Aufgrund immer kürzerer Produkteinführungszeiten werden Modularisierungskonzepte entwickelt. Die Modularisierung ermöglicht eine höhere Flexibilität und beschleunigt Konzeption, Engineering, Aufbau und Inbetriebnahme der Anlage \cite{Urbas2012}. Ein Modul ist eine geschlossene funktionale Einheit und stellt eine verfahrenstechnische Grundfunktion als Dienst der Prozessführungsebene (PFE) zur Verfügung. Die Grundfunktionalitäten der PFE müssen unterstützt werden. \cite{Bernshausen2016}
 \begin{itemize}
 \item \textbf{Mensch-Maschine-Schnittstelle:} Übertragung der Daten zur Anzeige und Bedienung
@@ -81,10 +83,9 @@ Der \textbf{Entscheidungfokus} bezieht sich auf die Frage, welche Faktoren welch
 Es gibt viele Faktoren, die den Prozess des Problemlösens beeinflussen. Es kann zwischen äußeren Faktoren, wie die Ausgangssituation und die verfügbaren Operatoren, und den inneren Faktoren, wie Motivation und Emotionen, unterschieden werden.
 
 \subsubsection*{Äußere Faktoren}
-
-
-
-In x sind zudem einige Situationsfaktoren beschrieben, die beim komplexen Problemlösen eine Relevanz haben.
+Für das Problemlösen sind die Elemente Ausgangszustand, Zielzustand und die vorhandenen Operatoren entscheidend. Der Ausgangszustand ist häufig nicht konkret und als geschlossenes Problem beschreibbar. Zielzustand und vorhandene Operatoren beeinflussen sich wechselseitig. Bei einem konkreten Ziel kann nach bestimmten Operatoren gesucht werden. Stehen nur bestimmte Operatoren zur Verfügung so können nur bestimmte Zielzustände in Betracht gezogen werden. \cite{Funke2015}
+\\ \\
+Zudem beschreibt Funke \cite{Funke2015} einige Situationsfaktoren, die beim komplexen Problemlösen eine Relevanz haben.
 
 Die \textbf{Art der Aufgabenstellung} zeigt beispielsweise unterschiedliche Ergebnisse beim Wissenserwerb und der Steuerleistung. Personen die nur beobachten erwerben Wissen über die Systemvariablen und deren Beziehungen, aber lernen nicht, wie man das System kontrolliert. Personen die aktiv eingreifen können, erzielen eine besser Steuerleistung können aber die Zusammenhänge nicht so gut verbalisieren.
 
@@ -102,9 +103,7 @@ Die hohe \textbf{Transparenz} eines Systems kann zu besseren Leistungen führen.
 Es wird davon ausgegangen, dass die \textbf{Art der Informationsdarbietung} einen Einfluss auf die Informationsverarbeitung hat.
 
 \subsubsection*{Innere Faktoren}
-Die \textbf{Motivation} eines Menschen setzt erst den Problemlöseprozess in Gang. \cite{Dorner1984} Wichtig ist dabei das Motiv des Problemlösers in Zusammenhang mit der aktuellen Situation. Daraus entsteht die Motivation.
-
-Dorner stellt im Zusammenhang mit dem Problemlösen das Kontrollmotiv vor. Wenn etwas nicht in den Erwartungshorizont des Menschen passt, dann kann dies einen Mangelzustand hervorrufen. 
+Die \textbf{Motivation} eines Menschen setzt erst den Problemlöseprozess in Gang. \cite{Dorner1984} Wichtig ist dabei das Motiv des Problemlösers in Verbindung mit der aktuellen Situation. Dorner bezeichnet im Zusammenhang mit dem Problemlösen das Kontrollmotiv als besonders bedeutsam. Wenn etwas nicht in den Erwartungshorizont des Menschen passt, dann kann dies einen Mangelzustand hervorrufen. \todo{eventuell weiter ausformulieren}
 
 Ebenfalls einen Einfluss haben \textbf{Emotionen}.
 Diese wirken sich auf den Ablauf des Denkens aus. So vermindern negative Emotionen die Anzahl an Selbstreflektionen beim Denken und rufen Notfallreaktionen hervor. Positive Emotionen können hingegen zu Nachlässigkeit und Oberflächlichkeit führen. Wie groß der Einfluss der Emotionen auf den Problemlöseprozess ist hängt von dem Selbstkonzept des Individuums ab. Das Selbstkonzept beschreibt die Kompetenz, die in heuristische und epistemische Kompetenz eingeteilt ist. Die heuristische Kompetenz beschreibt das Zutrauen, das jemand in seine Fähigkeiten hat mit Problemsituationen umzugehen für die es keine eindeutige Verhaltensweise gibt. Die epistemische Kompetenz zeichnet sich durch das Zutrauen, eine Situation aufgrund des vorhandenen Wissens zu bewältigen, aus. Zusammen ergibt sich daraus die aktuelle Kompetenz. \cite{Dorner1984}
@@ -118,18 +117,20 @@ Der Problemlöseprozess teilt sich in fünf Phasen auf. Die erste ist die \texti
 \item Verfügbarkeit von Alternativen
 \item Angemessenheit der Auflösung
 \end{enumerate}
-Nach der Planerstellung folgt in Phase vier die \textit{Planausführung}. Eine wichtige Voraussetzung ist dabei die Planüberwachung und Fehlerdiagnostik. \todo{hört aprupt auf} \cite{Betsch2011}
+Nach der Planerstellung folgt in Phase vier die \textit{Planausführung}. Eine wichtige Voraussetzung ist dabei die Planüberwachung und Fehlerdiagnostik. Treten bei der Planausführung Störungen auf so sind möglicherweise Planänderungen vorzunehmen. Wie die Störungen diagnostiziert werden können ist in Abschnitt \ref{2-Störungsdiagnose} beschrieben.
+
+Abschließend erfolgt in Phase fünf die Ergebnisbewertung. Dabei wird analysiert in wie weit formulierten Ziele aus der Zielanalyse erfolgreich umgesetzt werden konnten. Je nach Ergebnis der Evaluation kann das Ziel verworfen oder ein neuer Lösungsansatz gefunden werden.
+\cite{Betsch2011}
 
 \subsection{Störungsdiagnose}
-Bei der Störungsdiagnose ist im Störfall eine effiziente Problemlösung gefragt. Das Wissen und Handeln des Individuums steht dabei im Kontext technischer Systeme. Es werden zwei Wissensarten unterschieden. \todo{überarbeiten}
-\begin{itemize}
-\item \textbf{Strukturwissen:} 
-	\begin{itemize}
-	\item \textbf{Faktenwissen:} Funktionsweise und Organisation der verschiedenen Komponenten ist bekannt. Ohne diese Wissen ist eine gezielte Systemsteuerung nicht möglich.
-	\item \textbf{Displaywissen:} Kenntnis über verschiedene Bedienelement und deren Funktionsweise.
-	\item \textbf{Anlagenwissen:} Kenntnis der einzelnen Komponenten des Systems.
-	\end{itemize}
-\end{itemize}
+\label{2-Störungsdiagnose}
+Bei der Störungsdiagnose ist im Störfall eine effiziente Problemlösung gefragt. Das Wissen und Handeln des Individuums steht dabei im Kontext technischer Systeme. Es werden die beiden Wissensarten Strukturwissen und Kontroll- und Steuerungswissen unterschieden. \cite{Funke2015}
+
+Das Strukturwissen bezieht sich auf die Schnittstellenebene, dem Interface, und die Systemebene. Es beinhaltet Faktenwissen über die Funktionsweise und Organisation der Komponenten und deren möglichen Zustände. Es ist möglich, dass ein Operator umfassende Kenntnisse über das Interface hat, aber über keinerlei Systemwissen verfügt. Eine Steuerung des Systems ist mit reinem Strukturwissen nicht möglich.
+
+Das Kontroll- und Steuerungswissen bezieht sich auf Regeln, anhand derer die Zustände des Systems mit den Zielen des Operators durch Systemeingriffe verknüpft werden können. X teilt das Wissen in mehrere Ebenen. Auf der Ebene des Eingriffswissens führt der Operator verfügbare Prozeduren ohne weiteres Wissen über das System aus. Dies ähnelt einer black-box. Auf der Ebene des Kausalwissens verfügt der Operator zusätzlich über Kenntnisse des Ursache-Wirkungsgefüges. Welches Wissen wichtig ist hängt von den Aufgaben des Operators ab.
+
+Beim Bearbeiten von komplexen Problemen muss anhand der Anforderungen zwischen den verschiedenen Wissensarten flexibel gewechselt werden können. 
 
 \section{Kollaboration}
 Kollaboration bietet die Chance verteilte Informationen für das Lösen von Problemen zu nutzen und unterscheidet sich von reiner Kooperation. Mit Kooperation ist eine Arbeitsteilung gemeint, bei der jede Person eine konkrete Aufgabe zugeteilt wird und die Ergebnisse zum Schluss zusammen getragen werden \cite{Jermann2004}. Kollaboration ist durch Symmetrie von Wissen, einem gemeinsamen Ziel und der Zusammenarbeit gekennzeichnet \cite{Rummel1958}. Dabei spielt insbesondere die Interaktion untereinander eine große Rolle, da diese den kollaborativen Lerneffekt fördert \cite{Jermann2004}.
@@ -145,7 +146,7 @@ Während Menschen direkt kommunizieren können, ist bei der Kommunikation mit ei
 \item \textbf{Fenster:} Abgegrenzter steuerbarer Bereich.
 \item \textbf{Direkte Manipulation:} Objekte können direkt bearbeitet werden. Beispiele sind das Verändern der Größe oder das Verschieben von Objekten.
 \end{itemize}
-Damit die Kommunikation zwischen Mensch und System möglich ist müssen geeignete Mittel zur Verfügung stehen.
+Damit die Kommunikation zwischen Mensch und System möglich ist müssen geeignete Mittel zur Verfügung stehen, die in Abschnitt x konkreter thematisiert sind.
 
 \section{Assistenz}
 Laut Duden bedeutet Assistenz Beistand oder Mithilfe. Das Verb assistieren wird mit den Worten \glqq jemanden nach dessen Anweisungen zur Hand gehen, bei einer Arbeit oder Tätigkeit behilflich sein\grqq \ beschrieben. In der Literatur finden sich eine Vielzahl von Definitionen. Diese reichen vom Schraubendreher, über autonome Ausführung von Funktionen bis hin zur individualisierten Nutzerunterstützung \cite{Ludwig}. In x wird Assistenz mehrere Stufen anhand des Autonomiegrades eingeteilt(, an denen sich diese Arbeit im weiteren Verlauf orientiert):
