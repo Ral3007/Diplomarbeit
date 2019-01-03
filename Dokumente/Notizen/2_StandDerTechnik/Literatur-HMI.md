@@ -762,3 +762,137 @@
 ## Browne - Adaptive User Interface
 
 + 
+
+## Park - Model-Based Approach
+
++ UI Development in viele Layer zerlegen
++ UI Framework in 3 Layer
+  + abstarct ui: was der Nutzer tatsächlich mit dem System macht
+  + concrete ui: mehr spezifische grafische Repräsentation; kann mehrere Desingalternativen beinhalten
+  + final ui: finale Designentscheidung; Design wird spzifisch mit mehr Details beschrieben
++ Vorteile (Benefits) von modelbasiertem UI
+  + Reusability
+    + wiederverwendung von Models, Meta-Models und Transformations of UI components durch aufteilen der Belange (Concerns) von jedem Level
+  + Run-time Adaptivity
+    + verschiedene Adaptionen während der Laufzeit: most suitable
+    + das layerd Model strukturiert eine höhreres Level Ziel expliziet 
+  + Modifiablitity
+    + man hat die Wahl von alternativen Desings oder man kann das aktuelle Design ändern
++ Abstract Requirements for AUI
+  + werden beschrieben mit den höchsten upper-level Zielen
+  + sind general Anfoderungen
++ Concrete Requirements for AUI
+  + abhänging von dem gebiet wo die Software hin gehört
+  + charakteristiks, unique features und standards der spezifischen domain area sollten berücksichtigt werden
++ Final Requirements fpr AUI
+  + sind domain und machine abhängig
+
+
+
+## Nilsson - Model-based user interface adaption
+
++ Verwendung eines Architektur centrierten Vorgehen
+  + Ausnutzen von Archtektur Modellen zum Schlussfolgern und controllieren der adaption at run time
+  + verwendung von generischen Middleware Komponenten zur Realisierung des adaptionsmechanismus
++ Middelware hat 3 Hauptfunktionen
+  + detect context changes
+  + Urteilt über die Veränderungen und trifft entscheidungen welche Adaption ausgeführt werden soll
+  + führt die ausgewählte Adapiton aus
++ Framework architecture model
+  + bedient den Bedarf von Adaptions Manager und Konfigurator um die eingebaute Variabilität im Framework zu verstehen und wie die applications variants konfiguriert werden müssen mit den gegebene properties
++ 
+
+## Ahmed - Model-based user interface engnieering
+
++ support die Spezifikationen und das Design von interaktiven Systemen auf einem semantischen, konzeptuellen un abstrakten Level
+
++ Klassifikation von Mustern entsprechend der Models muss eingeführt werden
+
++ Die Klassifikation sollte zwischen building block für Models und Patters, die für die Transformation verantwortlich sind, unterscheiden
+
++ Tool Support, dass den Entwickler beim Aussuchen der Patterns unterstützt
+
++ Modelbasiertes UI Desing ist definiert als ein Prozess Models zu Kreieren und zu verfeinern
+
++ Modellbasiert
+
++ Domain Model
+
+  + kapselt die wichtigen Einheit eine application domain mit seinen Attributen, Methoden und relationen
+  + definiert Objekte und Funktionalitäten
+
+  + User Model
+    + erfasst das Wesen der statischen und dynamischen Charakteristiken des Nutzers
+  + Task Model
+    + spezifiziert, was der Nutzer tut oder tuen will und warum
+
++ Environment Model
+
+  + spezifiziert den physikalischen und organisatorischen Kontext der Interaktion
+  + Platform Model
+    + beschriebt physikalische Charkateristiken der Zeilplatform
+
++ Dialog Model
+
+  + spezifiziert, wann der endnutzer funktionen und interaktionsmedien  aktivieren kann
+  + wann der Endnutzer Eingaben auswählen oder spezifizieren kann
+  + wann der Computer den entnutzer fragen und informationen präsentieren darf
+
++ Presentation Model
+
+  + beschreibt das visuelle Erscheinungsbild des user interface
+
+### Patterns
+
++ Task and feature Patterns
+  + beschreiben hierarchisch strukturierte Task Fragmente
+  + Die Fragmente können verwendet werden als Task building block für schrittweises erstellen der envisioned Task model
++ Dialog Model
+  + employed to hel bei Gruppieren der Aufgaben
+  + vorschlagen von sequenzen zwischen den Dialogsichten (dialog views)
++ Presentation Patterns
+  + map complex tasks auf ein vordefiniertes Set an Interaktionselementen, die im Presentationsmodel identifierziert wurden
++ Layout Patterns
+  + establish certeain style
+
+## Meixner - Modellbasierte Entwicklung von benutzerschnittstellen
+
++ Ziel von Model Driven Architectur: Verbesserung der Protierbarkeit und Wiederverwendung von Modellen
++ Modellbasiert: avstrakte Darstellung von Benutzerschnittstellen
++ Entwicklungsaufwand für unterschiedliche Plattformen wird deutlich reduziert
++ es können verschiedene Modelle mit unterschiedlichen Abstraktionsstufen zur Entwicklung vorliegen
++ können somit gezielt in der jeweiligen Phase eines modellbaiserten Entwicklungsprozess verwendet werden
++ Strikte Trennung zwischen der Darstellung der Benutzerschnittstelle und der Applikationslogik
++ Benutzerschnittstelle kann von einem Designer entwicklet werden
++ von einem Informatiker mit Funktionen angereichert werden
++ Ziel eines Modells: Zusammenhänge und Zusammenwirken in der Realität durchschaubar machn und Entwicklungen /Verhaltensweisen vorhersehbar machen
++ es werden Abstraktionen oder Vereinfacherungen der Realität durchgeführt
++ 3 Kernmodelle
+  + Aufgabenmodell
+    + Struktur, die Aufgaben, Tätigkeiten und Handlugen einzelner Nutzer beschreibt (meist hierarichisch)
+    + Aufgaben werde in Unteraufgaben gegleidert
+    + Entwicklung im Rahmen der Aufgabenanalyse
+    + 
+  + Dialogmodell
+    + beschreibt die Interaktionen des Nutzers mit der Benutzerschnittstelle und deren Auswirkungen
+    + verbindet Aufgabenmodell und Präsentationsmodell
+    + stellt dynamischen Teil bei Ausführung von Aufgaben des Nutzers dar
+    + ist ent mit Darstellung des Präsentationsmodells verknüpft
+    + 
+  + Präsentationsmodell
+    + darstellung der eigentlichen Abbildung der Benutzerschnittstelle
+    + Repräsentation häng von den Bedingungen des Ausgabemediums ab
+    + setzt sich aus abstraktem und konkretem Präsentationsmodell zusammen
+    + 
+
+### User Interface Markup Language
+
++ deklarative Beschreibung einer Benutzerschnittstelle
++ Ziel: Beschreibung jeder möglichen Benutzerschnittstelle
++ soll folgende Fragen beantworten können:
+  + Aus welchen Komponenten besteht eine Benutzerschnittstelle?
+  + Wie kann diese Komponente dargestellt werden?
+  + Wie verhalten sich die einzelnen Komponenten?
+  + Wie können die Komponenten mit externen Komponenten verbunden werden?
+  + Wie können Benutzerschnittstellen auf eine Zielplattform abgebildet werden?
++ 

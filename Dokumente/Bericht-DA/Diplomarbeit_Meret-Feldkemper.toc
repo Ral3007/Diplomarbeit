@@ -7,29 +7,32 @@
 \contentsline {section}{\numberline {2.2}Probleml\IeC {\"o}sen}{3}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Unterscheidung von Problemen}{4}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Arten von Probleml\IeC {\"o}sern}{5}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Einfl\IeC {\"u}sse}{5}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Phasen des Probleml\IeC {\"o}sens}{6}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}St\IeC {\"o}rungsdiagnose}{7}{subsection.2.2.5}
-\contentsline {section}{\numberline {2.3}Kollaboration}{7}{section.2.3}
-\contentsline {section}{\numberline {2.4}Kommunikation}{7}{section.2.4}
-\contentsline {section}{\numberline {2.5}Assistenz}{8}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Anforderungen an digitale Assistenzsysteme}{9}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Einsatz von digitaler Assistenz}{9}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Assistenzsysteme}{10}{subsection.2.5.3}
-\contentsline {section}{\numberline {2.6}Gestaltung von Mensch-Maschine-Schnittstellen}{14}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Ergonomisch gute Gestaltung}{14}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Individualisierung}{15}{subsection.2.6.2}
-\contentsline {chapter}{\numberline {3}Analyse}{18}{chapter.3}
-\contentsline {section}{\numberline {3.1}Informationsbedarf}{18}{section.3.1}
-\contentsline {section}{\numberline {3.2}Informationsanpassung}{18}{section.3.2}
-\contentsline {section}{\numberline {3.3}Interaktionsmechaniken}{18}{section.3.3}
-\contentsline {chapter}{\numberline {4}Konzept}{19}{chapter.4}
-\contentsline {section}{\numberline {4.1}Konzeptuelles Design}{19}{section.4.1}
-\contentsline {section}{\numberline {4.2}physikalisches Design}{19}{section.4.2}
-\contentsline {chapter}{\numberline {5}Implementierung}{20}{chapter.5}
-\contentsline {chapter}{\numberline {6}Verifikation}{21}{chapter.6}
-\contentsline {chapter}{\numberline {7}Zusammenfassung}{22}{chapter.7}
-\contentsline {chapter}{\numberline {8}Ausblick}{23}{chapter.8}
+\contentsline {subsection}{\numberline {2.2.3}Einfl\IeC {\"u}sse}{6}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Phasen des Probleml\IeC {\"o}sens}{7}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}St\IeC {\"o}rungsdiagnose}{8}{subsection.2.2.5}
+\contentsline {section}{\numberline {2.3}Kollaboration}{8}{section.2.3}
+\contentsline {section}{\numberline {2.4}Kommunikation}{9}{section.2.4}
+\contentsline {section}{\numberline {2.5}Assistenz}{10}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Anforderungen an digitale Assistenzsysteme}{10}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Einsatz von digitaler Assistenz}{10}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Assistenzsysteme}{11}{subsection.2.5.3}
+\contentsline {section}{\numberline {2.6}Gestaltung von Mensch-Maschine-Schnittstellen}{15}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Ergonomisch gute Gestaltung}{15}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Individualisierung}{16}{subsection.2.6.2}
+\contentsline {section}{\numberline {2.7}Adaptive Systeme}{18}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Multiagentensysteme}{18}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}Modellgest\IeC {\"u}tztes User Interface}{19}{subsection.2.7.2}
+\contentsline {chapter}{\numberline {3}Analyse}{20}{chapter.3}
+\contentsline {section}{\numberline {3.1}Informationsbedarf}{20}{section.3.1}
+\contentsline {section}{\numberline {3.2}Informationsanpassung}{20}{section.3.2}
+\contentsline {section}{\numberline {3.3}Interaktionsmechaniken}{20}{section.3.3}
+\contentsline {chapter}{\numberline {4}Konzept}{21}{chapter.4}
+\contentsline {section}{\numberline {4.1}Konzeptuelles Design}{21}{section.4.1}
+\contentsline {section}{\numberline {4.2}physikalisches Design}{21}{section.4.2}
+\contentsline {chapter}{\numberline {5}Implementierung}{22}{chapter.5}
+\contentsline {chapter}{\numberline {6}Verifikation}{23}{chapter.6}
+\contentsline {chapter}{\numberline {7}Zusammenfassung}{24}{chapter.7}
+\contentsline {chapter}{\numberline {8}Ausblick}{25}{chapter.8}
 \contentsfinish 
-\contentsline {chapter}{Anhang \numberline {A}Anhang}{25}{Anhang.a.A}
-\contentsline {chapter}{Literaturverzeichnis}{26}{chapter*.20}
+\contentsline {chapter}{Anhang \numberline {A}Anhang}{27}{Anhang.a.A}
+\contentsline {chapter}{Literaturverzeichnis}{28}{chapter*.21}
