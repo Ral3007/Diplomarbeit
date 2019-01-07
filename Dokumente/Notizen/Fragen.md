@@ -52,7 +52,14 @@
 
 
 
-## 13.12.2018
+## 07.01.2019
+
+### Stand der Technik
+
++ Prozessindustrie allgemein: Was für Literatur ist da sinnvoll?
++ Thema MTP: Gibt es da eine vernünfitge Aufschlüsselung zu auf die ich Bezug nehmen kann?
+  + gehört das auseinandernehmen des MTP nicht auch mit zur Analyse?
++ 
 
 ### Analyse
 

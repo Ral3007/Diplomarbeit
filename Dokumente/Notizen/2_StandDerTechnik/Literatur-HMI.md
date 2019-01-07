@@ -896,3 +896,31 @@
   + Wie können die Komponenten mit externen Komponenten verbunden werden?
   + Wie können Benutzerschnittstellen auf eine Zielplattform abgebildet werden?
 + 
+
+### Heinze - Aspektorientierte HMI-Adaption
+
++ 
+
+
+
+# User Experience
+
+## Garrett - Die Elemente der User Experience
+
++ Design des Produkt wird von seiner Funktionalität vorgegeben
++ sichtbaren Teile des Produkts (z.B. Knöpfe) werden nicht durch die Funktion bestimmt
++ es geht um Zusammenhänge
++ ästhetisches Design: Schalter hat ansprechende Form und Struktur
++ funkionelles Design: Gerät kann entsprechend genutzt werden
++ UX-Design: ästhetische und funktionale Aspekte können im Zusammenhang genutzt werden
++ wenn Anwender Probleme mit der Bedienung haben: machen sich selber verantwortlich
++ jeder Aspekt von UX sollte eine bewusste Entscheidung sein
++ UX ist für Anwender wichtig
++ ohne positive Erfahrung wird das Produkt nicht genutzt
+
+
+
+## Unger, Chandler - UX Design
+
++ creation and synchronization of the elements that affect users' experience
+

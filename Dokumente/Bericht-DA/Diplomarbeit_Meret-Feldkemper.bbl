@@ -196,6 +196,31 @@
   \field{year}{2003}
 \endentry
 
+\entry{Heinecke2012}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Heinecke}{H.}%
+     {Andreas~M}{A.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HAM1}
+  \strng{fullhash}{HAM1}
+  \field{labelalpha}{Hei12}
+  \field{sortinit}{H}
+  \verb{doi}
+  \verb 10.1007/978-3-642-13507-1
+  \endverb
+  \field{isbn}{978-3-642-13506-4}
+  \field{pages}{386}
+  \field{title}{{Mensch-Computer-Interaktion. Basiswissen f{\"{u}}r Entwickler
+  und Gestalter}}
+  \verb{url}
+  \verb http://link.springer.com/10.1007/978-3-642-13507-1
+  \endverb
+  \field{year}{2012}
+\endentry
+
 \entry{Jermann2004}{thesis}{}
   \name{author}{1}{}{%
     {{}%
@@ -218,6 +243,39 @@
   \endverb
   \field{type}{phdthesis}
   \field{year}{2004}
+\endentry
+
+\entry{Kluwe1997}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kluwe}{K.}%
+     {Rainer~H.}{R.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Sonntag}{S.}%
+     {Karlheinz}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {vdf Hochschulverlag}%
+  }
+  \strng{namehash}{KRH1}
+  \strng{fullhash}{KRH1}
+  \field{labelalpha}{Klu97}
+  \field{sortinit}{K}
+  \field{booktitle}{Störungsmanagement und Diagnosekompetenz:
+  Leistungskritisches Denken und Handeln in komplexen technischen Systemen}
+  \field{pages}{13\bibrangedash 37}
+  \field{title}{Informationsverarbeitung, Wissen und mentale Modelle beim
+  Umgang mit komplexen Systemen}
+  \list{location}{1}{%
+    {Zürich}%
+  }
+  \field{year}{1997}
 \endentry
 
 \entry{Ladiges2018}{article}{}
@@ -425,6 +483,56 @@
   \field{year}{1958}
 \endentry
 
+\entry{DudenAssistenz}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Tulpe}{T.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {Duden online}%
+  }
+  \strng{namehash}{T1}
+  \strng{fullhash}{T1}
+  \field{labelalpha}{Tul}
+  \field{extraalpha}{1}
+  \field{sortinit}{T}
+  \field{title}{Assistenz}
+  \verb{url}
+  \verb https://www.duden.de/node/673565/revisions/1971304/view
+  \endverb
+  \field{urlday}{03}
+  \field{urlmonth}{01}
+  \field{urlyear}{2019}
+\endentry
+
+\entry{DudenAssistieren}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Tulpe}{T.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {Duden online}%
+  }
+  \strng{namehash}{T1}
+  \strng{fullhash}{T1}
+  \field{labelalpha}{Tul}
+  \field{extraalpha}{2}
+  \field{sortinit}{T}
+  \field{title}{assistieren}
+  \verb{url}
+  \verb https://www.duden.de/node/750355/revisions/1783324/view
+  \endverb
+  \field{urlday}{03}
+  \field{urlmonth}{01}
+  \field{urlyear}{2019}
+\endentry
+
 \entry{Urbas2012}{article}{}
   \name{author}{6}{}{%
     {{}%
@@ -474,7 +582,7 @@
   \field{year}{2012}
 \endentry
 
-\entry{Wandke}{article}{}
+\entry{Wandke2005}{article}{}
   \name{author}{1}{}{%
     {{}%
      {Wandke}{W.}%
