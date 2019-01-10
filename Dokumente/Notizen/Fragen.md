@@ -52,7 +52,7 @@
 
 
 
-## 07.01.2019
+## 11.01.2019
 
 ### Stand der Technik
 
@@ -63,7 +63,8 @@
 
 ### Analyse
 
-+ Umfrage, was sich Nutzer von der Assistenz wünschen würden
++ Umfrage, was sich Nutzer von der Assistenz wünschen würden?
++ Kann ich die Analyse Anforderungen rein schreiben, bei denen ich mir unsicher bin, ob ich sie umsetzten kann
 
 ### Implementierung
 
