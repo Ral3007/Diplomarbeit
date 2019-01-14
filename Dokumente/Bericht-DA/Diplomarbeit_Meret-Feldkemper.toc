@@ -1,6 +1,5 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
-\select@language {ngerman}
+\babel@toc {ngerman}{}
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Stand der Technik}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}Modulare Anlagen}{2}{section.2.1}
@@ -26,20 +25,20 @@
 \contentsline {chapter}{\numberline {3}Analyse}{23}{chapter.3}
 \contentsline {section}{\numberline {3.1}Informationsbedarf}{23}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Aufgabenbereiche}{23}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Nutzer}{23}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Personas}{24}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Informationsanpassung}{24}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Individualisierung f\IeC {\"u}r den Menschen}{24}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Anpassung an die Aufgabe}{24}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Interaktionsmechaniken}{25}{section.3.3}
-\contentsline {section}{\numberline {3.4}Anforderungen an das Assistenzsystem}{25}{section.3.4}
-\contentsline {chapter}{\numberline {4}Konzept}{26}{chapter.4}
-\contentsline {section}{\numberline {4.1}Konzeptuelles Design}{26}{section.4.1}
-\contentsline {section}{\numberline {4.2}physikalisches Design}{26}{section.4.2}
-\contentsline {chapter}{\numberline {5}Implementierung}{27}{chapter.5}
-\contentsline {chapter}{\numberline {6}Verifikation}{28}{chapter.6}
-\contentsline {chapter}{\numberline {7}Zusammenfassung}{29}{chapter.7}
-\contentsline {chapter}{\numberline {8}Ausblick}{30}{chapter.8}
+\contentsline {subsection}{\numberline {3.1.2}Informationsaustausch mittels MTP}{23}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Nutzer}{25}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Informationsanpassung}{26}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Individualisierung f\IeC {\"u}r den Menschen}{26}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Anpassung an die Aufgabe}{26}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Interaktionsmechaniken}{27}{section.3.3}
+\contentsline {section}{\numberline {3.4}Anforderungen an das Assistenzsystem}{27}{section.3.4}
+\contentsline {chapter}{\numberline {4}Konzept}{28}{chapter.4}
+\contentsline {section}{\numberline {4.1}Konzeptuelles Design}{28}{section.4.1}
+\contentsline {section}{\numberline {4.2}physikalisches Design}{28}{section.4.2}
+\contentsline {chapter}{\numberline {5}Implementierung}{29}{chapter.5}
+\contentsline {chapter}{\numberline {6}Verifikation}{30}{chapter.6}
+\contentsline {chapter}{\numberline {7}Zusammenfassung}{31}{chapter.7}
+\contentsline {chapter}{\numberline {8}Ausblick}{32}{chapter.8}
 \contentsfinish 
-\contentsline {chapter}{Anhang \numberline {A}Anhang}{32}{Anhang.a.A}
-\contentsline {chapter}{Literaturverzeichnis}{33}{chapter*.22}
+\contentsline {chapter}{Anhang \numberline {A}Anhang}{34}{Anhang.a.A}
+\contentsline {chapter}{Literaturverzeichnis}{35}{chapter*.25}

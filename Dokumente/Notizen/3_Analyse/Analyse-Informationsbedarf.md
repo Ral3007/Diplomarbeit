@@ -2,15 +2,22 @@
 
 ## für Menschen
 
-
++ unterschiedliche Gruppen (Modulbetreiber)
+  + Field Operator
+  + Operator in Leitwarte
+  + CEO
+  + "Abteilungsleiter"
+  + Fabrikplaner
 
 ## Was muss ich von der Technik wissen?
 
 + Aktuelle Verschaltung der modularen Anlage
 + Serviceabhängigkeiten
+  + welche Teile des Moduls gehören zum Service
 + Prozessdaten
 + Aufbau des Moduls (PID)?
 + Wartunginformationen (Wann wurde das Modul zuletzt gewartet?)
++ Was passiert, wenn?
 
 
 
