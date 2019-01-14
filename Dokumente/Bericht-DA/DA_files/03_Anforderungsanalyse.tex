@@ -10,12 +10,12 @@ Der Informationsbedarf orientiert sich maßgeblich an den Aufgaben und dem Nutze
 
 Was soll unterstützt werden?
 
-\subsection{Aufgabenbereiche}
+\subsection{Modulare Anlage}
 Der Lebenszyklus einer modulare Anlage wird in unterschiedliche Phasen eingeteilt. Sie besteht aus Planung, Errichtung, Betrieb und Demontage. \cite{} Ich möchte mich in dieser Arbeit auf die Probleme während des Betriebs der modularen Anlage beschränken. 
 
 Probleme können in modularen Anlagen auf verschiedenen Ebenen entstehen. Zum einen auf direkter Modulebene. So stellt das Modul beispielsweise entsprechende Alarme zur Verfügung. Dann können Probleme auch in Zusammenhang mit verschiedenen Modulen entstehen. Zum Austausch von Informationen zwischen Prozessführungsebene (PFE) und Modul wird das Modul Type Package (MTP) verwendet. Da der Modulhersteller entscheiden kann, welche Informationen zur Verfügung gestellt werden unterscheidet sich der konkrete Inhalt des MTP von Modul zu Modul. Es soll hier nicht auf den konkreten Aufbau des MTPs eingegangen werden.
 
-\subsection{Informationsaustausch mittels MTP}
+\subsubsection{Informationsaustausch mittels MTP}
 Das Modul stellt eine Reihe an Informationen zur Verfügung, die durch das Modul Type Package (MTP) beschrieben sind. Im MTP sind unter anderem das HMI und die Services hinterlegt.
 
 Für einen eindeutigen Austausch von Informationen sind Schnittstellen definiert. Jede Schnittstellendefinition besteht aus einem Erklärungstext und den spezifischen Informationsvariablen. Da für jede Schnittstelle andere Informationen übertragen werden, sind hier nur allgemeine relevante Aspekte gelistet. So können Einheiten, Maximal- und Minimalwerte oder Prozesswerte übermittelt werden.
@@ -29,7 +29,7 @@ Für einen eindeutigen Austausch von Informationen sind Schnittstellen definiert
 \item \textbf{Limit Monitoring:} Mittels der Limit Variablen können Werte für Toleranz-, Warnungs- und Alarmgrenzen festgelegt werden. Das Modul überwacht die Variablen und signalisiert eine Grenzwertüberschreitung.
 \end{itemize}
 
-\subsubsection*{Services}
+\subsubsection{Services}
 Wie bereits in Abschnitt x beschrieben werden Module durch Dienste gesteuert. Jeder Dienst kann 16 verschiedene Zustände annehmen und teilt den aktuellen Zustand der PFE mit. Die PFE kann die Zustandsübergänge Reset, Pause, Resume, Unhold, Stop, Abort und Restart anfordern. Bei kontinuierlichen Fahrweisen können zusätzlich Start und Complete angefordert werden. Des weiteren wird der Zustandübergang State Change (SC) durch den vorgelagerten Zustand ausgelöst. \todo{Bild einfügen} Die aktuell verfügbaren Zustandswechsel meldet das Modul zurück.
 
 Dienste haben verschiedene Betriebsarten. Sie werden in Offline, Manual, Automatic External und Automatic Internal eingeteilt. Zudem gehört zu jedem Dienst eine Liste mit dem verwendeten Anlagenequipment. Wenn sich der Dienst nicht in Offline befindet werden automatisch alle zum Dienst gehörigen Aktoren in Automatic überführt.
@@ -48,10 +48,26 @@ Sollen Dienste näher spezifiziert werden, ist eine Verwendung von Parametern m�
 \item \textbf{Reportwerte:} Zur Nachweis- und Dokumentationspflicht werden die Werte in den Zuständen Completed, Aborted und Stopped gespeichert.
 \end{itemize}
 
-\subsection{Nutzer}
+\subsection{Informationen nach Aufgabenbereich}
+Neben den Informationen, die ein Modul zur Verfügung stellt und die bei Behebung einer Störung behilflich sein können, gibt es eine Reihe von weiteren interessanten Aspekten. Weitet man den Problembereich von einer reinen Instandhaltung auf Bereiche wie die zunehmend geforderte Einsparung von Kosten aus, so werden ganz andere Informationen benötigt. Im Bereich des Controlling der Supply Chain werden unter anderem folgende Kennzahlen beispielhaft genannt:
+\begin{itemize}
+\item \textbf{Kennzahlen der Beschaffung:} Lieferzeiten, Preistrends nach Warengruppen
+\item \textbf{Kennzahlen der Produktion:} Auslastung der Geschäftsbereiche, Durchlaufzeiten, Rüstzeiten
+\item \textbf{Kennzahlen der Finanzprozesse:} Produktivität- und Wirtschaftlichkeitskennzahlen
+\end{itemize}
+Im Bereich des Supply Chain Management werden folgende Kostenfaktoren erwähnt:
+\begin{itemize}
+
+\end{itemize}
+
+Diese Arbeit fokussiert sich bewusst auf den Aufgabenbereich der Instandhaltung. 
+
+\subsection{Informationen nach Nutzergruppen}
 Stützt man sich bei der Ermittlung des Informationsbedarfs auf die individuellen Fähigkeiten und das vorhandene Wissen so ist eine entsprechende Analyse relativ komplex. Insbesondere, wenn der Problemlöseprozess einen Lerneffekt haben soll. In der Literatur ist dies als Assistance Dilemma bezeichnet. Wenn der Lerneffekt möglichst groß sein soll wird Information über die Problemlösung und die Lösungsschritte zunächst zurück gehalten. Informationen werden interaktiv hinzugefügt, wenn sie benötigt werden. Die größte Herausforderung ist dabei die Kriterien festzulegen, wann Informationen gegeben und wann sie zurück gehalten werden. \cite{}  X empfiehlt eine geringe Bereitstellung an hilfreichen Erklärungen bei Problemlöseaktivitäten solange andere Ressourcen für den Lernprozess zur Verfügung stehen. Übertragen auf die Problemstellung dieser Arbeit lässt sich Schlussfolgern, dass alle relevanten Informationen zugänglich sein müssen. Diese sollten jedoch nicht alle direkt zu Beginn des Problemlöseprozess präsentiert werden. In Abschnitt x ist bereits beschrieben, dass komplexe Probleme auf das Wesentliche reduziert werden müssen und häufig Informationsbeschaffung gefordert ist. In dieser Arbeit soll die Informationsbeschaffung unterstützt und die Übersichtlichkeit der Information zur Reduktion der Komplexität gewährt werden.
 
-Begutachtet man die Nutzer anhand ihrer Aufgaben und Positionen im Zusammenhang mit den modularen Anlagen so lassen sich unterschiedliche Benutzergruppen mit sehr individuellem Informationsbedarf identifizieren. 
+Begutachtet man die Nutzer anhand ihrer Aufgaben und Positionen im Zusammenhang mit den modularen Anlagen so lassen sich unterschiedliche Benutzergruppen mit sehr individuellem Informationsbedarf identifizieren. Auf der einen Seite stehen
+
+
 
 
 \section{Informationsanpassung}
