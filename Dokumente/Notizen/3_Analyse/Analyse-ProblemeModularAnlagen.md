@@ -50,4 +50,4 @@ b.      Pumpe pumpt nicht. Hinweis: Prüfen ob Flüssigkeit in Rohrleitung einem
   + wie lange die Arbeit dauern könnte
   + welche “Leihmodule” zur Verfügung stehen
 + Kommunikationsprobleme zwischen Modul und PFE
-+ 
++ Thema KPI!!

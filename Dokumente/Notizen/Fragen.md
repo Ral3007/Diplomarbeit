@@ -57,15 +57,18 @@
 ### Stand der Technik
 
 + Prozessindustrie allgemein: Was für Literatur ist da sinnvoll?
-+ Thema MTP: Gibt es da eine vernünfitge Aufschlüsselung zu auf die ich Bezug nehmen kann?
++ Thema MTP: Gibt es da eine vernünfitge Aufschlüsselung zu auf die ich Bezug nehmen kann? -> hat sich erledigt
   + gehört das auseinandernehmen des MTP nicht auch mit zur Analyse?
 + 
 
 ### Analyse
 
 + Umfrage, was sich Nutzer von der Assistenz wünschen würden?
-+ Kann ich die Analyse Anforderungen rein schreiben, bei denen ich mir unsicher bin, ob ich sie umsetzten kann
++ Kann ich die Analyse Anforderungen rein schreiben, bei denen ich mir unsicher bin, ob ich sie umsetzten kann?
++ Wie bringe ich die Art an Problemen sinnvoll ein?
+  + Wo bekomme ich das Erfahrungswissen her?
++ 
 
 ### Implementierung
 
-+ Nutzerprofile anlegen, die gespeichert werden?
++ 
