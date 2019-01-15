@@ -11,7 +11,9 @@ Der Informationsbedarf orientiert sich maßgeblich an den Aufgaben und dem Nutze
 Was soll unterstützt werden?
 
 \subsection{Modulare Anlage}
-Der Lebenszyklus einer modulare Anlage wird in unterschiedliche Phasen eingeteilt. Sie besteht aus Planung, Errichtung, Betrieb und Demontage. \cite{} Ich möchte mich in dieser Arbeit auf die Probleme während des Betriebs der modularen Anlage beschränken. 
+Der Lebenszyklus einer modulare Anlage wird in unterschiedliche Phasen eingeteilt. Sie besteht aus Planung, Errichtung, Betrieb und Demontage. \cite{} Diese Arbeit legt den Fokus auf die Probleme während des Betriebs der modularen Anlage.
+
+\todo{Welche Probleme existieren?}
 
 Probleme können in modularen Anlagen auf verschiedenen Ebenen entstehen. Zum einen auf direkter Modulebene. So stellt das Modul beispielsweise entsprechende Alarme zur Verfügung. Dann können Probleme auch in Zusammenhang mit verschiedenen Modulen entstehen. Zum Austausch von Informationen zwischen Prozessführungsebene (PFE) und Modul wird das Modul Type Package (MTP) verwendet. Da der Modulhersteller entscheiden kann, welche Informationen zur Verfügung gestellt werden unterscheidet sich der konkrete Inhalt des MTP von Modul zu Modul. Es soll hier nicht auf den konkreten Aufbau des MTPs eingegangen werden.
 
@@ -49,32 +51,57 @@ Sollen Dienste näher spezifiziert werden, ist eine Verwendung von Parametern m�
 \end{itemize}
 
 \subsection{Informationen nach Aufgabenbereich}
-Neben den Informationen, die ein Modul zur Verfügung stellt und die bei Behebung einer Störung behilflich sein können, gibt es eine Reihe von weiteren interessanten Aspekten. Weitet man den Problembereich von einer reinen Instandhaltung auf Bereiche wie die zunehmend geforderte Einsparung von Kosten aus, so werden ganz andere Informationen benötigt. Im Bereich des Controlling der Supply Chain werden unter anderem folgende Kennzahlen beispielhaft genannt:
+Neben den Informationen, die ein Modul zur Verfügung stellt und die bei Behebung einer Störung behilflich sein können, gibt es eine Reihe von weiteren interessanten Aspekten. Weitet man den Problembereich von einer reinen Instandhaltung auf Bereiche wie die zunehmend geforderte Einsparung von Kosten aus, so werden ganz andere Informationen benötigt. Welche Funktionen auf welcher Ebene in einem Unternehmen automatisiert werden können und somit auch sinnvoll durch ein Assistenzsystem unterstützbar sind ist in \cite{Lauber1999} beschrieben. Hier ist auch der zeitliche Aspekt mit aufgeführt. Eine entsprechende Übersicht findet sich in Tabelle \ref{tab:Ebenen-Unternehmen}.
+\begin{table}[htb]
+\centering
+\caption{Ebenen in einem Unternehmen bei Führung technischer Prozesse}
+\label{tab:Ebenen-Unternehmen}
+\begin{tabular}{|p{0.2 \textwidth}|p{0.33 \textwidth}|p{0.33 \textwidth}|}
+\hline
+\textbf{Ebenen eines Unternehmens} & \textbf{zeitliche Anforderungen} & \textbf{Automatisierungs-funktionen} \\
+\hline
+Unternehmens-führung & Entscheidungen wirken sich langfristig aus (nach Monaten oder Jahren) & Kostenanalysen, statistische Auswertungen \\
+\hline
+Produktions-planung und Betriebsleitung & Tage, Wochen oder Monate & Betriebsablaufplanung, Kapazitäts-Optimierung, Auswertung der Prozessergebnisse \\
+\hline
+Leitung technische Prozesse & Eingriffe wirken sich nach Stunden oder Minuten aus & Prozess-Überwachung, An- und Abfahrten, Störungsbehandlung, Prozessführung, Prozess-Sicherung \\
+\hline
+Prozessgrößen & Auswirkungen sind nach Sekunden, Millisekunden oder gar Mikrosekunden sichtbar & Messen, Steuern, Stellen, Regeln, Verriegelungen, Not-Bedienen von Prozessgrößen, Abschalten, Schutz \\
+\hline
+\end{tabular}
+\end{table}
+
+Auf der Unternehmensführungsebene sind beispielsweise folgende Kosten relevant  \cite{Kunstler2014}:
+\begin{itemize}
+\item Logistikkosten
+\item Personalkosten
+\item Verpackungskosten
+\item Kosten für Reklamationen und Retouren
+\item Kosten aufgrund fehlender Prozessynchronisation
+\end{itemize}
+Folgende Kennzahlen sind für die Produktions- und Betriebsleitebene interessant \cite{Kunstler2014}:
 \begin{itemize}
 \item \textbf{Kennzahlen der Beschaffung:} Lieferzeiten, Preistrends nach Warengruppen
 \item \textbf{Kennzahlen der Produktion:} Auslastung der Geschäftsbereiche, Durchlaufzeiten, Rüstzeiten
 \item \textbf{Kennzahlen der Finanzprozesse:} Produktivität- und Wirtschaftlichkeitskennzahlen
 \end{itemize}
-Im Bereich des Supply Chain Management werden folgende Kostenfaktoren erwähnt:
-\begin{itemize}
 
-\end{itemize}
+Diese Arbeit fokussiert sich auf die Prozessleitebene in der unterschiedliche Benutzergruppen arbeiten. Im folgenden Abschnitt wird auf die unterschiedlichen Aufgaben und den entsprechenden Informationsbedarf eingegangen.
 
-Diese Arbeit fokussiert sich bewusst auf den Aufgabenbereich der Instandhaltung. 
-
-\subsection{Informationen nach Nutzergruppen}
+\subsection{Informationsbedarf der Operator}
 Stützt man sich bei der Ermittlung des Informationsbedarfs auf die individuellen Fähigkeiten und das vorhandene Wissen so ist eine entsprechende Analyse relativ komplex. Insbesondere, wenn der Problemlöseprozess einen Lerneffekt haben soll. In der Literatur ist dies als Assistance Dilemma bezeichnet. Wenn der Lerneffekt möglichst groß sein soll wird Information über die Problemlösung und die Lösungsschritte zunächst zurück gehalten. Informationen werden interaktiv hinzugefügt, wenn sie benötigt werden. Die größte Herausforderung ist dabei die Kriterien festzulegen, wann Informationen gegeben und wann sie zurück gehalten werden. \cite{}  X empfiehlt eine geringe Bereitstellung an hilfreichen Erklärungen bei Problemlöseaktivitäten solange andere Ressourcen für den Lernprozess zur Verfügung stehen. Übertragen auf die Problemstellung dieser Arbeit lässt sich Schlussfolgern, dass alle relevanten Informationen zugänglich sein müssen. Diese sollten jedoch nicht alle direkt zu Beginn des Problemlöseprozess präsentiert werden. In Abschnitt x ist bereits beschrieben, dass komplexe Probleme auf das Wesentliche reduziert werden müssen und häufig Informationsbeschaffung gefordert ist. In dieser Arbeit soll die Informationsbeschaffung unterstützt und die Übersichtlichkeit der Information zur Reduktion der Komplexität gewährt werden.
 
-Begutachtet man die Nutzer anhand ihrer Aufgaben und Positionen im Zusammenhang mit den modularen Anlagen so lassen sich unterschiedliche Benutzergruppen mit sehr individuellem Informationsbedarf identifizieren. Auf der einen Seite stehen
+Begutachtet man die Nutzer anhand ihrer Aufgaben und Positionen im Zusammenhang mit den modularen Anlagen so lassen sich unterschiedliche Benutzergruppen mit sehr individuellem Informationsbedarf identifizieren. 
 
+\subsubsection{Field Operator}
 
-
+\subsubsection{Controlroom Operator}
 
 \section{Informationsanpassung}
 Die Individualisierung von Software bietet die Möglichkeit eine Vielzahl von Nutzer und Aufgaben zu unterstützen. Individualisierung dient der Modifizierung von Interaktionen und Informationsdarstellungen, um den Fähigkeiten und Bedürfnissen jedes Benutzers gerecht zu werden. Zudem kann sich das System auch entsprechend der zu lösenden Aufgaben anpassen.
 
 \subsection{Individualisierung für den Menschen}
-Bei Untersuchung des Informationsbedarfs hat sich bereits herauskristallisiert, dass Nutzer bei unterschiedlichem Vorwissen unterschiedliche Informationen zum Lösen der gleichen Aufgabe benötigen. Nutzer mit geringem Vorwissen haben zumeist einen höheren Informationsbedarf.
+Bei Untersuchung des Informationsbedarfs hat sich bereits herauskristallisiert, dass Nutzer bei unterschiedlichem Vorwissen unterschiedliche Informationen zum Lösen der gleichen Aufgabe benötigen. Nutzer mit geringem Vorwissen haben zumeist einen höheren Informationsbedarf. \todo{anderen Fokus legen -> Aufgaben}
 
 Daher erscheint es sinnvoll das individuelle Vorwissen der Nutzer zu berücksichtigen und die Menge und Art der Informationen an sie anzupassen. Wie dies umgesetzt werden kann ist im Konzept beschrieben.
 

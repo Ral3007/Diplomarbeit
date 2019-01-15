@@ -547,6 +547,107 @@
     \field{year}{2016}
   \endentry
 
+  \entry{Kunstler2014}{book}{}
+    \name{author}{12}{}{%
+      {{hash=KB}{%
+         family={K{\"{u}}nstler},
+         familyi={K\bibinitperiod},
+         given={Bernd},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=EH}{%
+         family={Ehm},
+         familyi={E\bibinitperiod},
+         given={Hans},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=ET}{%
+         family={Effert},
+         familyi={E\bibinitperiod},
+         given={Tom},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Geiger},
+         familyi={G\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Geisenberger},
+         familyi={G\bibinitperiod},
+         given={Simon},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KE}{%
+         family={Kastenholz},
+         familyi={K\bibinitperiod},
+         given={Ernst},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=NK}{%
+         family={Neuhaus},
+         familyi={N\bibinitperiod},
+         given={Klaus},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={P{\"{o}}tzsch},
+         familyi={P\bibinitperiod},
+         given={Lars},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Rimane},
+         familyi={R\bibinitperiod},
+         given={Dirk},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zeppin},
+         familyi={Z\bibinitperiod},
+         given={Manuela},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Ginap},
+         familyi={G\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Schober},
+         familyi={S\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=KL}{%
+         family={Korfmann},
+         familyi={K\bibinitperiod},
+         given={Laura},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ZVEI - Zentralverband Elektrotechnik- und Elektronikindustrie e.V.}%
+    }
+    \strng{namehash}{KB+1}
+    \strng{fullhash}{KBEHETGDGSKENKPLRDZMGMSC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{K{\"{u}}n+14}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{title}{{Leitfaden Supply Chain Management in der
+  Elektronikfertigung}}
+    \list{location}{1}{%
+      {Frankfurt am Main}%
+    }
+    \field{year}{2014}
+  \endentry
+
   \entry{Ladiges2018}{article}{}
     \name{author}{7}{}{%
       {{hash=LJ}{%
@@ -609,6 +710,40 @@
     \field{volume}{66}
     \field{journaltitle}{at - Automatisierungstechnik}
     \field{year}{2018}
+  \endentry
+
+  \entry{Lauber1999}{book}{}
+    \name{author}{2}{}{%
+      {{hash=LR}{%
+         family={Lauber},
+         familyi={L\bibinitperiod},
+         given={Rudolf},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GP}{%
+         family={Göhner},
+         familyi={G\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag}%
+    }
+    \strng{namehash}{LRGP1}
+    \strng{fullhash}{LRGP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{LG99}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{edition}{3. Auflage}
+    \field{isbn}{9783642220739}
+    \field{title}{Prozessautomatisierung 1}
+    \list{location}{1}{%
+      {Berlin Heidelberg New York}%
+    }
+    \field{year}{1999}
   \endentry
 
   \entry{Ludwig}{book}{}
