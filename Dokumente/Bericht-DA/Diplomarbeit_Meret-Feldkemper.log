@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.30)  15 JAN 2019 09:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.30)  15 JAN 2019 13:47
 entering extended mode
 **./Diplomarbeit_Meret-Feldkemper.tex
 (Diplomarbeit_Meret-Feldkemper.tex
@@ -2717,7 +2717,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-eur.cfg"
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-<TU_Logo_SW.pdf, id=190, 256.96pt x 75.28125pt>
+<TU_Logo_SW.pdf, id=198, 256.96pt x 75.28125pt>
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
 Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 144.
@@ -2726,12 +2726,12 @@ Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 144.
 
 pdfTeX warning: pdflatex (file ./PLT_Logo_SW.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<PLT_Logo_SW.pdf, id=191, 507.09451pt x 282.0939pt>
+<PLT_Logo_SW.pdf, id=199, 507.09451pt x 282.0939pt>
 File: PLT_Logo_SW.pdf Graphic file (type pdf)
 <use PLT_Logo_SW.pdf>
 Package pdftex.def Info: PLT_Logo_SW.pdf  used on input line 144.
 (pdftex.def)             Requested size: 85.5627pt x 47.60144pt.
-<IfA_Header.pdf, id=192, 350.60385pt x 12.99957pt>
+<IfA_Header.pdf, id=200, 350.60385pt x 12.99957pt>
 File: IfA_Header.pdf Graphic file (type pdf)
 <use IfA_Header.pdf>
 Package pdftex.def Info: IfA_Header.pdf  used on input line 144.
@@ -2751,7 +2751,7 @@ Package microtype Info: Character `029' is missing
 
 pdfTeX warning: pdflatex (file ./DA_files/00_Aufgabenstellung.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
-<DA_files/00_Aufgabenstellung.pdf, id=225, 597.50786pt x 845.01837pt>
+<DA_files/00_Aufgabenstellung.pdf, id=233, 597.50786pt x 845.01837pt>
 File: DA_files/00_Aufgabenstellung.pdf Graphic file (type pdf)
 <use DA_files/00_Aufgabenstellung.pdf>
 Package pdftex.def Info: DA_files/00_Aufgabenstellung.pdf  used on input line 1
@@ -2774,7 +2774,7 @@ on: found PDF version <1.6>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./DA_files/00_Aufgabenstellung.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
-<DA_files/00_Aufgabenstellung.pdf, id=228, page=1, 597.50786pt x 845.01837pt>
+<DA_files/00_Aufgabenstellung.pdf, id=236, page=1, 597.50786pt x 845.01837pt>
 File: DA_files/00_Aufgabenstellung.pdf Graphic file (type pdf)
 <use DA_files/00_Aufgabenstellung.pdf, page 1>
 Package pdftex.def Info: DA_files/00_Aufgabenstellung.pdf , page1 used on input
@@ -2886,13 +2886,13 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 31.
 Package tocbasic Info: Using my definition of `\numberline' on input line 32.
 Package tocbasic Info: Using my definition of `\numberline' on input line 33.
 Package tocbasic Info: Using my definition of `\numberline' on input line 34.
-Package tocbasic Info: Using my definition of `\numberline' on input line 35.
  [5
 
 
 
 
 ]
+Package tocbasic Info: Using my definition of `\numberline' on input line 35.
 Package tocbasic Info: Using my definition of `\numberline' on input line 36.
 Package tocbasic Info: Using my definition of `\numberline' on input line 37.
 Package tocbasic Info: Using my definition of `\numberline' on input line 38.
@@ -2903,8 +2903,10 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 42.
 Package tocbasic Info: Using my definition of `\numberline' on input line 43.
 Package tocbasic Info: Using my definition of `\numberline' on input line 44.
 Package tocbasic Info: Using my definition of `\numberline' on input line 45.
+Package tocbasic Info: Using my definition of `\numberline' on input line 46.
 Package tocbasic Info: Using my definition of `\numberline' on input line 47.
-Package tocbasic Info: Using my definition of `\numberline' on input line 48.
+Package tocbasic Info: Using my definition of `\numberline' on input line 49.
+Package tocbasic Info: Using my definition of `\numberline' on input line 50.
 )
 \tf@toc=\write8
 \openout8 = `Diplomarbeit_Meret-Feldkemper.toc'.
@@ -3013,222 +3015,208 @@ stüt-zung bie-ten [[][]BHVH07[][]]
 
 ]
 chapter 2.
-
-Overfull \hbox (3.52078pt too wide) in paragraph at lines 10--10
-[][][][]\T1/lmr/m/n/12 (-20) Einführen 
- []
-
-
-Overfull \hbox (3.52078pt too wide) in paragraph at lines 10--10
-[][][][]\T1/lmr/m/n/12 (-20) Einführen 
- []
-
-
-Overfull \hbox (3.52078pt too wide) in paragraph at lines 10--10
-[][][][]\T1/lmr/m/n/12 (-20) Einführen 
- []
-
-
-Overfull \hbox (3.52078pt too wide) in paragraph at lines 10--10
-[][][][]\T1/lmr/m/n/12 (-20) Einführen 
- []
-
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 14.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 15.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [2
+)
+Overfull \hbox (8.16214pt too wide) in paragraph at lines 24--25
+[]\T1/lmr/bx/n/12 Kommunikationssystem: \T1/lmr/m/n/12 (-20) Um-fasst so-wohl d
+as pro-zess-na-he Bus-System
+ []
+
+[2
 
 
-] [3] [4]
-Overfull \hbox (64.8401pt too wide) in paragraph at lines 58--58
+] [3] [4] [5]
+Overfull \hbox (64.8401pt too wide) in paragraph at lines 82--82
 [][][][]\T1/lmr/m/n/12 (-20) Optimierungskriterien  
  []
 
 
-Overfull \hbox (64.8401pt too wide) in paragraph at lines 58--58
+Overfull \hbox (64.8401pt too wide) in paragraph at lines 82--82
 [][][][]\T1/lmr/m/n/12 (-20) Optimierungskriterien  
  []
 
 
-Overfull \hbox (64.8401pt too wide) in paragraph at lines 58--58
+Overfull \hbox (64.8401pt too wide) in paragraph at lines 82--82
 [][][][]\T1/lmr/m/n/12 (-20) Optimierungskriterien  
  []
 
 
-Overfull \hbox (64.8401pt too wide) in paragraph at lines 58--58
+Overfull \hbox (64.8401pt too wide) in paragraph at lines 82--82
 [][][][]\T1/lmr/m/n/12 (-20) Optimierungskriterien  
  []
 
 
-Overfull \hbox (3.08876pt too wide) in paragraph at lines 70--72
+Overfull \hbox (3.08876pt too wide) in paragraph at lines 94--96
 []\T1/lmr/m/n/12 (-20) Mit dem \T1/lmr/bx/n/12 Ver-ar-bei-tungs-stil \T1/lmr/m/
 n/12 (-20) wird be-schrie-ben, wel-che Prä-fe-renz der Mensch
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 86--89
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 110--113
 
  []
 
-[6] [7] [8] [9] [10] [11]
+[7] [8] [9] [10] [11] [12] [13]
 
-Package caption Warning: \label without proper reference on input line 216.
+Package caption Warning: \label without proper reference on input line 240.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:Interaktionsm\IeC {\"o}glichkeit' on page 12 unde
-fined on input line 197.
+LaTeX Warning: Reference `tab:Interaktionsm\IeC {\"o}glichkeit' on page 14 unde
+fined on input line 221.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--201
-[]|\T1/lmr/bx/n/12 Interaktions-
- []
-
-
-Underfull \hbox (badness 1147) in paragraph at lines 205--205
-[]|\T1/lmr/m/n/12 (+20) zweidimensionale Be-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 205--205
-[]|\T1/lmr/m/n/12 (+20) benötigt ei-ne
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 205--205
-\T1/lmr/m/n/12 (+20) ebe-ne sau-be-re
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-[]|\T1/lmr/m/n/12 (+20) schnelle Rich-tungs-
- []
-
-
-Underfull \hbox (badness 3895) in paragraph at lines 207--208
-[]|\T1/lmr/m/n/12 (+20) als Mau-ser-satz,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
-\T1/lmr/m/n/12 (+20) bei Ziel-ver-fol-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
-[]|\T1/lmr/m/n/12 (+20) Direkte Be-die-nung,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
-\T1/lmr/m/n/12 (+20) kei-ne zu-sätz-li-che
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
-[]|\T1/lmr/m/n/12 (+20) Verschmutzt
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
-[]|\T1/lmr/m/n/12 (+20) weitreichend:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 211--211
-[]|\T1/lmr/m/n/12 (+20) sichere Er-ken-nung
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 211--211
-\T1/lmr/m/n/12 (+20) muss ge-währ-leis-tet
- []
-
-
-Overfull \hbox (3.56953pt too wide) in paragraph at lines 211--212
-[]|\T1/lmr/m/n/12 (-20) Auswahlvorgänge,
- []
-
-
-Package caption Warning: \label without proper reference on input line 239.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `tab:Interaktionssystem' on page 12 undefined on input
- line 221.
-
-[12] [13]
 Underfull \hbox (badness 10000) in paragraph at lines 225--225
 []|\T1/lmr/bx/n/12 Interaktions-
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 227--227
-\T1/lmr/m/n/12 (+20) ven Ein-schrän-kun-
- []
-
-
-Underfull \hbox (badness 4060) in paragraph at lines 227--227
-\T1/lmr/m/n/12 (+20) gig von ge-for-der-
- []
-
-
-Underfull \hbox (badness 6428) in paragraph at lines 227--227
-\T1/lmr/m/n/12 (+20) ter Pro-jek-ti-ons-ge-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
-[]|\T1/lmr/m/n/12 (+20) Unterstützung
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
-\T1/lmr/m/n/12 (+20) des Kom-mis-sio-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
-\T1/lmr/m/n/12 (+20) nie-rungs-vor-gangs,
+Underfull \hbox (badness 1147) in paragraph at lines 229--229
+[]|\T1/lmr/m/n/12 (+20) zweidimensionale Be-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 229--229
-[]|\T1/lmr/m/n/12 (+20) Einblendung von
+[]|\T1/lmr/m/n/12 (+20) benötigt ei-ne
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 229--229
-\T1/lmr/m/n/12 (+20) Zu-satz-in-for-ma-tio-
+\T1/lmr/m/n/12 (+20) ebe-ne sau-be-re
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
-[]|\T1/lmr/m/n/12 (+20) Checklisten, An-
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
+[]|\T1/lmr/m/n/12 (+20) schnelle Rich-tungs-
  []
 
 
-Underfull \hbox (badness 6978) in paragraph at lines 233--234
-[]|\T1/lmr/m/n/12 (+20) Navigation, In-for-
+Underfull \hbox (badness 3895) in paragraph at lines 231--232
+[]|\T1/lmr/m/n/12 (+20) als Mau-ser-satz,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+\T1/lmr/m/n/12 (+20) bei Ziel-ver-fol-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
+[]|\T1/lmr/m/n/12 (+20) Direkte Be-die-nung,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
+\T1/lmr/m/n/12 (+20) kei-ne zu-sätz-li-che
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
+[]|\T1/lmr/m/n/12 (+20) Verschmutzt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+[]|\T1/lmr/m/n/12 (+20) weitreichend:
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 235--235
+[]|\T1/lmr/m/n/12 (+20) sichere Er-ken-nung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\T1/lmr/m/n/12 (+20) muss ge-währ-leis-tet
+ []
+
+
+Overfull \hbox (3.56953pt too wide) in paragraph at lines 235--236
+[]|\T1/lmr/m/n/12 (-20) Auswahlvorgänge,
+ []
+
+
+Package caption Warning: \label without proper reference on input line 263.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:Interaktionssystem' on page 14 undefined on input
+ line 245.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
+[]|\T1/lmr/bx/n/12 Interaktions-
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 251--251
+\T1/lmr/m/n/12 (+20) ven Ein-schrän-kun-
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 251--251
+\T1/lmr/m/n/12 (+20) gig von ge-for-der-
+ []
+
+
+Underfull \hbox (badness 6428) in paragraph at lines 251--251
+\T1/lmr/m/n/12 (+20) ter Pro-jek-ti-ons-ge-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+[]|\T1/lmr/m/n/12 (+20) Unterstützung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+\T1/lmr/m/n/12 (+20) des Kom-mis-sio-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+\T1/lmr/m/n/12 (+20) nie-rungs-vor-gangs,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
+[]|\T1/lmr/m/n/12 (+20) Einblendung von
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
+\T1/lmr/m/n/12 (+20) Zu-satz-in-for-ma-tio-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
+[]|\T1/lmr/m/n/12 (+20) Checklisten, An-
+ []
+
+
+Underfull \hbox (badness 6978) in paragraph at lines 257--258
+[]|\T1/lmr/m/n/12 (+20) Navigation, In-for-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
 []|\T1/lmr/m/n/12 (+20) einfache Hand-ha-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--237
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
 []|\T1/lmr/m/n/12 (+20) stationärer
  []
 
-[14] [15] [16] [17] [18] [19] [20] [21]) (DA_files/03_Anforderungsanalyse.tex
-[22]
+[14] [15] [16] [17] [18] [19] [20] [21] [22])
+(DA_files/03_Anforderungsanalyse.tex [23]
 chapter 3.
-[23
+[24
 
 
-] [24]
+] [25]
 Underfull \hbox (badness 10000) in paragraph at lines 61--61
 \T1/lmr/bx/n/12 Un-ter-neh-
  []
@@ -3303,37 +3291,37 @@ Underfull \hbox (badness 1199) in paragraph at lines 69--70
 \T1/lmr/m/n/12 (+20) gen, Not-Bedienen von
  []
 
-[25] [26] [27] [28]) (DA_files/04_Konzept.tex [29]
+[26] [27] [28] [29]) (DA_files/04_Konzept.tex [30]
 chapter 4.
-) (DA_files/05_Implementierung.tex [30
+) (DA_files/05_Implementierung.tex [31
 
 
 ]
 chapter 5.
-) (DA_files/06_Verifikation.tex [31
+) (DA_files/06_Verifikation.tex [32
 
 
 ]
 chapter 6.
-) (DA_files/07_Zusammenfassung.tex [32
+) (DA_files/07_Zusammenfassung.tex [33
 
 
 ]
 chapter 7.
-) (DA_files/08_Ausblick.tex [33
+) (DA_files/08_Ausblick.tex [34
 
 
 ]
 chapter 8.
-) [34
+) [35
 
 
-] [35
+] [36
 
 
 ] (DA_files/Anhang.tex
 chapter A.
-) [36
+) [37
 
 
 
@@ -3356,12 +3344,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-[37
+[38
 
 
 
 
-] [38] [39]
+] [39] [40]
 Overfull \hbox (1.18527pt too wide) in paragraph at lines 154--154
 []\T1/lmr/m/n/12 (-20) Detlef Zühl-ke. \T1/lmr/m/it/12 (-20) Nut-zer-ge-rech-te
  Ent-wick-lung von Mensch-Maschine-
@@ -3374,7 +3362,7 @@ nger-Verlag, 2012. \T1/lmr/m/sc/12 (-20) isbn\T1/lmr/m/n/12 (-20) : 97836422207
 39. 
  []
 
-[40] [41
+[41] [42
 
 
 
@@ -3387,7 +3375,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
 Package rerunfilecheck Info: File `Diplomarbeit_Meret-Feldkemper.out' has not c
 hanged.
-(rerunfilecheck)             Checksum: 00C1A3B10CFA88EAF8350854D9E99E56;3209.
+(rerunfilecheck)             Checksum: 5C156DFB9373ADB53D1523E5CB76103A;3364.
 
 
 LaTeX Warning: There were undefined references.
@@ -3398,10 +3386,10 @@ Package logreq Info: Writing requests to 'Diplomarbeit_Meret-Feldkemper.run.xml
 
  ) 
 Here is how much of TeX's memory you used:
- 47855 strings out of 493305
- 911564 string characters out of 3138839
+ 47860 strings out of 493305
+ 911639 string characters out of 3138839
  1451179 words of memory out of 3000000
- 50246 multiletter control sequences out of 15000+200000
+ 50248 multiletter control sequences out of 15000+200000
  641280 words of font info for 170 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  73i,18n,79p,9111b,2267s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3416,9 +3404,9 @@ m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9
 c/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Diplomarbeit_Meret-Feldkemper.pdf (50 pages, 1155664 bytes).
+Output written on Diplomarbeit_Meret-Feldkemper.pdf (51 pages, 1159530 bytes).
 PDF statistics:
- 755 PDF objects out of 1000 (max. 8388607)
- 166 named destinations out of 1000 (max. 500000)
- 33696 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 770 PDF objects out of 1000 (max. 8388607)
+ 169 named destinations out of 1000 (max. 500000)
+ 33712 words of extra memory for PDF output out of 35830 (max. 10000000)
 

@@ -4,16 +4,33 @@
 \chapter{Stand der Technik}
 \label{sec:StandDerTechnik}
 
+Diese Kapitel umfasst die wesentlichen Grundlagen für ein besseres Verständnis der Arbeit und die bereits vorhandenen Konzepte für eine mögliche Umsetzung der Problemstellung. Da sich das Thema der Arbeit mit dem Bereich der modularen Anlagen beschäftigt werden zunächst die Grundlagen der Prozessautomatisierung und darauf aufbauend das Konzept der modularen Anlagen erläutert.
+
+Für ein umfassendes Verständnis 
 %%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Prozessindustrie}
+Die Prozessindustrie umfasst viele verschiedene Branchen. Unter anderem die Chemie-, Pharmazie-, Öl- und Gas- oder Papierindustrie. Sie unterscheiden sich hinsichtlich der individuellen Risiken, der Prozess und Anlagen voneinander. Dennoch gibt es einige Konzepte, die für alle Bereiche gültig sind.
+\begin{itemize}
+\item \textbf{Grundoperationen:} Eine Grundoperation ist ein einfacher chemischer oder physikalischer Vorgang, wie filtrieren oder separieren.
+\item \textbf{Batchprozesse:} Der Prozess wird in einzelne Schritte eingeteilt, die einem Rezept folgen.
+\item \textbf{Kontinuierliche Prozesse:} Die Materialzufuhr erfolgt kontinuierlich an mehrere Teilanlagen. Jede Teilanlage führt einen einzelnen Arbeitsschritt durch.
+\end{itemize}
 
-
-\subsection{Prozessautomatisierung}
-
+\subsection{Prozessautomatisierungssystem}
+Die Prozessautomatisierung umfasst die Automatisierung technischer Prozesse und kann sich aus folgenden Bestandteilen zusammen setzen:
+\begin{itemize}
+\item \textbf{Sensoren und Aktoren:} Sind die Schnittstelle zwischen dem Automatisierungssysteme und dem zu automatisierenden technischen System.
+\item \textbf{Kommunikationssystem:} Umfasst sowohl das prozessnahe Bus-System als auch das Bus-System zum Informationsaustausch zwischen den Rechnern.
+\item \textbf{Automatisierungs-Computersystem:} Sind das für die Automatisierung eingesetzten Rechner. Bei jedem Rechner muss zwischen dem Hardware- und dem Softwarsystem unterschieden werden.
+\item \textbf{Fest verdrahtete Einzelgeräte:} Dies können beispielsweise Sicherheitseinrichtungen, Back-up-Regler oder Relaissteuerungen sein.
+\item \textbf{Einrichtungen für die Mensch-Prozess-Kommunikation:} Dies können beispielsweise Bildschirme, Anzeige- und Meldegeräte oder Tastaturen sein.
+\item \textbf{Prozessbedienpersonal:} Verfolgt das Prozessgeschehen und leitet und beeinflusst die Vorgänge.
+\end{itemize}
 
 \subsection{Modulare Anlagen}
-Aufgrund immer kürzerer Produkteinführungszeiten werden Modularisierungskonzepte entwickelt. Die Modularisierung ermöglicht eine höhere Flexibilität und beschleunigt Konzeption, Engineering, Aufbau und Inbetriebnahme der Anlage \cite{Urbas2012}. Ein Modul ist eine geschlossene funktionale Einheit und stellt eine verfahrenstechnische Grundfunktion als Dienst der Prozessführungsebene (PFE) zur Verfügung. Die Grundfunktionalitäten der PFE müssen unterstützt werden. \cite{Bernshausen2016}
+\label{2:Modulare-Anlagen}
+Das Konzept der Modularisierung findet vor allem in der verfahrenstechnischen Industrie Anwendung. Treibender Faktor ist dabei eine erhöhte Flexibilität und eine Beschleunigung von Konzeption, Engineering, Aufbau und Inbetriebnahme der Anlage\cite{Urbas2012}. Ein Modul ist eine geschlossene funktionale Einheit und stellt eine verfahrenstechnische Grundoperation als Dienst der Prozessführungsebene (PFE) zur Verfügung. Die Grundfunktionalitäten der PFE müssen unterstützt werden. \cite{Bernshausen2016}
 \begin{itemize}
 \item \textbf{Mensch-Maschine-Schnittstelle:} Übertragung der Daten zur Anzeige und Bedienung
 \item \textbf{Steuern und Überwachen:} Übertragung der internen Zustände des Moduls
@@ -21,7 +38,9 @@ Aufgrund immer kürzerer Produkteinführungszeiten werden Modularisierungskonzep
 
 In der Namur-Empfehlung NE 148 \cite{NAMURArbeitskreis1.122013} ist beschrieben, welche Daten an das übergeordnete Automatisierungssystem übertragen werden und welche dem Modullieferanten zur Wartungsunterstützung zur Verfügung stehen. Die Daten für das übergeordnete Automatisierungssystemen umfassen unter anderem die Verriegelungs-, Steuerungs- und Regelungsstruktur, die Prozess- und Sollwerte sowie den Status des Moduls / der Services. Für die Wartungsunterstüzungen werden nur hersteller- und modulspezifische und keine prozessspezifischen Daten übertragen.
 
-Die Funktionalitäten der Module sind in Services gekapselt und werden zustandsbasiert gesteuert. Diese Services können nicht nur modulintern, sondern auch modulübergreifend Abhängigkeiten aufweisen. Die Abhängigkeiten werden in 4 Relationen eingeteilt.
+Die Funktionalitäten der Module sind in Services gekapselt und werden zustandsbasiert gesteuert. Im Gegensatz zu herkömmlichen Anlagen kann im automatisierten Betrieb nicht mehr auf die einzelnen Aktoren zugegriffen werden. Jeder Service kann 16 verschiedene Zustände mit entsprechenden Zustandsübergängen annehmen (siehe Bild x) \todo{Bild einfügen}.
+
+Die Services können nicht nur modulintern, sondern auch modulübergreifend Abhängigkeiten aufweisen. Die Abhängigkeiten werden in 4 Relationen eingeteilt.
 \begin{itemize}
 \item \textbf{Allow:} Service 2 darf nur gestartet werden, wenn Service 1 in einem bestimmten Zustand ist.
 \item \textbf{Prohibit:} Service 2 darf nur gestartet werden, wenn Service 1 NICHT in einem bestimmten Zustand ist.
@@ -30,7 +49,9 @@ Die Funktionalitäten der Module sind in Services gekapselt und werden zustandsb
 \end{itemize} 
 Die Deklaration der Services und ihrer Betriebsarten sind modulspezifisch und müssen vom Modulingenieur angegeben werden. \cite{Ladiges2018}
 
-\todo{Rezept}
+Mittels einer Rezeptfahrweise können die Services orchestriert werden. An den Transitionen wird der Status des Service überprüft. Bei Übereinstimmung mit der festgelegten Bedingung wird die Transition geschalten. In jedem Rezeptschritt kann ein entsprechender Service Command mit Serviceparametern gesetzt werden. Das Rezept teilt sich in drei Abstraktionsebenen ein. Auf der höchsten Abstraktionsebene, den Modes of Operations, kann der Operator einen groben Überblick über den Prozess erlagen. Die zweite Ebene umfasst die Procedures. Zu jeder Procedure wird das entsprechende Modul zugeordnet. Eine Procedure besteht aus mehreren Steps, die die Service Commands auslösen. \todo{Bild einfügen}
+
+\todo{Übergang Problemlösen}
 
 \section{Problemlösen}
 Die Gesellschaft geht davon aus, dass Probleme selbstverständlich existieren. Probleme entstehen allerdings erst, wenn eine konkrete Zielsetzung vorhanden ist, die sich nicht durch Routine erreichen lässt. Ohne Handlungsziele gäbe es keine Probleme. \cite{Funke2015, Betsch2011,  Dorner1984}
