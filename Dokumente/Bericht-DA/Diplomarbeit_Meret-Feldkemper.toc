@@ -7,16 +7,16 @@
 \contentsline {subsection}{\numberline {2.1.2}Modulare Anlagen}{3}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}Probleml\IeC {\"o}sen}{4}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Unterscheidung von Problemen}{5}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Arten von Probleml\IeC {\"o}sern}{6}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Arten von Probleml\IeC {\"o}sern}{7}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Einfl\IeC {\"u}sse}{7}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Phasen des Probleml\IeC {\"o}sens}{9}{subsection.2.2.4}
 \contentsline {subsection}{\numberline {2.2.5}St\IeC {\"o}rungsdiagnose}{10}{subsection.2.2.5}
-\contentsline {section}{\numberline {2.3}Kollaboration}{10}{section.2.3}
+\contentsline {section}{\numberline {2.3}Kollaboration}{11}{section.2.3}
 \contentsline {section}{\numberline {2.4}Kommunikation}{11}{section.2.4}
 \contentsline {section}{\numberline {2.5}Assistenz}{12}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Anforderungen an digitale Assistenzsysteme}{12}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Einsatz von digitaler Assistenz}{12}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Assistenzsysteme}{13}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.2}Einsatz von digitaler Assistenz}{13}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Assistenzsysteme}{14}{subsection.2.5.3}
 \contentsline {section}{\numberline {2.6}Gestaltung von Mensch-Maschine-Schnittstellen}{17}{section.2.6}
 \contentsline {subsection}{\numberline {2.6.1}Ergonomisch gute Gestaltung}{17}{subsection.2.6.1}
 \contentsline {subsection}{\numberline {2.6.2}User Experience}{19}{subsection.2.6.2}
@@ -47,4 +47,4 @@
 \contentsline {chapter}{\numberline {8}Ausblick}{35}{chapter.8}
 \contentsfinish 
 \contentsline {chapter}{Anhang \numberline {A}Anhang}{37}{Anhang.a.A}
-\contentsline {chapter}{Literaturverzeichnis}{38}{chapter*.27}
+\contentsline {chapter}{Literaturverzeichnis}{38}{chapter*.29}

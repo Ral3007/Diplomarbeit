@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.30)  15 JAN 2019 13:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.30)  16 JAN 2019 11:29
 entering extended mode
 **./Diplomarbeit_Meret-Feldkemper.tex
 (Diplomarbeit_Meret-Feldkemper.tex
@@ -3027,186 +3027,209 @@ as pro-zess-na-he Bus-System
 [2
 
 
-] [3] [4] [5]
-Overfull \hbox (64.8401pt too wide) in paragraph at lines 82--82
+] [3]
+Overfull \hbox (2.40486pt too wide) in paragraph at lines 54--54
+[][][][]\T1/lmr/m/n/12 (-20) Übergang 
+ []
+
+
+Overfull \hbox (2.40486pt too wide) in paragraph at lines 54--54
+[][][][]\T1/lmr/m/n/12 (-20) Übergang 
+ []
+
+
+Overfull \hbox (2.40486pt too wide) in paragraph at lines 54--54
+[][][][]\T1/lmr/m/n/12 (-20) Übergang 
+ []
+
+
+Overfull \hbox (2.40486pt too wide) in paragraph at lines 54--54
+[][][][]\T1/lmr/m/n/12 (-20) Übergang 
+ []
+
+
+LaTeX Warning: Marginpar on page 4 moved.
+
+[4] [5]
+Overfull \hbox (64.8401pt too wide) in paragraph at lines 85--85
 [][][][]\T1/lmr/m/n/12 (-20) Optimierungskriterien  
  []
 
 
-Overfull \hbox (64.8401pt too wide) in paragraph at lines 82--82
+Overfull \hbox (64.8401pt too wide) in paragraph at lines 85--85
 [][][][]\T1/lmr/m/n/12 (-20) Optimierungskriterien  
  []
 
 
-Overfull \hbox (64.8401pt too wide) in paragraph at lines 82--82
+Overfull \hbox (64.8401pt too wide) in paragraph at lines 85--85
 [][][][]\T1/lmr/m/n/12 (-20) Optimierungskriterien  
  []
 
 
-Overfull \hbox (64.8401pt too wide) in paragraph at lines 82--82
+Overfull \hbox (64.8401pt too wide) in paragraph at lines 85--85
 [][][][]\T1/lmr/m/n/12 (-20) Optimierungskriterien  
  []
 
-
-Overfull \hbox (3.08876pt too wide) in paragraph at lines 94--96
+[6]
+Overfull \hbox (3.08876pt too wide) in paragraph at lines 97--99
 []\T1/lmr/m/n/12 (-20) Mit dem \T1/lmr/bx/n/12 Ver-ar-bei-tungs-stil \T1/lmr/m/
 n/12 (-20) wird be-schrie-ben, wel-che Prä-fe-renz der Mensch
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 110--113
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--116
 
  []
 
 [7] [8] [9] [10] [11] [12] [13]
 
-Package caption Warning: \label without proper reference on input line 240.
+Package caption Warning: \label without proper reference on input line 243.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `tab:Interaktionsm\IeC {\"o}glichkeit' on page 14 unde
-fined on input line 221.
+fined on input line 224.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
 []|\T1/lmr/bx/n/12 Interaktions-
  []
 
 
-Underfull \hbox (badness 1147) in paragraph at lines 229--229
+Underfull \hbox (badness 1147) in paragraph at lines 232--232
 []|\T1/lmr/m/n/12 (+20) zweidimensionale Be-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
+Underfull \hbox (badness 10000) in paragraph at lines 232--232
 []|\T1/lmr/m/n/12 (+20) benötigt ei-ne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
+Underfull \hbox (badness 10000) in paragraph at lines 232--232
 \T1/lmr/m/n/12 (+20) ebe-ne sau-be-re
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--231
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
 []|\T1/lmr/m/n/12 (+20) schnelle Rich-tungs-
  []
 
 
-Underfull \hbox (badness 3895) in paragraph at lines 231--232
+Underfull \hbox (badness 3895) in paragraph at lines 234--235
 []|\T1/lmr/m/n/12 (+20) als Mau-ser-satz,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
 \T1/lmr/m/n/12 (+20) bei Ziel-ver-fol-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
+Underfull \hbox (badness 10000) in paragraph at lines 236--236
 []|\T1/lmr/m/n/12 (+20) Direkte Be-die-nung,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
+Underfull \hbox (badness 10000) in paragraph at lines 236--236
 \T1/lmr/m/n/12 (+20) kei-ne zu-sätz-li-che
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
+Underfull \hbox (badness 10000) in paragraph at lines 236--236
 []|\T1/lmr/m/n/12 (+20) Verschmutzt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
 []|\T1/lmr/m/n/12 (+20) weitreichend:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--235
+Underfull \hbox (badness 10000) in paragraph at lines 238--238
 []|\T1/lmr/m/n/12 (+20) sichere Er-ken-nung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--235
+Underfull \hbox (badness 10000) in paragraph at lines 238--238
 \T1/lmr/m/n/12 (+20) muss ge-währ-leis-tet
  []
 
 
-Overfull \hbox (3.56953pt too wide) in paragraph at lines 235--236
+Overfull \hbox (3.56953pt too wide) in paragraph at lines 238--239
 []|\T1/lmr/m/n/12 (-20) Auswahlvorgänge,
  []
 
 
-Package caption Warning: \label without proper reference on input line 263.
+Package caption Warning: \label without proper reference on input line 266.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `tab:Interaktionssystem' on page 14 undefined on input
- line 245.
+ line 248.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--249
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 []|\T1/lmr/bx/n/12 Interaktions-
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 251--251
+Underfull \hbox (badness 1189) in paragraph at lines 254--254
 \T1/lmr/m/n/12 (+20) ven Ein-schrän-kun-
  []
 
 
-Underfull \hbox (badness 4060) in paragraph at lines 251--251
+Underfull \hbox (badness 4060) in paragraph at lines 254--254
 \T1/lmr/m/n/12 (+20) gig von ge-for-der-
  []
 
 
-Underfull \hbox (badness 6428) in paragraph at lines 251--251
+Underfull \hbox (badness 6428) in paragraph at lines 254--254
 \T1/lmr/m/n/12 (+20) ter Pro-jek-ti-ons-ge-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
 []|\T1/lmr/m/n/12 (+20) Unterstützung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
 \T1/lmr/m/n/12 (+20) des Kom-mis-sio-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
 \T1/lmr/m/n/12 (+20) nie-rungs-vor-gangs,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
 []|\T1/lmr/m/n/12 (+20) Einblendung von
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
 \T1/lmr/m/n/12 (+20) Zu-satz-in-for-ma-tio-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
 []|\T1/lmr/m/n/12 (+20) Checklisten, An-
  []
 
 
-Underfull \hbox (badness 6978) in paragraph at lines 257--258
+Underfull \hbox (badness 6978) in paragraph at lines 260--261
 []|\T1/lmr/m/n/12 (+20) Navigation, In-for-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
 []|\T1/lmr/m/n/12 (+20) einfache Hand-ha-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
 []|\T1/lmr/m/n/12 (+20) stationärer
  []
 
@@ -3258,27 +3281,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 65--66
-\T1/lmr/m/n/12 (+14) Kapazitäts-Optimierung,
+\T1/lmr/m/n/12 (+20) Ka-pa-zi-täts-op-ti-mie-rung,
  []
 
 
 Underfull \hbox (badness 1728) in paragraph at lines 67--67
 \T1/lmr/m/n/12 (+20) Stun-den oder Mi-nu-ten
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-[]|\T1/lmr/m/n/12 (+20) Prozess-Überwachung,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-\T1/lmr/m/n/12 (+20) An- und Ab-fahr-ten,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-\T1/lmr/m/n/12 (+20) Stö-rungs-be-hand-lung,
  []
 
 
@@ -3375,7 +3383,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
 Package rerunfilecheck Info: File `Diplomarbeit_Meret-Feldkemper.out' has not c
 hanged.
-(rerunfilecheck)             Checksum: 5C156DFB9373ADB53D1523E5CB76103A;3364.
+(rerunfilecheck)             Checksum: 902E7E033E7FC49F99455B774D9FA510;3364.
 
 
 LaTeX Warning: There were undefined references.
@@ -3386,10 +3394,10 @@ Package logreq Info: Writing requests to 'Diplomarbeit_Meret-Feldkemper.run.xml
 
  ) 
 Here is how much of TeX's memory you used:
- 47860 strings out of 493305
- 911639 string characters out of 3138839
- 1451179 words of memory out of 3000000
- 50248 multiletter control sequences out of 15000+200000
+ 47879 strings out of 493305
+ 912051 string characters out of 3138839
+ 1454179 words of memory out of 3000000
+ 50265 multiletter control sequences out of 15000+200000
  641280 words of font info for 170 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  73i,18n,79p,9111b,2267s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3404,9 +3412,9 @@ m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9
 c/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Diplomarbeit_Meret-Feldkemper.pdf (51 pages, 1159530 bytes).
+Output written on Diplomarbeit_Meret-Feldkemper.pdf (51 pages, 1160950 bytes).
 PDF statistics:
- 770 PDF objects out of 1000 (max. 8388607)
- 169 named destinations out of 1000 (max. 500000)
+ 773 PDF objects out of 1000 (max. 8388607)
+ 171 named destinations out of 1000 (max. 500000)
  33712 words of extra memory for PDF output out of 35830 (max. 10000000)
 

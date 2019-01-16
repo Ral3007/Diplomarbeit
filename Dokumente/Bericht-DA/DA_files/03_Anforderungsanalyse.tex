@@ -13,9 +13,9 @@ Was soll unterstützt werden?
 \subsection{Modulare Anlage}
 Der Lebenszyklus einer modulare Anlage wird in unterschiedliche Phasen eingeteilt. Sie besteht aus Planung, Errichtung, Betrieb und Demontage. \cite{} Diese Arbeit legt den Fokus auf die Probleme während des Betriebs der modularen Anlage.
 
-\todo{Welche Probleme existieren?}
+Probleme können in modularen Anlagen auf verschiedenen Ebenen entstehen. Zum einen auf direkter Modulebene. So stellt das Modul beispielsweise entsprechende Alarme zur Verfügung. Dann können Probleme auch in Zusammenhang mit verschiedenen Modulen entstehen. Welche Probleme auftreten können ist in Abschnitt x näher beschrieben.
 
-Probleme können in modularen Anlagen auf verschiedenen Ebenen entstehen. Zum einen auf direkter Modulebene. So stellt das Modul beispielsweise entsprechende Alarme zur Verfügung. Dann können Probleme auch in Zusammenhang mit verschiedenen Modulen entstehen. Zum Austausch von Informationen zwischen Prozessführungsebene (PFE) und Modul wird das Modul Type Package (MTP) verwendet. Da der Modulhersteller entscheiden kann, welche Informationen zur Verfügung gestellt werden unterscheidet sich der konkrete Inhalt des MTP von Modul zu Modul. Es soll hier nicht auf den konkreten Aufbau des MTPs eingegangen werden.
+Um Probleme lösen zu können muss unter anderem klar sein, welche Informationen zur Verfügung stehen. Für den Austausch von Informationen zwischen Prozessführungsebene (PFE) und Modul wird das Modul Type Package (MTP) verwendet. Da der Modulhersteller entscheiden kann, welche Informationen zur Verfügung gestellt werden unterscheidet sich der konkrete Inhalt des MTP von Modul zu Modul. Es soll hier nicht auf den konkreten Aufbau des MTPs eingegangen werden.
 
 \subsubsection{Informationsaustausch mittels MTP}
 Das Modul stellt eine Reihe an Informationen zur Verfügung, die durch das Modul Type Package (MTP) beschrieben sind. Im MTP sind unter anderem das HMI und die Services hinterlegt.
@@ -50,6 +50,9 @@ Sollen Dienste näher spezifiziert werden, ist eine Verwendung von Parametern m�
 \item \textbf{Reportwerte:} Zur Nachweis- und Dokumentationspflicht werden die Werte in den Zuständen Completed, Aborted und Stopped gespeichert.
 \end{itemize}
 
+\subsubsection{Probleme in modularen Anlagen}
+Da die modularen Anlagen mit Diensten gesteuert werden ändern sich auch die Art an Problemen die entstehen und die vom Modulbetreiber behoben werden können. Durch die Dienste wird nur noch ein Problembereich angezeigt. Meldet ein Dienst zurück, dass er nicht erfolgreich durchgeführt werden kann so ist noch nicht eindeutig, wo das Problem liegt. Ein entsprechender Fehlercode ist zwar vorgesehen, zur Zeit aber noch sehr unspezifisch. Bei Betrieb der modularen Anlage treten derzeit die häufigsten Fehler auf, wenn entsprechende Zuläufe nicht geöffnet werden. So meldet aktuell das Modul nicht zurück, wenn vergessen wurde die Druckluft anzustellen. Dem Betreiber fällt nur auf, dass das Modul nicht so arbeitet, wie es soll. Wurde beim Temperiermodul vergessen den Zulauf für das Wasser zur Kühlung zu öffnen so meldet sich dieses erst nach ca. zwei Minuten zurück, da es zu warm wird. 
+
 \subsection{Informationen nach Aufgabenbereich}
 Neben den Informationen, die ein Modul zur Verfügung stellt und die bei Behebung einer Störung behilflich sein können, gibt es eine Reihe von weiteren interessanten Aspekten. Weitet man den Problembereich von einer reinen Instandhaltung auf Bereiche wie die zunehmend geforderte Einsparung von Kosten aus, so werden ganz andere Informationen benötigt. Welche Funktionen auf welcher Ebene in einem Unternehmen automatisiert werden können und somit auch sinnvoll durch ein Assistenzsystem unterstützbar sind ist in \cite{Lauber1999} beschrieben. Hier ist auch der zeitliche Aspekt mit aufgeführt. Eine entsprechende Übersicht findet sich in Tabelle \ref{tab:Ebenen-Unternehmen}.
 \begin{table}[htb]
@@ -62,9 +65,9 @@ Neben den Informationen, die ein Modul zur Verfügung stellt und die bei Behebun
 \hline
 Unternehmens-führung & Entscheidungen wirken sich langfristig aus (nach Monaten oder Jahren) & Kostenanalysen, statistische Auswertungen \\
 \hline
-Produktions-planung und Betriebsleitung & Tage, Wochen oder Monate & Betriebsablaufplanung, Kapazitäts-Optimierung, Auswertung der Prozessergebnisse \\
+Produktions-planung und Betriebsleitung & Änderungen werden nach Tagen, Wochen oder Monaten sichtbar & Betriebsablaufplanung, Kapazitätsoptimierung, Auswertung der Prozessergebnisse \\
 \hline
-Leitung technische Prozesse & Eingriffe wirken sich nach Stunden oder Minuten aus & Prozess-Überwachung, An- und Abfahrten, Störungsbehandlung, Prozessführung, Prozess-Sicherung \\
+Leitung technische Prozesse & Eingriffe wirken sich nach Stunden oder Minuten aus & Prozessüberwachung, An- und Abfahrten, Störungsbehandlung, Prozessführung, Prozesssicherung \\
 \hline
 Prozessgrößen & Auswirkungen sind nach Sekunden, Millisekunden oder gar Mikrosekunden sichtbar & Messen, Steuern, Stellen, Regeln, Verriegelungen, Not-Bedienen von Prozessgrößen, Abschalten, Schutz \\
 \hline
