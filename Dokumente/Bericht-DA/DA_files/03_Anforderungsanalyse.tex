@@ -56,13 +56,7 @@ Da die modularen Anlagen mit Diensten gesteuert werden ändern sich auch die Art
 Insbesondere mit dem großen Vorteil der Flexibilität von modularen Anlagen können Probleme auch auf anderen Ebenen entstehen. Die Option nicht nur Parameter anzupassen sondern auch Module auszutauschen eröffnet neue Möglichkeiten und stellt den Modulbetreiber vor neue Herausforderungen. 
 
 \subsection{Use Case}
-Der Modulbetreiber bekommt eine Anfrage vom Kunden mit dem eine just-in-Time Vereinbarung getroffen wurde. Die Produktion von xxx muss am nächsten Tag starten. Zurzeit befindet sich das benötigte Dosiermodul jedoch in der Anlage yy. Um etwas Vorlauf zu gewinnen wird in Absprache mit dem Assistenzsystem die aktuelle Produktion in Anlage yy auf 110\% gefahren. Bis zum Anlauf der Produktion am nächsten Tag muss jedoch eine Lösung gefunden werden. Die Optionen sind vielfältig.
-\begin{itemize}
-\item Die Produktion von xxx hat Vorang und die Anlage yy wird solange stillgelegt. Dies führt zu massiven Kosten, da nicht weiter produziert werden kann.
-\item Es existiert noch ein weiteres Modul aa, dass eventuell verwendet werden kann. Das Dosiermodul aa hat einen geringeren Durchfluss und stellt andere Services zur Verfügung.
-\item Es steht noch ein Modul bb zur Verfügung, das jedoch ausgetauscht wurde, da es zu viel Energie verbraucht. Hier ist auf die Auslastung des Energienetzes Rücksicht zu nehmen.
-\item Auch die Möglichkeit ein entsprechendes Modul zu leihen besteht. 
-\end{itemize}
+
 
 \subsection{Informationen nach Aufgabenbereich}
 Neben den Informationen, die ein Modul zur Verfügung stellt und die bei Behebung einer Störung behilflich sein können, gibt es eine Reihe von weiteren interessanten Aspekten. Weitet man den Problembereich von einer reinen Instandhaltung auf Bereiche wie die zunehmend geforderte Einsparung von Kosten aus, so werden ganz andere Informationen benötigt. Welche Funktionen auf welcher Ebene in einem Unternehmen automatisiert werden können und somit auch sinnvoll durch ein Assistenzsystem unterstützbar sind ist in \cite{Lauber1999} beschrieben. Hier ist auch der zeitliche Aspekt mit aufgeführt. Eine entsprechende Übersicht findet sich in Tabelle \ref{tab:Ebenen-Unternehmen}.
@@ -85,13 +79,13 @@ Prozessgrößen & Auswirkungen sind nach Sekunden, Millisekunden oder gar Mikros
 \end{tabular}
 \end{table}
 
-Auf der Unternehmensführungsebene sind beispielsweise folgende Kosten relevant  \cite{Kunstler2014}:
+Auf der Unternehmensführungsebene sind beispielsweise folgende Kosten relevant \todo{eventuell löschen, da doppelt} \cite{Kunstler2014}:
 \begin{itemize}
 \item Logistikkosten
 \item Personalkosten
 \item Verpackungskosten
 \item Kosten für Reklamationen und Retouren
-\item Kosten aufgrund fehlender Prozessynchronisation
+\item Kosten aufgrund fehlender Prozesssynchronisation
 \end{itemize}
 Folgende Kennzahlen sind für die Produktions- und Betriebsleitebene interessant \cite{Kunstler2014}:
 \begin{itemize}
@@ -106,11 +100,22 @@ Stützt man sich bei der Ermittlung des Informationsbedarfs auf die individuelle
 
 Welche Informationen sind nun für den Modulbetreiber relevant, wenn ein Modul ausgetauscht werden muss?
 
-Der sicherlich wichtigste Punkt ist die Kompatibilität. Passen die Anschlüsse zu den anderen Modulen meiner Anlage? Kann das Rezept weiterhin, wie konfiguriert gefahren werden oder sind Anpassungen notwendig?
+Der sicherlich wichtigste Punkt ist die Kompatibilität. Passen die Anschlüsse zu den anderen Modulen meiner Anlage? Kann das Rezept weiterhin, wie konfiguriert gefahren werden oder sind Anpassungen notwendig? Um dies einschätzen zu können sind weitreichende Informationen über das Modul und die aktuelle Anlage notwendig. Diese umfassen
+\begin{itemize}
+\item \textbf{die Abmaße:} Passt das Modul von der Größe an die gleiche Stelle, wie das andere Modul?
+\item \textbf{die Anschlüsse:} Ist das Modul mit den Anschlüssen der anderen Module kompatibel?
+\item \textbf{das Rezept:} Welche Stellen im Rezept werden beeinflusst, wenn das Modul getauscht werden muss?
+\item \textbf{die Services:} Welche Serviceabhängigkeiten bestehen zwischen dem Rest der Anlage und dem zu ersetzenden Modul?
+\item \textbf{die Parameter:} Können die Parameter bei einem Austausch beibehalten werden oder müssen Anpassungen vorgenommen werden? Wenn Anpassungen vorgenommen werden müssen, welche Auswirkungen hat das auf den Prozess?
+\end{itemize}
+
+Ein Modulaustausch hat nicht nur auf der rein technischen Seite einen Einfluss. Ein Unternehmen muss noch viele weitere Faktoren berücksichtigen, um sich bei Alternativen für eine entscheiden zu können. Die Kriterien für die Auswahl werden durch die Ziele des Unternehmens bestimmt. Zur unterstützung der Zielerreichung ist eine Verwendung von Kennzahlen möglich. Mit den Kennzahlen kann der aktuelle Zustand ermittelt und überwacht werden. Dabei muss auch festgelegt werden, welche Entscheidungsrelevanz die Kennzahl hat.  Bezogen auf den Modulaustausch könnten der Aufwand einer Rezeptänderung oder die Auswirkungen auf die Produktqualität relevant sein. Mit Sicht auf die Produktionsprozesse identifiziert x eine ganze Reihe von Faktoren, welche die Ziele beeinflussen können. 
 
 Was kostet der Austausch? 
 
 Wie viel Energie verbraucht mein Modul?
+
+Wie viel Stillstandzeit verursacht der Austausch?
 
 \section{Informationsanpassung}
 Die Individualisierung von Software bietet die Möglichkeit eine Vielzahl von Nutzer und Aufgaben zu unterstützen. Individualisierung dient der Modifizierung von Interaktionen und Informationsdarstellungen, um den Fähigkeiten und Bedürfnissen jedes Benutzers gerecht zu werden. Zudem kann sich das System auch entsprechend der zu lösenden Aufgaben anpassen.
@@ -119,6 +124,8 @@ Die Individualisierung von Software bietet die Möglichkeit eine Vielzahl von Nu
 Bei Untersuchung des Informationsbedarfs hat sich bereits herauskristallisiert, dass Nutzer bei unterschiedlichem Vorwissen unterschiedliche Informationen zum Lösen der gleichen Aufgabe benötigen. Nutzer mit geringem Vorwissen haben zumeist einen höheren Informationsbedarf. \todo{anderen Fokus legen -> Aufgaben}
 
 Daher erscheint es sinnvoll das individuelle Vorwissen der Nutzer zu berücksichtigen und die Menge und Art der Informationen an sie anzupassen. Wie dies umgesetzt werden kann ist im Konzept beschrieben.
+
+Jedes Unternehmen hat einen anderen Fokus. Andere Kennzahlen sind wichtig
 
 \subsection{Anpassung an die Aufgabe}
 Da die entstehenden Probleme sehr unterschiedlich sein können ist eine entsprechende Anpassung an die aktuelle Situation und die zu bearbeitende Aufgabe wichtig.

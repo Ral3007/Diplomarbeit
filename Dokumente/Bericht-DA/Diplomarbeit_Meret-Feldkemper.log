@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.30)  18 JAN 2019 07:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.30)  18 JAN 2019 12:00
 entering extended mode
 **./Diplomarbeit_Meret-Feldkemper.tex
 (Diplomarbeit_Meret-Feldkemper.tex
@@ -3242,62 +3242,62 @@ chapter 3.
 
 
 ] [25] [26]
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \T1/lmr/bx/n/12 Un-ter-neh-
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 75--75
+Underfull \hbox (badness 1242) in paragraph at lines 69--69
 []|\T1/lmr/bx/n/12 zeitliche An-for-de-run-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 []|\T1/lmr/bx/n/12 Automatisierungs-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
 []|\T1/lmr/m/n/12 (+20) Unternehmens-
  []
 
 
-Underfull \hbox (badness 5563) in paragraph at lines 77--77
+Underfull \hbox (badness 5563) in paragraph at lines 71--71
 []|\T1/lmr/m/n/12 (+20) Entscheidungen wir-ken
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--79
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 []|\T1/lmr/m/n/12 (+20) Produktions-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--79
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 \T1/lmr/m/n/12 (+20) planung und
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 []|\T1/lmr/m/n/12 (+20) Betriebsablaufplanung,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 \T1/lmr/m/n/12 (+20) Ka-pa-zi-täts-op-ti-mie-rung,
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 81--81
+Underfull \hbox (badness 1728) in paragraph at lines 75--75
 \T1/lmr/m/n/12 (+20) Stun-den oder Mi-nu-ten
  []
 
 
-Underfull \hbox (badness 4518) in paragraph at lines 83--84
+Underfull \hbox (badness 4518) in paragraph at lines 77--78
 []|\T1/lmr/m/n/12 (+20) Messen, Steu-ern, Stel-
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 83--84
+Underfull \hbox (badness 1199) in paragraph at lines 77--78
 \T1/lmr/m/n/12 (+20) gen, Not-Bedienen von
  []
 
@@ -3385,7 +3385,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
 Package rerunfilecheck Info: File `Diplomarbeit_Meret-Feldkemper.out' has not c
 hanged.
-(rerunfilecheck)             Checksum: 3C07E1A8AA5718C56B9A1AF35472BC6F;3522.
+(rerunfilecheck)             Checksum: ED3FB5CBA10DEDCA64B9368D6C8D0FBC;3522.
 
 
 LaTeX Warning: There were undefined references.
@@ -3396,10 +3396,10 @@ Package logreq Info: Writing requests to 'Diplomarbeit_Meret-Feldkemper.run.xml
 
  ) 
 Here is how much of TeX's memory you used:
- 47875 strings out of 493305
- 911920 string characters out of 3138839
- 1453178 words of memory out of 3000000
- 50259 multiletter control sequences out of 15000+200000
+ 47884 strings out of 493305
+ 912116 string characters out of 3138839
+ 1455179 words of memory out of 3000000
+ 50267 multiletter control sequences out of 15000+200000
  641280 words of font info for 170 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  73i,18n,79p,9111b,2267s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3414,9 +3414,9 @@ m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9
 c/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Diplomarbeit_Meret-Feldkemper.pdf (52 pages, 1165829 bytes).
+Output written on Diplomarbeit_Meret-Feldkemper.pdf (52 pages, 1167189 bytes).
 PDF statistics:
- 786 PDF objects out of 1000 (max. 8388607)
- 173 named destinations out of 1000 (max. 500000)
+ 787 PDF objects out of 1000 (max. 8388607)
+ 174 named destinations out of 1000 (max. 500000)
  33728 words of extra memory for PDF output out of 35830 (max. 10000000)
 
