@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.30)  16 JAN 2019 11:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.30)  18 JAN 2019 07:53
 entering extended mode
 **./Diplomarbeit_Meret-Feldkemper.tex
 (Diplomarbeit_Meret-Feldkemper.tex
@@ -2717,7 +2717,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-eur.cfg"
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-<TU_Logo_SW.pdf, id=198, 256.96pt x 75.28125pt>
+<TU_Logo_SW.pdf, id=206, 256.96pt x 75.28125pt>
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
 Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 144.
@@ -2726,12 +2726,12 @@ Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 144.
 
 pdfTeX warning: pdflatex (file ./PLT_Logo_SW.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<PLT_Logo_SW.pdf, id=199, 507.09451pt x 282.0939pt>
+<PLT_Logo_SW.pdf, id=207, 507.09451pt x 282.0939pt>
 File: PLT_Logo_SW.pdf Graphic file (type pdf)
 <use PLT_Logo_SW.pdf>
 Package pdftex.def Info: PLT_Logo_SW.pdf  used on input line 144.
 (pdftex.def)             Requested size: 85.5627pt x 47.60144pt.
-<IfA_Header.pdf, id=200, 350.60385pt x 12.99957pt>
+<IfA_Header.pdf, id=208, 350.60385pt x 12.99957pt>
 File: IfA_Header.pdf Graphic file (type pdf)
 <use IfA_Header.pdf>
 Package pdftex.def Info: IfA_Header.pdf  used on input line 144.
@@ -2751,7 +2751,7 @@ Package microtype Info: Character `029' is missing
 
 pdfTeX warning: pdflatex (file ./DA_files/00_Aufgabenstellung.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
-<DA_files/00_Aufgabenstellung.pdf, id=233, 597.50786pt x 845.01837pt>
+<DA_files/00_Aufgabenstellung.pdf, id=241, 597.50786pt x 845.01837pt>
 File: DA_files/00_Aufgabenstellung.pdf Graphic file (type pdf)
 <use DA_files/00_Aufgabenstellung.pdf>
 Package pdftex.def Info: DA_files/00_Aufgabenstellung.pdf  used on input line 1
@@ -2774,7 +2774,7 @@ on: found PDF version <1.6>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./DA_files/00_Aufgabenstellung.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
-<DA_files/00_Aufgabenstellung.pdf, id=236, page=1, 597.50786pt x 845.01837pt>
+<DA_files/00_Aufgabenstellung.pdf, id=244, page=1, 597.50786pt x 845.01837pt>
 File: DA_files/00_Aufgabenstellung.pdf Graphic file (type pdf)
 <use DA_files/00_Aufgabenstellung.pdf, page 1>
 Package pdftex.def Info: DA_files/00_Aufgabenstellung.pdf , page1 used on input
@@ -2905,8 +2905,10 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 44.
 Package tocbasic Info: Using my definition of `\numberline' on input line 45.
 Package tocbasic Info: Using my definition of `\numberline' on input line 46.
 Package tocbasic Info: Using my definition of `\numberline' on input line 47.
+Package tocbasic Info: Using my definition of `\numberline' on input line 48.
 Package tocbasic Info: Using my definition of `\numberline' on input line 49.
-Package tocbasic Info: Using my definition of `\numberline' on input line 50.
+Package tocbasic Info: Using my definition of `\numberline' on input line 51.
+Package tocbasic Info: Using my definition of `\numberline' on input line 52.
 )
 \tf@toc=\write8
 \openout8 = `Diplomarbeit_Meret-Feldkemper.toc'.
@@ -3239,97 +3241,97 @@ chapter 3.
 [24
 
 
-] [25]
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+] [25] [26]
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
 \T1/lmr/bx/n/12 Un-ter-neh-
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 61--61
+Underfull \hbox (badness 1242) in paragraph at lines 75--75
 []|\T1/lmr/bx/n/12 zeitliche An-for-de-run-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 []|\T1/lmr/bx/n/12 Automatisierungs-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
 []|\T1/lmr/m/n/12 (+20) Unternehmens-
  []
 
 
-Underfull \hbox (badness 5563) in paragraph at lines 63--63
+Underfull \hbox (badness 5563) in paragraph at lines 77--77
 []|\T1/lmr/m/n/12 (+20) Entscheidungen wir-ken
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
 []|\T1/lmr/m/n/12 (+20) Produktions-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
 \T1/lmr/m/n/12 (+20) planung und
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 []|\T1/lmr/m/n/12 (+20) Betriebsablaufplanung,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 \T1/lmr/m/n/12 (+20) Ka-pa-zi-täts-op-ti-mie-rung,
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 67--67
+Underfull \hbox (badness 1728) in paragraph at lines 81--81
 \T1/lmr/m/n/12 (+20) Stun-den oder Mi-nu-ten
  []
 
 
-Underfull \hbox (badness 4518) in paragraph at lines 69--70
+Underfull \hbox (badness 4518) in paragraph at lines 83--84
 []|\T1/lmr/m/n/12 (+20) Messen, Steu-ern, Stel-
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 69--70
+Underfull \hbox (badness 1199) in paragraph at lines 83--84
 \T1/lmr/m/n/12 (+20) gen, Not-Bedienen von
  []
 
-[26] [27] [28] [29]) (DA_files/04_Konzept.tex [30]
+[27] [28] [29] [30]) (DA_files/04_Konzept.tex [31]
 chapter 4.
-) (DA_files/05_Implementierung.tex [31
+) (DA_files/05_Implementierung.tex [32
 
 
 ]
 chapter 5.
-) (DA_files/06_Verifikation.tex [32
+) (DA_files/06_Verifikation.tex [33
 
 
 ]
 chapter 6.
-) (DA_files/07_Zusammenfassung.tex [33
+) (DA_files/07_Zusammenfassung.tex [34
 
 
 ]
 chapter 7.
-) (DA_files/08_Ausblick.tex [34
+) (DA_files/08_Ausblick.tex [35
 
 
 ]
 chapter 8.
-) [35
+) [36
 
 
-] [36
+] [37
 
 
 ] (DA_files/Anhang.tex
 chapter A.
-) [37
+) [38
 
 
 
@@ -3352,12 +3354,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-[38
+[39
 
 
 
 
-] [39] [40]
+] [40] [41]
 Overfull \hbox (1.18527pt too wide) in paragraph at lines 154--154
 []\T1/lmr/m/n/12 (-20) Detlef Zühl-ke. \T1/lmr/m/it/12 (-20) Nut-zer-ge-rech-te
  Ent-wick-lung von Mensch-Maschine-
@@ -3370,7 +3372,7 @@ nger-Verlag, 2012. \T1/lmr/m/sc/12 (-20) isbn\T1/lmr/m/n/12 (-20) : 97836422207
 39. 
  []
 
-[41] [42
+[42] [43
 
 
 
@@ -3383,7 +3385,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
 Package rerunfilecheck Info: File `Diplomarbeit_Meret-Feldkemper.out' has not c
 hanged.
-(rerunfilecheck)             Checksum: 902E7E033E7FC49F99455B774D9FA510;3364.
+(rerunfilecheck)             Checksum: 3C07E1A8AA5718C56B9A1AF35472BC6F;3522.
 
 
 LaTeX Warning: There were undefined references.
@@ -3394,10 +3396,10 @@ Package logreq Info: Writing requests to 'Diplomarbeit_Meret-Feldkemper.run.xml
 
  ) 
 Here is how much of TeX's memory you used:
- 47879 strings out of 493305
- 912051 string characters out of 3138839
- 1454179 words of memory out of 3000000
- 50265 multiletter control sequences out of 15000+200000
+ 47875 strings out of 493305
+ 911920 string characters out of 3138839
+ 1453178 words of memory out of 3000000
+ 50259 multiletter control sequences out of 15000+200000
  641280 words of font info for 170 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  73i,18n,79p,9111b,2267s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3412,9 +3414,9 @@ m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9
 c/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Diplomarbeit_Meret-Feldkemper.pdf (51 pages, 1160950 bytes).
+Output written on Diplomarbeit_Meret-Feldkemper.pdf (52 pages, 1165829 bytes).
 PDF statistics:
- 773 PDF objects out of 1000 (max. 8388607)
- 171 named destinations out of 1000 (max. 500000)
- 33712 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 786 PDF objects out of 1000 (max. 8388607)
+ 173 named destinations out of 1000 (max. 500000)
+ 33728 words of extra memory for PDF output out of 35830 (max. 10000000)
 
