@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.30)  18 JAN 2019 12:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.30)  21 JAN 2019 10:29
 entering extended mode
 **./Diplomarbeit_Meret-Feldkemper.tex
 (Diplomarbeit_Meret-Feldkemper.tex
@@ -2916,7 +2916,9 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 52.
  [6]
 Package tocbasic Info: character protrusion at lof deactivated on input line 14
 4.
- (Diplomarbeit_Meret-Feldkemper.lof)
+ (Diplomarbeit_Meret-Feldkemper.lof
+Package tocbasic Info: Using my definition of `\numberline' on input line 6.
+)
 \tf@lof=\write9
 \openout9 = `Diplomarbeit_Meret-Feldkemper.lof'.
 
@@ -3301,37 +3303,47 @@ Underfull \hbox (badness 1199) in paragraph at lines 77--78
 \T1/lmr/m/n/12 (+20) gen, Not-Bedienen von
  []
 
-[27] [28] [29] [30]) (DA_files/04_Konzept.tex [31]
+[27] [28]
+<DA_files/Bilder/Analyse/Produktionsprozesse-Zielgroessen.pdf, id=621, 762.85pt
+ x 652.4375pt>
+File: DA_files/Bilder/Analyse/Produktionsprozesse-Zielgroessen.pdf Graphic file
+ (type pdf)
+<use DA_files/Bilder/Analyse/Produktionsprozesse-Zielgroessen.pdf>
+Package pdftex.def Info: DA_files/Bilder/Analyse/Produktionsprozesse-Zielgroess
+en.pdf  used on input line 115.
+(pdftex.def)             Requested size: 381.42407pt x 326.21794pt.
+ [29] [30 <./DA_files/Bilder/Analyse/Produktionsprozesse-Zielgroessen.pdf>] [31
+] [32]) (DA_files/04_Konzept.tex [33]
 chapter 4.
-) (DA_files/05_Implementierung.tex [32
+) (DA_files/05_Implementierung.tex [34
 
 
 ]
 chapter 5.
-) (DA_files/06_Verifikation.tex [33
+) (DA_files/06_Verifikation.tex [35
 
 
 ]
 chapter 6.
-) (DA_files/07_Zusammenfassung.tex [34
+) (DA_files/07_Zusammenfassung.tex [36
 
 
 ]
 chapter 7.
-) (DA_files/08_Ausblick.tex [35
+) (DA_files/08_Ausblick.tex [37
 
 
 ]
 chapter 8.
-) [36
+) [38
 
 
-] [37
+] [39
 
 
 ] (DA_files/Anhang.tex
 chapter A.
-) [38
+) [40
 
 
 
@@ -3354,12 +3366,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-[39
+[41
 
 
 
 
-] [40] [41]
+] [42] [43]
 Overfull \hbox (1.18527pt too wide) in paragraph at lines 154--154
 []\T1/lmr/m/n/12 (-20) Detlef Zühl-ke. \T1/lmr/m/it/12 (-20) Nut-zer-ge-rech-te
  Ent-wick-lung von Mensch-Maschine-
@@ -3372,7 +3384,7 @@ nger-Verlag, 2012. \T1/lmr/m/sc/12 (-20) isbn\T1/lmr/m/n/12 (-20) : 97836422207
 39. 
  []
 
-[42] [43
+[44] [45
 
 
 
@@ -3385,7 +3397,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
 Package rerunfilecheck Info: File `Diplomarbeit_Meret-Feldkemper.out' has not c
 hanged.
-(rerunfilecheck)             Checksum: ED3FB5CBA10DEDCA64B9368D6C8D0FBC;3522.
+(rerunfilecheck)             Checksum: 0B0282EA043DB11DD3285CE2DD75C6FD;3522.
 
 
 LaTeX Warning: There were undefined references.
@@ -3396,10 +3408,10 @@ Package logreq Info: Writing requests to 'Diplomarbeit_Meret-Feldkemper.run.xml
 
  ) 
 Here is how much of TeX's memory you used:
- 47884 strings out of 493305
- 912116 string characters out of 3138839
+ 47906 strings out of 493305
+ 912796 string characters out of 3138839
  1455179 words of memory out of 3000000
- 50267 multiletter control sequences out of 15000+200000
+ 50283 multiletter control sequences out of 15000+200000
  641280 words of font info for 170 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  73i,18n,79p,9111b,2267s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3414,9 +3426,9 @@ m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9
 c/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Diplomarbeit_Meret-Feldkemper.pdf (52 pages, 1167189 bytes).
+Output written on Diplomarbeit_Meret-Feldkemper.pdf (54 pages, 1175703 bytes).
 PDF statistics:
- 787 PDF objects out of 1000 (max. 8388607)
- 174 named destinations out of 1000 (max. 500000)
- 33728 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 805 PDF objects out of 1000 (max. 8388607)
+ 178 named destinations out of 1000 (max. 500000)
+ 33733 words of extra memory for PDF output out of 35830 (max. 10000000)
 
