@@ -35,7 +35,7 @@
 \contentsline {subsection}{\numberline {3.1.4}Informationsbedarf der Operator}{28}{subsection.3.1.4}
 \contentsline {section}{\numberline {3.2}Informationsanpassung}{31}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Individualisierung f\IeC {\"u}r den Menschen}{31}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Anpassung an die Aufgabe}{31}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.2}Anpassung an die Aufgabe}{32}{subsection.3.2.2}
 \contentsline {section}{\numberline {3.3}Interaktionsmechaniken}{32}{section.3.3}
 \contentsline {section}{\numberline {3.4}Anforderungen an das Assistenzsystem}{32}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Funktionale Anforderungen}{32}{subsection.3.4.1}
@@ -49,4 +49,4 @@
 \contentsline {chapter}{\numberline {8}Ausblick}{38}{chapter.8}
 \contentsfinish 
 \contentsline {chapter}{Anhang \numberline {A}Anhang}{40}{Anhang.a.A}
-\contentsline {chapter}{Literaturverzeichnis}{41}{chapter*.31}
+\contentsline {chapter}{Literaturverzeichnis}{41}{chapter*.30}

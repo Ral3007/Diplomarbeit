@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.30)  21 JAN 2019 10:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.30)  21 JAN 2019 15:50
 entering extended mode
 **./Diplomarbeit_Meret-Feldkemper.tex
 (Diplomarbeit_Meret-Feldkemper.tex
@@ -3304,16 +3304,16 @@ Underfull \hbox (badness 1199) in paragraph at lines 77--78
  []
 
 [27] [28]
-<DA_files/Bilder/Analyse/Produktionsprozesse-Zielgroessen.pdf, id=621, 762.85pt
+<DA_files/Bilder/Analyse/Produktionsprozesse-Zielgroessen.pdf, id=622, 762.85pt
  x 652.4375pt>
 File: DA_files/Bilder/Analyse/Produktionsprozesse-Zielgroessen.pdf Graphic file
  (type pdf)
 <use DA_files/Bilder/Analyse/Produktionsprozesse-Zielgroessen.pdf>
 Package pdftex.def Info: DA_files/Bilder/Analyse/Produktionsprozesse-Zielgroess
-en.pdf  used on input line 115.
+en.pdf  used on input line 118.
 (pdftex.def)             Requested size: 381.42407pt x 326.21794pt.
  [29] [30 <./DA_files/Bilder/Analyse/Produktionsprozesse-Zielgroessen.pdf>] [31
-] [32]) (DA_files/04_Konzept.tex [33]
+]) (DA_files/04_Konzept.tex [32] [33]
 chapter 4.
 ) (DA_files/05_Implementierung.tex [34
 
@@ -3397,7 +3397,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
 Package rerunfilecheck Info: File `Diplomarbeit_Meret-Feldkemper.out' has not c
 hanged.
-(rerunfilecheck)             Checksum: 0B0282EA043DB11DD3285CE2DD75C6FD;3522.
+(rerunfilecheck)             Checksum: EEB937EE70AAAC4B506E3FE11F12B8BE;3522.
 
 
 LaTeX Warning: There were undefined references.
@@ -3408,11 +3408,11 @@ Package logreq Info: Writing requests to 'Diplomarbeit_Meret-Feldkemper.run.xml
 
  ) 
 Here is how much of TeX's memory you used:
- 47906 strings out of 493305
- 912796 string characters out of 3138839
+ 47904 strings out of 493305
+ 912757 string characters out of 3138839
  1455179 words of memory out of 3000000
- 50283 multiletter control sequences out of 15000+200000
- 641280 words of font info for 170 fonts, out of 3000000 for 9000
+ 50277 multiletter control sequences out of 15000+200000
+ 641510 words of font info for 172 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  73i,18n,79p,9111b,2267s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/sourcecodepro/a_ind2fo.enc}{C:/P
@@ -3426,9 +3426,9 @@ m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9
 c/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Diplomarbeit_Meret-Feldkemper.pdf (54 pages, 1175703 bytes).
+Output written on Diplomarbeit_Meret-Feldkemper.pdf (54 pages, 1175976 bytes).
 PDF statistics:
- 805 PDF objects out of 1000 (max. 8388607)
+ 808 PDF objects out of 1000 (max. 8388607)
  178 named destinations out of 1000 (max. 500000)
  33733 words of extra memory for PDF output out of 35830 (max. 10000000)
 

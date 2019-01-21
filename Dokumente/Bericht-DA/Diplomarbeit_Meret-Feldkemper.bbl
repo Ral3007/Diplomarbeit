@@ -353,6 +353,36 @@
     \field{year}{2008}
   \endentry
 
+  \entry{Gottmann2016}{book}{}
+    \name{author}{1}{}{%
+      {{hash=GJ}{%
+         family={Gottmann},
+         familyi={G\bibinitperiod},
+         given={Juliane},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Fachmedien}%
+    }
+    \strng{namehash}{GJ1}
+    \strng{fullhash}{GJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Got16}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.1007/978-3-658-01951-8
+    \endverb
+    \field{isbn}{9783658019501}
+    \field{title}{{Produktionscontrolling}}
+    \list{location}{1}{%
+      {Wiesbaden}%
+    }
+    \field{year}{2016}
+  \endentry
+
   \entry{Hassenzahl2008}{article}{}
     \name{author}{1}{}{%
       {{hash=HM}{%
