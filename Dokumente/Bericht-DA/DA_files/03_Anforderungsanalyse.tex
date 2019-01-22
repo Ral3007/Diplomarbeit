@@ -4,11 +4,10 @@
 \chapter{Analyse}
 \label{sec:Anforderungsanalyse}
 %%%%%%%%%%%%%%%%%%%%
+Das Konzept der modularen Anlagen eröffnet neue Möglichkeiten, bringt aber auch neue Herausforderungen. Durch die Flexibilität ist es denkbar, dass Module öfter ausgetauscht werden. Welche Informationen für den Auswahlprozess benötigt werden, wird im folgenden analysiert.
 
 \section{Informationsbedarf}
-Der Informationsbedarf orientiert sich maßgeblich an den Aufgaben und dem Nutzer.
-
-Was soll unterstützt werden?
+Der Informationsbedarf orientiert sich maßgeblich an den Aufgaben und dem Nutzer. 
 
 \subsection{Modulare Anlage}
 Der Lebenszyklus einer modulare Anlage wird in unterschiedliche Phasen eingeteilt. Sie besteht aus Planung, Errichtung, Betrieb und Demontage. \cite{} Besonderes Augenmerk in dieser Arbeit liegt auf dem Potential der Flexibilität. So kann die modularen Anlage beispielsweise bei Wartungsarbeiten an einem Modul mit einem alternativen Modul weiter betrieben werden.
@@ -51,12 +50,39 @@ Sollen Dienste näher spezifiziert werden, ist eine Verwendung von Parametern m�
 \end{itemize}
 
 \subsubsection{Probleme in modularen Anlagen}
-Da die modularen Anlagen mit Diensten gesteuert werden ändern sich auch die Art an Problemen die entstehen und die vom Modulbetreiber behoben werden können. Durch die Dienste wird nur noch ein Problembereich angezeigt. Meldet ein Dienst zurück, dass er nicht erfolgreich durchgeführt werden kann so ist noch nicht eindeutig, wo das Problem liegt. Durch die Anzeige von dazugehörigem Equipment und möglichen Serviceabhängigkeiten kann der Problembereich eingegrenzt werden. Bei Betrieb der modularen Anlage treten derzeit die häufigsten Fehler auf, wenn entsprechende Zuläufe nicht geöffnet werden. So meldet aktuell das Modul nicht zurück, wenn vergessen wurde die Druckluft anzustellen. Dem Betreiber fällt nur auf, dass das Modul nicht so arbeitet, wie es soll. Wurde beim Temperiermodul vergessen den Zulauf für das Wasser zur Kühlung zu öffnen so meldet sich dieses erst nach ca. zwei Minuten zurück, dass es zu warm wird.
+Da die modularen Anlagen mit Diensten gesteuert werden, ändert sich auch die Art an Problemen die entstehen und die vom Modulbetreiber behoben werden können. Durch die Dienste wird nur noch ein Problembereich angezeigt. Meldet ein Dienst zurück, dass er nicht erfolgreich durchgeführt werden kann so ist noch nicht eindeutig, wo das Problem liegt. Durch die Anzeige von dazugehörigem Equipment und möglichen Serviceabhängigkeiten kann der Problembereich eingegrenzt werden. Bei Betrieb der modularen Anlage treten derzeit die häufigsten Fehler auf, wenn entsprechende Zuläufe nicht geöffnet werden. So meldet aktuell das Reaktormodul nicht zurück, wenn vergessen wurde die Druckluft anzustellen. Dem Betreiber fällt nur auf, dass das Modul nicht so arbeitet, wie es soll. Wurde beim Temperiermodul vergessen den Zulauf für das Wasser zur Kühlung zu öffnen, so meldet sich dieses erst nach ca. zwei Minuten zurück, dass es zu warm wird.
 
-Insbesondere mit dem großen Vorteil der Flexibilität von modularen Anlagen können Probleme auch auf anderen Ebenen entstehen. Die Option nicht nur Parameter anzupassen sondern auch Module auszutauschen eröffnet neue Möglichkeiten und stellt den Modulbetreiber vor neue Herausforderungen. 
+Insbesondere mit dem großen Vorteil der Flexibilität von modularen Anlagen können Probleme auch auf anderen Ebenen entstehen. Die Option nicht nur Parameter anzupassen sondern auch Module auszutauschen, eröffnet neue Möglichkeiten und stellt den Modulbetreiber vor neue Herausforderungen. 
 
 \subsection{Use Case}
+Steht ein Modul aufgrund von umfangreichen Wartungsarbeiten nicht zur Verfügung so müssen Alternativen gefunden werden. Das übergeordnete Ziel ist die Aufrechterhaltung der Produktion. Das System könnte nun mögliche Alternativen vorschlagen, die von den Abmaßen und Schnittstellen verwendet werden können.
+\begin{itemize}
+\item \textbf{Modul A:} Ist identisch mit dem Modul, das gewartet wird und kann beim Modulhersteller geliehen werden. Dieser fordert eine Leihgebühr. Eine Anpassung im Rezept muss nicht vorgenommen werden.
+\item \textbf{Modul B:} Wurde ursprünglich verwendet und aufgrund eines hohen Energieverbrauchs ersetzt.
+\end{itemize}
+Angenommen es existiert noch ein Modul C, welches vom System nicht in Erwägung gezogen wird, da es nicht die geforderten Schnittstellen zur Verfügung stellt. Diese kann manuell vom Menschen vorgeschlagen werden, da dieser weiß, dass mit entsprechenden Adaptern eine Integration in die Anlage möglich ist.
 
+Nun stehen drei Module zur Verfügung, aus denen eins ausgewählt werden muss. In Tabelle x sind die Vor- und Nachteile der einzelnen Module aufgelistet. Diese Vor- und Nachteile müssen nun vom Operator abgewägt werden. Dabei steht ihm das Assistenzsystem zur Seite. Diese könnte mit folgenden Informationen Unterstützung leisten:
+\begin{itemize}
+\item Zeigt Bereiche im Rezept an, die angepasst werden müssen.
+\item Berechnet die laufenden Kosten, die entstehen, wenn die Wartung des ursprünglichen Moduls länger dauert
+\item ....
+\end{itemize}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{|p{0.14 \textwidth}|p{0.23 \textwidth}|p{0.23 \textwidth}|p{0.23 \textwidth}|}
+\hline
+\textbf{Modul} & Modul A & Modul B & Modul C \\
+\hline
+\textbf{Vorteile} & keine Anpassungen im Rezept nötig & Kostengünstig; Gewissheit, dass es funktioniert & geringer Energieverbrauch \\
+\hline
+\textbf{Nachteile} & hohe Leihgebühr & hoher Energieverbrauch, einige Anpassungen im Rezept notwendig & viele Anpassungen im Rezept notwendig \\
+\hline
+\end{tabular}
+\caption{x}
+\label{tab:}
+\end{table}
 
 \subsection{Informationen nach Aufgabenbereich}
 Neben den Informationen, die ein Modul zur Verfügung stellt und die bei Behebung einer Störung behilflich sein können, gibt es eine Reihe von weiteren interessanten Aspekten. Weitet man den Problembereich von einer reinen Instandhaltung auf Bereiche wie die zunehmend geforderte Einsparung von Kosten aus, so werden ganz andere Informationen benötigt. Welche Funktionen auf welcher Ebene in einem Unternehmen automatisiert werden können und somit auch sinnvoll durch ein Assistenzsystem unterstützbar sind ist in \cite{Lauber1999} beschrieben. Hier ist auch der zeitliche Aspekt mit aufgeführt. Eine entsprechende Übersicht findet sich in Tabelle \ref{tab:Ebenen-Unternehmen}.
@@ -95,18 +121,16 @@ Folgende Kennzahlen sind für die Produktions- und Betriebsleitebene interessant
 \end{itemize}
 
 \subsection{Informationsbedarf der Operator}
-Stützt man sich bei der Ermittlung des Informationsbedarfs auf die individuellen Fähigkeiten und das vorhandene Wissen so ist eine entsprechende Analyse relativ komplex. Insbesondere, wenn der Problemlöseprozess einen Lerneffekt haben soll. In der Literatur ist dies als Assistance Dilemma bezeichnet. Wenn der Lerneffekt möglichst groß sein soll wird Information über die Problemlösung und die Lösungsschritte zunächst zurück gehalten. Informationen werden interaktiv hinzugefügt, wenn sie benötigt werden. Die größte Herausforderung ist dabei die Kriterien festzulegen, wann Informationen gegeben und wann sie zurück gehalten werden. \cite{}  X empfiehlt eine geringe Bereitstellung an hilfreichen Erklärungen bei Problemlöseaktivitäten solange andere Ressourcen für den Lernprozess zur Verfügung stehen. Da diese Arbeit den Fokus auf eine geeignete Unterstützung legt wird an dieser Stelle nicht weiter darauf eingegangen, wie der Lernerfolg des Menschen ideal unterstützt werden kann. Die Literatur hebt hervor, dass Operator ein mittleres Level an Automatisierung bevorzugen. Auf diesem Level werden beim komplexen Problemlösen die meisten Varianten generiert. Bei keiner Unterstützung übersieht der Operator möglicherweise wichtige Aspekte. Bei einer hohen Automatisierung denkt der Operator nicht mehr über Alternativen nach und bestätigt den Vorschlag nur noch. 
+Stützt man sich bei der Ermittlung des Informationsbedarfs auf die individuellen Fähigkeiten und das vorhandene Wissen so ist eine entsprechende Analyse relativ komplex. Insbesondere, wenn der Problemlöseprozess einen Lerneffekt haben soll. In der Literatur ist dies als Assistance Dilemma bezeichnet. Wenn der Lerneffekt möglichst groß sein soll wird Information über die Problemlösung und die Lösungsschritte zunächst zurück gehalten. Informationen werden interaktiv hinzugefügt, wenn sie benötigt werden. Die größte Herausforderung ist dabei die Kriterien festzulegen, wann Informationen gegeben und wann sie zurück gehalten werden. \cite{}  X empfiehlt eine geringe Bereitstellung an hilfreichen Erklärungen bei Problemlöseaktivitäten solange andere Ressourcen für den Lernprozess zur Verfügung stehen. Da diese Arbeit den Fokus auf eine geeignete Informationsaufbereitung legt, wird an dieser Stelle nicht weiter darauf eingegangen, wie der Lernerfolg des Menschen ideal unterstützt werden kann. Die Literatur \cite{} hebt hervor, dass Operator ein mittleres Level an Automatisierung bevorzugen. Auf diesem Level werden beim komplexen Problemlösen die meisten Varianten generiert. Bei keiner Unterstützung übersieht der Operator möglicherweise wichtige Aspekte. Bei einer hohen Automatisierung denkt der Operator nicht mehr über Alternativen nach und bestätigt den Vorschlag nur noch. Im Kontext des Modulaustausch könnte das System verschiedene Vorschläge liefern, die durch Vorschläge des Menschen ergänzt werden können.
 
 In Abschnitt x ist bereits beschrieben, dass komplexe Probleme auf das Wesentliche reduziert werden müssen und häufig Informationsbeschaffung gefordert ist. In dieser Arbeit soll die Informationsbeschaffung unterstützt und die Übersichtlichkeit der Information zur Reduktion der Komplexität gewährt werden.
-
-
 
 Welche Informationen sind nun für den Modulbetreiber relevant, wenn ein Modul ausgetauscht werden muss?
 
 Der sicherlich wichtigste Punkt ist die Kompatibilität. Passen die Anschlüsse zu den anderen Modulen meiner Anlage? Kann das Rezept weiterhin, wie konfiguriert gefahren werden oder sind Anpassungen notwendig? Um dies einschätzen zu können sind weitreichende Informationen über das Modul und die aktuelle Anlage notwendig. Diese umfassen
 \begin{itemize}
 \item \textbf{die Abmaße:} Passt das Modul von der Größe an die gleiche Stelle, wie das andere Modul?
-\item \textbf{die Anschlüsse:} Ist das Modul mit den Anschlüssen der anderen Module kompatibel?
+\item \textbf{die Schnittstellen:} Ist das Modul mit den Schnittstellen der anderen Module kompatibel?
 \item \textbf{das Rezept:} Welche Stellen im Rezept werden beeinflusst, wenn das Modul getauscht werden muss?
 \item \textbf{die Services:} Welche Serviceabhängigkeiten bestehen zwischen dem Rest der Anlage und dem zu ersetzenden Modul?
 \item \textbf{die Parameter:} Können die Parameter bei einem Austausch beibehalten werden oder müssen Anpassungen vorgenommen werden? Wenn Anpassungen vorgenommen werden müssen, welche Auswirkungen hat das auf den Prozess?
@@ -123,27 +147,33 @@ Ein Modulaustausch hat nicht nur auf der rein technischen Seite einen Einfluss. 
 In dieser Arbeiten werden nur einige wenige Einflussfaktoren berücksichtigt. Zum einen ist nicht für jedes Unternehmen jede Zielgröße und somit auch nicht jeder Einflussfaktor relevant. Zum anderen ist beispielsweise die Flexibilität durch die modulare Anlage bereits weitestgehend gewährleistet. In dieser Arbeit wird der Fokus auf die Produktivität \& Effektivität und die Kosten gelegt. Die Produktivität beschreibt, wie viel der verfügbaren Arbeitszeit zur Produktion verwendet wird. Steht aufgrund vieler Störungen in der Anlage die Produktion still so ist die Produktivität gering. Bei einer hohen Effektivität werden die verfügbaren Ressourcen ideal genutzt. Dies kann beispielsweise die Zeit sein, die eine Reparatur in Anspruch nimmt. Die entstehenden Kosten sind für die Wirtschaftlichkeit der Produktion verantwortlich. Im Kontext des Modulaustausch sind vor allem die Anschaffungs- und Betriebskosten relevant. Folgende Einflussfaktoren sollen im weiteren Verlauf der Arbeit berücksichtigt werden:
 \begin{itemize}
 \item \textbf{Zeiten:} Wie viel Stillstandzeit verursacht der Modulaustausch?
-\item \textbf{Auslastung:} Besteht die Möglichkeit vorzuproduzieren?
+\item \textbf{Auslastung:} Besteht die Möglichkeit vor zu produzieren?
 \item \textbf{Rüstaufwände:} Was muss alles im Rezept verändert werden? Welche Zeit nimmt das in Anspruch und welche Kosten verursacht das?
 \item \textbf{Wartung:} Wie häufig muss das neue Modul gewartet werden?
 \item \textbf{Energie:} Wie hoch ist der Energieverbrauch des Moduls? Welche Kosten verursacht dies beim Betrieb?
 \end{itemize}
 
 \section{Informationsanpassung}
-Die Individualisierung von Software bietet die Möglichkeit eine Vielzahl von Nutzer und Aufgaben zu unterstützen. Individualisierung dient der Modifizierung von Interaktionen und Informationsdarstellungen, um den Fähigkeiten und Bedürfnissen jedes Benutzers gerecht zu werden. Zudem kann sich das System auch entsprechend der zu lösenden Aufgaben anpassen.
+Die Individualisierung von Software bietet die Möglichkeit eine Vielzahl von Nutzer und Aufgaben zu unterstützen. Individualisierung dient der Modifizierung von Interaktionen und Informationsdarstellungen, um den Fähigkeiten und Bedürfnissen jedes Benutzers gerecht zu werden. 
+
+Zudem kann sich das System auch entsprechend der zu lösenden Aufgaben anpassen.
 
 \subsection{Individualisierung für den Menschen}
-Soll jeder Nutzer des Assistenzsystemes individuell unterstützt werden so ist herauszufinden, ob der Mensch aktuell mit der Aufgabe über- oder unterfordert ist. Kann der Mensch einen Automatisierungsgrad wählen, so bewegt er sich auf einem mittleren Automatisierungsgrad. Das System macht dabei Vorschläge, die vom Menschen bestätigt oder ausgewählt werden müssen. Unerwünscht sind Systeme, die Aufgaben automatisch ausführen, wenn der Mensch diese nicht rechtzeitig abbricht. \cite{}
+Soll jeder Nutzer des Assistenzsystemes individuell anhand seiner kognitiven Leistung unterstützt werden, so ist herauszufinden, ob der Mensch aktuell mit der Aufgabe über- oder unterfordert ist. Eine Möglichkeit ist die Art und Weise der Interaktion auszuwerten und entsprechende Anpassungen vorzunehmen. Wie bereits in Abschnitt x beschrieben, sind dabei viele Einflussfaktoren zu berücksichtigen. Eine Auswertung dieser sprengt leider den Rahmen der Arbeit.
+
+Überlässt man dem Menschen die Auswahl des Automatisierungsgrad, so bewegt er sich auf einem mittleren Automatisierungsgrad. Unerwünscht sind Systeme, die Aufgaben automatisch ausführen, wenn der Mensch diese nicht rechtzeitig abbricht. \cite{} 
 
 \subsection{Anpassung an die Aufgabe}
-Wie schon in Abschnitt x beschrieben lassen sich Probleme anhand verschiedener Aspekte unterscheiden. So ist zum Beispiel der Zeitdruck ein wichtiger Aspekt. Bei zeitkritischen Problemen muss möglichst schnell eine gute Lösung gefunden werden. Ist das Problem nicht zeitkritisch so können in Ruhe alle zur Verfügung stehenden Informationen in den Problemlöseprozess mit einbezogen werden. So kann bei einem zeitkritischen Problem ein höherer Automatisierungsgrad gefordert sein. Um dennoch dem Menschen seine Kompetenzen nicht abzusprechen ist es möglich bei Problemen, die eher langfristig sind und die eine höhere kognitive Aktivität erfordern, eine geringere Autonomiestufe anzuwenden. Dadurch kann der Mensch sich Wissen über den Prozess aneignen und seine Kompetenzen ausbauen. 
+Wie schon in Abschnitt x beschrieben lassen sich Probleme anhand verschiedener Aspekte unterscheiden. So ist zum Beispiel der Zeitdruck ein wichtiger Aspekt. Bei zeitkritischen Problemen muss möglichst schnell eine gute Lösung gefunden werden. Ist das Problem nicht zeitkritisch so können in Ruhe alle zur Verfügung stehenden Informationen in den Problemlöseprozess mit einbezogen werden. So kann bei einem zeitkritischen Problem ein höherer Automatisierungsgrad gefordert sein. Um dennoch dem Menschen seine Kompetenzen nicht abzusprechen ist es möglich bei Problemen, die eher langfristig sind und die eine höhere kognitive Aktivität erfordern, eine geringere Autonomiestufe anzuwenden. Dadurch kann der Mensch sich Wissen über den Prozess aneignen und seine Kompetenzen ausbauen.
 
-Jedes Unternehmen hat einen anderen Fokus. Andere Kennzahlen sind wichtig
+Ein weiterer wichtiger Aspekt, der schon in Abschnitt x thematisiert wurde, ist die Zielsetzung des Unternehmens. Diese kann sehr unterschiedlich sein, was sich maßgeblich auf die Informationsbereitstellung auswirkt. Ist beispielsweise der Energieverbrauch besonders relevant, so sollten diese Informationen über die Module hervor gehoben werden. In einem anderen Kontext kann aufgrund von Personalmangel der Rüstaufwand eine höhere Priorität bekommen. 
 
 \section{Interaktionsmechaniken}
-Im Kontext dieser Arbeit wird das Problemlösen betrachtet. Problemlösen heißt in diesem Fall, dass beispielsweise die Ursache für eine Störung ausfindig gemacht werden muss. Die Behebung der Ursache, z.B. durch eine Reparatur, wird an dieser Stelle ausgeklammert. Im Stand der Technik sind verschiedene Interaktionsmechaniken beschrieben. Um diese geeignet bewerten zu können ist zunächst eine Begutachtung des Arbeitsumfelds und der Aufgaben notwendig. 
+Im Kontext dieser Arbeit wird das Problemlösen betrachtet. Problemlösen heißt in diesem Fall aus mehreren Alternativen die geeignetste für das Erreichen des festgelegten Ziels auszuwählen. Im Stand der Technik sind verschiedene Interaktionsmechaniken beschrieben. Um diese geeignet bewerten zu können ist zunächst eine Begutachtung des Arbeitsumfelds und der Aufgaben notwendig.
 
-Welche Informationen muss der Nutzer eingeben können?? Welche Kriterien welche Priorität haben. 
+Da sich das Problemlösen im Rahmen dieser Arbeit nicht auf das Beheben von Störungen bezieht, kann angenommen werden, dass die Hände nicht für andere Aufgaben frei sein müssen. Zudem ist eine geeignete Darstellung von Zusammenhängen notwendig, welches eine entsprechende Displaygröße voraussetzt. Diese Zusammenhänge müssen durch den Menschen entsprechend interpretiert werden, damit dieser mit dem System interagieren kann. Es muss dazu die Möglichkeit gegeben sein selbst Vorschläge für die Lösung des Problems zu liefern. Das setzt vielfältige Eingabemöglichkeiten voraus.
+
+Daraus abgeleitet wird für die Umsetzung des Assistenzsystem ein Tablet verwendet. Diese ist groß genug, um alle notwendigen Informationen anzuzeigen. Es ist flexibel genug, wenn für den Problemlöseprozess Informationen benötigt werden, die nur durch Begutachtung der Anlage erlangt werden können.
 
 \section{Anforderungen an das Assistenzsystem}
 
