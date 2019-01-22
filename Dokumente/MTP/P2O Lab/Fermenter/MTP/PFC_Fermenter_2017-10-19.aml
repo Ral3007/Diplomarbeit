@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile FileName="PFC_Fermenter.aml" SchemaVersion="2.15" xsi:noNamespaceSchemaLocation="CAEX_ClassModel_V2.15.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AdditionalInformation AutomationMLVersion="2.0" />
+	<InstanceHierarchy Name="HMI">
+		<InternalElement Name="Screen1" RefBaseSystemUnitPath="MTPHMISUCLib/Picture" ID="62a01946-98c3-4216-8d01-4629a87d62da">
+			<Attribute Name="Width">
+				<Value>800</Value>
+			</Attribute>
+			<Attribute Name="Height">
+				<Value>600</Value>
+			</Attribute>
+			<Attribute Name="Name" />
+			<Attribute Name="Level">
+				<Value>0</Value>
+			</Attribute>
+		</InternalElement>
+	</InstanceHierarchy>
+	<InstanceHierarchy Name="Services">
+		<InternalElement Name="Calibrate_A1" RefBaseSystemUnitPath="ServicesSUCLib/Service" ID="9a8cc5f6-d440-43cc-aec8-7c45fbd220e7">
+			<Attribute Name="ref" />
+			<Attribute Name="ComID">
+				<Value>d54392ce-f525-44e5-81a8-0f51a3b81b3a</Value>
+			</Attribute>
+			<ExternalInterface Name="Calibrate_A1Interlocks" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector/PLCopenXMLInterface" ID="b19ec69d-16ec-449e-834f-041835e40fed">
+				<Attribute Name="refURI" />
+			</ExternalInterface>
+		</InternalElement>
+		<InternalElement Name="Dose_A1" RefBaseSystemUnitPath="ServicesSUCLib/Service" ID="58ff57e4-1910-49e9-b744-da5cbbc753f8">
+			<Attribute Name="ref" />
+			<Attribute Name="ComID">
+				<Value>2fe106de-38ba-4b63-a2d2-4c7e7c4db93d</Value>
+			</Attribute>
+			<ExternalInterface Name="Dose_A1Interlocks" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector/PLCopenXMLInterface" ID="0bbd1a71-e194-4ed8-8ac2-fb17c4d5c3c8">
+				<Attribute Name="refURI" />
+			</ExternalInterface>
+		</InternalElement>
+	</InstanceHierarchy>
+	<InstanceHierarchy Name="ModuleTypePackage">
+		<InternalElement Name="PFC_Fermenter_TUD" RefBaseSystemUnitPath="MTPSUCLibrary/MTPSet" ID="b264dd97-9a13-4aab-b260-431b7e72fd15">
+			<InternalElement Name="Services" RefBaseSystemUnitPath="MTPSUCLibrary/MTPSet/ServiceSet" ID="6f206752-0186-47ac-ab16-4f1f607568a6">
+				<ExternalInterface Name="Services" RefBaseClassPath="MTPInterfaceClassLib/ServiceInterfaceClass" ID="777ff330-f2bb-42ff-b512-9afee0b54ebc">
+					<Attribute Name="refURI">
+						<Value>Services/</Value>
+					</Attribute>
+				</ExternalInterface>
+			</InternalElement>
+			<InternalElement Name="HMIs" RefBaseSystemUnitPath="MTPSUCLibrary/MTPSet/HMISet" ID="f9216ddc-f4cb-470f-8101-67c9a0e27b53">
+				<ExternalInterface Name="HMIInterfaces" RefBaseClassPath="MTPInterfaceClassLib/HMIInterfaceClass" ID="66a4eed3-98cb-4ea9-aed6-0bdaf3b97445">
+					<Attribute Name="refURI">
+						<Value>HMI/</Value>
+					</Attribute>
+				</ExternalInterface>
+			</InternalElement>
+			<InternalElement Name="Communication" RefBaseSystemUnitPath="MTPSUCLibrary/MTPSet/CommunicationSet" ID="b649cfaf-acbe-497d-baaf-467e72d6ca83">
+				<InternalElement Name="SourceList" RefBaseSystemUnitPath="MTPSUCLibrary/MTPSet/CommunicationSet/SourceList" ID="b25f72ce-0de0-4c43-b44b-b3e607f5c473">
+					<InternalElement Name="OPCUA_Serv_PFC_Fermenter" RefBaseSystemUnitPath="MTPSUCLibrary/LinkedObject/OPCServer" ID="e7038298-0bb4-4ca7-9071-3a65e7c133b6">
+						<Attribute Name="Url">
+							<Value>opc.tcp://10.1.254.2:4840</Value>
+						</Attribute>
+						<Attribute Name="ComID">
+							<Value>ee110601-87dc-4265-81d4-2a4fee46c47c</Value>
+						</Attribute>
+						<ExternalInterface Name="PFC_Fermenter.Dose_A1.Status" RefBaseClassPath="MTPInterfaceClassLib/ComVariableInterface/OPCNode" ID="38d6dbfc-5bbd-4554-80c8-04afb8e8b3d7">
+							<Attribute Name="ComID">
+								<Value>f5727739-3936-4ed1-b807-b674a873e5d3</Value>
+							</Attribute>
+							<Attribute Name="Node">
+								<Value>|var|WAGO 750-8202 PFC200 CS 2ETH RS.Application.Services.Dose_A1.Read</Value>
+							</Attribute>
+							<Attribute Name="Type">
+								<Value>string</Value>
+							</Attribute>
+							<Attribute Name="Access">
+								<Value>Read/Write</Value>
+							</Attribute>
+							<Attribute Name="IEVRef">
+								<Value>1</Value>
+							</Attribute>
+							<Attribute Name="Unit">
+								<Value />
+							</Attribute>
+						</ExternalInterface>
+						<ExternalInterface Name="PFC_Fermenter.Dose_A1.Control" RefBaseClassPath="MTPInterfaceClassLib/ComVariableInterface/OPCNode" ID="19cdb2df-7e15-48c9-bc10-f3dd221e549d">
+							<Attribute Name="ComID">
+								<Value>a39a610b-cafa-4ecc-80b0-4db807e76a15</Value>
+							</Attribute>
+							<Attribute Name="Node">
+								<Value>|var|WAGO 750-8202 PFC200 CS 2ETH RS.Application.Services.Dose_A1.Write</Value>
+							</Attribute>
+							<Attribute Name="Type">
+								<Value>string</Value>
+							</Attribute>
+							<Attribute Name="Access">
+								<Value>Read/Write</Value>
+							</Attribute>
+							<Attribute Name="IEVRef">
+								<Value>1</Value>
+							</Attribute>
+							<Attribute Name="Unit">
+								<Value />
+							</Attribute>
+						</ExternalInterface>
+						<ExternalInterface Name="PFC_Fermenter.Calibrate_A1.Status" RefBaseClassPath="MTPInterfaceClassLib/ComVariableInterface/OPCNode" ID="820852ea-3e08-4bcf-8f6f-579207d69d56">
+							<Attribute Name="ComID">
+								<Value>7e906663-5184-4d9b-ba35-38375a8fd640</Value>
+							</Attribute>
+							<Attribute Name="Node">
+								<Value>|var|WAGO 750-8202 PFC200 CS 2ETH RS.Application.Services.Calibrate_A1.Read</Value>
+							</Attribute>
+							<Attribute Name="Type">
+								<Value>string</Value>
+							</Attribute>
+							<Attribute Name="Access">
+								<Value>Read/Write</Value>
+							</Attribute>
+							<Attribute Name="IEVRef">
+								<Value>1</Value>
+							</Attribute>
+							<Attribute Name="Unit">
+								<Value />
+							</Attribute>
+						</ExternalInterface>
+						<ExternalInterface Name="PFC_Fermenter.Calibrate_A1.Control" RefBaseClassPath="MTPInterfaceClassLib/ComVariableInterface/OPCNode" ID="5cefe91b-ff61-4c19-8e46-05887a5a8a26">
+							<Attribute Name="ComID">
+								<Value>c890aa41-040c-4f3e-bacd-55209d902743</Value>
+							</Attribute>
+							<Attribute Name="Node">
+								<Value>|var|WAGO 750-8202 PFC200 CS 2ETH RS.Application.Services.Calibrate_A1.Write</Value>
+							</Attribute>
+							<Attribute Name="Type">
+								<Value>string</Value>
+							</Attribute>
+							<Attribute Name="Access">
+								<Value>Read/Write</Value>
+							</Attribute>
+							<Attribute Name="IEVRef">
+								<Value>1</Value>
+							</Attribute>
+							<Attribute Name="Unit">
+								<Value />
+							</Attribute>
+						</ExternalInterface>
+					</InternalElement>
+				</InternalElement>
+				<InternalElement Name="InstanceList" RefBaseSystemUnitPath="MTPSUCLibrary/MTPSet/CommunicationSet/InstanceList" ID="fc62e6d0-8778-4a2a-ad63-92bb1dd82f66">
+					<InternalElement Name="Dose_A1" RefBaseSystemUnitPath="MTPSUCLibrary/LinkedObject/DataAssembly" ID="60b528e8-8c8b-456b-a35f-c71f42726a4b">
+						<Attribute Name="TagName">
+							<Value>Dose_A1</Value>
+						</Attribute>
+						<Attribute Name="Description" />
+						<Attribute Name="Type" />
+						<Attribute Name="ComID">
+							<Value>2fe106de-38ba-4b63-a2d2-4c7e7c4db93d</Value>
+						</Attribute>
+						<Attribute Name="Control">
+							<Value>a39a610b-cafa-4ecc-80b0-4db807e76a15</Value>
+						</Attribute>
+						<Attribute Name="Status">
+							<Value>f5727739-3936-4ed1-b807-b674a873e5d3</Value>
+						</Attribute>
+					</InternalElement>
+					<InternalElement Name="Calibrate_A1" RefBaseSystemUnitPath="MTPSUCLibrary/LinkedObject/DataAssembly" ID="e85f56e0-f880-4bb5-a909-e5a72af76596">
+						<Attribute Name="TagName">
+							<Value>Calibrate_A1</Value>
+						</Attribute>
+						<Attribute Name="Description" />
+						<Attribute Name="Type" />
+						<Attribute Name="ComID">
+							<Value>d54392ce-f525-44e5-81a8-0f51a3b81b3a</Value>
+						</Attribute>
+						<Attribute Name="Control">
+							<Value>c890aa41-040c-4f3e-bacd-55209d902743</Value>
+						</Attribute>
+						<Attribute Name="Status">
+							<Value>7e906663-5184-4d9b-ba35-38375a8fd640</Value>
+						</Attribute>
+					</InternalElement>
+				</InternalElement>
+			</InternalElement>
+		</InternalElement>
+	</InstanceHierarchy>
+	<InterfaceClassLib Name="AutomationMLInterfaceClassLib">
+		<Description>Standard Automation Markup Language Interface Class Library</Description>
+		<Version>2.2.0</Version>
+		<InterfaceClass Name="AutomationMLBaseInterface">
+			<InterfaceClass Name="ExternalDataConnector" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface">
+				<Attribute Name="refURI" />
+				<InterfaceClass Name="COLLADAInterface" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector" />
+				<InterfaceClass Name="PLCopenXMLInterface" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector" />
+			</InterfaceClass>
+			<InterfaceClass Name="Communication" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface">
+				<InterfaceClass Name="SignalInterface" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Communication" />
+			</InterfaceClass>
+			<InterfaceClass Name="InterlockingConnector" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface" />
+			<InterfaceClass Name="Order" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface">
+				<Attribute Name="Direction" />
+			</InterfaceClass>
+			<InterfaceClass Name="PortConnector" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface" />
+			<InterfaceClass Name="PPRConnector" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface" />
+		</InterfaceClass>
+	</InterfaceClassLib>
+	<InterfaceClassLib Name="MTPInterfaceClassLib">
+		<InterfaceClass Name="ComVariableInterface" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Communication">
+			<InterfaceClass Name="OPCNode" RefBaseClassPath="MTPInterfaceClassLib/ComVariableInterface">
+				<Attribute Name="ComID" />
+				<Attribute Name="Node" />
+				<Attribute Name="Type" />
+				<Attribute Name="Access" />
+				<Attribute Name="IEVRef" />
+				<Attribute Name="Unit" />
+				<InterfaceClass Name="InputOutputVariable" RefBaseClassPath="MTPInterfaceClassLib/ComVariableInterface/OPCNode">
+					<Attribute Name="Min" />
+					<Attribute Name="Max" />
+					<Attribute Name="Limit" />
+					<Attribute Name="DataType" />
+				</InterfaceClass>
+			</InterfaceClass>
+		</InterfaceClass>
+		<InterfaceClass Name="HMIInterfaceClass" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector" />
+		<InterfaceClass Name="ServiceInterfaceClass" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector" />
+	</InterfaceClassLib>
+	<InterfaceClassLib Name="MTPHMIInterfaceLib">
+		<InterfaceClass Name="InformationFlowConnector" />
+		<InterfaceClass Name="MassFlowConnector" />
+	</InterfaceClassLib>
+	<SystemUnitClassLib Name="MTPSUCLibrary">
+		<SystemUnitClass Name="LinkedObject">
+			<Attribute Name="ComID" />
+			<SystemUnitClass Name="DataAssembly" RefBaseClassPath="MTPSUCLibrary/LinkedObject">
+				<Attribute Name="TagName" />
+				<Attribute Name="Description" />
+				<Attribute Name="Type" />
+			</SystemUnitClass>
+			<SystemUnitClass Name="OPCServer" RefBaseClassPath="MTPSUCLibrary/LinkedObject">
+				<Attribute Name="Url" />
+			</SystemUnitClass>
+		</SystemUnitClass>
+		<SystemUnitClass Name="MTPSet">
+			<SystemUnitClass Name="CommunicationSet" RefBaseClassPath="MTPSUCLibrary/MTPSet">
+				<InternalElement Name="SourceList" RefBaseSystemUnitPath="MTPSUCLibrary/MTPSet/CommunicationSet/SourceList" ID="bfbf4c1a-c689-493c-8b7e-9b41022d4b16" />
+				<InternalElement Name="InstanceList" RefBaseSystemUnitPath="MTPSUCLibrary/MTPSet/CommunicationSet/InstanceList" ID="51102c4d-cb33-404d-a20d-529c0c71ca2a" />
+				<SystemUnitClass Name="InstanceList" />
+				<SystemUnitClass Name="SourceList" />
+			</SystemUnitClass>
+			<SystemUnitClass Name="HMISet" RefBaseClassPath="MTPSUCLibrary/MTPSet" />
+			<SystemUnitClass Name="ServiceSet" RefBaseClassPath="MTPSUCLibrary/MTPSet" />
+		</SystemUnitClass>
+	</SystemUnitClassLib>
+	<SystemUnitClassLib Name="MTPEquipmentSUCLib">
+		<SystemUnitClass Name="Analog" RefBaseClassPath="MTPSUCLibrary/LinkedObject/DataAssembly">
+			<Attribute Name="Setpoint" />
+			<Attribute Name="ProcessValue" />
+			<Attribute Name="SubstitutedValue" />
+			<Attribute Name="SimulatedValue" />
+			<Attribute Name="SubstitutedValueAct" />
+			<Attribute Name="SimulatedValueAct" />
+			<Attribute Name="BadAct" />
+			<Attribute Name="OpHiLim" />
+			<Attribute Name="OpHiAct" />
+			<Attribute Name="OpHiPrio" />
+			<Attribute Name="HiLim" />
+			<Attribute Name="HiAct" />
+			<Attribute Name="HiPrio" />
+			<Attribute Name="HiHiLim" />
+			<Attribute Name="HiHiAct" />
+			<Attribute Name="HiHiPrio" />
+			<Attribute Name="OpLoLim" />
+			<Attribute Name="OpLoAct" />
+			<Attribute Name="OpLoPrio" />
+			<Attribute Name="LoLim" />
+			<Attribute Name="LoAct" />
+			<Attribute Name="LoPrio" />
+			<Attribute Name="LoLoLim" />
+			<Attribute Name="LoLoAct" />
+			<Attribute Name="LoLoPrio" />
+		</SystemUnitClass>
+		<SystemUnitClass Name="Binary" RefBaseClassPath="MTPSUCLibrary/LinkedObject/DataAssembly">
+			<Attribute Name="ProcessValue" />
+			<Attribute Name="BadAct" />
+			<Attribute Name="SimulatedValue" />
+			<Attribute Name="SimulatedValueAct" />
+			<Attribute Name="SubstitutedValue" />
+			<Attribute Name="SubstitutedValueAct" />
+		</SystemUnitClass>
+		<SystemUnitClass Name="Controller" RefBaseClassPath="MTPSUCLibrary/LinkedObject/DataAssembly">
+			<Attribute Name="In" />
+			<Attribute Name="Out" />
+			<Attribute Name="Setpoint" />
+			<Attribute Name="OutLim" />
+			<Attribute Name="BadAct" />
+			<Attribute Name="SimulatedValue" />
+			<Attribute Name="SimulatedValueAct" />
+			<Attribute Name="ResetEnable" />
+			<Attribute Name="Reset" />
+			<Attribute Name="Gain" />
+			<Attribute Name="ResetTime" />
+			<Attribute Name="Rate" />
+			<Attribute Name="Deadband" />
+			<Attribute Name="RampRate" />
+			<Attribute Name="Mode" />
+			<Attribute Name="ModeFeedback" />
+			<Attribute Name="AutoMode" />
+			<Attribute Name="ModeLock" />
+			<Attribute Name="OperatingCondition" />
+			<Attribute Name="GmpRelevant" />
+		</SystemUnitClass>
+		<SystemUnitClass Name="Motor" RefBaseClassPath="MTPSUCLibrary/LinkedObject/DataAssembly">
+			<Attribute Name="ProcessValue" />
+			<Attribute Name="Out" />
+			<Attribute Name="Runtime" />
+			<Attribute Name="BadAct" />
+			<Attribute Name="ResetEnable" />
+			<Attribute Name="Reset" />
+			<Attribute Name="ProcessValueFrequency" />
+			<Attribute Name="SetpointFrequency" />
+			<Attribute Name="SimulatedValue" />
+			<Attribute Name="SimulatedValueAct" />
+			<Attribute Name="Mode" />
+			<Attribute Name="ModeFeedback" />
+			<Attribute Name="AutoMode" />
+			<Attribute Name="ModeLock" />
+			<Attribute Name="OperatingCondition" />
+			<Attribute Name="InterlockCondition" />
+			<Attribute Name="GmpRelevant" />
+			<Attribute Name="ProcessValueCurrent" />
+			<Attribute Name="ProcessValueTemperature" />
+			<Attribute Name="ProcessValueActivePower" />
+			<Attribute Name="FailSafePosition" />
+		</SystemUnitClass>
+		<SystemUnitClass Name="TextBox" RefBaseClassPath="MTPSUCLibrary/LinkedObject/DataAssembly">
+			<Attribute Name="ProcessValue" />
+		</SystemUnitClass>
+		<SystemUnitClass Name="Valve" RefBaseClassPath="MTPSUCLibrary/LinkedObject/DataAssembly">
+			<Attribute Name="ProcessValueAnalog" />
+			<Attribute Name="ProcessValueBinary" />
+			<Attribute Name="Out" />
+			<Attribute Name="OutLim" />
+			<Attribute Name="Runtime" />
+			<Attribute Name="BadAct" />
+			<Attribute Name="ResetEnable" />
+			<Attribute Name="Reset" />
+			<Attribute Name="SimulatedValue" />
+			<Attribute Name="SimulatedValueAct" />
+			<Attribute Name="Mode" />
+			<Attribute Name="ModeFeedback" />
+			<Attribute Name="AutoMode" />
+			<Attribute Name="ModeLock" />
+			<Attribute Name="OperatingCondition" />
+			<Attribute Name="InterlockCondition" />
+			<Attribute Name="GmpRelevant" />
+		</SystemUnitClass>
+	</SystemUnitClassLib>
+	<SystemUnitClassLib Name="ServicesSUCLib">
+		<SystemUnitClass Name="Service" RefBaseClassPath="MTPSUCLibrary/LinkedObject">
+			<Attribute Name="ref" />
+			<SystemUnitClass Name="AsynchronousService" RefBaseClassPath="ServicesSUCLib/Service" />
+			<SystemUnitClass Name="SynchronousService" RefBaseClassPath="ServicesSUCLib/Service" />
+		</SystemUnitClass>
+	</SystemUnitClassLib>
+	<SystemUnitClassLib Name="MTPHMISUCLib">
+		<SystemUnitClass Name="Connection" RefBaseClassPath="MTPSUCLibrary/LinkedObject">
+			<Attribute Name="Edgepath" />
+			<SystemUnitClass Name="Signal" RefBaseClassPath="MTPHMISUCLib/Connection">
+				<SystemUnitClass Name="FunctionLine" RefBaseClassPath="MTPHMISUCLib/Connection/Signal" />
+				<SystemUnitClass Name="HelpLine" RefBaseClassPath="MTPHMISUCLib/Connection/Signal" />
+			</SystemUnitClass>
+			<SystemUnitClass Name="Pipe" RefBaseClassPath="MTPHMISUCLib/Connection">
+				<InternalElement Name="Nozzle1" RefBaseSystemUnitPath="MTPHMISUCLib/Port/Nozzle" ID="78ad30bd-13a4-4e7d-846d-8b8b446b3a86">
+					<Attribute Name="X">
+						<Value>-</Value>
+					</Attribute>
+					<Attribute Name="Y">
+						<Value>-</Value>
+					</Attribute>
+					<ExternalInterface Name="Connector" RefBaseClassPath="MTPHMIInterfaceLib/MassFlowConnector" ID="2086b085-fd01-4276-8d32-ba9af8c57863" />
+				</InternalElement>
+				<InternalElement Name="Nozzel2" RefBaseSystemUnitPath="MTPHMISUCLib/Port/Nozzle" ID="02173b7f-d9fe-47ce-accb-d334f9fab82d">
+					<Attribute Name="X">
+						<Value>-</Value>
+					</Attribute>
+					<Attribute Name="Y">
+						<Value>-</Value>
+					</Attribute>
+					<ExternalInterface Name="Connector" RefBaseClassPath="MTPHMIInterfaceLib/MassFlowConnector" ID="2e4d1c24-7573-48fb-a930-46458ae01bb8" />
+				</InternalElement>
+			</SystemUnitClass>
+		</SystemUnitClass>
+		<SystemUnitClass Name="VisualObject" RefBaseClassPath="MTPSUCLibrary/LinkedObject">
+			<Attribute Name="Width" />
+			<Attribute Name="Height" />
+			<Attribute Name="X" />
+			<Attribute Name="Y" />
+			<Attribute Name="Rotation" />
+			<Attribute Name="Type" />
+			<SystemUnitClass Name="Junction" RefBaseClassPath="MTPHMISUCLib/VisualObject">
+				<InternalElement Name="Nozzle1" RefBaseSystemUnitPath="MTPHMISUCLib/Port/Nozzle" ID="4cd18135-11ca-4764-9068-15e6aeb5cb14">
+					<Attribute Name="X">
+						<Value>-</Value>
+					</Attribute>
+					<Attribute Name="Y">
+						<Value>-</Value>
+					</Attribute>
+					<ExternalInterface Name="Connector" RefBaseClassPath="MTPHMIInterfaceLib/MassFlowConnector" ID="bc853a19-2eb0-4b16-9958-bd37abe573b5" />
+				</InternalElement>
+				<InternalElement Name="Nozzle2" RefBaseSystemUnitPath="MTPHMISUCLib/Port/Nozzle" ID="c09c69b1-3c85-4ed8-9fbc-7f4340c8913b">
+					<Attribute Name="X">
+						<Value>-</Value>
+					</Attribute>
+					<Attribute Name="Y">
+						<Value>-</Value>
+					</Attribute>
+					<ExternalInterface Name="Connector" RefBaseClassPath="MTPHMIInterfaceLib/MassFlowConnector" ID="95cc1555-4685-4faf-a547-5cedf9ea163d" />
+				</InternalElement>
+				<InternalElement Name="Nozzle3" RefBaseSystemUnitPath="MTPHMISUCLib/Port/Nozzle" ID="b81d52af-9115-4ba0-945f-408c2f538e1b">
+					<Attribute Name="X">
+						<Value>-</Value>
+					</Attribute>
+					<Attribute Name="Y">
+						<Value>-</Value>
+					</Attribute>
+					<ExternalInterface Name="Connector" RefBaseClassPath="MTPHMIInterfaceLib/MassFlowConnector" ID="0f56a835-d299-46ca-b413-cba34748fb6b" />
+				</InternalElement>
+			</SystemUnitClass>
+			<SystemUnitClass Name="Line" RefBaseClassPath="MTPHMISUCLib/VisualObject" />
+			<SystemUnitClass Name="Termination" RefBaseClassPath="MTPHMISUCLib/VisualObject">
+				<InternalElement Name="Nozzle" RefBaseSystemUnitPath="MTPHMISUCLib/Port/Nozzle" ID="c589da32-0d2b-4f38-beab-98504090c3b0">
+					<Attribute Name="X">
+						<Value>-</Value>
+					</Attribute>
+					<Attribute Name="Y">
+						<Value>-</Value>
+					</Attribute>
+					<ExternalInterface Name="Connector" RefBaseClassPath="MTPHMIInterfaceLib/MassFlowConnector" ID="afdf6662-5fca-43e9-b7ac-95b535e74039" />
+				</InternalElement>
+				<SystemUnitClass Name="Sink" RefBaseClassPath="MTPHMISUCLib/VisualObject/Termination" />
+				<SystemUnitClass Name="Source" RefBaseClassPath="MTPHMISUCLib/VisualObject/Termination" />
+			</SystemUnitClass>
+		</SystemUnitClass>
+		<SystemUnitClass Name="Port">
+			<Attribute Name="X" />
+			<Attribute Name="Y" />
+			<SystemUnitClass Name="Nozzle" RefBaseClassPath="MTPHMISUCLib/Port">
+				<ExternalInterface Name="Connector" RefBaseClassPath="MTPHMIInterfaceLib/MassFlowConnector" ID="16e20545-1c84-4974-88d6-9b038032372a" />
+			</SystemUnitClass>
+			<SystemUnitClass Name="LogicalPort" RefBaseClassPath="MTPHMISUCLib/Port">
+				<ExternalInterface Name="Connector" RefBaseClassPath="MTPHMIInterfaceLib/InformationFlowConnector" ID="3e363ece-9fb7-44e8-bcfa-3b23282f2628" />
+			</SystemUnitClass>
+			<SystemUnitClass Name="MeasurementPoint" RefBaseClassPath="MTPHMISUCLib/Port">
+				<ExternalInterface Name="Connector" RefBaseClassPath="MTPHMIInterfaceLib/InformationFlowConnector" ID="b80e5d5c-e6b5-42ff-9339-39abfd1a6ffa" />
+			</SystemUnitClass>
+		</SystemUnitClass>
+		<SystemUnitClass Name="Picture">
+			<Attribute Name="Width" />
+			<Attribute Name="Height" />
+			<Attribute Name="Name" />
+			<Attribute Name="Level" />
+		</SystemUnitClass>
+		<SystemUnitClass Name="SemanticGroup">
+			<Attribute Name="TagName" />
+		</SystemUnitClass>
+	</SystemUnitClassLib>
+</CAEXFile>
