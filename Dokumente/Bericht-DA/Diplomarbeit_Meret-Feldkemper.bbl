@@ -445,6 +445,34 @@
     \field{year}{2012}
   \endentry
 
+  \entry{Herczeg2006}{book}{}
+    \name{author}{1}{}{%
+      {{hash=HM}{%
+         family={Herczeg},
+         familyi={H\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oldenbourg Wissenschaftsverlag GmbH}%
+    }
+    \strng{namehash}{HM2}
+    \strng{fullhash}{HM2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Her06}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{isbn}{3-486-27565-8}
+    \field{title}{Interaktionsdesign: Gestaltung interaktiver und multimedialer
+  Systeme}
+    \list{location}{1}{%
+      {München}%
+    }
+    \field{year}{2006}
+  \endentry
+
   \entry{Hassenzahl2006}{article}{}
     \name{author}{2}{}{%
       {{hash=HM}{%
@@ -505,6 +533,41 @@
     \endverb
     \field{type}{phdthesis}
     \field{year}{2004}
+  \endentry
+
+  \entry{Koedinger2007}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KKR}{%
+         family={Koedinger},
+         familyi={K\bibinitperiod},
+         given={Kenneth\bibnamedelima R.},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=AV}{%
+         family={Aleven},
+         familyi={A\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KKRAV1}
+    \strng{fullhash}{KKRAV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{KA07}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1007/s10648-007-9049-0
+    \endverb
+    \field{isbn}{1040-726X}
+    \field{number}{3}
+    \field{pages}{239\bibrangedash 264}
+    \field{title}{{Exploring the assistance dilemma in experiments with
+  cognitive tutors}}
+    \field{volume}{19}
+    \field{journaltitle}{Educational Psychology Review}
+    \field{year}{2007}
   \endentry
 
   \entry{Kluwe1997}{incollection}{}
@@ -835,6 +898,58 @@
     \field{year}{2011}
   \endentry
 
+  \entry{Miller2005}{article}{}
+    \name{author}{5}{}{%
+      {{hash=MCa}{%
+         family={Miller},
+         familyi={M\bibinitperiod},
+         given={C\bibnamedelima a},
+         giveni={C\bibinitperiod\bibinitdelim a\bibinitperiod},
+      }}%
+      {{hash=FHB}{%
+         family={Funk},
+         familyi={F\bibinitperiod},
+         given={H\bibnamedelima B},
+         giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=GRP}{%
+         family={Goldman},
+         familyi={G\bibinitperiod},
+         given={R\bibnamedelima P},
+         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Meisner},
+         familyi={M\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=WP}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={P},
+         giveni={P},
+      }}%
+    }
+    \strng{namehash}{MCa+1}
+    \strng{fullhash}{MCaFHBGRPMJWP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Mil+05}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1.1.148.6963
+    \endverb
+    \field{number}{July}
+    \field{pages}{1180\bibrangedash 1189}
+    \field{title}{{Implications of Adaptive vs. Adaptable UIs on Decision
+  Making: Why 'Automated Adaptiveness' Is Not Always the Right Answer}}
+    \field{journaltitle}{Proceedings of the 1st International Conference on
+  Augmented Cognition}
+    \field{year}{2005}
+  \endentry
+
   \entry{Obst2013}{article}{}
     \name{author}{10}{}{%
       {{hash=OM}{%
@@ -947,6 +1062,42 @@
     \field{year}{2015}
   \endentry
 
+  \entry{Richey2013}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RJE}{%
+         family={Richey},
+         familyi={R\bibinitperiod},
+         given={J.\bibnamedelima Elizabeth},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=NMTJ}{%
+         family={Nokes-Malach},
+         familyi={N\bibinitperiod-M\bibinitperiod},
+         given={Timothy\bibnamedelima J.},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Ltd}%
+    }
+    \strng{namehash}{RJENMTJ1}
+    \strng{fullhash}{RJENMTJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{RNM13}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb 10.1016/j.learninstruc.2012.11.006
+    \endverb
+    \field{pages}{104\bibrangedash 124}
+    \field{title}{{How much is too much? Learning and motivation effects of
+  adding instructional explanations to worked examples}}
+    \field{volume}{25}
+    \field{journaltitle}{Learning and Instruction}
+    \field{year}{2013}
+  \endentry
+
   \entry{Rohner2016}{book}{}
     \name{author}{2}{}{%
       {{hash=RJ}{%
@@ -1013,6 +1164,43 @@
     \field{volume}{12}
     \field{journaltitle}{The Journal of the Learning Sciences}
     \field{year}{1958}
+  \endentry
+
+  \entry{Sauer2018}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SJ}{%
+         family={Sauer},
+         familyi={S\bibinitperiod},
+         given={Juergen},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Chavaillaz},
+         familyi={C\bibinitperiod},
+         given={Alain},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taylor {\&} Francis}%
+    }
+    \strng{namehash}{SJCA1}
+    \strng{fullhash}{SJCA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{SC18}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1080/1463922X.2017.1297866
+    \endverb
+    \field{number}{2}
+    \field{pages}{135\bibrangedash 155}
+    \field{title}{{How operators make use of wide-choice adaptable automation:
+  observations from a series of experimental studies}}
+    \field{volume}{19}
+    \field{journaltitle}{Theoretical Issues in Ergonomics Science}
+    \field{year}{2018}
   \endentry
 
   \entry{DudenAssistenz}{misc}{}
