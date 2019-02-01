@@ -1,6 +1,5 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
-\select@language {ngerman}
+\babel@toc {ngerman}{}
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Stand der Technik}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}Prozessindustrie}{2}{section.2.1}
@@ -43,11 +42,12 @@
 \contentsline {subsection}{\numberline {3.5.2}Nichtfunktionale Anforderungen}{35}{subsection.3.5.2}
 \contentsline {chapter}{\numberline {4}Konzept}{36}{chapter.4}
 \contentsline {section}{\numberline {4.1}Konzeptuelles Design}{36}{section.4.1}
-\contentsline {section}{\numberline {4.2}physikalisches Design}{36}{section.4.2}
-\contentsline {chapter}{\numberline {5}Implementierung}{37}{chapter.5}
-\contentsline {chapter}{\numberline {6}Verifikation}{38}{chapter.6}
-\contentsline {chapter}{\numberline {7}Zusammenfassung}{39}{chapter.7}
-\contentsline {chapter}{\numberline {8}Ausblick}{40}{chapter.8}
+\contentsline {subsection}{\numberline {4.1.1}Funktionen}{37}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Physikalisches Design}{37}{section.4.2}
+\contentsline {chapter}{\numberline {5}Implementierung}{38}{chapter.5}
+\contentsline {chapter}{\numberline {6}Verifikation}{39}{chapter.6}
+\contentsline {chapter}{\numberline {7}Zusammenfassung}{40}{chapter.7}
+\contentsline {chapter}{\numberline {8}Ausblick}{41}{chapter.8}
 \contentsfinish 
-\contentsline {chapter}{Anhang \numberline {A}Anhang}{42}{Anhang.a.A}
-\contentsline {chapter}{Literaturverzeichnis}{43}{chapter*.35}
+\contentsline {chapter}{Anhang \numberline {A}Anhang}{43}{Anhang.a.A}
+\contentsline {chapter}{Literaturverzeichnis}{44}{chapter*.37}

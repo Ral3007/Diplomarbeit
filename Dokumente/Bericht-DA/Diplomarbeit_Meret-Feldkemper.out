@@ -41,10 +41,11 @@
 \BOOKMARK [2][-]{subsection.3.5.2}{Nichtfunktionale Anforderungen}{section.3.5}% 41
 \BOOKMARK [0][-]{chapter.4}{Konzept}{}% 42
 \BOOKMARK [1][-]{section.4.1}{Konzeptuelles Design}{chapter.4}% 43
-\BOOKMARK [1][-]{section.4.2}{physikalisches Design}{chapter.4}% 44
-\BOOKMARK [0][-]{chapter.5}{Implementierung}{}% 45
-\BOOKMARK [0][-]{chapter.6}{Verifikation}{}% 46
-\BOOKMARK [0][-]{chapter.7}{Zusammenfassung}{}% 47
-\BOOKMARK [0][-]{chapter.8}{Ausblick}{}% 48
-\BOOKMARK [0][-]{Anhang.a.A}{Anhang Anhang}{}% 49
-\BOOKMARK [0][-]{chapter*.35}{Literaturverzeichnis}{}% 50
+\BOOKMARK [2][-]{subsection.4.1.1}{Funktionen}{section.4.1}% 44
+\BOOKMARK [1][-]{section.4.2}{Physikalisches Design}{chapter.4}% 45
+\BOOKMARK [0][-]{chapter.5}{Implementierung}{}% 46
+\BOOKMARK [0][-]{chapter.6}{Verifikation}{}% 47
+\BOOKMARK [0][-]{chapter.7}{Zusammenfassung}{}% 48
+\BOOKMARK [0][-]{chapter.8}{Ausblick}{}% 49
+\BOOKMARK [0][-]{Anhang.a.A}{Anhang Anhang}{}% 50
+\BOOKMARK [0][-]{chapter*.37}{Literaturverzeichnis}{}% 51
