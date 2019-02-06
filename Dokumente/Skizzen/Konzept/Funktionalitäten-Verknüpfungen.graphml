@@ -96,7 +96,7 @@ Problem gelöst sein?<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:La
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="167.0" x="546.0" y="443.7119504547847"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Fill color="#FFFF99" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="159.42578125" x="3.787109375" xml:space="preserve" y="3.298828125">Was kann sich das
 Unternehmen aktuell leisten?<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -372,7 +372,7 @@ Unternehmen aktuell leisten?<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="167.0" x="546.0" y="323.11574468085104"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Fill color="#FFFF99" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="131.423828125" x="17.7880859375" xml:space="preserve" y="3.298828125">Wie ist die aktuelle
 Auslastung der Anlage?<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -462,7 +462,7 @@ Modul, Rezept, Service<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:L
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="152.0" x="553.5" y="231.88034042553193"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Fill color="#FFFF99" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="128.08984375" x="11.955078125" xml:space="preserve" y="5.6494140625">Kennzahlen Produktion<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:Shape type="rectangle"/>
@@ -1131,7 +1131,6 @@ Modul, Rezept, Service<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:L
       </data>
     </edge>
     <edge id="e54" source="n1" target="n43">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1142,7 +1141,6 @@ Modul, Rezept, Service<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:L
       </data>
     </edge>
     <edge id="e55" source="n3" target="n44">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1153,7 +1151,6 @@ Modul, Rezept, Service<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:L
       </data>
     </edge>
     <edge id="e56" source="n1" target="n45">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1164,7 +1161,6 @@ Modul, Rezept, Service<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:L
       </data>
     </edge>
     <edge id="e57" source="n34" target="n46">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="7.12714893616976" ty="10.589601518614643"/>
@@ -1175,7 +1171,6 @@ Modul, Rezept, Service<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:L
       </data>
     </edge>
     <edge id="e58" source="n8" target="n47">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>

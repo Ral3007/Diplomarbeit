@@ -27,17 +27,30 @@ Wie kann nun der Nutzer durch den Problemlöseprozess begleitet werden? In Absch
 \label{pic:Konzeptidee}
 \end{figure}
 
-Zunächst muss das Problem identifiziert werden. Dazu stehen dem Nutzer alle Informationen über den aktuellen Status der modularen Anlage zur Verfügung. Dadurch kann der Nutzer einerseits selber Probleme definieren, wie \glqq Das Modul muss nächste Woche gewartet werden. Ein Produktionsausfall ist zu vermeiden.\grqq Andererseits können Probleme auch durch das System identifiziert werden, wenn ein Modul eine Warnung oder einen Alarm auslöst. Ist das Problem identifiziert, so muss das Ziel definiert werden. So kann im Fall des zu wartenden Moduls ein maximaler Produktionsausfall und die dadurch entstehenden Kosten angegeben werden.
+Zunächst muss das Problem identifiziert werden. Dazu stehen dem Nutzer alle Informationen über den aktuellen Status der modularen Anlage zur Verfügung. Durch Meldungen, Warnungen und Alarme können Probleme vom System ausgelöst werden. Weiterführend ist es denkbar, das auch der Nutzer ein Problem definiert. Ist das Problem identifiziert, so muss das Ziel definiert werden. So kann im Fall des eines zu wartenden Moduls ein maximaler Produktionsausfall und die dadurch entstehenden Kosten angegeben werden.
 
 Ist das Problem identifiziert und das Ziel definiert, so müssen die möglichen Lösungen betrachtet werden. Lösungen können sowohl vom System als auch vom Nutzer vorgeschlagen werden. Nach Bestimmung der Lösungen erfolgt ein Vergleich dieser. Um eine Entscheidung treffen zu können ist eine Bewertung der verschiedenen Lösungen möglich.
 
 Die Entscheidung wird unterstützt, indem sich die Kriterien und deren Relevanz festlegen lassen. Anhand dieser können die Lösungen gefiltert und die Beste ausgewählt werden.
 
 \subsection{Funktionen}
-
-
+\todo{einleitenden Text schreiben}
 welche Funktionen müssen realisiert werden?
 
+\subsubsection*{Aktueller Status}
+Der aktuelle Status kann über die PFE abgelesen werden. Werden Meldungen, Warnungen oder Alarme ausgelöst, so hat der Nutzer die Möglichkeit über einen Button Problem bearbeiten sich diesem anzunehmen und nach Lösungen zu suchen.
+
+\subsubsection*{Neues Problem}
+Hat sich der Nutzer dem Problem angenommen, kann dieses durch Ziele näher spezifiziert werden. Welche grundlegenden Ziele für das Unternehmen relevant sind kann vorab festgelegt werden. In Bild \ref{pic:Produktionsprozesse-Zielgroessen} sind mögliche Ziele aufgeführt. Für das aktuelle Problem können die relevanten Ziele ausgewählt und genauer spezifiziert werden. \todo{welche Ziele?}
+
+Neben der Beschreibung der Ziele ist es dem Nutzer möglich eine Übersicht über den Problembereich zu erhalten. Dazu markiert das Assistenzsystem zunächst den Bereich in dem das Problem ausgelöst wurde und die zugehörigen Komponenten. Betrifft der Bereich ein bestimmtes Modul so werden die zugehörigen Services und der zugehörige Bereich im Rezept markiert. Betrifft der Bereich einen Service so sind die Parameterabhängigkeiten und das zugehörige Equipment relevant. Ausgehend von dem markierten Bereich und geleitet durch die Ziele können Lösungen gefunden werden.
+
+\subsubsection*{Lösungen finden}
+Wie die konkrete Lösung für ein Problem aussieht ist nicht vorherbestimmt. Das Assistenzsystem kann anhand der definierten Ziele Vorschläge liefern. Diese können durch den Nutzer angepasst und bewertet werden. Hier ist der Mensch klar im Vorteil, da dieser Optionen abwägen kann. Des weiterem steht dem Nutzer die Möglichkeit zur Verfügung selber nach Lösungen zu suchen. Ihm stehen dazu alle Informationen über die Anlage zur Verfügung. So können Parameter- oder Serviceabhängigkeiten aufgezeigt werden. Ebenso werden z.B. bei einem geplanten Modultausch die Bereiche im Rezept markiert, die angepasst werden müssen. So kann der Nutzer den Aufwand abschätzen.
+
+\subsection{Anpassungen}
 welche Elemente beeinflussen sich gegenseitig?
+
+Wie wählt das Assistenzsystem Lösungen aus?
 
 \section{Physikalisches Design}

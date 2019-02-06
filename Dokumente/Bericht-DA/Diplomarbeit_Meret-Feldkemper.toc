@@ -43,11 +43,12 @@
 \contentsline {chapter}{\numberline {4}Konzept}{36}{chapter.4}
 \contentsline {section}{\numberline {4.1}Konzeptuelles Design}{36}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Funktionen}{38}{subsection.4.1.1}
-\contentsline {section}{\numberline {4.2}Physikalisches Design}{38}{section.4.2}
-\contentsline {chapter}{\numberline {5}Implementierung}{39}{chapter.5}
-\contentsline {chapter}{\numberline {6}Verifikation}{40}{chapter.6}
-\contentsline {chapter}{\numberline {7}Zusammenfassung}{41}{chapter.7}
-\contentsline {chapter}{\numberline {8}Ausblick}{42}{chapter.8}
+\contentsline {subsection}{\numberline {4.1.2}Anpassungen}{38}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Physikalisches Design}{39}{section.4.2}
+\contentsline {chapter}{\numberline {5}Implementierung}{40}{chapter.5}
+\contentsline {chapter}{\numberline {6}Verifikation}{41}{chapter.6}
+\contentsline {chapter}{\numberline {7}Zusammenfassung}{42}{chapter.7}
+\contentsline {chapter}{\numberline {8}Ausblick}{43}{chapter.8}
 \contentsfinish 
-\contentsline {chapter}{Anhang \numberline {A}Anhang}{44}{Anhang.a.A}
-\contentsline {chapter}{Literaturverzeichnis}{45}{chapter*.37}
+\contentsline {chapter}{Anhang \numberline {A}Anhang}{45}{Anhang.a.A}
+\contentsline {chapter}{Literaturverzeichnis}{46}{chapter*.45}
