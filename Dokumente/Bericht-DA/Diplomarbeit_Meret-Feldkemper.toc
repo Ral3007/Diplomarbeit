@@ -1,5 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Stand der Technik}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}Prozessindustrie}{2}{section.2.1}
@@ -43,7 +44,7 @@
 \contentsline {chapter}{\numberline {4}Konzept}{36}{chapter.4}
 \contentsline {section}{\numberline {4.1}Konzeptuelles Design}{36}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Funktionen}{38}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Anpassungen}{38}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.2}Anpassungen}{39}{subsection.4.1.2}
 \contentsline {section}{\numberline {4.2}Physikalisches Design}{39}{section.4.2}
 \contentsline {chapter}{\numberline {5}Implementierung}{40}{chapter.5}
 \contentsline {chapter}{\numberline {6}Verifikation}{41}{chapter.6}
