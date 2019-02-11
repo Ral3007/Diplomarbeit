@@ -38,19 +38,35 @@ Die Entscheidung wird unterstützt, indem sich die Kriterien und deren Relevanz 
 welche Funktionen müssen realisiert werden?
 
 \subsubsection*{Aktueller Status}
-Der aktuelle Status kann über die PFE abgelesen werden. Werden Meldungen, Warnungen oder Alarme ausgelöst, so hat der Nutzer die Möglichkeit über einen Button Problem bearbeiten sich diesem anzunehmen und nach Lösungen zu suchen.
+Der aktuelle Status kann über die PFE abgelesen werden. Diese gibt einen Überblick über die aktuelle Verschaltung der Module, das Rezept, die Key Performace Indicator (KPIs) und die Services. Auch eine Übersicht über das Anlagenequipment eines jeden Moduls ist vorhanden. Die notwendigen Meldungen, Warnungen und Alarme werden derzeit nicht angezeigt. Durch die Integration dieser kann der Nutzer bei der Problemidentifikation unterstützt werden. Tritt beispielsweise eine Meldung auf, hat der Nutzer die Möglichkeit dieses als Problem aufzunehmen und nach Lösungen zu suchen.
 
 \subsubsection*{Neues Problem}
-Hat sich der Nutzer dem Problem angenommen, kann dieses durch Ziele näher spezifiziert werden. Welche grundlegenden Ziele für das Unternehmen relevant sind kann vorab festgelegt werden. In Bild \ref{pic:Produktionsprozesse-Zielgroessen} sind mögliche Ziele aufgeführt. Für das aktuelle Problem können die relevanten Ziele ausgewählt und genauer spezifiziert werden. \todo{welche Ziele?}
+Hat sich der Nutzer dem Problem angenommen, kann dieses durch Ziele näher spezifiziert werden. Welche grundlegenden Ziele für das Unternehmen relevant sind, kann vorab festgelegt werden. In Bild \ref{pic:Produktionsprozesse-Zielgroessen} sind mögliche Ziele aufgeführt. Für das aktuelle Problem können die relevanten Ziele ausgewählt und genauer spezifiziert werden. \todo{welche Ziele?}
 
 Neben der Beschreibung der Ziele ist es dem Nutzer möglich eine Übersicht über den Problembereich zu erhalten. Dazu markiert das Assistenzsystem zunächst den Bereich in dem das Problem ausgelöst wurde und die zugehörigen Komponenten. Betrifft der Bereich ein bestimmtes Modul so werden die zugehörigen Services und der zugehörige Bereich im Rezept markiert. Betrifft der Bereich einen Service so sind die Parameterabhängigkeiten und das zugehörige Equipment relevant. Ausgehend von dem markierten Bereich und geleitet durch die Ziele können Lösungen gefunden werden.
 
 \subsubsection*{Lösungen finden}
 Wie die konkrete Lösung für ein Problem aussieht ist nicht vorherbestimmt. Das Assistenzsystem kann anhand der definierten Ziele Vorschläge liefern. Diese können durch den Nutzer angepasst und bewertet werden. Hier ist der Mensch klar im Vorteil, da dieser Optionen abwägen kann. Des weiterem steht dem Nutzer die Möglichkeit zur Verfügung selber nach Lösungen zu suchen. Ihm stehen dazu alle Informationen über die Anlage zur Verfügung. So können Parameter- oder Serviceabhängigkeiten aufgezeigt werden. Ebenso werden z.B. bei einem geplanten Modultausch die Bereiche im Rezept markiert, die angepasst werden müssen. So kann der Nutzer den Aufwand abschätzen.
 
+\subsubsection*{Lösungen vergleichen}
+In vielen Fällen gibt es nicht nur eine richtige Lösung, sondern mehrere Lösungsmöglichkeiten, die gegeneinander abgewogen werden müssen. Dem Nutzer werden dazu die Unterschiede zwischen den Lösungen aufgezeigt. Diese können rein zahlenmäßig sein, wie entstehende Kosten oder der Energieverbrauch eines Moduls. Es ist jedoch auch möglich, dass sich Lösungen strukturell unterscheiden, z.B. anhand der zur Verfügung gestellten Dienste.
+
+\subsubsection*{Entscheiden}
+
 \subsection{Anpassungen}
 welche Elemente beeinflussen sich gegenseitig?
 
 Wie wählt das Assistenzsystem Lösungen aus?
+
+Da sich sowohl Probleme, als auch Lösungen von Fall zu Fall unterscheiden, müssen dementsprechend Anpassungen vorgenommen werden. In Abschnitt \ref{3:Anpassung-Aufgabe} ist bereits erwähnt, dass sich die Informationen an das Problem und die Ziele anpassen sollten. Im Zuge dessen sind vor allem die gegenseitigen Abhängigkeiten relevant, welche bereits in Abschnitt xx dargestellt sind. Wie kann sich nun das Assistenzsystem daran anpassen? Zunächst muss identifiziert werden wo das Problem entstanden ist. Es lassen sich folgende Fälle unterscheiden:
+\begin{itemize}
+\item \textbf{Modul:} Das gesamte Modul hat ein Problem verursacht.
+\item \textbf{Service:} Ein Service hat eine Warnung oder Alarm ausgelöst.
+\item \textbf{Rezept:} Das Rezept ist an einer bestimmten Stelle hängen geblieben und kann nicht weiter abgearbeitet werden.
+\item \textbf{KPI:} 
+\end{itemize}
+
+\subsubsection*{Modul}
+
 
 \section{Physikalisches Design}
