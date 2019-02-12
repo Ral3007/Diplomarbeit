@@ -2,10 +2,10 @@
 \chapter{Konzept}
 \label{sec:Konzept}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\todo{einleiten}
 
 \section{Konzeptuelles Design}
-Zunächst muss geklärt werden, was dargestellt werden soll bevor entschieden wird, wie es dargestellt wird.
+Zunächst muss geklärt werden, was dargestellt werden soll bevor entschieden wird, wie es dargestellt wird. \todo{besser formulieren}
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.45]{DA_files/Bilder/Konzept/Nutzer-unterstuetzen.pdf}
@@ -37,6 +37,8 @@ Die Entscheidung wird unterstützt, indem sich die Kriterien und deren Relevanz 
 \todo{einleitenden Text schreiben}
 welche Funktionen müssen realisiert werden?
 
+Nach Lösungen und Ursachen suchen
+
 \subsubsection*{Aktueller Status}
 Der aktuelle Status kann über die PFE abgelesen werden. Diese gibt einen Überblick über die aktuelle Verschaltung der Module, das Rezept, die Key Performace Indicator (KPIs) und die Services. Auch eine Übersicht über das Anlagenequipment eines jeden Moduls ist vorhanden. Die notwendigen Meldungen, Warnungen und Alarme werden derzeit nicht angezeigt. Durch die Integration dieser kann der Nutzer bei der Problemidentifikation unterstützt werden. Tritt beispielsweise eine Meldung auf, hat der Nutzer die Möglichkeit dieses als Problem aufzunehmen und nach Lösungen zu suchen.
 
@@ -45,7 +47,7 @@ Hat sich der Nutzer dem Problem angenommen, kann dieses durch Ziele näher spezi
 
 Neben der Beschreibung der Ziele ist es dem Nutzer möglich eine Übersicht über den Problembereich zu erhalten. Dazu markiert das Assistenzsystem zunächst den Bereich in dem das Problem ausgelöst wurde und die zugehörigen Komponenten. Betrifft der Bereich ein bestimmtes Modul so werden die zugehörigen Services und der zugehörige Bereich im Rezept markiert. Betrifft der Bereich einen Service so sind die Parameterabhängigkeiten und das zugehörige Equipment relevant. Ausgehend von dem markierten Bereich und geleitet durch die Ziele können Lösungen gefunden werden.
 
-\subsubsection*{Lösungen finden}
+\subsubsection*{Lösungen suchen }
 Wie die konkrete Lösung für ein Problem aussieht ist nicht vorherbestimmt. Das Assistenzsystem kann anhand der definierten Ziele Vorschläge liefern. Diese können durch den Nutzer angepasst und bewertet werden. Hier ist der Mensch klar im Vorteil, da dieser Optionen abwägen kann. Des weiterem steht dem Nutzer die Möglichkeit zur Verfügung selber nach Lösungen zu suchen. Ihm stehen dazu alle Informationen über die Anlage zur Verfügung. So können Parameter- oder Serviceabhängigkeiten aufgezeigt werden. Ebenso werden z.B. bei einem geplanten Modultausch die Bereiche im Rezept markiert, die angepasst werden müssen. So kann der Nutzer den Aufwand abschätzen.
 
 \subsubsection*{Lösungen vergleichen}
@@ -58,7 +60,7 @@ welche Elemente beeinflussen sich gegenseitig?
 
 Wie wählt das Assistenzsystem Lösungen aus?
 
-Da sich sowohl Probleme, als auch Lösungen von Fall zu Fall unterscheiden, müssen dementsprechend Anpassungen vorgenommen werden. In Abschnitt \ref{3:Anpassung-Aufgabe} ist bereits erwähnt, dass sich die Informationen an das Problem und die Ziele anpassen sollten. Im Zuge dessen sind vor allem die gegenseitigen Abhängigkeiten relevant, welche bereits in Abschnitt xx dargestellt sind. Wie kann sich nun das Assistenzsystem daran anpassen? Zunächst muss identifiziert werden wo das Problem entstanden ist. Es lassen sich folgende Fälle unterscheiden:
+Da sich sowohl Probleme, als auch Lösungen von Fall zu Fall unterscheiden, müssen dementsprechend Anpassungen vorgenommen werden. In Abschnitt \ref{3:Anpassung-Aufgabe} ist bereits erwähnt, dass sich die Informationen an das Problem und die Ziele anpassen sollten. Im Zuge dessen sind vor allem die gegenseitigen Abhängigkeiten relevant, auf die im weiteren Verlauf näher eingegangen wird. Damit sich das Assistenzsystem anpassen kann muss identifiziert werden, wo das Problem entstanden ist. Es lassen sich folgende Fälle unterscheiden:
 \begin{itemize}
 \item \textbf{Modul:} Das gesamte Modul hat ein Problem verursacht.
 \item \textbf{Service:} Ein Service hat eine Warnung oder Alarm ausgelöst.
@@ -67,6 +69,22 @@ Da sich sowohl Probleme, als auch Lösungen von Fall zu Fall unterscheiden, müs
 \end{itemize}
 
 \subsubsection*{Modul}
+Ein einzelnes Modul ist sehr eigenständig. In der Navigation der PFE ist ersichtlich mit welchen anderen Modulen es verbunden ist.
+
+\subsubsection*{Services}
+Die Services weisen eine Vielzahl an Abhängigkeiten auf. So kann ein Service direkt mit anderen Services gekoppelt sein (vgl. Abschnitt x) oder durch Parameter eines anderen Services gestartet werden. Diese Kopplung ist auch modulübergreifend möglich. Löst nun ein Service ein Problem aus so werden die abhängigen Services markiert. Dies erleichtert dem Nutzer die Eingrenzung des Problembereichs. Bei der Suche nach Ursachen, warum der Service nicht funktioniert muss es dem Nutzer möglich sein alle Möglichkeiten in Erwägung zu ziehen. So steht dem Nutzer die Möglichkeit zur Verfügung das zugehörige Equipment zum Service anzusehen. 
+
+\subsubsection*{Rezept}
+Wird das Rezept automatisch ausgeführt so besteht die Möglichkeit, dass dieses aufgrund eines Fehlers nicht vollständig ausgeführt werden kann. In so einem Fall wird dem Nutzer angezeigt an welcher Stelle das Rezept abgebrochen wurde und welcher Service zugehörig ist. Ausgehend von der Position im Rezept können die notwendigen Bedingungen überprüft und mögliche Ursachen in Erwägung gezogen werden. Ist die Ursache identifiziert können mit Hilfe des Assistenzsystems Lösungen gefunden werden. So ist es dem Nutzer möglich Veränderung an der entsprechenden Stelle im Rezept vorzunehmen. Diese können dann vom Assistenzsysteme virtuell geprüft werden. Auf diese Weise entsteht eine kollaborative Problemlösung.
+
+\subsubsection*{KPI}
+Die Key Performace Indicator beinhalten Kennzahlen \todo{ausformulieren}
 
 
 \section{Physikalisches Design}
+Das physikalische Design beschreibt die konkrete Darstellung der Funktionen und Informationen.
+
+\subsection{Problem beschreiben}
+
+
+\subsection{Markierung des Bereichs}

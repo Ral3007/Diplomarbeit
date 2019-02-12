@@ -4,10 +4,12 @@
 \chapter{Analyse}
 \label{sec:Anforderungsanalyse}
 %%%%%%%%%%%%%%%%%%%%
-Das Konzept der modularen Anlagen eröffnet neue Möglichkeiten, bringt aber auch neue Herausforderungen. Durch die Flexibilität ist es denkbar, dass Module öfter ausgetauscht werden. Welche Informationen für den Auswahlprozess benötigt werden, wird im folgenden analysiert.
+Das Konzept der modularen Anlagen eröffnet neue Möglichkeiten, bringt aber auch neue Herausforderungen. Durch die Flexibilität ist es unter anderem denkbar, dass Module öfter ausgetauscht werden.
 
-\section{Informationsbedarf}
-Der Informationsbedarf orientiert sich maßgeblich an den Aufgaben und dem Nutzer. \todo{weiter ausführen}
+Welche Informationen für den Auswahlprozess benötigt werden, wird im folgenden analysiert. \todo{umschreiben}
+
+\section{Vorhandene Informationen}
+Die modulare Anlage stellt mittels des Module Type Package (MTP) eine Reihe an Informationen zur Verfügung, welche für den Problemlöseprozess verwendet werden können. Zur Visualisierung einiger der Informationen wird die Prozessführungsebene verwendet. In den folgenden Abschnitten sind die Menge und Art der vorhandenen Informationen detailliert beschrieben. 
 
 \subsection{Modulare Anlage}
 Der Lebenszyklus einer modulare Anlage wird in unterschiedliche Phasen eingeteilt. Sie besteht aus Planung, Errichtung, Betrieb und Demontage. \cite{Obst2013} Besonderer Augenmerk in dieser Arbeit liegt auf dem Potential der Flexibilität. So kann die modulare Anlage beispielsweise bei Wartungsarbeiten an einem Modul mit einem alternativen Modul weiter betrieben werden.
@@ -55,6 +57,44 @@ Sollen Dienste näher spezifiziert werden, ist eine Verwendung von Parametern m�
 Da die modularen Anlagen mit Diensten gesteuert werden, ändert sich auch die Art an Problemen, die entstehen und die vom Modulbetreiber behoben werden können. Durch die Dienste wird nur noch ein Problembereich angezeigt. Meldet ein Dienst zurück, dass er nicht erfolgreich durchgeführt werden kann so ist noch nicht eindeutig, wo das Problem liegt. Durch die Anzeige von dazugehörigem Equipment und möglichen Serviceabhängigkeiten kann der Problembereich eingegrenzt werden. Bei Betrieb der modularen Anlage im P2O-Lab der TU Dresden treten derzeit die häufigsten Fehler auf, wenn entsprechende Zuläufe nicht geöffnet werden \todo{belegen}. So meldet aktuell das Reaktormodul nicht zurück, wenn vergessen wurde die Druckluft anzustellen. Dem Betreiber fällt nur auf, dass das Modul nicht so arbeitet, wie es soll. Wurde beim Temperiermodul vergessen den Zulauf für das Wasser zur Kühlung zu öffnen, so meldet sich dieses erst nach ca. zwei Minuten zurück, dass es zu warm wird.
 
 Neben den Problemen, die sich relativ einfach auf herkömmliche Anlage übertragen lassen, können im Zuge der Flexibilität ganz Neue entstehen. Die Option nicht nur Parameter anzupassen sondern auch Module auszutauschen, eröffnet neue Möglichkeiten und stellt den Modulbetreiber vor neue Herausforderungen. Müller und Urbas \cite{} \todo{Zitat} haben diesen Gedanken bereits angestoßen. Aus diesem Grund ist es interessant zu begutachten, welche weiteren Faktoren bei einem Modulaustausch relevant werden können.
+
+\subsection{Prozessführungsebene}
+\label{3:PFE}
+Das MTP stellt eine Reihe an Informationen zur Verfügung, welche davon wie angezeigt werden ist Aufgabe der Prozessführungsebene. Für das P2O-Lab der TU Dresden wurde eine solche PFE entwickelt. Diese besteht aus vier Bereichen (siehe Bild \ref{pic:Bereiche-PFE}) \todo{Bild neben Text?}.
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.15]{DA_files/Bilder/Analyse/PFE-Bereiche.png}
+\label{pic:Bereiche-PFE}
+\caption{Die vier Bereiche der PFE}
+\end{figure}
+
+\begin{itemize}
+\item \textbf{KPI:} Zeigt die KPI der einzelnen Module an.
+\item \textbf{Navigation:} Zeigt eine Übersicht über die modulare Anlage an. Durch klicken auf einzelne Module gelangt man zu mehr Details.
+\item \textbf{Rezept:} Zeigt das Rezept zur modularen Anlage an. Dieses ist aufgeteilt in Modes, Procedures und Steps (siehe Abschnitt \ref{2:Modulare-Anlagen}).
+\item \textbf{Service Launcher:} Zeigt die Dienste der Module an. Diese beinhaltet den aktuellen Zustand und mögliche Zustandsübergänge, die aktuelle Strategie und die aktuelle Betriebsart an. Des weiteren können noch die vorhandenen Fahrweisenparameter angezeigt und eingestellt werden.
+\end{itemize}
+Für eine besser Übersicht ist die PFE in vier Ebenen eingeteilt. Auf der obersten Ebene ist eine grobe Übersicht über die Anlage gegeben. Die unterste Ebene stellt die meisten Details dar. Tabelle \ref{tab:Ebenen-PFE} beschreibt, welche Informationen auf welcher Ebene dargestellt sind. Mittels der Navigation können die Ebenen gewechselt werden. \todo{Bilder der Ebenen in Anhang}
+\begin{table}[htbp]
+\centering
+\begin{tabular}{p{1,7cm}|p{2,3cm}|p{2,2cm}|p{2,2cm}|p{2,3cm}|}
+ & \textbf{Navigation} & \textbf{KPI} & \textbf{Rezept} & \textbf{Service Launcher} \\
+\hline
+\textbf{Ebene 1} & Shopfloor: Übersicht über alle vorhandenen Anlagen & & Modes für die angewählt Anlage & Alle Services der angewählten Anlage \\
+\hline
+\textbf{Ebene 2} & Subplant: Anzeige aller Module und deren Verbindungen & & Procedures & Alle Services der Anlage \\
+\hline
+\textbf{Ebene 3} & Modul & KPIs für das angewählte Modul & Procedures: Markierung des angewählten Moduls & Services des Moduls \\
+\hline \textbf{Ebene 4} & Human Machine Interface des Moduls & & Procedures: Markierung des Moduls & Services des Moduls \\
+\hline
+\end{tabular}
+\label{tab:Ebenen-PFE}
+\caption{Übersicht über die Ebenen in der Prozessführungsebene}
+\end{table}
+
+
+\section{Informationsbedarf}
+Der Informationsbedarf orientiert sich maßgeblich an den Aufgaben und dem Nutzer. \todo{weiter ausführen}
 
 \subsection{Informationen nach Aufgabenbereich}
 Neben den Informationen, die ein Modul zur Verfügung stellt und die bei Behebung einer Störung behilflich sein können, gibt es eine Reihe von weiteren interessanten Aspekten. Weitet man den Problembereich von einer reinen Instandhaltung auf Bereiche wie die Wirtschaftlichkeit aus, so werden ganz andere Informationen benötigt. Welche Funktionen auf welcher Ebene in einem Unternehmen automatisiert werden können und somit auch sinnvoll durch ein Assistenzsystem unterstützbar sind ist in \cite{Lauber1999} beschrieben. Hier ist auch der zeitliche Aspekt mit aufgeführt. Eine entsprechende Übersicht findet sich in Tabelle \ref{tab:Ebenen-Unternehmen}.
