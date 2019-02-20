@@ -5,7 +5,7 @@
 \todo{einleiten}
 
 \section{Konzeptuelles Design}
-Zunächst muss geklärt werden, was dargestellt werden soll bevor entschieden wird, wie es dargestellt wird. \todo{besser formulieren}
+Das konzeptuelle Design beschreibt die Funktionalitäten des Assistenzsystems. Dazu wird zunächst dargestellt, welche Faktoren berücksichtigt werden.\todo{besser formulieren}
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.45]{DA_files/Bilder/Konzept/Nutzer-unterstuetzen.pdf}
@@ -19,7 +19,7 @@ Die \textbf{Lösungen für das Problem} sollen sinnvoll dargestellt werden. Dabe
 
 Mit einer guten \textbf{User Experience} soll die Entscheidung des Menschen unterstützt werden. Dieser soll mittels geeignetem Autonomiegrad nicht unterfordert werden. Durch die angemessene Darstellung der Informationen ist eine Überforderung zu vermeiden. Die Darstellung der Informationen hängt auch mit der Vergleichbarkeit der Lösungen zusammen. Gibt es mehrere Lösungen, so muss der Nutzer Unterschiede gut erkennen können, um eine geeignete Entscheidung zu treffen.
 \\ \\
-Wie kann nun der Nutzer durch den Problemlöseprozess begleitet werden? In Abschnitt \ref{2:Phasen-Problemloesen} sind die Phasen des Problemlösens beschrieben. Angelehnt daran wird folgender Ablauf mit entsprechender Unterstützung durch das Assistenzsystem vorgesehen (siehe Bild \ref{pic:Konzeptidee}).
+Wie kann nun der Nutzer durch den Problemlöseprozess begleitet werden? In Abschnitt \ref{2:Phasen-Problemloesen} sind die Phasen des Problemlösens beschrieben. Angelehnt daran wird folgender Ablauf mit entsprechender Unterstützung durch das Assistenzsystem vorgesehen (siehe Bild \ref{pic:Konzeptidee} \todo{Bild anpassen}).
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.45]{DA_files/Bilder/Konzept/Konzeptidee.pdf}
@@ -35,32 +35,23 @@ Die Entscheidung wird unterstützt, indem sich die Kriterien und deren Relevanz 
 
 \subsection{Funktionen}
 \todo{einleitenden Text schreiben}
-welche Funktionen müssen realisiert werden?
 
-Nach Lösungen und Ursachen suchen
 
 \subsubsection*{Aktueller Status}
 Der aktuelle Status kann über die PFE abgelesen werden. Diese gibt einen Überblick über die aktuelle Verschaltung der Module, das Rezept, die Key Performace Indicator (KPIs) und die Services. Auch eine Übersicht über das Anlagenequipment eines jeden Moduls ist vorhanden. Die notwendigen Meldungen, Warnungen und Alarme werden derzeit nicht angezeigt. Durch die Integration dieser kann der Nutzer bei der Problemidentifikation unterstützt werden. Tritt beispielsweise eine Meldung auf, hat der Nutzer die Möglichkeit dieses als Problem aufzunehmen und nach Lösungen zu suchen.
 
 \subsubsection*{Neues Problem}
-Hat sich der Nutzer dem Problem angenommen, kann dieses durch Ziele näher spezifiziert werden. Welche grundlegenden Ziele für das Unternehmen relevant sind, kann vorab festgelegt werden. In Bild \ref{pic:Produktionsprozesse-Zielgroessen} sind mögliche Ziele aufgeführt. Für das aktuelle Problem können die relevanten Ziele ausgewählt und genauer spezifiziert werden. \todo{welche Ziele?}
+Hat sich der Nutzer dem Problem angenommen, kann dieses durch Ziele näher spezifiziert werden. Welche grundlegenden Ziele für das Unternehmen relevant sind, kann vorab festgelegt werden. In Bild \ref{pic:Produktionsprozesse-Zielgroessen} sind mögliche Ziele aufgeführt. Für das aktuelle Problem können die relevanten Ziele hinzugefügt und genauer spezifiziert werden.
 
-Neben der Beschreibung der Ziele ist es dem Nutzer möglich eine Übersicht über den Problembereich zu erhalten. Dazu markiert das Assistenzsystem zunächst den Bereich in dem das Problem ausgelöst wurde und die zugehörigen Komponenten. Betrifft der Bereich ein bestimmtes Modul, dann werden die zugehörigen Services und der zugehörige Bereich im Rezept markiert. Betrifft der Bereich einen Service, sind die Parameterabhängigkeiten und das zugehörige Equipment relevant. Ausgehend von dem markierten Bereich und geleitet durch die Ziele können Lösungen gefunden werden.
+Neben der Definition der Ziele, ist es dem Nutzer möglich eine Übersicht über den Problembereich zu erhalten. Dazu markiert das Assistenzsystem zunächst den Bereich in dem das Problem ausgelöst wurde und die zugehörigen Komponenten. Betrifft der Bereich ein bestimmtes Modul, dann werden die zugehörigen Services und der zugehörige Bereich im Rezept markiert. Betrifft der Bereich einen Service, sind die Parameterabhängigkeiten und das zugehörige Equipment relevant. Ausgehend von dem markierten Bereich und geleitet durch die Ziele können Lösungen gefunden werden.
 
 \subsubsection*{Lösungen suchen }
 Wie die konkrete Lösung für ein Problem aussieht ist nicht vorherbestimmt. Das Assistenzsystem kann anhand der definierten Ziele Vorschläge liefern. Diese können durch den Nutzer angepasst und bewertet werden. Hier ist der Mensch klar im Vorteil, da dieser Optionen abwägen kann. Des weiteren hat der Nutzer die Möglichkeit selber nach Lösungen zu suchen. Ihm stehen dazu alle Informationen über die Anlage zur Verfügung. Das Assistenzsystem markiert die Veränderungen, die durch die Lösungen entstehen. Dadurch kann der Nutzer den Aufwand abschätzen und bewerten, ob die Lösung gut oder schlecht ist.
 
 \subsubsection*{Lösungen vergleichen}
-In vielen Fällen gibt es nicht nur eine richtige Lösung, sondern mehrere Lösungsmöglichkeiten, die gegeneinander abgewogen werden müssen. Dem Nutzer werden dazu die Unterschiede zwischen den Lösungen aufgezeigt. Diese können rein zahlenmäßig sein, wie entstehende Kosten oder der Energieverbrauch eines Moduls. Es ist jedoch auch möglich, dass sich Lösungen strukturell unterscheiden, z.B. anhand der zur Verfügung gestellten Dienste.
+In vielen Fällen gibt es nicht nur eine richtige Lösung, sondern mehrere Lösungsmöglichkeiten, die gegeneinander abgewogen werden müssen. Dem Nutzer werden dazu die Unterschiede zwischen den Lösungen aufgezeigt. Diese können rein zahlenmäßig sein, wie entstehende Kosten oder die Länge des Stillstands. Es ist jedoch auch möglich, dass sich Lösungen strukturell unterscheiden, z.B. anhand der zur Verfügung gestellten Dienste.
 
-\subsubsection*{Entscheiden}
-Gibt es mehrere Lösungen, dann muss sich der Nutzer bei einem erfolgreichen Problemlöseprozess für eine entscheiden. \todo{formulieren}
-
-\subsection{Anpassungen}
-welche Elemente beeinflussen sich gegenseitig?
-
-Wie wählt das Assistenzsystem Lösungen aus?
-
+\subsection{Anpassungen an den Problembereich}
 Da sich sowohl Probleme, als auch Lösungen von Fall zu Fall unterscheiden, müssen dementsprechend Anpassungen vorgenommen werden. In Abschnitt \ref{3:Anpassung-Aufgabe} ist bereits erwähnt, dass sich die Informationen an das Problem und die Ziele anpassen sollten. Im Zuge dessen sind vor allem die gegenseitigen Abhängigkeiten relevant, auf die im weiteren Verlauf näher eingegangen wird. Damit sich das Assistenzsystem anpassen kann muss identifiziert werden, wo das Problem entstanden ist. Es lassen sich folgende Fälle unterscheiden:
 \begin{itemize}
 \item \textbf{Modul:} Das gesamte Modul hat ein Problem verursacht.
@@ -73,13 +64,15 @@ Da sich sowohl Probleme, als auch Lösungen von Fall zu Fall unterscheiden, müs
 Ein einzelnes Modul ist sehr eigenständig, da es grundsätzlich auch alleine betrieben werden kann. In der Navigation der PFE ist ersichtlich mit welchen anderen Modulen es verbunden ist. Um eine Problemlösung auf Modulebene zu unterstützen ist es notwendig die zugehörigen Services und den Bereich im Rezept zu markieren. Dadurch kann der Nutzer die Abhängigkeiten erkennen. 
 
 \subsubsection*{Services}
-Die Services weisen eine Vielzahl an Abhängigkeiten auf. So kann ein Service direkt mit anderen Services gekoppelt sein (vgl. Abschnitt x) oder durch Parameter eines anderen Services gestartet werden. Diese Kopplung ist auch modulübergreifend möglich. Löst nun ein Service ein Problem aus, werden die abhängigen Services markiert. Dies erleichtert dem Nutzer die Eingrenzung des Problembereichs. Bei der Suche nach Ursachen, warum der Service nicht funktioniert muss es dem Nutzer möglich sein alle Möglichkeiten in Erwägung zu ziehen. So steht dem Nutzer die Möglichkeit zur Verfügung das zugehörige Equipment zum Service anzusehen.
+Die Services weisen eine Vielzahl an Abhängigkeiten auf. So kann ein Service direkt mit anderen Services gekoppelt sein (vgl. Abschnitt x) oder durch Parameter eines anderen Services gestartet werden. Diese Kopplung ist auch modulübergreifend möglich. Löst nun ein Service ein Problem aus, werden die abhängigen Services markiert. Dies erleichtert dem Nutzer die Eingrenzung des Problembereichs. Bei der Suche nach Lösungen, muss es dem Nutzer möglich sein alle Optionen in Erwägung zu ziehen. Dabei steht dem Nutzer die Information über das zugehörige Equipment der Services zur Verfügung.
 
 \subsubsection*{Rezept}
-Wird das Rezept automatisch ausgeführt besteht die Möglichkeit, dass dieses aufgrund eines Fehlers nicht vollständig ausgeführt werden kann. In so einem Fall wird dem Nutzer angezeigt an welcher Stelle das Rezept abgebrochen wurde und welcher Service zugehörig ist. Ausgehend von der Position im Rezept können die notwendigen Bedingungen überprüft und mögliche Ursachen in Erwägung gezogen werden. Ist die Ursache identifiziert können mit Hilfe des Assistenzsystems Lösungen gefunden werden. So ist es dem Nutzer möglich Veränderung an der entsprechenden Stelle im Rezept vorzunehmen. Diese können dann vom Assistenzsysteme virtuell geprüft werden. Auf diese Weise entsteht eine kollaborative Problemlösung.
+Wird das Rezept automatisch ausgeführt besteht die Möglichkeit, dass dieses aufgrund eines Fehlers nicht vollständig ausgeführt werden kann. In so einem Fall wird dem Nutzer angezeigt an welcher Stelle das Rezept abgebrochen wurde und welche Services zugehörig sind. Ausgehend von der Position im Rezept können die notwendigen Bedingungen überprüft und mögliche Ursachen in Erwägung gezogen werden. Ist die Ursache identifiziert können mit Hilfe des Assistenzsystems Lösungen gefunden werden. So ist es dem Nutzer möglich Veränderung an der entsprechenden Stelle im Rezept vorzunehmen. Diese können dann vom Assistenzsysteme virtuell geprüft werden. Auf diese Weise entsteht eine kollaborative Problemlösung.
 
 \subsubsection*{KPI}
 Die Key Performace Indicator beinhalten Kennzahlen \todo{ausformulieren}
+
+\subsection{Finden von Lösungen}
 
 
 \section{Physikalisches Design}
@@ -89,3 +82,8 @@ Das physikalische Design beschreibt die konkrete Darstellung der Funktionen und 
 
 
 \subsection{Markierung des Bereichs}
+
+\section{Anwendung auf den Use Case}
+Was bedeuten nun die oben beschriebenen Überlegungen für den Use Case? Der aktuelle Status teilt dem Nutzer über die Meldung mit, dass das Modul Temper gewartet werden muss. 
+
+Diese Problem wird nun durch den Nutzer bearbeitet. Dazu stellt ihm das System die Möglichkeit zur Verfügung Ziele zu definieren. Das erste Ziel (Wartung in 7 Tagen) ist bereits durch das System vorgegeben. Da es dem Nutzer möglich ist selber Ziele hinzuzufügen nutzt er diese Möglichkeit. Er fügt das Ziel: Maximale Stillstandszeit 3 Stunden hinzu und beauftragt das Assistenzsystem nach Lösungen zu suchen. Das Assistenzsystem präsentiert anschließend die gefundenen Lösungen. 
