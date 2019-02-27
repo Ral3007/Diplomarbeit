@@ -8,7 +8,7 @@ Während des Problemlöseprozess nimmt das Systeme verschiedene Zustände an (si
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.65]{DA_files/Bilder/Prototyp/Zustandsdiagramm-Assistenzsystem.pdf}
+\includegraphics[scale=0.65]{DA_files/UML/Prototyp/Zustandsdiagramm-Assistenzsystem.pdf}
 \label{pic:Zustandsdiagramm-Assistenzsystem}
 \caption{Zustandsdiagramm Assistenzsystem - Prototyp}
 \end{figure}
@@ -17,42 +17,61 @@ Während des Problemlöseprozess nimmt das Systeme verschiedene Zustände an (si
 Da das Assistenzsystem in die bestehende Prozessführungsebene eingegliedert wird, müssen die grundlegenden Funktionalitäten dieser zunächst im Prototyp nachgebaut werden. Die grafischen Elemente liegen bereits in geeigneter Form vor und werden nur noch korrekt verknüpft. Dies umfasst zum einen die Elemente innerhalb der Bereiche (vlg. Abschnitt x), als auch die Verknüpfungen zwischen den Bereichen.
 
 \subsection{Navigation}
-In der Navigation kann die Ansicht zwischen dem Shopfloor und der ausgewählten Subplant  gewechselt werden (siehe Abbildung \ref{pic:Zustandsdiagramm-Navigation}). Da die Veränderung des Zustand in der Navigation auch die Ansicht des Rezepts verändert werden entsprechende Signale an das Rezept gesendet.
+In der Navigation kann die Ansicht zwischen dem Shopfloor und der ausgewählten Subplant  gewechselt werden (siehe Abbildung \ref{pic:Zustandsdiagramm-Navigation}). Da die Veränderung des Zustand in der Navigation auch die Ansicht des Rezepts verändert, werden entsprechende Signale an das Rezept gesendet.
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.6]{DA_files/Bilder/Prototyp/Zustandsdiagramm-Navigation.pdf}
+\includegraphics[scale=0.65]{DA_files/UML/Prototyp/Zustandsdiagramm-Navigation.pdf}
 \label{pic:Zustandsdiagramm-Navigation}
 \caption{Zustandsdiagramm Navigation - Prototyp}
 \end{figure}
 
-Zeigt die Navigation die Subplant an, kann der Nutzer durch klicken ein Modul anwählen. Diese Auswahl hat Einfluss auf die Rezeptansicht und den Service Launcher. Die entsprechenden Aktionen des Systems sind in Abbildung x dargestellt.
+Zeigt die Navigation die Subplant an, kann der Nutzer durch klicken ein Modul anwählen. Diese Auswahl hat Einfluss auf die Rezeptansicht und den Service Launcher. Die entsprechenden Aktionen des Systems sind in Abbildung \ref{pic:Aktivitaetsdiagramm-Navigation-Subplant} dargestellt.
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.6]{DA_files/Bilder/Prototyp/Aktivitaetsdiagramm-Navigation-Module.pdf}
+\includegraphics[scale=0.6]{DA_files/UML/Prototyp/Aktivitaetsdiagramm-Navigation-Module.pdf}
 \label{pic:Aktivitaetsdiagramm-Navigation-Subplant}
 \caption{Aktivitätsdiagramm Navigation Subplant - Prototyp}
 \end{figure}
 
 \subsection{Rezept}
-Das Rezept zeigt entweder die Modes, die Procedures oder die Steps an. Wie zwischen diesen Ansicht gewechselt werden kann stellt Abbildung x dar.
+Das Rezept zeigt entweder die Modes, die Procedures oder die Steps an. Wie zwischen diesen Ansicht gewechselt wird stellt Abbildung x dar.
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.6]{DA_files/Bilder/Prototyp/Zustandsdiagramm-Rezept.pdf}
+\includegraphics[scale=0.6]{DA_files/UML/Prototyp/Zustandsdiagramm-Rezept.pdf}
 \label{pic:Zustandsdiagramm-Rezept}
+\caption{Zustandsdiagramm Rezept - Prototyp}
 \end{figure}
 
+\todo{Procedures, Steps}
+
+
 \subsection{Service Launcher}
-Der Service Launcher zeigt abhängig von der gewählten Sortierung und dem ausgewählten Modul in der Navigation die Services an.
+Der Service Launcher zeigt abhängig von der gewählten Sortierung und dem ausgewählten Modul in der Navigation die Services an. Der Nutzer hat zudem die Möglichkeit durch klicken auf den Service weitere Informationen zu bekommen. Das Verhalten des Systems wird durch Abbildung \ref{pic:Aktivitaetsdiagramm-ServiceLauncher} beschrieben.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.65]{DA_files/UML/Prototyp/Aktivitaetsdiagramm-ServiceLauchner.pdf}
+\label{pic:Aktivitaetsdiagramm-ServiceLauncher}
+\caption{Aktivitätsdiagramm Service Launcher - Prototyp}
+\end{figure}
 
 \section{Problembeschreibung}
 Im Konzept sind bereits sind bereits die Funktionalitäten für die Problembeschreibung erläutert. Im Rahmen des Prototypen sind diese konkret umgesetzt. Der Nutzer hat die Möglichkeit ein weiteres Ziel nicht nur hinzuzufügen, sondern auch wieder zu löschen. Zudem ist das Ziel Stillstandzeit editierbar. Die Veränderung der Ziele hat einen Einfluss auf die Lösungen, welche in Abschnitt \ref{5:Loesungen} näher spezifiziert sind. Keinen Einfluss hat die Veränderung im Dropdown-Menü. Möchte der Nutzer sich die Lösungen ansehen bringt ihn der Button Lösungen finden dort hin. Wie das Assistenzssystem auf die Interaktionen des Nutzers reagiert ist in Abbildung \ref{pic:Aktivitaetsdiagramm-Problem} dargestellt.
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[angle=90,scale=0.5]{DA_files/Bilder/Prototyp/Aktivitaetsdiagramm-Problem.pdf}
+\includegraphics[angle=90,scale=0.5]{DA_files/UML/Prototyp/Aktivitaetsdiagramm-Problem.pdf}
 \label{pic:Aktivitaetsdiagramm-Problem}
 \caption{Aktivitätsdiagramm Zustand Problem - Prototyp}
 \end{figure}
 
 \section{Lösungen}
 \label{5:Loesungen}
+Die präsentierten Lösungen durch das Assistenzsystem orientieren sich an den eingegebenen Zielen des Nutzers. Der Nutzer hat die Möglichkeit durch anwählen einer Lösung sich die Veränderung in der Navigation, dem Rezept und dem Service Launcher anzusehen. Wie das Assistenzsystem auf die Auswahl des Nutzer reagiert ist in Abbildung \ref{pic:Aktivitaetsdiagramm-Loesungen} dargestellt. Die Interaktionsmöglichkeiten der Prozessführungsebene verändern sich dabei nicht.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.6]{DA_files/UML/Prototyp/Aktivitaetsdiagramm-Loesungen.pdf}
+\label{pic:Aktivitaetsdiagramm-Loesungen}
+\caption{Aktivitätsdiagramm Lösungen - Prototyp}
+\end{figure}
