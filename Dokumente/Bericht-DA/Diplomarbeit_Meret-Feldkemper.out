@@ -43,19 +43,22 @@
 \BOOKMARK [2][-]{subsection.4.1.1}{Funktionen}{section.4.1}% 43
 \BOOKMARK [2][-]{subsection.4.1.2}{Anpassungen an den Problembereich}{section.4.1}% 44
 \BOOKMARK [2][-]{subsection.4.1.3}{Finden von L\366sungen}{section.4.1}% 45
-\BOOKMARK [1][-]{section.4.2}{Physikalisches Design}{chapter.4}% 46
-\BOOKMARK [2][-]{subsection.4.2.1}{Problem beschreiben}{section.4.2}% 47
-\BOOKMARK [2][-]{subsection.4.2.2}{Markierung des Bereichs}{section.4.2}% 48
-\BOOKMARK [1][-]{section.4.3}{Anwendung auf den Use Case}{chapter.4}% 49
-\BOOKMARK [0][-]{chapter.5}{Prototyp}{}% 50
-\BOOKMARK [1][-]{section.5.1}{Prozessf\374hrungsebene}{chapter.5}% 51
-\BOOKMARK [2][-]{subsection.5.1.1}{Navigation}{section.5.1}% 52
-\BOOKMARK [2][-]{subsection.5.1.2}{Rezept}{section.5.1}% 53
-\BOOKMARK [2][-]{subsection.5.1.3}{Service Launcher}{section.5.1}% 54
-\BOOKMARK [1][-]{section.5.2}{Problembeschreibung}{chapter.5}% 55
-\BOOKMARK [1][-]{section.5.3}{L\366sungen}{chapter.5}% 56
-\BOOKMARK [0][-]{chapter.6}{Verifikation}{}% 57
-\BOOKMARK [0][-]{chapter.7}{Zusammenfassung}{}% 58
-\BOOKMARK [0][-]{chapter.8}{Ausblick}{}% 59
-\BOOKMARK [0][-]{Anhang.a.A}{Anhang Anhang}{}% 60
-\BOOKMARK [0][-]{chapter*.76}{Literaturverzeichnis}{}% 61
+\BOOKMARK [2][-]{subsection.4.1.4}{Kollaboration zwischen Nutzer und Assistenz}{section.4.1}% 46
+\BOOKMARK [1][-]{section.4.2}{Physikalisches Design}{chapter.4}% 47
+\BOOKMARK [2][-]{subsection.4.2.1}{Prozessf\374hrungsebene}{section.4.2}% 48
+\BOOKMARK [2][-]{subsection.4.2.2}{Problem beschreiben}{section.4.2}% 49
+\BOOKMARK [2][-]{subsection.4.2.3}{Markierung des Problembereichs}{section.4.2}% 50
+\BOOKMARK [2][-]{subsection.4.2.4}{L\366sungen}{section.4.2}% 51
+\BOOKMARK [1][-]{section.4.3}{Anwendung auf den Use Case}{chapter.4}% 52
+\BOOKMARK [0][-]{chapter.5}{Prototyp}{}% 53
+\BOOKMARK [1][-]{section.5.1}{Prozessf\374hrungsebene}{chapter.5}% 54
+\BOOKMARK [2][-]{subsection.5.1.1}{Navigation}{section.5.1}% 55
+\BOOKMARK [2][-]{subsection.5.1.2}{Rezept}{section.5.1}% 56
+\BOOKMARK [2][-]{subsection.5.1.3}{Service Launcher}{section.5.1}% 57
+\BOOKMARK [1][-]{section.5.2}{Problembeschreibung}{chapter.5}% 58
+\BOOKMARK [1][-]{section.5.3}{L\366sungen}{chapter.5}% 59
+\BOOKMARK [0][-]{chapter.6}{Verifikation}{}% 60
+\BOOKMARK [0][-]{chapter.7}{Zusammenfassung}{}% 61
+\BOOKMARK [0][-]{chapter.8}{Ausblick}{}% 62
+\BOOKMARK [0][-]{Anhang.a.A}{Anhang Anhang}{}% 63
+\BOOKMARK [0][-]{chapter*.81}{Literaturverzeichnis}{}% 64
