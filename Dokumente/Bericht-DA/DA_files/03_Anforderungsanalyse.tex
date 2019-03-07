@@ -59,7 +59,7 @@ Für einen eindeutigen Austausch von Informationen sind Schnittstellen definiert
 \subsubsection*{Services}
 Wie bereits in Abschnitt \ref{2:Modulare-Anlagen} beschrieben, werden Module durch Dienste gesteuert. Jeder Dienst kann 16 verschiedene Zustände annehmen und teilt den aktuellen Zustand der PFE mit. Die PFE kann die Zustandsübergänge Reset, Pause, Resume, Unhold, Stop, Abort und Restart anfordern. Bei kontinuierlichen Fahrweisen können zusätzlich Start und Complete angefordert werden. Des Weiteren wird der Zustandsübergang State Change (SC) durch den vorgelagerten Zustand ausgelöst. \todo{Bild einfügen} Die aktuell verfügbaren Zustandswechsel meldet das Modul zurück.
 
-Dienste haben verschiedene Betriebsarten. Sie werden in Offline, Manual, Automatic External und Automatic Internal eingeteilt. Zudem gehört zu jedem Dienst eine Liste mit dem verwendetem Anlagenequipment. Diese Information könnte für eine Eingrenzung des Problembereichs verwendet werden.
+Dienste haben verschiedene Betriebsarten. Sie werden in Offline, Manual, Automatic External und Automatic Internal eingeteilt. Zudem gehört zu jedem Dienst eine Liste mit dem verwendetem Anlagenequipment \todo{Verweis}. Diese Information könnte für eine Eingrenzung des Problembereichs verwendet werden.
 %Wenn sich der Dienst nicht in Offline befindet, werden automatisch alle zum Dienst gehörigen Aktoren in Automatic überführt.
 %\begin{itemize}
 %\item \textbf{Offline:} Dienst ist nicht betriebsbereit und die Aktoren des Dienstes können in Manual überführt werden.
@@ -87,7 +87,7 @@ Neben den Problemen, die sich auf herkömmliche Anlage übertragen lassen, könn
 Das MTP stellt eine Reihe an Informationen zur Verfügung. Welche davon wie angezeigt werden ist Aufgabe der Prozessführungsebene. Für das P2O-Lab der TU Dresden wurde eine solche PFE entwickelt. Diese besteht aus vier Bereichen (siehe Bild \ref{pic:Bereiche-PFE}) \todo{Bild neben Text?}.
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.15]{DA_files/Bilder/Analyse/PFE-Bereiche.png}
+\includegraphics[scale=0.25]{DA_files/Bilder/Analyse/PFE-Bereiche.png}
 \label{pic:Bereiche-PFE}
 \caption{Die vier Bereiche der PFE}
 \end{figure}
@@ -95,21 +95,21 @@ Das MTP stellt eine Reihe an Informationen zur Verfügung. Welche davon wie ange
 \begin{itemize}
 \item \textbf{KPI:} Zeigt die KPI der einzelnen Module an.
 \item \textbf{Navigation:} Zeigt eine Übersicht über die modulare Anlage an. Durch klicken auf einzelne Module gelangt man zu mehr Details.
-\item \textbf{Rezept:} Zeigt das Rezept zur modularen Anlage an. Dieses ist aufgeteilt in Modes, Procedures und Steps (siehe Abschnitt \ref{2:Modulare-Anlagen}).
-\item \textbf{Service Launcher:} Zeigt die Dienste der Module an. Diese beinhaltet den aktuellen Zustand und mögliche Zustandsübergänge, die aktuelle Strategie \todo{Fahrweise?} und die aktuelle Betriebsart. Des Weiteren können noch die vorhandenen Fahrweisenparameter angezeigt und eingestellt werden.
+\item \textbf{Rezept:} Zeigt das Rezept zur modularen Anlage an. Dieses ist aufgeteilt in Phases, Procedures und Steps (siehe Abschnitt \ref{2:Modulare-Anlagen}).
+\item \textbf{Services / HMI:} Zeigt die Dienste der Module an. Diese beinhaltet den aktuellen Zustand und mögliche Zustandsübergänge, die aktuelle Strategie \todo{Fahrweise?} und die aktuelle Betriebsart. Des Weiteren können noch die vorhandenen Fahrweisenparameter angezeigt und eingestellt werden. Auf der letzten Ebene wird statt der Services das HMI des Moduls angezeigt.
 \end{itemize}
 Für eine besser Übersicht ist die PFE in vier Ebenen eingeteilt. Auf der obersten Ebene ist eine grobe Übersicht über die Anlage gegeben. Die unterste Ebene stellt die meisten Details dar. Tabelle \ref{tab:Ebenen-PFE} beschreibt, welche Informationen auf welcher Ebene dargestellt sind. Mittels der Navigation können die Ebenen gewechselt werden. \todo{Bilder der Ebenen in Anhang}
 \begin{table}[htbp]
 \centering
 \begin{tabular}{p{1,7cm}|p{2,3cm}|p{2,2cm}|p{2,2cm}|p{2,3cm}|}
- & \textbf{Navigation} & \textbf{KPI} & \textbf{Rezept} & \textbf{Service Launcher} \\
+ & \textbf{Navigation} & \textbf{KPI} & \textbf{Rezept} & \textbf{Services / HMI} \\
 \hline
-\textbf{Ebene 1} & Shopfloor: Übersicht über alle vorhandenen Anlagen & & Modes für die angewählt Anlage & Alle Services der angewählten Anlage \\
+\textbf{Ebene 1} & Shopfloor: Übersicht über alle vorhandenen Anlagen & & Phases für die angewählt Anlage & Alle Services der angewählten Anlage \\
 \hline
 \textbf{Ebene 2} & Subplant: Anzeige aller Module und deren Verbindungen & & Procedures & Alle Services der Anlage \\
 \hline
 \textbf{Ebene 3} & Modul & KPIs für das angewählte Modul & Procedures: Markierung des angewählten Moduls & Services des Moduls \\
-\hline \textbf{Ebene 4} & Human Machine Interface des Moduls & & Procedures: Markierung des Moduls & Services des Moduls \\
+\hline \textbf{Ebene 4} & Modul & & Procedures: Markierung des Moduls & Anzeige des HMI des Moduls \\
 \hline
 \end{tabular}
 \label{tab:Ebenen-PFE}
@@ -118,7 +118,7 @@ Für eine besser Übersicht ist die PFE in vier Ebenen eingeteilt. Auf der obers
 
 
 \section{Informationsbedarf}
-Der Informationsbedarf orientiert sich maßgeblich an den Aufgaben und dem Nutzer. \todo{weiter ausführen}
+Der Informationsbedarf orientiert sich maßgeblich an den Aufgaben und dem Nutzer. Wieso ist das so wichtig? \todo{weiter ausführen}
 
 \subsection{Informationen nach Aufgabenbereich}
 Neben den Informationen, die ein Modul zur Verfügung stellt und die bei Behebung einer Störung behilflich sein können, gibt es eine Reihe von weiteren interessanten Aspekten. Weitet man den Problembereich von einer reinen Instandhaltung auf Bereiche wie die Wirtschaftlichkeit aus, so werden ganz andere Informationen benötigt. Welche Funktionen auf welcher Ebene in einem Unternehmen automatisiert werden können und somit auch sinnvoll durch ein Assistenzsystem unterstützbar sind ist in \cite{Lauber1999} beschrieben. Hier ist auch der zeitliche Aspekt mit aufgeführt. Eine entsprechende Übersicht findet sich in Tabelle \ref{tab:Ebenen-Unternehmen}.
@@ -178,7 +178,7 @@ In dieser Arbeiten werden nur einige wenige Einflussfaktoren berücksichtigt. Ni
 Die Individualisierung von Software bietet die Möglichkeit eine Vielzahl von Nutzer und Aufgaben zu unterstützen. Individualisierung dient der Modifizierung von Interaktion und Informationsdarstellung, um unter anderem den Fähigkeiten und Bedürfnissen jedes Benutzers gerecht zu werden. Ebenso ist auch die Anpassung an das zu lösende Problem nicht zu unterschätzen. Je nach Zielstellung müssen andere Informationen hervor gehoben werden.
 
 \subsection{Individualisierung für den Menschen}
-Individualisierung für den Nutzer kann vielschichtig sein. In Abschnitt x sind bereits einige Aspekte für Individualisierung thematisiert. Zu Berücksichtigen sind bei Sicht auf den Nutzer unter anderem:
+Individualisierung für den Nutzer kann vielschichtig sein. In Abschnitt \ref{2:Individualisierung} sind bereits einige Aspekte für Individualisierung thematisiert. Zu Berücksichtigen sind bei Sicht auf den Nutzer unter anderem:
 \begin{itemize}
 \item \textbf{Fähigkeiten:} Welche besonderen Fähigkeiten hat der Nutzer? Wie können diese in Kollaboration mit der Assistenz sinnvoll genutzt werden?
 \item \textbf{Vorwissen:} Was weiß der Nutzer über die modulare Anlage?

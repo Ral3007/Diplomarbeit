@@ -38,7 +38,7 @@ Das Konzept der Modularisierung findet vor allem in der verfahrenstechnischen In
 
 In der Namur-Empfehlung NE 148 \cite{NAMURArbeitskreis1.122013} ist beschrieben, welche Daten an das übergeordnete Automatisierungssystem übertragen werden und welche dem Modullieferanten zur Wartungsunterstützung zur Verfügung stehen. Die Daten für das übergeordnete Automatisierungssystemen umfassen unter anderem die Verriegelungs-, Steuerungs- und Regelungsstruktur, die Prozess- und Sollwerte sowie den Status des Moduls / der Services. Für die Wartungsunterstüzungen werden nur hersteller- und modulspezifische und keine prozessspezifischen Daten übertragen.
 
-Die Funktionalitäten der Module sind in Services gekapselt und werden zustandsbasiert gesteuert. Im Gegensatz zu herkömmlichen Anlagen kann im automatisierten Betrieb nicht mehr auf die einzelnen Aktoren zugegriffen werden. Jeder Service kann 16 verschiedene Zustände mit entsprechenden Zustandsübergängen annehmen (siehe Bild x) \todo{Bild einfügen}.
+Die Funktionalitäten der Module sind in Services gekapselt und werden zustandsbasiert gesteuert. Im Gegensatz zu herkömmlichen Anlagen kann im automatisierten Betrieb nicht mehr auf die einzelnen Aktoren zugegriffen werden. Jeder Service kann 16 verschiedene Zustände mit entsprechenden Zustandsübergängen annehmen (mehr dazu in Abschnitt x).
 
 Die Services können nicht nur modulintern, sondern auch modulübergreifend Abhängigkeiten aufweisen. Die Abhängigkeiten werden in 4 Relationen eingeteilt.
 \begin{itemize}
@@ -126,7 +126,7 @@ Die \textbf{Art der Aufgabenstellung} zeigt beispielsweise unterschiedliche Erge
 
 \textbf{Gruppen} erzielen beim komplexen Problemlösen im Gegensatz zu Einzelpersonen bessere Ergebnisse. Zudem werden Gruppenentschiedungen meist besser akzeptiert. Den größten Einfluss auf die Gruppenleitung hat das individuelle Vorwissen.
 
-Die hohe \textbf{Transparenz} eines Systems kann zu besseren Leistungen führen. Es ist jedoch nicht eindeutig in welchem Maße die Transparenz einen Einfluss hat, da es gegensätzliche Untersuchungen dazu gibt.
+Die hohe \textbf{Transparenz} eines Systems kann zu besseren Leistungen führen. Es ist jedoch nicht eindeutig in welchem Maße die Transparenz einen Einfluss hat, da es gegensätzliche Untersuchungen dazu gibt. \todo{Quelle}
 
 Es wird davon ausgegangen, dass die \textbf{Art der Informationsdarbietung} einen Einfluss auf die Informationsverarbeitung hat.
 
@@ -155,7 +155,7 @@ Abschließend erfolgt in Phase fünf die \textbf{Ergebnisbewertung}. Dabei wird 
 \label{2-Störungsdiagnose}
 Bei der Störungsdiagnose ist im Störfall eine effiziente Problemlösung gefragt. Das Wissen und Handeln des Individuums steht dabei im Kontext technischer Systeme. Es werden die beiden Wissensarten Strukturwissen und Kontroll- und Steuerungswissen unterschieden. \cite{Funke2015}
 
-Das Strukturwissen bezieht sich auf die Schnittstellenebene, dem Interface, und die Systemebene. Es beinhaltet Faktenwissen über die Funktionsweise und Organisation der Komponenten und deren möglichen Zustände. Es ist möglich, dass ein Operator umfassende Kenntnisse über das Interface hat, aber über keinerlei Systemwissen verfügt. Eine Steuerung des Systems ist mit reinem Strukturwissen nicht möglich. \cite{Funke2015, Kluwe1997}
+Das Strukturwissen bezieht sich auf die Schnittstellenebene, das Interface, und die Systemebene. Es beinhaltet Faktenwissen über die Funktionsweise und Organisation der Komponenten und deren möglichen Zustände. Es ist möglich, dass ein Operator umfassende Kenntnisse über das Interface hat, aber über keinerlei Systemwissen verfügt. Eine Steuerung des Systems ist mit reinem Strukturwissen nicht möglich. \cite{Funke2015, Kluwe1997}
 
 Das Kontroll- und Steuerungswissen bezieht sich auf Regeln, anhand derer die Zustände des Systems mit den Zielen des Operators durch Systemeingriffe verknüpft werden können \cite{Funke2015}. Kluwe \cite{Kluwe1997} teilt das Wissen in mehrere Ebenen. Auf der Ebene des Eingriffswissens führt der Operator verfügbare Prozeduren ohne weiteres Wissen über das System aus. Dies ähnelt einer black-box. Auf der Ebene des Kausalwissens verfügt der Operator zusätzlich über Kenntnisse des Ursache-Wirkungsgefüges. Welches Wissen wichtig ist hängt von den Aufgaben des Operators ab.
 
@@ -165,7 +165,7 @@ Beim Bearbeiten von komplexen Problemen muss anhand der Anforderungen zwischen d
 Kollaboration bietet die Chance verteilte Informationen für das Lösen von Problemen zu nutzen und unterscheidet sich von reiner Kooperation. Mit Kooperation ist eine Arbeitsteilung gemeint, bei der jede Person eine konkrete Aufgabe zugeteilt wird und die Ergebnisse zum Schluss zusammen getragen werden \cite{Jermann2004}. Kollaboration ist durch Symmetrie von Wissen, einem gemeinsamen Ziel und der Zusammenarbeit gekennzeichnet \cite{Rummel1958}. Dabei spielt insbesondere die Interaktion untereinander eine große Rolle, da diese den kollaborativen Lerneffekt fördert \cite{Jermann2004}.
 
 \section{Kommunikation}
-Kommunikation ist beim kollaborativen Problemlösen ein wichtiger Aspekt. Mittels Kommunikation kann das gemeinsame Verständnis des Problems hergestellt und aufrecht gehalten werden. Um Missverständnisse vorzubeugen ist es erforderlich klar und geeignete Fragen zu stellen. Das stellen von Fragen ist wichtig, um ungeteilte Informationen auszutauschen. Ebenso wichtig ist das richtige zuhören, da die meisten besser Informationen geben als aufnehmen können. Zudem sollten nur die Informationen weiter gegeben werden, die für die Situation notwendig sind. \cite{Rohner2016}
+Kommunikation ist beim kollaborativen Problemlösen ein wichtiger Aspekt. Mittels Kommunikation kann das gemeinsame Verständnis des Problems hergestellt und aufrecht gehalten werden. Um Missverständnisse vorzubeugen ist es erforderlich klar und geeignete Fragen zu stellen. Das stellen von Fragen ist wichtig, um ungeteilte Informationen auszutauschen. Ebenso wichtig ist das richtige Zuhören, da die meisten besser Informationen geben als aufnehmen können. Zudem sollten nur die Informationen weiter gegeben werden, die für die Situation notwendig sind. \cite{Rohner2016}
 
 Während Menschen direkt kommunizieren können, ist bei der Kommunikation mit einer digitalen Assistenz noch ein zusätzliches System notwendig. Welche Systeme dafür verwendbar sind ist in Abschnitt \ref{Assistenzsysteme} näher beschrieben. Bei Betrachtung des Aspekts wie kommuniziert wird, fällt auf, dass es vielfältige Möglichkeiten gibt. Häufig angewandt werden Dialogsysteme. Ein Dialog entsteht, wenn Mensch und Maschine in Kooperation eine Aufgabe lösen bei der mehrere Schritte notwendig sind. Dialoge in der Mensch-Maschine-Interaktion können folgende Formen haben \cite{Heinecke2012}:
 \begin{itemize}
@@ -195,7 +195,7 @@ Laut Duden bedeutet Assistenz Beistand oder Mithilfe \cite{DudenAssistenz}. Das 
 \subsection{Anforderungen an digitale Assistenzsysteme}
 Die Assistenz soll den Menschen ideal unterstützen. Dabei sind seine Fähigkeiten zu berücksichtigen und eine Überlastung ist zu vermeiden. Es müssen dabei unter anderem folgende Aspekte beachtet werden \cite{Ludwig}:
 \begin{itemize}
-\item \textbf{Interaktivität:} Dem Mensch muss die Möglichkeit zur Interaktion gegeben werden. Die Ziele und Aufgaben sollten formulierbar sein ohne Rücksicht auf das System nehmen zu nehmen.
+\item \textbf{Interaktivität:} Dem Mensch muss die Möglichkeit zur Interaktion gegeben werden. Die Ziele und Aufgaben sollten formulierbar sein ohne Rücksicht auf das System nehmen zu müssen.
 \item \textbf{Diagnose:} Das Assistenzsystem muss wissen, welche Effekte auftreten können, wenn der Nutzer fehlerhafte Eingaben tätigt.
 \item \textbf{Korrektur:} Wenn die Handlung des Nutzers von den Anweisungen abweicht, so muss das Assistenzsysteme diese Handlung trotzdem unterstützen können.
 \end{itemize}
@@ -306,7 +306,7 @@ Die richtige Informationsdarstellung ist wichtig, um den Problemlöseprozess nic
 \end{itemize}
 
 \subsection{User Experience}
-Im Zusammenhang mit einer guten Gestaltung werden die Erlebnisse, die der Nutzer bei der Verwendung von Technologien erfährt, immer wichtiger. Technologie ist nicht mehr als ein Tool, das verwendet wird um angenehme Zeit zu schaffen. Es kann vielmehr selbst eine Quelle für Vergnügen sein. \cite{Hassenzahl2008}
+Im Zusammenhang mit einer guten Gestaltung werden die Erlebnisse, die der Nutzer bei der Verwendung von Technologien erfährt, immer wichtiger. Technologie ist mehr als ein Tool, das verwendet wird um angenehme Zeit zu schaffen \todo{umformulieren!}. Es kann vielmehr selbst eine Quelle für Vergnügen sein. \cite{Hassenzahl2008}
 
 User Experience (UX) verschiebt die Aufmerksamkeit von Produkt und Material (bspw. Funktionen, Interaktionen, ...) zu den Menschen und den Gefühlen \cite{Hassenzahl2008}. Für Hassenzahl \citep[12]{Hassenzahl2008} ist UX \glqq a momentary, primarily evaluative feeling (good-bad) while interacting with a product or service.\grqq \ Der Titel \glqq Attention web designers: You have 50 milliseconds to make a good first impression!\grqq \ beschreibt die Relevanz eines guten UX-Designs sehr gut. 
 %Unterschiedliche konzeptuelle und methodische Ansätze führen zu verschiedenen Blickwinkeln, die stark voneinander profitieren.
@@ -319,6 +319,7 @@ Für das Design bedeutet das mehr konzeptionell zu denken, um bestimmte Gefühle
 
 
 \subsection{Individualisierung}
+\label{2:Individualisierung}
 Wenn unterschiedliche Benutzer(gruppen) ein System nutzen, dann ist eine Individualisierung in Betracht zu ziehen. Individualisierung bedeutet, dass sich das Verhalten des Systems und die Darstellung der Benutzerschnittstellen-Elemente entsprechend anpassen. Wann ist es nun sinnvoll zu individualisieren? In der ISO 9241-129 \cite{ISO9241-129} sind einige Aspekte aufgelistet:
 \begin{itemize}
 \item \textbf{Variation der Benutzermerkmale:} Fähigkeiten und Präferenzen der Nutzer sind verschieden.
