@@ -30,7 +30,7 @@
 \contentsline {subsection}{\numberline {3.2.1}Modulare Anlage}{25}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Prozessf\IeC {\"u}hrungsebene}{28}{subsection.3.2.2}
 \contentsline {section}{\numberline {3.3}Informationsbedarf}{29}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Informationen nach Aufgabenbereich}{30}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.1}Informationen nach Aufgabenbereich}{29}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Informationsbedarf des Menschen}{30}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}Informationsanpassung}{33}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Individualisierung f\IeC {\"u}r den Menschen}{33}{subsection.3.4.1}
@@ -63,4 +63,4 @@
 \contentsline {chapter}{\numberline {8}Ausblick}{58}{chapter.8}
 \contentsfinish 
 \contentsline {chapter}{Anhang \numberline {A}Anhang}{60}{Anhang.a.A}
-\contentsline {chapter}{Literaturverzeichnis}{61}{chapter*.84}
+\contentsline {chapter}{Literaturverzeichnis}{61}{chapter*.85}
