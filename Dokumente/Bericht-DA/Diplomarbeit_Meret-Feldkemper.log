@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.30)  8 MAR 2019 16:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.30)  18 MAR 2019 11:57
 entering extended mode
 **./Diplomarbeit_Meret-Feldkemper.tex
 (Diplomarbeit_Meret-Feldkemper.tex
@@ -2717,7 +2717,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-eur.cfg"
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-<TU_Logo_SW.pdf, id=262, 256.96pt x 75.28125pt>
+<TU_Logo_SW.pdf, id=258, 256.96pt x 75.28125pt>
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
 Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 144.
@@ -2726,12 +2726,12 @@ Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 144.
 
 pdfTeX warning: pdflatex (file ./PLT_Logo_SW.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<PLT_Logo_SW.pdf, id=263, 507.09451pt x 282.0939pt>
+<PLT_Logo_SW.pdf, id=259, 507.09451pt x 282.0939pt>
 File: PLT_Logo_SW.pdf Graphic file (type pdf)
 <use PLT_Logo_SW.pdf>
 Package pdftex.def Info: PLT_Logo_SW.pdf  used on input line 144.
 (pdftex.def)             Requested size: 85.5627pt x 47.60144pt.
-<IfA_Header.pdf, id=264, 350.60385pt x 12.99957pt>
+<IfA_Header.pdf, id=260, 350.60385pt x 12.99957pt>
 File: IfA_Header.pdf Graphic file (type pdf)
 <use IfA_Header.pdf>
 Package pdftex.def Info: IfA_Header.pdf  used on input line 144.
@@ -2751,7 +2751,7 @@ Package microtype Info: Character `029' is missing
 
 pdfTeX warning: pdflatex (file ./DA_files/00_Aufgabenstellung.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
-<DA_files/00_Aufgabenstellung.pdf, id=297, 597.50786pt x 845.01837pt>
+<DA_files/00_Aufgabenstellung.pdf, id=293, 597.50786pt x 845.01837pt>
 File: DA_files/00_Aufgabenstellung.pdf Graphic file (type pdf)
 <use DA_files/00_Aufgabenstellung.pdf>
 Package pdftex.def Info: DA_files/00_Aufgabenstellung.pdf  used on input line 1
@@ -2774,7 +2774,7 @@ on: found PDF version <1.6>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./DA_files/00_Aufgabenstellung.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
-<DA_files/00_Aufgabenstellung.pdf, id=300, page=1, 597.50786pt x 845.01837pt>
+<DA_files/00_Aufgabenstellung.pdf, id=296, page=1, 597.50786pt x 845.01837pt>
 File: DA_files/00_Aufgabenstellung.pdf Graphic file (type pdf)
 <use DA_files/00_Aufgabenstellung.pdf, page 1>
 Package pdftex.def Info: DA_files/00_Aufgabenstellung.pdf , page1 used on input
@@ -2920,9 +2920,8 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 59.
 Package tocbasic Info: Using my definition of `\numberline' on input line 60.
 Package tocbasic Info: Using my definition of `\numberline' on input line 61.
 Package tocbasic Info: Using my definition of `\numberline' on input line 62.
-Package tocbasic Info: Using my definition of `\numberline' on input line 63.
+Package tocbasic Info: Using my definition of `\numberline' on input line 64.
 Package tocbasic Info: Using my definition of `\numberline' on input line 65.
-Package tocbasic Info: Using my definition of `\numberline' on input line 66.
 )
 \tf@toc=\write8
 \openout8 = `Diplomarbeit_Meret-Feldkemper.toc'.
@@ -2939,13 +2938,16 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 11.
 Package tocbasic Info: Using my definition of `\numberline' on input line 12.
 Package tocbasic Info: Using my definition of `\numberline' on input line 13.
 Package tocbasic Info: Using my definition of `\numberline' on input line 14.
+Package tocbasic Info: Using my definition of `\numberline' on input line 15.
 Package tocbasic Info: Using my definition of `\numberline' on input line 16.
 Package tocbasic Info: Using my definition of `\numberline' on input line 17.
-Package tocbasic Info: Using my definition of `\numberline' on input line 18.
 Package tocbasic Info: Using my definition of `\numberline' on input line 19.
 Package tocbasic Info: Using my definition of `\numberline' on input line 20.
 Package tocbasic Info: Using my definition of `\numberline' on input line 21.
 Package tocbasic Info: Using my definition of `\numberline' on input line 22.
+Package tocbasic Info: Using my definition of `\numberline' on input line 23.
+Package tocbasic Info: Using my definition of `\numberline' on input line 24.
+Package tocbasic Info: Using my definition of `\numberline' on input line 25.
 )
 \tf@lof=\write9
 \openout9 = `Diplomarbeit_Meret-Feldkemper.lof'.
@@ -3336,7 +3338,7 @@ See the caption package documentation for explanation.
 LaTeX Warning: Reference `pic:Bereiche-PFE' on page 28 undefined on input line 
 87.
 
-<DA_files/Bilder/Analyse/PFE-Bereiche.png, id=734, 756.57657pt x 441.90094pt>
+<DA_files/Bilder/Analyse/PFE-Bereiche.png, id=735, 756.57657pt x 441.90094pt>
 File: DA_files/Bilder/Analyse/PFE-Bereiche.png Graphic file (type png)
 <use DA_files/Bilder/Analyse/PFE-Bereiche.png>
 Package pdftex.def Info: DA_files/Bilder/Analyse/PFE-Bereiche.png  used on inpu
@@ -3570,7 +3572,7 @@ Overfull \hbox (17.76898pt too wide) in paragraph at lines 161--161
 [][][][]\T1/lmr/m/n/12 (-20) überarbeiten  
  []
 
-<DA_files/Bilder/Analyse/Produktionsprozesse-Zielgroessen.pdf, id=779, 762.85pt
+<DA_files/Bilder/Analyse/Produktionsprozesse-Zielgroessen.pdf, id=780, 762.85pt
  x 652.4375pt>
 File: DA_files/Bilder/Analyse/Produktionsprozesse-Zielgroessen.pdf Graphic file
  (type pdf)
@@ -3621,7 +3623,7 @@ Overfull \hbox (10.09288pt too wide) in paragraph at lines 8--8
 [][][][]\T1/lmr/m/n/12 (-20) Einleitung?  
  []
 
-<DA_files/Bilder/Konzept/Nutzer-unterstuetzen.pdf, id=822, 854.14641pt x 359.44
+<DA_files/Bilder/Konzept/Nutzer-unterstuetzen.pdf, id=823, 854.14641pt x 359.44
 943pt>
 File: DA_files/Bilder/Konzept/Nutzer-unterstuetzen.pdf Graphic file (type pdf)
 <use DA_files/Bilder/Konzept/Nutzer-unterstuetzen.pdf>
@@ -3637,7 +3639,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--17
 
 
  <./DA_files/Bilder/Konzept/Nutzer-unterstuetzen.pdf>]
-<DA_files/Bilder/Konzept/Konzeptidee.pdf, id=863, 849.91925pt x 321.9749pt>
+<DA_files/Bilder/Konzept/Konzeptidee.pdf, id=864, 849.91925pt x 321.9749pt>
 File: DA_files/Bilder/Konzept/Konzeptidee.pdf Graphic file (type pdf)
 <use DA_files/Bilder/Konzept/Konzeptidee.pdf>
 Package pdftex.def Info: DA_files/Bilder/Konzept/Konzeptidee.pdf  used on input
@@ -3669,58 +3671,142 @@ Overfull \hbox (13.91779pt too wide) in paragraph at lines 37--37
  []
 
 [40] [41] [42]
-<DA_files/Bilder/Konzept/Skizze-PFE.png, id=919, 1202.99437pt x 697.8572pt>
+
+Package caption Warning: \label without proper reference on input line 86.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `pic:Kollaboration-Nutzer' on page 43 undefined on inp
+ut line 82.
+
+<Da_files/UML/Konzept/Aktivitaetsdiagramm-Nutzer.pdf, id=922, 451.6875pt x 1084
+.05pt>
+File: Da_files/UML/Konzept/Aktivitaetsdiagramm-Nutzer.pdf Graphic file (type pd
+f)
+<use Da_files/UML/Konzept/Aktivitaetsdiagramm-Nutzer.pdf>
+Package pdftex.def Info: Da_files/UML/Konzept/Aktivitaetsdiagramm-Nutzer.pdf  u
+sed on input line 85.
+(pdftex.def)             Requested size: 225.84319pt x 542.02368pt.
+
+LaTeX Warning: Float too large for page by 2.62367pt on input line 88.
+
+
+Package caption Warning: \label without proper reference on input line 96.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `pic:Kollaboration-Interaktionsplattform' on page 43 u
+ndefined on input line 91.
+
+<DA_files/UML/Konzept/Aktivitaetsdiagramm-Interaktionsplattform.pdf, id=924, 53
+0.98375pt x 1050.92625pt>
+File: DA_files/UML/Konzept/Aktivitaetsdiagramm-Interaktionsplattform.pdf Graphi
+c file (type pdf)
+<use DA_files/UML/Konzept/Aktivitaetsdiagramm-Interaktionsplattform.pdf>
+Package pdftex.def Info: DA_files/UML/Konzept/Aktivitaetsdiagramm-Interaktionsp
+lattform.pdf  used on input line 95.
+(pdftex.def)             Requested size: 265.49121pt x 525.46185pt.
+
+Package caption Warning: \label without proper reference on input line 105.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `pic:Kollaboration-Assistenzsystem' on page 43 undefin
+ed on input line 101.
+
+<DA_files/UML/Konzept/Aktivitaetsdiagramm-Assistenz.pdf, id=926, 398.48875pt x 
+335.2525pt>
+File: DA_files/UML/Konzept/Aktivitaetsdiagramm-Assistenz.pdf Graphic file (type
+ pdf)
+<use DA_files/UML/Konzept/Aktivitaetsdiagramm-Assistenz.pdf>
+Package pdftex.def Info: DA_files/UML/Konzept/Aktivitaetsdiagramm-Assistenz.pdf
+  used on input line 104.
+(pdftex.def)             Requested size: 199.24388pt x 167.62584pt.
+[43] [44 <./Da_files/UML/Konzept/Aktivitaetsdiagramm-Nutzer.pdf>] [45 <./DA_fil
+es/UML/Konzept/Aktivitaetsdiagramm-Interaktionsplattform.pdf>]
+
+Package caption Warning: \label without proper reference on input line 118.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `pic:pD-PFE' on page 46 undefined on input line 114.
+
+<DA_files/Bilder/Konzept/Skizze-PFE.png, id=947, 1202.99437pt x 697.8572pt>
 File: DA_files/Bilder/Konzept/Skizze-PFE.png Graphic file (type png)
 <use DA_files/Bilder/Konzept/Skizze-PFE.png>
 Package pdftex.def Info: DA_files/Bilder/Konzept/Skizze-PFE.png  used on input 
-line 93.
+line 117.
 (pdftex.def)             Requested size: 1202.99144pt x 697.85548pt.
 
+LaTeX Warning: Float too large for page by 26.00743pt on input line 120.
 
-LaTeX Warning: Float too large for page by 26.00743pt on input line 96.
 
-<DA_files/Bilder/Konzept/Skizze-Problem-1.png, id=920, 437.38406pt x 268.75406p
+Package caption Warning: \label without proper reference on input line 129.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `pic:pD-Problembeschreibung' on page 46 undefined on i
+nput line 123.
+
+
+Package caption Warning: \label without proper reference on input line 136.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `pic:pD-Problembeschreibung-Ziel-hinzufuegen' on page 
+46 undefined on input line 123.
+
+
+Package caption Warning: \label without proper reference on input line 143.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `pic:pD-Problembeschreibung-Ziel-loeschen' on page 46 
+undefined on input line 123.
+
+<DA_files/Bilder/Konzept/Skizze-Problem-1.png, id=951, 437.38406pt x 268.75406p
 t>
 File: DA_files/Bilder/Konzept/Skizze-Problem-1.png Graphic file (type png)
 <use DA_files/Bilder/Konzept/Skizze-Problem-1.png>
 Package pdftex.def Info: DA_files/Bilder/Konzept/Skizze-Problem-1.png  used on 
-input line 101.
+input line 128.
 (pdftex.def)             Requested size: 306.16675pt x 188.12656pt.
-<DA_files/Bilder/Konzept/Skizze-Problem-2.png, id=921, 438.8897pt x 109.91063pt
->
-File: DA_files/Bilder/Konzept/Skizze-Problem-2.png Graphic file (type png)
-<use DA_files/Bilder/Konzept/Skizze-Problem-2.png>
-Package pdftex.def Info: DA_files/Bilder/Konzept/Skizze-Problem-2.png  used on 
-input line 108.
-(pdftex.def)             Requested size: 307.22069pt x 76.93689pt.
-<DA_files/Bilder/Konzept/Skizze-Problem-3.png, id=922, 438.13687pt x 99.37125pt
+<DA_files/Bilder/Konzept/Skizze-Problem-3.png, id=952, 438.13687pt x 99.37125pt
 >
 File: DA_files/Bilder/Konzept/Skizze-Problem-3.png Graphic file (type png)
 <use DA_files/Bilder/Konzept/Skizze-Problem-3.png>
 Package pdftex.def Info: DA_files/Bilder/Konzept/Skizze-Problem-3.png  used on 
-input line 115.
+input line 135.
 (pdftex.def)             Requested size: 306.69371pt x 69.55939pt.
-<DA_files/Bilder/Konzept/Skizze-Loesungen-PFE.png, id=923, 1202.99437pt x 697.8
-572pt>
+<DA_files/Bilder/Konzept/Skizze-Problem-2.png, id=953, 438.8897pt x 109.91063pt
+>
+File: DA_files/Bilder/Konzept/Skizze-Problem-2.png Graphic file (type png)
+<use DA_files/Bilder/Konzept/Skizze-Problem-2.png>
+Package pdftex.def Info: DA_files/Bilder/Konzept/Skizze-Problem-2.png  used on 
+input line 142.
+(pdftex.def)             Requested size: 307.22069pt x 76.93689pt.
+<DA_files/Bilder/Konzept/Skizze-Loesungen-PFE.png, id=954, 1202.99437pt x 698.6
+1pt>
 File: DA_files/Bilder/Konzept/Skizze-Loesungen-PFE.png Graphic file (type png)
 <use DA_files/Bilder/Konzept/Skizze-Loesungen-PFE.png>
 Package pdftex.def Info: DA_files/Bilder/Konzept/Skizze-Loesungen-PFE.png  used
- on input line 126.
-(pdftex.def)             Requested size: 1202.99144pt x 697.85548pt.
+ on input line 152.
+(pdftex.def)             Requested size: 1202.99144pt x 698.60829pt.
 
-LaTeX Warning: Float too large for page by 2.40744pt on input line 127.
+LaTeX Warning: Float too large for page by 2.40744pt on input line 153.
 
-[43] [44 <./DA_files/Bilder/Konzept/Skizze-PFE.png>] [45 <./DA_files/Bilder/Kon
-zept/Skizze-Problem-1.png> <./DA_files/Bilder/Konzept/Skizze-Problem-2.png> <./
-DA_files/Bilder/Konzept/Skizze-Problem-3.png>] [46 <./DA_files/Bilder/Konzept/S
-kizze-Loesungen-PFE.png>]) (DA_files/05_Implementierung.tex [47]
+[46 <./DA_files/UML/Konzept/Aktivitaetsdiagramm-Assistenz.pdf>] [47 <./DA_files
+/Bilder/Konzept/Skizze-PFE.png>] [48 <./DA_files/Bilder/Konzept/Skizze-Problem-
+1.png> <./DA_files/Bilder/Konzept/Skizze-Problem-3.png> <./DA_files/Bilder/Konz
+ept/Skizze-Problem-2.png>] [49] [50 <./DA_files/Bilder/Konzept/Skizze-Loesungen
+-PFE.png>]) (DA_files/05_Implementierung.tex [51]
 chapter 5.
 
 Package caption Warning: \label without proper reference on input line 12.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `pic:Zustandsdiagramm-Assistenzsystem' on page 48 unde
+LaTeX Warning: Reference `pic:Zustandsdiagramm-Assistenzsystem' on page 52 unde
 fined on input line 7.
 
 
@@ -3728,7 +3814,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--8
 
  []
 
-<DA_files/UML/Prototyp/Zustandsdiagramm-Assistenzsystem.pdf, id=956, 491.8375pt
+<DA_files/UML/Prototyp/Zustandsdiagramm-Assistenzsystem.pdf, id=990, 491.8375pt
  x 642.4pt>
 File: DA_files/UML/Prototyp/Zustandsdiagramm-Assistenzsystem.pdf Graphic file (
 type pdf)
@@ -3736,20 +3822,20 @@ type pdf)
 Package pdftex.def Info: DA_files/UML/Prototyp/Zustandsdiagramm-Assistenzsystem
 .pdf  used on input line 11.
 (pdftex.def)             Requested size: 319.69058pt x 417.55505pt.
-[48
+[52
 
 
-] [49 <./DA_files/UML/Prototyp/Zustandsdiagramm-Assistenzsystem.pdf>]
+] [53 <./DA_files/UML/Prototyp/Zustandsdiagramm-Assistenzsystem.pdf>]
 
 Package caption Warning: \label without proper reference on input line 24.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `pic:Zustandsdiagramm-Navigation' on page 50 undefined
+LaTeX Warning: Reference `pic:Zustandsdiagramm-Navigation' on page 54 undefined
  on input line 20.
 
-<DA_files/UML/Prototyp/Zustandsdiagramm-Navigation.pdf, id=974, 574.145pt x 117
-.43875pt>
+<DA_files/UML/Prototyp/Zustandsdiagramm-Navigation.pdf, id=1010, 574.145pt x 11
+7.43875pt>
 File: DA_files/UML/Prototyp/Zustandsdiagramm-Navigation.pdf Graphic file (type 
 pdf)
 <use DA_files/UML/Prototyp/Zustandsdiagramm-Navigation.pdf>
@@ -3762,24 +3848,24 @@ See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `pic:Aktivitaetsdiagramm-Navigation-Subplant' on page 
-50 undefined on input line 28.
+54 undefined on input line 28.
 
-<DA_files/UML/Prototyp/Aktivitaetsdiagramm-Navigation-Module.pdf, id=976, 624.3
-325pt x 530.98375pt>
+<DA_files/UML/Prototyp/Aktivitaetsdiagramm-Navigation-Module.pdf, id=1012, 624.
+3325pt x 550.055pt>
 File: DA_files/UML/Prototyp/Aktivitaetsdiagramm-Navigation-Module.pdf Graphic f
 ile (type pdf)
 <use DA_files/UML/Prototyp/Aktivitaetsdiagramm-Navigation-Module.pdf>
 Package pdftex.def Info: DA_files/UML/Prototyp/Aktivitaetsdiagramm-Navigation-M
 odule.pdf  used on input line 31.
-(pdftex.def)             Requested size: 374.60239pt x 318.5927pt.
-<DA_files/UML/Prototyp/Zustandsdiagramm-Rezept.pdf, id=977, 343.2825pt x 286.06
-876pt>
+(pdftex.def)             Requested size: 374.60239pt x 330.03554pt.
+<DA_files/UML/Prototyp/Zustandsdiagramm-Rezept.pdf, id=1013, 532.99126pt x 252.
+945pt>
 File: DA_files/UML/Prototyp/Zustandsdiagramm-Rezept.pdf Graphic file (type pdf)
 
 <use DA_files/UML/Prototyp/Zustandsdiagramm-Rezept.pdf>
 Package pdftex.def Info: DA_files/UML/Prototyp/Zustandsdiagramm-Rezept.pdf  use
 d on input line 40.
-(pdftex.def)             Requested size: 205.97107pt x 171.64258pt.
+(pdftex.def)             Requested size: 319.79723pt x 151.76816pt.
 
 Overfull \hbox (10.91315pt too wide) in paragraph at lines 45--45
 [][][][]\T1/lmr/m/n/12 (-20) Procedures, 
@@ -3805,79 +3891,79 @@ Package caption Warning: \label without proper reference on input line 54.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `pic:Aktivitaetsdiagramm-ServiceLauncher' on page 50 u
+LaTeX Warning: Reference `pic:Aktivitaetsdiagramm-ServiceLauncher' on page 54 u
 ndefined on input line 49.
 
-<DA_files/UML/Prototyp/Aktivitaetsdiagramm-ServiceLauchner.pdf, id=979, 554.07p
-t x 807.015pt>
+<DA_files/UML/Prototyp/Aktivitaetsdiagramm-ServiceLauchner.pdf, id=1015, 567.11
+874pt x 820.06375pt>
 File: DA_files/UML/Prototyp/Aktivitaetsdiagramm-ServiceLauchner.pdf Graphic fil
 e (type pdf)
 <use DA_files/UML/Prototyp/Aktivitaetsdiagramm-ServiceLauchner.pdf>
 Package pdftex.def Info: DA_files/UML/Prototyp/Aktivitaetsdiagramm-ServiceLauch
 ner.pdf  used on input line 53.
-(pdftex.def)             Requested size: 360.14124pt x 524.55354pt.
-[50 <./DA_files/UML/Prototyp/Zustandsdiagramm-Navigation.pdf>] [51 <./DA_files/
+(pdftex.def)             Requested size: 368.62282pt x 533.03513pt.
+[54 <./DA_files/UML/Prototyp/Zustandsdiagramm-Navigation.pdf>] [55 <./DA_files/
 UML/Prototyp/Aktivitaetsdiagramm-Navigation-Module.pdf> <./DA_files/UML/Prototy
-p/Zustandsdiagramm-Rezept.pdf>] [52 <./DA_files/UML/Prototyp/Aktivitaetsdiagram
+p/Zustandsdiagramm-Rezept.pdf>] [56 <./DA_files/UML/Prototyp/Aktivitaetsdiagram
 m-ServiceLauchner.pdf>]
 
-Package caption Warning: \label without proper reference on input line 64.
+Package caption Warning: \label without proper reference on input line 65.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `pic:Aktivitaetsdiagramm-Problem' on page 53 undefined
- on input line 59.
+LaTeX Warning: Reference `pic:Aktivitaetsdiagramm-Problem' on page 57 undefined
+ on input line 60.
 
-<DA_files/UML/Prototyp/Aktivitaetsdiagramm-Problem.pdf, id=1006, 1121.18875pt x
+<DA_files/UML/Prototyp/Aktivitaetsdiagramm-Problem.pdf, id=1041, 1121.18875pt x
  717.68124pt>
 File: DA_files/UML/Prototyp/Aktivitaetsdiagramm-Problem.pdf Graphic file (type 
 pdf)
 <use DA_files/UML/Prototyp/Aktivitaetsdiagramm-Problem.pdf>
 Package pdftex.def Info: DA_files/UML/Prototyp/Aktivitaetsdiagramm-Problem.pdf 
- used on input line 63.
+ used on input line 64.
 (pdftex.def)             Requested size: 1121.18602pt x 717.67949pt.
 
-LaTeX Warning: Float too large for page by 21.193pt on input line 66.
+LaTeX Warning: Float too large for page by 21.193pt on input line 67.
 
-[53] [54 <./DA_files/UML/Prototyp/Aktivitaetsdiagramm-Problem.pdf>]
+[57] [58 <./DA_files/UML/Prototyp/Aktivitaetsdiagramm-Problem.pdf>]
 
-Package caption Warning: \label without proper reference on input line 75.
+Package caption Warning: \label without proper reference on input line 76.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `pic:Aktivitaetsdiagramm-Loesungen' on page 55 undefin
-ed on input line 70.
+LaTeX Warning: Reference `pic:Aktivitaetsdiagramm-Loesungen' on page 59 undefin
+ed on input line 71.
 
-<DA_files/UML/Prototyp/Aktivitaetsdiagramm-Loesungen.pdf, id=1023, 645.41125pt 
+<DA_files/UML/Prototyp/Aktivitaetsdiagramm-Loesungen.pdf, id=1059, 645.41125pt 
 x 613.29124pt>
 File: DA_files/UML/Prototyp/Aktivitaetsdiagramm-Loesungen.pdf Graphic file (typ
 e pdf)
 <use DA_files/UML/Prototyp/Aktivitaetsdiagramm-Loesungen.pdf>
 Package pdftex.def Info: DA_files/UML/Prototyp/Aktivitaetsdiagramm-Loesungen.pd
-f  used on input line 74.
+f  used on input line 75.
 (pdftex.def)             Requested size: 387.24974pt x 367.97757pt.
-) (DA_files/06_Verifikation.tex [55 <./DA_files/UML/Prototyp/Aktivitaetsdiagram
+) (DA_files/06_Verifikation.tex [59 <./DA_files/UML/Prototyp/Aktivitaetsdiagram
 m-Loesungen.pdf>]
 chapter 6.
-) (DA_files/07_Zusammenfassung.tex [56
+) (DA_files/07_Zusammenfassung.tex [60
 
 
 ]
 chapter 7.
-) (DA_files/08_Ausblick.tex [57
+) (DA_files/08_Ausblick.tex [61
 
 
 ]
 chapter 8.
-) [58
+) [62
 
 
-] [59
+] [63
 
 
 ] (DA_files/Anhang.tex
 chapter A.
-) [60
+) [64
 
 
 
@@ -3900,12 +3986,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-[61
+[65
 
 
 
 
-] [62] [63] [64]
+] [66] [67] [68]
 Overfull \hbox (1.18527pt too wide) in paragraph at lines 154--154
 []\T1/lmr/m/n/12 (-20) Detlef Zühl-ke. \T1/lmr/m/it/12 (-20) Nut-zer-ge-rech-te
  Ent-wick-lung von Mensch-Maschine-
@@ -3918,7 +4004,7 @@ nger-Verlag, 2012. \T1/lmr/m/sc/12 (-20) isbn\T1/lmr/m/n/12 (-20) : 97836422207
 39. 
  []
 
-[65] [66
+[69] [70
 
 
 
@@ -3931,7 +4017,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
 Package rerunfilecheck Info: File `Diplomarbeit_Meret-Feldkemper.out' has not c
 hanged.
-(rerunfilecheck)             Checksum: 98C2026660B7A9274F4C47BE7B2E58CD;4492.
+(rerunfilecheck)             Checksum: 0445AF31DC6C8A3A6DF98797CE7999A9;4407.
 
 
 LaTeX Warning: There were undefined references.
@@ -3942,10 +4028,10 @@ Package logreq Info: Writing requests to 'Diplomarbeit_Meret-Feldkemper.run.xml
 
  ) 
 Here is how much of TeX's memory you used:
- 48302 strings out of 493305
- 922912 string characters out of 3138839
+ 48348 strings out of 493305
+ 924607 string characters out of 3138839
  1471179 words of memory out of 3000000
- 50550 multiletter control sequences out of 15000+200000
+ 50583 multiletter control sequences out of 15000+200000
  641869 words of font info for 175 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  73i,18n,79p,9111b,2267s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3960,9 +4046,9 @@ m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9
 c/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Diplomarbeit_Meret-Feldkemper.pdf (75 pages, 2374052 bytes).
+Output written on Diplomarbeit_Meret-Feldkemper.pdf (79 pages, 2714459 bytes).
 PDF statistics:
- 1217 PDF objects out of 1440 (max. 8388607)
- 279 named destinations out of 1000 (max. 500000)
- 33920 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 1254 PDF objects out of 1440 (max. 8388607)
+ 287 named destinations out of 1000 (max. 500000)
+ 33927 words of extra memory for PDF output out of 35830 (max. 10000000)
 
