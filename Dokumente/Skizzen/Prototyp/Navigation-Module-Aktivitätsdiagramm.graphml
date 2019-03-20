@@ -316,7 +316,7 @@ entfernen<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -328,7 +328,7 @@ entfernen<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:
             <y:Point x="560.2731434442029" y="57.0"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:EdgeLabel alignment="left" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="134.728515625" x="64.47804565429692" xml:space="preserve" y="-19.150585937499983">[klicken auf Modul Dose]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
@@ -339,7 +339,7 @@ entfernen<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="15.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -349,7 +349,7 @@ entfernen<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:
         <y:PolyLineEdge>
           <y:Path sx="31.28" sy="2.6011608496466465" tx="0.0" ty="-15.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -361,7 +361,7 @@ entfernen<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:
             <y:Point x="112.2324761904762" y="57.0"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:EdgeLabel alignment="left" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="74.69921875" x="-138.23890181551866" xml:space="preserve" y="4.2933735795453885">[klicken auf
 Modul React]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
@@ -373,7 +373,7 @@ Modul React]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="
         <y:PolyLineEdge>
           <y:Path sx="23.22219490468143" sy="2.5880714479471862" tx="0.0" ty="-15.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -386,7 +386,7 @@ Modul React]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="
             <y:Point x="261.80047619047616" y="113.64254545454537"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:EdgeLabel alignment="left" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="84.6953125" x="4.717765298739323" xml:space="preserve" y="3.4064669022992575">[klicken auf
 Modul Temper]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
@@ -398,7 +398,7 @@ Modul Temper]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-15.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:EdgeLabel alignment="right" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="111.3671875" x="-113.46111880149124" xml:space="preserve" y="-9.135202046786219">[ModulDoseMarkiert
 == false]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
@@ -414,7 +414,7 @@ Modul Temper]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
             <y:Point x="289.96047619047613" y="408.7955618234341"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:EdgeLabel alignment="left" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="111.3671875" x="-111.27350893820994" xml:space="preserve" y="-31.778582784090844">[ModulDoseMarkiert
 == true]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
@@ -426,7 +426,7 @@ Modul Temper]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-15.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:EdgeLabel alignment="left" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="114.701171875" x="1.7125460544658608" xml:space="preserve" y="-5.9352020467861735">[ModulReactMarkiert
 == false]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
@@ -440,7 +440,7 @@ Modul Temper]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
             <y:Point x="234.4404761904762" y="162.0"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:EdgeLabel alignment="left" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="114.701171875" x="5.9050692478252245" xml:space="preserve" y="-36.578582784090884">[ModulReactMarkiert
 == true]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
@@ -452,7 +452,7 @@ Modul Temper]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="15.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -468,7 +468,7 @@ Modul Temper]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
             <y:Point x="190.84047619047618" y="17.459999999999965"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="none"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -480,7 +480,7 @@ Modul Temper]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
             <y:Point x="365.4484761904761" y="162.0"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:EdgeLabel alignment="left" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="124.697265625" x="7.308094843750268" xml:space="preserve" y="-33.669491875000006">[ModulTemperMarkiert
 == false]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
@@ -492,7 +492,7 @@ Modul Temper]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="14.990234375"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:EdgeLabel alignment="left" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="83.353515625" x="4.250257022372011" xml:space="preserve" y="0.7594704367897407">[ModulMarkiert
 == true]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
@@ -504,7 +504,7 @@ Modul Temper]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="13.572727213282917"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -520,7 +520,7 @@ Modul Temper]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
             <y:Point x="190.84047619047618" y="17.459999999999965"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="none"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -530,7 +530,7 @@ Modul Temper]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
         <y:PolyLineEdge>
           <y:Path sx="28.000000000000114" sy="2.585113636363644" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -546,7 +546,7 @@ Modul Temper]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
             <y:Point x="190.84047619047618" y="17.459999999999965"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="none"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -556,7 +556,7 @@ Modul Temper]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -570,7 +570,7 @@ Modul Temper]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
             <y:Point x="190.84047619047618" y="17.459999999999965"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="none"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -582,7 +582,7 @@ Modul Temper]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
             <y:Point x="233.26608000000007" y="17.39999999999999"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="180.75390625" x="58.30981320534477" xml:space="preserve" y="-52.177020284090894">[klicken auf Shopfloor im Header]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
@@ -593,7 +593,7 @@ Modul Temper]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -603,7 +603,7 @@ Modul Temper]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="2.2737367544323206E-13" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -613,7 +613,7 @@ Modul Temper]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -623,7 +623,7 @@ Modul Temper]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>

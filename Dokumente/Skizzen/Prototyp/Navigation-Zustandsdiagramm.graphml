@@ -13,7 +13,7 @@
   <key attr.name="description" attr.type="string" for="edge" id="d9"/>
   <key for="edge" id="d10" yfiles.type="edgegraphics"/>
   <graph edgedefault="directed" id="G">
-    <data key="d0"/>
+    <data key="d0" xml:space="preserve"/>
     <node id="n0">
       <data key="d6">
         <y:ShapeNode>
@@ -55,7 +55,6 @@
       </data>
     </node>
     <node id="n3">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
           <y:Geometry height="30.0" width="80.0" x="858.3740630673038" y="152.44136377212217"/>
@@ -67,7 +66,6 @@ Procedures<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
       </data>
     </node>
     <node id="n4">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
           <y:Geometry height="30.0" width="74.5" x="1122.8240630673038" y="152.44136377212217"/>
@@ -83,7 +81,7 @@ Modes<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:Mode
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="delta"/>
+          <y:Arrows source="none" target="plain"/>
           <y:StyleProperties>
             <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="CONNECTION_TYPE_SEQUENCE_FLOW"/>
           </y:StyleProperties>
@@ -91,12 +89,11 @@ Modes<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:Mode
       </data>
     </edge>
     <edge id="e1" source="n2" target="n3">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="60.6953125" x="2.9659161781528383" xml:space="preserve" y="-43.40489154802668">klicken auf
 Subplant<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
@@ -104,12 +101,11 @@ Subplant<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" a
       </data>
     </edge>
     <edge id="e2" source="n0" target="n4">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="60.6953125" x="8.486570475027747" xml:space="preserve" y="-50.75547748552668">klicken auf
 Shopfloor
 im Header<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
@@ -118,7 +114,6 @@ im Header<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" 
       </data>
     </edge>
     <edge id="e3" source="n4" target="n2">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -126,18 +121,17 @@ im Header<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" 
             <y:Point x="753.5240630673039" y="202.80136377212224"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
     <edge id="e4" source="n3" target="n0">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="plain"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>

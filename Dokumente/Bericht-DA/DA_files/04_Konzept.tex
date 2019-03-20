@@ -93,8 +93,8 @@ Die Interaktionsplattform stellt die Verbindung zwischen Nutzer und Assistenzsys
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.5]{DA_files/UML/Konzept/Aktivitaetsdiagramm-Interaktionsplattform.pdf}
-\label{pic:Kollaboration-Interaktionsplattform}
 \caption{Aktivitätsdiagramm: Kollaboration Interaktionsplattform}
+\label{pic:Kollaboration-Interaktionsplattform}
 \end{figure}
 
 \subsubsection*{Assistenzsystem}
@@ -102,8 +102,8 @@ Das Assistenzsystem verarbeitet alle zur Verfügung stehenden Informationen und 
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.5]{DA_files/UML/Konzept/Aktivitaetsdiagramm-Assistenz.pdf}
-\label{pic:Kollaboration-Assistenzsystem}
 \caption{Aktivitätsdiagramm: Kollaboration Assistenzsystem}
+\label{pic:Kollaboration-Assistenzsystem}
 \end{figure}
 
 \section{Physikalisches Design}
@@ -115,8 +115,8 @@ In der bereits existierenden Prozessführungsebene ist der aktuelle Status sicht
 \begin{figure}[htbp]
 \centering
 \includegraphics[angle=90, scale=0.47]{DA_files/Bilder/Konzept/Skizze-PFE.png}
-\label{pic:pD-PFE}
 \caption{Prozessführungsebene}
+\label{pic:pD-PFE}
 \end{figure}
 
 \subsection{Problem beschreiben}
@@ -126,30 +126,42 @@ Hat der Nutzer alles erfasst und die notwendigen Ziele definiert, so kann er üb
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.7]{DA_files/Bilder/Konzept/Skizze-Problem-1.png}
-\label{pic:pD-Problembeschreibung}
 \caption{Problembeschreibung}
+\label{pic:pD-Problembeschreibung}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.7]{DA_files/Bilder/Konzept/Skizze-Problem-3.png}
-\label{pic:pD-Problembeschreibung-Ziel-hinzufuegen}
+\includegraphics[scale=0.7]{DA_files/Bilder/Konzept/Skizze-Problem-Ziel.png}
 \caption{Problembeschreibung - Ziel hinzufügen}
+\label{pic:pD-Problembeschreibung-Ziel-hinzufuegen}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.7]{DA_files/Bilder/Konzept/Skizze-Problem-2.png}
-\label{pic:pD-Problembeschreibung-Ziel-loeschen}
+\includegraphics[scale=0.7]{DA_files/Bilder/Konzept/Skizze-Problem-loeschen.png}
 \caption{Problembeschreibung - Ziel löschen}
+\label{pic:pD-Problembeschreibung-Ziel-loeschen}
 \end{figure}
 
 \subsection{Lösungen}
 \label{4:pD-Loesungen}
-Die eigentliche Frage, in dem gesamten Problemlöseprozess, ist: \glqq Wie kann das Problem gelöst werden?\grqq Dafür stellt das Assistenzsystem mehrere Antworten bereit. Damit der Nutzer diese gut vergleichen kann, sind die verschiedenen Lösungsmöglichkeiten in einer Tabelle dargestellt. In der ganz linken Spalte findet der Nutzer alle Informationen wieder, die bereits in der Problembeschreibung angegeben wurden. Zudem können auch noch weitere Einflussfaktoren, wie Leihkosten und Hinweise durch das Assistenzsystem ergänzt werden, um die Entscheidungsfindung des Nutzers zu erleichtern. Möchte der Nutzer nicht nur Fakten sehen, so werden durch Auswahl einer Lösung auch die Bereiche in der PFE markiert. Beim Ersetzen von einem Modul durch zwei wird sichtbar, welche Bereiche im Rezept angepasst werden müssen.
+Die eigentliche Frage, in dem gesamten Problemlöseprozess, ist: \glqq Wie kann das Problem gelöst werden?\grqq  \ Dafür stellt das Assistenzsystem mehrere Antworten bereit. Damit der Nutzer diese gut vergleichen kann, sind die verschiedenen Lösungsmöglichkeiten in einer Tabelle dargestellt. In der ganz linken Spalte findet der Nutzer alle Informationen wieder, die bereits in der Problembeschreibung angegeben wurden. Zudem können auch noch weitere Einflussfaktoren, wie Leihkosten und Hinweise durch das Assistenzsystem ergänzt werden, um die Entscheidungsfindung des Nutzers zu erleichtern. Möchte der Nutzer nicht nur Fakten sehen, so werden durch Auswahl einer Lösung auch die Bereiche in der PFE markiert. Beim Ersetzen von einem Modul durch zwei wird sichtbar, welche Bereiche im Rezept angepasst werden müssen (siehe Abbildung \ref{pic:pD-Loesungen}). Hat der Nutzer eine Entscheidung getroffen kann er, nach Auswahl der Lösung, über den Button \textbf{Entscheiden} diese speichern und den Problemlöseprozess beenden.
 \begin{figure}[htbp]
 \centering
 \includegraphics[angle=90,scale=0.47]{DA_files/Bilder/Konzept/Skizze-Loesungen-PFE.png}
+\caption{Lösungen für das Problem}
+\label{pic:pD-Loesungen}
+\end{figure}
+
+\subsection{Entscheidung}
+ \todo{Beschreiben}
+ 
+ \begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.7]{DA_files/Bilder/Konzept/Skizze-Entscheidung.png}
+\caption{Entscheidung für eine Lösung des Problems}
+\label{pic:pD-Entscheidung}
 \end{figure}
 
 \section{Anwendung auf den Use Case}
