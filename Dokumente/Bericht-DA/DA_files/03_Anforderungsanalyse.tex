@@ -9,7 +9,7 @@ Das Konzept der modularen Anlagen eröffnet neue Möglichkeiten, bringt aber auc
 Welche Informationen für den Auswahlprozess benötigt werden, wird im folgenden analysiert. \todo{umschreiben}
 
 \section{Use Case}
-Der zuständige Mitarbeiter für die Produktionsplanung der modularen Anlage erhält vom Assistenzsystem die Meldung, dass das Modul Temper in spätestens 7 Tagen gewartet werden muss. Um eine geeignete Lösung für die Aufrechterhaltung der Produktion zu finden bestätigt der Mitarbeiter das Problem. Nun gibt das Assistenzsystem die Möglichkeit die Rahmenbedingungen für die Problemlösung festzulegen. In Absprache mit dem Hersteller des Temperiermoduls wird die Dauer der Wartung auf zwei Tage festgelegt. Damit das Assistenzsystem nach geeigneten Lösungen suchen kann definiert der Mitarbeiter die Ziele. Da die Produktion zur Zeit gut ausgelastet ist darf die Anlage maximal drei Stunden still stehen. Mit dieser Angabe sucht nun das Assistenzsystem nach Lösungen, die das definierte Ziel einhalten. Es findet folgende Möglichkeiten:
+Der zuständige Mitarbeiter für die Produktionsplanung der modularen Anlage erhält vom Assistenzsystem die Meldung, dass das Modul Temper in spätestens 7 Tagen gewartet werden muss. Um eine geeignete Lösung für die Aufrechterhaltung der Produktion zu finden bestätigt der Mitarbeiter das Problem. Nun gibt das Assistenzsystem die Möglichkeit die Rahmenbedingungen für die Problemlösung festzulegen. Der Hersteller des Temperiermoduls hat die Dauer der Wartung auf zwei Tage festgelegt. Damit das Assistenzsystem nach geeigneten Lösungen suchen kann definiert der Mitarbeiter die Ziele. Da die Produktion zur Zeit gut ausgelastet ist darf die Anlage maximal drei Stunden still stehen. Mit dieser Angabe sucht nun das Assistenzsystem nach Lösungen, die das definierte Ziel einhalten. Es findet folgende Möglichkeiten:
 \begin{itemize}
 \item \textbf{Modul leihen:} Der Hersteller des Moduls bietet die Möglichkeit für den Zeitraum der Wartung ein Modul mit den gleichen Spezifikationen zu leihen.
 \item \textbf{Modul durch zwei Module tauschen:} Um den geforderten Temperaturbereich der Produktion abzudecken können zwei Module eingesetzt werden.
@@ -22,15 +22,18 @@ Um dem Mitarbeiter eine entsprechende Entscheidungshilfe zu geben werden die Lö
 \begin{tabular}{p{0.16 \textwidth}|p{0.22 \textwidth}|p{0.22 \textwidth}|p{0.22 \textwidth}|}
 \textbf{Lösung} & Modul leihen & Modul durch 2 Module tauschen & Wartung aufschieben \\
 \hline
-\textbf{Produktions-stillstand} & 1 Stunde & 3 Stunden & 0 Stunden \\
+\textbf{Stillstand-zeit} & 1 Stunde & 3 Stunden & 0 Stunden \\
 \hline
-\textbf{} &  &  &  \\
+\textbf{Personal-aufwand	} & 2 Mitarbeiter & 3 Mitarbeiter & 0 Mitarbeiter \\
 \hline
+\textbf{Leihkosten} & 5.000€ & 0€ & 0€ \\
+\hline
+\textbf{Hinweis} & Lieferzeit des Moduls beträgt aktuell 5 Tage. & & Bei Verschiebung der Wartung verfällt die Garantie sofort! Garantie läuft noch 2 Jahre. \\
 \end{tabular}
 \caption{Use Case: Lösungsmöglichkeiten für das Problem}
 \label{tab:UseCase-Lösungen}
 \end{table}
-Diese Fakten werden visuell unterstützt. Im Fall des Modultauschs zeigt das Assistenzsystem ..
+Diese Fakten werden visuell unterstützt. Im Fall des Modultauschs zeigt das Assistenzsystem an, wo Änderungen im Rezept vorgenommen werden müssen und welche Services sich verändern.
 
 \section{Vorhandene Informationen}
 Die modulare Anlage stellt mittels des Module Type Package (MTP) eine Reihe an Informationen zur Verfügung, welche für den Problemlöseprozess verwendet werden können. Zur Visualisierung einiger der Informationen wird die Prozessführungsebene verwendet. In den folgenden Abschnitten sind die Menge und Art der vorhandenen Informationen detailliert beschrieben. 
@@ -78,13 +81,13 @@ Sollen Dienste näher spezifiziert werden, ist eine Verwendung von Parametern m�
 
 \subsubsection*{Probleme in modularen Anlagen}
 \label{Probleme-modulare-Anlage}
-Da die modularen Anlagen mit Diensten gesteuert werden, ändert sich auch die Art an Problemen, die entstehen und die vom Modulbetreiber behoben werden können. Durch die Dienste wird nur noch ein Problembereich angezeigt. Meldet ein Dienst zurück, dass er nicht erfolgreich durchgeführt werden kann, ist noch nicht eindeutig, wo das Problem liegt. Durch die Anzeige von dazugehörigem Equipment und möglichen Serviceabhängigkeiten kann der Problembereich eingegrenzt werden. Bei Betrieb der modularen Anlage im P2O-Lab der TU Dresden treten derzeit häufig Fehler auf, wenn entsprechende Zuläufe nicht geöffnet werden \todo{belegen}. So meldet aktuell das Reaktormodul nicht zurück, wenn vergessen wurde die Druckluft anzustellen. Dem Betreiber fällt nur auf, dass das Modul nicht so arbeitet, wie es soll. Wurde beim Temperiermodul vergessen den Zulauf für das Wasser zur Kühlung zu öffnen, so meldet sich dieses erst nach ca. zwei Minuten zurück, dass es zu warm wird.
+Da die modularen Anlagen mit Diensten gesteuert werden, ändert sich auch die Art an Problemen, die entstehen und die vom Modulbetreiber behoben werden können. Durch die Dienste wird nur noch ein Problembereich angezeigt. Meldet ein Dienst zurück, dass er nicht erfolgreich durchgeführt werden kann, ist noch nicht eindeutig, wo das Problem liegt. Durch die Anzeige von dazugehörigem Equipment und möglichen Serviceabhängigkeiten kann der Problembereich eingegrenzt werden. Bei Betrieb der modularen Anlage im P2O-Lab der TU Dresden treten laut dem Geschäftsführer derzeit häufig Fehler auf, wenn entsprechende Zuläufe nicht geöffnet werden. So meldet aktuell das Reaktormodul nicht zurück, wenn vergessen wurde die Druckluft anzustellen. Dem Betreiber fällt nur auf, dass das Modul nicht so arbeitet, wie es soll. Wurde beim Temperiermodul vergessen den Zulauf für das Wasser zur Kühlung zu öffnen, so meldet sich dieses erst nach ca. zwei Minuten zurück, dass es zu warm wird.
 
 Neben den Problemen, die sich auf herkömmliche Anlage übertragen lassen, können im Zuge der Flexibilität ganz Neue entstehen. Die Option nicht nur Parameter anzupassen sondern auch Module auszutauschen, eröffnet neue Möglichkeiten und stellt den Modulbetreiber vor neue Herausforderungen. Müller und Urbas \cite{} \todo{Zitat} haben diesen Gedanken bereits angestoßen. Aus diesem Grund ist es interessant zu begutachten, welche weiteren Faktoren bei einem Modulaustausch relevant werden können.
 
 \subsection{Prozessführungsebene}
 \label{3:PFE}
-Das MTP stellt eine Reihe an Informationen zur Verfügung. Welche davon wie angezeigt werden ist Aufgabe der Prozessführungsebene. Für das P2O-Lab der TU Dresden wurde eine solche PFE entwickelt. Diese besteht aus vier Bereichen (siehe Bild \ref{pic:Bereiche-PFE}) \todo{Bild neben Text?}.
+Das MTP stellt eine Reihe an Informationen zur Verfügung. Welche davon wie angezeigt werden ist Aufgabe der Prozessführungsebene. Für das P2O-Lab der TU Dresden wurde eine solche PFE entwickelt \todo{Zitat}. Diese besteht aus vier Bereichen (siehe Bild \ref{pic:Bereiche-PFE}) \todo{Bild neben Text?}.
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.25]{DA_files/Bilder/Analyse/PFE-Bereiche.png}
@@ -195,6 +198,7 @@ Angenommen der Nutzer hat viel Zeit sich mit dem Problem zu beschäftigen, so m�
 Ein ebenfalls wichtiger Aspekt, der schon in Abschnitt \ref{3:Informationsbedarf-Operator} thematisiert wurde, ist die Zielsetzung des Unternehmens. Diese kann sehr unterschiedlich sein, was sich maßgeblich auf die Informationsbereitstellung auswirkt. Ist beispielsweise die Stillstandzeit der Anlage besonders relevant, so sollten diese Informationen hervor gehoben werden. In einem anderen Kontext kann aufgrund von Personalmangel der Rüstaufwand eine höhere Priorität bekommen.
 
 \section{Interaktionsmechaniken}
+\todo{weiter ausführen, Vor- und Nachteile}
 Im Kontext dieser Arbeit wird das Problemlösen betrachtet. Problemlösen heißt in diesem Fall aus mehreren Alternativen die geeignetste für das Erreichen des festgelegten Ziels auszuwählen. In Abschnitt \ref{2:Assistenzsysteme} sind verschiedene Interaktionsmechaniken beschrieben. Um diese geeignet bewerten zu können ist zunächst eine Begutachtung des Arbeitsumfelds und der Aufgaben notwendig.
 
 Da sich das Problemlösen im Rahmen dieser Arbeit nicht auf das Beheben von Störungen bezieht, kann angenommen werden, dass die Hände nicht für andere Aufgaben frei sein müssen. Zudem ist eine geeignete Darstellung von Zusammenhängen notwendig, welches eine entsprechende Displaygröße voraussetzt. Diese Zusammenhänge müssen durch den Menschen entsprechend interpretiert werden, damit dieser mit dem System interagieren kann. Es muss dazu die Möglichkeit gegeben sein selbst Vorschläge für die Lösung des Problems zu liefern. Das setzt vielfältige Eingabemöglichkeiten voraus. \todo{spezifizieren!}

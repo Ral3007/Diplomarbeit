@@ -1,5 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Stand der Technik}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}Prozessindustrie}{2}{section.2.1}
@@ -29,40 +30,39 @@
 \contentsline {section}{\numberline {3.2}Vorhandene Informationen}{25}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Modulare Anlage}{25}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Prozessf\IeC {\"u}hrungsebene}{28}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Informationsbedarf}{29}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Informationen nach Aufgabenbereich}{29}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Informationsbedarf des Menschen}{30}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.3}Informationsbedarf}{30}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Informationen nach Aufgabenbereich}{30}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Informationsbedarf des Menschen}{31}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}Informationsanpassung}{33}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Individualisierung f\IeC {\"u}r den Menschen}{33}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.1}Individualisierung f\IeC {\"u}r den Menschen}{34}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Anpassung an die Aufgabe}{34}{subsection.3.4.2}
 \contentsline {section}{\numberline {3.5}Interaktionsmechaniken}{35}{section.3.5}
-\contentsline {section}{\numberline {3.6}Anforderungen an das Assistenzsystem}{35}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Funktionale Anforderungen}{35}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}Nichtfunktionale Anforderungen}{36}{subsection.3.6.2}
-\contentsline {chapter}{\numberline {4}Konzept}{37}{chapter.4}
-\contentsline {section}{\numberline {4.1}Konzeptuelles Design}{37}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Funktionen}{39}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Anpassungen an den Problembereich}{40}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Finden von L\IeC {\"o}sungen}{42}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Kollaboration zwischen Nutzer und Assistenz}{42}{subsection.4.1.4}
-\contentsline {section}{\numberline {4.2}Physikalisches Design}{45}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Prozessf\IeC {\"u}hrungsebene}{45}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Problem beschreiben}{45}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}L\IeC {\"o}sungen}{48}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Entscheidung}{48}{subsection.4.2.4}
-\contentsline {section}{\numberline {4.3}Anwendung auf den Use Case}{50}{section.4.3}
-\contentsline {chapter}{\numberline {5}Prototyp}{51}{chapter.5}
-\contentsline {section}{\numberline {5.1}Prozessf\IeC {\"u}hrungsebene}{53}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Navigation}{53}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Rezept}{53}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Service Launcher}{53}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Problembeschreibung}{57}{section.5.2}
-\contentsline {section}{\numberline {5.3}L\IeC {\"o}sungen}{59}{section.5.3}
-\contentsline {chapter}{\numberline {6}Verifikation}{61}{chapter.6}
-\contentsline {section}{\numberline {6.1}Anforderungen}{61}{section.6.1}
-\contentsline {section}{\numberline {6.2}Nutzerbefragung}{61}{section.6.2}
-\contentsline {chapter}{\numberline {7}Zusammenfassung}{62}{chapter.7}
-\contentsline {chapter}{\numberline {8}Ausblick}{63}{chapter.8}
+\contentsline {section}{\numberline {3.6}Anforderungen an das Assistenzsystem}{36}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Funktionale Anforderungen}{36}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Nichtfunktionale Anforderungen}{37}{subsection.3.6.2}
+\contentsline {chapter}{\numberline {4}Konzept}{38}{chapter.4}
+\contentsline {section}{\numberline {4.1}Konzeptuelles Design}{38}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Funktionen}{40}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Anpassungen an den Problembereich}{41}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Finden von L\IeC {\"o}sungen}{43}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Kollaboration zwischen Nutzer und Assistenz}{43}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Physikalisches Design}{46}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Prozessf\IeC {\"u}hrungsebene}{46}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Problem beschreiben}{46}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}L\IeC {\"o}sungen}{49}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Entscheidung}{49}{subsection.4.2.4}
+\contentsline {chapter}{\numberline {5}Prototyp}{52}{chapter.5}
+\contentsline {section}{\numberline {5.1}Prozessf\IeC {\"u}hrungsebene}{54}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Navigation}{54}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Rezept}{54}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Service Launcher}{56}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Problembeschreibung}{58}{section.5.2}
+\contentsline {section}{\numberline {5.3}L\IeC {\"o}sungen}{60}{section.5.3}
+\contentsline {chapter}{\numberline {6}Verifikation}{62}{chapter.6}
+\contentsline {section}{\numberline {6.1}Anforderungen}{62}{section.6.1}
+\contentsline {section}{\numberline {6.2}Nutzerbefragung}{62}{section.6.2}
+\contentsline {chapter}{\numberline {7}Zusammenfassung}{63}{chapter.7}
+\contentsline {chapter}{\numberline {8}Ausblick}{64}{chapter.8}
 \contentsfinish 
-\contentsline {chapter}{Anhang \numberline {A}Anhang}{65}{Anhang.a.A}
-\contentsline {chapter}{Literaturverzeichnis}{66}{chapter*.93}
+\contentsline {chapter}{Anhang \numberline {A}Anhang}{66}{Anhang.a.A}
+\contentsline {chapter}{Literaturverzeichnis}{67}{chapter*.91}
