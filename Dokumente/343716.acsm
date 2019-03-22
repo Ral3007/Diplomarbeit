@@ -1,0 +1,37 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:9cb786e8-586a-4950-8901-fff8d2ee6025</distributor>
+  <operatorURL>http://acs.ebookcentral.proquest.com/fulfillment</operatorURL>
+  <transaction>343716_153722773</transaction>
+  <expiration>2019-04-05T00:32:17-07:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:00000000-0000-0000-0000-000000343716</resource>
+    <resourceItem>0</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Handbook of Usability Testing</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rubin, Jeffrey; Chisnell, Dana; Spool, Jared</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">John Wiley &amp; Sons, Incorporated</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">343716</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:00000000-0000-0000-0000-000000343716</resource>
+      <permissions>
+        <display>
+          <duration>431999</duration>
+        </display>
+        <excerpt>
+          <duration>431999</duration>
+          <count initial="20" max="20" incrementInterval="21599"/>
+        </excerpt>
+        <print>
+          <duration>431999</duration>
+          <count initial="78" max="78" incrementInterval="5538"/>
+        </print>
+        <play>
+          <duration>431999</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>UclnOYbH6GFzMNtl7wbqJSAgKYI=</hmac>
+</fulfillmentToken>
