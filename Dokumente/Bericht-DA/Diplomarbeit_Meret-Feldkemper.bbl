@@ -363,8 +363,8 @@
     \list{publisher}{1}{%
       {Kohlhammer}%
     }
-    \strng{namehash}{FJ1}
-    \strng{fullhash}{FJ1}
+    \strng{namehash}{FJ2}
+    \strng{fullhash}{FJ2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelalpha}{Fun03}
@@ -377,6 +377,31 @@
       {Stuttgart}%
     }
     \field{year}{2003}
+  \endentry
+
+  \entry{Funke2018}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=FJ}{%
+         family={Funke},
+         familyi={F\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FJ1}
+    \strng{fullhash}{FJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Fun18}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{{Durchg{\"{a}}nge Lebenszyklusunterst{\"{u}}tzung von Process
+  Equipment Assemblies in modularen Anlagen}}
+    \list{institution}{1}{%
+      {TU Dresden}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2018}
   \endentry
 
   \entry{Gajos2008}{article}{}
@@ -844,6 +869,15 @@
       {Berlin Heidelberg}%
     }
     \field{year}{2015}
+  \endentry
+
+  \entry{MaterialDesign}{misc}{}
+    \field{labelalpha}{Mat}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{url}
+    \verb https://material.io/
+    \endverb
   \endentry
 
   \entry{Meixner2011}{article}{}

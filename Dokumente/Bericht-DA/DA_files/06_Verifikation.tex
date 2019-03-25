@@ -1,30 +1,124 @@
-\chapter{Verifikation}
-\label{Verifikation}
+\chapter{Validierung}
+\label{Validierung}
 
-Ziel der Diplomarbeit ist eine nutzerfreundliche Oberfläche zur Problemlösung in modularen Anlangen. Dieses Kapitel beantwortet, wie gut die Umsetzung geglückt ist.
+Ziel der Diplomarbeit ist eine nutzerfreundliche Oberfläche zur Problemlösung in modularen Anlangen. Dieses Kapitel beantwortet, wie gut die Umsetzung geglückt ist. Dazu werden zunächst die Anforderungen an das Assistenzsystem ausgewertet. 
 
-\section{Validierung}
-\subsection*{Vergleich mit Anforderung}
+\section{Vergleich mit Anforderungen}
+In Abschnitt x wurden Anforderungen an das Assistenzsystem gestellt. In wie weit diese erfüllt wurden stellt Tabelle x dar. Ein + bedeutet voll erfüllt, ein o bedeutet teilweise erfüllt und ein - bedeutet nicht erfüllt.
+
+\subsection{Unterstützung der Problemidentifikation}
+
 \begin{table}[htbp]
 \centering
-\begin{tabular}{l|l|l|l}
-Anforderung & Erfüllt & Teilweise erfüllt & Nicht erfüllt \\
+\begin{tabular}{l|c|c|c|c|c|c}
+\textbf{Anforderung} & PI 1.1 & PI 1.2 & PI 1.3 & PI 2 & PI 3 & PI 4 \\
 \hline
-PI 1.1 & & x & \\
-\hline
-PI 1.1 & x & & \\
-\hline
-
+\textbf{Erfüllt} & o & + & o & + & + & + \\
 \end{tabular}
 \end{table}
+
+\subsubsection*{PI 1.1 Problembeschreibung}
+Testeingabe. Werte ändern
+
+\subsubsection*{PI 1.2 Zieldefinition}
+Parameter ändern
+Der Nutzer kann Ziele hinzufügen und spezifizieren
+
+\subsubsection*{PI 1.3 Informationen}
+Was heißt alle Informationen? Was umfasst die aktuelle Situation?
+
+ Dem Nutzer werden eine ganze Reihe an Informationen zur Verfügung gestellt, jedoch nicht alle.
+
+\subsubsection*{PI 2 Unterstützung bei Problemidentifikation}
+Meldungen
+Das Assistenzsystem unterstützt den Nutzer mit Meldungen.
+
+\subsubsection*{PI 3 Ziele hinzufügen}
+muss ich hier wirklich noch eine Begründung schreiben?
+
+\subsubsection*{PI 4 Problembereich}
+Markierung durch grauen Schleier.
+Durch Markierung wird dem Nutzer der Problembereich angezeigt.
+
+\subsection{Unterstützung bei der Problemlösung}
+\begin{table}[htbp]
+\centering
+\begin{tabular}{l|c|c|c|c|c}
+\textbf{Anforderung} & PL 1 & PL 2 & PL 3.1 & PL 3.2 & PL 4 \\
+\hline
+\textbf{Erfüllt} & + & o & o & o & - \\
+\end{tabular}
+\end{table}
+
+\subsubsection*{PL 1 Assistenz schlägt Lösungen vor}
+Das Assistenzsystem schlägt mögliche Lösungen vor.
+
+\subsubsection*{PL 2 Nutzer schlägt Lösungen vor}
+Integration PEA-Manager -> Module auswählen
+Die grundlegende Möglichkeit für das Vorschlagen von Lösungen existiert. Wie diese im Detail aussieht ist nicht spezifiziert.
+
+\subsubsection*{PL 3.1 Auswirkung auf Anlage / Prozess}
+Auswirkung auf Anlage sichtbar. Unklar, wie sich der Prozess entwickelt -> virtuelle Analyse
+
+\subsubsection*{PL 3.2 Einflussfaktoren}
+Welche Einflussfaktoren sind nicht sichtbar? Zusammenhänge der Services, da nicht hinterlegt
+
+\subsubsection*{PL 4 Lösungen bewerten}
+
+\subsection{Klustern von Problemen}
+\begin{table}[htbp]
+\centering
+\begin{tabular}{l|c|c|c}
+\textbf{Anforderung} & KP 1 & KP 2 & KP 3\\
+\hline
+\textbf{Erfüllt} & + & - & o\\
+\end{tabular}
+\end{table}
+
+\subsubsection*{KP 1 Mehrere Probleme bearbeiten}
+
+\subsubsection*{KP 2 Probleme sortieren}
+
+\subsubsection*{KP 3 Merkmale der Probleme}
+
+\section{Vergleich mit anderen Anforderungen}
 
 \subsection*{Eingliederung in Automatisierungsgrad}
 Eingliederung in Automatisierung
 
-\subsection*{Anforderungen an Assistenz}
+\subsection*{Aufgaben von digitaler Assistenz}
 Anforderungen an digitale Assistenz -> wie kann ich das messen?
 
+In Abschnitt x sind eine ganze Reihe an Aufgaben aufgeführt, die digitale Assistenz übernehmen kann. Tabelle x stellt dar, welche Aufgaben im Rahmen des Konzepts übernommen werden und wie sich dies im Protoyp äußert.
+
+\begin{table}
+\centering
+\begin{tabular}{p{0.2 \textwidth}|c|p{0.56 \textwidth}}
+\textbf{Aufgabe} & \textbf{Erfüllt} & \textbf{Erläuterung} \\
+\hline
+Warnung & - & \\
+\hline
+Signale & + & Es wird dem Nutzer angezeigt, welche Änderungen sich ergeben\\
+\hline
+Orientierung & + & Der Nutzer kann Ziele hinzufügen und entfernen \\
+\hline
+Kennzeichnung & o & Die Symbole werden mittels Hover-Funktionen erklärt.\\
+\hline
+Erklärung & - & Die Auswahl der Lösungen wird nicht erklärt.\\
+\hline
+Bereitstellung & & \\
+\hline
+Filter & + & Das Assistenzsystem zeigt nur relevante Daten zur Entscheidungsfindung an \\
+\hline
+Berater & + & Das Assistenzsystem liefert mehrere Vorschläge \\
+\hline
+Delegieren & - & \\
+\end{tabular}
+\end{table}
+
 Einsatz digitaler Assistenz -> Eingliedern, was kann die Assistenz alles?
+
+
 
 \subsection*{Ergonomisch gute Gestaltung}
 Ergonomisch gute Gestaltung
@@ -37,18 +131,24 @@ Ebene der Veränderung - Individualisierung
 
 
 \subsection{Testmöglichkeiten}
-Unterscheidung individuelle vs generalisierte Fragebögen
+Möchte man die Benutzerfreundlichkeit eines Systems testen, stehen einem eine Reihe an Möglichkeiten zur Verfügung.
+
 Andere Möglichkeiten des Testens: Beoabachten, etc...
-Auswahl des Fragebogens -> was ist möglich?
+
+\glqq Der vielleicht offensichtlichste Weg etwas über die Nutzerfreundlichkeit von etwas zu erfahren ist, den Nutzer zu fragen, ob er etwas über seine Erfahrung erzählt\grqq(Measuring the User Experience S. 123). Dazu können verschiedene Fragen mit verschiedenen Skalen oder offene Fragen gestellt werden. Offene Fragen sind schwieriger zu analysieren, als Tests mit Skalen. Da die Tests mit Skalen am Effizientesten sind werden diese hier verwendet. Unterscheiden lassen sich individuelle und generalisierte Fragebögen.
+
+Unterscheidung individuelle vs generalisierte Fragebögen, Vor- und Nachteile
 
 \subsubsection*{System Usability Scale}
-Der SUS (System Usability Scale) Fragebogen ist ein standardisierter Fragebogen zur Bewertung der System Usability. Er besteht aus zehn Fragen und fünf Stufen zwischen Stimme Gar nicht zu und Stimme voll zu. Für jede Frage werden abhängig von der Antwort zwischen 0 (Stimme gar nicht zu) und 4 (Stimme voll zu) Punkte verteilt und anschließend summiert. 
+Der SUS (System Usability Scale) Fragebogen ist ein standardisierter Fragebogen zur Bewertung der Nutzerfreundlichkeit eines Systems. Er besteht aus zehn Fragen und fünf Stufen zwischen Stimme Gar nicht zu und Stimme voll zu. Für jede Frage werden abhängig von der Antwort zwischen 0 (Stimme gar nicht zu) und 4 (Stimme voll zu) Punkte verteilt und anschließend summiert. Anschließend wird die Summe mit 2,5 multipliziert. Die Summe befindet sich auf einer Skala von 0 bis 100. Bei 100 ist die Nutzerfreundlichkeit voll erfüllt.
 
 \subsubsection*{User Experience Questionnaire}
 
 \subsubsection*{Computer System Usability Questionnaire}
+Die Fragen des CSUQ (Computer System Usability Questionaire) lassen sich auf einer Skala von 1 (gar keine Zustimmung) bis 7 (totale Zustimmung) beantworten. Er ist länger als der SUS Fragebogen, aber immer noch leicht zu beantworten.
 
 \subsection{Der Fragebogen}
+Auswahl des Fragebogens -> was ist möglich?
 
 \subsection{Auswertung des Fragebogens}
 Auswertung der Antworten

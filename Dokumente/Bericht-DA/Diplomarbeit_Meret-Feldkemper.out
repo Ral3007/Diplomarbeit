@@ -49,22 +49,27 @@
 \BOOKMARK [2][-]{subsection.4.2.2}{Problem beschreiben}{section.4.2}% 49
 \BOOKMARK [2][-]{subsection.4.2.3}{L\366sungen}{section.4.2}% 50
 \BOOKMARK [2][-]{subsection.4.2.4}{Entscheidung}{section.4.2}% 51
-\BOOKMARK [0][-]{chapter.5}{Prototyp}{}% 52
-\BOOKMARK [1][-]{section.5.1}{Prozessf\374hrungsebene}{chapter.5}% 53
-\BOOKMARK [2][-]{subsection.5.1.1}{Navigation}{section.5.1}% 54
-\BOOKMARK [2][-]{subsection.5.1.2}{Rezept}{section.5.1}% 55
-\BOOKMARK [2][-]{subsection.5.1.3}{Service Launcher}{section.5.1}% 56
-\BOOKMARK [1][-]{section.5.2}{Problembeschreibung}{chapter.5}% 57
-\BOOKMARK [1][-]{section.5.3}{L\366sungen}{chapter.5}% 58
-\BOOKMARK [0][-]{chapter.6}{Verifikation}{}% 59
-\BOOKMARK [1][-]{section.6.1}{Validierung}{chapter.6}% 60
-\BOOKMARK [1][-]{section.6.2}{Nutzerbefragung}{chapter.6}% 61
-\BOOKMARK [2][-]{subsection.6.2.1}{Testm\366glichkeiten}{section.6.2}% 62
-\BOOKMARK [2][-]{subsection.6.2.2}{Der Fragebogen}{section.6.2}% 63
-\BOOKMARK [2][-]{subsection.6.2.3}{Auswertung des Fragebogens}{section.6.2}% 64
-\BOOKMARK [1][-]{section.6.3}{Weiterer Use Case}{chapter.6}% 65
-\BOOKMARK [1][-]{section.6.4}{Ausblick}{chapter.6}% 66
-\BOOKMARK [0][-]{chapter.7}{Zusammenfassung}{}% 67
-\BOOKMARK [0][-]{chapter.8}{Ausblick}{}% 68
-\BOOKMARK [0][-]{Anhang.a.A}{Anhang Anhang}{}% 69
-\BOOKMARK [0][-]{chapter*.94}{Literaturverzeichnis}{}% 70
+\BOOKMARK [2][-]{subsection.4.2.5}{Mehrere Probleme bearbeiten}{section.4.2}% 52
+\BOOKMARK [0][-]{chapter.5}{Prototyp}{}% 53
+\BOOKMARK [1][-]{section.5.1}{Prozessf\374hrungsebene}{chapter.5}% 54
+\BOOKMARK [2][-]{subsection.5.1.1}{Navigation}{section.5.1}% 55
+\BOOKMARK [2][-]{subsection.5.1.2}{Rezept}{section.5.1}% 56
+\BOOKMARK [2][-]{subsection.5.1.3}{Service Launcher}{section.5.1}% 57
+\BOOKMARK [1][-]{section.5.2}{Problembeschreibung}{chapter.5}% 58
+\BOOKMARK [1][-]{section.5.3}{L\366sungen}{chapter.5}% 59
+\BOOKMARK [0][-]{chapter.6}{Validierung}{}% 60
+\BOOKMARK [1][-]{section.6.1}{Vergleich mit Anforderungen}{chapter.6}% 61
+\BOOKMARK [2][-]{subsection.6.1.1}{Unterst\374tzung der Problemidentifikation}{section.6.1}% 62
+\BOOKMARK [2][-]{subsection.6.1.2}{Unterst\374tzung bei der Probleml\366sung}{section.6.1}% 63
+\BOOKMARK [2][-]{subsection.6.1.3}{Klustern von Problemen}{section.6.1}% 64
+\BOOKMARK [1][-]{section.6.2}{Vergleich mit anderen Anforderungen}{chapter.6}% 65
+\BOOKMARK [1][-]{section.6.3}{Nutzerbefragung}{chapter.6}% 66
+\BOOKMARK [2][-]{subsection.6.3.1}{Testm\366glichkeiten}{section.6.3}% 67
+\BOOKMARK [2][-]{subsection.6.3.2}{Der Fragebogen}{section.6.3}% 68
+\BOOKMARK [2][-]{subsection.6.3.3}{Auswertung des Fragebogens}{section.6.3}% 69
+\BOOKMARK [1][-]{section.6.4}{Weiterer Use Case}{chapter.6}% 70
+\BOOKMARK [1][-]{section.6.5}{Ausblick}{chapter.6}% 71
+\BOOKMARK [0][-]{chapter.7}{Zusammenfassung}{}% 72
+\BOOKMARK [0][-]{chapter.8}{Ausblick}{}% 73
+\BOOKMARK [0][-]{Anhang.a.A}{Anhang Anhang}{}% 74
+\BOOKMARK [0][-]{chapter*.115}{Literaturverzeichnis}{}% 75
