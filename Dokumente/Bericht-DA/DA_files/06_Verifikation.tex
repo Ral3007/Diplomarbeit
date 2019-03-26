@@ -4,7 +4,7 @@
 Ziel der Diplomarbeit ist eine nutzerfreundliche Oberfläche zur Problemlösung in modularen Anlangen. Dieses Kapitel beantwortet, wie gut die Umsetzung geglückt ist. Dazu werden zunächst die Anforderungen an das Assistenzsystem ausgewertet. 
 
 \section{Vergleich mit Anforderungen}
-In Abschnitt x wurden Anforderungen an das Assistenzsystem gestellt. In wie weit diese erfüllt wurden stellt Tabelle x dar. Ein + bedeutet voll erfüllt, ein o bedeutet teilweise erfüllt und ein - bedeutet nicht erfüllt.
+In Abschnitt x wurden Anforderungen an das Assistenzsystem gestellt. Die Erfüllung der Anforderungen wird im Folgenden diskutiert. Eine erste Einschätzung gibt jeweils eine Tabelle. Ein + bedeutet voll erfüllt, ein o bedeutet teilweise erfüllt und ein - bedeutet nicht erfüllt.
 
 \subsection{Unterstützung der Problemidentifikation}
 
@@ -15,28 +15,34 @@ In Abschnitt x wurden Anforderungen an das Assistenzsystem gestellt. In wie weit
 \hline
 \textbf{Erfüllt} & o & + & o & + & + & + \\
 \end{tabular}
+\caption{Auswertung Anforderungen Problemidentifikation}
+\label{tab:Anforderungen-Problemidentifikation}
 \end{table}
 
 \subsubsection*{PI 1.1 Problembeschreibung}
-Testeingabe. Werte ändern
+Dem Nutzer sollte die Möglichkeit gegeben werden das Problem zu beschreiben. Der Prototyp erfüllt diese, indem sowohl textuell die Beschreibung verändert werden kann als auch die Parameter der Rahmenbedingung verändert werden können. Ein Beispiel dafür ist die Wartungsdauer. Der Nutzer kann in Absprache mit dem Hersteller festlegen, wie lange die Wartung für das Modul dauert.
+
+Hat der Nutzer selber ein Problem entdeckt, ist es derzeit nicht möglich dieses zu beschreiben. 
+Warum?
+Was gibt es für Ansätze?
 
 \subsubsection*{PI 1.2 Zieldefinition}
-Parameter ändern
-Der Nutzer kann Ziele hinzufügen und spezifizieren
+Dem Nutzer sollte die Möglichkeit gegeben die Ziele zu definieren, um anhand diese die Lösungen zu finden. Der Prototyp erfüllt diese, indem sich die Parameter der Ziele verändern lassen.
 
 \subsubsection*{PI 1.3 Informationen}
 Was heißt alle Informationen? Was umfasst die aktuelle Situation?
 
- Dem Nutzer werden eine ganze Reihe an Informationen zur Verfügung gestellt, jedoch nicht alle.
+Dem Nutzer werden eine ganze Reihe an Informationen zur Verfügung gestellt, jedoch nicht alle.
 
 \subsubsection*{PI 2 Unterstützung bei Problemidentifikation}
-Meldungen
-Das Assistenzsystem unterstützt den Nutzer mit Meldungen.
+Das Assistenzsystem unterstützt den Nutzer bei der Problemidentifikation mit Meldungen, Warnungen und Alarme. Dadurch wird der Nutzer auf Probleme aufmerksam gemacht.
 
 \subsubsection*{PI 3 Ziele hinzufügen}
 muss ich hier wirklich noch eine Begründung schreiben?
 
 \subsubsection*{PI 4 Problembereich}
+Dem Nutzer wird der Auslöser des Problems durch die Problembeschreibung mitgeteilt. Der Problembereich wird durch den grau 
+
 Markierung durch grauen Schleier.
 Durch Markierung wird dem Nutzer der Problembereich angezeigt.
 
@@ -51,19 +57,24 @@ Durch Markierung wird dem Nutzer der Problembereich angezeigt.
 \end{table}
 
 \subsubsection*{PL 1 Assistenz schlägt Lösungen vor}
-Das Assistenzsystem schlägt mögliche Lösungen vor.
+Das Assistenzsystem wertet die definierten Ziele des Nutzer aus, sucht nach geeigneten Lösungen und präsentiert diese dem Nutzer. Im Falle des Prototypen sind die Lösungen vordefiniert. Für zukünftige Arbeiten wäre es interessant zu erfahren, welche Möglichkeiten im Rahmen der modularen Anlage existieren. Wichtig dabei zu berücksichtigen ist der Unterschied zwischen modulspezifischen und anlagenspezifischen Problemen. Modulspezifisch bedeutet, dass sich das Problem auf das konkrete Modul bezieht und es irrelevant ist mit welchen anderen Modulen eine Verbindung besteht. Anlagenspezifische Probleme sind nur im Kontext aller verbundenen Module zu betrachten. Wenn die Module also anders verbunden werden ändern sich auch die Zusammenhänge von Problem und Lösungen.
 
 \subsubsection*{PL 2 Nutzer schlägt Lösungen vor}
+Dem Nutzer sollte es möglich sein selber Lösungen vor zu schlagen. Durch das Plus-Symbol im Reiter Lösungen ist das zwar angedacht, aber nicht ausgeführt. 
+
 Integration PEA-Manager -> Module auswählen
 Die grundlegende Möglichkeit für das Vorschlagen von Lösungen existiert. Wie diese im Detail aussieht ist nicht spezifiziert.
 
 \subsubsection*{PL 3.1 Auswirkung auf Anlage / Prozess}
-Auswirkung auf Anlage sichtbar. Unklar, wie sich der Prozess entwickelt -> virtuelle Analyse
+Der Prototyp zeigt dem Nutzer an, welche Veränderungen sich in der Modularen Anlage durch die Lösung ergeben. Es werden Veränderungen im Rezept, in der Navigation und in den Services angezeigt. Die verfahrenstechnischen Auswirkungen auf den Prozess sind nicht dargestellt. Es ist also nicht abschätzbar, wie sich die Produktqualität durch die Lösung verändern könnte. Denkbar sind dazu Anbindungen an eine virtuelle modulare Anlage, die mögliche Veränderungen berechnet und dem Nutzer mitteilt.
 
 \subsubsection*{PL 3.2 Einflussfaktoren}
-Welche Einflussfaktoren sind nicht sichtbar? Zusammenhänge der Services, da nicht hinterlegt
+Dem Nutzer wird durch das Assistenzsystem angezeigt, welche Einflussfaktoren sich zahlenmäßig unterscheiden. Im Konzept ist vorgesehen, dass alle relevanten Einflussfaktoren sichtbar sind (vgl. x\todo{Verweise}). Relevant bedeutet, dass die Einflussfaktoren zuvor von dem Unternehmen oder dem Mitarbeiter als wichtig definiert wurden.
+
+Die Tatsache, dass auch die Abhängigkeiten der Services einen Einfluss haben ist zwar angedacht aber nicht umgesetzt. Grund dafür ist eine noch fehlende Grundlage im MTP. In diesem Zusammenhang ist auch interessant, wie sich die Abhängigkeiten darstellen lassen. Denkbar ist eine hierarchische Gliederung \todo{Ideen spinnen}
 
 \subsubsection*{PL 4 Lösungen bewerten}
+Angedacht in der Anforderung ist es, dass der Nutzer die einzelnen Lösungen bewerten kann, um eine Entscheidung zu treffen. Diese Anforderung wurde nicht umgesetzt, da eine Lösung nicht richtig oder falsch sein kann. Es ist möglich, dass eine Lösung besser oder schlechter ist, als eine andere. Die Bewertung dieser ist aber stark von der Gesamtsituation (z.B. verfügbare Mitarbeiter, Auftragslage) und dem Wissen des Mitarbeiters abhängig. Diese Anforderung ist daher kritisch zu hinterfragen. In welchem Rahmen macht eine Bewertung der Lösungen Sinn? Wird die Bewertung von dem Assistenzsystem verarbeitet? Wenn die Bewertung verarbeitet wird, wie wirkt sie sich auf zukünftige Problemlösungen aus?
 
 \subsection{Klustern von Problemen}
 \begin{table}[htbp]
@@ -76,15 +87,20 @@ Welche Einflussfaktoren sind nicht sichtbar? Zusammenhänge der Services, da nic
 \end{table}
 
 \subsubsection*{KP 1 Mehrere Probleme bearbeiten}
+Laut Anforderung sollte der Nutzer die Möglichkeit haben mehrere Probleme gleichzeitig bearbeiten zu können. Das ist vor allem dann relevant, wenn eine Entscheidung nicht sofort getroffen werden muss. Der Nutzer kann das Problem später weiter bearbeiten und sich in der Zwischenzeit einem anderen zuwenden. Die Interaktionsplattform macht das durch die linke Seitenleiste möglich, in der das zu bearbeitende Problem ausgewählt werden kann. Ebenso ist denkbar, dass eine Problembearbeitung durch ein neues, akuteres, Problem unterbrochen wird.
 
 \subsubsection*{KP 2 Probleme sortieren}
+??
+Werden aktuell noch Zeit sortiert -> in Konzept ergänzen.
 
 \subsubsection*{KP 3 Merkmale der Probleme}
+Derzeit versieht das Assistenzsystem die Probleme mit Merkmalen. 
 
-\section{Vergleich mit anderen Anforderungen}
+\section{Aspekte des Assistenzsystems}
+Neben den individuell definierten Anforderungen an das Assistenzsystem, gibt es eine Reihe an Anforderungen, die durch die Literatur gegeben sind.
 
 \subsection*{Eingliederung in Automatisierungsgrad}
-Eingliederung in Automatisierung
+In Abschnitt x ist beschrieben, dass sich das Assistenzsystem anhand des Zeitdrucks anpasst. Im Prototypen ist ein das Problem nicht zeitkritisch und setzt daher einen geringen Automatisierungsgrade. In die 10 Level der Automatisierung von Sherdian lässt sich der Prototyp auf Level 3 einordnen. Bei einem höheren Zeitruck sind auch die Stufen 4 und 5 in Betracht zu ziehen. Level 6 ist im Sinne der kollaborativen Assistenz nicht anzuwenden, da auf diesem Level die Möglichkeiten des Nutzers stark eingeschränkt sind. Es ist noch zu untersuchen, in welchen Problemfälle welcher Autonomiegrad angewendet wird. Dazu sollte auch xxx von Schegner betrachtet werden. In dieses System lässt sich der Prototyp auf xx einordnen.
 
 \subsection*{Aufgaben von digitaler Assistenz}
 Anforderungen an digitale Assistenz -> wie kann ich das messen?
@@ -93,7 +109,7 @@ In Abschnitt x sind eine ganze Reihe an Aufgaben aufgeführt, die digitale Assis
 
 \begin{table}
 \centering
-\begin{tabular}{p{0.2 \textwidth}|c|p{0.56 \textwidth}}
+\begin{tabular}{l|c|p{0.56 \textwidth}}
 \textbf{Aufgabe} & \textbf{Erfüllt} & \textbf{Erläuterung} \\
 \hline
 Warnung & - & \\
@@ -138,17 +154,47 @@ Andere Möglichkeiten des Testens: Beoabachten, etc...
 \glqq Der vielleicht offensichtlichste Weg etwas über die Nutzerfreundlichkeit von etwas zu erfahren ist, den Nutzer zu fragen, ob er etwas über seine Erfahrung erzählt\grqq(Measuring the User Experience S. 123). Dazu können verschiedene Fragen mit verschiedenen Skalen oder offene Fragen gestellt werden. Offene Fragen sind schwieriger zu analysieren, als Tests mit Skalen. Da die Tests mit Skalen am Effizientesten sind werden diese hier verwendet. Unterscheiden lassen sich individuelle und generalisierte Fragebögen.
 
 Unterscheidung individuelle vs generalisierte Fragebögen, Vor- und Nachteile
+Im folgenden sind einige generalisierte Fragebögen vorgestellt.
 
 \subsubsection*{System Usability Scale}
-Der SUS (System Usability Scale) Fragebogen ist ein standardisierter Fragebogen zur Bewertung der Nutzerfreundlichkeit eines Systems. Er besteht aus zehn Fragen und fünf Stufen zwischen Stimme Gar nicht zu und Stimme voll zu. Für jede Frage werden abhängig von der Antwort zwischen 0 (Stimme gar nicht zu) und 4 (Stimme voll zu) Punkte verteilt und anschließend summiert. Anschließend wird die Summe mit 2,5 multipliziert. Die Summe befindet sich auf einer Skala von 0 bis 100. Bei 100 ist die Nutzerfreundlichkeit voll erfüllt.
+Der SUS (System Usability Scale) Fragebogen ist ein standardisierter Fragebogen zur Bewertung der Nutzerfreundlichkeit eines Systems. Er besteht aus zehn Fragen und fünf Stufen zwischen Stimme Gar nicht zu und Stimme voll zu. Die eine Hälfte der Fragen (ungrade Zahlen) ist positiv formuliert, die andere Hälfte (grade Zahlen) ist negativ formuliert. Für jede Frage werden abhängig von der Antwort zwischen 0 (Stimme gar nicht zu) und 4 (Stimme voll zu) Punkte verteilt und anschließend summiert. Anschließend wird die Summe mit 2,5 multipliziert. Die Summe befindet sich auf einer Skala von 0 bis 100. Bei 100 ist die Nutzerfreundlichkeit voll erfüllt. \todo{Quelle}
 
 \subsubsection*{User Experience Questionnaire}
+Mit dem UEQ (User Experience Questionnaire) soll möglichst schnell und unmittelbare der Gesamteindruck des Nutzers eines Systems erfasst werden. Der Fragebogen besteht aus 26 Fragen und einer 7-stufigen Skala mit semantischen Differentialen, wie kompliziert und einfach. Eingeteilt sind die Fragen in folgende sechs Skalen:
+\begin{itemize}
+\item \textbf{Attraktivität:} Mag der Nutzer das System? (6 Fragen)
+\item \textbf{Benutzerqualität} (jeweils 4 Fragen)
+	\begin{itemize}
+	\item \textbf{Vorhersagbarkeit:} Hat der Nutzer das Gefühl, das System unter Kontrolle zu haben?
+	\item \textbf{Durchschaubarkeit:} Kann der Nutzer schnell erlernen, wie das System zu nutzen ist?
+	\item \textbf{Effektivität:} Kann der Nutzer seine Aufgabe ohne unnötigen Aufwand bewältigen?
+	\end{itemize}
+\item \textbf{Designqualität} (jeweils 4 Fragen)
+	\begin{itemize}
+	\item \textbf{Stimulation:} Macht die Benutzung des Systems Spaß?
+	\item \textbf{Originalität:} Ist das System kreativ und innovativ?
+	\end{itemize}
+\end{itemize}
 
 \subsubsection*{Computer System Usability Questionnaire}
-Die Fragen des CSUQ (Computer System Usability Questionaire) lassen sich auf einer Skala von 1 (gar keine Zustimmung) bis 7 (totale Zustimmung) beantworten. Er ist länger als der SUS Fragebogen, aber immer noch leicht zu beantworten.
+Die Fragen des CSUQ (Computer System Usability Questionaire) lassen sich auf einer Skala von 1 (gar keine Zustimmung) bis 7 (totale Zustimmung) beantworten. Er ist länger als der SUS Fragebogen, aber immer noch leicht zu beantworten. Eingeteilt wird der Fragebogen, neben der Gesamtbewertung, in drei Bereiche: \todo{Quelle}
+\begin{itemize}
+\item \textbf{Systemnutzbarkeit:} Fragen 1-6
+\item \textbf{Informationsqualität:} Fragen 7-12
+\item \textbf{Qualität der Bedienoberfläche:} Fragen 13-15
+\end{itemize}
 
 \subsection{Der Fragebogen}
 Auswahl des Fragebogens -> was ist möglich?
+
+SUS: Research has shown that theSUS  has  excellent  reliability  (coefficient  alpha  typicallyexceeds 0.90), validity, and sensitivity to a wide variety ofindependent variables
+
+Offene Fragen:
+\begin{itemize}
+\item Welche Funktionen haben Sie vermisst?
+\item Was hat Ihnen besonders gut gefallen?
+\item 
+\end{itemize}
 
 \subsection{Auswertung des Fragebogens}
 Auswertung der Antworten

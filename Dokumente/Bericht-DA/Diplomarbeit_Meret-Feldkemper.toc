@@ -62,16 +62,16 @@
 \contentsline {section}{\numberline {6.1}Vergleich mit Anforderungen}{65}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Unterst\IeC {\"u}tzung der Problemidentifikation}{65}{subsection.6.1.1}
 \contentsline {subsection}{\numberline {6.1.2}Unterst\IeC {\"u}tzung bei der Probleml\IeC {\"o}sung}{66}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Klustern von Problemen}{67}{subsection.6.1.3}
-\contentsline {section}{\numberline {6.2}Vergleich mit anderen Anforderungen}{68}{section.6.2}
-\contentsline {section}{\numberline {6.3}Nutzerbefragung}{69}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Testm\IeC {\"o}glichkeiten}{69}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Der Fragebogen}{70}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Auswertung des Fragebogens}{70}{subsection.6.3.3}
-\contentsline {section}{\numberline {6.4}Weiterer Use Case}{70}{section.6.4}
-\contentsline {section}{\numberline {6.5}Ausblick}{70}{section.6.5}
-\contentsline {chapter}{\numberline {7}Zusammenfassung}{71}{chapter.7}
-\contentsline {chapter}{\numberline {8}Ausblick}{72}{chapter.8}
+\contentsline {subsection}{\numberline {6.1.3}Klustern von Problemen}{68}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}Aspekte des Assistenzsystems}{69}{section.6.2}
+\contentsline {section}{\numberline {6.3}Nutzerbefragung}{70}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Testm\IeC {\"o}glichkeiten}{70}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Der Fragebogen}{72}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Auswertung des Fragebogens}{72}{subsection.6.3.3}
+\contentsline {section}{\numberline {6.4}Weiterer Use Case}{72}{section.6.4}
+\contentsline {section}{\numberline {6.5}Ausblick}{72}{section.6.5}
+\contentsline {chapter}{\numberline {7}Zusammenfassung}{73}{chapter.7}
+\contentsline {chapter}{\numberline {8}Ausblick}{74}{chapter.8}
 \contentsfinish 
-\contentsline {chapter}{Anhang \numberline {A}Anhang}{74}{Anhang.a.A}
-\contentsline {chapter}{Literaturverzeichnis}{75}{chapter*.115}
+\contentsline {chapter}{Anhang \numberline {A}Anhang}{76}{Anhang.a.A}
+\contentsline {chapter}{Literaturverzeichnis}{77}{chapter*.119}
