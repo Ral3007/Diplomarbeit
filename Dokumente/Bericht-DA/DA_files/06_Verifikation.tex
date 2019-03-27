@@ -1,13 +1,13 @@
 \chapter{Validierung}
 \label{Validierung}
 
-Ziel der Diplomarbeit ist eine nutzerfreundliche Oberfläche zur Problemlösung in modularen Anlangen. Dieses Kapitel beantwortet, wie gut die Umsetzung geglückt ist. Dazu werden zunächst die Anforderungen an das Assistenzsystem ausgewertet. 
+Ziel der Diplomarbeit ist die Entwicklung einer nutzerfreundliche Oberfläche zur Problemlösung in modularen Anlangen. Dieses Kapitel beantwortet, wie gut die Umsetzung geglückt ist. Dazu werden zunächst die Anforderungen an das Assistenzsystem ausgewertet. 
 
 \section{Vergleich mit Anforderungen}
 In Abschnitt x wurden Anforderungen an das Assistenzsystem gestellt. Die Erfüllung der Anforderungen wird im Folgenden diskutiert. Eine erste Einschätzung gibt jeweils eine Tabelle. Ein + bedeutet voll erfüllt, ein o bedeutet teilweise erfüllt und ein - bedeutet nicht erfüllt.
 
 \subsection{Unterstützung der Problemidentifikation}
-
+Der Nutzer soll bei der Problemidentifikation unterstützt werden. Tabelle \ref{tab:Anforderungen-Problemidentifikation} stellt dar, wie gut die einzelnen Anforderungen durch den Prototypen erfüllt sind.
 \begin{table}[htbp]
 \centering
 \begin{tabular}{l|c|c|c|c|c|c}
@@ -22,17 +22,28 @@ In Abschnitt x wurden Anforderungen an das Assistenzsystem gestellt. Die Erfüll
 \subsubsection*{PI 1.1 Problembeschreibung}
 Dem Nutzer sollte die Möglichkeit gegeben werden das Problem zu beschreiben. Der Prototyp erfüllt diese, indem sowohl textuell die Beschreibung verändert werden kann als auch die Parameter der Rahmenbedingung verändert werden können. Ein Beispiel dafür ist die Wartungsdauer. Der Nutzer kann in Absprache mit dem Hersteller festlegen, wie lange die Wartung für das Modul dauert.
 
-Hat der Nutzer selber ein Problem entdeckt, ist es derzeit nicht möglich dieses zu beschreiben. 
-Warum?
+Hat der Nutzer selber ein Problem entdeckt, ist es derzeit nicht möglich dieses zu beschreiben. Dafür müsste zunächst näher untersucht werden, welche Probleme die modulare Anlage nicht selber erkennt und durch den Nutzer ausgelöst werden müssen. Das könnten beispielsweise Flüssigkeiten sein, die auslaufen oder komische Geräusche. Erste Ideen gab es dazu bereits in xx. Es ist zu prüfen, ob diese Ansätze auch für die modularen Anlagen umgesetzt werden können. Des weiteren wäre interessant, ob das Assistenzsystem die Informationen auch hilfreich verarbeiten kann. Wenn der Nutzer diesem mitteilt, wo Flüssigkeit ausläuft, weiß das Assistenzsystem dann, welcher Service damit zusammen hängt?
 Was gibt es für Ansätze?
+Welche Möglichkeiten müssen geschaffen werden?
 
 \subsubsection*{PI 1.2 Zieldefinition}
 Dem Nutzer sollte die Möglichkeit gegeben die Ziele zu definieren, um anhand diese die Lösungen zu finden. Der Prototyp erfüllt diese, indem sich die Parameter der Ziele verändern lassen.
 
 \subsubsection*{PI 1.3 Informationen}
-Was heißt alle Informationen? Was umfasst die aktuelle Situation?
+In den Anforderungen steht, dass dem Nutzer alle relevanten Informationen über die aktuelle Situation zur Verfügung stehen sollen. Die Auswertung dieser Anforderung gestaltet sich sehr schwierig. Was ist mit allen relevanten Informationen gemeint? Was gehört alles zur aktuellen Situation? 
 
-Dem Nutzer werden eine ganze Reihe an Informationen zur Verfügung gestellt, jedoch nicht alle.
+Abgeleitet aus der Analyse ist mit allen relevanten Informationen folgendes gemeint:
+\begin{itemize}
+\item Aktueller Zustand der Anlage: KPIs, Rezept, Services
+\item Informationen über den Produktionsprozess, z.B.:
+	\begin{itemize}
+	\item Wie sehr ist die aktuelle Anlage ausgelastet?
+	\item Wie gut ist die Qualität meiner Produktion?
+\end{itemize}
+\end{itemize}
+Davon ausgehend ist die Frage zu beantworten, ob die KPIs die Informationen über den Produktionsprozess abdecken. Wenn sie dies nicht tun, muss untersucht werden, wie die Informationen über den Produktionsprozess sinnvoll eingebunden werden können. Zu berücksichtigen ist, dass  \todo{Welche Möglichkeiten gibt es schon?}
+
+Die aktuelle Situation umfasst im Rahmen dieser Arbeit nur die modulare Anlage. Ein Produktionsprozess kann aber noch durch weitere Faktoren beeinflusst werden. Relevant sind auch die Umgebungsbedingungen, wie die Umgebungstemperatur, und die Mitarbeiter, die an der Anlage arbeiten. Welchen Einfluss diese auf den Problemlöseprozess haben wurde in dieser Arbeit nicht geklärt.
 
 \subsubsection*{PI 2 Unterstützung bei Problemidentifikation}
 Das Assistenzsystem unterstützt den Nutzer bei der Problemidentifikation mit Meldungen, Warnungen und Alarme. Dadurch wird der Nutzer auf Probleme aufmerksam gemacht.
@@ -41,10 +52,7 @@ Das Assistenzsystem unterstützt den Nutzer bei der Problemidentifikation mit Me
 muss ich hier wirklich noch eine Begründung schreiben?
 
 \subsubsection*{PI 4 Problembereich}
-Dem Nutzer wird der Auslöser des Problems durch die Problembeschreibung mitgeteilt. Der Problembereich wird durch den grau 
-
-Markierung durch grauen Schleier.
-Durch Markierung wird dem Nutzer der Problembereich angezeigt.
+Dem Nutzer wird der Auslöser des Problems durch die Problembeschreibung mitgeteilt. Der Problembereich wird hervorgehoben, indem irrelevante Informationen durch den grauen halbdurchsichtigen xx versteckt werden.
 
 \subsection{Unterstützung bei der Problemlösung}
 \begin{table}[htbp]
@@ -54,19 +62,17 @@ Durch Markierung wird dem Nutzer der Problembereich angezeigt.
 \hline
 \textbf{Erfüllt} & + & o & o & o & - \\
 \end{tabular}
+\label{Auswertung Anforderungen Problemlösung}
 \end{table}
 
 \subsubsection*{PL 1 Assistenz schlägt Lösungen vor}
 Das Assistenzsystem wertet die definierten Ziele des Nutzer aus, sucht nach geeigneten Lösungen und präsentiert diese dem Nutzer. Im Falle des Prototypen sind die Lösungen vordefiniert. Für zukünftige Arbeiten wäre es interessant zu erfahren, welche Möglichkeiten im Rahmen der modularen Anlage existieren. Wichtig dabei zu berücksichtigen ist der Unterschied zwischen modulspezifischen und anlagenspezifischen Problemen. Modulspezifisch bedeutet, dass sich das Problem auf das konkrete Modul bezieht und es irrelevant ist mit welchen anderen Modulen eine Verbindung besteht. Anlagenspezifische Probleme sind nur im Kontext aller verbundenen Module zu betrachten. Wenn die Module also anders verbunden werden ändern sich auch die Zusammenhänge von Problem und Lösungen.
 
 \subsubsection*{PL 2 Nutzer schlägt Lösungen vor}
-Dem Nutzer sollte es möglich sein selber Lösungen vor zu schlagen. Durch das Plus-Symbol im Reiter Lösungen ist das zwar angedacht, aber nicht ausgeführt. 
-
-Integration PEA-Manager -> Module auswählen
-Die grundlegende Möglichkeit für das Vorschlagen von Lösungen existiert. Wie diese im Detail aussieht ist nicht spezifiziert.
+Dem Nutzer sollte es möglich sein selber Lösungen vor zu schlagen. Durch das Plus-Symbol im Reiter Lösungen ist das zwar angedacht, aber nicht ausgeführt. Um sich Gedanken zu machen, wie Lösungen eingegeben werden können, muss im ersten Schritt geklärt werden, was der Nutzer eingeben möchte. Im Rahmen des Modultausch ist es denkbar noch mehr andere Module in Erwägung zu ziehen. Dazu könnte der PEA-Manager von Jan Funke \cite{Funke2018} eingebunden werden. So kann der Nutzer geeignete Module auswählen. Ungeklärt bleibt die Frage, wie kreative Lösungen eingebunden werden können. 
 
 \subsubsection*{PL 3.1 Auswirkung auf Anlage / Prozess}
-Der Prototyp zeigt dem Nutzer an, welche Veränderungen sich in der Modularen Anlage durch die Lösung ergeben. Es werden Veränderungen im Rezept, in der Navigation und in den Services angezeigt. Die verfahrenstechnischen Auswirkungen auf den Prozess sind nicht dargestellt. Es ist also nicht abschätzbar, wie sich die Produktqualität durch die Lösung verändern könnte. Denkbar sind dazu Anbindungen an eine virtuelle modulare Anlage, die mögliche Veränderungen berechnet und dem Nutzer mitteilt.
+Der Prototyp zeigt dem Nutzer an, welche Veränderungen sich in der Modularen Anlage durch die Lösung ergeben. Es werden Veränderungen im Rezept, in der Navigation und in den Services angezeigt. Die verfahrenstechnischen Auswirkungen auf den Prozess sind nicht dargestellt. Es ist also nicht abschätzbar, wie sich die Produktqualität durch die Lösung verändern könnte. Denkbar sind dazu Anbindungen an eine virtuelle modulare Anlage, die mögliche Veränderungen berechnet und dem Nutzer mitteilt. Beispielhaft könnte man z.B. eine andere Anlage vorübergehend still legen und ein Modul aus dieser nutzen.
 
 \subsubsection*{PL 3.2 Einflussfaktoren}
 Dem Nutzer wird durch das Assistenzsystem angezeigt, welche Einflussfaktoren sich zahlenmäßig unterscheiden. Im Konzept ist vorgesehen, dass alle relevanten Einflussfaktoren sichtbar sind (vgl. x\todo{Verweise}). Relevant bedeutet, dass die Einflussfaktoren zuvor von dem Unternehmen oder dem Mitarbeiter als wichtig definiert wurden.
@@ -74,9 +80,11 @@ Dem Nutzer wird durch das Assistenzsystem angezeigt, welche Einflussfaktoren sic
 Die Tatsache, dass auch die Abhängigkeiten der Services einen Einfluss haben ist zwar angedacht aber nicht umgesetzt. Grund dafür ist eine noch fehlende Grundlage im MTP. In diesem Zusammenhang ist auch interessant, wie sich die Abhängigkeiten darstellen lassen. Denkbar ist eine hierarchische Gliederung \todo{Ideen spinnen}
 
 \subsubsection*{PL 4 Lösungen bewerten}
-Angedacht in der Anforderung ist es, dass der Nutzer die einzelnen Lösungen bewerten kann, um eine Entscheidung zu treffen. Diese Anforderung wurde nicht umgesetzt, da eine Lösung nicht richtig oder falsch sein kann. Es ist möglich, dass eine Lösung besser oder schlechter ist, als eine andere. Die Bewertung dieser ist aber stark von der Gesamtsituation (z.B. verfügbare Mitarbeiter, Auftragslage) und dem Wissen des Mitarbeiters abhängig. Diese Anforderung ist daher kritisch zu hinterfragen. In welchem Rahmen macht eine Bewertung der Lösungen Sinn? Wird die Bewertung von dem Assistenzsystem verarbeitet? Wenn die Bewertung verarbeitet wird, wie wirkt sie sich auf zukünftige Problemlösungen aus?
+Angedacht in der Anforderung ist es, dass der Nutzer die einzelnen Lösungen bewerten kann, um eine Entscheidung zu treffen. Diese Anforderung wurde nicht umgesetzt, da eine Lösung nicht richtig oder falsch sein kann. Es ist möglich, dass eine Lösung besser oder schlechter ist, als eine andere. Die Bewertung dieser ist aber stark von der Gesamtsituation (z.B. verfügbare Mitarbeiter, Auftragslage) und dem Wissen des Mitarbeiters abhängig. Diese Anforderung ist daher kritisch zu hinterfragen. In welchem Rahmen macht eine Bewertung der Lösungen Sinn? Wird die Bewertung von dem Assistenzsystem verarbeitet? Wenn die Bewertung verarbeitet wird, wie wirkt sie sich auf zukünftige Problemlösungen aus? Diese und weitere Fragen sind noch zu beantworten.
 
 \subsection{Klustern von Problemen}
+Probleme sollen geklustert werden, damit mehrere Probleme parallel bearbeitet werden können. 
+
 \begin{table}[htbp]
 \centering
 \begin{tabular}{l|c|c|c}
@@ -84,6 +92,7 @@ Angedacht in der Anforderung ist es, dass der Nutzer die einzelnen Lösungen bew
 \hline
 \textbf{Erfüllt} & + & - & o\\
 \end{tabular}
+\caption{Auswertung Anforderungen: Probleme klustern}
 \end{table}
 
 \subsubsection*{KP 1 Mehrere Probleme bearbeiten}
@@ -112,7 +121,7 @@ In Abschnitt x sind eine ganze Reihe an Aufgaben aufgeführt, die digitale Assis
 \begin{tabular}{l|c|p{0.56 \textwidth}}
 \textbf{Aufgabe} & \textbf{Erfüllt} & \textbf{Erläuterung} \\
 \hline
-Warnung & - & \\
+Warnung & o & Der Nutzer wird nur durch die Hinweise in den Lösungen vor Fehlentscheidungen gewarnt.\\
 \hline
 Signale & + & Es wird dem Nutzer angezeigt, welche Änderungen sich ergeben\\
 \hline
@@ -122,7 +131,7 @@ Kennzeichnung & o & Die Symbole werden mittels Hover-Funktionen erklärt.\\
 \hline
 Erklärung & - & Die Auswahl der Lösungen wird nicht erklärt.\\
 \hline
-Bereitstellung & & \\
+Bereitstellung & o & Das Assistenzsystem stellt nur eine ausgewählte Menge an Informationen zur Verfügung.\\
 \hline
 Filter & + & Das Assistenzsystem zeigt nur relevante Daten zur Entscheidungsfindung an \\
 \hline
@@ -130,24 +139,65 @@ Berater & + & Das Assistenzsystem liefert mehrere Vorschläge \\
 \hline
 Delegieren & - & \\
 \end{tabular}
+\caption{Aufgaben digitaler Assistenz, die durch den Prototypen erfüllt werden}
 \end{table}
 
 Einsatz digitaler Assistenz -> Eingliedern, was kann die Assistenz alles?
 
-
-
 \subsection*{Ergonomisch gute Gestaltung}
-Ergonomisch gute Gestaltung
+Anforderungen an eine ergonomische gute Gestaltung gibt es viele. In Abschnitt x sind bereits die Grundsätze der Dialoggestaltung und die Aspekte für gute Informationsdarstellung erläutert. Tabelle x zeigt auf, wie diese Anforderungen im Rahmen des Prototypen umgesetzt werden konnten.
+
+\begin{table}
+\centering
+\begin{tabular}{p{0.2 \textwidth}|c|p{0.55 \textwidth}}
+\textbf{Grundsatz} & \textbf{Erfüllt} & \textbf{Erläuterung} \\
+\hline
+Aufgaben-angemessenheit & + & Der Use Case konnte mit dem Prototypen erfolgreich umgesetzt werden \\
+\hline
+Selbst-beschreibungs-fähigkeit & + & Durch die Anzeige oben in der Leiste weiß der Nutzer jederzeit an welcher Position er sich befindet. \\
+\hline
+Erwartungs-konformität & & \\
+\hline
+Lern-förderlichkeit & o & Es gibt keine konkrete Unterstützung im Sinne von Erläuterungen. Durch eine eindeutige Beschreibung der Buttons ist es aber leicht zu verstehen. \\
+\hline
+Steuerbarkeit & + & Durch das Setzen der Ziele kann der Nutzer die Richtung steuern. Die Geschwindigkeit wird durch Betätigen der Buttons gesteuert. \\
+\hline
+Fehlertoleranz & + & Ziele können im Nachhinein noch mal geändert werden. \\
+\hline
+Individualisier-barkeit & - & Dem Nutzer stehen aktuell keine Möglichkeiten zur Individualisierung zur Verfügung. \\
+\end{tabular}
+\caption{Validierung: Grundsätze der Dialoggestaltung}
+\end{table}
+
+\begin{table}
+\centering
+\begin{tabular}{p{0.2 \textwidth}|c|p{0.55 \textwidth}}
+\textbf{Aspekt} & \textbf{Erfüllt} & \textbf{Erläuterung} \\
+\hline
+Entdeckbarkeit & + & Die zugrundeliegende PFE er \\
+\hline
+Ablenkungs-freiheit & + & Wird durch das verdecken der irrelevanten Informationen gewährleistet. \\
+\hline
+Unterscheid-barkeit & + & Durch die Tabelle sind die Informationen eindeutig zugeordnet. Die Lösungen zeigen an, welche Veränderung was beeinflusst. \\
+\hline
+Eindeutige Interpretierbarkeit & o & \\
+\hline
+Kompaktheit & + & Dem Nutzer werden nur die für die Problemlösung relevanten Informationen angezeigt. \\
+\hline
+Konsistenz & + & \\
+\end{tabular}
+\caption{Validierung: Aspekte für die Informationsdarstellung}
+\end{table}
+
 
 \subsection*{Individualisierbarkeit}
-Ebene der Veränderung - Individualisierung
-
+In Abschnitt x ist beschrieben, wann Individualisierung eingesetzt werden sollte. Das Konzept sieht vor allem Individualisierung im Sinne der \textbf{Schwankung der Aufgabenmerkmale} vor. Die \textbf{Variation der Benutzermerkmale} wird zwar in der Analyse als relevant dargestellt, aber im Konzept nicht weiter berücksichtigt. Im Rahmen dieser Arbeit wurde davon ausgegangen, dass sich die Benutzermerkmale nicht groß unterscheiden, da die Mitarbeiter im Umfeld der modularen Anlagen sehr ähnliche Voraussetzungen erfüllen müssen. Natürlich ist jeder Mitarbeiter individuell und hat verschiedene Fähigkeiten. Wie groß sich diese im Kontext der modularen Anlagen unterscheiden ist noch zu prüfen. 
 
 \section{Nutzerbefragung}
 
 
 \subsection{Testmöglichkeiten}
-Möchte man die Benutzerfreundlichkeit eines Systems testen, stehen einem eine Reihe an Möglichkeiten zur Verfügung.
+Möchte man die Benutzerfreundlichkeit eines Systems testen, stehen einem eine Reihe an Möglichkeiten zur Verfügung. 
 
 Andere Möglichkeiten des Testens: Beoabachten, etc...
 
@@ -185,6 +235,8 @@ Die Fragen des CSUQ (Computer System Usability Questionaire) lassen sich auf ein
 \end{itemize}
 
 \subsection{Der Fragebogen}
+Für die Nutzerbefragung, die mit einigen ausgewählten Experten stattfindet, wird von den standardisierten Fragebögen der SUS-Fragebogen angewandt. 
+
 Auswahl des Fragebogens -> was ist möglich?
 
 SUS: Research has shown that theSUS  has  excellent  reliability  (coefficient  alpha  typicallyexceeds 0.90), validity, and sensitivity to a wide variety ofindependent variables
@@ -200,6 +252,8 @@ Offene Fragen:
 Auswertung der Antworten
 
 \section{Weiterer Use Case}
+
+\section{Zusammenfassung}
 
 \section{Ausblick}
 Hier oder ans Ende der Arbeit?
