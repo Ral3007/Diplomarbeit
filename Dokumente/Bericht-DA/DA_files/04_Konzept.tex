@@ -37,7 +37,7 @@ Die Entscheidung für eine entsprechende Lösung wird mittels einer geeignete Da
 
 \subsection{Funktionen}
 \todo{einleitenden Text schreiben}
-Wie kann nun der oben beschriebene Problemlöseprozess unterstützt werden? Zunächst muss der Nutzer einen Überblick über den aktuellen Status erhalten. Taucht ein neues Problem auf so interagieren Nutzer und Assistent bis eine geeignete Lösung gefunden wird. Mehr dazu in Abschnitt xx.
+Wie kann nun der oben beschriebene Problemlöseprozess unterstützt werden? Zunächst muss der Nutzer einen Überblick über den aktuellen Status erhalten. Taucht ein neues Problem auf so interagieren Nutzer und Assistent bis eine geeignete Lösung gefunden wird. Mehr dazu in Abschnitt \ref{4:Kollaboration}.
 
 \subsubsection*{Aktueller Status}
 Der aktuelle Status kann über die PFE abgelesen werden. Diese gibt einen Überblick über die aktuelle Verschaltung der Module, das Rezept, die Key Performace Indicator (KPIs) und die Services. Auch eine Übersicht über das Anlagenequipment eines jeden Moduls ist vorhanden. Die notwendigen Meldungen, Warnungen und Alarme werden derzeit nicht angezeigt. Durch die Integration dieser kann der Nutzer bei der Problemidentifikation unterstützt werden. Tritt beispielsweise eine Meldung auf, hat der Nutzer die Möglichkeit dieses als Problem aufzunehmen und nach Lösungen zu suchen.
@@ -83,6 +83,7 @@ Das Assistenzsystem sucht anhand der Problembeschreibung und der definierten Zie
 Ob bereits existierende Systeme, wie der PEA-Manager von Jan Funke \cite{Funke2018} verwendet werden können, ist in weiteren Arbeiten zu analysieren. \todo{weitere Systeme suchen}
 
 \subsection{Kollaboration zwischen Nutzer und Assistenz}
+\label{4:Kollaboration}
 Für die Kollaboration zwischen Nutzer und Assistenz ist eine Interaktionsplattform notwendig, die einen Austausch ermöglicht. Diese bietet dem Nutzer die Möglichkeit Eingaben zu tätigen und der Assistenz die Möglichkeit Daten anzuzeigen.
 
 \subsubsection*{Nutzer}
@@ -90,8 +91,8 @@ Der Nutzer arbeitet mit den Informationen, die ihm durch die Interaktionsplattfo
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.5]{Da_files/UML/Konzept/Aktivitaetsdiagramm-Nutzer.pdf}
-\label{pic:Kollaboration-Nutzer}
 \caption{Aktivitätsdiagramm: Kollaboration Nutzer}
+\label{pic:Kollaboration-Nutzer}
 \end{figure}
 
 \subsubsection*{Interaktionsplattform}
@@ -150,6 +151,10 @@ Hat der Nutzer alles erfasst und die notwendigen Ziele definiert, so kann er üb
 \caption{Problembeschreibung - Ziel löschen}
 \label{pic:pD-Problembeschreibung-Ziel-loeschen}
 \end{figure}
+
+\subsubsection*{Problem mit Service}
+
+\subsubsection*{Problem im Rezept}
 
 \subsection{Lösungen}
 \label{4:pD-Loesungen}
