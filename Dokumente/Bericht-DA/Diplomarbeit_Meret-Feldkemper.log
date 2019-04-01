@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.30)  28 MAR 2019 15:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.30)  1 APR 2019 15:03
 entering extended mode
 **./Diplomarbeit_Meret-Feldkemper.tex
 (Diplomarbeit_Meret-Feldkemper.tex
@@ -3735,117 +3735,110 @@ Overfull \hbox (23.4967pt too wide) in paragraph at lines 81--81
 
 LaTeX Warning: Marginpar on page 44 moved.
 
-
-Package caption Warning: \label without proper reference on input line 93.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `pic:Kollaboration-Nutzer' on page 44 undefined on inp
-ut line 89.
-
-<Da_files/UML/Konzept/Aktivitaetsdiagramm-Nutzer.pdf, id=1025, 451.6875pt x 108
+<Da_files/UML/Konzept/Aktivitaetsdiagramm-Nutzer.pdf, id=1026, 451.6875pt x 108
 4.05pt>
 File: Da_files/UML/Konzept/Aktivitaetsdiagramm-Nutzer.pdf Graphic file (type pd
 f)
 <use Da_files/UML/Konzept/Aktivitaetsdiagramm-Nutzer.pdf>
 Package pdftex.def Info: Da_files/UML/Konzept/Aktivitaetsdiagramm-Nutzer.pdf  u
-sed on input line 92.
+sed on input line 93.
 (pdftex.def)             Requested size: 225.84319pt x 542.02368pt.
 
-LaTeX Warning: Float too large for page by 2.62367pt on input line 95.
+LaTeX Warning: Float too large for page by 2.62367pt on input line 96.
 
 [44] [45 <./Da_files/UML/Konzept/Aktivitaetsdiagramm-Nutzer.pdf>]
-<DA_files/UML/Konzept/Aktivitaetsdiagramm-Interaktionsplattform.pdf, id=1042, 5
+<DA_files/UML/Konzept/Aktivitaetsdiagramm-Interaktionsplattform.pdf, id=1043, 5
 30.98375pt x 1050.92625pt>
 File: DA_files/UML/Konzept/Aktivitaetsdiagramm-Interaktionsplattform.pdf Graphi
 c file (type pdf)
 <use DA_files/UML/Konzept/Aktivitaetsdiagramm-Interaktionsplattform.pdf>
 Package pdftex.def Info: DA_files/UML/Konzept/Aktivitaetsdiagramm-Interaktionsp
-lattform.pdf  used on input line 102.
+lattform.pdf  used on input line 103.
 (pdftex.def)             Requested size: 265.49121pt x 525.46185pt.
-<DA_files/UML/Konzept/Aktivitaetsdiagramm-Assistenz.pdf, id=1044, 398.48875pt x
+<DA_files/UML/Konzept/Aktivitaetsdiagramm-Assistenz.pdf, id=1045, 398.48875pt x
  335.2525pt>
 File: DA_files/UML/Konzept/Aktivitaetsdiagramm-Assistenz.pdf Graphic file (type
  pdf)
 <use DA_files/UML/Konzept/Aktivitaetsdiagramm-Assistenz.pdf>
 Package pdftex.def Info: DA_files/UML/Konzept/Aktivitaetsdiagramm-Assistenz.pdf
-  used on input line 111.
+  used on input line 112.
 (pdftex.def)             Requested size: 199.24388pt x 167.62584pt.
  [46] [47 <./DA_files/UML/Konzept/Aktivitaetsdiagramm-Interaktionsplattform.pdf
 >]
-<DA_files/Bilder/Konzept/Skizze-PFE.png, id=1058, 1202.99437pt x 697.8572pt>
+<DA_files/Bilder/Konzept/Skizze-PFE.png, id=1059, 1202.99437pt x 697.8572pt>
 File: DA_files/Bilder/Konzept/Skizze-PFE.png Graphic file (type png)
 <use DA_files/Bilder/Konzept/Skizze-PFE.png>
 Package pdftex.def Info: DA_files/Bilder/Konzept/Skizze-PFE.png  used on input 
-line 124.
+line 125.
 (pdftex.def)             Requested size: 1202.99144pt x 697.85548pt.
 
 
-LaTeX Warning: Float too large for page by 26.00743pt on input line 127.
+LaTeX Warning: Float too large for page by 26.00743pt on input line 128.
 
 [48 <./DA_files/UML/Konzept/Aktivitaetsdiagramm-Assistenz.pdf>] [49 <./DA_files
 /Bilder/Konzept/Skizze-PFE.png>]
-<DA_files/Bilder/Konzept/Skizze-Problem-1.png, id=1073, 434.37282pt x 266.49562
+<DA_files/Bilder/Konzept/Skizze-Problem-1.png, id=1074, 434.37282pt x 266.49562
 pt>
 File: DA_files/Bilder/Konzept/Skizze-Problem-1.png Graphic file (type png)
 <use DA_files/Bilder/Konzept/Skizze-Problem-1.png>
 Package pdftex.def Info: DA_files/Bilder/Konzept/Skizze-Problem-1.png  used on 
-input line 135.
+input line 136.
 (pdftex.def)             Requested size: 304.0589pt x 186.54565pt.
-<DA_files/Bilder/Konzept/Skizze-Problem-Ziel.png, id=1074, 437.38406pt x 106.89
+<DA_files/Bilder/Konzept/Skizze-Problem-Ziel.png, id=1075, 437.38406pt x 106.89
 937pt>
 File: DA_files/Bilder/Konzept/Skizze-Problem-Ziel.png Graphic file (type png)
 <use DA_files/Bilder/Konzept/Skizze-Problem-Ziel.png>
 Package pdftex.def Info: DA_files/Bilder/Konzept/Skizze-Problem-Ziel.png  used 
-on input line 142.
+on input line 143.
 (pdftex.def)             Requested size: 306.16675pt x 74.82903pt.
-<DA_files/Bilder/Konzept/Skizze-Problem-loeschen.png, id=1075, 438.13687pt x 12
+<DA_files/Bilder/Konzept/Skizze-Problem-loeschen.png, id=1076, 438.13687pt x 12
 6.4725pt>
 File: DA_files/Bilder/Konzept/Skizze-Problem-loeschen.png Graphic file (type pn
 g)
 <use DA_files/Bilder/Konzept/Skizze-Problem-loeschen.png>
 Package pdftex.def Info: DA_files/Bilder/Konzept/Skizze-Problem-loeschen.png  u
-sed on input line 149.
+sed on input line 150.
 (pdftex.def)             Requested size: 306.69371pt x 88.53014pt.
-<DA_files/Bilder/Konzept/Skizze-Loesungen-PFE.png, id=1077, 1202.99437pt x 698.
+<DA_files/Bilder/Konzept/Skizze-Loesungen-PFE.png, id=1078, 1202.99437pt x 698.
 61pt>
 File: DA_files/Bilder/Konzept/Skizze-Loesungen-PFE.png Graphic file (type png)
 <use DA_files/Bilder/Konzept/Skizze-Loesungen-PFE.png>
 Package pdftex.def Info: DA_files/Bilder/Konzept/Skizze-Loesungen-PFE.png  used
- on input line 159.
+ on input line 164.
 (pdftex.def)             Requested size: 1202.99144pt x 698.60829pt.
 
 
-LaTeX Warning: Float too large for page by 26.00743pt on input line 162.
+LaTeX Warning: Float too large for page by 26.00743pt on input line 167.
 
 [50 <./DA_files/Bilder/Konzept/Skizze-Problem-1.png> <./DA_files/Bilder/Konzept
 /Skizze-Problem-Ziel.png>]
-<DA_files/Bilder/Konzept/Skizze-Entscheidung.png, id=1085, 474.27188pt x 280.04
+<DA_files/Bilder/Konzept/Skizze-Entscheidung.png, id=1088, 474.27188pt x 280.04
 625pt>
 File: DA_files/Bilder/Konzept/Skizze-Entscheidung.png Graphic file (type png)
 <use DA_files/Bilder/Konzept/Skizze-Entscheidung.png>
 Package pdftex.def Info: DA_files/Bilder/Konzept/Skizze-Entscheidung.png  used 
-on input line 168.
+on input line 173.
 (pdftex.def)             Requested size: 331.98805pt x 196.03102pt.
-<DA_files/Bilder/Konzept/Skizze-Klustern-Problem.png, id=1087, 256.70906pt x 21
+ [51 <./DA_files/Bilder/Konzept/Skizze-Problem-loeschen.png>] [52 <./DA_files/B
+ilder/Konzept/Skizze-Loesungen-PFE.png>]
+<DA_files/Bilder/Konzept/Skizze-Klustern-Problem.png, id=1101, 256.70906pt x 21
 9.82124pt>
 File: DA_files/Bilder/Konzept/Skizze-Klustern-Problem.png Graphic file (type pn
 g)
 <use DA_files/Bilder/Konzept/Skizze-Klustern-Problem.png>
 Package pdftex.def Info: DA_files/Bilder/Konzept/Skizze-Klustern-Problem.png  u
-sed on input line 184.
+sed on input line 189.
 (pdftex.def)             Requested size: 205.36751pt x 175.85722pt.
-) (DA_files/05_Implementierung.tex [51 <./DA_files/Bilder/Konzept/Skizze-Proble
-m-loeschen.png>] [52 <./DA_files/Bilder/Konzept/Skizze-Loesungen-PFE.png>] [53 
-<./DA_files/Bilder/Konzept/Skizze-Entscheidung.png> <./DA_files/Bilder/Konzept/
-Skizze-Klustern-Problem.png>]
+)
+(DA_files/05_Implementierung.tex [53 <./DA_files/Bilder/Konzept/Skizze-Entschei
+dung.png>] [54 <./DA_files/Bilder/Konzept/Skizze-Klustern-Problem.png>]
 chapter 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--8
 
  []
 
-<DA_files/UML/Prototyp/Zustandsdiagramm-Assistenzsystem.pdf, id=1107, 584.1825p
+<DA_files/UML/Prototyp/Zustandsdiagramm-Assistenzsystem.pdf, id=1114, 584.1825p
 t x 722.7pt>
 File: DA_files/UML/Prototyp/Zustandsdiagramm-Assistenzsystem.pdf Graphic file (
 type pdf)
@@ -3853,11 +3846,11 @@ type pdf)
 Package pdftex.def Info: DA_files/UML/Prototyp/Zustandsdiagramm-Assistenzsystem
 .pdf  used on input line 11.
 (pdftex.def)             Requested size: 379.71411pt x 469.74944pt.
-[54
+[55
 
 
-] [55 <./DA_files/UML/Prototyp/Zustandsdiagramm-Assistenzsystem.pdf>]
-<DA_files/UML/Prototyp/Zustandsdiagramm-Navigation.pdf, id=1126, 574.145pt x 11
+] [56 <./DA_files/UML/Prototyp/Zustandsdiagramm-Assistenzsystem.pdf>]
+<DA_files/UML/Prototyp/Zustandsdiagramm-Navigation.pdf, id=1133, 574.145pt x 11
 7.43875pt>
 File: DA_files/UML/Prototyp/Zustandsdiagramm-Navigation.pdf Graphic file (type 
 pdf)
@@ -3865,7 +3858,7 @@ pdf)
 Package pdftex.def Info: DA_files/UML/Prototyp/Zustandsdiagramm-Navigation.pdf 
  used on input line 23.
 (pdftex.def)             Requested size: 373.18983pt x 76.33426pt.
-<DA_files/UML/Prototyp/Aktivitaetsdiagramm-Navigation-Module.pdf, id=1128, 624.
+<DA_files/UML/Prototyp/Aktivitaetsdiagramm-Navigation-Module.pdf, id=1135, 624.
 3325pt x 550.055pt>
 File: DA_files/UML/Prototyp/Aktivitaetsdiagramm-Navigation-Module.pdf Graphic f
 ile (type pdf)
@@ -3873,7 +3866,7 @@ ile (type pdf)
 Package pdftex.def Info: DA_files/UML/Prototyp/Aktivitaetsdiagramm-Navigation-M
 odule.pdf  used on input line 31.
 (pdftex.def)             Requested size: 374.60239pt x 330.03554pt.
-<DA_files/UML/Prototyp/Zustandsdiagramm-Rezept.pdf, id=1130, 556.0775pt x 252.9
+<DA_files/UML/Prototyp/Zustandsdiagramm-Rezept.pdf, id=1137, 556.0775pt x 252.9
 45pt>
 File: DA_files/UML/Prototyp/Zustandsdiagramm-Rezept.pdf Graphic file (type pdf)
 
@@ -3881,7 +3874,7 @@ File: DA_files/UML/Prototyp/Zustandsdiagramm-Rezept.pdf Graphic file (type pdf)
 Package pdftex.def Info: DA_files/UML/Prototyp/Zustandsdiagramm-Rezept.pdf  use
 d on input line 40.
 (pdftex.def)             Requested size: 333.64908pt x 151.76816pt.
-<DA_files/UML/Prototyp/Aktivitaetsdiagramm-Rezept-Procedures.pdf, id=1133, 598.
+<DA_files/UML/Prototyp/Aktivitaetsdiagramm-Rezept-Procedures.pdf, id=1140, 598.
 235pt x 264.99pt>
 File: DA_files/UML/Prototyp/Aktivitaetsdiagramm-Rezept-Procedures.pdf Graphic f
 ile (type pdf)
@@ -3889,7 +3882,7 @@ ile (type pdf)
 Package pdftex.def Info: DA_files/UML/Prototyp/Aktivitaetsdiagramm-Rezept-Proce
 dures.pdf  used on input line 47.
 (pdftex.def)             Requested size: 358.94377pt x 158.99522pt.
-<DA_files/UML/Prototyp/Aktivitaetsdiagramm-Rezept-Steps.pdf, id=1134, 591.20876
+<DA_files/UML/Prototyp/Aktivitaetsdiagramm-Rezept-Steps.pdf, id=1141, 591.20876
 pt x 238.8925pt>
 File: DA_files/UML/Prototyp/Aktivitaetsdiagramm-Rezept-Steps.pdf Graphic file (
 type pdf)
@@ -3898,12 +3891,12 @@ Package pdftex.def Info: DA_files/UML/Prototyp/Aktivitaetsdiagramm-Rezept-Steps
 .pdf  used on input line 54.
 (pdftex.def)             Requested size: 354.72798pt x 143.3366pt.
 
-[56 <./DA_files/UML/Prototyp/Zustandsdiagramm-Navigation.pdf>] [57 <./DA_files/
+[57 <./DA_files/UML/Prototyp/Zustandsdiagramm-Navigation.pdf>] [58 <./DA_files/
 UML/Prototyp/Aktivitaetsdiagramm-Navigation-Module.pdf> <./DA_files/UML/Prototy
-p/Zustandsdiagramm-Rezept.pdf>] [58 <./DA_files/UML/Prototyp/Aktivitaetsdiagram
+p/Zustandsdiagramm-Rezept.pdf>] [59 <./DA_files/UML/Prototyp/Aktivitaetsdiagram
 m-Rezept-Procedures.pdf> <./DA_files/UML/Prototyp/Aktivitaetsdiagramm-Rezept-St
 eps.pdf>]
-<DA_files/UML/Prototyp/Aktivitaetsdiagramm-ServiceLauchner.pdf, id=1180, 567.11
+<DA_files/UML/Prototyp/Aktivitaetsdiagramm-ServiceLauchner.pdf, id=1187, 567.11
 874pt x 820.06375pt>
 File: DA_files/UML/Prototyp/Aktivitaetsdiagramm-ServiceLauchner.pdf Graphic fil
 e (type pdf)
@@ -3911,8 +3904,8 @@ e (type pdf)
 Package pdftex.def Info: DA_files/UML/Prototyp/Aktivitaetsdiagramm-ServiceLauch
 ner.pdf  used on input line 64.
 (pdftex.def)             Requested size: 368.62282pt x 533.03513pt.
- [59] [60 <./DA_files/UML/Prototyp/Aktivitaetsdiagramm-ServiceLauchner.pdf>]
-<DA_files/UML/Prototyp/Aktivitaetsdiagramm-Problem.pdf, id=1192, 1121.18875pt x
+ [60] [61 <./DA_files/UML/Prototyp/Aktivitaetsdiagramm-ServiceLauchner.pdf>]
+<DA_files/UML/Prototyp/Aktivitaetsdiagramm-Problem.pdf, id=1199, 1121.18875pt x
  727.71875pt>
 File: DA_files/UML/Prototyp/Aktivitaetsdiagramm-Problem.pdf Graphic file (type 
 pdf)
@@ -3924,8 +3917,8 @@ Package pdftex.def Info: DA_files/UML/Prototyp/Aktivitaetsdiagramm-Problem.pdf
 
 LaTeX Warning: Float too large for page by 21.193pt on input line 78.
 
-[61] [62 <./DA_files/UML/Prototyp/Aktivitaetsdiagramm-Problem.pdf>]
-<DA_files/UML/Prototyp/Aktivitaetsdiagramm-Loesungen.pdf, id=1209, 601.24625pt 
+[62] [63 <./DA_files/UML/Prototyp/Aktivitaetsdiagramm-Problem.pdf>]
+<DA_files/UML/Prototyp/Aktivitaetsdiagramm-Loesungen.pdf, id=1217, 601.24625pt 
 x 719.68875pt>
 File: DA_files/UML/Prototyp/Aktivitaetsdiagramm-Loesungen.pdf Graphic file (typ
 e pdf)
@@ -3934,93 +3927,113 @@ Package pdftex.def Info: DA_files/UML/Prototyp/Aktivitaetsdiagramm-Loesungen.pd
 f  used on input line 86.
 (pdftex.def)             Requested size: 360.75052pt x 431.81659pt.
 )
-(DA_files/06_Verifikation.tex [63] [64 <./DA_files/UML/Prototyp/Aktivitaetsdiag
+(DA_files/06_Verifikation.tex [64] [65 <./DA_files/UML/Prototyp/Aktivitaetsdiag
 ramm-Loesungen.pdf>]
 chapter 6.
-[65
+[66
 
 
-] [66] [67] [68] [69] [70]
-Underfull \hbox (badness 3780) in paragraph at lines 139--140
+]
+Overfull \hbox (17.92336pt too wide) in paragraph at lines 27--27
+[][][][]\T1/lmr/m/n/12 (-20) Oberseminar  
+ []
+
+
+Overfull \hbox (17.92336pt too wide) in paragraph at lines 27--27
+[][][][]\T1/lmr/m/n/12 (-20) Oberseminar  
+ []
+
+
+Overfull \hbox (17.92336pt too wide) in paragraph at lines 27--27
+[][][][]\T1/lmr/m/n/12 (-20) Oberseminar  
+ []
+
+
+Overfull \hbox (17.92336pt too wide) in paragraph at lines 27--27
+[][][][]\T1/lmr/m/n/12 (-20) Oberseminar  
+ []
+
+[67] [68] [69] [70] [71]
+Underfull \hbox (badness 3780) in paragraph at lines 136--137
 []|\T1/lmr/m/n/12 (+20) Die Sym-bo-le wer-den mit-tels Hover-
  []
 
 
-Overfull \hbox (4.71596pt too wide) in paragraph at lines 130--151
+Overfull \hbox (4.71596pt too wide) in paragraph at lines 127--149
  [][] 
  []
 
-[71]
-Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[72]
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 []|\T1/lmr/m/n/12 (+20) Aufgaben-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 []|\T1/lmr/m/n/12 (+20) Selbst-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 \T1/lmr/m/n/12 (+20) beschreibungs-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
 []|\T1/lmr/m/n/12 (+20) Erwartungs-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|\T1/lmr/m/n/12 (+20) Lern-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
 []|\T1/lmr/m/n/12 (+20) Individualisier-
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 188--189
+Underfull \hbox (badness 1881) in paragraph at lines 185--186
 []|\T1/lmr/m/n/12 (+20) Die zu-grun-de-lie-gen-de PFE bie-tet die
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
 []|\T1/lmr/m/n/12 (+20) Ablenkungs-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
 []|\T1/lmr/m/n/12 (+20) Unterscheid-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 []|\T1/lmr/m/n/12 (+20) Eindeutige
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 \T1/lmr/m/n/12 In-ter-pre-tier-bar-
  []
 
-[72] [73] [74] [75]) (DA_files/07_Zusammenfassung.tex [76]
+[73] [74] [75] [76]) (DA_files/07_Zusammenfassung.tex [77]
 chapter 7.
-) (DA_files/08_Ausblick.tex [77
+) (DA_files/08_Ausblick.tex [78
 
 
 ]
 chapter 8.
-) [78
+) [79
 
 
-] [79
+] [80
 
 
 ] (DA_files/Anhang.tex
 chapter A.
-) [80
+) [81
 
 
 
@@ -4043,12 +4056,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-[81
+[82
 
 
 
 
-] [82] [83] [84]
+] [83] [84] [85]
 Overfull \hbox (1.18527pt too wide) in paragraph at lines 154--154
 []\T1/lmr/m/n/12 (-20) Detlef Zühl-ke. \T1/lmr/m/it/12 (-20) Nut-zer-ge-rech-te
  Ent-wick-lung von Mensch-Maschine-
@@ -4061,7 +4074,7 @@ nger-Verlag, 2012. \T1/lmr/m/sc/12 (-20) isbn\T1/lmr/m/n/12 (-20) : 97836422207
 39. 
  []
 
-[85] [86
+[86] [87
 
 
 
@@ -4074,7 +4087,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
 Package rerunfilecheck Info: File `Diplomarbeit_Meret-Feldkemper.out' has not c
 hanged.
-(rerunfilecheck)             Checksum: A8E0AED32C5E0B5FB556FDA66036D7B0;5375.
+(rerunfilecheck)             Checksum: 5E36EDA1F459E26A0338F04350A16657;5375.
 
 
 LaTeX Warning: There were undefined references.
@@ -4085,11 +4098,11 @@ Package logreq Info: Writing requests to 'Diplomarbeit_Meret-Feldkemper.run.xml
 
  ) 
 Here is how much of TeX's memory you used:
- 48479 strings out of 493305
- 927861 string characters out of 3138839
+ 48521 strings out of 493305
+ 928751 string characters out of 3138839
  1465179 words of memory out of 3000000
- 50640 multiletter control sequences out of 15000+200000
- 641998 words of font info for 176 fonts, out of 3000000 for 9000
+ 50673 multiletter control sequences out of 15000+200000
+ 642127 words of font info for 177 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  73i,18n,79p,9111b,2267s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/sourcecodepro/a_ind2fo.enc}{C:/P
@@ -4103,9 +4116,9 @@ m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9
 c/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Diplomarbeit_Meret-Feldkemper.pdf (96 pages, 3090837 bytes).
+Output written on Diplomarbeit_Meret-Feldkemper.pdf (97 pages, 3095627 bytes).
 PDF statistics:
- 1505 PDF objects out of 1728 (max. 8388607)
- 355 named destinations out of 1000 (max. 500000)
+ 1520 PDF objects out of 1728 (max. 8388607)
+ 362 named destinations out of 1000 (max. 500000)
  34051 words of extra memory for PDF output out of 35830 (max. 10000000)
 
