@@ -1,5 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Stand der Technik}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}Prozessindustrie}{2}{section.2.1}
@@ -75,4 +76,6 @@
 \contentsline {chapter}{\numberline {8}Ausblick}{79}{chapter.8}
 \contentsfinish 
 \contentsline {chapter}{Anhang \numberline {A}Anhang}{81}{Anhang.a.A}
-\contentsline {chapter}{Literaturverzeichnis}{82}{chapter*.128}
+\contentsline {section}{\numberline {A.1}Anpassung an Problembereich - Aktivit\IeC {\"a}tsdiagramm}{81}{section.a.A.1}
+\contentsline {section}{\numberline {A.2}Fragebogen User Experience}{81}{section.a.A.2}
+\contentsline {chapter}{Literaturverzeichnis}{83}{chapter*.133}
