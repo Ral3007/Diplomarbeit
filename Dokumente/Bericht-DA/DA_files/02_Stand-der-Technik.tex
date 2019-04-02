@@ -4,15 +4,20 @@
 \chapter{Stand der Technik}
 \label{sec:StandDerTechnik}
 
-Diese Kapitel umfasst die wesentlichen Grundlagen für ein besseres Verständnis der Arbeit und die bereits vorhandenen Konzepte für eine mögliche Umsetzung der Problemstellung. Da sich das Thema der Arbeit mit dem Bereich der modularen Anlagen beschäftigt werden zunächst die Grundlagen der Prozessautomatisierung und darauf aufbauend das Konzept der modularen Anlagen erläutert.
+Diese Kapitel umfasst die wesentlichen Grundlagen für ein besseres Verständnis der Arbeit und die bereits vorhandenen Konzepte für eine mögliche Umsetzung der Problemstellung. Da das Thema der Arbeit im Kontext der modularen Anlagen steht, werden zunächst die Grundlagen der Prozessautomatisierung und darauf aufbauend das Konzept der modularen Anlagen erläutert.
 
-Für ein umfassendes Verständnis 
+Um zu verstehen, wie eine Lösung für ein Problem gefunden werden kann, ist dargestellt, wie sich Probleme unterscheiden, wie unterschiedlich Nutzer mit Problemen umgehen und was Einfluss auf ein Problem hat. Damit der Nutzer geeignet unterstützt wird, findet auch eine Betrachtung des allgemeinen Problemlöseprozess statt. Die Lösungsfindung soll idealerweise in Kollaboration mit einem Assistenzsystem erfolgen. Welche Möglichkeiten der Kommunikation bestehen, ist ebenfalls erläutert.
+
+... Was kann Assistenz leisten
+
+... Was ist bei der Entwicklung von Systemen zu berücksichtigen?
+
 %%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Prozessindustrie}
-Die Prozessindustrie umfasst viele verschiedene Branchen. Unter anderem die Chemie-, Pharmazie-, Öl- und Gas- oder Papierindustrie. Sie unterscheiden sich hinsichtlich der individuellen Risiken, der Prozess und Anlagen voneinander. Dennoch gibt es einige Konzepte, die für alle Bereiche gültig sind.
+Die Prozessindustrie umfasst viele verschiedene Branchen. Unter anderem die Chemie-, Pharmazie-, Öl- und Gas- oder Papierindustrie. Sie unterscheiden sich hinsichtlich der individuellen Risiken, der Prozesse und Anlagen voneinander. Dennoch gibt es einige Konzepte, die für alle Bereiche gültig sind.
 \begin{itemize}
-\item \textbf{Grundoperationen:} Eine Grundoperation ist ein einfacher chemischer oder physikalischer Vorgang, wie filtrieren oder separieren.
+\item \textbf{Grundoperationen:} Eine Grundoperation ist ein einfacher chemischer oder physikalischer Vorgang, wie mischen, filtrieren oder separieren.
 \item \textbf{Batchprozesse:} Der Prozess wird in einzelne Schritte eingeteilt, die einem Rezept folgen.
 \item \textbf{Kontinuierliche Prozesse:} Die Materialzufuhr erfolgt kontinuierlich an mehrere Teilanlagen. Jede Teilanlage führt einen einzelnen Arbeitsschritt durch.
 \end{itemize}
@@ -20,12 +25,12 @@ Die Prozessindustrie umfasst viele verschiedene Branchen. Unter anderem die Chem
 \subsection{Prozessautomatisierungssystem}
 Die Prozessautomatisierung umfasst die Automatisierung technischer Prozesse und kann sich aus folgenden Bestandteilen zusammen setzen:
 \begin{itemize}
-\item \textbf{Sensoren und Aktoren:} Sind die Schnittstelle zwischen dem Automatisierungssysteme und dem zu automatisierenden technischen System.
-\item \textbf{Kommunikationssystem:} Umfasst sowohl das prozessnahe Bus-System als auch das Bus-System zum Informationsaustausch zwischen den Rechnern.
-\item \textbf{Automatisierungs-Computersystem:} Sind das für die Automatisierung eingesetzten Rechner. Bei jedem Rechner muss zwischen dem Hardware- und dem Softwarsystem unterschieden werden.
-\item \textbf{Fest verdrahtete Einzelgeräte:} Dies können beispielsweise Sicherheitseinrichtungen, Back-up-Regler oder Relaissteuerungen sein.
-\item \textbf{Einrichtungen für die Mensch-Prozess-Kommunikation:} Dies können beispielsweise Bildschirme, Anzeige- und Meldegeräte oder Tastaturen sein.
-\item \textbf{Prozessbedienpersonal:} Verfolgt das Prozessgeschehen und leitet und beeinflusst die Vorgänge.
+\item \textbf{Sensoren und Aktoren} sind die Schnittstelle zwischen dem Automatisierungssysteme und dem zu automatisierenden technischen System.
+\item Das \textbf{Kommunikationssystem} umfasst sowohl das prozessnahe Bus-System als auch das Bus-System zum Informationsaustausch zwischen den Rechnern.
+\item Die \textbf{Automatisierungs-Computersysteme} sind für die Automatisierung eingesetzten Rechner. Bei jedem Rechner muss zwischen dem Hardware- und dem Softwaresystem unterschieden werden.
+\item \textbf{Fest verdrahtete Einzelgeräte} können beispielsweise Sicherheitseinrichtungen, Back-up-Regler oder Relaissteuerungen sein.
+\item \textbf{Einrichtungen für die Mensch-Prozess-Kommunikation} sind beispielsweise Bildschirme, Anzeige- und Meldegeräte oder Tastaturen.
+\item Das \textbf{Prozessbedienpersonal} verfolgt das Prozessgeschehen und leitet und beeinflusst die Vorgänge.
 \end{itemize}
 
 \subsection{Modulare Anlagen}
@@ -40,7 +45,7 @@ In der Namur-Empfehlung NE 148 \cite{NAMURArbeitskreis1.122013} ist beschrieben,
 
 Die Funktionalitäten der Module sind in Services gekapselt und werden zustandsbasiert gesteuert. Im Gegensatz zu herkömmlichen Anlagen kann im automatisierten Betrieb nicht mehr auf die einzelnen Aktoren zugegriffen werden. Jeder Service kann 16 verschiedene Zustände mit entsprechenden Zustandsübergängen annehmen (mehr dazu in Abschnitt x).
 
-Die Services können nicht nur modulintern, sondern auch modulübergreifend Abhängigkeiten aufweisen. Die Abhängigkeiten werden in 4 Relationen eingeteilt.
+Die Services können nicht nur modulintern, sondern auch modulübergreifende Abhängigkeiten aufweisen. Die Abhängigkeiten werden in 4 Relationen eingeteilt.
 \begin{itemize}
 \item \textbf{Allow:} Service 2 darf nur gestartet werden, wenn Service 1 in einem bestimmten Zustand ist.
 \item \textbf{Prohibit:} Service 2 darf nur gestartet werden, wenn Service 1 NICHT in einem bestimmten Zustand ist.
@@ -49,14 +54,14 @@ Die Services können nicht nur modulintern, sondern auch modulübergreifend Abh�
 \end{itemize} 
 Die Deklaration der Services und ihrer Betriebsarten sind modulspezifisch und müssen vom Modulingenieur angegeben werden. \cite{Ladiges2018}
 
-Mittels einer Rezeptfahrweise können die Services orchestriert werden. An den Transitionen wird der Status des Service überprüft. Bei Übereinstimmung mit der festgelegten Bedingung wird die Transition geschalten. In jedem Rezeptschritt kann ein entsprechender Service Command mit Serviceparametern gesetzt werden. Das Rezept teilt sich in drei Abstraktionsebenen ein. Auf der höchsten Abstraktionsebene, den Modes of Operations \todo{}, kann der Operator einen groben Überblick über den Prozess erlagen. Die zweite Ebene umfasst die Procedures. Zu jeder Procedure wird das entsprechende Modul zugeordnet. Eine Procedure besteht aus mehreren Steps, die die Service Commands auslösen. \todo{Bild einfügen}
+Mittels einer Rezeptfahrweise können die Services orchestriert werden. An den Transitionen wird der Status des Service überprüft. Bei Übereinstimmung mit der festgelegten Bedingung wird die Transition geschalten. In jedem Rezeptschritt kann ein entsprechender Service Command mit Serviceparametern gesetzt werden. Das Rezept teilt sich in drei Abstraktionsebenen ein. Auf der höchsten Abstraktionsebene, den Phases, kann der Operator einen groben Überblick über den Prozess erlagen. Die zweite Ebene umfasst die Procedures. Zu jeder Procedure wird das entsprechende Modul zugeordnet. Eine Procedure besteht aus mehreren Steps, die die Service Commands auslösen. \todo{Bild einfügen}
 
 \todo{Übergang Problemlösen}
 
 \section{Problemlösen}
 Die Gesellschaft geht davon aus, dass Probleme selbstverständlich existieren. Probleme entstehen allerdings erst, wenn eine konkrete Zielsetzung vorhanden ist, die sich nicht durch Routine erreichen lässt. Ohne Handlungsziele gäbe es keine Probleme. \cite{Funke2015, Betsch2011,  Dorner1984}
 
-Liegt ein Problem vor so könnte der Problemlöseprozess sehr einfach sein, indem der Ausgangszustand erkannt, der Zielzustand festgelegt und die Operatoren gefunden werden. Allerdings haben alle diese Aspekte Eigenschaften, die den Prozess erschweren. So kann der Ausgangszustand nicht immer klar definiert sein und es muss eindeutig sein, welche Voraussetzungen als erfüllt angenommen werden können. Bei einem unklaren Ausgangszustand lässt sich auch der Zielzustand nicht eindeutig beschreiben. Bei Betrachtung der Operatoren, die notwendig sind, um einen Ausgangszustand in einen Zielzustand zu überführen, fällt auf, dass diese mit dem Ziel zusammen hängen. Entweder wird der Zielzustand betrachtet und nach geeigneten Operatoren gesucht, die unter Umständen nicht vorhanden sind. Oder es sind bestimmte Operatoren vorhanden und es wird davon ausgehend das bestmöglichste Ziel bestimmt. \cite{Funke2015}
+Liegt ein Problem vor, könnte der Problemlöseprozess sehr einfach sein, indem der Ausgangszustand erkannt, der Zielzustand festgelegt und die Operatoren gefunden werden. Allerdings haben alle diese Aspekte Eigenschaften, die den Prozess erschweren. So kann der Ausgangszustand nicht immer klar definiert sein und es muss eindeutig sein, welche Voraussetzungen als erfüllt angenommen werden können. Bei einem unklaren Ausgangszustand lässt sich auch der Zielzustand nicht eindeutig beschreiben. Die notwendigen Operatoren für die Überführung von einem Ausgangs- zu einem Zielzustand hängen mit dem Ziel zusammen. Entweder wird der Zielzustand betrachtet und nach geeigneten Operatoren gesucht, die unter Umständen nicht vorhanden sind. Oder es sind bestimmte Operatoren vorhanden und es wird davon ausgehend das bestmöglichste Ziel bestimmt. \cite{Funke2015}
 
 Wann gilt ein Problem nun als gelöst? Laut x ist ein Problem gelöst, wenn die Suche nach der Lösung abgebrochen wird. Dabei wird die Suche durch verschiedene Abbruchkriterien geleitet \cite{Funke2015}:
 \begin{itemize}
@@ -73,9 +78,9 @@ Probleme unterscheiden sich hinsichtlich vieler Aspekte, die beim Problemlösen 
 \begin{itemize}
 \item \textbf{Klarheit:} Es wird zwischen wohl-definierte und schlecht-definierten Problemen unterschieden. Wohl-definierte Probleme kennzeichnen sich durch einen eindeutigen Ausgangs- und Zielzustand sowie klar beschriebene Operatoren.
 \item \textbf{Zeitskala:} Unterscheidung zwischen kurzfristigen und langfristigen Problemen. Kurzfristige Probleme lassen sich meist schnell beheben.
-\item \textbf{Zeitdruck:} Bei Zeitdruck muss eine schnelle Entscheidung getroffen werden ohne die Möglichkeit alle Lösungmöglichkeiten zu durchdenken. Ohne Zeitdruck können alle Optionen in Ruhe abgewägt werden.
-\item \textbf{Geforderte kognitive Aktivität:} Wenn eine Vielzahl von Maßnahmen durchgeführt werden muss, um das Ziel zu erreichen, so ist eine hohe kognitive Aktivität gefordert.
-\item \textbf{Bereiche:} Die Problemlösestrategie kann davon abhängig sein in welchem Umfeld das Problem auftritt. Probleme unterscheiden sich in ihrer Art je nach Umfeld.
+\item \textbf{Zeitdruck:} Bei Zeitdruck muss eine schnelle Entscheidung getroffen werden, ohne die Möglichkeit alle Lösungsmöglichkeiten zu durchdenken. Ohne Zeitdruck können alle Optionen in Ruhe abgewägt werden.
+\item \textbf{Geforderte kognitive Aktivität:} Wenn eine Vielzahl von Maßnahmen durchgeführt werden müssen, um das Ziel zu erreichen, so ist eine hohe kognitive Aktivität gefordert.
+\item \textbf{Bereiche:} Die Problemlösestrategie kann davon abhängig sein, in welchem Umfeld das Problem auftritt. Probleme unterscheiden sich in ihrer Art je nach Umfeld.
 \end{itemize}
 Außerdem kann zwischen einfachen und komplexen Problemen unterschieden werden. Ein komplexes Problem unterscheidet sich von einem einfachen Problem in der Hinsicht, dass es mehrere unbekannte Lücken \todo{bessere Wort finden} gibt \cite{Betsch2011}. Manche treten erst bei Bearbeitung des Problems auf. Ein komplexes Problem kennzeichnet sich durch folgende Merkmale. \cite{Funke2015}
 \begin{itemize}
@@ -310,7 +315,7 @@ Die richtige Informationsdarstellung ist wichtig, um den Problemlöseprozess nic
 \subsection{User Experience}
 Im Zusammenhang mit einer guten Gestaltung werden die Erlebnisse, die der Nutzer bei der Verwendung von Technologien erfährt, immer wichtiger. Technologie ist mehr als ein Tool, das verwendet wird um angenehme Zeit zu schaffen \todo{umformulieren!}. Es kann vielmehr selbst eine Quelle für Vergnügen sein. \cite{Hassenzahl2008}
 
-User Experience (UX) verschiebt die Aufmerksamkeit von Produkt und Material (bspw. Funktionen, Interaktionen, ...) zu den Menschen und den Gefühlen \cite{Hassenzahl2008}. Für Hassenzahl \citep[12]{Hassenzahl2008} ist UX \glqq a momentary, primarily evaluative feeling (good-bad) while interacting with a product or service.\grqq \ Der Titel \glqq Attention web designers: You have 50 milliseconds to make a good first impression!\grqq \ beschreibt die Relevanz eines guten UX-Designs sehr gut. 
+User Experience (UX) verschiebt die Aufmerksamkeit von Produkt und Material (bspw. Funktionen, Interaktionen, ...) zu den Menschen und den Gefühlen \cite{Hassenzahl2008}. Für Hassenzahl \citep[12]{Hassenzahl2008} ist UX \glqq a momentary, primarily evaluative feeling (good-bad) while interacting with a product or service.\grqq \ Der Titel \glqq Attention web designers: You have 50 milliseconds to make a good first impression!\grqq \ beschreibt die Relevanz eines guten UX-Designs sehr treffend. 
 %Unterschiedliche konzeptuelle und methodische Ansätze führen zu verschiedenen Blickwinkeln, die stark voneinander profitieren.
 \cite{Hassenzahl2006}
 
