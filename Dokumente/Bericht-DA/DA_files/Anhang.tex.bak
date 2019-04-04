@@ -1,4 +1,7 @@
 \chapter{Begriffe}
+    
+
+\printglossaries 
 
 \begin{table}[htbp]
 \begin{tabular}{ll}
@@ -10,6 +13,10 @@ PFE & \\
 Ziele & \\
 \end{tabular}
 \end{table}
+
+\chapter{Anhang Analyse}
+
+\todo{Zustandsdiagramm Services}
 
 \chapter{Anhang Konzept}
 \section{Farbschema}

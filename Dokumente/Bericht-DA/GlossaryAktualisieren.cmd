@@ -1,0 +1,1 @@
+makeglossaries Diplomarbeit_Meret-Feldkemper

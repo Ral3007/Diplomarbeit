@@ -1,0 +1,23 @@
+\documentclass{article}
+
+\usepackage{glossaries}
+
+\makeglossaries
+\newglossaryentry{foobar}{%
+  name={Foobar},
+  description={A strange animal, not to be confused with \gls{foo}}
+}
+
+\newglossaryentry{foo}{%
+  name={Foo},
+  description={A strange animal, not to be confused with \gls{foobar}}
+}
+
+\begin{document}
+
+\gls{foobar} is a strange animal
+
+\gls{foo} is another strange animal
+\printglossaries
+
+\end{document}

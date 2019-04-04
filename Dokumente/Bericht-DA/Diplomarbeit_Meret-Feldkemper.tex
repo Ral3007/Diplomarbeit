@@ -22,7 +22,7 @@
                   % in screen optimized version!
   listoffigures,  % includes list of figures
   listoftables,   % includes list of tables
-  listoflistings, % includes list of listings
+  %listoflistings, % includes list of listings
   abbrevations,   % includes index of symbols and abbrevations
   bibHarvard,         % citation style (IfA standard), alternatives: bibNumeric, bibHarvard
   bibtex,          % bibliography backend, alternatives: bibtex, bibtex8, biber
@@ -41,6 +41,7 @@
 %\usepackage{amsmath}
 \usepackage{glossaries}
 
+
 % Farben für Text
 \definecolor{darkgreen}{HTML}{339900}
 \definecolor{darkred}{HTML}{FF0000}
@@ -49,45 +50,7 @@
 % Center Text in Tabelle mit fester Breite
 \newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
 
-%colors for lstset
-\definecolor{javaBlue}{HTML}{000080}
-\definecolor{javaGreen}{HTML}{008000}
-\definecolor{javaGray}{HTML}{808080}
-\definecolor{javaPurple}{HTML}{660E7A}
-% \definecolor{javaRed}{HTML}{}
-
-%lstset for XML
-\lstset{language=XML,
-    frame=lines,
-    %label=code:sample,
-	basicstyle= \ttfamily \footnotesize,
-	stringstyle= \color{javaPurple}, 
-    commentstyle=\color{javaGray}, % Kommentare      
-    numbers=left,
-    numberstyle=\tiny,
-    stepnumber=2,
-    numbersep=10pt,
-    tabsize=4,
-    showspaces = false,
-    showstringspaces=false, 
-    breaklines=true,  
-    emph={Name, RefBaseSystemUnitPath, RefBaseClassPath, RefBaseRoleClassPath, ID},
-    emphstyle={\color{javaBlue}}}
  
-%lstset for Java
- \lstset{language=Java,
-	basicstyle= \ttfamily \footnotesize,
-	keywordstyle=\color{javaBlue}\bfseries,
-	stringstyle=\color{javaGreen},
-	commentstyle=\color{javaGray},
-	numbers=left,
-	numberstyle=\tiny\color{black},
-	stepnumber=2,
-	numbersep=10pt,
-	tabsize=4,
-	showspaces=false,
-	showstringspaces=false}
-
 %***********************************
 % General commands
 %***********************************
@@ -104,7 +67,8 @@
 \ifaAbstractDE{DA_files/00_Kurzfassung.tex}           % a tex file containing the german abstract
 \ifaAbstractEN{DA_files/00_Abstract.tex}  % a tex file containing the english abstract
 \ifaAbbrev{DA_files/00_abbrev.tex}                                          % a tex file containing the various abbreviations to include into the list of abbreviations (alternatively,
-%\ifaUserListings{}                                    % a tex file containing additional listings to be printed (besides list of figures, tables, and/or listings)
+%\ifaUserListings{DA_files/Glossar.tex}                                    % a tex file containing additional listings to be printed (besides list of figures, tables, and/or listings)
+%\glossar{DA_files/Glossar.tex}
 %\ifaAcknowledegments{}                                % the acknowlegements for the thesis (usually only used for dissertation)
                                                        % these may also be defined in the text where they are first used)
 
@@ -141,9 +105,12 @@
 %***********************************
 % The actual content of the thesis
 %***********************************
+\loadglsentries{DA_files/Glossar.tex}
 \makeglossaries  
 
+
 \begin{document}
+%\printglossaries
 \input{DA_files/01_Einleitung.tex}
 \input{DA_files/02_Stand-der-Technik.tex}
 \input{DA_files/03_Anforderungsanalyse.tex}
@@ -151,5 +118,6 @@
 \input{DA_files/05_Implementierung.tex}
 \input{DA_files/06_Verifikation.tex}
 \input{DA_files/07_Zusammenfassung.tex}
-\input{DA_files/08_Ausblick.tex}                             
+\input{DA_files/08_Ausblick.tex}         
+          
 \end{document}

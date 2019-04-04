@@ -6,21 +6,13 @@
 %%%%%%%%%%%%%%%%%%%%
 Das Konzept der modularen Anlagen eröffnet neue Möglichkeiten, bringt aber auch neue Herausforderungen. Durch die Flexibilität ist es unter anderem denkbar, dass Module öfter ausgetauscht werden.
 
-Welche Informationen stehen zur Verfügung? -> modulare Anlage, PFE (Verweis auf Problemlöseprozess)
-
-Welche Informationen benötigt der Mensch? -> damit dieser Lösung finden und entscheiden kann
-
-Was lässt sich alles anpassen? -> notwendigkeit für Individualisierung?
-
-Interaktionsmechanik -> wieso ist das so wichtig? Welche Einflüsse gibt es? 
-
-\todo{umschreiben}
+Um Probleme lösen zu können muss zunächst identifiziert werden, welche Informationen zur Verfügung stehen. Im Rahmen dieser Arbeit stellt sich vor allem die Frage, was über die Module bekannt ist und zu welchen Informationen der Nutzer derzeit Zugang hat.  Fraglich ist, ob die aktuellen Informationen ausreichend sind, um ein Problem lösen zu können. Es wird daher genauer betrachtet, welche Informationen zu Verfügung gestellt werden müssen, um Lösungen zu finden und Entscheidungen zu treffen. Wovon die Art der Informationen abhängt und welche Interaktionsmechaniken sich für den Problemlöseprozess als sinnvoll erweisen, beleuchtet dieses Kapitel ebenfalls.
 
 \section{Use Case}
-Der zuständige Mitarbeiter für die Produktionsplanung der modularen Anlage erhält vom Assistenzsystem die Meldung, dass das Modul Temper in spätestens 7 Tagen gewartet werden muss. Um eine geeignete Lösung für die Aufrechterhaltung der Produktion zu finden bestätigt der Mitarbeiter das Problem. Nun gibt das Assistenzsystem die Möglichkeit die Rahmenbedingungen für die Problemlösung festzulegen. Der Hersteller des Temperiermoduls hat die Dauer der Wartung auf zwei Tage festgelegt. Damit das Assistenzsystem nach geeigneten Lösungen suchen kann definiert der Mitarbeiter die Ziele. Da die Produktion zur Zeit gut ausgelastet ist darf die Anlage maximal drei Stunden still stehen. Mit dieser Angabe sucht nun das Assistenzsystem nach Lösungen, die das definierte Ziel einhalten. Es findet folgende Möglichkeiten:
+Der zuständige Mitarbeiter für die Produktionsplanung der modularen Anlage erhält vom Assistenzsystem die Meldung, dass das Modul Temper in spätestens 7 Tagen gewartet werden muss. Um eine geeignete Lösung für die Aufrechterhaltung der Produktion zu finden bestätigt der Mitarbeiter das Problem. Nun gibt das Assistenzsystem die Möglichkeit die Rahmenbedingungen für die Problemlösung festzulegen. Der Hersteller des Temperiermoduls hat die Dauer der Wartung auf zwei Tage festgelegt. Damit das Assistenzsystem nach geeigneten Lösungen suchen kann, definiert der Mitarbeiter die Ziele. Da die Produktion zur Zeit gut ausgelastet ist, darf die Anlage maximal drei Stunden still stehen. Mit dieser Angabe sucht nun das Assistenzsystem nach Lösungen, die die definierten Ziele einhalten. Es findet folgende Möglichkeiten:
 \begin{itemize}
 \item \textbf{Modul leihen:} Der Hersteller des Moduls bietet die Möglichkeit für den Zeitraum der Wartung ein Modul mit den gleichen Spezifikationen zu leihen.
-\item \textbf{Modul durch zwei Module tauschen:} Um den geforderten Temperaturbereich der Produktion abzudecken können zwei Module eingesetzt werden.
+\item \textbf{Modul durch zwei Module tauschen:} Das Unternehmen hat noch zwei Module auf Lager, die gemeinsam den Temperaturbereich der Produktion abdecken können.
 \item \textbf{Wartung aufschieben:} Die Meldung des Moduls wird ignoriert und so weiter produziert, wie bisher.
 \end{itemize}
 Um dem Mitarbeiter eine entsprechende Entscheidungshilfe zu geben werden die Lösungsmöglichkeiten mit relevanten Fakten versehen. Diese sind in Tabelle \ref{tab:UseCase-Lösungen} dargestellt.
@@ -48,16 +40,14 @@ Diese Fakten werden visuell unterstützt. Im Fall des Modultauschs zeigt das Ass
 Die modulare Anlage stellt mittels des Module Type Package (MTP) eine Reihe an Informationen zur Verfügung, welche für den Problemlöseprozess verwendet werden können. Zur Visualisierung einiger der Informationen wird die Prozessführungsebene verwendet. In den folgenden Abschnitten sind die Menge und Art der vorhandenen Informationen detailliert beschrieben. 
 
 \subsection{Modulare Anlage}
-Der Lebenszyklus einer modulare Anlage wird in unterschiedliche Phasen eingeteilt. Sie besteht aus Planung, Errichtung, Betrieb und Demontage. \cite{Obst2013} \todo{hier ist ein Sprung} Besonderer Augenmerk in dieser Arbeit liegt auf dem Potential der Flexibilität. So kann die modulare Anlage beispielsweise bei Wartungsarbeiten an einem Modul mit einem alternativen Modul weiter betrieben werden.
+Der Lebenszyklus einer modulare Anlage wird in unterschiedliche Phasen eingeteilt. Sie besteht aus Planung, Errichtung, Betrieb und Demontage \cite{Obst2013}. Diese Arbeit berücksichtigt nur den Fall des laufenden Betriebs und legt einen besonderen Augenmerk auf das Potential der Flexibilität. So kann die modulare Anlage beispielsweise bei Wartungsarbeiten an einem Modul mit einem alternativen Modul weiter betrieben werden.
 
 Probleme können jedoch nicht nur beim Austausch von Modulen entstehen. Es ist auch denkbar, dass ein Service eine Warnung ausgibt. Nun müsste die Ursache gefunden und das Problem gelöst werden. Welche Probleme beim Betrieb der modularen Anlage auftreten können ist in Abschnitt \ref{Probleme-modulare-Anlage} näher beschrieben.
 
-Um diese Probleme lösen zu können, muss unter anderem klar sein, welche Informationen zur Verfügung stehen. Für den Austausch von Informationen zwischen Prozessführungsebene (PFE) und Modul wird das Modul Type Package (MTP) verwendet. Da der Modulhersteller entscheiden kann, welche Informationen zur Verfügung gestellt werden \todo{Zitat}, unterscheidet sich der konkrete Inhalt des MTP von Modul zu Modul. Es soll hier nicht auf den konkreten Aufbau des MTPs eingegangen werden.
+Um diese Probleme lösen zu können, muss unter anderem klar sein, welche Informationen zur Verfügung stehen. Für den Austausch von Informationen zwischen Prozessführungsebene (\gls{PFE}) und Modul wird das Modul Type Package (MTP) verwendet. Im MTP sind unter anderem das HMI und die Services hinterlegt \cite{VDI2658-Blatt1}. Der konkrete Inhalt unterscheidet sich von Modul zu Modul, da der Modulhersteller entscheiden kann, welche Informationen zur Verfügung gestellt werden \todo{Zitat}.
 
 \subsubsection*{Informationsaustausch mittels MTP}
-Das Modul stellt eine Reihe an Informationen zur Verfügung, die durch das Modul Type Package (MTP) beschrieben sind. Im MTP sind unter anderem das HMI und die Services hinterlegt. \cite{VDI2658-Blatt1}
-
-Für einen eindeutigen Austausch von Informationen sind Schnittstellen definiert. Jede Schnittstellendefinition besteht aus einem Erklärungstext und den spezifischen Informationsvariablen. Da für jede Schnittstelle andere Informationen übertragen werden, sind hier nur allgemeine relevante Aspekte gelistet. So können unter anderem Einheiten, Maximal- und Minimalwerte oder Prozesswerte übermittelt werden. \cite{VDI2658-Blatt3}
+Das Modul stellt eine Reihe an Informationen zur Verfügung, die durch das Modul Type Package (MTP) beschrieben sind. Für einen eindeutigen Austausch von Informationen sind Schnittstellen definiert. Jede Schnittstellendefinition besteht aus einem Erklärungstext und den spezifischen Informationsvariablen. Da für jede Schnittstelle andere Informationen übertragen werden, sind hier nur allgemeine relevante Aspekte gelistet. So können unter anderem Einheiten, Maximal- und Minimalwerte oder Prozesswerte übermittelt werden. \cite{VDI2658-Blatt3} \todo{Tabelle? Für alles ein Beispiel?}
 \begin{itemize}
 \item \textbf{TagName:} Name der repräsentierten Information. 
 \item \textbf{TagDescription:} Beschreibung der repräsentierten Information, z.B. Innere Temperatur des Reaktors.
@@ -69,13 +59,13 @@ Für einen eindeutigen Austausch von Informationen sind Schnittstellen definiert
 \end{itemize}
 
 \subsubsection*{Services}
-Wie bereits in Abschnitt \ref{2:Modulare-Anlagen} beschrieben, werden Module durch Dienste gesteuert. Jeder Dienst kann 16 verschiedene Zustände annehmen und teilt den aktuellen Zustand der PFE mit. Die PFE kann die Zustandsübergänge Reset, Pause, Resume, Unhold, Stop, Abort und Restart anfordern. Bei kontinuierlichen Fahrweisen können zusätzlich Start und Complete angefordert werden. Des Weiteren wird der Zustandsübergang State Change (SC) durch den vorgelagerten Zustand ausgelöst. Die aktuell verfügbaren Zustandswechsel meldet das Modul zurück.
+ Abschnitt \ref{2:Modulare-Anlagen} beschreibt bereist, dass Module durch Dienste gesteuert werden. Jeder Dienst kann 16 verschiedene Zustände annehmen und teilt den aktuellen Zustand der PFE mit. Die PFE kann die Zustandsübergänge Reset, Pause, Resume, Unhold, Stop, Abort und Restart anfordern. Bei kontinuierlichen Fahrweisen können zusätzlich Start und Complete angefordert werden. Des Weiteren wird der Zustandsübergang State Change (SC) durch den vorgelagerten Zustand ausgelöst. Die aktuell verfügbaren Zustandswechsel meldet das Modul zurück.
 
 Dienste haben verschiedene Betriebsarten. Sie werden in Offline, Manual, Automatic External und Automatic Internal eingeteilt. Zudem gehört zu jedem Dienst eine Liste mit dem verwendetem Anlagenequipment \cite{VDI2658-Blatt4}. Diese Information könnte für eine Eingrenzung des Problembereichs verwendet werden.
 
 Sollen Dienste näher spezifiziert werden, ist eine Verwendung von Parametern möglich. Es wird zwischen Konfigurationsparameter, Fahrweisenparametern, Prozesswerten und Reportwerten unterschieden. \cite{VDI2658-Blatt4}
 \begin{itemize}
-\item \textbf{Konfigurationsparameter:} Werden für grundlegende Einstellung verwendet. Ein Ändern ist nur möglich, wenn der Dienst offline ist. Es können beispielsweise die Grenzwerte nachgelagerter Module hinterlegt werden.
+\item \textbf{Konfigurationsparameter:} Werden für grundlegende Einstellung verwendet. Ein Ändern ist nur möglich, wenn der Dienst offline ist. Es können beispielsweise die Grenzwerte nachgelagerter Module hinterlegt werden. 
 \item \textbf{Fahrweisenparameter:} Sind rezeptrelevant, werden vom Dienst beim Starten und Neustart überprüft und bei Zulässigkeit übernommen. Es wird an die PFE rückgemeldet, ob der Parameter übernommen werden konnte. Beispielhafte Parameter sind Sollwerte, wie Temperatur- oder Durchflussvorgaben und Reglerparameter, wie Verstärkung und Nachhaltezeit.
 \item \textbf{Prozesswerte:} Werden kontinuierlich gelesen oder geschrieben und stellen Werte bereit oder erwarten diese. Beispielhaft dafür sind modulübergreifende Verriegelungen.
 \item \textbf{Reportwerte:} Zur Nachweis- und Dokumentationspflicht werden die Werte in den Zuständen Completed, Aborted und Stopped gespeichert.
@@ -103,7 +93,8 @@ Das MTP stellt eine Reihe an Informationen zur Verfügung. Welche davon wie ange
 \item \textbf{Rezept:} Zeigt das Rezept zur modularen Anlage an. Dieses ist aufgeteilt in Phases, Procedures und Steps (siehe Abschnitt \ref{2:Modulare-Anlagen}).
 \item \textbf{Services / HMI:} Zeigt die Dienste der Module an. Diese beinhaltet den aktuellen Zustand und mögliche Zustandsübergänge, die aktuelle Strategie \todo{Fahrweise?} und die aktuelle Betriebsart. Des Weiteren können noch die vorhandenen Fahrweisenparameter angezeigt und eingestellt werden. Auf der letzten Ebene wird statt der Services das HMI des Moduls angezeigt.
 \end{itemize}
-Für eine besser Übersicht ist die PFE in vier Ebenen eingeteilt. Auf der obersten Ebene ist eine grobe Übersicht über die Anlage gegeben. Die unterste Ebene stellt die meisten Details dar. Tabelle \ref{tab:Ebenen-PFE} beschreibt, welche Informationen auf welcher Ebene dargestellt sind. Mittels der Navigation können die Ebenen gewechselt werden. \todo{Bilder der Ebenen in Anhang}
+Für eine besser Übersicht ist die PFE in vier Ebenen eingeteilt. Auf der obersten Ebene ist eine grobe Übersicht über die Anlage gegeben. Die unterste Ebene stellt die meisten Details dar. Tabelle \ref{tab:Ebenen-PFE} beschreibt, welche Informationen auf welcher Ebene dargestellt sind. Mittels der Navigation können die Ebenen gewechselt werden. \todo{Bilder der Ebenen in Anhang?}
+\todo{Tabelle in Anhang?}
 \begin{table}[htbp]
 \centering
 \begin{tabular}{p{1,7cm}|p{2,3cm}|p{2,2cm}|p{2,2cm}|p{2,3cm}|}
@@ -111,7 +102,7 @@ Für eine besser Übersicht ist die PFE in vier Ebenen eingeteilt. Auf der obers
 \hline
 \textbf{Ebene 1} & Shopfloor: Übersicht über alle vorhandenen Anlagen & & Phases für die angewählt Anlage & / \\
 \hline
-\textbf{Ebene 2} & Subplant: Anzeige aller Module und deren Verbindungen & & Procedures & Alle Services der Anlage \\
+\textbf{Ebene 2} & Subplant: Anzeige aller Module und deren Verbindungen &  & Procedures & Alle Services der Anlage \\
 \hline
 \textbf{Ebene 3} & Modul & KPIs für das angewählte Modul & Procedures: Markierung des angewählten Moduls & Services des Moduls \\
 \hline \textbf{Ebene 4} & Modul & & Procedures: Markierung des Moduls & Anzeige des HMI des Moduls \\
@@ -123,7 +114,7 @@ Für eine besser Übersicht ist die PFE in vier Ebenen eingeteilt. Auf der obers
 
 
 \section{Informationsbedarf}
-Der Informationsbedarf orientiert sich maßgeblich an den Aufgaben und dem Nutzer. Wieso ist das so wichtig? \todo{weiter ausführen}
+Der Erfolg der Problemlösung ist abhängig von den Informationen, die dem Nutzer zur Verfügung stehen. \todo{Quelle} Um den Nutzer bestmöglich zu unterstützen, werden sowohl die zu bearbeitende Aufgabe, als auch die Bedürfnisse der Nutzer analysiert.
 
 \subsection{Informationen nach Aufgabenbereich}
 Neben den Informationen, die ein Modul zur Verfügung stellt und die bei Behebung einer Störung behilflich sein können, gibt es eine Reihe von weiteren interessanten Aspekten. Weitet man den Problembereich von einer reinen Instandhaltung auf Bereiche wie die Wirtschaftlichkeit aus, so werden ganz andere Informationen benötigt. Welche Funktionen auf welcher Ebene in einem Unternehmen automatisiert werden können und somit auch sinnvoll durch ein Assistenzsystem unterstützbar sind ist in \cite{Lauber1999} beschrieben. Hier ist auch der zeitliche Aspekt mit aufgeführt. Eine entsprechende Übersicht findet sich in Tabelle \ref{tab:Ebenen-Unternehmen}.
@@ -220,7 +211,7 @@ Daraus abgeleitet wird für die Umsetzung des Assistenzsystem ein Tablet verwend
 	\begin{itemize}
 	\item[PI 1.1] ...er das Problem beschreiben kann.
 	\item [PI 1.2] ...er Ziele definieren kann.
-	\item[PI 1.3] ...ihm alle Informationen über die aktuelle Situation zur Verfügung stehen.
+	\item[PI 1.3] ...ihm alle relevanten Informationen über die aktuelle Situation zur Verfügung stehen.
 	\end{itemize}
 \item[PI 2] Das Assistenzsystem soll den Nutzer bei der Problemidentifikation unterstützen.
 \item[PI 3] Dem Nutzer soll es möglich sein Ziele hinzuzufügen.
