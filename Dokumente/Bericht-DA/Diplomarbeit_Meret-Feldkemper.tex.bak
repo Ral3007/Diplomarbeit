@@ -39,7 +39,7 @@
 \usepackage{longtable}
 \usepackage{rotating} %Für Tabellen im Querformat
 %\usepackage{amsmath}
-%\usepackage{glossaries}
+\usepackage{glossaries}
 
 % Farben für Text
 \definecolor{darkgreen}{HTML}{339900}
@@ -141,8 +141,9 @@
 %***********************************
 % The actual content of the thesis
 %***********************************
+\makeglossaries  
 
-\begin{document} 
+\begin{document}
 \input{DA_files/01_Einleitung.tex}
 \input{DA_files/02_Stand-der-Technik.tex}
 \input{DA_files/03_Anforderungsanalyse.tex}
@@ -150,6 +151,5 @@
 \input{DA_files/05_Implementierung.tex}
 \input{DA_files/06_Verifikation.tex}
 \input{DA_files/07_Zusammenfassung.tex}
-\input{DA_files/08_Ausblick.tex}
-%\makeglossaries                               
+\input{DA_files/08_Ausblick.tex}                             
 \end{document}

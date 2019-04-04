@@ -57,7 +57,7 @@ Wie die konkrete Lösung für ein Problem aussieht ist nicht vorherbestimmt. Das
 In vielen Fällen gibt es nicht nur eine richtige Lösung, sondern mehrere Lösungsmöglichkeiten, die gegeneinander abgewogen werden müssen. Dem Nutzer werden dazu die Unterschiede zwischen den Lösungen aufgezeigt. Diese können rein zahlenmäßig sein, wie entstehende Kosten oder die Länge des Stillstands. Es ist jedoch auch möglich, dass sich Lösungen strukturell unterscheiden, z. B. anhand der zur Verfügung gestellten Dienste. Durch einen Vergleich der Lösungen kann der Nutzer eine Entscheidung treffen und damit den Problemlöseprozess abschließen.
 
 \subsubsection*{Klustern von Problemen}
-Mit dem Assistenzsystem soll es möglich sein, mehrere Probleme gleichzeitig zu bearbeiten, wenn das aktuelle Problem nicht sofort gelöst werden muss. Der Nutzer hat zu jedem Zeitpunkt der Problemlösung die Möglichkeit das Problem zu wechseln. 
+Mit dem Assistenzsystem soll es möglich sein mehrere Probleme gleichzeitig zu bearbeiten, wenn das aktuelle Problem nicht sofort gelöst werden muss. Der Nutzer hat zu jedem Zeitpunkt der Problemlösung die Möglichkeit das Problem zu wechseln. Für die Einschätzung
 
  \todo{weiter ausführen}
 
