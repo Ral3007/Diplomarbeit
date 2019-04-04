@@ -57,9 +57,7 @@ Wie die konkrete Lösung für ein Problem aussieht ist nicht vorherbestimmt. Das
 In vielen Fällen gibt es nicht nur eine richtige Lösung, sondern mehrere Lösungsmöglichkeiten, die gegeneinander abgewogen werden müssen. Dem Nutzer werden dazu die Unterschiede zwischen den Lösungen aufgezeigt. Diese können rein zahlenmäßig sein, wie entstehende Kosten oder die Länge des Stillstands. Es ist jedoch auch möglich, dass sich Lösungen strukturell unterscheiden, z. B. anhand der zur Verfügung gestellten Dienste. Durch einen Vergleich der Lösungen kann der Nutzer eine Entscheidung treffen und damit den Problemlöseprozess abschließen.
 
 \subsubsection*{Klustern von Problemen}
-Mit dem Assistenzsystem soll es möglich sein, mehrere Probleme gleichzeitig zu bearbeiten, wenn das aktuelle Problem nicht sofort gelöst werden muss. Der Nutzer hat zu jedem Zeitpunkt der Problemlösung die Möglichkeit das Problem zu wechseln. 
-
- \todo{weiter ausführen}
+Mit dem Assistenzsystem soll es möglich sein, mehrere Probleme gleichzeitig zu bearbeiten, wenn das aktuelle Problem nicht sofort gelöst werden muss. Der Nutzer hat zu jedem Zeitpunkt der Problemlösung die Möglichkeit das Problem zu wechseln. Für eine bessere Übersichtlichkeit wird das Problem mit den Merkmalen Zeit, Komplexität und Arbeitsaufwand versehen. Diese Angaben sollen dem Nutzer dabei helfen zu entscheiden, an welchem Problem er weiter arbeitet. Zusätzlich dazu werden die Probleme hierarchisch geordnet, sodass im besten Fall das oberste Problem das aktuell relevanteste ist. Für die Sortierung wird im ersten Schritt die Zeit verwendet, da diese angibt bis wann das Problem gelöst sein muss. Im zweiten Schritt ist die Komplexität des Problems relevant. Je komplexer das Problem, desto schwieriger ist es, eine Lösung zu finden. Für besonders komplexe Probleme wird angenommen, dass man besonders lange braucht, um geeignete Lösungen zu finden und eine Entscheidung zu treffen. \todo{wer ist zuständig? Assistenz oder Nutzer?}
 
 \subsection{Anpassungen an den Problembereich}
 \label{4:Anpassung-Problembereich}
@@ -75,18 +73,18 @@ Da sich sowohl Probleme, als auch Lösungen von Fall zu Fall unterscheiden, müs
 Ein einzelnes Modul ist sehr eigenständig, da es grundsätzlich auch alleine betrieben werden kann. In der Navigation der PFE ist ersichtlich mit welchen anderen Modulen es verbunden ist. Um eine Problemlösung auf Modulebene zu unterstützen ist es notwendig die zugehörigen Services und den Bereich im Rezept zu markieren. Dadurch kann der Nutzer die Abhängigkeiten erkennen. 
 
 \subsubsection*{Services}
-Die Services weisen eine Vielzahl an Abhängigkeiten auf. So kann ein Service direkt mit anderen Services gekoppelt sein (vgl. Abschnitt \ref{2:Modulare-Anlagen}) oder durch Parameter eines anderen Services gestartet werden. Diese Kopplung ist auch modulübergreifend möglich. Löst nun ein Service ein Problem aus, werden die abhängigen Services markiert. Dies erleichtert dem Nutzer die Eingrenzung des Problembereichs. Bei der Suche nach Lösungen, muss es dem Nutzer möglich sein alle Optionen in Erwägung zu ziehen. Dafür steht dem Nutzer auch die Information über das zugehörige Equipment der Services zur Verfügung, sofern diese vom Modulhersteller zur Verfügung gestellt werden.
+Die Services weisen eine Vielzahl an Abhängigkeiten auf. So kann ein Service direkt mit anderen Services gekoppelt sein (vgl. Abschnitt \ref{2:Modulare-Anlagen}) oder durch Parameter eines anderen Services gestartet werden. Diese Kopplung ist auch modulübergreifend möglich. Löst nun ein Service ein Problem aus, werden die abhängigen Services markiert. Dies erleichtert dem Nutzer die Eingrenzung des Problembereichs. Bei der Suche nach Lösungen, muss es dem Nutzer möglich sein, alle Optionen in Erwägung zu ziehen. Dafür steht dem Nutzer auch die Information über das zugehörige Equipment der Services zur Verfügung, sofern diese vom Modulhersteller zur Verfügung gestellt werden.
 
 \subsubsection*{Rezept}
-Wird das Rezept automatisch ausgeführt besteht die Möglichkeit, dass dieses aufgrund eines Fehlers nicht vollständig ausgeführt werden kann. In so einem Fall wird dem Nutzer angezeigt an welcher Stelle das Rezept abgebrochen wurde und welche Services zugehörig sind. Ausgehend von der Position im Rezept können die notwendigen Bedingungen überprüft und mögliche Ursachen in Erwägung gezogen werden. Ist die Ursache identifiziert können mit Hilfe des Assistenzsystems Lösungen gefunden werden. So ist es dem Nutzer möglich Veränderung an der entsprechenden Stelle im Rezept vorzunehmen. Diese können dann vom Assistenzsysteme virtuell geprüft werden. Auf diese Weise entsteht eine kollaborative Problemlösung.  
+Wird das Rezept automatisch ausgeführt besteht die Möglichkeit, dass dieses aufgrund eines Fehlers nicht vollständig ausgeführt werden kann. In so einem Fall wird dem Nutzer angezeigt an welcher Stelle das Rezept abgebrochen wurde und welche Services zugehörig sind. Ausgehend von der Position im Rezept können die notwendigen Bedingungen überprüft und mögliche Ursachen in Erwägung gezogen werden. Ist die Ursache identifiziert können mit Hilfe des Assistenzsystems Lösungen gefunden werden. So ist es dem Nutzer möglich Veränderungen an der entsprechenden Stelle im Rezept vorzunehmen. Diese können dann vom Assistenzsysteme virtuell geprüft werden. Auf diese Weise entsteht eine kollaborative Problemlösung.  
 
 \subsubsection*{KPI}
-Die Key Performace Indicator beinhalten Kennzahlen zu dem Prozess im Modul. Treten Unregelmäßigkeiten auf oder überschreiten die KPIs vorher festgelegte Grenzwerte so kann dadurch ein Problem ausgelöst werden. Aktuell liegen keine beispielhaften KPIs vor. Denkbar ist es, dass zu den KPI zugehörige Module und Services markiert werden.
+Die Key Performace Indicator beinhalten Kennzahlen zu dem Prozess im Modul. Treten Unregelmäßigkeiten auf oder überschreiten die KPIs vorher festgelegte Grenzwerte kann dadurch ein Problem ausgelöst werden. Aktuell liegen keine beispielhaften KPIs vor. Denkbar ist es, dass zu den KPI zugehörige Module und Services markiert werden.
 
 \subsection{Finden von Lösungen}
 Das Assistenzsystem sucht anhand der Problembeschreibung und der definierten Ziele die Lösungen. Wie diese Suche konkret durchgeführt wird, soll hier nicht näher betrachtet werden. Denkbar sind Möglichkeiten des Machine Learnings, Case Base Reasoning oder  \todo{Möglichkeiten auflisten}
 
-Ob bereits existierende Systeme, wie der PEA-Manager von Jan Funke \cite{Funke2018} verwendet werden können, ist in weiteren Arbeiten zu analysieren. \todo{weitere Systeme suchen}
+Ob bereits existierende Systeme, wie der PEA-Manager von Jan Funke \cite{Funke2018} verwendet werden können, ist in weiteren Arbeiten zu analysieren. Ebenfalls zu berücksichtigen sind die Ergebnisse des Forschungsprojekts KoMMDia \cite{}.
 
 \subsection{Kollaboration zwischen Nutzer und Assistenz}
 \label{4:Kollaboration}
@@ -122,7 +120,7 @@ Das Assistenzsystem verarbeitet alle zur Verfügung stehenden Informationen und 
 
 \section{Physisches Design}
 \label{4:Physikalische-Design}
-Ausgehend vom konzeptuellen Design wird das physikalische Design entworfen. Es beschreibt die konkrete Darstellung der Funktionen und Informationen. Das Design baut auf der bereits existierenden PFE auf und erweitert diese. Grundlage bietet das Material Design \cite{MaterialDesign} von Google. Zur klaren Abgrenzung von Assistenzsystem und PFE wird auch das Farbschema erweitert. Das Assistenzsystem bedient sich an Grüntönen, die mittels des Color Tools \cite{} ausgewählt wurden.
+Ausgehend vom konzeptuellen Design wird das physische Design entworfen. Es beschreibt die konkrete Darstellung der Funktionen und Informationen. Das Design baut auf der bereits existierenden PFE auf und erweitert diese. Grundlage bietet das Material Design \cite{MaterialDesign} von Google. Zur klaren Abgrenzung von Assistenzsystem und PFE wird auch das Farbschema erweitert. Das Assistenzsystem bedient sich an Grüntönen, die mittels des Color Tools \cite{} \todo{Zitat} ausgewählt wurden.
 
 \subsection{Prozessführungsebene}
 In der bereits existierenden Prozessführungsebene ist der aktuelle Status sichtbar. In Bild \ref{pic:pD-PFE} ist die PFE um eine Meldung erweitert. Über den Button \textbf{Problem bearbeiten} gelangt man zur Problembeschreibung.
@@ -134,8 +132,8 @@ In der bereits existierenden Prozessführungsebene ist der aktuelle Status sicht
 \end{figure}
 
 \subsection{Problem beschreiben}
-Das Feld für die Problembeschreibung ist in zwei Bereiche geteilt (siehe Bild \ref{pic:pD-Problembeschreibung}). Der erste Bereich umfasst die Problembeschreibung und eine (oder mehrere) Spezifikationen. Eine Spezifikation kann z.B. die Dauer der Wartung sein. Diese ist vom Modulherrsteller angegeben und kann nicht verändert werden. Der zweite Bereich stellt die Ziele dar. Über das \textbf{+} ist es möglich Ziele hinzuzufügen (siehe Bild \ref{pic:pD-Problembeschreibung-Ziel-hinzufuegen}). Das Löschen eines Ziels kann durch markieren und anschließendes klicken auf den Mülleimer durchgeführt werden (siehe Bild \ref{pic:pD-Problembeschreibung-Ziel-loeschen}). Neben diesen Fakten wird dem Nutzer auch noch visuell dargestellt, welche Bereiche vom Problem betroffen sind.
-Hat der Nutzer alles erfasst und die notwendigen Ziele definiert, so kann er über den Button \textbf{Lösungen finden} das Assistenzsystem nach möglichen Lösungen fragen.
+Das Feld für die Problembeschreibung ist in zwei Bereiche geteilt (siehe Bild \ref{pic:pD-Problembeschreibung}). Der erste Bereich umfasst die Problembeschreibung und eine (oder mehrere) Spezifikationen. Eine Spezifikation kann z.B. die Dauer der Wartung sein. Diese ist vom Modulhersteller angegeben und kann nicht verändert werden. Der zweite Bereich stellt die Ziele dar. Über das \textbf{+} ist es möglich Ziele hinzuzufügen (siehe Bild \ref{pic:pD-Problembeschreibung-Ziel-hinzufuegen}). Das Löschen eines Ziels kann durch markieren und anschließendes klicken auf den Mülleimer durchgeführt werden (siehe Bild \ref{pic:pD-Problembeschreibung-Ziel-loeschen}). Neben diesen Fakten wird dem Nutzer auch noch visuell dargestellt, welche Bereiche vom Problem betroffen sind.
+Hat der Nutzer alles erfasst und die notwendigen Ziele definiert, kann er über den Button \textbf{Lösungen finden} das Assistenzsystem nach möglichen Lösungen fragen.
 
 \begin{figure}[htbp]
 \centering
@@ -171,7 +169,7 @@ Die eigentliche Frage, in dem gesamten Problemlöseprozess, ist: \glqq Wie kann 
 \end{figure}
 
 \subsection{Entscheidung}
-Hat der Nutzer sich für eine Lösung entschieden, so sind keine Änderungen mehr möglich. Die Entscheidung wird hervorgehoben (siehe Bild \ref{pic:pD-Entscheidung} und analog zu den Lösungen auch in der PFE markiert. Das Assistenzsystem könnte aus dieser Entscheidung lernen und so den Wissensschatz erweitern. \todo{KoMMDia}
+Hat der Nutzer sich für eine Lösung entschieden, sind keine Änderungen mehr möglich. Die Entscheidung wird hervorgehoben (siehe Bild \ref{pic:pD-Entscheidung} und analog zu den Lösungen auch in der PFE markiert. Das Assistenzsystem könnte aus dieser Entscheidung lernen und so den Wissensschatz erweitern. \todo{KoMMDia}
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.7]{DA_files/Bilder/Konzept/Skizze-Entscheidung.png}
@@ -184,7 +182,7 @@ Hat der Nutzer sich für eine Lösung entschieden, so sind keine Änderungen meh
 \begin{itemize}
 \item ...wie lange noch Zeit ist, um eine Entscheidung zu treffen.
 \item ...wie komplex das Problem ist. Bei einer hohen Komplexität bestehen besonders viele Zusammenhänge.
-\item ...wie viele Arbeitsstunden benötigt werden, um das Problem zu lösen.
+\item ...wie viele Arbeitsstunden benötigt werden, um das Problem zu beheben.
 \end{itemize}
 Zur Unterstützung der Lesbarkeit wurden Symbole für jede Spezifikation hinzugefügt. Eine Darstellung dessen ist in Abbildung \ref{pic:pD-Probleme-klustern} zu sehen. Dort befindet sich auch ein Symbol für Einstellungen. Dies ermöglicht, bei Weiterentwicklung des Prototypen, einen erweiterten Funktionsumfang.
 
