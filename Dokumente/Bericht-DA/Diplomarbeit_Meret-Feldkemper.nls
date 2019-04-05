@@ -1,0 +1,21 @@
+\begin{thenomenclature} 
+
+ \nomgroup{B}
+
+  \item [{bspw.}]\begingroup beispielsweise\nomeqref {\relax 0}
+		\nompageref{x}
+  \item [{MTP}]\begingroup Module Type Package\nomeqref {\relax 0}
+		\nompageref{x}
+  \item [{PFE}]\begingroup Prozessführungsebene\nomeqref {\relax 0}
+		\nompageref{x}
+  \item [{UX}]\begingroup User Experience\nomeqref {\relax 0}
+		\nompageref{x}
+  \item [{z. B.}]\begingroup zum Beispiel\nomeqref {\relax 0}
+		\nompageref{x}
+
+ \nomgroup{Y}
+
+  \item [{$\sigma$}]\begingroup Standardabweichung\nomeqref {\relax 0}
+		\nompageref{x}
+
+\end{thenomenclature}
