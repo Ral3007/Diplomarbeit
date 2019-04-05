@@ -244,7 +244,7 @@
   \newcommand{\@bibTitle}{Literaturverzeichnis}
   \newcommand{\@appTitle}{Anhang}
   \renewcommand{\@pdftitle}{\@ifaTitleDE}
-  \renewcommand{\nomname}{Abkürzungs- und Symbolverzeichnis}
+  \renewcommand{\nomname}{Abkürzungsverzeichnis und Glossar}
   \renewcommand{\lstlistlistingname}{Quelltextverzeichnis}
   %\renewcommand{\@glosTitle}{Glossar}
 }{

@@ -1,6 +1,5 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
-\select@language {ngerman}
+\babel@toc {ngerman}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {\relax 2.1}{\ignorespaces Interaktionsm\IeC {\"o}glichkeiten mit einem Assistenzsystem\relax }}{16}{table.caption.19}
@@ -24,6 +23,5 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {\relax D.1}{\ignorespaces Fragen zum Vorwissen\relax }}{86}{table.caption.135}
-\contentsline {table}{\numberline {\relax D.2}{\ignorespaces SUS-Fragebogen\relax }}{87}{table.caption.136}
+\contentsline {table}{\numberline {\relax C.1}{\ignorespaces Fragen zum Vorwissen\relax }}{85}{table.caption.135}
+\contentsline {table}{\numberline {\relax C.2}{\ignorespaces SUS-Fragebogen\relax }}{86}{table.caption.136}

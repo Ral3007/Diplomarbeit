@@ -13,9 +13,21 @@
   \item [{z. B.}]\begingroup zum Beispiel\nomeqref {\relax 0}
 		\nompageref{x}
 
- \nomgroup{Y}
+ \nomgroup{G}
 
-  \item [{$\sigma$}]\begingroup Standardabweichung\nomeqref {\relax 0}
+  \item [{Fehler}]\begingroup Ein Fehler ist\nomeqref {\relax 0}
+		\nompageref{x}
+  \item [{Modul}]\begingroup Ein Modul erfüllt eine verfahrenstechnische Grundfunktion und ist gleichbedeutend mit Process Equipment Assembly (PEA)\nomeqref {\relax 0}
+		\nompageref{x}
+  \item [{Problem}]\begingroup Ein Problem\nomeqref {\relax 0}
+		\nompageref{x}
+  \item [{Process Orchestration Layer}]\begingroup Ein Problem\nomeqref {\relax 0}
+		\nompageref{x}
+  \item [{Prozessführungsebene}]\begingroup xxx\nomeqref {\relax 0}
+		\nompageref{x}
+  \item [{Service}]\begingroup = Dienst\nomeqref {\relax 0}
+		\nompageref{x}
+  \item [{Störung}]\begingroup Eine Störung\nomeqref {\relax 0}
 		\nompageref{x}
 
 \end{thenomenclature}

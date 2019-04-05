@@ -1,22 +1,12 @@
-\chapter{Begriffe}
-    
-
-\printglossaries 
-
-\begin{table}[htbp]
-\begin{tabular}{ll}
-Problem & \\
-Störung & \\
-Fehler & \\
-Modul & \\
-PFE & \\
-Ziele & \\
-\end{tabular}
-\end{table}
-
-\chapter{Anhang Analyse}
-
+\chapter{Modulare Anlage}
+\section{Zustandsdiagramm Services}
 \todo{Zustandsdiagramm Services}
+
+ \begin{figure}[htbp]
+ \centering
+ \includegraphics[scale=0.6]{DA_files/Bilder/Anhang/Zustandsdiagramm-Services.png}
+ \caption{Zustandsmodell Service}
+ \end{figure}
 
 \chapter{Anhang Konzept}
 \section{Farbschema}

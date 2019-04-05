@@ -1,0 +1,74 @@
+\documentclass{ifaPoster}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{blindtext}
+\usepackage{amsmath} % für multline
+\usepackage{subfig} % für subfloat
+\usepackage{todonotes}
+
+\ifaAuthor{Meret Feldkemper}
+\ifaTitle{Kollaborative Problemlösung in modularen Anlagen mittels persönlicher digitaler Intelligenz}
+\ifaSupervisorA{Dipl.-Ing. Sebastian Heinze}
+%\ifaSupervisorB{Dipl.-Ing. Betreuer B}
+%\ifaSupervisorC{Dipl.-Ing. Betreuer C}
+\ifaProfessor{Prof. Dr.-Ing. habl. Leon Urbas}
+\ifaDayOfSubmission{02.05.2019}
+\ifaThesis{Diplomarbeit}
+\ifaPhoto{Passbild_Platzhalter.pdf}
+ 
+\begin{document}
+
+\section{Motivation und Aufgabenstellung}
+Die stark individuelle Instrumentierung (vgl. Abbildung \ref{pic:Grundfunktion-Mischen}) von Bestandsanlagen schränkt die Wiederverwendbarkeit von einmal definierten Key Performance Indicators (KPI) ein. Die Einteilung der Anlage in Virtuell Funktionale Module (VFM) ermöglicht eine einheitliche Verwendung der KPI. Das VFM stetzt dazu Sensoren zur Berechnung der KPI voraus, die teilweise nicht an dem zu analysierenden Ort angebracht sind. Die fehlenden Messstellen lassen sich in vielen Fällen aus den vorhandenen Sensoren berechnen. \cite{hahn_virtuelle_2016}
+\begin{figure}[htbp]
+	\centering
+	\subfloat[Mischstelle 1]{\includegraphics[scale=0.4]{SA_files/Mischstelle-1.pdf}}
+	\hspace{18 pt}
+	\subfloat[Mischstelle 2]{\includegraphics[scale=0.39]{SA_files/Mischstelle-2.pdf}}
+
+	\caption{Unterschiedlich instrumentierte verfahrenstechnische Grundfunktion}
+	\label{pic:Grundfunktion-Mischen}
+\end{figure}
+
+Gegenwärtige Methoden zur Suche nach fehlenden Messstellen verwenden vordefinierte VFM. Dabei wird die Grundstruktur des VFM detektiert und nach fehlenden Messstellen gesucht. Für eine universelle Anwendbarkeit untersucht diese Arbeit in wie weit die Anlagenstruktur ohne ein vordefiniertes VFM erweitert werden kann. Bei der Erweiterung sind Überlagerungen von Messstellen möglich, die durch eine Vielzahl von verwendbaren Sensoren entstehen. Die Suche nach den verwendbaren Sensoren wurde bereits in den Arbeiten von Klose \cite{klose_erstellung_2018} und Mehlig \cite{mehlig_erweiterung_2018} thematisiert. Die beeinflussenden Faktoren für die Auswahl der Messstellen werden in dieser Arbeit analysiert.
+
+\section{Konzept}
+Für die Erweiterung der Sensoren in der Anlagenstruktur müssen diese indentifiziert werden. Um eine Unterscheidung der verschiedenen Sensortypen vorzunehmen werden diese in Listen sortiert. Da die Berechnungen für die fehlenden Messstellen von anderen zu messenden Größen abhängt werden zunächst die Durchflusssensoren, dann die Temperatursensoren und zuletzt die Drucksensoren erweitert. Aus den erstellten Listen werden die einzelnen Sensoren ausgelesen. Für jeden Sensor wird sowohl in Stoffflussrichtung (Downstream) als auch entgegen der Stoffflussrichtung (Upstream) geprüft an welchen Stellen in der Anlagenstruktur die Werte weiterverwendet werden können. Die Überprüfung der einzelnen Elemente erfolgt mittels der aufgestellten Regeln, deren Struktur wir folgt ist:
+\begin{equation*}
+\textbf{IF} \, <Bedingung> \, \textbf{THEN} <Schlussfolgerung>
+\end{equation*}
+Ist das Ergebnis der Regel positiv, dann wird eine neue Messstelle an dem aktuellen Element eingefügt.
+
+Eine besonderes Element ist die Junction. Diese ist ein Verbindungsstück mit drei Verbindungen. Mittels entsprechender Berechnungsvorschriften kann beispielsweise ein fehlender Durchfluss berechnet werden, wenn zwei Durchflüsse bekannt sind. Dazu werden die bekannten Verbindungen bei der Erweiterung in der Junction zwischengespeichert. Nach Berechnung des fehlenden Durchfluss wird dieser erweitert.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.7]{SA_files/expandFlowSensors.pdf}
+\caption{Erweiterung der Durchflusssensoren}
+\label{pic:Erweiterung-Durchfluss}
+\end{figure}
+
+Bei Erweiterung von Temperatur- und Drucksensoren entstehen durch die Berechnung der Differenz zwischen Ursprungssensor und eingefügter Messstelle systematische Messabweichungen und Messunsicherheiten. Da nur ein Sensor für jeden Sensortyp an einem Element angebracht sein soll, wird bei überlagerten Messstellen die mit der geringsten Messunsicherheit ausgewählt. Der wahre Messwert kann bei bekannter systematische Messabweichung berechnet werden. Durch Vergleich der Messunsicherheit werden möglichst genaue KPI gewährleistet.
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.44]{SA_files/Beispiel_de.pdf}
+\caption{Erweiterung der Anlagenstruktur}
+\end{figure}
+
+\section{Zusammenfassung}
+Mit der hier dargestellten Methode kann die Anlagenstruktur erweitert werden.  Es wird dabei mit Regeln geprüft an welchen Elementen neue Messstellen eingefügt werden können. Durch Abgleich der Messunsicherheit bei überlagerten Messstellen wird eine sinnvolle Auswahl getroffen. Nach der vollständigen Erweiterung der Anlagenstruktur wird mittels der VFM-Suche von Klose \cite{klose_erstellung_2018} die erfolgreiche Detektion eines VFM nachgewiesen. 
+
+Aufbauend auf der dargestellten Methode müssen die realen Einflüsse auf systematische Messabweichung und Messunsicherheit analysiert werden. Erst dadurch ist eine abschließende Bewertung der überlagerten Messstellen möglich.
+
+ {\tiny\renewcommand{\section}[2]{}%
+ 	 \begin{thebibliography}{8.5}
+ 	 \bibitem{hahn_virtuelle_2016}
+		Anna Hahn, Stefan Pech und Leon Urbas. {\glqq Virtuelle funktionale Module in der Prozessindustrie\grqq}. {In: \textit{Atp Edition}} 58.11 (2016), S. 54-63.
+		\bibitem{klose_erstellung_2018}
+		Anselm Klose: {\glqq Erstellung von Pfadregeln basierend auf einer qualitativen Bewertung von Messstellen einer Bestandanlage\grqq}. Diplomarbeit. Dresden: Technische Universität Dresden, 2018.
+		\bibitem{mehlig_erweiterung_2018}
+		Sebastian Mehlig: {\glqq Erweiterung einer Bewertungsmethode von Messstellen innerhalb einer verfahrenstechnischen Prozessanlage um quantitative Regeln\grqq}. Diplomarbeit. Dresden: Technische Universität Dresden, 2018.
+	\end{thebibliography}}
+	
+\end{document}

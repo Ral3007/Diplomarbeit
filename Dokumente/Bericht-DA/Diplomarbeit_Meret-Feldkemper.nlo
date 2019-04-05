@@ -1,6 +1,12 @@
-\nomenclatureentry{yx $\sigma$@[{$\sigma$}]\begingroup Standardabweichung\nomeqref {\relax 0}|nompageref}{x}
 \nomenclatureentry{ba z. B.@[{z. B.}]\begingroup zum Beispiel\nomeqref {\relax 0}|nompageref}{x}
 \nomenclatureentry{ba PFE@[{PFE}]\begingroup Prozessführungsebene\nomeqref {\relax 0}|nompageref}{x}
 \nomenclatureentry{ba MTP@[{MTP}]\begingroup Module Type Package\nomeqref {\relax 0}|nompageref}{x}
 \nomenclatureentry{ba bspw.@[{bspw.}]\begingroup beispielsweise\nomeqref {\relax 0}|nompageref}{x}
 \nomenclatureentry{ba UX@[{UX}]\begingroup User Experience\nomeqref {\relax 0}|nompageref}{x}
+\nomenclatureentry{gl Problem@[{Problem}]\begingroup Ein Problem\nomeqref {\relax 0}|nompageref}{x}
+\nomenclatureentry{gl Störung@[{Störung}]\begingroup Eine Störung\nomeqref {\relax 0}|nompageref}{x}
+\nomenclatureentry{gl Fehler@[{Fehler}]\begingroup Ein Fehler ist\nomeqref {\relax 0}|nompageref}{x}
+\nomenclatureentry{gl Modul@[{Modul}]\begingroup Ein Modul erfüllt eine verfahrenstechnische Grundfunktion und ist gleichbedeutend mit Process Equipment Assembly (PEA)\nomeqref {\relax 0}|nompageref}{x}
+\nomenclatureentry{gl Prozessführungsebene@[{Prozessführungsebene}]\begingroup xxx\nomeqref {\relax 0}|nompageref}{x}
+\nomenclatureentry{gl Process Orchestration Layer@[{Process Orchestration Layer}]\begingroup Ein Problem\nomeqref {\relax 0}|nompageref}{x}
+\nomenclatureentry{gl Service@[{Service}]\begingroup = Dienst\nomeqref {\relax 0}|nompageref}{x}

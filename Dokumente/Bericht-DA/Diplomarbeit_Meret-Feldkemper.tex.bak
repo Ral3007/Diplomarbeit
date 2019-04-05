@@ -105,15 +105,10 @@
 %***********************************
 % The actual content of the thesis
 %***********************************
-\makeglossaries  
+%\loadglsentries{DA_files/Glossar.tex}
+%\makeglossaries  
 
-\newglossaryentry{PFE}
-{
-  name={computer},
-  description={is a programmable machine that receives input,
-               stores and manipulates data, and provides
-               output in a useful format}
-}    
+
 \begin{document}
 %\printglossaries
 \input{DA_files/01_Einleitung.tex}
