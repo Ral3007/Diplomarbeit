@@ -50,6 +50,7 @@
 % Center Text in Tabelle mit fester Breite
 \newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
 
+
  
 %***********************************
 % General commands

@@ -172,21 +172,18 @@ Angenommen der Nutzer hat viel Zeit sich mit dem Problem zu beschäftigen, so m�
 Ein ebenfalls wichtiger Aspekt, der schon in Abschnitt \ref{3:Informationsbedarf-Operator} thematisiert wurde, ist die Zielsetzung des Unternehmens. Diese kann sehr unterschiedlich sein, was sich maßgeblich auf die Informationsbereitstellung auswirkt. Ist beispielsweise die Stillstandzeit der Anlage besonders relevant, so sollten diese Informationen hervor gehoben werden. In einem anderen Kontext kann aufgrund von Personalmangel der Rüstaufwand eine höhere Priorität bekommen.
 
 \section{Interaktionsmechaniken}
-\todo{weiter ausführen, Vor- und Nachteile}
-Im Kontext dieser Arbeit wird das Problemlösen betrachtet. Problemlösen heißt in diesem Fall aus mehreren Alternativen die geeignetste für das Erreichen des festgelegten Ziels auszuwählen. In Abschnitt \ref{2:Assistenzsysteme} sind verschiedene Interaktionsmechaniken beschrieben. Um diese geeignet bewerten zu können ist zunächst eine Begutachtung des Arbeitsumfelds und der Aufgaben notwendig.
+Im Kontext dieser Arbeit wird das Problemlösen betrachtet. Problemlösen heißt in diesem Fall aus mehreren Alternativen die Beste für das Erreichen des festgelegten Ziels auszuwählen. In Abschnitt \ref{2:Assistenzsysteme} sind verschiedene Interaktionsmechaniken beschrieben. Um diese geeignet bewerten zu können ist zunächst eine Begutachtung des Arbeitsumfelds und der Aufgaben notwendig.
 
-Da sich das Problemlösen im Rahmen dieser Arbeit nicht auf das Beheben von Störungen bezieht, kann angenommen werden, dass die Hände nicht für andere Aufgaben frei sein müssen. Zudem ist eine geeignete Darstellung von Zusammenhängen notwendig, welches eine entsprechende Displaygröße voraussetzt. Diese Zusammenhänge müssen durch den Menschen entsprechend interpretiert werden, damit dieser mit dem System interagieren kann. Es muss dazu die Möglichkeit gegeben sein selbst Vorschläge für die Lösung des Problems zu liefern. Das setzt vielfältige Eingabemöglichkeiten voraus. \todo{spezifizieren!}
+Soll ein Problem gelöst werden, ist eine umfassende Darstellung aller Einflussfaktoren und deren Zusammenhänge notwendig. Diese sind nur bedingt auf kleinen Bildschirmen, wie einer Smartwatch, visualisierbar. Auch ein Headset ist kein geeignetes Mittel, da die Informationen vom Assistenzsystem sehr präzise beschrieben sein müssen, um Missverständnisse vorzubeugen \todo{gibt es da eine Quelle zu?}. Des Weiteren muss es dem Nutzer möglich sein, selber Eingaben zu tätigen. 
 
-Daraus abgeleitet wird für die Umsetzung des Assistenzsystem ein Tablet verwendet. Diese ist groß genug, um alle notwendigen Informationen anzuzeigen. Es ist flexibel genug, wenn für den Problemlöseprozess Informationen benötigt werden, die nur durch Begutachtung der Anlage erlangt werden können. Zudem bietet die Kamera die Möglichkeit Augumented Reality zu verwenden oder das Mikrofon die Möglichkeit Spracheingaben zu tätigen.
+Die meisten Möglichkeiten bietet ein Tablet. Es ist dem Nutzer möglich über das Mikrofon Spracheingaben zu tätigen oder mit Touchgesten Informationen einzugeben. Auch die Kamera könnte für Augumented Reality verwendet werden. Einziger Nachteil ist die etwas begrenzte Bildschirmgröße. Einen größeren Bildschirm bietet nur ein Dektop PC. Dieser ist für die Aufgaben auf Ebene der Produktionsplanung völlig ausreichend, da, angewendet auf den Use Case, keine Notwendigkeit einer transportablen Lösung besteht.
 
-
+In dieser Arbeit wird zunächst eine Konzept für eine Desktop Anwendung entwickelt. Aufbauend darauf könnten Überlegungen für eine Übertragung auf ein Tablet, mit Einbindung der oben genannten Möglichkeiten, erfolgen.
 
 \section{Anforderungen an das Assistenzsystem}
 \label{3:Anforderungen}
 
-\subsection{Funktionale Anforderungen}
-
-\subsubsection*{Unterstützung der Problemidentifikation}
+\subsection*{Unterstützung der Problemidentifikation}
 \begin{itemize}
 \item[PI 1] Der Nutzer soll durch die Problemlösung begleitet werden können, indem...
 	\begin{itemize}
@@ -199,7 +196,7 @@ Daraus abgeleitet wird für die Umsetzung des Assistenzsystem ein Tablet verwend
 \item[PI 4] Dem Nutzer soll der Auslöser des Problems und der zugehörige Problembereich mitgeteilt werden.
 \end{itemize}
 
-\subsubsection*{Unterstützung bei der Problemlösung}
+\subsection*{Unterstützung bei der Problemlösung}
 \begin{itemize}
 \item[PL 1] Das Assistenzsystem soll mögliche Lösungen vorschlagen.
 	\begin{itemize}
@@ -214,7 +211,7 @@ Daraus abgeleitet wird für die Umsetzung des Assistenzsystem ein Tablet verwend
 \item[PL 4] Die Lösungen sollen bewertbar sein.
 \end{itemize}
 
-\subsubsection*{Kluster von Problemen}
+\subsection*{Kluster von Problemen}
 \begin{itemize}
 \item[KP 1] Es sollen mehrere Probleme gleichzeitig bearbeitet werden können.
 \item[KP 2] Die Probleme sollen sich sortieren lassen.
@@ -224,9 +221,4 @@ Daraus abgeleitet wird für die Umsetzung des Assistenzsystem ein Tablet verwend
 	\item[KP 3.2] Komplexität: Wird die Problemlösung durch viele oder wenige Größen beeinflusst?
 	\item[KP 3.3] Arbeitsaufwand: Anzahl der Arbeitsstunden
 	\end{itemize}
-\end{itemize}
-
-\subsection{Nichtfunktionale Anforderungen}
-\begin{itemize}
-\item[NA 1] Die Bedienung soll über ein Tablet realisiert werden.
 \end{itemize}
