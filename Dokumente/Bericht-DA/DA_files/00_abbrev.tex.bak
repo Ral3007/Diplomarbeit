@@ -14,7 +14,7 @@
 % ******************************************************************************/
 
 % Dieser Befehl setzt das Nomenklaturverzeichnis mit angegebener Breite für die erste Spalte
-\printnomenclature[4 cm]
+\printnomenclature  [3 cm]
 
 % Falls das Abkürzungs- und Symbolverzeichnis ohne Nutzung des nomencl-Pakets 
 % von Ihnen selber erstellt werden soll (z.B. in einer Tabelle), ersetzen Sie 
@@ -35,10 +35,23 @@
 \nomenclature[ba ]{UX}{User Experience}
 \nomenclature[ba ]{vgl.}{vergleiche}
 
-\nomenclature[gl ]{Problem}{Ein Problem}
-\nomenclature[gl ]{Störung}{Eine Störung}
-\nomenclature[gl ]{Fehler}{Ein Fehler ist}
-\nomenclature[gl ]{Modul}{Ein Modul erfüllt eine verfahrenstechnische Grundfunktion und ist gleichbedeutend mit Process Equipment Assembly (PEA)}
+\nomenclature[gl ]{Problem}{Ein Problem tritt auf, wenn }
+\nomenclature[gl ]{Störung}{Eine Störung entsteht, wenn }
+\nomenclature[gl ]{Fehler}{Ein Fehler ist eine nicht zulässige Abweichung.}
+\nomenclature[gl ]{Modul}{Ein Modul erfüllt eine }
 \nomenclature[gl ]{Prozessführungsebene}{xxx}
-\nomenclature[gl ]{Process Orchestration Layer}{Das Process Orchestration Layer erweitert den Funktionsumfang einer Prozessführungsebene um....}
+\nomenclature[gl ]{Process Orchestration Layer}{Das Process Orchestration Layer }
 \nomenclature[gl ]{Service}{= Dienst}
+
+\section*{Glossar}
+\vspace{-0.3 cm}
+\hspace{-0.3 cm}
+\begin{tabular}{p{4cm}p{9cm}}
+Fehler & Ein Fehler ist eine nicht zulässige Abweichung. \\
+Modul & Ein Modul erfüllt eine verfahrenstechnische Grundfunktion und ist gleichbedeutend mit Process Equipment Assembly (PEA). \\
+Problem & Ein Problem tritt auf, wenn ein definiertes Ziel nicht ohne Weiteres erreicht werden kann. \\
+Process Orchestration Layer & Das Process Orchestration Layer erweitert den Funktionsumfang einer Prozessführungsebene um.... \\
+Prozessführungsebene & Die Prozessführungsebene stellt die Konfiguration der Module dar. xxx \\
+Service & = Dienst \\
+Störung & Eine Störung entsteht, wenn eine Funktion nicht ausgeführt werden kann. \\
+\end{tabular}

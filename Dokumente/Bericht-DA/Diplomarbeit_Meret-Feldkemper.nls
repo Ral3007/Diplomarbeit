@@ -1,0 +1,35 @@
+\begin{thenomenclature} 
+
+ \nomgroup{B}
+
+  \item [{bspw.}]\begingroup beispielsweise\nomeqref {\relax 0}
+		\nompageref{x}
+  \item [{MTP}]\begingroup Module Type Package\nomeqref {\relax 0}
+		\nompageref{x}
+  \item [{PFE}]\begingroup Prozessführungsebene\nomeqref {\relax 0}
+		\nompageref{x}
+  \item [{UX}]\begingroup User Experience\nomeqref {\relax 0}
+		\nompageref{x}
+  \item [{vgl.}]\begingroup vergleiche\nomeqref {\relax 0}
+		\nompageref{x}
+  \item [{z. B.}]\begingroup zum Beispiel\nomeqref {\relax 0}
+		\nompageref{x}
+
+ \nomgroup{G}
+
+  \item [{Fehler}]\begingroup Ein Fehler ist eine nicht zulässige Abweichung.\nomeqref {\relax 0}
+		\nompageref{x}
+  \item [{Modul}]\begingroup Ein Modul erfüllt eine \nomeqref {\relax 0}
+		\nompageref{x}
+  \item [{Problem}]\begingroup Ein Problem tritt auf, wenn \nomeqref {\relax 0}
+		\nompageref{x}
+  \item [{Process Orchestration Layer}]\begingroup Das Process Orchestration Layer \nomeqref {\relax 0}
+		\nompageref{x}
+  \item [{Prozessführungsebene}]\begingroup xxx\nomeqref {\relax 0}
+		\nompageref{x}
+  \item [{Service}]\begingroup = Dienst\nomeqref {\relax 0}
+		\nompageref{x}
+  \item [{Störung}]\begingroup Eine Störung entsteht, wenn \nomeqref {\relax 0}
+		\nompageref{x}
+
+\end{thenomenclature}
