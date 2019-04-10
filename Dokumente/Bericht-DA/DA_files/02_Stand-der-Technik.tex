@@ -43,7 +43,7 @@ Das Konzept der Modularisierung findet vor allem in der verfahrenstechnischen In
 
 In der Namur-Empfehlung NE 148 \cite{NAMURArbeitskreis1.122013} ist beschrieben, welche Daten an das übergeordnete Automatisierungssystem übertragen werden und welche dem Modullieferanten zur Wartungsunterstützung zur Verfügung stehen. Die Daten für das übergeordnete Automatisierungssystemen umfassen unter anderem die Verriegelungs-, Steuerungs- und Regelungsstruktur, die Prozess- und Sollwerte sowie den Status des Moduls / der Services. Für die Wartungsunterstüzungen werden nur hersteller- und modulspezifische und keine prozessspezifischen Daten übertragen.
 
-Die Funktionalitäten der Module sind in Services gekapselt und werden zustandsbasiert gesteuert. Im Gegensatz zu herkömmlichen Anlagen kann im automatisierten Betrieb nicht mehr auf die einzelnen Aktoren zugegriffen werden. Jeder Service kann 16 verschiedene Zustände mit entsprechenden Zustandsübergängen annehmen (mehr dazu in Abschnitt x).
+Die Funktionalitäten der Module sind in Services gekapselt und werden zustandsbasiert gesteuert. Im Gegensatz zu herkömmlichen Anlagen kann im automatisierten Betrieb nicht mehr auf die einzelnen Aktoren zugegriffen werden. Jeder Service kann 16 verschiedene Zustände mit entsprechenden Zustandsübergängen annehmen (siehe Bild \ref{pic:Zustandsmodell-Service} in Anhang \ref{A:Zustandsmodell-Services}).
 
 Die Services können nicht nur modulintern, sondern auch modulübergreifende Abhängigkeiten aufweisen. Die Abhängigkeiten werden in 4 Relationen eingeteilt.
 \begin{itemize}
@@ -63,7 +63,7 @@ Die Gesellschaft geht davon aus, dass Probleme selbstverständlich existieren. P
 
 Liegt ein Problem vor, könnte der Problemlöseprozess sehr einfach sein, indem der Ausgangszustand erkannt, der Zielzustand festgelegt und die Operatoren gefunden werden. Allerdings haben alle diese Aspekte Eigenschaften, die den Prozess erschweren. So kann der Ausgangszustand nicht immer klar definiert sein und es muss eindeutig sein, welche Voraussetzungen als erfüllt angenommen werden können. Bei einem unklaren Ausgangszustand lässt sich auch der Zielzustand nicht eindeutig beschreiben. Die notwendigen Operatoren für die Überführung von einem Ausgangs- zu einem Zielzustand hängen mit dem Ziel zusammen. Entweder wird der Zielzustand betrachtet und nach geeigneten Operatoren gesucht, die unter Umständen nicht vorhanden sind. Oder es sind bestimmte Operatoren vorhanden und es wird davon ausgehend das bestmöglichste Ziel bestimmt. \cite{Funke2015}
 
-Wann gilt ein Problem nun als gelöst? Laut x ist ein Problem gelöst, wenn die Suche nach der Lösung abgebrochen wird. Dabei wird die Suche durch verschiedene Abbruchkriterien geleitet \cite{Funke2015}:
+Wann gilt ein Problem nun als gelöst? Laut Funke ist ein Problem gelöst, wenn die Suche nach der Lösung abgebrochen wird. Dabei wird die Suche durch verschiedene Abbruchkriterien geleitet \cite{Funke2015}:
 \begin{itemize}
 \item \textbf{Ziel:} Was ist der Zielzustand?
 \item \textbf{Operatoren:} Welche Mittel stehen mir zur Verfügung?
@@ -84,11 +84,11 @@ Probleme unterscheiden sich hinsichtlich vieler Aspekte, die beim Problemlösen 
 \end{itemize}
 Außerdem kann zwischen einfachen und komplexen Problemen unterschieden werden. Ein komplexes Problem unterscheidet sich von einem einfachen Problem in der Hinsicht, dass es mehrere unbekannte Lücken \todo{bessere Wort finden} gibt \cite{Betsch2011}. Manche treten erst bei Bearbeitung des Problems auf. Ein komplexes Problem kennzeichnet sich durch folgende Merkmale. \cite{Funke2015}
 \begin{itemize}
-\item \textbf{Komplexität der Problemsituation:} Komplexität fordert Vereinfachung durch Reduktion auf das Wesentliche \todo{Zitat??}
+\item \textbf{Komplexität der Problemsituation:} Komplexität verlangt Vereinfachung durch Reduktion auf das Wesentliche \todo{Zitat??-> ja} 
 \item \textbf{Vernetztheit der beteiligten Variablen:} Je stärker die einzelnen Aspekte des Problems und der Lösung zusammen hängen, desto komplexer ist das Problem. Es ist wichtig die Abhängigkeiten zu kennen.
 \item \textbf{Dynamik der Problemsituation:} Einerseits können durch Eingriffe in ein komplexes vernetztes System Prozess in Gang gesetzt werden, die nicht beabsichtigt waren. Andererseits wartet ein Problem nicht auf eine Entscheidung. Es ist also möglich, dass sich die Situation über die Zeit verändert.
 \item \textbf{Intransparenz:} Es liegen sowohl in Hinblick auf die Zielstellung, als auch auf die Variablen nicht alle erforderlichen Informationen vor. Dadurch ist Informationsbeschaffung gefordert.
-\item \textbf{Projektile:} Meistens gibt es nicht nur ein Ziel sondern mehrere Teilziele. Es ist möglich, dass nicht alle Teilziele erreicht werden können. Daher ist ein Abwägen und Balancieren der Kriterien notwendig. \todo{Optimierungskriterien}
+\item \textbf{Projektile:} Meistens gibt es nicht nur ein Ziel, sondern mehrere Teilziele. Es ist möglich, dass nicht alle Teilziele erreicht werden können. Daher ist ein Abwägen und Balancieren der Kriterien notwendig.
 \end{itemize}
 
 \subsection{Arten von Problemlösern}
@@ -120,7 +120,7 @@ Für das Problemlösen sind die Elemente Ausgangszustand, Zielzustand und die vo
 \\ \\
 Zudem beschreibt Funke \cite{Funke2015} einige Situationsfaktoren, die beim komplexen Problemlösen eine Relevanz haben.
 
-Die \textbf{Art der Aufgabenstellung} zeigt beispielsweise unterschiedliche Ergebnisse beim Wissenserwerb und der Steuerleistung. Personen die nur beobachten erwerben Wissen über die Systemvariablen und deren Beziehungen, aber lernen nicht, wie man das System kontrolliert. Personen die aktiv eingreifen können, erzielen eine besser Steuerleistung können aber die Zusammenhänge nicht so gut verbalisieren.
+Die \textbf{Art der Aufgabenstellung} zeigt beispielsweise unterschiedliche Ergebnisse beim Wissenserwerb und der Steuerleistung. Personen die nur beobachten, erwerben Wissen über die Systemvariablen und deren Beziehungen, aber lernen nicht, wie man das System kontrolliert. Personen die aktiv eingreifen können, erzielen eine besser Steuerleistung können aber die Zusammenhänge nicht so gut verbalisieren.
 
 \textbf{Stress} hat viele Facetten. Bei lärminduziertem Stress planen die Individuen selten vorausschauend, sondern reagieren auf eingetretene Ereignisse. Viel relevanter ist der Stress, der durch die Problemlösesituation selbst hervorgerufen wird. Dieser kann eine Notfallreaktion des kognitiven Systems hervorrufen. Die Effekte, die durch dei Notfallreaktion hervorgerufen werden sind unter anderem:
 \begin{itemize}
@@ -129,21 +129,20 @@ Die \textbf{Art der Aufgabenstellung} zeigt beispielsweise unterschiedliche Erge
 \item \textbf{Degeneration der Hypothesenbildung:} Es werden Hypothesen global gebildet und Ziele werden unkonkreter.
 \end{itemize}
 
-\textbf{Gruppen} erzielen beim komplexen Problemlösen im Gegensatz zu Einzelpersonen bessere Ergebnisse. Zudem werden Gruppenentschiedungen meist besser akzeptiert. Den größten Einfluss auf die Gruppenleitung hat das individuelle Vorwissen.
+\textbf{Gruppen} erzielen beim komplexen Problemlösen im Gegensatz zu Einzelpersonen bessere Ergebnisse. Zudem werden Gruppenentscheidungen meist besser akzeptiert. Den größten Einfluss auf die Gruppenleitung hat das individuelle Vorwissen.
 
-Die hohe \textbf{Transparenz} eines Systems kann zu besseren Leistungen führen. Es ist jedoch nicht eindeutig in welchem Maße die Transparenz einen Einfluss hat, da es gegensätzliche Untersuchungen dazu gibt. \todo{Quelle}
+Die hohe \textbf{Transparenz} eines Systems kann zu besseren Leistungen führen. Es ist jedoch nicht eindeutig in welchem Maße die Transparenz einen Einfluss hat, da es gegensätzliche Untersuchungen dazu gibt.
 
 Es wird davon ausgegangen, dass die \textbf{Art der Informationsdarbietung} einen Einfluss auf die Informationsverarbeitung hat.
 
 \subsubsection*{Innere Faktoren}
-Die \textbf{Motivation} eines Menschen setzt erst den Problemlöseprozess in Gang. \cite{Dorner1984} Wichtig ist dabei das Motiv des Problemlösers in Verbindung mit der aktuellen Situation. Dörner bezeichnet im Zusammenhang mit dem Problemlösen das Kontrollmotiv als besonders bedeutsam. Wenn etwas nicht in den Erwartungshorizont des Menschen passt, dann kann dies einen Mangelzustand hervorrufen. \todo{eventuell weiter ausformulieren}
+Die \textbf{Motivation} eines Menschen setzt erst den Problemlöseprozess in Gang \cite{Dorner1984}. Wichtig ist dabei das Motiv des Problemlösers in Verbindung mit der aktuellen Situation. Dörner bezeichnet im Zusammenhang mit dem Problemlösen das Kontrollmotiv als besonders bedeutsam. Wenn etwas nicht in den Erwartungshorizont des Menschen passt, dann kann dies einen Mangelzustand hervorrufen.
 
-Ebenfalls einen Einfluss haben \textbf{Emotionen}.
-Diese wirken sich auf den Ablauf des Denkens aus. So vermindern negative Emotionen die Anzahl an Selbstreflektionen beim Denken und rufen Notfallreaktionen hervor. Positive Emotionen können hingegen zu Nachlässigkeit und Oberflächlichkeit führen. Wie groß der Einfluss der Emotionen auf den Problemlöseprozess ist hängt von dem Selbstkonzept des Individuums ab. Das Selbstkonzept beschreibt die Kompetenz, die in heuristische und epistemische Kompetenz eingeteilt ist. Die heuristische Kompetenz beschreibt das Zutrauen, das jemand in seine Fähigkeiten hat mit Problemsituationen umzugehen für die es keine eindeutige Verhaltensweise gibt. Die epistemische Kompetenz zeichnet sich durch das Zutrauen, eine Situation aufgrund des vorhandenen Wissens zu bewältigen, aus. Zusammen ergibt sich daraus die aktuelle Kompetenz. \cite{Dorner1984}
+Ebenfalls einen Einfluss haben \textbf{Emotionen}. Diese wirken sich auf den Ablauf des Denkens aus. So vermindern negative Emotionen die Anzahl an Selbstreflektionen beim Denken und rufen Notfallreaktionen hervor. Positive Emotionen können hingegen zu Nachlässigkeit und Oberflächlichkeit führen. Wie groß der Einfluss der Emotionen auf den Problemlöseprozess ist, hängt von dem Selbstkonzept des Individuums ab. Das Selbstkonzept beschreibt die Kompetenz, die in heuristische und epistemische Kompetenz eingeteilt ist. Die heuristische Kompetenz beschreibt das Zutrauen, das jemand in seine Fähigkeiten hat mit Problemsituationen umzugehen für die es keine eindeutige Verhaltensweise gibt. Die epistemische Kompetenz zeichnet sich durch das Zutrauen, eine Situation aufgrund des vorhandenen Wissens zu bewältigen, aus. Zusammen ergibt sich daraus die aktuelle Kompetenz. \cite{Dorner1984}
 
 \subsection{Phasen des Problemlösens}
 \label{2:Phasen-Problemloesen}
-Der Problemlöseprozess teilt sich in fünf Phasen auf. Die erste ist die \textbf{Problemidentifikation}. \glqq Ein Problem ist identifiziert, wenn man Ziele setzt und erkennt, dass ein bestimmtes Ziel nicht ohne weiteres Nachdenken erreicht werden kann.\grqq \citep[146]{Betsch2011}\ Die zweite Phase ist die \textbf{Ziel- und Situationsanalyse}. Dabei muss zunächst der zu erreichende Zielzustand geklärt und die Eigenschaften und Beschränkungen erkannt werden. Anschließend ist zu klären, warum es nicht geht und was zur Verfügung steht bzw. was man gebrauchen kann. Die \textbf{Planerstellung} erfolgt in Phase drei. Diese umfasst die Vorbereitung des konkreten Vorgehens mit folgenden Aspekten:
+Der Problemlöseprozess teilt sich in fünf Phasen auf. Die erste ist die \textbf{Problemidentifikation}. \glqq Ein Problem ist identifiziert, wenn man Ziele setzt und erkennt, dass ein bestimmtes Ziel nicht ohne weiteres Nachdenken erreicht werden kann\grqq \ \citep[146]{Betsch2011}. Die zweite Phase ist die \textbf{Ziel- und Situationsanalyse}. Dabei muss zunächst der zu erreichende Zielzustand geklärt und die Eigenschaften und Beschränkungen erkannt werden. Anschließend ist zu klären, warum es nicht geht und was zur Verfügung steht bzw. was man gebrauchen kann. Die \textbf{Planerstellung} erfolgt in Phase drei. Diese umfasst die Vorbereitung des konkreten Vorgehens mit folgenden Aspekten:
 \begin{enumerate}
 \item Abfolgen erkennen
 \item Randbedingungen erkennen
@@ -160,9 +159,9 @@ Abschließend erfolgt in Phase fünf die \textbf{Ergebnisbewertung}. Dabei wird 
 \label{2-Störungsdiagnose}
 Bei der Störungsdiagnose ist im Störfall eine effiziente Problemlösung gefragt. Das Wissen und Handeln des Individuums steht dabei im Kontext technischer Systeme. Es werden die beiden Wissensarten Strukturwissen und Kontroll- und Steuerungswissen unterschieden. \cite{Funke2015}
 
-Das Strukturwissen bezieht sich auf die Schnittstellenebene, das Interface, und die Systemebene. Es beinhaltet Faktenwissen über die Funktionsweise und Organisation der Komponenten und deren möglichen Zustände. Es ist möglich, dass ein Operator umfassende Kenntnisse über das Interface hat, aber über keinerlei Systemwissen verfügt. Eine Steuerung des Systems ist mit reinem Strukturwissen nicht möglich. \cite{Funke2015, Kluwe1997}
+Das Strukturwissen bezieht sich auf die Schnittstellenebene, das Interface, und die Systemebene. Es beinhaltet Faktenwissen über die Funktionsweise und Organisation der Komponenten und deren möglichen Zustände. Es ist möglich, dass ein Bediener umfassende Kenntnisse über das Interface hat, aber über keinerlei Systemwissen verfügt. Eine Steuerung des Systems ist mit reinem Strukturwissen nicht möglich. \cite{Funke2015, Kluwe1997}
 
-Das Kontroll- und Steuerungswissen bezieht sich auf Regeln, anhand derer die Zustände des Systems mit den Zielen des Operators durch Systemeingriffe verknüpft werden können \cite{Funke2015}. Kluwe \cite{Kluwe1997} teilt das Wissen in mehrere Ebenen. Auf der Ebene des Eingriffswissens führt der Operator verfügbare Prozeduren ohne weiteres Wissen über das System aus. Dies ähnelt einer black-box. Auf der Ebene des Kausalwissens verfügt der Operator zusätzlich über Kenntnisse des Ursache-Wirkungsgefüges. Welches Wissen wichtig ist hängt von den Aufgaben des Operators ab.
+Das Kontroll- und Steuerungswissen bezieht sich auf Regeln, anhand derer die Zustände des Systems mit den Zielen des Operators durch Systemeingriffe verknüpft werden können \cite{Funke2015}. Kluwe \cite{Kluwe1997} teilt das Wissen in mehrere Ebenen. Auf der Ebene des Eingriffswissens führt der Operator verfügbare Prozeduren ohne weiteres Wissen über das System aus. Dies ähnelt einer Black-Box. Auf der Ebene des Kausalwissens verfügt der Operator zusätzlich über Kenntnisse des Ursache-Wirkungsgefüges. Welches Wissen wichtig ist hängt von den Aufgaben des Operators ab.
 
 Beim Bearbeiten von komplexen Problemen muss anhand der Anforderungen zwischen den verschiedenen Wissensarten flexibel gewechselt werden können. \cite{Funke2015}
 
@@ -180,7 +179,7 @@ Während Menschen direkt kommunizieren können, ist bei der Kommunikation mit ei
 \item \textbf{Fenster:} Abgegrenzter steuerbarer Bereich.
 \item \textbf{Direkte Manipulation:} Objekte können direkt bearbeitet werden. Beispiele sind das Verändern der Größe oder das Verschieben von Objekten.
 \end{itemize}
-Damit die Kommunikation zwischen Mensch und System möglich ist müssen geeignete Mittel zur Verfügung stehen, die in Abschnitt x konkreter thematisiert sind.
+Damit die Kommunikation zwischen Mensch und System möglich ist, müssen geeignete Mittel zur Verfügung stehen, die in Abschnitt \ref{2:Assistenzsysteme} konkreter thematisiert sind.
 
 \section{Assistenz}
 Laut Duden bedeutet Assistenz Beistand oder Mithilfe \cite{DudenAssistenz}. Das Verb assistieren wird mit den Worten \glqq jemanden nach dessen Anweisungen zur Hand gehen, bei einer Arbeit oder Tätigkeit behilflich sein\grqq \ beschrieben \cite{DudenAssistieren}. In der Literatur finden sich eine Vielzahl von Definitionen. Diese reichen vom Schraubendreher, über autonome Ausführung von Funktionen bis hin zur individualisierten Nutzerunterstützung \cite{Ludwig}. Zur Einordnung, in wie weit der Nutzer durch das Assistenzsystem unterstützt wird, finden die 10 Level der Automatisierung von Sheridan \cite{Wandke2005} die häufigste Anwendung.
@@ -233,9 +232,10 @@ Digitale Assistenz kann unter anderem folgende Aufgaben haben \cite{Wandke2005}:
 
 \subsection{Assistenzsysteme}
 \label{2:Assistenzsysteme}
-Zur Verbindung der Fähigkeiten des menschlichen Nutzers und den Systemfunktionen können Assistenzsysteme verwendet werden. Ein Assistenzsysteme besteht aus mehreren Komponenten. Der Eingabemethode, also die Art und Weise, wie der Mensch mit dem System interagieren kann. Der tatsächlichen Schnittstelle, beispielsweise einem Computer, der Informationen anzeigt. Und dem Assistent als solches, der Informationen anpasst und bereit stellt.
+Zur Verbindung der Fähigkeiten des menschlichen Nutzers und den Systemfunktionen können Assistenzsysteme verwendet werden. Ein Assistenzsystem besteht aus mehreren Komponenten. Der Eingabemethode, also die Art und Weise, wie der Mensch mit dem System interagieren kann. Der tatsächlichen Schnittstelle, beispielsweise einem Computer, der Informationen anzeigt. Und dem Assistent als solches, der Informationen anpasst und bereit stellt.
 
 \subsubsection*{Eingabemethoden}
+\label{2:Eingabemethoden}
 Die Eingabemethoden orientieren sich maßgeblich an den Fähigkeiten des Menschen. Der Mensch verwendet meist Hände und Sprache. Insbesondere die Hände bieten eine Vielzahl an Möglichkeiten mit einem System zu interagieren. So können Hilfsmittel, wie Maus oder Tasten, verwendet werden oder die Interaktion erfolgt direkt mit Gesten oder über ein Touchscreen. Die Interaktionsmöglichkeiten sind in Tabelle \ref{tab:Interaktionsmöglichkeit} aufgeführt. \cite{Zuhlke2012}
 
 \begin{sidewaystable}[ph!]
@@ -260,6 +260,7 @@ Die Eingabemethoden orientieren sich maßgeblich an den Fähigkeiten des Mensche
 \end{sidewaystable}
 
 \subsubsection*{Schnittstelle}
+\label{2:Schnittstelle}
 Mit Schnittstelle ist gemeint, wie und mit welchen Mitteln Informationen dem Nutzer zur Verfügung gestellt werden. Mögliche Systeme für eine Repräsentation der Informationen sind in Tabelle \ref{tab:Interaktionssystem} dargestellt. \cite{Zuhlke2012, Kasselmann2016, Weidner2016}
 
 \begin{sidewaystable}[ph!]
@@ -302,7 +303,7 @@ In der DIN EN ISO 9241 sind Empfehlungen für die Ergonomie der Mensch-System-In
 Es ist deutlich zu erwähnen, dass in den meisten Fällen nicht alle Aspekte gleichermaßen berücksichtigt werden können.
 
 \subsubsection*{Informationsdarstellung}
-Die richtige Informationsdarstellung ist wichtig, um den Problemlöseprozess nicht noch kompliziert zu machen. Teil 112 \cite{ISO9241-112} der DIN EN ISO 9241 beschreibt folgende wichtige Aspekte für eine gute Informationsdarstellung:
+Die richtige Informationsdarstellung ist wichtig, um den Problemlöseprozess nicht noch komplizierter zu machen. Teil 112 \cite{ISO9241-112} der DIN EN ISO 9241 beschreibt folgende wichtige Aspekte für eine gute Informationsdarstellung:
 \begin{itemize}
 \item \textbf{Entdeckbarkeit:} Das System sollte so geschaltet sein, dass Informationen und Steuerelemente gut wahrgenommen werden können. Außerdem sollten Informationen in dem Tempo dargestellt werden das dem Nutzer entspricht.
 \item \textbf{Ablenkungsfreiheit:} Der Nutzer sollte nicht von anderen Informationen abgelenkt werden, die nicht für die Bearbeitung der Aufgabe notwendig sind.
@@ -315,7 +316,7 @@ Die richtige Informationsdarstellung ist wichtig, um den Problemlöseprozess nic
 \subsection{User Experience}
 Im Zusammenhang mit einer guten Gestaltung werden die Erlebnisse, die der Nutzer bei der Verwendung von Technologien erfährt, immer wichtiger. Technologie ist mehr als ein Tool, das verwendet wird um angenehme Zeit zu schaffen \todo{umformulieren!}. Es kann vielmehr selbst eine Quelle für Vergnügen sein. \cite{Hassenzahl2008}
 
-User Experience (UX) verschiebt die Aufmerksamkeit von Produkt und Material (bspw. Funktionen, Interaktionen, ...) zu den Menschen und den Gefühlen \cite{Hassenzahl2008}. Für Hassenzahl \citep[12]{Hassenzahl2008} ist UX \glqq a momentary, primarily evaluative feeling (good-bad) while interacting with a product or service.\grqq \ Der Titel \glqq Attention web designers: You have 50 milliseconds to make a good first impression!\grqq \ beschreibt die Relevanz eines guten UX-Designs sehr treffend. 
+User Experience (UX) verschiebt die Aufmerksamkeit von Produkt und Material (bspw. Funktionen, Interaktionen, ...) zu den Menschen und den Gefühlen \cite{Hassenzahl2008}. Für Hassenzahl \citep[12]{Hassenzahl2008} ist UX \glqq a momentary, primarily evaluative feeling (good-bad) while interacting with a product or service.\grqq \ Der Titel \glqq Attention web designers: You have 50 milliseconds to make a good first impression!\grqq \ \citep[92]{Hassenzahl2006} beschreibt die Relevanz eines guten UX-Designs sehr treffend. 
 %Unterschiedliche konzeptuelle und methodische Ansätze führen zu verschiedenen Blickwinkeln, die stark voneinander profitieren.
 \cite{Hassenzahl2006}
 

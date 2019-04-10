@@ -313,6 +313,9 @@
 %-------------------------------------------------------------------------
 % Anpassung des Literaturverzeichnisses
 %-------------------------------------------------------------------------
+%Own BibStyle for Norm
+%\InputIfFileExists{p_biblatex}{}{}
+
 \AtEndOfClass{ % muss 'atEndOfClass' ausgeführt werden, da das 'biblatex'-Paket erst dann geladen wird (s.o.)
   \setlength{\bibitemsep}{10pt}
   \defbibheading{bibliography}{

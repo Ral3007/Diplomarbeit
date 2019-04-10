@@ -1,12 +1,38 @@
 \chapter{Modulare Anlage}
-\section{Zustandsdiagramm Services}
-\todo{Zustandsdiagramm Services}
+\section{Zustandsmodell Services}
+\label{A:Zustandsmodell-Services}
 
+\todo{Quelle}
  \begin{figure}[htbp]
  \centering
- \includegraphics[scale=0.6]{DA_files/Bilder/Anhang/Zustandsdiagramm-Services.png}
- \caption{Zustandsmodell Service}
+ \includegraphics[scale=0.55]{DA_files/Bilder/Anhang/Zustandsdiagramm-Services.png}
+ \caption{Zustandsmodell Services}
+ \label{pic:Zustandsmodell-Service}
  \end{figure}
+
+\chapter{Prozessführungsebene}
+\label{A:PFE}
+
+Für eine besser Übersicht ist die PFE in vier Ebenen eingeteilt. Auf der obersten Ebene ist eine grobe Übersicht über die Anlage gegeben. Die unterste Ebene stellt die meisten Details dar. Tabelle \ref{tab:Ebenen-PFE} beschreibt, welche Informationen auf welcher Ebene dargestellt sind. Mittels der Navigation können die Ebenen gewechselt werden.
+
+\begin{table}[htbp]
+\caption{Übersicht über die Ebenen in der Prozessführungsebene}
+\centering
+\begin{tabular}{p{1,7cm}|p{2,3cm}|p{2,2cm}|p{2,2cm}|p{2,3cm}|}
+ & \textbf{Navigation} & \textbf{KPI} & \textbf{Rezept} & \textbf{Services / HMI} \\
+\hline
+\textbf{Ebene 1} & Shopfloor: Übersicht über alle vorhandenen Anlagen & & Phases für die angewählt Anlage & / \\
+\hline
+\textbf{Ebene 2} & Subplant: Anzeige aller Module und deren Verbindungen &  & Procedures & Alle Services der Anlage \\
+\hline
+\textbf{Ebene 3} & Modul & KPIs für das angewählte Modul & Procedures: Markierung des angewählten Moduls & Services des Moduls \\
+\hline \textbf{Ebene 4} & Modul & & Procedures: Markierung des Moduls & Anzeige des HMI des Moduls \\
+\hline
+\end{tabular}
+\label{tab:Ebenen-PFE}
+\end{table}
+
+\todo{Bilder PFE}
 
 \chapter{Anhang Konzept}
 \section{Farbschema}
@@ -17,61 +43,22 @@
 \begin{figure}[htbp]
 \centering
 \includegraphics[angle=90,scale=0.6]{DA_files/UML/Anhang/Aktivitaetsdiagramm-Problem.pdf}
-\caption{Aktivitätsdiagramm Anpassung an Problemauslöser}
+\caption{Aktivitätsdiagramm - Anpassung an Problemauslöser}
 \end{figure}
 
-\chapter{Anhang Validierung}
-\section{Fragebogen User Experience}
+\chapter{Fragebogen}
+\label{A:Fragebogen-Validierung}
+%\section{Fragebogen User Experience}
 
-\begin{table}[htbp]
-\caption{Fragen zum Vorwissen}
+\begin{figure}[htbp]
 \centering
-\begin{tabular}{|p{0.6 \textwidth}|l|l|}
-\hline
-Frage & Ja & Nein \\
-\hline
-Wissen Sie, was eine modulare Anlage ist? & & \\
-\hline
-Wissen Sie, was Services im Kontext der modularen Anlage sind? & & \\
-\hline
-Haben Sie Erfahrungen im Betrieb von verfahrenstechnischen Anlagen? & & \\
-\hline
-Wissen Sie, wie Rezepte bei verfahrenstechnischen Anlagen funktionieren? & & \\
-\hline
-Haben Sie schon mal Assistenzsysteme zum Problemlösen verwendet? & & \\
-\hline 
-\end{tabular}
-\end{table}
+\includegraphics[scale=0.8]{DA_files/Bilder/Anhang/Fragebogen-Vorwissen.pdf}
+\caption{Aussagen zum Vorwissen}
+\end{figure}
 
-%\subsection*{SUS-Fragebogen}
-\begin{table}[htbp]
-\caption{SUS-Fragebogen}
+\begin{figure}[htbp]
 \centering
-\begin{tabular}{|p{0.4 \textwidth}|p{0.15 \textwidth}|p{0.04 \textwidth}|p{0.04 \textwidth}|p{0.04 \textwidth}|p{0.1 \textwidth}|}
-\hline
-\textbf{Aussage} & Stimme gar nicht zu & & & & Stimme voll zu \\
-\hline
-Ich kann mir sehr gut vorstellen das Assistenzsystem regelmäßig zu nutzen. & & & & & \\
-\hline
-Ich empfinde das Assistenzsystem unnötig komplex. & & & & & \\
-\hline
-Ich empfinde das Assistenzsystem als einfach zu nutzen & & & & & \\
-\hline
-Ich denke, dass ich technischen Support brauchen würde, um das Assistenzsystem zu nutzen. & & & & & \\
-\hline
-Ich finde, dass die verschiedenen Funktionen des Assistenzsystems gut integriert sind. & & & & & \\
-\hline
-Ich finde, dass es im Assistenzsystem zu viele Inkonsistenzen gibt. & & & & & \\
-\hline
-Ich kann mir vorstellen, dass die meisten Leute das System schnell zu beherrschen lernen. & & & & & \\
-\hline
-Ich empfinde die Bedienung als sehr umständlich. & & & & & \\
-\hline
-Ich habe mich bei der Nutzung des Assistenzsystems sehr sicher gefühlt. & & & & & \\
-\hline
-Ich musste eine Menge Dinge lernen, bevor ich mit dem Assistenzsystem arbeiten konnte. & & & & & \\
-\hline
-\end{tabular}
-\end{table}
+\includegraphics[scale=0.8]{DA_files/Bilder/Anhang/Fragebogen-Auswertung.pdf}
+\caption{Auswertung}
+\end{figure}
 
-Offene Fragen \todo{Offene Fragen}

@@ -3,31 +3,33 @@
  \nomgroup{B}
 
   \item [{bspw.}]\begingroup beispielsweise\nomeqref {\relax 0}
-		\nompageref{x}
+		\nompageref{1}
   \item [{MTP}]\begingroup Module Type Package\nomeqref {\relax 0}
-		\nompageref{x}
+		\nompageref{1}
   \item [{PFE}]\begingroup Prozessführungsebene\nomeqref {\relax 0}
-		\nompageref{x}
+		\nompageref{1}
   \item [{UX}]\begingroup User Experience\nomeqref {\relax 0}
-		\nompageref{x}
+		\nompageref{1}
+  \item [{vgl.}]\begingroup vergleiche\nomeqref {\relax 0}
+		\nompageref{1}
   \item [{z. B.}]\begingroup zum Beispiel\nomeqref {\relax 0}
-		\nompageref{x}
+		\nompageref{1}
 
  \nomgroup{G}
 
   \item [{Fehler}]\begingroup Ein Fehler ist\nomeqref {\relax 0}
-		\nompageref{x}
+		\nompageref{1}
   \item [{Modul}]\begingroup Ein Modul erfüllt eine verfahrenstechnische Grundfunktion und ist gleichbedeutend mit Process Equipment Assembly (PEA)\nomeqref {\relax 0}
-		\nompageref{x}
+		\nompageref{1}
   \item [{Problem}]\begingroup Ein Problem\nomeqref {\relax 0}
-		\nompageref{x}
-  \item [{Process Orchestration Layer}]\begingroup Ein Problem\nomeqref {\relax 0}
-		\nompageref{x}
+		\nompageref{1}
+  \item [{Process Orchestration Layer}]\begingroup Das Process Orchestration Layer erweitert den Funktionsumfang einer Prozessführungsebene um....\nomeqref {\relax 0}
+		\nompageref{1}
   \item [{Prozessführungsebene}]\begingroup xxx\nomeqref {\relax 0}
-		\nompageref{x}
+		\nompageref{1}
   \item [{Service}]\begingroup = Dienst\nomeqref {\relax 0}
-		\nompageref{x}
+		\nompageref{1}
   \item [{Störung}]\begingroup Eine Störung\nomeqref {\relax 0}
-		\nompageref{x}
+		\nompageref{1}
 
 \end{thenomenclature}

@@ -31,7 +31,7 @@ Wie kann nun der Nutzer durch den Problemlöseprozess begleitet werden? In Absch
 \label{pic:Konzeptidee}
 \end{figure}
 
-Zunächst muss das Problem identifiziert werden. Dazu stehen dem Nutzer alle Informationen über den aktuellen Status der modularen Anlage zur Verfügung. Durch Meldungen, Warnungen und Alarme können Probleme durch das System signalisiert werden. Weiterführend ist es denkbar, dass auch der Nutzer ein Problem definiert. Ist das Problem identifiziert, so müssen auch die Randbedingungen \footnote{im Folgenden auch Ziele genannt} \todo{Ziel} definiert werden. Im Fall eines zu wartenden Moduls kann z.B. ein maximaler Produktionsausfall angegeben werden.
+Zunächst muss das Problem identifiziert werden. Dazu stehen dem Nutzer alle Informationen über den aktuellen Status der modularen Anlage zur Verfügung. Durch Meldungen, Warnungen und Alarme können Probleme durch das System signalisiert werden. Weiterführend ist es denkbar, dass auch der Nutzer ein Problem definiert. Ist das Problem identifiziert, so müssen auch die Randbedingungen \footnote{im Folgenden auch Ziele genannt} definiert werden. Im Fall eines zu wartenden Moduls kann z.B. ein maximaler Produktionsausfall angegeben werden.
 
 Ist das Problem identifiziert und die Randbedingungen definiert, müssen die möglichen Lösungen betrachtet werden. Lösungen können sowohl vom System, als auch vom Nutzer vorgeschlagen werden. Nach Bestimmung der Lösungen erfolgt ein Vergleich dieser.
 
@@ -44,7 +44,7 @@ Wie kann nun der oben beschriebene Problemlöseprozess unterstützt werden? Zun�
 Der aktuelle Status kann über die PFE abgelesen werden. Diese gibt einen Überblick über die aktuelle Verschaltung der Module, das Rezept, die Key Performace Indicator (KPIs) und die Services. Auch eine Übersicht über das Anlagenequipment eines jeden Moduls ist vorhanden. Die notwendigen Meldungen, Warnungen und Alarme werden derzeit \todo{warum?} nicht angezeigt. Durch die Integration dieser kann der Nutzer bei der Problemidentifikation unterstützt werden. Tritt beispielsweise eine Meldung auf, hat der Nutzer die Möglichkeit dieses als Problem aufzunehmen und nach Lösungen zu suchen.
 
 \subsubsection*{Neues Problem}
-Welche Rahmenbedingungen sind für die Charakterisierung eines Problems relevant? In der Analyse (Abschnitt \ref{3:Informationsbedarf-Operator}) wird sowohl auf die technischen, als auch die wirtschaftlichen Ziele verwiesen. Im Kontext eines produzierenden Unternehmens ist die Wirtschaftlichkeit eine wichtige ökonomische Zielgröße \cite{} (Bloech-Einführung in die Produktion). Dem Nutzer wird aus diesem Grund die Möglichkeit gegeben, relevante Ziele hinzuzufügen und genauer zu spezifizieren. Welche dies genau sein können, ist von dem Unternehmen und dem Problem abhängig.
+Welche Rahmenbedingungen sind für die Charakterisierung eines Problems relevant? In der Analyse (Abschnitt \ref{3:Informationsbedarf-Operator}) wird sowohl auf die technischen, als auch die wirtschaftlichen Ziele verwiesen. Im Kontext eines produzierenden Unternehmens ist die Wirtschaftlichkeit eine wichtige ökonomische Zielgröße \cite{} (Bloech-Einführung in die Produktion) \todo{Zitat}. Dem Nutzer wird aus diesem Grund die Möglichkeit gegeben, relevante Ziele hinzuzufügen und genauer zu spezifizieren. Welche dies genau sein können, ist von dem Unternehmen und dem Problem abhängig.
 
 Neben der Definition der Ziele, ist es dem Nutzer möglich eine Übersicht über den Problembereich zu erhalten. Dazu markiert das Assistenzsystem zunächst den Bereich in dem das Problem ausgelöst wurde und die zugehörigen Komponenten (mehr dazu in Abschnitt \ref{4:Anpassung-Problembereich}).
 %Betrifft der Bereich ein bestimmtes Modul, dann werden die zugehörigen Services und der zugehörige Bereich im Rezept markiert. Betrifft der Bereich einen Service, sind die Parameterabhängigkeiten und das zugehörige Equipment relevant.
@@ -185,10 +185,10 @@ Hat der Nutzer sich für eine Lösung entschieden, sind keine Änderungen mehr m
 \item ...wie viele Arbeitsstunden benötigt werden, um das Problem zu beheben.
 \end{itemize}
 Zur Unterstützung der Lesbarkeit wurden Symbole für jede Spezifikation hinzugefügt. Eine Darstellung dessen ist in Abbildung \ref{pic:pD-Probleme-klustern} zu sehen. Dort befindet sich auch ein Symbol für Einstellungen. Dies ermöglicht, bei Weiterentwicklung des Prototypen, einen erweiterten Funktionsumfang.
-
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.8]{DA_files/Bilder/Konzept/Skizze-Klustern-Problem.png}
+\vspace{0,2cm}
+\includegraphics[scale=0.7]{DA_files/Bilder/Konzept/Skizze-Klustern-Problem.png}
 \caption{Klustern von Problemen}
 \label{pic:pD-Probleme-klustern}
 \end{figure}

@@ -1,19 +1,14 @@
-This is makeindex, version 2.15 [MiKTeX 2.9.6630 64-bit] (kpathsea + Thai support).
-Scanning style file C:/Program Files/MiKTeX 2.9/makeindex/nomencl/nomencl.ist.......
-** Input style error (file = C:/Program Files/MiKTeX 2.9/makeindex/nomencl/nomencl.ist, line = 70):
+This is makeindex, version 2.15 [TeX Live 2015] (kpathsea + Thai support).
+Scanning style file /usr/local/texlive/2015/texmf-dist/makeindex/nomencl/nomencl.ist.......
+** Input style error (file = /usr/local/texlive/2015/texmf-dist/makeindex/nomencl/nomencl.ist, line = 70):
    -- Unknown specifier lethead_prefix.
-** Input style error (file = C:/Program Files/MiKTeX 2.9/makeindex/nomencl/nomencl.ist, line = 71):
+** Input style error (file = /usr/local/texlive/2015/texmf-dist/makeindex/nomencl/nomencl.ist, line = 71):
    -- Unknown specifier lethead_suffix.
-** Input style error (file = C:/Program Files/MiKTeX 2.9/makeindex/nomencl/nomencl.ist, line = 72):
+** Input style error (file = /usr/local/texlive/2015/texmf-dist/makeindex/nomencl/nomencl.ist, line = 72):
    -- Unknown specifier lethead_flag.
 ...done (10 attributes redefined, 3 ignored).
-Scanning input file Diplomarbeit_Meret-Feldkemper.nlo....done (12 entries accepted, 0 rejected).
-Scanning input file Diplomarbeit_Meret-Feldkemper.glo...
-!! Input index error (file = Diplomarbeit_Meret-Feldkemper.glo, line = 1):
-   -- Unknown index keyword \glossaryentry.
-done (0 entries accepted, 1 rejected).
-Overall 2 files read (12 entries accepted, 1 rejected).
-Sorting entries....done (51 comparisons).
-Generating output file Diplomarbeit_Meret-Feldkemper.nls....done (33 lines written, 0 warnings).
+Scanning input file Diplomarbeit_Meret-Feldkemper.nlo....done (13 entries accepted, 0 rejected).
+Sorting entries....done (47 comparisons).
+Generating output file Diplomarbeit_Meret-Feldkemper.nls....done (35 lines written, 0 warnings).
 Output written in Diplomarbeit_Meret-Feldkemper.nls.
 Transcript written in Diplomarbeit_Meret-Feldkemper.ilg.

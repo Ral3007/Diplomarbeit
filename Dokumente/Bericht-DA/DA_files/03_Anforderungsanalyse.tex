@@ -79,7 +79,7 @@ Neben den Problemen, die sich auf herkömmliche Anlage übertragen lassen, könn
 
 \subsection{Prozessführungsebene}
 \label{3:PFE}
-Das MTP stellt eine Reihe an Informationen zur Verfügung. Welche davon wie angezeigt werden ist Aufgabe der Prozessführungsebene. Für das P2O-Lab der TU Dresden wurde eine solche PFE entwickelt \todo{Zitat}. Diese besteht in Ebene zwei, drei und vier aus vier Bereichen (siehe Bild \ref{pic:Bereiche-PFE}) \todo{Bild neben Text?}. In Ebene eins sind lediglich die KPI, die Navigation und das Rezept sichtbar.
+Das MTP stellt eine Reihe an Informationen zur Verfügung. Welche davon wie angezeigt werden, ist Aufgabe der Prozessführungsebene. Für das P2O-Lab der TU Dresden wurde eine solche PFE entwickelt \todo{Zitat}. Für eine bessere Übersicht ist diese in vier Ebenen eingeteilt, die sich anhand ihres Detailgrads unterscheiden (siehe Anhang \ref{A:PFE}). Die PFE besteht in Ebene zwei, drei und vier aus vier Bereichen (siehe Bild \ref{pic:Bereiche-PFE}). In Ebene eins sind lediglich die KPI, die Navigation und das Rezept sichtbar. Zwischen den verschiedenen Ebenen kann mittels der Navigation gewechselt werden.
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.25]{DA_files/Bilder/Analyse/PFE-Bereiche.png}
@@ -93,24 +93,7 @@ Das MTP stellt eine Reihe an Informationen zur Verfügung. Welche davon wie ange
 \item \textbf{Rezept:} Zeigt das Rezept zur modularen Anlage an. Dieses ist aufgeteilt in Phases, Procedures und Steps (siehe Abschnitt \ref{2:Modulare-Anlagen}).
 \item \textbf{Services / HMI:} Zeigt die Dienste der Module an. Diese beinhaltet den aktuellen Zustand und mögliche Zustandsübergänge, die aktuelle Strategie \todo{Fahrweise?} und die aktuelle Betriebsart. Des Weiteren können noch die vorhandenen Fahrweisenparameter angezeigt und eingestellt werden. Auf der letzten Ebene wird statt der Services das HMI des Moduls angezeigt.
 \end{itemize}
-Für eine besser Übersicht ist die PFE in vier Ebenen eingeteilt. Auf der obersten Ebene ist eine grobe Übersicht über die Anlage gegeben. Die unterste Ebene stellt die meisten Details dar. Tabelle \ref{tab:Ebenen-PFE} beschreibt, welche Informationen auf welcher Ebene dargestellt sind. Mittels der Navigation können die Ebenen gewechselt werden. \todo{Bilder der Ebenen in Anhang?}
-\todo{Tabelle in Anhang?}
-\begin{table}[htbp]
-\centering
-\begin{tabular}{p{1,7cm}|p{2,3cm}|p{2,2cm}|p{2,2cm}|p{2,3cm}|}
- & \textbf{Navigation} & \textbf{KPI} & \textbf{Rezept} & \textbf{Services / HMI} \\
-\hline
-\textbf{Ebene 1} & Shopfloor: Übersicht über alle vorhandenen Anlagen & & Phases für die angewählt Anlage & / \\
-\hline
-\textbf{Ebene 2} & Subplant: Anzeige aller Module und deren Verbindungen &  & Procedures & Alle Services der Anlage \\
-\hline
-\textbf{Ebene 3} & Modul & KPIs für das angewählte Modul & Procedures: Markierung des angewählten Moduls & Services des Moduls \\
-\hline \textbf{Ebene 4} & Modul & & Procedures: Markierung des Moduls & Anzeige des HMI des Moduls \\
-\hline
-\end{tabular}
-\label{tab:Ebenen-PFE}
-\caption{Übersicht über die Ebenen in der Prozessführungsebene}
-\end{table}
+
 
 
 \section{Informationsbedarf}
@@ -143,9 +126,7 @@ Stützt man sich bei der Ermittlung des Informationsbedarfs auf die individuelle
 
 In Abschnitt \ref{2:Unterscheidung-Probleme} ist bereits beschrieben, dass komplexe Probleme auf das Wesentliche reduziert werden müssen und häufig Informationsbeschaffung gefordert ist. In dieser Arbeit soll die Informationsbeschaffung unterstützt und die Übersichtlichkeit der Information zur Reduktion der Komplexität gewahrt werden.
 
-Welche Informationen sind nun für den Modulbetreiber relevant, wenn ein Modul ausgetauscht werden muss?
-
-Der sicherlich wichtigste Punkt ist die Kompatibilität. Passen die Anschlüsse zu den anderen Modulen der Anlage? Kann das Rezept weiterhin, wie konfiguriert gefahren werden oder sind Anpassungen notwendig? Um dies einschätzen zu können sind weitreichende Informationen über das Modul und die aktuelle Anlage notwendig. Diese umfassen
+Welche Informationen sind nun für den Modulbetreiber relevant, wenn ein Modul ausgetauscht werden muss?Der sicherlich wichtigste Punkt ist die Kompatibilität. Um diese einschätzen zu können, sind weitreichende Informationen über das Modul und die aktuelle Anlage notwendig. Diese umfassen
 \begin{itemize}
 \item \textbf{die Abmaße:} Passt das Modul von der Größe an die gleiche Stelle, wie das andere Modul?
 \item \textbf{die Schnittstellen:} Ist das Modul mit den Schnittstellen der anderen Module kompatibel?
@@ -162,7 +143,7 @@ Ein Modulaustausch hat nicht nur auf der rein technischen Seite einen Einfluss. 
 \label{pic:Produktionsprozesse-Zielgroessen}
 \end{figure}
 
-In dieser Arbeiten werden nur einige wenige Einflussfaktoren berücksichtigt. Nicht für jedes Unternehmen und jede Ebene im Unternehmen ist jede Zielgröße und somit auch nicht jeder Einflussfaktor relevant. In dieser Arbeit wird der Fokus im Zuge des Modulaustauschs auf die Ebene der Produktionsplanung und Betriebsleitung gelegt. Auf dieser ist untere anderem die Kapazitätsoptimierung und damit das Ziel der Produktivität \& Effektivität relevant. Die Produktivität beschreibt, wie viel der verfügbaren Arbeitszeit zur Produktion verwendet wird. Steht aufgrund vieler Störungen in der Anlage die Produktion still, so ist die Produktivität gering. Bei einer hohen Effektivität werden die verfügbaren Ressourcen ideal genutzt. Dies kann beispielsweise die Zeit sein, die eine Reparatur in Anspruch nimmt. Folgende Einflussfaktoren sollen im weiteren Verlauf der Arbeit berücksichtigt werden:
+In dieser Arbeiten werden nur einige wenige Einflussfaktoren berücksichtigt. Nicht für jedes Unternehmen und jede Ebene im Unternehmen ist jede Zielgröße und somit auch nicht jeder Einflussfaktor relevant. In dieser Arbeit wird der Fokus im Zuge des Modulaustauschs auf die Ebene der Produktionsplanung und Betriebsleitung gelegt. Auf dieser ist untere anderem die Kapazitätsoptimierung und damit das Ziel der Produktivität \& Effektivität relevant. Die Produktivität beschreibt, wie viel der verfügbaren Arbeitszeit zur Produktion verwendet wird. Steht aufgrund vieler Störungen in der Anlage die Produktion still, so ist die Produktivität gering. Bei einer hohen Effektivität werden die verfügbaren Ressourcen ideal genutzt. Dies kann beispielsweise die Zeit sein, die eine Reparatur in Anspruch nimmt. Folgende Einflussfaktoren (vgl. Markierungen in Abbildung \ref{pic:Produktionsprozesse-Zielgroessen}) sollen im weiteren Verlauf der Arbeit berücksichtigt werden:
 \begin{itemize}
 \item \textbf{Zeiten:} Wie viel Stillstandzeit verursacht der Modulaustausch?
 \item \textbf{Auslastung:} Besteht die Möglichkeit vor zu produzieren?
