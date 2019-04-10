@@ -17,7 +17,7 @@
     <node id="n0">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="567.4166666666665" y="13.0"/>
+          <y:Geometry height="30.0" width="30.0" x="567.4166666666665" y="25.0"/>
           <y:Fill color="#000000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="68.0546875" x="34.0" xml:space="preserve" y="4.0">Lösungen A<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="-0.5" nodeRatioX="0.5" nodeRatioY="-0.5" offsetX="4.0" offsetY="4.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -58,7 +58,7 @@
     <node id="n3">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="41.0" width="119.0" x="414.41666666666674" y="469.0538131765661"/>
+          <y:Geometry height="41.0" width="119.0" x="414.41666666666674" y="445.1345329414153"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="104.576171875" x="7.2119140625" xml:space="preserve" y="3.798828125">Tab "Modul leihen"
@@ -82,7 +82,7 @@ markieren<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:
     <node id="n5">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="41.0" width="141.0" x="829.4166666666666" y="469.0538131765661"/>
+          <y:Geometry height="41.0" width="141.0" x="829.4166666666666" y="445.1345329414153"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="129.66015625" x="5.669921875" xml:space="preserve" y="3.798828125">Tab "Wartung
@@ -94,7 +94,7 @@ aufschieben" markieren<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:L
     <node id="n6">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="41.0" width="130.0" x="541.5833333333328" y="469.0538131765661"/>
+          <y:Geometry height="41.0" width="130.0" x="541.5833333333328" y="445.1345329414153"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="112.744140625" x="8.6279296875" xml:space="preserve" y="3.798828125">Modul in
@@ -106,7 +106,7 @@ Navigation anzeigen<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
     <node id="n7">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="41.0" width="123.48000000000002" x="504.0933333333335" y="338.0"/>
+          <y:Geometry height="41.0" width="123.48000000000002" x="504.0933333333335" y="327.0538131765661"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="112.744140625" x="5.367929687500009" xml:space="preserve" y="3.798828125">Module in
@@ -118,7 +118,7 @@ Navigation anzeigen<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
     <node id="n8">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="53.0" width="119.0" x="637.4166666666665" y="338.0"/>
+          <y:Geometry height="53.0" width="119.0" x="637.4166666666665" y="321.0538131765661"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="98.705078125" x="10.1474609375" xml:space="preserve" y="2.4482421875">zu verändernde
@@ -131,7 +131,7 @@ Rezept markieren<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMo
     <node id="n9">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="41.0" width="119.0" x="766.2599999999995" y="338.0"/>
+          <y:Geometry height="41.0" width="119.0" x="766.2599999999995" y="327.0538131765661"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="80.04296875" x="19.478515625" xml:space="preserve" y="3.798828125">neue Services
@@ -161,7 +161,7 @@ hervorheben<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
     <node id="n11">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="5.153218073434118" width="381.166666666666" x="506.3333333333335" y="418.92339096328294"/>
+          <y:Geometry height="5.153218073434118" width="381.166666666666" x="506.3333333333335" y="395.0041107281321"/>
           <y:Fill color="#000000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="188.58333333333303" y="0.5766090367170591">
@@ -196,7 +196,7 @@ hervorheben<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
     <node id="n13">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="5.153218073434118" width="257.1666666666661" x="414.41666666666674" y="441.46169548164147"/>
+          <y:Geometry height="5.153218073434118" width="257.1666666666661" x="414.41666666666674" y="417.54241524649063"/>
           <y:Fill color="#000000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="126.58333333333303" y="0.5766090367170591">
@@ -214,7 +214,7 @@ hervorheben<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
     <node id="n14">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="5.153218073434118" width="257.1666666666661" x="414.41666666666674" y="532.4927127980566"/>
+          <y:Geometry height="5.153218073434118" width="257.1666666666661" x="414.41666666666674" y="508.57343256290574"/>
           <y:Fill color="#000000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="126.58333333333303" y="0.5766090367170591">
@@ -232,7 +232,7 @@ hervorheben<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
     <node id="n15">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="41.0" width="141.0" x="626.4166666666665" y="549.977204139849"/>
+          <y:Geometry height="41.0" width="141.0" x="626.4166666666665" y="526.0579239046982"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="116.59375" x="12.203125" xml:space="preserve" y="3.798828125">Button "Entscheiden"
@@ -244,7 +244,7 @@ sichtbar machen<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
     <node id="n16">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="40.0" width="39.0" x="677.4166666666665" y="617.3622905847735"/>
+          <y:Geometry height="40.0" width="39.0" x="677.4166666666665" y="593.4430103496227"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="17.5" y="18.0">
@@ -262,7 +262,7 @@ sichtbar machen<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
     <node id="n17">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.bpmn.Event">
-          <y:Geometry height="30.0" width="30.0" x="914.9926666666665" y="647.9622905847735"/>
+          <y:Geometry height="30.0" width="30.0" x="914.9926666666665" y="624.0430103496227"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="88.05859375" x="-29.029296875" xml:space="preserve" y="32.619635477726774">Entscheidung A<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="0.0" nodeRatioY="0.5" offsetX="0.0" offsetY="2.6196354777267743" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -279,10 +279,10 @@ sichtbar machen<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
     <node id="n18">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="41.0" width="68.56000000000006" x="901.8566666666666" y="590.477204139849"/>
+          <y:Geometry height="41.0" width="68.56000000000006" x="901.8566666666666" y="566.5579239046982"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="54.70703125" x="6.926484375000086" xml:space="preserve" y="3.798828125">Meldung
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="54.70703125" x="6.926484374999973" xml:space="preserve" y="3.798828125">Meldung
 entfernen<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:Shape type="roundrectangle"/>
         </y:ShapeNode>
@@ -291,7 +291,7 @@ entfernen<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:
     <node id="n19">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="93.18949353779703" width="3.1666666666660035" x="868.6900000000006" y="590.767543815875"/>
+          <y:Geometry height="93.18949353779703" width="3.1666666666660035" x="868.6900000000006" y="566.8482635807242"/>
           <y:Fill color="#000000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="-0.41666666666696983" y="44.59474676889852">
@@ -365,7 +365,7 @@ Tab "leihen"]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="plain"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="149.25390625" x="7.0180425075118364" xml:space="preserve" y="4.651862235576289">[klicken auf Tab "ersetzen"]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="149.25390625" x="0.45635986328125" xml:space="preserve" y="2.1396484375">[klicken auf Tab "ersetzen"]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -448,7 +448,7 @@ Tab "leihen"]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="plain"/>
-          <y:EdgeLabel alignment="left" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="132.58984375" x="118.75306875039973" xml:space="preserve" y="-95.16235008358427">[klicken auf
+          <y:EdgeLabel alignment="left" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="132.58984375" x="119.0118408203125" xml:space="preserve" y="-99.23828125">[klicken auf
 "Problembeschreibung"]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
@@ -514,7 +514,7 @@ Tab "leihen"]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="899.9166666666666" y="570.477204139849"/>
+            <y:Point x="899.9166666666666" y="546.5579239046982"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="plain"/>
@@ -527,7 +527,7 @@ Tab "leihen"]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="542.9999999999998" y="570.477204139849"/>
+            <y:Point x="542.9999999999998" y="546.5579239046982"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="plain"/>
@@ -553,7 +553,7 @@ Tab "leihen"]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="plain"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="145.263671875" x="-4.155933948863776" xml:space="preserve" y="-20.012890624999955">[klicken auf "Entscheiden"]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="145.263671875" x="-4.155933948863776" xml:space="preserve" y="-20.01285933671329">[klicken auf "Entscheiden"]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -563,19 +563,18 @@ Tab "leihen"]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="406.4165384615384" y="637.3622905847735"/>
+            <y:Point x="406.4165384615384" y="613.4430103496227"/>
             <y:Point x="406.4165384615384" y="138.30365384615362"/>
             <y:Point x="582.4166666666665" y="138.30365384615362"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="32.681640625" x="-38.877453801081856" xml:space="preserve" y="-19.52850052535723">[else]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="32.681640625" x="-38.877453801081856" xml:space="preserve" y="-19.528469237070567">[else]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
     <edge id="e23" source="n19" target="n18">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="1.5710763636361662" sy="-26.385086444924468" tx="0.0" ty="0.0"/>
@@ -586,7 +585,6 @@ Tab "leihen"]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide=
       </data>
     </edge>
     <edge id="e24" source="n19" target="n17">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="1.6017963636363675" sy="25.600000000000023" tx="0.0" ty="0.0"/>

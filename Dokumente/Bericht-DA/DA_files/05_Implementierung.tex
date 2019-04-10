@@ -4,7 +4,7 @@ Das Konzept beschreibt, welche Funktionen umgesetzt werden müssen und wie die I
 
 Der Prototyp wird mit dem Programm Axure \todo{Verweis} umgesetzt. Dieses bietet die Möglichkeit digitale Prototypen sehr umfangreich umzusetzen und kann auch ideal für die Validierung verwendet werden.
 \\ \\
-Während des Problemlöseprozess nimmt das Systeme verschiedene Zustände an (siehe Abbildung \ref{pic:Zustandsdiagramm-Assistenzsystem}). Zu Beginn ist nur die grundlegende PFE dargestellt. Nach sieben Sekunden zeigt das System beispielhaft eine Meldung an. Nach Erscheinen der Meldung hat der Nutzer die Möglichkeit auf den Button \textbf{Problem bearbeiten} zu klicken. Durch diese Aktion wird das Problem genauer angezeigt. Die Interaktionsmöglichkeiten in diesem Zustand sind in Abschnitt \ref{5:Problembeschreibung}  näher beschrieben. Nach der Begutachtung und Spezifikation des Problems wechselt das Assistenzsystem durch Betätigung des Button\textbf{ Lösungen finden}, abhängig von den eingegebenen Zielen, in den Zustand der Lösungen. Soll das Problem bearbeitet werden so kann in den Zustand Problem durch klicken auf \textbf{Problembeschreibung} gewechselt werden.
+Während des Problemlöseprozess nimmt das Systeme verschiedene Zustände an (siehe Abbildung \ref{pic:Zustandsdiagramm-Assistenzsystem}). Zu Beginn ist nur die grundlegende PFE dargestellt. Nach sieben Sekunden zeigt das System beispielhaft eine Meldung an. Nach Erscheinen der Meldung hat der Nutzer die Möglichkeit auf den Button \textbf{Problem bearbeiten} zu klicken. Durch diese Aktion wird das Problem genauer angezeigt. Die Interaktionsmöglichkeiten in diesem Zustand sind in Abschnitt \ref{5:Problembeschreibung}  näher beschrieben. Nach der Begutachtung und Spezifikation des Problems wechselt das Assistenzsystem durch Betätigung des Button\textbf{ Lösungen finden}, abhängig von den eingegebenen Zielen, in den Zustand der Lösungen. Soll das Problem bearbeitet werden so kann in den Zustand Problem durch klicken auf \textbf{Problembeschreibung} gewechselt werden. 
 
 \begin{figure}[tbp]
 \centering
@@ -57,8 +57,17 @@ Innerhalb der verschiedenen Zustände des Rezepts sind weitere Interaktionen mö
 \end{figure}
 
 \subsection{Service Launcher}
-Der Service Launcher zeigt abhängig von der gewählten Sortierung und dem ausgewählten Modul in der Navigation die Services an (siehe Abbildung \ref{pic:Aktivitaetsdiagramm-ServiceLauncher}). Der Nutzer hat zudem die Möglichkeit durch klicken auf den Service weitere Informationen zu bekommen. \todo{mehr ausführen}
+Der Service Launcher zeigt abhängig von der gewählten Sortierung und dem ausgewählten Modul in der Navigation die Services an (siehe Abbildung \ref{pic:Aktivitaetsdiagramm-ServiceLauncher}). Der Nutzer hat zudem die Möglichkeit durch klicken auf den Service weitere Informationen zu bekommen. Es werden die möglichen Zustandsübergänge, der Operation Mode und die Strategy angezeigt (siehe Bild \ref{pic:Service-offen} \todo{ Quelle}). Ebenso kann der Nutzer durch klicken auf das Zahnrad die Einstellung der Parameter, der Strategy und des Operation Mode ändern. Solange ein Service ausgewählt ist, werden die anderen in den Hintergrund gerückt und sind erst wieder klickbar, wenn der aktuelle Service geschlossen wurde.
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.7]{DA_files/Bilder/Prototyp/Service-offen.png}
+\caption{Angeklickter  Service}
+\label{pic:Service-offen}
+\end{figure}
 
+\section{Problembeschreibung}
+\label{5:Problembeschreibung}
+Im Konzept sind bereits die Funktionalitäten für die Problembeschreibung erläutert. Im Rahmen des Prototypen sind diese konkret umgesetzt. Der Nutzer hat die Möglichkeit ein weiteres Ziel nicht nur hinzuzufügen, sondern auch wieder zu löschen. Zudem ist das Ziel Stillstandzeit editierbar. Die Veränderung der Ziele hat einen Einfluss auf die Lösungen, welche in Abschnitt \ref{5:Loesungen} näher spezifiziert sind. Keinen Einfluss hat in diesem Beispiel die Veränderung im Dropdown-Menü. Möchte der Nutzer sich die Lösungen ansehen bringt ihn der Button \textbf{Lösungen finden} dort hin. Wie das Assistenzssystem auf die Interaktionen des Nutzers reagiert ist in Abbildung \ref{pic:Aktivitaetsdiagramm-Problem} dargestellt.
 
 \begin{figure}[htbp]
 \centering
@@ -66,10 +75,6 @@ Der Service Launcher zeigt abhängig von der gewählten Sortierung und dem ausge
 \caption{Aktivitätsdiagramm Service Launcher - Prototyp}
 \label{pic:Aktivitaetsdiagramm-ServiceLauncher}
 \end{figure}
-
-\section{Problembeschreibung}
-\label{5:Problembeschreibung}
-Im Konzept sind bereits die Funktionalitäten für die Problembeschreibung erläutert. Im Rahmen des Prototypen sind diese konkret umgesetzt. Der Nutzer hat die Möglichkeit ein weiteres Ziel nicht nur hinzuzufügen, sondern auch wieder zu löschen. Zudem ist das Ziel Stillstandzeit editierbar. Die Veränderung der Ziele hat einen Einfluss auf die Lösungen, welche in Abschnitt \ref{5:Loesungen} näher spezifiziert sind. Keinen Einfluss hat in diesem Beispiel die Veränderung im Dropdown-Menü. Möchte der Nutzer sich die Lösungen ansehen bringt ihn der Button \textbf{Lösungen finden} dort hin. Wie das Assistenzssystem auf die Interaktionen des Nutzers reagiert ist in Abbildung \ref{pic:Aktivitaetsdiagramm-Problem} dargestellt.
 
 \begin{figure}[tbp]
 \centering
