@@ -19,23 +19,49 @@
  
 \begin{document}
 
-\section{Motivation und Aufgabenstellung}
+\section{Motivation}
+Durch voranschreiten der Automatisierung in der Prozessführung sind Anlagenbediener vor allem in kritischen Situationen für Entscheidungen verantwortlich \cite{bainbridget_ironies_1983}. Der Mensch trifft seine Entscheidungen anhand von Beobachtungen und Erfahrungen. Im Zuge der entwickelten Modularisierungskonzept wird dies zunehmend schwieriger. Die Flexibilität der modularen Anlagen stellt die Anlagenbediener bei Problemen vor andere Herausforderungen.
 
+Assistenzsysteme könnten den Anlagenbediener bei Erkennung von Problemen, 
+
+\section{Analyse}
+Ein Modul einer Anlage stellt mit dem MTP eine Reihe an Informationen der Prozessführungsebene (PFE) zur Verfügung. Die PFE zeigt dem Nutzer
+\begin{itemize}
+\item die aktuelle Verschaltung der Module
+\item das Rezept
+\item die Key Performance Indicator
+\item die Services, deren Zustandsübergänge und deren Parameter
+\item die Fließbilder der Module
+\end{itemize}
+an. 
+
+Soll der Nutzer durch den Problemlöseprozess begleitet werden, muss zwischen verschiedenen Aufgaben unterschieden werden.
+
+Was wissen wir? Was wissen wir nicht? Was sollten wir wissen?
+Wie sieht das mit dem Nutzer aus?
+Anpassungen an was?
 
 \section{Konzept}
 
+Nutzer durch Problemlöseprozess begleiten
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.4]{DA_files/Prototyp-PFE-Loesung2.png}
+\caption{Darstellung einer Lösung für ein Problem}
+\end{figure}
+
+\section{Validierung}
+Wie gut / schlecht kam der Entwurf an? Was fehlt noch?
 
 \section{Zusammenfassung}
+Nutzer kann mit entsprechenden Informationen geeignet unterstützt werden. Offen bleibt, wie der Nutzer selber Probleme und Lösungen eingeben kann.
 
 
  {\tiny\renewcommand{\section}[2]{}%
  	 \begin{thebibliography}{8.5}
- 	 \bibitem{hahn_virtuelle_2016}
-		Anna Hahn, Stefan Pech und Leon Urbas. {\glqq Virtuelle funktionale Module in der Prozessindustrie\grqq}. {In: \textit{Atp Edition}} 58.11 (2016), S. 54-63.
-		\bibitem{klose_erstellung_2018}
-		Anselm Klose: {\glqq Erstellung von Pfadregeln basierend auf einer qualitativen Bewertung von Messstellen einer Bestandanlage\grqq}. Diplomarbeit. Dresden: Technische Universität Dresden, 2018.
-		\bibitem{mehlig_erweiterung_2018}
-		Sebastian Mehlig: {\glqq Erweiterung einer Bewertungsmethode von Messstellen innerhalb einer verfahrenstechnischen Prozessanlage um quantitative Regeln\grqq}. Diplomarbeit. Dresden: Technische Universität Dresden, 2018.
+ 	 \bibitem{bainbridget_ironies_1983}
+ 	 	Lisanne Bainbridget. {\glqq Ironies of Automation\grqq}. {In: \textit{Automatica}} 19.6 (1983), s. 775-779.
 	\end{thebibliography}}
 	
 \end{document}
