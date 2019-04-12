@@ -305,12 +305,14 @@ title = {Interaktionsdesign: Gestaltung interaktiver und multimedialer Systeme},
 year = {2006}
 }
 
-@misc{ISO9241-110,
-author = {DIN EN ISO 9241-110},
-publisher = {Deutsche Norm},
-title = {{Grunds{\"{a}}tze der Dialoggestaltung}},
-month = sep,
-year = {2008}
+@NORM{ISO9241-110,
+label = {ISO9241-110},
+title = {Zuverl{\"a}ssigkeit - Begriffe},
+organization = {Deutsche Elektrotechnische Kommission im DIN und VDE (DKE)},
+sortkey = {DIN 40041 (1990-12)},
+addendum = {DIN 40041 (1990-12)},
+keywords = {Norm},
+_NOTE = {Ausschuß Qualit{\"a}tssicherung und angewandte Statistik (AQS) im DIN Deutsches Institut f{\"u}r Normung e.V.}
 }
 
 @misc{ISO9241-112,

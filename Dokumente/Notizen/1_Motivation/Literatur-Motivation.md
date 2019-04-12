@@ -97,7 +97,7 @@
 + zielgerichteter Einsatz von Smart Wearables -> Kenntnisse über individuelle Informationsbedürfnisse, Einsatzbedingungen und daraus abgeleitete Nutzeranforderungen
 + Fähigkeiten des Menschen müssen berücksichtigt werden
 
-## Müller, Urbas - Cognitive Challenges of Changeability
+## Müller, Urbas - Cognitive Challenges of Changeability: Multi-Level
 
 + flexibilität der modularen Anlagen verändert die Arbeit der Operators
 + Veranwortung bewegt sich in Richtung Kontextsensitiven und anordnenden (desponsive) Aufgaben

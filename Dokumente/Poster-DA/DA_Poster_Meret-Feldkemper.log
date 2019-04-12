@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.30)  11 APR 2019 13:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.30)  12 APR 2019 17:36
 entering extended mode
 **./DA_Poster_Meret-Feldkemper.tex
 (DA_Poster_Meret-Feldkemper.tex
@@ -1332,7 +1332,7 @@ Package pdftex.def Info: DA_files/Passbild.jpg  used on input line 20.
 File: DA_files/Prototyp-PFE-Loesung2.png Graphic file (type png)
 <use DA_files/Prototyp-PFE-Loesung2.png>
 Package pdftex.def Info: DA_files/Prototyp-PFE-Loesung2.png  used on input line
- 49.
+ 53.
 (pdftex.def)             Requested size: 480.8881pt x 277.63232pt.
  [1{C:/Users/Meret Feldkamper/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
 }
@@ -1342,17 +1342,16 @@ Non-PDF special ignored!
 <special> header=./a0header.ps
 Non-PDF special ignored!
 <special> papersize=59.4cm,41.98cm
-
  <./TU_Logo_SW.pdf> <./DA_files/Passbild.jpg> <./DA_files/Prototyp-PFE-Loesung2
 .png>] (DA_Poster_Meret-Feldkemper.aux) ) 
 Here is how much of TeX's memory you used:
- 18952 strings out of 493305
- 352647 string characters out of 3138839
- 484073 words of memory out of 3000000
+ 18958 strings out of 493305
+ 352693 string characters out of 3138839
+ 485073 words of memory out of 3000000
  22109 multiletter control sequences out of 15000+200000
- 14239 words of font info for 63 fonts, out of 3000000 for 9000
+ 14392 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,13n,94p,524b,396s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,13n,94p,593b,396s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Meret Feldkamper\AppData\Lo
 cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1728.pk><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX
@@ -1362,7 +1361,7 @@ ublic/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
 12.pfb>
-Output written on DA_Poster_Meret-Feldkemper.pdf (1 page, 431352 bytes).
+Output written on DA_Poster_Meret-Feldkemper.pdf (1 page, 432990 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -94,31 +94,6 @@
     \field{year}{?}
   \endentry
 
-  \entry{ISO9241-110}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=DEI}{%
-         family={9241-110},
-         familyi={\bibinitperiod-\bibinitperiod},
-         given={DIN EN\bibnamedelima ISO},
-         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
-  I\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Deutsche Norm}%
-    }
-    \strng{namehash}{DEI1}
-    \strng{fullhash}{DEI1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{92408}
-    \field{sortinit}{9}
-    \field{sortinithash}{9}
-    \field{title}{{Grunds{\"{a}}tze der Dialoggestaltung}}
-    \field{month}{09}
-    \field{year}{2008}
-  \endentry
-
   \entry{ISO9241-129}{misc}{}
     \name{author}{1}{}{%
       {{hash=DEI}{%
@@ -132,8 +107,8 @@
     \list{publisher}{1}{%
       {Deutsche Norm}%
     }
-    \strng{namehash}{DEI2}
-    \strng{fullhash}{DEI2}
+    \strng{namehash}{DEI1}
+    \strng{fullhash}{DEI1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelalpha}{92411}
@@ -157,8 +132,8 @@
     \list{publisher}{1}{%
       {Deutsche Norm}%
     }
-    \strng{namehash}{DEI2}
-    \strng{fullhash}{DEI2}
+    \strng{namehash}{DEI1}
+    \strng{fullhash}{DEI1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelalpha}{92417}
@@ -607,6 +582,20 @@
     \field{volume}{25}
     \field{journaltitle}{Behaviour and Information Technology}
     \field{year}{2006}
+  \endentry
+
+  \entry{ISO9241-110}{misc}{}
+    \list{organization}{1}{%
+      {Deutsche Elektrotechnische Kommission im DIN und VDE (DKE)}%
+    }
+    \keyw{Norm}
+    \field{label}{ISO9241-110}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{ISO9241-110}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{addendum}{DIN 40041 (1990-12)}
+    \field{title}{Zuverl{\"a}ssigkeit - Begriffe}
   \endentry
 
   \entry{Jermann2004}{thesis}{}

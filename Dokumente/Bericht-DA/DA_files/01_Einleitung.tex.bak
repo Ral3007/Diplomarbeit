@@ -1,0 +1,24 @@
+%Beschreibung der Problematik
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Einleitung}
+\label{sec:Einleitung}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Durch Voranschreiten der Automatisierung in der Prozessführung sind Anlagenbediener vor allem in kritischen Situationen für Entscheidungen verantwortlich \cite{Bainbridge1983}. Der Mensch trifft seine Entscheidungen anhand von Beobachtungen und Erfahrungen. Da die Komplexität der Verfahren zur Produktion zunimmt, ist es schwierig bei auftretenden Störungen alle Faktoren zu kennen und zu überblicken. 
+
+Neben der Automatisierung verändern auch die entwickelten Modularisierungskonzepte für die Prozessindustrie die Aufgaben beim Betrieb der Anlage. Der Anlagenbediener ist stärker in die Veränderung des Prozesssystems eingebunden. Möglich machen das Module, die eine verfahrenstechnische Grundfunktion erfüllen und mittels Services gesteuert werden. Diese Kapselung reduziert den Entwicklungszyklus einer Anlage.... xxx. Die Moldularisierung stellt den Anlagenbediener auch vor die Herausforderung, Probleme nicht mehr aufgrund von umfangreicher Erfahrung lösen zu können \cite{}. \glqq Um dem Bedien- und Wartungspersonal Eingriffsmöglichkeiten zu geben, muss der Bezug zwischen örtlicher Kennzeichnung, innerhalb des Moduls und der Kennzeichnung im übergeordneten Automatisierungssystem bekannt gemacht werden.\grqq \ \cite{Obst2013}
+
+Assistenzsysteme können hier eine geeignete Unterstützung bieten \cite{Dalgleish2007} (iProduction) \todo{Zitat korrigieren (Teil eines Buchs)}, indem sie beispielsweise die physische \& psychische Beanspruchung optimieren und eine Überlastung vermeiden \cite{Weisner2018}. Dabei ist zu beachten, dass der Mensch nicht als Lückenbüßer verwendet wird, der alle Aufgaben übernehmen muss mit denen das Automatisierungssystem überfordert ist \cite{Weisner2018}. Die Kompetenzen des Menschen sind zu würdigen und mit zusätzlichen Informationen aus dem Prozess zu ergänzen. Fehlende Darstellung von Zusammenhängen erschwert den Problemlöseprozess zusätzlich.
+
+Auch eine fehlende Kenntnis über die Faktoren, die einen Einfluss auf das Problem haben, kann zu Herausforderungen führen.
+
+\section*{Aufbau der Arbeit}
+Diese Arbeit soll einen ersten Überblick geben, welche Faktoren beim Bearbeiten von Problemen in modularen Anlagen berücksichtigt werden müssen. Dazu werden im Stand der Technik zunächst die Grundlagen gelegt. Es wird zunächst erläutert, wie modulare Anlagen funktionieren. Damit eindeutig ist, wie der Mensch beim Problemlösen unterstützt werden kann, erfolgt eine umfangreiche Betrachtung des Problemlöseprozess. Ebenso wird darauf eingegangen, was Assistenz macht und wie Mensch und System kommunizieren können. Zu Berücksichtigen sind dabei die Empfehlungen für die Gestaltung von Mensch-Maschine-Schnittstellen.
+
+Die Analyse vermittelt ein Gefühl, wie komplex die Anforderungen an das Assistenzsystem sind. Es wird dargestellt, welche Informationen dem Nutzer bereits zur Verfügung stehen und welche noch wünschenswert sein könnten. Dabei werden mögliche Anpassungen an den Nutzer, die Aufgabe und die Ziele eines Unternehmens berücksichtigt.
+
+Abgeleitet aus den Grundlagen im Stand der Technik und den Ergebnissen der Analyse wird das Konzept entworfen. Dieses beinhaltet ein konzeptionelles Design, das nur die Funktionen des Assistenzsystems beschreibt, und ein physisches Design, das eine konkrete Umsetzung der Funktionen zeigt. Anschließend wird anhand eines Use Case das Konzept prototypisch umgesetzt.
+
+Wie erfolgreich die Anforderungen aus der Analyse umgesetzt werden konnten, zeigt die Validierung. Für die Auswertung werden auch einige Experten hinzugezogen, die unabhängig einschätzen, ob sie das System nutzen würden und welche Verbesserungsmöglichkeiten es gibt. Anhand dessen können auch Aussagen über weitere ....

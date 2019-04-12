@@ -20,35 +20,32 @@
 \begin{document}
 
 \section{Motivation}
-Durch voranschreiten der Automatisierung in der Prozessführung sind Anlagenbediener vor allem in kritischen Situationen für Entscheidungen verantwortlich \cite{bainbridget_ironies_1983}. Der Mensch trifft seine Entscheidungen anhand von Beobachtungen und Erfahrungen. Im Zuge der entwickelten Modularisierungskonzept wird dies zunehmend schwieriger. Die Flexibilität der modularen Anlagen stellt die Anlagenbediener bei Problemen vor andere Herausforderungen.
+Durch Voranschreiten der Automatisierung in der Prozessführung sind Anlagenbediener vor allem in kritischen Situationen für Entscheidungen verantwortlich \cite{bainbridget_ironies_1983}. Der Mensch trifft seine Entscheidungen anhand von Beobachtungen und Erfahrungen. Im Zuge der entwickelten Modularisierungskonzept wird dies zunehmend schwieriger. Die Flexibilität der modularen Anlagen stellt die Anlagenbediener vor die Herausforderung, Probleme nicht mehr auf Grundlage von umfangreiche Erfahrung lösen zu können \cite{}.
 
-Assistenzsysteme könnten den Anlagenbediener bei Erkennung von Problemen, 
+Assistenzsysteme könnten den Anlagenbediener bei Erkennung von Problemen, deren Zusammenhängen und möglichen Lösungsansätzen unterstützen. Dabei ist der Mensch mit einzubeziehen und seine Kompetenzen zu würdigen.
 
 \section{Analyse}
-Ein Modul einer Anlage stellt mit dem MTP eine Reihe an Informationen der Prozessführungsebene (PFE) zur Verfügung. Die PFE zeigt dem Nutzer
+Tritt ein Problem auf, muss der Nutzer darauf aufmerksam gemacht werden. Wichtig für das Assistenzsystem ist nicht nur die Einordnung, wodurch das Problem ausgelöst wurde, sondern auch wie zeitkritisch und wie komplex das Problem ist. Anhand dieser Merkmale sollte sich die Menge und Art der dargestellten Informationen orientieren. Aktuell erhält der Nutzer mit der Prozessführungsebene Informationen über
 \begin{itemize}
-\item die aktuelle Verschaltung der Module
-\item das Rezept
-\item die Key Performance Indicator
+\item die aktuelle Verschaltung der Module,
+\item das Rezept,
+\item die Key Performance Indicator,
 \item die Services, deren Zustandsübergänge und deren Parameter
-\item die Fließbilder der Module
+\item und die Fließbilder der Module
 \end{itemize}
-an. 
-
-Soll der Nutzer durch den Problemlöseprozess begleitet werden, muss zwischen verschiedenen Aufgaben unterschieden werden.
-
-Was wissen wir? Was wissen wir nicht? Was sollten wir wissen?
-Wie sieht das mit dem Nutzer aus?
-Anpassungen an was?
+Sollen nun Lösungen für ein entstandenes Problem gefunden werden, sind vor allem die Ziele eines produzierenden Unternehmens zu berücksichtigen. Diese reichen von der Verfügbarkeit von Mitarbeitern bis zum Aufwand Änderungen an der Anlage vorzunehmen.
 
 \section{Konzept}
+Das Assistenzsystem begleitet den Nutzer durch den Problemlöseprozess. Es macht ihn mit Meldungen auf Probleme aufmerksam und gibt die Möglichkeit die Situation einzuschätzen und Randbedingungen zu definieren. Anhand der Bedingungen sucht das Assistenzsystem nach Lösungen, die der Nutzer begutachten kann, um eine Entscheidung zu treffen.
 
-Nutzer durch Problemlöseprozess begleiten
+Das Design des Assistenzsystems baut auf einer bereits entwickelten PFE auf \cite{} und passt sich anhand des Problemauslösers an.
+
+Anpassung an Zeitdurck, Bereich, 
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.4]{DA_files/Prototyp-PFE-Loesung2.png}
-\caption{Darstellung einer Lösung für ein Problem}
+\caption{Darstellung einer Lösung für ein Problem auf Grundlage der PFE}
 \end{figure}
 
 \section{Validierung}

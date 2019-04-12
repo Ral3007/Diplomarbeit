@@ -86,6 +86,7 @@
 \ifaAppendix{DA_files/Anhang.tex}                   % a tex file containing the appendix for the thesis
 
 % Literaturverzeichnis angeben
+\InputIfFileExists{p_biblatex}{}{}
 \bibliography{bibliography}                            % a bib file containing the reference sources
 \ifaBibliographyBeforeAppendix{false}	                 % print the bibliography before or after the appendix ('true' or 'false')
 \ifaAdditionalContributors{}                           % additional contributors to be included in the statement of authorship
