@@ -41,9 +41,9 @@ Abgeleitet aus der Analyse ist mit allen relevanten Informationen Folgendes geme
 	\item Wie gut ist die Qualität meiner Produktion?
 \end{itemize}
 \end{itemize}
-Davon ausgehend ist die Frage zu beantworten, ob die KPIs die Informationen über den Produktionsprozess abdecken. Wenn sie dies nicht tun, muss untersucht werden, wie die Informationen über den Produktionsprozess sinnvoll eingebunden werden können. Zu berücksichtigen ist unter anderem, dass es sowohl modulspezifische, als auch anlagenspezifische Informationen geben kann. Des weiteren stellt sich noch die Frage, ob die KPIs im MTP vordefiniert sind und wie der Anlagenbetreiber selber welche erstellen kann.\todo{Welche Möglichkeiten gibt es schon?}
+Davon ausgehend ist die Frage zu beantworten, ob die KPIs die Informationen über den Produktionsprozess abdecken. Wenn sie dies nicht tun, muss untersucht werden, wie die Informationen über den Produktionsprozess sinnvoll eingebunden werden können. Zu berücksichtigen ist unter anderem, dass es sowohl modulspezifische, als auch anlagenspezifische Informationen geben kann. Des Weiteren stellt sich noch die Frage, ob die KPIs im MTP vordefiniert werden können und wie der Anlagenbetreiber selber welche erstellen kann.
 
-Die aktuelle Situation umfasst im Rahmen dieser Arbeit nur die modulare Anlage. Ein Produktionsprozess kann aber noch durch weitere Faktoren beeinflusst werden. Relevant sind auch die Umgebungsbedingungen, wie die Umgebungstemperatur, und die Mitarbeiter, die an der Anlage arbeiten. Welchen Einfluss diese auf den Problemlöseprozess haben wurde in dieser Arbeit nicht geklärt.
+Die aktuelle Situation umfasst im Rahmen dieser Arbeit nur die modulare Anlage. Ein Produktionsprozess kann aber noch durch weitere Faktoren beeinflusst werden. Relevant sind auch die Umgebungsbedingungen, wie die Umgebungstemperatur, und die Mitarbeiter, die an der Anlage arbeiten. Welchen Einfluss diese auf den Problemlöseprozess haben wurde in dieser Arbeit nicht untersucht.
 
 Um die Anforderung allumfassend zu bewerten, müsste genau festgelegt werden, welche KPIs angezeigt werden sollen und welche Informationen über den Produktionsprozess relevant sind. Beides ist jedoch stark abhängig von den Bedürfnissen des Betreibers der modularen Anlagen. Die vorhandene PFE wurde dazu entwickelt den Produktionsprozess zu überwachen und erfüllt damit die Anforderung.
 
@@ -57,7 +57,7 @@ Der Nutzer hat im Feld der Problembeschreibung die Möglichkeit für ihn relevan
 Dem Nutzer wird der Auslöser des Problems durch die Problembeschreibung mitgeteilt. Der Problembereich wird hervorgehoben, indem irrelevante Informationen durch graue halbdurchsichtige Felder verdeckt werden.
 
 \subsection{Unterstützung bei der Problemlösung}
-Wie der Titel der Arbeit schon sagt liegt der Schwerpunkt auf der Problem\textbf{lösung}. Tabelle \ref{tab:Anforderungen-Problemlösung} zeigt leider nur eine teilweise Erfüllung der Anforderungen. Hintergrund ist einerseits die fehlende Möglichkeiten im Protoyp eigene Lösungen hinzuzufügen. Andererseits sieht der Nutzer nicht, wie sich seine Entscheidung auf Produktqualität, Unternehmensziele und die Arbeitsbelastung der Mitarbeiter auswirkt.
+Wie der Titel der Arbeit schon sagt liegt der Schwerpunkt auf der Problem\textbf{lösung}. Tabelle \ref{tab:Anforderungen-Problemlösung} zeigt leider nur eine teilweise Erfüllung der Anforderungen. Hintergrund ist einerseits die fehlende Möglichkeiten im Protoyp eigene Lösungen hinzuzufügen. Andererseits sieht der Nutzer nicht, wie sich seine Entscheidung auf die Produktqualität oder die Unternehmensziele auswirkt.
 \begin{table}[htbp]
 \caption{Auswertung Anforderungen Problemlösung}
 \centering
@@ -87,7 +87,9 @@ Die Tatsache, dass auch die Abhängigkeiten der Services einen Einfluss haben is
 Angedacht in der Anforderung ist es, dass der Nutzer die einzelnen Lösungen bewerten kann, um eine Entscheidung zu treffen. Diese Anforderung wurde nicht umgesetzt, da eine Lösung nicht richtig oder falsch sein kann. Es ist möglich, dass eine Lösung besser oder schlechter ist, als eine andere. Die Bewertung dieser ist aber stark von der Gesamtsituation (z.B. verfügbare Mitarbeiter, Auftragslage) und dem Wissen des Mitarbeiters abhängig. Diese Anforderung ist daher kritisch zu hinterfragen. In welchem Rahmen macht eine Bewertung der Lösungen Sinn? Wird die Bewertung von dem Assistenzsystem verarbeitet? Wenn die Bewertung verarbeitet wird, wie wirkt sie sich auf zukünftige Problemlösungen aus? Diese und weitere Fragen sind noch zu beantworten.
 
 \subsection{Klustern von Problemen}
-Probleme sollen geklustert werden, damit mehrere Probleme parallel bearbeitet werden können. Wie Tabelle \ref{tab:Anforderungen-Probleme} zeigt, sind die Anforderungen nur teilweise erfüllt. Grund dafür ist, dass zur Zeit nur das Assistenzsystem die Probleme mit Merkmalen versieht und klustert. \todo{Im Konzept anders vorsehen?}
+Probleme sollen geklustert werden, damit mehrere Probleme parallel bearbeitet werden können. Wie Tabelle \ref{tab:Anforderungen-Probleme} zeigt, sind die Anforderungen größtenteils erfüllt. 
+
+Grund dafür ist, dass zur Zeit nur das Assistenzsystem die Probleme mit Merkmalen versieht und klustert. \todo{Im Konzept anders vorsehen?}
 
 \begin{table}[htbp]
 \caption{Auswertung Anforderungen: Probleme klustern}
@@ -95,7 +97,7 @@ Probleme sollen geklustert werden, damit mehrere Probleme parallel bearbeitet we
 \begin{tabular}{l|c|c|c}
 \textbf{Anforderung} & KP 1 & KP 2 & KP 3\\
 \hline
-\textbf{Erfüllt} & + & o & o\\
+\textbf{Erfüllt} & + & o & + \\
 \end{tabular}
 \label{tab:Anforderungen-Probleme}
 \end{table}
@@ -104,22 +106,19 @@ Probleme sollen geklustert werden, damit mehrere Probleme parallel bearbeitet we
 Laut Anforderung sollte der Nutzer die Möglichkeit haben mehrere Probleme gleichzeitig bearbeiten zu können. Das ist vor allem dann relevant, wenn eine Entscheidung nicht sofort getroffen werden muss. Der Nutzer kann das Problem später weiter bearbeiten und sich in der Zwischenzeit einem anderen zuwenden. Die Interaktionsplattform macht das durch die linke Seitenleiste möglich, in der das zu bearbeitende Problem ausgewählt werden kann. Ebenso ist denkbar, dass eine Problembearbeitung durch ein neues, akuteres, Problem unterbrochen wird.
 
 \subsubsection*{KP 2 Probleme sortieren}
-
-
-??
-Werden aktuell noch Zeit sortiert -> in Konzept ergänzen.
+Da im Prototyp nur ein Problem realisiert ist erfolgt keine konkrete Sortierung der Probleme. Das Konzept sieht jedoch eine Sortierung anhand von Zeit, Komplexität und Arbeitsaufwand vor, wodurch die Anforderung erfüllt ist. Offen bleibt die Frage, ob diese Sortierung für den Mitarbeiter ausreichend ist oder dort noch weitere Wünsche bestehen.
 
 \subsubsection*{KP 3 Merkmale der Probleme}
-Derzeit versieht das Assistenzsystem die Probleme mit Merkmalen. 
+Derzeit versieht das Assistenzsystem die Probleme mit den in den Anforderungen definierten Merkmalen. Es wurde jedoch zu Beginn dieser Arbeit keine Umfrage durchgeführt, welche Merkmale der Nutzer sich wünscht. Dadurch bleibt offen, ob der Nutzer noch weitere Merkmale hinzufügen möchte oder andere Merkmale wünscht.
 
 \section{Aspekte des Assistenzsystems}
-Neben den individuell definierten Anforderungen an das Assistenzsystem, gibt es eine Reihe an Anforderungen, die durch die Literatur gegeben sind. 
+Neben den individuell definierten Anforderungen an das Assistenzsystem, gibt es eine Reihe an Anforderungen, die durch die Literatur gegeben sind. \todo{Einleitung schreiben}
 
 \subsection*{Eingliederung in Automatisierungsgrad}
-Abschnitt \ref{3:Anpassung-Aufgabe} macht deutlich, dass sich das Assistenzsystem anhand des Zeitdrucks anpassen sollte. Im Prototypen ist das Problem nicht zeitkritisch und sieht daher einen geringen Automatisierungsgrad vor. In die 10 Level der Automatisierung von Sherdian \todo{Zitat} lässt sich der Prototyp auf Level 3 einordnen. Bei einem höheren Zeitruck sind auch die Stufen 4 und 5 in Betracht zu ziehen. Level 6 ist im Sinne der kollaborativen Assistenz nicht anzuwenden, da auf diesem Level die Möglichkeiten des Nutzers stark eingeschränkt sind. Es ist noch zu untersuchen, in welchen Problemfällen welcher Autonomiegrad angewendet wird. Dazu sollten auch die Autonomiestufen in der Prozessindustrie von Schegner \cite{} \todo{Zitat} betrachtet werden. In dieses System lässt sich der Prototyp auf Stufe 1 einordnen.
+Abschnitt \ref{3:Anpassung-Aufgabe} macht deutlich, dass sich das Assistenzsystem anhand des Zeitdrucks anpassen sollte. Im Prototypen ist das Problem nicht zeitkritisch und sieht daher einen geringen Automatisierungsgrad vor. In die 10 Level der Automatisierung von Sherdian \cite{Wandke2005} lässt sich der Prototyp auf Level 3 einordnen. Bei einem höheren Zeitruck sind auch die Stufen 4 und 5 in Betracht zu ziehen. Level 6 ist im Sinne der kollaborativen Assistenz nicht anzuwenden, da auf diesem Level die Möglichkeiten des Nutzers stark eingeschränkt sind. Es ist noch zu untersuchen, in welchen Problemfällen welcher Autonomiegrad angewendet wird. Dazu sollten auch die Autonomiestufen in der Prozessindustrie von Schegner \cite{Schegner2017} betrachtet werden. In dieses System lässt sich der Prototyp auf Stufe 1 einordnen.
 
 \subsection*{Aufgaben von digitaler Assistenz}
-In Abschnitt \ref{2:Einsatz-Assistenz} sind eine ganze Reihe an Aufgaben aufgeführt, die digitale Assistenz übernehmen kann. Tabelle \ref{tab:Aufgaben-Assistenz-Prototyp} stellt dar, welche Aufgaben im Rahmen des Konzepts übernommen werden und wie sich dies im Prototyp äußert. 
+Digitale Assistenz kann eine ganze Reihe an Aufgaben übernehmen (vgl. Abschnitt \ref{2:Einsatz-Assistenz}). Tabelle \ref{tab:Aufgaben-Assistenz-Prototyp} stellt dar, welche Aufgaben im Rahmen des Konzepts übernommen werden und wie sich dies im Prototyp äußert.
 
 \begin{table}
 \caption{Aufgaben digitaler Assistenz, die durch den Prototypen erfüllt werden}
@@ -129,7 +128,7 @@ In Abschnitt \ref{2:Einsatz-Assistenz} sind eine ganze Reihe an Aufgaben aufgef�
 \hline
 Warnung & o & Der Nutzer wird nur durch die Hinweise in den Lösungen vor Fehlentscheidungen gewarnt.\\
 \hline
-Signale & + & Es wird dem Nutzer angezeigt, welche Änderungen sich ergeben\\
+Signale & + & Es wird dem Nutzer angezeigt, welche Änderungen sich ergeben.\\
 \hline
 Orientierung & + & Der Nutzer kann Ziele hinzufügen und entfernen \\
 \hline
@@ -137,13 +136,13 @@ Kennzeichnung & o & Die Symbole werden mittels Hover-Funktionen erklärt.\\
 \hline
 Erklärung & - & Die Auswahl der Lösungen wird nicht erklärt.\\
 \hline
-Bereitstellung & o & Das Assistenzsystem stellt nur eine ausgewählte Menge an Informationen zur Verfügung.\\
+Bereitstellung & o & Das Assistenzsystem stellt nur eine ausgewählte Menge und nicht alle an Informationen zur Verfügung.\\
 \hline
-Filter & + & Das Assistenzsystem zeigt nur relevante Daten zur Entscheidungsfindung an \\
+Filter & + & Das Assistenzsystem zeigt nur relevante Daten zur Entscheidungsfindung an.\\
 \hline
-Berater & + & Das Assistenzsystem liefert mehrere Vorschläge \\
+Berater & o & Das Assistenzsystem liefert mehrere Vorschläge, macht aber keinen Vorschlage, welche Option die Beste sein könnte. \\
 \hline
-Delegieren & - & \\
+Delegieren & - & Das Assistenzsystem unterstützt den Nutzer aktuell nicht bei der Anwendung der ausgewählten Lösung.\\
 \end{tabular}
 \label{tab:Aufgaben-Assistenz-Prototyp}
 \end{table}
@@ -152,6 +151,7 @@ Delegieren & - & \\
 Anforderungen an eine ergonomische gute Gestaltung gibt es viele. Die Erläuterung zu den Grundsätzen der Dialoggestaltung und den Aspekten für gute Informationsdarstellung finden sich in Abschnitt \ref{2:ergonomische-Gestaltung}. In Tabelle \ref{tab:Validierung-Dialoggestaltung} wird deutlich, dass im Durchschnitt die Grundsätze der Dialoggestaltung eingehalten wurden. Lediglich die Individualisierbarkeit wurde nicht erfüllt, weil der Nutzer das System nicht selber anpassen kann. Jedoch ist diese Anforderung überholt, wenn sich das System an den Nutzer anpasst. Eine umfangreiche Auswertung zur Individualisierung findet sich im nächsten Abschnitt.
 
 \begin{table}
+\caption{Validierung: Grundsätze der Dialoggestaltung}
 \centering
 \begin{tabular}{p{0.2 \textwidth}|c|p{0.55 \textwidth}}
 \textbf{Grundsatz} & \textbf{Erfüllt} & \textbf{Erläuterung} \\
@@ -162,7 +162,7 @@ Selbst-beschreibungs-fähigkeit & + & Durch die Anzeige oben in der Leiste weiß
 \hline
 Erwartungs-konformität & + & Die Gestaltung des Assistenzsystem orientiert sich an der PFE.\\
 \hline
-Lern-förderlichkeit & o & Es gibt keine konkrete Unterstützung im Sinne von Erläuterungen. Durch eine eindeutige Beschreibung der Buttons ist es aber leicht zu verstehen. \\
+Lern-förderlichkeit & o & Es gibt keine konkrete Unterstützung im Sinne von Erläuterungen. Durch eine eindeutige Beschreibung der Buttons ist der Prototyp jedoch leicht zu verstehen. \\
 \hline
 Steuerbarkeit & + & Durch das Setzen der Ziele kann der Nutzer die Richtung steuern. Die Geschwindigkeit wird durch Betätigen der Buttons gesteuert. \\
 \hline
@@ -170,11 +170,10 @@ Fehlertoleranz & + & Ziele können im Nachhinein noch mal geändert werden. \\
 \hline
 Individualisier-barkeit & - & Dem Nutzer stehen aktuell keine Möglichkeiten zur Individualisierung zur Verfügung. \\
 \end{tabular}
-\caption{Validierung: Grundsätze der Dialoggestaltung}
 \label{tab:Validierung-Dialoggestaltung}
 \end{table}
 
-Eine Auswertung der Aspekte für gute Informationsdarstellung findet sich in Tabelle \ref{tab:Validierung-Informationsdarstellung}. Bei den Aspekten \textit{Entdeckbarkeit}, \textit{Unterscheidbarkeit} und eindeutige \textit{Interpretierbarkeit} ist eine objektive Betrachtung nur schwer möglich, da dies jeder Mensch anders empfindet. Aus diesem Grund wird eine Befragung von Experten durchgeführt (siehe Abschnitt x).
+Eine Auswertung der Aspekte für gute Informationsdarstellung findet sich in Tabelle \ref{tab:Validierung-Informationsdarstellung}. Bei den Aspekten \textit{Entdeckbarkeit}, \textit{Unterscheidbarkeit} und eindeutige \textit{Interpretierbarkeit} ist eine objektive Betrachtung nur schwer möglich, da dies jeder Mensch anders empfindet. Aus diesem Grund wird eine Befragung von Experten durchgeführt (siehe Abschnitt \ref{6:Nutzerbefragung}).
 
 \begin{table}
 \caption{Validierung: Aspekte für die Informationsdarstellung}
@@ -199,18 +198,19 @@ Konsistenz & + & Da sich die Gestaltung am Material Design orientiert ist die Ko
 
 
 \subsection*{Individualisierbarkeit}
-Wann Individualisierung eingesetzt werden sollte beschreibt Abschnitt \ref{2:Individualisierung}. Das Konzept zum Assistenzsystem sieht vor allem Individualisierung im Sinne der \textbf{Schwankung der Aufgabenmerkmale} vor. Die \textbf{Variation der Benutzermerkmale} wird zwar in der Analyse als relevant dargestellt, aber im Konzept nicht weiter berücksichtigt. Im Rahmen dieser Arbeit wurde davon ausgegangen, dass sich die Benutzermerkmale nicht groß unterscheiden, da die Mitarbeiter im Umfeld der modularen Anlagen sehr ähnliche Voraussetzungen erfüllen müssen. Natürlich ist jeder Mitarbeiter individuell und hat verschiedene Fähigkeiten. Wie stark sich diese im Kontext der modularen Anlagen unterscheiden ist noch zu prüfen.
+Wann Individualisierung eingesetzt werden sollte beschreibt Abschnitt \ref{2:Individualisierung}. Das Konzept zum Assistenzsystem sieht vor allem Individualisierung im Sinne der \textbf{Schwankung der Aufgabenmerkmale} vor. Die \textbf{Variation der Benutzermerkmale} wird zwar in der Analyse als relevant dargestellt, jedoch im Konzept nicht weiter berücksichtigt. Im Rahmen dieser Arbeit wurde davon ausgegangen, dass sich die Benutzermerkmale nicht groß unterscheiden, da die Mitarbeiter im Umfeld der modularen Anlagen sehr ähnliche Voraussetzungen erfüllen müssen. Natürlich ist jeder Mitarbeiter individuell und hat verschiedene Fähigkeiten. Wie stark sich diese im Kontext der modularen Anlagen unterscheiden ist noch zu prüfen.
 
-Im Sinne von Herczeg findet die Individualisierung im Prototypen auf der Intentionalen Ebene und Pragmatischen Ebene statt (vgl. Abschnitt \ref{2:Individualisierung}). Das Assistenzsystem passt sich vor allem an die Veränderungen des Problems und die definierten Ziele an. Veränderungen im Sinne verschiedener Ein- und Ausgabegeräte und Einstellungen des Nutzers werden nicht durchgeführt.
+Im Sinne von Herczeg \cite{Herczeg2006} findet die Individualisierung im Prototypen auf der Intentionalen Ebene und Pragmatischen Ebene statt (vgl. Abschnitt \ref{2:Individualisierung}). Das Assistenzsystem passt sich vor allem an die Veränderungen des Problems und die definierten Ziele an. Veränderungen im Sinne verschiedener Ein- und Ausgabegeräte und Einstellungen des Nutzers werden nicht durchgeführt.
 
 \section{Nutzerbefragung}
+\label{6:Nutzerbefragung}
 Für eine gute Einschätzung der Nutzerfreundlichkeit ist es notwendig, den Nutzer des Systems zu befragen. Es bringt nichts, wenn die Fakten auf dem Papier stimmen, der Benutzer aber trotzdem total unzufrieden ist. Aus diesem Grund werden im nächsten Abschnitt Möglichkeiten zur Nutzerbefragung aufgezeigt. Anschließend wird ein Test erstellt und mit einigen ausgewählten Nutzer durchgeführt. Anhand des Ergebnis kann abgeschätzt werden, welche Elemente beibehalten werden sollen und wo Verbesserungspotential vorhanden ist.
 
 \subsection{Testmöglichkeiten}
-Möchte man die Benutzerfreundlichkeit eines Systems testen, kann man den Nutzer bei Verwendung des Systems beobachten oder xxx. Laut xx ist \glqq der vielleicht offensichtlichste Weg etwas über die Nutzerfreundlichkeit von etwas zu erfahren, den Nutzer zu fragen, ob er etwas über seine Erfahrung erzählt\grqq(Measuring the User Experience S. 123). Dazu können verschiedene Fragen mit verschiedenen Skalen oder offene Fragen gestellt werden. Offene Fragen sind schwieriger zu analysieren, als Tests mit Skalen. Letzter lassen sich in individuelle und generalisierte Fragebögen einteilen. Individuelle Fragebögen lassen systemspezifische Fragen zu und können z.B. für die Auswahl der Testpersonen angewendet werden. Die generalisierten Fragebögen sind standardisiert und können somit auch Unterschiede zwischen verschiedenen Systemen aufzeigen. Einige dieser Fragebögen sind im Folgenden vorgestellt.
+Möchte man die Benutzerfreundlichkeit eines Systems testen, kann man den Nutzer bei Verwendung des Systems beobachten oder xxx. Laut xx ist \glqq der vielleicht offensichtlichste Weg etwas über die Nutzerfreundlichkeit von etwas zu erfahren, den Nutzer zu fragen, ob er etwas über seine Erfahrung erzählt\grqq(Measuring the User Experience S. 123) \todo{Zitat}. Dazu können verschiedene Fragen mit verschiedenen Skalen oder offene Fragen gestellt werden. Offene Fragen sind schwieriger zu analysieren, als Tests mit Skalen. Letztere lassen sich in individuelle und generalisierte Fragebögen einteilen. Individuelle Fragebögen lassen systemspezifische Fragen zu und können z.B. für die Auswahl der Testpersonen angewendet werden. Die generalisierten Fragebögen sind standardisiert und können somit auch Unterschiede zwischen verschiedenen Systemen aufzeigen. Einige dieser Fragebögen sind im Folgenden vorgestellt.
 
 \subsubsection*{System Usability Scale}
-Der SUS (System Usability Scale) Fragebogen ist ein standardisierter Fragebogen zur Bewertung der Nutzerfreundlichkeit eines Systems. Er besteht aus zehn Fragen und fünf Stufen zwischen Stimme Gar nicht zu und Stimme voll zu. Die eine Hälfte der Fragen (ungrade Zahlen) ist positiv formuliert, die andere Hälfte (grade Zahlen) ist negativ formuliert. Für jede Frage werden abhängig von der Antwort zwischen 0 und 4 Punkte verteilt und anschließend summiert. Anschließend wird die Summe mit 2,5 multipliziert. Die Summe befindet sich auf einer Skala von 0 bis 100. Bei 100 ist die Nutzerfreundlichkeit voll erfüllt. \todo{Quelle}
+Der SUS (System Usability Scale) Fragebogen ist ein standardisierter Fragebogen zur Bewertung der Nutzerfreundlichkeit eines Systems. Er besteht aus zehn Fragen und fünf Stufen zwischen Stimme Gar nicht zu und Stimme voll zu. Die eine Hälfte der Fragen (ungerade Zahlen) ist positiv formuliert, die andere Hälfte (gerade Zahlen) ist negativ formuliert. Für jede Frage werden abhängig von der Antwort zwischen 0 und 4 Punkte verteilt und summiert. Anschließend wird die Summe mit 2,5 multipliziert. Die Summe befindet sich auf einer Skala von 0 bis 100. Bei 100 ist die Nutzerfreundlichkeit voll erfüllt. \todo{Quelle}
 
 \subsubsection*{User Experience Questionnaire}
 Mit dem UEQ (User Experience Questionnaire) soll möglichst schnell und unmittelbare der Gesamteindruck des Nutzers eines Systems erfasst werden. Der Fragebogen besteht aus 26 Fragen und einer 7-stufigen Skala mit semantischen Differentialen, wie kompliziert und einfach. Eingeteilt sind die Fragen in folgende sechs Skalen \cite{} \todo{Zitat}:
@@ -238,18 +238,38 @@ Die Fragen des CSUQ (Computer System Usability Questionaire) lassen sich auf ein
 \end{itemize}
 
 \subsection{Der Fragebogen}
-
-
-Der Fragebogen (siehe Anhang ) besteht aus mehreren Teilen. Zu Beginn gibt es einige Fragen zum Vorwissen des Nutzer, um die Antworten besser einordnen zu können. Für die Auswertung des Assistenzsystems wird zum einen der SUS-Fragebogen angewandt. Laut Forschung hat dieser eine \glqq exzellente Zuverlässigkeit, Aussagekraft und Empfindlichkeit zu einer breiten Auswahl an unabhängigen Variablen\grqq \cite[1150]{} \todo{Zitat Lewis}. Zum anderen werden einige offene Fragen gestellt, um genau abschätzen zu können, welche xx besonders positiv wahrgenommen werden und welche Funktionalität dem Nutzer fehlen. 
-
+Der Fragebogen (siehe Anhang \ref{A:Fragebogen-Validierung}) besteht aus mehreren Teilen. Zu Beginn gibt es einige Fragen zum Vorwissen des Nutzers, um die Antworten besser einordnen zu können. Für die Auswertung des Assistenzsystems wird zum einen der SUS Fragebogen angewandt. Laut Forschung hat dieser eine \glqq exzellente Zuverlässigkeit, Aussagekraft und Empfindlichkeit zu einer breiten Auswahl an unabhängigen Variablen\grqq \cite[1150]{} \todo{Zitat Lewis}. Zum anderen werden einige offene Fragen gestellt, um genau abschätzen zu können, welche Eigenschaften besonders positiv wahrgenommen werden und welche Funktionalität dem Nutzer fehlen. 
 
 \subsection{Auswertung des Fragebogens}
 Für die Bewertung des Assistenzsystems wurden einige Experten befragt, mit unterschiedlichem Vorwissen zum Thema modulare Anlagen und Assistenzsysteme. 
-\begin{figure}
-\includegraphics[scale=0.6]{DA_files/Bilder/Validierung/Bild-Vorwissen.png}
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.65]{DA_files/Bilder/Validierung/Bild-Vorwissen.pdf}
+\caption{Vorwissen zu modularen Anlagen und Assistenzsystemen}
+\label{pic:Fragebogen-Vorwissen}
 \end{figure}
 
-\section{Weiterer Use Case}
+\begin{figure}[htbp]
+\centering
+
+\end{figure}
+
+\subsubsection*{Für gut befunden}
+Vorschlag von mehreren Lösungen
+
+Sehr übersichtlich
+
+\subsubsection*{Verbesserungsvorschläge}
+Gesamtkosten aufführen -> was kostet ein Mitarbeiter (haben sowohl Luise, als auch Valentin gesagt)
+
+Wunsch: Beim Durchführen der Lösungen unterstützen
+
+Kennt das Assistenzsysteme alle möglichen Lösungen? Wie viele Lösungen gibt es insgesamt? Werden nur die 3 besten angezeigt? Wenn die eine nicht mehr durchführbar ist, wird mir das vorher mitgeteilt? Wird dann die nächstbeste mit angezeigt?
+
+Erklärungen: Warum muss gewartet werden?
+
+Dem Nutzer noch deutlicher machen, dass er grade eine Entscheidung trifft
+
 
 \section{Zusammenfassung}
 Anforderungen:
@@ -262,3 +282,12 @@ Klustern
 ----
 
 Nutzerumfrage
+
+-------------
+Ausblick:
+
+Welche Möglichkeiten zur Eingabe von Problemen und Lösungen muss der Nutzer haben?
+
+Wie können Serviceabhängigkeiten dargestellt werden?
+
+Wie kann sich die Plattform an das Vorwissen des Nutzers anpassen?

@@ -4,10 +4,3 @@
 \nomenclatureentry{ba bspw.@[{bspw.}]\begingroup beispielsweise\nomeqref {\relax 0}|nompageref}{x}
 \nomenclatureentry{ba UX@[{UX}]\begingroup User Experience\nomeqref {\relax 0}|nompageref}{x}
 \nomenclatureentry{ba vgl.@[{vgl.}]\begingroup vergleiche\nomeqref {\relax 0}|nompageref}{x}
-\nomenclatureentry{gl Problem@[{Problem}]\begingroup Ein Problem tritt auf, wenn \nomeqref {\relax 0}|nompageref}{x}
-\nomenclatureentry{gl Störung@[{Störung}]\begingroup Eine Störung entsteht, wenn \nomeqref {\relax 0}|nompageref}{x}
-\nomenclatureentry{gl Fehler@[{Fehler}]\begingroup Ein Fehler ist eine nicht zulässige Abweichung.\nomeqref {\relax 0}|nompageref}{x}
-\nomenclatureentry{gl Modul@[{Modul}]\begingroup Ein Modul erfüllt eine \nomeqref {\relax 0}|nompageref}{x}
-\nomenclatureentry{gl Prozessführungsebene@[{Prozessführungsebene}]\begingroup xxx\nomeqref {\relax 0}|nompageref}{x}
-\nomenclatureentry{gl Process Orchestration Layer@[{Process Orchestration Layer}]\begingroup Das Process Orchestration Layer \nomeqref {\relax 0}|nompageref}{x}
-\nomenclatureentry{gl Service@[{Service}]\begingroup = Dienst\nomeqref {\relax 0}|nompageref}{x}
