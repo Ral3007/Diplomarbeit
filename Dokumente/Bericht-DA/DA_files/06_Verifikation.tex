@@ -34,7 +34,7 @@ In den Anforderungen steht, dass dem Nutzer alle relevanten Informationen über 
 
 Abgeleitet aus der Analyse ist mit allen relevanten Informationen Folgendes gemeint:
 \begin{itemize}
-\item Aktueller Zustand der Anlage: KPIs, Rezept, Services
+\item Aktueller Zustand der Anlage: Verschaltung der Module, KPIs, Rezept, Services
 \item Informationen über den Produktionsprozess, z. B.:
 	\begin{itemize}
 	\item Wie sehr ist die aktuelle Anlage ausgelastet?
@@ -42,13 +42,9 @@ Abgeleitet aus der Analyse ist mit allen relevanten Informationen Folgendes geme
 \end{itemize}
 \end{itemize}
 
-\todo{überarbeiten}
+Der aktuelle Zustand der Anlage wird durch die PFE und damit auch durch Prototypen angezeigt. Die Informationen über den Produktionsprozess können über die Key Perfomance Indicator abgedeckt werden. Es ist bis jetzt allerdings nicht eindeutig, wo und wie diese definiert werden. Daher ist auch nicht eindeutig, ob damit die Anforderung vollständig erfüllt ist. Für eine detaillierte Bewertung muss genau festgelegt sein, welche KPIs angezeigt werden sollen und welche Informationen über den Produktionsprozess relevant sind. Beides ist stark von den Bedürfnissen des Betreibers der modularen Anlage abhängig. Aus diesem Grund ist die Anforderung allgemein als erfüllt zu bewerten, da die grundlegenden Informationen abgedeckt werden.
 
-Davon ausgehend ist die Frage zu beantworten, ob die KPIs die Informationen über den Produktionsprozess abdecken. Wenn sie dies nicht tun, muss untersucht werden, wie die Informationen über den Produktionsprozess sinnvoll eingebunden werden können. Zu berücksichtigen ist unter anderem, dass es sowohl modulspezifische, als auch anlagenspezifische Informationen geben kann.
-
-Der aktuelle Prototyp stellt den aktuellen Zustand modularen Anlage dar und erfüllt damit den ersten Teil der Anforderung. Ein Produktionsprozess kann noch durch weitere Faktoren beeinflusst werden. Relevant sind auch die Umgebungsbedingungen, wie die Umgebungstemperatur, und die Mitarbeiter, die an der Anlage arbeiten. Diese Informationen können als weitere Daten in die Problembeschreibung mit einfließen. 
-
-Um die Anforderung detailliert zu bewerten, muss genau festgelegt werden, welche KPIs angezeigt werden sollen und welche Informationen über den Produktionsprozess relevant sind. Beides ist jedoch stark abhängig von den Bedürfnissen des Betreibers der modularen Anlagen. Die vorhandene PFE wurde dazu entwickelt, den Produktionsprozess zu überwachen.
+%Der aktuelle Prototyp stellt den aktuellen Zustand modularen Anlage dar und erfüllt damit den ersten Teil der Anforderung. Ein Produktionsprozess kann noch durch weitere Faktoren beeinflusst werden. Relevant sind auch die Umgebungsbedingungen, wie die Umgebungstemperatur, und die Mitarbeiter, die an der Anlage arbeiten. Diese Informationen können als weitere Daten in die Problembeschreibung mit einfließen. 
 
 \subsubsection*{PI 2 Unterstützung bei Problemidentifikation}
 Das Assistenzsystem unterstützt den Nutzer bei der Problemidentifikation mit Meldungen, Warnungen und Alarme. Dadurch wird der Nutzer auf Probleme aufmerksam gemacht.
@@ -62,7 +58,7 @@ Dem Nutzer wird der Auslöser des Problems durch die Problembeschreibung mitgete
 \subsection{Unterstützung bei der Problemlösung}
 Die Anforderungen für die Unterstützung bei der Problemlösung sind nur teilweise erfüllt. Hintergrund ist einerseits die fehlende Möglichkeit im Prototyp eigene Lösungen hinzuzufügen. Es muss dafür noch untersucht werden, welche Eingaben der Nutzer tätigen möchte. Andererseits sieht der Nutzer nicht, wie sich seine Entscheidung auf die Produktqualität auswirkt. Eine Übersicht auf die Auswirkungen der Produktionsziele und der Struktur der Anlage wird durch die Assistenz bereitgestellt. Diese unterstützt den Nutzer durch eine Vorauswahl an Lösungen.
 
-\begin{table}[htbp]
+\begin{table}[htb]
 \caption{Auswertung Anforderungen Problemlösung}
 \centering
 \begin{tabular}{l|c|c|c|c|c}
@@ -105,9 +101,7 @@ Probleme sollen geklustert werden, damit mehrere Probleme parallel bearbeitet we
 \end{table}
 
 \subsubsection*{KP 1 Mehrere Probleme bearbeiten}
-Damit der Nutzer seine Entscheidung bei langfristigen Problemen nicht sofort treffen muss, wurde die Anforderung definiert, dass mehrere Probleme parallel bearbeitbar sein müssen. Das ist auch relevant, wenn ein neues Problem in den Vordergrund rückt.
-
-Laut Anforderung \todo{anders formulieren?} sollte der Nutzer die Möglichkeit haben mehrere Probleme parallel zu bearbeiten. Das ist dann relevant, wenn eine Entscheidung nicht sofort getroffen werden muss oder ein neues Problem in den Vordergrund rückt. Der Nutzer kann das Problem später weiter bearbeiten und sich in der Zwischenzeit einem anderen zuwenden. Die Interaktionsplattform macht das durch die linke Seitenleiste möglich, in der das zu bearbeitende Problem ausgewählt werden kann. 
+Damit ein Problem weiter bearbeitet werden kann, wenn ein neues Problem in den Vordergrund rückt, wurde eine entsprechende Anforderung definiert. Laut dieser sollen mehrere Probleme parallel bearbeitet werden können. Das ist auch relevant, wenn eine Entscheidung für ein Problem nicht sofort getroffen werden muss. Der Nutzer kann das Problem später weiter bearbeiten und sich in der Zwischenzeit einem anderen zuwenden. Die Interaktionsplattform macht das durch die linke Seitenleiste möglich, in der das zu bearbeitende Problem ausgewählt werden kann. 
 
 \subsubsection*{KP 2 Probleme sortieren}
 Da im Prototyp nur ein Problem realisiert ist, erfolgt keine konkrete Sortierung der Probleme. Das Konzept sieht jedoch eine Sortierung anhand von Zeit, Komplexität und Arbeitsaufwand vor, wodurch die Anforderung erfüllt ist. Darauf aufbauend kann untersucht werden, ob diese Sortierung im Umgang mit vielen Problemen ausreichend ist.
@@ -140,7 +134,7 @@ Kennzeichnung & o & Die Symbole werden mittels Hover-Funktionen erklärt.\\
 \hline
 Erklärung & - & Die Auswahl der Lösungen wird nicht erklärt.\\
 \hline
-Bereitstellung & o & Das Assistenzsystem stellt nur eine ausgewählte Menge und nicht alle an Informationen zur Verfügung.\\
+Bereitstellung & o & Das Assistenzsystem stellt nur eine ausgewählte Menge und nicht alle Informationen zur Verfügung.\\
 \hline
 Filter & + & Das Assistenzsystem zeigt nur relevante Daten zur Entscheidungsfindung an.\\
 \hline

@@ -165,23 +165,27 @@ url = {https://www.duden.de/node/673565/revisions/1971304/view},
 urldate={2019-01-03},
 }
 @misc{DudenAssistieren,
-author = {Tulpe},
 title = {assistieren},
 organization={Duden online},
 url = {https://www.duden.de/node/750355/revisions/1783324/view},
 urldate={2019-01-03}
 }
 
-@book{Dalgleish2007,
-author = {Bauernhansl, Thomas and ten Hompel, Michael and Vogel-Heuser, Brigit},
-booktitle = {Journal of Experimental Psychology: General},
+
+@InCollection{Dalgleish2007,
+author = {Alexander Schließmann},
+title = {iProduction, die Mensch-Maschine-Kommunikation in der Smart Factory},
+booktitle = {{Industrie 4.0 in Produktion, Automatisierung und Logistik}},
+pages = {451--480},
+publisher = {Springer Vieweg},
+year = {2007},
+editor = {Bauernhansl, Thomas and ten Hompel, Michael and Vogel-Heuser, Brigit},
 isbn = {9783658046811},
-number = {1},
-pages = {23--42},
-title = {{Industrie 4.0 in Produktion, Automatisierung und Logistik}},
-volume = {136},
-year = {2007}
+doi = {10.1007/978-3-658-04682-8_22},
+number = {1}
 }
+
+
 @article{Weisner2018,
 author = {Weisner, Kirsten and Knittel, Marco and Wischniewski, Sascha and Jaitner, Thomas and Enderlein, Heiko and Kuhlang, Peter and Deuse, Jochen},
 number = {2016},
