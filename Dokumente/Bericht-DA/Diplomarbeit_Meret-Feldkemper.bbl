@@ -91,7 +91,6 @@
     \field{sortinithash}{4}
     \field{title}{{Automatisierungstechnisches Engineering modularer Anlagen in
   der Prozessindustrie - ?}}
-    \field{year}{?}
   \endentry
 
   \entry{ISO9241-129}{misc}{}
@@ -263,12 +262,150 @@
     \field{year}{2011}
   \endentry
 
+  \entry{Bieber2018}{thesis}{}
+    \name{author}{4}{}{%
+      {{hash=BJ}{%
+         family={Bieber},
+         familyi={B\bibinitperiod},
+         given={Jonas},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Feldkemper},
+         familyi={F\bibinitperiod},
+         given={Meret},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Herzig},
+         familyi={H\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=WK}{%
+         family={Wauer},
+         familyi={W\bibinitperiod},
+         given={Konrad},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJ+2}
+    \strng{fullhash}{BJFMHPWK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Bie+18}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{MMSTDokumentation}
+    \list{institution}{1}{%
+      {TU Dresden}%
+    }
+    \field{type}{Studienarbeit}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Bloch2017}{article}{}
+    \name{author}{10}{}{%
+      {{hash=BH}{%
+         family={Bloch},
+         familyi={B\bibinitperiod},
+         given={Henry},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hensel},
+         familyi={H\bibinitperiod},
+         given={Stephan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hoernicke},
+         familyi={H\bibinitperiod},
+         given={Mario},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Stark},
+         familyi={S\bibinitperiod},
+         given={Katharina},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Menschner},
+         familyi={M\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=UL}{%
+         family={Urbas},
+         familyi={U\bibinitperiod},
+         given={Leon},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Fay},
+         familyi={F\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Knohl},
+         familyi={K\bibinitperiod},
+         given={Torsten},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bernshausen},
+         familyi={B\bibinitperiod},
+         given={Jens},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Haller},
+         familyi={H\bibinitperiod},
+         given={Axel},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BH+1}
+    \strng{fullhash}{BHHSHMSKMAULFAKTBJHA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Blo+17}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{pages}{46\bibrangedash 57}
+    \field{title}{{Zustandsbasierte F{\"{u}}hrung modularer Prozessanlagen}}
+    \field{volume}{10}
+    \field{journaltitle}{atp edition}
+    \field{year}{2017}
+  \endentry
+
+  \entry{DudenAssistenz}{misc}{}
+    \list{organization}{1}{%
+      {Duden online}%
+    }
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Dud}
+    \field{extraalpha}{1}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Assistenz}
+    \verb{url}
+    \verb https://www.duden.de/node/673565/revisions/1971304/view
+    \endverb
+    \field{urlday}{03}
+    \field{urlmonth}{01}
+    \field{urlyear}{2019}
+  \endentry
+
   \entry{DudenAssistieren}{misc}{}
     \list{organization}{1}{%
       {Duden online}%
     }
     \field{labeltitlesource}{title}
     \field{labelalpha}{Dud}
+    \field{extraalpha}{2}
     \field{sortinit}{D}
     \field{sortinithash}{D}
     \field{title}{assistieren}
@@ -353,7 +490,7 @@
     \list{institution}{1}{%
       {TU Dresden}%
     }
-    \field{type}{phdthesis}
+    \field{type}{Diplomarbeit}
     \field{year}{2018}
   \endentry
 
@@ -845,6 +982,22 @@
     \verb{url}
     \verb https://material.io/
     \endverb
+    \field{urlday}{17}
+    \field{urlmonth}{04}
+    \field{urlyear}{2019}
+  \endentry
+
+  \entry{MD-ColorTool}{misc}{}
+    \field{labelalpha}{Md }
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{url}
+    \verb https://material.io/tools/color/#!/?view.left=0&view.right=0&primary.
+    \verb color=689F38
+    \endverb
+    \field{urlday}{17}
+    \field{urlmonth}{04}
+    \field{urlyear}{2019}
   \endentry
 
   \entry{Meixner2011}{article}{}
@@ -961,6 +1114,37 @@
     \field{year}{2017}
   \endentry
 
+  \entry{Muller2018}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MR}{%
+         family={M{\"{u}}ller},
+         familyi={M\bibinitperiod},
+         given={Romy},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer London}%
+    }
+    \strng{namehash}{MR1}
+    \strng{fullhash}{MR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{M{\"{u}}l18}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1007/s10111-018-0489-8
+    \endverb
+    \field{number}{1}
+    \field{pages}{113\bibrangedash 131}
+    \field{title}{{Cognitive challenges of changeability: adjustment to system
+  changes and transfer of knowledge in modular chemical plants}}
+    \field{volume}{21}
+    \field{journaltitle}{Cognition, Technology and Work}
+    \field{year}{2018}
+  \endentry
+
   \entry{Obst2013}{article}{}
     \name{author}{10}{}{%
       {{hash=OM}{%
@@ -1038,6 +1222,72 @@
     \field{volume}{1-2}
     \field{journaltitle}{Atp Edition}
     \field{year}{2013}
+  \endentry
+
+  \entry{Poetter2007}{incollection}{}
+    \name{author}{3}{}{%
+      {{hash=PT}{%
+         family={Pötter},
+         familyi={P\bibinitperiod},
+         given={Thorsten},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Folmer},
+         familyi={F\bibinitperiod},
+         given={Jens},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=VHB}{%
+         family={Vogel-Heuser},
+         familyi={V\bibinitperiod-H\bibinitperiod},
+         given={Birgit},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \name{editor}{3}{}{%
+      {{hash=BT}{%
+         family={Bauernhansl},
+         familyi={B\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=tHM}{%
+         prefix={ten},
+         prefixi={t\bibinitperiod},
+         family={Hompel},
+         familyi={H\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=VHB}{%
+         family={Vogel-Heuser},
+         familyi={V\bibinitperiod-H\bibinitperiod},
+         given={Brigit},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Vieweg}%
+    }
+    \strng{namehash}{PTFJVHB1}
+    \strng{fullhash}{PTFJVHB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{PFVH07}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{booktitle}{{Industrie 4.0 in Produktion, Automatisierung und
+  Logistik}}
+    \verb{doi}
+    \verb 10.1007/978-3-658-04682-8_8
+    \endverb
+    \field{isbn}{9783658046811}
+    \field{number}{1}
+    \field{pages}{159\bibrangedash 171}
+    \field{title}{Enabling Industrie 4.0 – Chancen und Nutzen für die
+  Prozess- industrie}
+    \field{year}{2007}
   \endentry
 
   \entry{Park2015}{article}{}
@@ -1305,30 +1555,68 @@
     \field{year}{2007}
   \endentry
 
-  \entry{DudenAssistenz}{misc}{}
+  \entry{Sherdian1988}{article}{}
     \name{author}{1}{}{%
-      {{hash=T}{%
-         family={Tulpe},
-         familyi={T\bibinitperiod},
+      {{hash=ST}{%
+         family={Sheridan},
+         familyi={S\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
       }}%
     }
-    \list{organization}{1}{%
-      {Duden online}%
-    }
-    \strng{namehash}{T1}
-    \strng{fullhash}{T1}
+    \strng{namehash}{ST1}
+    \strng{fullhash}{ST1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{Tul}
-    \field{sortinit}{T}
-    \field{sortinithash}{T}
-    \field{title}{Assistenz}
-    \verb{url}
-    \verb https://www.duden.de/node/673565/revisions/1971304/view
+    \field{labelalpha}{She88}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1016/B978-044481862-1/50071-6
     \endverb
-    \field{urlday}{03}
-    \field{urlmonth}{01}
-    \field{urlyear}{2019}
+    \field{title}{Task Analysis, Task Allocation and Supervisory Control}
+    \field{journaltitle}{Handbook of human‐computer interaction}
+    \field{month}{12}
+    \field{year}{1988}
+  \endentry
+
+  \entry{UrbasP2012}{book}{}
+    \name{author}{3}{}{%
+      {{hash=UL}{%
+         family={Urbas},
+         familyi={U\bibinitperiod},
+         given={Leon},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Krause},
+         familyi={K\bibinitperiod},
+         given={Annett},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Ziegler},
+         familyi={Z\bibinitperiod},
+         given={Jens},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oldenbourg Industrieverl.}%
+    }
+    \strng{namehash}{ULKAZJ1}
+    \strng{fullhash}{ULKAZJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{UKZ12}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{isbn}{3835631985}
+    \field{title}{Process control systems engineering}
+    \list{location}{1}{%
+      {München}%
+    }
+    \field{year}{2012}
   \endentry
 
   \entry{Urbas2012}{article}{}
@@ -1586,6 +1874,30 @@
       {Hamburg}%
     }
     \field{year}{2016}
+  \endentry
+
+  \entry{ZVEI2015}{article}{}
+    \name{author}{1}{}{%
+      {{hash=Z}{%
+         family={ZVEI},
+         familyi={Z\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{Z1}
+    \strng{fullhash}{Z1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{ZVE15}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{pages}{35}
+    \field{title}{{Modulbasierte Produktion in der Prozessindustrie –
+  Auswirkungen auf die Automation im Umfeld von Industrie 4 . 0}}
+    \verb{url}
+    \verb http://www.zvei.org/Publikationen/ZVEI-White-Paper-Modulare-Automatio
+    \verb n.pdf
+    \endverb
+    \field{year}{2015}
   \endentry
 
   \entry{Zuhlke2012}{book}{}

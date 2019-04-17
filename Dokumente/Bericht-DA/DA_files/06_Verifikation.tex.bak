@@ -24,10 +24,10 @@ Insgesamt ist die Unterstützung der Problemidentifikation als positiv zu werten
 \subsubsection*{PI 1.1 Problembeschreibung}
 Dem Nutzer sollte die Möglichkeit gegeben werden, das Problem zu beschreiben. Der Prototyp erfüllt diese, indem sowohl textuell die Beschreibung verändert werden kann, als auch die Parameter der Rahmenbedingung verändert werden können. Ein Beispiel dafür ist die Wartungsdauer. Der Nutzer kann in Absprache mit dem Hersteller festlegen, wie lange die Wartung für das Modul dauert.
 
-Hat der Nutzer selber ein Problem entdeckt, ist es derzeit nicht möglich dieses zu beschreiben. Dafür muss zunächst näher untersucht werden, welche Probleme die modulare Anlage nicht selber erkennt und durch den Nutzer gemeldet werden müssen. Das könnten beispielsweise Flüssigkeiten sein, die auslaufen oder ungewöhnliche Geräusche, die nicht durch Sensoren erfasst werden können. Erste Ideen gab es dazu bereits in xx \todo{Oberseminar}. Es ist zu prüfen, ob diese Ansätze auch für die modularen Anlagen umgesetzt werden können.
+Hat der Nutzer selber ein Problem entdeckt, ist es derzeit nicht möglich dieses zu beschreiben. Dafür muss zunächst näher untersucht werden, welche Probleme die modulare Anlage nicht selber erkennt und durch den Nutzer gemeldet werden müssen. Das könnten beispielsweise Flüssigkeiten sein, die auslaufen oder ungewöhnliche Geräusche, die nicht durch Sensoren erfasst werden können. Erste Ideen gab es dazu bereits in \cite{Bieber2018}. Es ist zu prüfen, ob diese Ansätze auch für die modularen Anlagen umgesetzt werden können.
 
 \subsubsection*{PI 1.2 Zieldefinition}
-Dem Nutzer sollte die Möglichkeit gegeben die Ziele zu definieren, um anhand diese die Lösungen zu finden. Der Prototyp erfüllt diese, indem sich die Parameter der Ziele verändern und neue Ziele hinzufügen lassen.
+Dem Nutzer sollte die Möglichkeit gegeben sein die Ziele zu definieren, um anhand dieser die Lösungen zu finden. Der Prototyp erfüllt diese, indem sich die Parameter der Ziele verändern und neue Ziele hinzufügen lassen.
 
 \subsubsection*{PI 1.3 Informationen}
 In den Anforderungen steht, dass dem Nutzer alle relevanten Informationen über die aktuelle Situation zur Verfügung stehen sollen. Die Auswertung dieser Anforderung gestaltet sich sehr schwierig, da die Anforderung sehr unspezifisch formuliert ist.

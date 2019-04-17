@@ -4,7 +4,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 In der Analyse wurde herausgearbeitet, welche Aspekte bei der Entwicklung des Assistenzsystems für die modularen Anlagen berücksichtigt werden müssen. Die vielschichtigen Faktoren werden nun ins Konzept mit einbezogen. Dazu wird zunächst mit dem konzeptuelles Design herausgearbeitet, welche Funktionen konkret umgesetzt werden müssen und wie Nutzer und Assistenz miteinander interagieren. Darauf aufbauend erfolgt der Entwurf eines physischen Designs. In diesem wird ein Vorschlag geliefert, wie ein System zur Problemlösung aussehen kann.
 
-Wo kommt das mit dem physischen und konzeptuelles Design her? Andreas Butz - Mensch-Maschine-Interaktion \todo{Quelle ergänzen}
+Wo kommt das mit dem physischen und konzeptuelles Design her? Andreas Butz - Mensch-Maschine-Interaktion \todo{Quelle ergänzen?}
 
 \section{Konzeptuelles Design}
 \todo{Einleitung?}
@@ -120,7 +120,7 @@ Das Assistenzsystem verarbeitet alle zur Verfügung stehenden Informationen und 
 
 \section{Physisches Design}
 \label{4:Physikalische-Design}
-Ausgehend vom konzeptuellen Design wird das physische Design entworfen. Es beschreibt die konkrete Darstellung der Funktionen und Informationen. Das Design baut auf der bereits existierenden PFE auf und erweitert diese. Grundlage bietet das Material Design \cite{MaterialDesign} von Google. Zur klaren Abgrenzung von Assistenzsystem und PFE wird auch das Farbschema erweitert. Das Assistenzsystem bedient sich an Grüntönen, die mittels des Color Tools \cite{} \todo{Zitat} ausgewählt wurden.
+Ausgehend vom konzeptuellen Design wird das physische Design entworfen. Es beschreibt die konkrete Darstellung der Funktionen und Informationen. Das Design baut auf der bereits existierenden PFE auf und erweitert diese. Grundlage bietet das Material Design \cite{MaterialDesign} von Google \todo{ändern}. Zur klaren Abgrenzung von Assistenzsystem und PFE wird auch das Farbschema erweitert. Das Assistenzsystem bedient sich an Grüntönen, die mittels des Color Tools \cite{MD-ColorTool} \todo{Zitat} ausgewählt wurden.
 
 \subsection{Prozessführungsebene}
 In der bereits existierenden Prozessführungsebene ist der aktuelle Status sichtbar. In Bild \ref{pic:pD-PFE} ist die PFE um eine Meldung erweitert. Über den Button \textbf{Problem bearbeiten} gelangt man zur Problembeschreibung.
@@ -132,7 +132,7 @@ In der bereits existierenden Prozessführungsebene ist der aktuelle Status sicht
 \end{figure}
 
 \subsection{Problem beschreiben}
-Das Feld für die Problembeschreibung ist in zwei Bereiche geteilt (siehe Bild \ref{pic:pD-Problembeschreibung}). Der erste Bereich umfasst die Problembeschreibung und eine (oder mehrere) Spezifikationen. Eine Spezifikation kann z.B. die Dauer der Wartung sein. Diese ist vom Modulhersteller angegeben und kann nicht verändert werden. Der zweite Bereich stellt die Ziele dar. Über das \textbf{+} ist es möglich Ziele hinzuzufügen (siehe Bild \ref{pic:pD-Problembeschreibung-Ziel-hinzufuegen}). Das Löschen eines Ziels kann durch markieren und anschließendes klicken auf den Mülleimer durchgeführt werden (siehe Bild \ref{pic:pD-Problembeschreibung-Ziel-loeschen}). Neben diesen Fakten wird dem Nutzer auch noch visuell dargestellt, welche Bereiche vom Problem betroffen sind.
+Das Feld für die Problembeschreibung ist in zwei Bereiche geteilt (siehe Bild \ref{pic:pD-Problembeschreibung}). Der erste Bereich umfasst die Problembeschreibung und eine (oder mehrere) Spezifikationen. Eine Spezifikation kann z.B. die Dauer der Wartung sein. Diese ist vom Modulhersteller angegeben und kann nicht verändert werden. Der zweite Bereich stellt die Ziele dar. Über das Plus-Symbol ist es möglich Ziele hinzuzufügen (siehe Bild \ref{pic:pD-Problembeschreibung-Ziel-hinzufuegen}). Das Löschen eines Ziels kann durch markieren und anschließendes klicken auf den Mülleimer durchgeführt werden (siehe Bild \ref{pic:pD-Problembeschreibung-Ziel-loeschen}). Neben diesen Fakten wird dem Nutzer auch noch visuell dargestellt, welche Bereiche vom Problem betroffen sind.
 Hat der Nutzer alles erfasst und die notwendigen Ziele definiert, kann er über den Button \textbf{Lösungen finden} das Assistenzsystem nach möglichen Lösungen fragen.
 
 \begin{figure}[htbp]

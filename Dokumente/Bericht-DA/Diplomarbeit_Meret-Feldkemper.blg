@@ -3,8 +3,6 @@ The style file: biblatex.bst
 Database file #1: Diplomarbeit_Meret-Feldkemper-blx.bib
 Database file #2: bibliography.bib
 Warning--entry type for "ISO9241-110" isn't style-file defined
---line 312 of file bibliography.bib
-Warning--string name "?" is undefined
---line 354 of file bibliography.bib
+--line 347 of file bibliography.bib
 Biblatex version: 3.8
-(There were 2 warnings)
+(There was 1 warning)
