@@ -296,7 +296,7 @@
     \field{labelalpha}{Bie+18}
     \field{sortinit}{B}
     \field{sortinithash}{B}
-    \field{title}{MMSTDokumentation}
+    \field{title}{MMST Dokumentation}
     \list{institution}{1}{%
       {TU Dresden}%
     }
@@ -907,6 +907,36 @@
   Serviceabh{\"{a}}ngigkeiten in Prozessmodulen}}
     \field{volume}{66}
     \field{journaltitle}{at - Automatisierungstechnik}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Lewis2018}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LJR}{%
+         family={Lewis},
+         familyi={L\bibinitperiod},
+         given={James\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taylor {\&} Francis}%
+    }
+    \strng{namehash}{LJR1}
+    \strng{fullhash}{LJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Lew18}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1080/10447318.2017.1418805
+    \endverb
+    \field{number}{12}
+    \field{pages}{1148\bibrangedash 1156}
+    \field{title}{{Measuring Perceived Usability: The CSUQ, SUS, and UMUX}}
+    \field{volume}{34}
+    \field{journaltitle}{International Journal of Human-Computer Interaction}
     \field{year}{2018}
   \endentry
 
@@ -1555,6 +1585,30 @@
     \field{year}{2007}
   \endentry
 
+  \entry{Schrepp2015}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SM}{%
+         family={Schrepp},
+         familyi={S\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SM1}
+    \strng{fullhash}{SM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Sch15}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.13140/RG.2.1.2815.0245
+    \endverb
+    \field{title}{User Experience Questionnaire Handbook}
+    \field{month}{09}
+    \field{year}{2015}
+  \endentry
+
   \entry{Sherdian1988}{article}{}
     \name{author}{1}{}{%
       {{hash=ST}{%
@@ -1578,6 +1632,40 @@
     \field{journaltitle}{Handbook of human‐computer interaction}
     \field{month}{12}
     \field{year}{1988}
+  \endentry
+
+  \entry{Tullis2008}{book}{}
+    \name{author}{2}{}{%
+      {{hash=TT}{%
+         family={Tullis},
+         familyi={T\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=AB}{%
+         family={Albert},
+         familyi={A\bibinitperiod},
+         given={Bill},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Elsevier Science and Technology}}%
+    }
+    \strng{namehash}{TTAB1}
+    \strng{fullhash}{TTAB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{TA08}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{isbn}{9780080558264}
+    \field{title}{Measuring the User Experience: Collecting, Analyzing, and
+  Presenting Usability Metrics}
+    \list{location}{1}{%
+      {Burlington}%
+    }
+    \field{year}{2008}
   \endentry
 
   \entry{UrbasP2012}{book}{}

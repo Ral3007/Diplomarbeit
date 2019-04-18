@@ -120,6 +120,6 @@
 \input{DA_files/05_Implementierung.tex}
 \input{DA_files/06_Verifikation.tex}
 \input{DA_files/07_Zusammenfassung.tex}
-\input{DA_files/08_Ausblick.tex}         
+%\input{DA_files/08_Ausblick.tex}         
           
 \end{document}

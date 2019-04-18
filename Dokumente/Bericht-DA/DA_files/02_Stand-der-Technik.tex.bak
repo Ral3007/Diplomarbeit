@@ -4,9 +4,13 @@
 \chapter{Stand der Technik}
 \label{sec:StandDerTechnik}
 
-Diese Kapitel umfasst die wesentlichen Grundlagen für ein besseres Verständnis der Arbeit und die bereits vorhandenen Konzepte für eine mögliche Umsetzung der Problemstellung. Da das Thema der Arbeit im Kontext der modularen Anlagen steht, werden zunächst die Grundlagen der Prozessautomatisierung und darauf aufbauend das Konzept der modularen Anlagen erläutert.
+Diese Kapitel umfasst die wesentlichen Grundlagen für ein besseres Verständnis der Arbeit und die bereits vorhandenen Konzepte für eine mögliche Umsetzung der Problemstellung. Da das Thema der Arbeit im Kontext der modularen Anlagen steht, sind zunächst die Grundlagen der Prozessautomatisierung und darauf aufbauend das Konzept der modularen Anlagen erläutert. Entsteht ein Problem beim Betrieb der Anlage muss dieses behoben werden. Um nachvollziehen zu können, wie Menschen Probleme lösen, wird der allgemeine Problemlöseprozess beschrieben. 
 
-Um zu verstehen, wie eine Lösung für ein Problem gefunden werden kann, ist dargestellt, wie sich Probleme unterscheiden, wie unterschiedlich Nutzer mit Problemen umgehen und was Einfluss auf ein Problem hat. Damit der Nutzer geeignet unterstützt wird, findet auch eine Betrachtung des allgemeinen Problemlöseprozess statt. Die Lösungsfindung soll idealerweise in Kollaboration mit einem Assistenzsystem erfolgen. Welche Möglichkeiten der Kommunikation bestehen, ist ebenfalls erläutert.
+
+
+Damit eindeutig wird, wie sich Probleme lösen lassen, ist dargestellt, wie sich Probleme unterscheiden, wie unterschiedlich Nutzer mit Problemen umgehen und was Einfluss auf ein Problem hat. Damit der Nutzer geeignet unterstützt wird, findet auch eine Betrachtung des allgemeinen Problemlöseprozess statt. Die Lösungsfindung soll idealerweise in Kollaboration mit einem Assistenzsystem erfolgen. Für eine gute Kollaboration müssen Assistenz und Nutzer kommunizieren. Die entsprechenden Möglichkeiten werden aufgelistet. Auch
+
+Welche Möglichkeiten der Kommunikation bestehen, ist ebenfalls erläutert.
 
 ... Was kann Assistenz leisten
 

@@ -20,9 +20,9 @@
 \begin{document}
 
 \section{Motivation}
-Durch Voranschreiten der Automatisierung in der Prozessführung sind Anlagenbediener vor allem in kritischen Situationen für Entscheidungen verantwortlich \cite{bainbridget_ironies_1983}. Der Mensch trifft seine Entscheidungen anhand von Beobachtungen und Erfahrungen. Im Zuge der entwickelten Modularisierungskonzept wird dies zunehmend schwieriger. Die Flexibilität der modularen Anlagen stellt die Anlagenbediener vor die Herausforderung, Probleme nicht mehr auf Grundlage von umfangreiche Erfahrung lösen zu können \cite{}.
+Durch Voranschreiten der Automatisierung in der Prozessführung sind Anlagenbediener vor allem in kritischen Situationen für Entscheidungen verantwortlich \cite{bainbridget_ironies_1983}. Der Mensch trifft seine Entscheidungen anhand von Beobachtungen und Erfahrungen. Im Zuge der entwickelten Modularisierungskonzept wird dies zunehmend schwieriger. Die Flexibilität der modularen Anlagen stellt die Anlagenbediener vor die Herausforderung, Probleme nicht mehr auf Grundlage von umfangreiche Erfahrung lösen zu können \cite{mueller_2018}.
 
-Assistenzsysteme könnten den Anlagenbediener bei Erkennung von Problemen, deren Zusammenhängen und möglichen Lösungsansätzen unterstützen. Dabei ist der Mensch mit einzubeziehen und seine Kompetenzen zu würdigen.
+Assistenzsysteme können den Anlagenbediener bei Erkennung von Problemen, deren Zusammenhängen und möglichen Lösungsansätzen unterstützen. Dabei ist der Mensch mit einzubeziehen und seine Kompetenzen zu würdigen.
 
 \section{Analyse}
 Tritt ein Problem auf, muss der Nutzer darauf aufmerksam gemacht werden. Wichtig für das Assistenzsystem ist nicht nur die Einordnung, wodurch das Problem ausgelöst wurde, sondern auch wie zeitkritisch und wie komplex das Problem ist. Anhand dieser Merkmale sollte sich die Menge und Art der dargestellten Informationen orientieren. Aktuell erhält der Nutzer mit der Prozessführungsebene Informationen über
@@ -51,14 +51,22 @@ Anpassung an Zeitdurck, Bereich,
 \section{Validierung}
 Wie gut / schlecht kam der Entwurf an? Was fehlt noch?
 
-\section{Zusammenfassung}
+Bild vom SUS...
+
+
+
+\section{Zusammenfassung und Ausblick}
 Nutzer kann mit entsprechenden Informationen geeignet unterstützt werden. Offen bleibt, wie der Nutzer selber Probleme und Lösungen eingeben kann.
 
 
  {\tiny\renewcommand{\section}[2]{}%
  	 \begin{thebibliography}{8.5}
  	 \bibitem{bainbridget_ironies_1983}
- 	 	Lisanne Bainbridget. {\glqq Ironies of Automation\grqq}. {In: \textit{Automatica}} 19.6 (1983), s. 775-779.
+ 	 	Lisanne Bainbridget. {\glqq Ironies of Automation\grqq}. {In: \textit{Automatica}} 19.6 (1983), S. 775-779.
+ 	 \bibitem{mueller_2018}
+ 	 Romy Müller. {\glqq Cognitive challenges of changeability: adjustment
+to system changes and transfer of knowledge in modular
+chemical plants\grqq}. {In: \textit{Cognition, Technology and Work}} 21.1 (2018), S. 113-131.
 	\end{thebibliography}}
 	
 \end{document}

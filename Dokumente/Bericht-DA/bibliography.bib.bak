@@ -209,7 +209,7 @@ isbn = {9783658046811},
 doi = {10.1007/978-3-658-04682-8_22},
 number = {1}
 }
-@InCollection{Pötter2007,
+@InCollection{Poetter2007,
 author = {Thorsten Pötter and Jens Folmer and Birgit Vogel-Heuser},
 title = {Enabling Industrie 4.0 – Chancen und Nutzen für die Prozess- industrie},
 booktitle = {{Industrie 4.0 in Produktion, Automatisierung und Logistik}},
@@ -353,6 +353,7 @@ addendum = {DIN 40041 (1990-12)},
 keywords = {Norm},
 _NOTE = {Ausschuß Qualit{\"a}tssicherung und angewandte Statistik (AQS) im DIN Deutsches Institut f{\"u}r Normung e.V.}
 }
+
 @misc{ISO9241-112,
 author = {DIN EN ISO 9241-112},
 publisher = {Deutsche Norm},
@@ -385,8 +386,8 @@ year = {2017}
 author = {VDI/VDE/NAMUR 2658 Blatt 4},
 publisher = {Verein Deutsche Ingenieure},
 title = {{Automatisierungstechnisches Engineering modularer Anlagen in der Prozessindustrie - ?}},
-month = ?,
-year = {?}
+month = {},
+year = {}
 }
 
 %User Experience
@@ -413,6 +414,15 @@ title = {{User experience - A research agenda}},
 volume = {25},
 year = {2006}
 }
+@Book{Tullis2008,
+author = {Thomas Tullis and Bill Albert},
+title = {Measuring the User Experience: Collecting, Analyzing, and Presenting Usability Metrics},
+publisher = {{Elsevier Science and Technology}},
+year = {2008},
+address = {Burlington},
+isbn = {9780080558264}
+}
+
 
 %Adaptive Systeme
 @article{Viano2000,
@@ -476,7 +486,6 @@ year = {2014}
 author = { Urbas, Leon AND Krause, Annett AND Ziegler, Jens },
 title = { Process control systems engineering},
 publisher = {Oldenbourg Industrieverl.},
-isbn = {9783835631984},
 isbn = {3835631985},
 year = {2012},
 address = { München},
@@ -491,6 +500,27 @@ isbn = {9783658019501},
 publisher = {Springer Fachmedien},
 title = {{Produktionscontrolling}},
 year = {2016}
+}
+
+%System Usability
+@article{Lewis2018,
+author = {Lewis, James R.},
+doi = {10.1080/10447318.2017.1418805},
+journal = {International Journal of Human-Computer Interaction},
+number = {12},
+pages = {1148--1156},
+publisher = {Taylor {\&} Francis},
+title = {{Measuring Perceived Usability: The CSUQ, SUS, and UMUX}},
+volume = {34},
+year = {2018}
+}
+@article{Schrepp2015,
+author = {Schrepp, Martin},
+year = {2015},
+month = {09},
+pages = {},
+title = {User Experience Questionnaire Handbook},
+doi = {10.13140/RG.2.1.2815.0245}
 }
 
 %Sonstige
@@ -517,7 +547,7 @@ type = {Diplomarbeit}
 @phdthesis{Bieber2018,
 author = {Jonas Bieber and Meret Feldkemper and Paul Herzig and Konrad Wauer},
 school = {TU Dresden},
-title = {MMSTDokumentation},
+title = {MMST Dokumentation},
 year = {2018},
 type = {Studienarbeit}
 }
