@@ -1,23 +1,22 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
-\select@language {ngerman}
+\babel@toc {ngerman}{}
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Stand der Technik}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Prozessindustrie}{3}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Prozessautomatisierungssystem}{4}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Modulare Anlagen}{4}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}Probleml\IeC {\"o}sen}{6}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Unterscheidung von Problemen}{7}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Unterscheidung von Problemen}{6}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Arten von Probleml\IeC {\"o}sern}{8}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Einfl\IeC {\"u}sse}{9}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Phasen des Probleml\IeC {\"o}sens}{11}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.3}Einfl\IeC {\"u}sse}{8}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Phasen des Probleml\IeC {\"o}sens}{10}{subsection.2.2.4}
 \contentsline {subsection}{\numberline {2.2.5}St\IeC {\"o}rungsdiagnose}{11}{subsection.2.2.5}
 \contentsline {section}{\numberline {2.3}Kollaboration}{12}{section.2.3}
 \contentsline {section}{\numberline {2.4}Kommunikation}{12}{section.2.4}
 \contentsline {section}{\numberline {2.5}Assistenz}{13}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Anforderungen an digitale Assistenzsysteme}{14}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Einsatz von digitaler Assistenz}{15}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Assistenzsysteme}{16}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.2}Einsatz von digitaler Assistenz}{14}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Assistenzsysteme}{15}{subsection.2.5.3}
 \contentsline {section}{\numberline {2.6}Gestaltung von Mensch-Maschine-Schnittstellen}{19}{section.2.6}
 \contentsline {subsection}{\numberline {2.6.1}Ergonomisch gute Gestaltung}{19}{subsection.2.6.1}
 \contentsline {subsection}{\numberline {2.6.2}User Experience}{21}{subsection.2.6.2}
@@ -66,7 +65,7 @@
 \contentsline {subsection}{\numberline {6.3.1}Testm\IeC {\"o}glichkeiten}{72}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Der Fragebogen}{73}{subsection.6.3.2}
 \contentsline {subsection}{\numberline {6.3.3}Auswertung des Fragebogens}{73}{subsection.6.3.3}
-\contentsline {section}{\numberline {6.4}Bewertung}{75}{section.6.4}
+\contentsline {section}{\numberline {6.4}Bewertung}{76}{section.6.4}
 \contentsline {chapter}{\numberline {7}Zusammenfassung und Ausblick}{77}{chapter.7}
 \contentsfinish 
 \contentsline {chapter}{Anhang \numberline {A}Modulare Anlage}{80}{Anhang.a.A}

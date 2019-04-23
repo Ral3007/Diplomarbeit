@@ -20,10 +20,10 @@
 \begin{document}
 
 \section{Motivation}
-Durch Voranschreiten der Automatisierung in der Prozessführung sind Anlagenbediener vor allem in kritischen Situationen für Entscheidungen verantwortlich \cite{bainbridget_ironies_1983}. Der Mensch trifft seine Entscheidungen anhand von Beobachtungen und Erfahrungen. Im Zuge der entwickelten Modularisierungskonzept wird dies zunehmend schwieriger. Die Flexibilität der modularen Anlagen stellt die Anlagenbediener vor die Herausforderung, Probleme nicht mehr auf Grundlage von umfangreicher Erfahrung lösen zu können \cite{mueller_2018}. Assistenzsysteme können den Anlagenbediener bei Erkennung von Problemen, deren Zusammenhängen und möglichen Lösungsansätzen unterstützen. Dabei ist der Mensch mit einzubeziehen und seine Kompetenzen zu würdigen.
+Durch Voranschreiten der Automatisierung in der Prozessführung sind Anlagenbediener vor allem in kritischen Situationen für Entscheidungen verantwortlich \cite{bainbridget_ironies_1983}. Der Mensch trifft seine Entscheidungen anhand von Beobachtungen und Erfahrungen. Im Zuge der entwickelten Modularisierungskonzept wird dies zunehmend schwieriger. Die Flexibilität der modularen Anlagen stellt die Anlagenbediener vor die Herausforderung, Probleme nicht mehr auf Grundlage von umfangreicher Erfahrung lösen zu können \cite{mueller_2018}. Assistenzsysteme bieten dem Anlagenbediener bei Erkennung von Problemen, deren Zusammenhängen und möglichen Lösungsansätzen Unterstützung. Dabei ist der Mensch mit einzubeziehen und seine Kompetenzen zu würdigen.
 
 \section{Analyse}
-Tritt ein Problem auf, muss der Nutzer darauf aufmerksam gemacht werden. Wichtig für das Assistenzsystem ist nicht nur die Einordnung, wodurch das Problem ausgelöst wurde, sondern auch wie zeitkritisch und wie komplex das Problem ist. Anhand dieser Merkmale sollte sich die Menge und Art der dargestellten Informationen orientieren. Aktuell erhält der Nutzer mit der Prozessführungsebene nur eine Gesamtübersicht über den aktuellen Zustand der Anlage. Treten Meldungen auf wird dem Nutzer nicht sichtbar gemacht, welcher Bereich betroffen ist und wie die Zusammenhänge sind.
+Tritt ein Problem auf, muss der Nutzer darauf aufmerksam gemacht werden. Wichtig für das Assistenzsystem ist nicht nur die Einordnung, wodurch das Problem ausgelöst wurde, sondern auch wie zeitkritisch und wie komplex das Problem ist. Anhand dieser Merkmale sollte sich die Menge und Art der dargestellten Informationen orientieren. Aktuell erhält der Nutzer mit der Prozessführungsebene (PFE) nur eine Gesamtübersicht über den aktuellen Zustand der Anlage. Treten Meldungen auf, wird dem Nutzer nicht sichtbar gemacht, welcher Bereich betroffen ist und wie die Zusammenhänge sind.
 
 Sollen Lösungen für ein entstandenes Problem gefunden werden, sind vor allem die Ziele eines produzierenden Unternehmens zu berücksichtigen. Diese reichen von der Verfügbarkeit von Mitarbeitern bis zum Aufwand Änderungen an der Anlage vorzunehmen.
 
@@ -32,29 +32,16 @@ Sollen Lösungen für ein entstandenes Problem gefunden werden, sind vor allem d
 \centering
 \includegraphics[scale=0.4]{DA_files/Prototyp-PFE-Loesung2.png}
 \caption{Darstellung einer Lösung für ein Problem auf Grundlage der PFE}
+\label{PFE-Loesungen}
 \end{figure}
-Das Assistenzsystem begleitet den Nutzer durch den Problemlöseprozess. Es macht ihn mit Meldungen auf Probleme aufmerksam und gibt die Möglichkeit die Situation einzuschätzen und Randbedingungen zu definieren. Anhand der Bedingungen sucht das Assistenzsystem nach Lösungen, die der Nutzer begutachten kann, um eine Entscheidung zu treffen.
 
-Das Design des Assistenzsystems baut auf einer bereits entwickelten PFE auf \cite{} und passt sich anhand des Problemauslösers an.
+Das entwickelte User Interface baut auf einer bereits entwickelten PFE auf. Dies bietet den Vorteil, dass sich der Nutzer bei Anwendung des Assistenzsystem nicht an eine neue Benutzeroberfläche gewöhnen muss. Die Anpassung an den Problembereich wurde integriert, indem irrelevante Informationen versteckt werden. Der Nutzer kann durch die Anpassung der Ziele an die aktuellen Bedingungen im Unternehmen den Problemlöseprozess steuern. Anhand der eingegebenen Spezifikationen sucht das Assistenzsystem dann nach Lösungsmöglichkeiten, die dem Nutzer sowohl visuell als auch zahlenmäßig dargestellt werden (siehe Abbildung \ref{PFE-Loesungen}). Da ein Mensch 
 
-Anpassung an Zeitdurck, Bereich, 
+ die der Nutzer begutachten kann, um eine Entscheidung zu treffen.
+
 
 \section{Validierung}
-Für die Bewertung des Assistenzsystems wurden einige Experten befragt. Diese bewerten die Einfachheit und Übersichtlichkeit des Systems sehr positiv. 
-
-\begin{figure}[htb]
-\centering
-\includegraphics[scale=0.8]{DA_files/SUS-positiv.pdf}
-\caption{Bewertung positiver Aussagen}
-\end{figure}
-
-Fehlen...
-
-\begin{figure}[htb]
-\centering
-\includegraphics[scale=0.8]{DA_files/SUS-negativ.pdf}
-\caption{Bewertung negativer Aussagen}
-\end{figure}
+Die Befragung einiger Experten zu dem vorgestellten Prototypen ergab ein insgesamt positive Bewertung. Sie schätzen insbesondere die gute Übersichtlichkeit und einfache Bedienung des Assistenzsystems. Besonders hervorgehoben wurde die Tatsache, dass die Assistenz bereits eine Vorauswahl an möglichen Zielen und Lösungen trifft. Dadurch wird der Nutzer nicht mit zu vielen Informationen überfordert. 
 
 
 \section{Zusammenfassung und Ausblick}
