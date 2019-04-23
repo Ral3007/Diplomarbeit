@@ -1,21 +1,22 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Die vier Bereiche der PFE\relax }}{30}{figure.caption.32}
-\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Produktionsprozess: Zielgr\IeC {\"o}\IeC {\ss }en und Einflussfaktoren\relax }}{33}{figure.caption.35}
+\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Die vier Bereiche der PFE\relax }}{30}{figure.caption.35}
+\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Produktionsprozess: Zielgr\IeC {\"o}\IeC {\ss }en und Einflussfaktoren\relax }}{33}{figure.caption.38}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Aspekte des Assistenzsystems\relax }}{38}{figure.caption.43}
-\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Die Schritte des Probleml\IeC {\"o}seprozess\relax }}{39}{figure.caption.44}
-\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Aktivit\IeC {\"a}tsdiagramm: Kollaboration Nutzer\relax }}{45}{figure.caption.59}
-\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Aktivit\IeC {\"a}tsdiagramm: Kollaboration Interaktionsplattform\relax }}{46}{figure.caption.61}
-\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Aktivit\IeC {\"a}tsdiagramm: Kollaboration Assistenzsystem\relax }}{47}{figure.caption.63}
-\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces Prozessf\IeC {\"u}hrungsebene\relax }}{48}{figure.caption.66}
-\contentsline {figure}{\numberline {\relax 4.7}{\ignorespaces Problembeschreibung\relax }}{49}{figure.caption.67}
-\contentsline {figure}{\numberline {\relax 4.8}{\ignorespaces Problembeschreibung - Ziel hinzuf\IeC {\"u}gen\relax }}{49}{figure.caption.68}
-\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces Problembeschreibung - Ziel l\IeC {\"o}schen\relax }}{50}{figure.caption.69}
-\contentsline {figure}{\numberline {\relax 4.10}{\ignorespaces L\IeC {\"o}sungen f\IeC {\"u}r das Problem\relax }}{51}{figure.caption.71}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Aspekte des Assistenzsystems\relax }}{38}{figure.caption.45}
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Die Schritte des Probleml\IeC {\"o}seprozess\relax }}{39}{figure.caption.46}
+\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Aktivit\IeC {\"a}tsdiagramm: Kollaboration Nutzer\relax }}{45}{figure.caption.60}
+\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Aktivit\IeC {\"a}tsdiagramm: Kollaboration Interaktionsplattform\relax }}{46}{figure.caption.62}
+\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Aktivit\IeC {\"a}tsdiagramm: Kollaboration Assistenzsystem\relax }}{47}{figure.caption.64}
+\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces Prozessf\IeC {\"u}hrungsebene\relax }}{48}{figure.caption.68}
+\contentsline {figure}{\numberline {\relax 4.7}{\ignorespaces Problembeschreibung\relax }}{49}{figure.caption.69}
+\contentsline {figure}{\numberline {\relax 4.8}{\ignorespaces Problembeschreibung - Ziel hinzuf\IeC {\"u}gen\relax }}{49}{figure.caption.70}
+\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces Problembeschreibung - Ziel l\IeC {\"o}schen\relax }}{50}{figure.caption.71}
+\contentsline {figure}{\numberline {\relax 4.10}{\ignorespaces L\IeC {\"o}sungen f\IeC {\"u}r das Problem\relax }}{51}{figure.caption.72}
 \contentsline {figure}{\numberline {\relax 4.11}{\ignorespaces Entscheidung f\IeC {\"u}r eine L\IeC {\"o}sung des Problems\relax }}{52}{figure.caption.73}
 \contentsline {figure}{\numberline {\relax 4.12}{\ignorespaces Klustern von Problemen\relax }}{52}{figure.caption.74}
 \addvspace {10\p@ }
@@ -30,14 +31,16 @@
 \contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces Aktivit\IeC {\"a}tsdiagramm Zustand Problem - Prototyp\relax }}{60}{figure.caption.86}
 \contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces Aktivit\IeC {\"a}tsdiagramm L\IeC {\"o}sungen - Prototyp\relax }}{61}{figure.caption.87}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Vorwissen zu modularen Anlagen und Assistenzsystemen\relax }}{74}{figure.caption.116}
+\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Vorwissen zu modularen Anlagen und Assistenzsystemen\relax }}{74}{figure.caption.117}
+\contentsline {figure}{\numberline {\relax 6.2}{\ignorespaces Bewertung positiver Aussagen SUS Fragebogen\relax }}{74}{figure.caption.118}
+\contentsline {figure}{\numberline {\relax 6.3}{\ignorespaces Bewertung negativer Aussagen SUS Fragebogen\relax }}{75}{figure.caption.119}
 \addvspace {10\p@ }
 \contentsfinish 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces Zustandsmodell Services\relax }}{79}{figure.caption.124}
+\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces Zustandsmodell Services\relax }}{80}{figure.caption.127}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax C.1}{\ignorespaces Aktivit\IeC {\"a}tsdiagramm - Anpassung an Problemausl\IeC {\"o}ser\relax }}{81}{figure.caption.127}
+\contentsline {figure}{\numberline {\relax C.1}{\ignorespaces Aktivit\IeC {\"a}tsdiagramm - Anpassung an Problemausl\IeC {\"o}ser\relax }}{82}{figure.caption.130}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax D.1}{\ignorespaces Aussagen zum Vorwissen\relax }}{82}{figure.caption.128}
-\contentsline {figure}{\numberline {\relax D.2}{\ignorespaces Auswertung\relax }}{83}{figure.caption.129}
+\contentsline {figure}{\numberline {\relax D.1}{\ignorespaces Aussagen zum Vorwissen\relax }}{83}{figure.caption.131}
+\contentsline {figure}{\numberline {\relax D.2}{\ignorespaces Auswertung\relax }}{84}{figure.caption.132}

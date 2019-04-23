@@ -1,8 +1,65 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: Diplomarbeit_Meret-Feldkemper.aux
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Diplomarbeit_Meret-Feldkemper.aux
 The style file: biblatex.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 13201 items from 5000.
 Database file #1: Diplomarbeit_Meret-Feldkemper-blx.bib
 Database file #2: bibliography.bib
 Warning--entry type for "ISO9241-110" isn't style-file defined
---line 347 of file bibliography.bib
-Biblatex version: 3.8
+--line 344 of file bibliography.bib
+Biblatex version: 3.0
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+You've used 59 entries,
+            6047 wiz_defined-function locations,
+            1543 strings with 19130 characters,
+and the built_in function-call counts, 209401 in all, are:
+= -- 8494
+> -- 7453
+< -- 2516
++ -- 3135
+- -- 3174
+* -- 15478
+:= -- 12413
+add.period$ -- 0
+call.type$ -- 59
+change.case$ -- 1386
+chr.to.int$ -- 175
+cite$ -- 124
+duplicate$ -- 23933
+empty$ -- 21720
+format.name$ -- 4110
+if$ -- 46899
+int.to.chr$ -- 0
+int.to.str$ -- 164
+missing$ -- 0
+newline$ -- 1766
+num.names$ -- 3176
+pop$ -- 19024
+preamble$ -- 1
+purify$ -- 1416
+quote$ -- 0
+skip$ -- 11876
+stack$ -- 0
+substring$ -- 5678
+swap$ -- 8113
+text.length$ -- 1853
+text.prefix$ -- 103
+top$ -- 1
+type$ -- 2218
+warning$ -- 0
+while$ -- 1237
+width$ -- 0
+write$ -- 1706
 (There was 1 warning)

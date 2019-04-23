@@ -46,8 +46,7 @@ Um zu wissen, wie man helfen kann schauen wir uns zunächst an, wie so ein Probl
 + Phase 1: Problemidentifikation
   + Problem ist identifiziert, wenn man Ziele setzt und dieses nicht ohne weiteres Nachdenken erreichen kann
   + in diesem Fall: Modul muss gewartet werden - dauert 2 Tage - Produktion darf aber nur 3 Stunden stell stehen
-  + in dieser Phase muss auch klar sein, dass sich Probleme stark unterscheiden können
-    + ...
+  + Assistenz untersützt, indem es mit Signalen auf Probleme aufmerksam macht; Mit Signalen auf die Problembereiche aufmerksam machen
 + Phase 2: Ziel- und Situationsanalyse
   + was soll überhaupt erreicht werden? -> Produktion aufrecht erhalten
   + Beschränkung: Ich habe nur 1 Mitarbeiter zur Verfügung um Modul zu tauschen
@@ -65,12 +64,18 @@ Um zu wissen, wie man helfen kann schauen wir uns zunächst an, wie so ein Probl
 
 + können Unterstützung leisten
 + Im Problemlöseprozess unter anderem bei
-  + Problemidentifiktaion: mit Signalen auf Problem aufmerksam machen; Mit Signalen auf die Problembereiche aufmerksam machen
+  + Problemidentifiktaion: mit Signalen auf Problem aufmerksam machen; 
   + Ziel- und Situationsanalyse: Orientierung bieten bei Zieldefinition (Identifikation Randbedingungen)
   + Planerstellung: Lösungen und Informationen filtern
 + Individualisierung - Anpassen an
 
 
+
+### Probleme und Anpassungen von der Assistenz
+
++ Probleme unterscheiden sich
+  + xx
++ Assistenzsystem kann sich anpassen auf
 
 # Analyse
 
