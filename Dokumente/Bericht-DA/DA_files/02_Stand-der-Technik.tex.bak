@@ -3,7 +3,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Stand der Technik}
 \label{sec:StandDerTechnik}
-Diese Kapitel umfasst die wesentlichen Grundlagen für ein besseres Verständnis der Arbeit und die bereits vorhandenen Konzepte für eine mögliche Umsetzung der Problemstellung. Da das Thema der Arbeit im Kontext der modularen Anlagen steht, sind zunächst die Grundlagen der Prozessautomatisierung und darauf aufbauend das Konzept der modularen Anlagen erläutert. Entsteht ein Problem beim Betrieb der Anlage muss dieses behoben werden. Um nachvollziehen zu können, wie Menschen Probleme lösen, wird der allgemeine Problemlöseprozess beschrieben. Hierbei wird auch Bezug auf die verschiedenen Einflussfaktoren, sowohl menschliche als auch technische, bei einem Problemen genommen. Möchte man den Nutzer bei einem solchen Problemlöseprozess unterstützen, muss klar werden, was ein Assistenzsystem leisten kann und welche Möglichkeiten zur Kommunikation bestehen. Damit bei der Entwicklung des Prototypen der Nutzer immer in Vordergrund bleibt, ist bereits in diesem Kapitel beschrieben, was bei der nutzerzentrierten Entwicklung zu berücksichtigen ist.
+Diese Kapitel umfasst die wesentlichen Grundlagen für ein besseres Verständnis der Arbeit und die bereits vorhandenen Konzepte für eine mögliche Umsetzung der Problemstellung. Da das Thema der Arbeit im Kontext der modularen Anlagen steht, sind zunächst die Grundlagen der Prozessautomatisierung und darauf aufbauend das Konzept der modularen Anlagen erläutert. Entsteht ein Problem beim Betrieb der Anlage muss dieses behoben werden. Um nachvollziehen zu können, wie Menschen Probleme lösen, wird der allgemeine Problemlöseprozess beschrieben. Hierbei wird auch Bezug auf die verschiedenen Einflussfaktoren, sowohl menschliche als auch technische, bei einem Problemen genommen. Möchte man den Nutzer bei einem solchen Problemlöseprozess unterstützen, muss klar werden, was ein Assistenzsystem leisten kann und welche Möglichkeiten zur Kommunikation bestehen. Damit bei der Entwicklung des Prototypen der Nutzer immer in Vordergrund bleibt, ist bereits \todo{Umformulieren} in diesem Kapitel beschrieben, was bei der nutzerzentrierten Entwicklung zu berücksichtigen ist.
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 \section{Prozessindustrie}
@@ -17,7 +17,7 @@ Die Prozessindustrie umfasst viele verschiedene Branchen. Unter anderem die Chem
 \subsection{Prozessautomatisierungssystem}
 Die Prozessautomatisierung umfasst die Automatisierung technischer Prozesse und kann sich aus folgenden Bestandteilen zusammen setzen \todo{Quelle}:
 \begin{itemize}
-\item \textbf{Sensoren und Aktoren} sind die Schnittstelle zwischen dem Automatisierungssysteme und dem zu automatisierenden technischen System.
+\item \textbf{Sensoren und Aktoren} sind die Schnittstelle zwischen dem Automatisierungssystem und dem zu automatisierenden technischen System.
 \item Das \textbf{Kommunikationssystem} umfasst sowohl das prozessnahe Bus-System als auch das Bus-System zum Informationsaustausch zwischen den Rechnern.
 \item Die \textbf{Automatisierungs-Computersysteme} sind für die Automatisierung eingesetzten Rechner. Bei jedem Rechner muss zwischen dem Hardware- und dem Softwaresystem unterschieden werden.
 \item \textbf{Fest verdrahtete Einzelgeräte} können beispielsweise Sicherheitseinrichtungen, Back-up-Regler oder Relaissteuerungen sein.
@@ -33,7 +33,7 @@ Das Konzept der Modularisierung findet vor allem in der verfahrenstechnischen In
 \item \textbf{Steuern und Überwachen:} Übertragung der internen Zustände des Moduls
 \end{itemize}
 
-In der Namur-Empfehlung NE 148 \cite{NAMURArbeitskreis1.122013} ist beschrieben, welche Daten an das übergeordnete Automatisierungssystem übertragen werden und welche dem Modullieferanten zur Wartungsunterstützung zur Verfügung stehen. Die Daten für das übergeordnete Automatisierungssystemen umfassen unter anderem die Verriegelungs-, Steuerungs- und Regelungsstruktur, die Prozess- und Sollwerte sowie den Status des Moduls / der Services. Für die Wartungsunterstüzungen werden nur hersteller- und modulspezifische und keine prozessspezifischen Daten übertragen.
+In der Namur-Empfehlung NE 148 \cite{NAMURArbeitskreis1.122013} ist beschrieben, welche Daten an das übergeordnete Automatisierungssystem übertragen werden und welche dem Modullieferanten zur Wartungsunterstützung zur Verfügung stehen. Die Daten für das übergeordnete Automatisierungssystem umfassen unter anderem die Verriegelungs-, Steuerungs- und Regelungsstruktur, die Prozess- und Sollwerte sowie den Status des Moduls / der Services. Für die Wartungsunterstüzungen werden nur hersteller- und modulspezifische und keine prozessspezifischen Daten übertragen.
 
 Die Funktionalitäten der Module sind in Services gekapselt und werden zustandsbasiert gesteuert. Im Gegensatz zu herkömmlichen Anlagen kann im automatisierten Betrieb nicht mehr auf die einzelnen Aktoren zugegriffen werden. Jeder Service kann 16 verschiedene Zustände mit entsprechenden Zustandsübergängen annehmen (siehe Bild \ref{pic:Zustandsmodell-Service} in Anhang \ref{A:Zustandsmodell-Services}).
 
@@ -51,7 +51,7 @@ Mittels einer Rezeptfahrweise können die Services orchestriert werden. An den T
 \todo{Übergang Problemlösen}
 
 \section{Problemlösen}
-Die Gesellschaft geht davon aus, dass Probleme selbstverständlich existieren. Probleme entstehen allerdings erst, wenn eine konkrete Zielsetzung vorhanden ist, die sich nicht durch Routine erreichen lässt. Ohne Handlungsziele gäbe es keine Probleme. \cite{Funke2015, Betsch2011,  Dorner1984}
+Man geht davon aus, dass Probleme selbstverständlich existieren. Probleme entstehen allerdings erst, wenn eine konkrete Zielsetzung vorhanden ist, die sich nicht durch Routine erreichen lässt. Ohne Handlungsziele gäbe es keine Probleme. \cite{Funke2015, Betsch2011,  Dorner1984}
 
 Liegt ein Problem vor, könnte der Problemlöseprozess sehr einfach sein, indem der Ausgangszustand erkannt, der Zielzustand festgelegt und die Operatoren gefunden werden. Allerdings haben alle diese Aspekte Eigenschaften, die den Prozess erschweren. So kann der Ausgangszustand nicht immer klar definiert sein und es muss eindeutig sein, welche Voraussetzungen als erfüllt angenommen werden können. Bei einem unklaren Ausgangszustand lässt sich auch der Zielzustand nicht eindeutig beschreiben. Die notwendigen Operatoren für die Überführung von einem Ausgangs- zu einem Zielzustand hängen mit dem Ziel zusammen. Entweder wird der Zielzustand betrachtet und nach geeigneten Operatoren gesucht, die unter Umständen nicht vorhanden sind. Oder es sind bestimmte Operatoren vorhanden und es wird davon ausgehend das bestmöglichste Ziel bestimmt. \cite{Funke2015}
 
@@ -68,23 +68,23 @@ Wann gilt ein Problem nun als gelöst? Laut Funke \cite{Funke2015} ist ein Probl
 \label{2:Unterscheidung-Probleme}
 Probleme unterscheiden sich hinsichtlich vieler Aspekte, die beim Problemlösen berücksichtigt werden müssen. \cite{Betsch2011}
 \begin{itemize}
-\item \textbf{Klarheit:} Es wird zwischen wohl-definierte und schlecht-definierten Problemen unterschieden. Wohl-definierte Probleme kennzeichnen sich durch einen eindeutigen Ausgangs- und Zielzustand sowie klar beschriebene Operatoren.
+\item \textbf{Klarheit:} Es wird zwischen wohl-definierten und schlecht-definierten Problemen unterschieden. Wohl-definierte Probleme kennzeichnen sich durch einen eindeutigen Ausgangs- und Zielzustand sowie klar beschriebene Operatoren. Bei schlecht-definierten Problemen ist dies nicht der Fall.
 \item \textbf{Zeitskala:} Unterscheidung zwischen kurzfristigen und langfristigen Problemen. Kurzfristige Probleme lassen sich meist schnell beheben.
 \item \textbf{Zeitdruck:} Bei Zeitdruck muss eine schnelle Entscheidung getroffen werden, ohne die Möglichkeit alle Lösungsmöglichkeiten zu durchdenken. Ohne Zeitdruck können alle Optionen in Ruhe abgewägt werden.
 \item \textbf{Geforderte kognitive Aktivität:} Wenn eine Vielzahl von Maßnahmen durchgeführt werden müssen, um das Ziel zu erreichen, so ist eine hohe kognitive Aktivität gefordert.
 \item \textbf{Bereiche:} Die Problemlösestrategie kann davon abhängig sein, in welchem Umfeld das Problem auftritt. Probleme unterscheiden sich in ihrer Art je nach Umfeld.
 \end{itemize}
-Außerdem kann zwischen einfachen und komplexen Problemen unterschieden werden. Ein einfaches Problem kann durch eine einzelne Veränderung gelöst werden. Ein komplexes Problem wird durch mehrere Unbekannte beeinflusst \cite{Betsch2011}. Manche treten erst bei Bearbeitung des Problems auf. Ein komplexes Problem kennzeichnet sich durch folgende Merkmale \cite{Funke2015}: 
+Außerdem kann zwischen einfachen und komplexen Problemen unterschieden werden. Ein einfaches Problem kann durch eine einzelne Veränderung gelöst werden. Ein komplexes Problem wird durch mehrere Unbekannte beeinflusst \cite{Betsch2011}. Manche treten erst bei Bearbeitung des Problems auf. Ein komplexes Problem kennzeichnet sich durch die folgenden Merkmale \cite{Funke2015}: 
 \begin{itemize}
 \item \textbf{Komplexität der Problemsituation:} Bei hoher Komplexität muss das Problem auf das Wesentliche reduziert werden. 
-\item \textbf{Vernetztheit der beteiligten Variablen:} Je stärker die einzelnen Aspekte des Problems und der Lösung zusammen hängen, desto komplexer ist das Problem. Es ist wichtig die Abhängigkeiten zu kennen.
+\item \textbf{Vernetztheit der beteiligten Variablen:} Je stärker die einzelnen Aspekte des Problems und der Lösung zusammenhängen, desto komplexer ist das Problem. Es ist wichtig die Abhängigkeiten zu kennen.
 \item \textbf{Dynamik der Problemsituation:} Einerseits können durch Eingriffe in ein komplexes vernetztes System Prozesse in Gang gesetzt werden, die nicht beabsichtigt waren. Andererseits kann sich ein Problem über die Zeit verändern.
-\item \textbf{Intransparenz:} Es liegen sowohl in Hinblick auf die Zielstellung, als auch auf die Variablen nicht alle erforderlichen Informationen vor. Dadurch ist Informationsbeschaffung gefordert.
+\item \textbf{Intransparenz:} Es liegen sowohl in Hinblick auf die Zielstellung, als auch auf die Variablen nicht alle erforderlichen Informationen vor. Das fordert Informationsbeschaffung.
 \item \textbf{Projektile:} Meistens gibt es nicht nur ein Ziel, sondern mehrere Teilziele. Es ist möglich, dass nicht alle Teilziele erreicht werden können. Daher ist ein Abwägen und Balancieren der Kriterien notwendig.
 \end{itemize}
 
 \subsection{Arten von Problemlösern}
-Nicht nur Probleme können sich unterscheiden, sondern auch die Art Probleme zu lösen. Es wird zwischen drei bipolaren Dimensionen unterschieden \cite{Betsch2011}. Diese beeinflussen zum einen die Art und Wiese, wie Menschen Probleme und Informationen wahrnehmen. Zum anderen, wie sie die Daten verarbeiten und mögliche Lösungen generieren.
+Nicht nur Probleme können sich unterscheiden, sondern auch die Art, Probleme zu lösen. Es wird zwischen drei bipolaren Dimensionen unterschieden \cite{Betsch2011}. Diese beeinflussen zum einen die Art und Weise, wie Menschen Probleme und Informationen wahrnehmen. Zum anderen, wie sie die Daten verarbeiten und mögliche Lösungen generieren.
 
 Die \textbf{Veränderungsorientierung} beschreibt den Umgang mit Grenzen und Vorgaben und macht deutlich, wie der Mensch auf Herausforderungen reagiert.
 	\begin{itemize}
@@ -105,7 +105,7 @@ Der \textbf{Entscheidungfokus} bezieht sich auf die Frage, welche Faktoren welch
 	\end{itemize}
 
 \subsection{Einflüsse}
-Es gibt viele Faktoren, die den Prozess des Problemlösens beeinflussen. Es kann zwischen äußeren Faktoren, wie die Ausgangssituation und die verfügbaren Operatoren, und den inneren Faktoren, wie Motivation und Emotionen, unterschieden werden.
+Es gibt viele Faktoren, die den Prozess des Problemlösens beeinflussen. Es kann \todo{wird?} zwischen äußeren Faktoren, wie die Ausgangssituation und die verfügbaren Operatoren, und den inneren Faktoren, wie Motivation und Emotionen, unterschieden werden.
 
 \subsubsection*{Äußere Faktoren}
 Für das Problemlösen sind die Elemente Ausgangszustand, Zielzustand und die vorhandenen Operatoren entscheidend. Der Ausgangszustand ist häufig nicht konkret und als geschlossenes Problem beschreibbar. Zielzustand und vorhandene Operatoren beeinflussen sich wechselseitig. Bei einem konkreten Ziel kann nach bestimmten Operatoren gesucht werden. Stehen nur bestimmte Operatoren zur Verfügung, können nur bestimmte Zielzustände in Betracht gezogen werden. \cite{Funke2015}
@@ -114,9 +114,9 @@ Zudem beschreibt Funke \cite{Funke2015} einige Situationsfaktoren, die beim komp
 
 Die \textbf{Art der Aufgabenstellung} zeigt beispielsweise unterschiedliche Ergebnisse beim Wissenserwerb und der Steuerleistung. Personen die nur beobachten, erwerben Wissen über die Systemvariablen und deren Beziehungen, aber lernen nicht, wie man das System kontrolliert. Personen die aktiv eingreifen können, erzielen eine besser Steuerleistung, können aber die Zusammenhänge nicht so gut verbalisieren.
 
-\textbf{Stress} hat viele Facetten. Bei lärminduziertem Stress planen die Individuen selten vorausschauend, sondern reagieren auf eingetretene Ereignisse. Viel relevanter ist der Stress, der durch die Problemlösesituation selbst hervorgerufen wird. Dieser kann eine Notfallreaktion des kognitiven Systems hervorrufen. Die Effekte, die durch dei Notfallreaktion hervorgerufen werden sind unter anderem:
+\textbf{Stress} hat viele Facetten. Bei lärminduziertem Stress planen die Individuen selten vorausschauend, sondern reagieren auf eingetretene Ereignisse. Viel relevanter ist der Stress, der durch die Problemlösesituation selbst hervorgerufen wird. Dieser kann eine Notfallreaktion des kognitiven Systems hervorrufen. Effekte, die durch die Notfallreaktion hervorgerufen werden, sind unter anderem:
 \begin{itemize}
-\item \textbf{Senkung des intellektuellen Niveaus:} Die Selbstreflektion sinkt ab, die Absichten und Vorannahmen sinken ab, es kommt zu eine Stereotypisierung und die realisierten Absichten sinken.
+\item \textbf{Senkung des intellektuellen Niveaus:} Die Selbstreflektion sinkt ab, die Absichten und Vorannahmen sinken ab, es kommt zu einer Stereotypisierung und die realisierten Absichten reduzieren sich.
 \item \textbf{Tendenz zu schnellem Handeln:} Die Risikobereitschaft erhört sich, die Regelverstöße werden mehr und die Fluchttendenzen steigen.
 \item \textbf{Degeneration der Hypothesenbildung:} Es werden Hypothesen global gebildet und Ziele werden unkonkreter.
 \end{itemize}
@@ -130,7 +130,7 @@ Es wird davon ausgegangen, dass die \textbf{Art der Informationsdarbietung} eine
 \subsubsection*{Innere Faktoren}
 Die \textbf{Motivation} eines Menschen setzt erst den Problemlöseprozess in Gang \cite{Dorner1984}. Das Motiv des Problemlösers in Verbindung mit der aktuellen Situation hat dabei einen hohen Stellenwert. Dörner \cite{Dorner1984} bezeichnet im Zusammenhang mit dem Problemlösen das Kontrollmotiv als besonders bedeutsam. Wenn etwas nicht in den Erwartungshorizont des Menschen passt, dann kann dies einen Mangelzustand hervorrufen.
 
-Ebenfalls einen Einfluss haben \textbf{Emotionen}. Diese wirken sich auf den Ablauf des Denkens aus. So vermindern negative Emotionen die Anzahl an Selbstreflektionen beim Denken und rufen Notfallreaktionen hervor. Positive Emotionen können hingegen zu Nachlässigkeit und Oberflächlichkeit führen. Wie groß der Einfluss der Emotionen auf den Problemlöseprozess ist, hängt von dem Selbstkonzept des Individuums ab. Das Selbstkonzept beschreibt die Kompetenz, die in heuristische und epistemische Kompetenz eingeteilt ist. Die heuristische Kompetenz beschreibt das Zutrauen, das jemand in seine Fähigkeiten hat mit Problemsituationen umzugehen, für die es keine eindeutige Verhaltensweise gibt. Die epistemische Kompetenz zeichnet sich durch das Zutrauen, eine Situation aufgrund des vorhandenen Wissens zu bewältigen, aus. Zusammen ergibt sich daraus die aktuelle Kompetenz. \cite{Dorner1984}
+Ebenfalls einen Einfluss haben \textbf{Emotionen}. Diese wirken sich auf den Ablauf des Denkens aus. So vermindern negative Emotionen die Anzahl an Selbstreflektionen beim Denken und rufen Notfallreaktionen hervor. Positive Emotionen können hingegen zu Nachlässigkeit und Oberflächlichkeit führen. Wie groß der Einfluss der Emotionen auf den Problemlöseprozess ist, hängt von dem Selbstkonzept des Individuums ab. Das Selbstkonzept beschreibt die Kompetenz, die in heuristische und epistemische Kompetenz eingeteilt ist. Die heuristische Kompetenz beschreibt das Zutrauen, das jemand in seine Fähigkeiten hat, mit Problemsituationen umzugehen, für die es keine eindeutige Verhaltensweise gibt. Die epistemische Kompetenz zeichnet sich durch das Zutrauen, eine Situation aufgrund des vorhandenen Wissens zu bewältigen, aus. Zusammen ergibt sich daraus die aktuelle Kompetenz. \cite{Dorner1984}
 
 \subsection{Phasen des Problemlösens}
 \label{2:Phasen-Problemloesen}
@@ -158,10 +158,10 @@ Das Kontroll- \& Steuerungswissen bezieht sich auf Regeln, anhand derer die Zust
 Beim Bearbeiten von komplexen Problemen muss anhand der Anforderungen zwischen den verschiedenen Wissensarten flexibel gewechselt werden können. \cite{Funke2015}
 
 \section{Kollaboration}
-Kollaboration bietet die Chance verteilte Informationen für das Lösen von Problemen zu nutzen und unterscheidet sich von reiner Kooperation. Mit Kooperation ist eine Arbeitsteilung gemeint, bei der jede Person eine konkrete Aufgabe zugeteilt wird und die Ergebnisse zum Schluss zusammen getragen werden \cite{Jermann2004}. Kollaboration ist durch Symmetrie von Wissen, einem gemeinsamen Ziel und der Zusammenarbeit gekennzeichnet \cite{Rummel1958}. Dabei spielt insbesondere die Interaktion untereinander eine große Rolle, da diese den kollaborativen Lerneffekt fördert \cite{Jermann2004}.
+Kollaboration bietet die Chance verteilte Informationen für das Lösen von Problemen zu nutzen und unterscheidet sich von reiner Kooperation. Mit Kooperation ist eine Arbeitsteilung gemeint, bei der jeder Person eine konkrete Aufgabe zugeteilt wird und die Ergebnisse zum Schluss zusammen getragen werden \cite{Jermann2004}. Kollaboration ist durch die Symmetrie von Wissen, einem gemeinsamen Ziel und der Zusammenarbeit gekennzeichnet \cite{Rummel1958}. Dabei spielt insbesondere die Interaktion untereinander eine große Rolle, da diese den kollaborativen Lerneffekt fördert \cite{Jermann2004}.
 
 \section{Kommunikation}
-Kommunikation ist beim kollaborativen Problemlösen ein wichtiger Aspekt. Mittels Kommunikation kann das gemeinsame Verständnis des Problems hergestellt und aufrecht gehalten werden. Um Missverständnisse vorzubeugen, ist es erforderlich klar und geeignete Fragen zu stellen. Das stellen von Fragen ist wichtig, um ungeteilte Informationen auszutauschen. Ebenso wichtig ist das richtige Zuhören, da die meisten besser Informationen geben als aufnehmen können. Zudem sollten nur die Informationen weiter gegeben werden, die für die Situation notwendig sind. \cite{Rohner2016}
+Kommunikation ist beim kollaborativen Problemlösen ein wichtiger Aspekt. Mittels Kommunikation kann das gemeinsame Verständnis des Problems hergestellt und aufrecht gehalten werden. Um Missverständnisse vorzubeugen, ist es erforderlich klare und geeignete Fragen zu stellen. Das Stellen von Fragen ist wichtig, um ungeteilte Informationen auszutauschen. Ebenso wichtig ist das richtige Zuhören, da die meisten Menschen besser Informationen geben als aufnehmen können. Zudem sollten nur die Informationen weitergegeben werden, die für die Situation notwendig sind. \cite{Rohner2016}
 
 Während Menschen direkt kommunizieren können, ist bei der Kommunikation mit einer digitalen Assistenz noch ein zusätzliches System notwendig. Welche Systeme dafür verwendbar sind ist in Abschnitt \ref{2:Assistenzsysteme} näher beschrieben. Bei Betrachtung des Aspekts wie kommuniziert wird, fällt auf, dass es vielfältige Möglichkeiten gibt. Häufig angewandt werden Dialogsysteme. Ein Dialog entsteht, wenn Mensch und Maschine in Kooperation eine Aufgabe lösen bei der mehrere Schritte notwendig sind. Dialoge in der Mensch-Maschine-Interaktion können folgende Formen haben \cite{Heinecke2012}:
 \begin{itemize}
@@ -174,7 +174,7 @@ Während Menschen direkt kommunizieren können, ist bei der Kommunikation mit ei
 Damit die Kommunikation zwischen Mensch und System möglich ist, müssen geeignete Mittel zur Verfügung stehen, die in Abschnitt \ref{2:Assistenzsysteme} konkreter thematisiert sind.
 
 \section{Assistenz}
-Laut Duden bedeutet Assistenz Beistand oder Mithilfe \cite{DudenAssistenz}. Das Verb assistieren wird mit den Worten \glqq jemanden nach dessen Anweisungen zur Hand gehen, bei einer Arbeit oder Tätigkeit behilflich sein\grqq \ beschrieben \cite{DudenAssistieren}. In der Literatur finden sich eine Vielzahl von Definitionen. Diese reichen vom Schraubendreher, über autonome Ausführung von Funktionen bis hin zur individualisierten Nutzerunterstützung \cite{Ludwig}. Zur Einordnung, in wie weit der Nutzer durch das Assistenzsystem unterstützt wird, finden die 10 Level der Automatisierung von Sheridan \cite{Sherdian1988} \todo{nachlesen} häufig Anwendung \cite{Wandke2005}.
+Laut Duden bedeutet Assistenz Beistand oder Mithilfe \cite{DudenAssistenz}. Das Verb assistieren wird mit den Worten \glqq jemanden nach dessen Anweisungen zur Hand gehen, bei einer Arbeit oder Tätigkeit behilflich sein\grqq \ beschrieben \cite{DudenAssistieren}. In der Literatur finden sich eine Vielzahl von Definitionen. Diese reichen vom Schraubendreher, über autonome Ausführung von Funktionen bis hin zur individualisierten Nutzerunterstützung \cite{Ludwig}. Zur Einordnung, inwieweit der Nutzer durch das Assistenzsystem unterstützt wird, finden die zehn Level der Automatisierung von Sheridan \cite{Sherdian1988} \todo{nachlesen} häufig Anwendung \cite{Wandke2005}.
 \begin{enumerate}
 \item Der Mensch erledigt alles alleine.
 \item Der Computer unterstützt den Menschen bei der Ermittlung der möglichen Optionen.
@@ -189,10 +189,10 @@ Laut Duden bedeutet Assistenz Beistand oder Mithilfe \cite{DudenAssistenz}. Das 
 \end{enumerate}
 
 \subsection{Anforderungen an digitale Assistenzsysteme}
-Die Assistenz soll den Menschen ideal unterstützen. Dabei sind seine Fähigkeiten zu berücksichtigen und eine Überlastung ist zu vermeiden. Es müssen dabei unter anderem folgende Aspekte beachtet werden \cite{Ludwig}:
+Die Assistenz soll den Menschen bestmöglich unterstützen. Dabei sind seine Fähigkeiten zu berücksichtigen und eine Überlastung ist zu vermeiden. Es müssen dabei unter anderem folgende Aspekte beachtet werden \cite{Ludwig}:
 \begin{itemize}
 \item \textbf{Interaktivität:} Dem Mensch muss die Möglichkeit zur Interaktion gegeben werden. Die Ziele und Aufgaben sollten formulierbar sein ohne Rücksicht auf das System nehmen zu müssen.
-\item \textbf{Diagnose:} Das Assistenzsystem muss wissen, welche Effekte auftreten können, wenn der Nutzer fehlerhafte Eingaben tätigt.
+\item \textbf{Diagnose:} Das Assistenzsystem muss wissen, welche Effekte auftreten können, wenn der Nutzer \todo{Mensch?} fehlerhafte Eingaben tätigt.
 \item \textbf{Korrektur:} Wenn die Handlung des Nutzers von den Anweisungen abweicht, so muss das Assistenzsysteme diese Handlung trotzdem unterstützen können.
 \end{itemize}
 
