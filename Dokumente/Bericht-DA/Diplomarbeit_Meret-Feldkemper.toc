@@ -1,6 +1,8 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Aufbau der Arbeit}{2}{section.1.2}
 \contentsline {chapter}{\numberline {2}Stand der Technik}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Prozessindustrie}{3}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Prozessautomatisierungssystem}{4}{subsection.2.1.1}
@@ -66,13 +68,15 @@
 \contentsline {subsection}{\numberline {6.3.2}Der Fragebogen}{73}{subsection.6.3.2}
 \contentsline {subsection}{\numberline {6.3.3}Auswertung des Fragebogens}{73}{subsection.6.3.3}
 \contentsline {section}{\numberline {6.4}Bewertung}{76}{section.6.4}
-\contentsline {chapter}{\numberline {7}Zusammenfassung und Ausblick}{77}{chapter.7}
+\contentsline {chapter}{\numberline {7}Fazit}{77}{chapter.7}
+\contentsline {section}{\numberline {7.1}Zusammenfassung}{77}{section.7.1}
+\contentsline {section}{\numberline {7.2}Ausblick}{78}{section.7.2}
 \contentsfinish 
-\contentsline {chapter}{Anhang \numberline {A}Modulare Anlage}{80}{Anhang.a.A}
-\contentsline {section}{\numberline {A.1}Zustandsmodell Services}{80}{section.a.A.1}
-\contentsline {chapter}{Anhang \numberline {B}Prozessf\IeC {\"u}hrungsebene}{81}{Anhang.a.B}
-\contentsline {chapter}{Anhang \numberline {C}Anhang Konzept}{82}{Anhang.a.C}
-\contentsline {section}{\numberline {C.1}Farbschema}{82}{section.a.C.1}
-\contentsline {section}{\numberline {C.2}Anpassung an Problembereich - Aktivit\IeC {\"a}tsdiagramm}{82}{section.a.C.2}
-\contentsline {chapter}{Anhang \numberline {D}Fragebogen}{83}{Anhang.a.D}
-\contentsline {chapter}{Literaturverzeichnis}{85}{chapter*.133}
+\contentsline {chapter}{Anhang \numberline {A}Modulare Anlage}{81}{Anhang.a.A}
+\contentsline {section}{\numberline {A.1}Zustandsmodell Services}{81}{section.a.A.1}
+\contentsline {chapter}{Anhang \numberline {B}Prozessf\IeC {\"u}hrungsebene}{82}{Anhang.a.B}
+\contentsline {chapter}{Anhang \numberline {C}Anhang Konzept}{83}{Anhang.a.C}
+\contentsline {section}{\numberline {C.1}Farbschema}{83}{section.a.C.1}
+\contentsline {section}{\numberline {C.2}Anpassung an Problembereich - Aktivit\IeC {\"a}tsdiagramm}{83}{section.a.C.2}
+\contentsline {chapter}{Anhang \numberline {D}Fragebogen}{84}{Anhang.a.D}
+\contentsline {chapter}{Literaturverzeichnis}{86}{chapter*.132}

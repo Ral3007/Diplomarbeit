@@ -1,76 +1,80 @@
 \BOOKMARK [0][-]{toc.0}{Inhaltsverzeichnis}{}% 1
 \BOOKMARK [0][-]{chapter.1}{Einleitung}{}% 2
-\BOOKMARK [0][-]{chapter.2}{Stand der Technik}{}% 3
-\BOOKMARK [1][-]{section.2.1}{Prozessindustrie}{chapter.2}% 4
-\BOOKMARK [2][-]{subsection.2.1.1}{Prozessautomatisierungssystem}{section.2.1}% 5
-\BOOKMARK [2][-]{subsection.2.1.2}{Modulare Anlagen}{section.2.1}% 6
-\BOOKMARK [1][-]{section.2.2}{Probleml\366sen}{chapter.2}% 7
-\BOOKMARK [2][-]{subsection.2.2.1}{Unterscheidung von Problemen}{section.2.2}% 8
-\BOOKMARK [2][-]{subsection.2.2.2}{Arten von Probleml\366sern}{section.2.2}% 9
-\BOOKMARK [2][-]{subsection.2.2.3}{Einfl\374sse}{section.2.2}% 10
-\BOOKMARK [2][-]{subsection.2.2.4}{Phasen des Probleml\366sens}{section.2.2}% 11
-\BOOKMARK [2][-]{subsection.2.2.5}{St\366rungsdiagnose}{section.2.2}% 12
-\BOOKMARK [1][-]{section.2.3}{Kollaboration}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.4}{Kommunikation}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.5}{Assistenz}{chapter.2}% 15
-\BOOKMARK [2][-]{subsection.2.5.1}{Anforderungen an digitale Assistenzsysteme}{section.2.5}% 16
-\BOOKMARK [2][-]{subsection.2.5.2}{Einsatz von digitaler Assistenz}{section.2.5}% 17
-\BOOKMARK [2][-]{subsection.2.5.3}{Assistenzsysteme}{section.2.5}% 18
-\BOOKMARK [1][-]{section.2.6}{Gestaltung von Mensch-Maschine-Schnittstellen}{chapter.2}% 19
-\BOOKMARK [2][-]{subsection.2.6.1}{Ergonomisch gute Gestaltung}{section.2.6}% 20
-\BOOKMARK [2][-]{subsection.2.6.2}{User Experience}{section.2.6}% 21
-\BOOKMARK [2][-]{subsection.2.6.3}{Individualisierung}{section.2.6}% 22
-\BOOKMARK [1][-]{section.2.7}{Adaptive Systeme}{chapter.2}% 23
-\BOOKMARK [2][-]{subsection.2.7.1}{Multiagentensysteme}{section.2.7}% 24
-\BOOKMARK [2][-]{subsection.2.7.2}{Modellgest\374tztes User Interface}{section.2.7}% 25
-\BOOKMARK [0][-]{chapter.3}{Analyse}{}% 26
-\BOOKMARK [1][-]{section.3.1}{Use Case}{chapter.3}% 27
-\BOOKMARK [1][-]{section.3.2}{Vorhandene Informationen}{chapter.3}% 28
-\BOOKMARK [2][-]{subsection.3.2.1}{Modulare Anlage}{section.3.2}% 29
-\BOOKMARK [2][-]{subsection.3.2.2}{Prozessf\374hrungsebene}{section.3.2}% 30
-\BOOKMARK [1][-]{section.3.3}{Informationsbedarf}{chapter.3}% 31
-\BOOKMARK [2][-]{subsection.3.3.1}{Informationen nach Aufgabenbereich}{section.3.3}% 32
-\BOOKMARK [2][-]{subsection.3.3.2}{Informationsbedarf des Menschen}{section.3.3}% 33
-\BOOKMARK [1][-]{section.3.4}{Informationsanpassung}{chapter.3}% 34
-\BOOKMARK [2][-]{subsection.3.4.1}{Individualisierung f\374r den Menschen}{section.3.4}% 35
-\BOOKMARK [2][-]{subsection.3.4.2}{Anpassung an die Aufgabe}{section.3.4}% 36
-\BOOKMARK [1][-]{section.3.5}{Interaktionsmechaniken}{chapter.3}% 37
-\BOOKMARK [1][-]{section.3.6}{Anforderungen an das Assistenzsystem}{chapter.3}% 38
-\BOOKMARK [0][-]{chapter.4}{Konzept}{}% 39
-\BOOKMARK [1][-]{section.4.1}{Konzeptuelles Design}{chapter.4}% 40
-\BOOKMARK [2][-]{subsection.4.1.1}{Funktionen}{section.4.1}% 41
-\BOOKMARK [2][-]{subsection.4.1.2}{Anpassungen an den Problembereich}{section.4.1}% 42
-\BOOKMARK [2][-]{subsection.4.1.3}{Finden von L\366sungen}{section.4.1}% 43
-\BOOKMARK [2][-]{subsection.4.1.4}{Kollaboration zwischen Nutzer und Assistenz}{section.4.1}% 44
-\BOOKMARK [1][-]{section.4.2}{Physisches Design}{chapter.4}% 45
-\BOOKMARK [2][-]{subsection.4.2.1}{Problem beschreiben}{section.4.2}% 46
-\BOOKMARK [2][-]{subsection.4.2.2}{L\366sungen}{section.4.2}% 47
-\BOOKMARK [2][-]{subsection.4.2.3}{Entscheidung}{section.4.2}% 48
-\BOOKMARK [2][-]{subsection.4.2.4}{Mehrere Probleme bearbeiten}{section.4.2}% 49
-\BOOKMARK [0][-]{chapter.5}{Prototyp}{}% 50
-\BOOKMARK [1][-]{section.5.1}{Prozessf\374hrungsebene}{chapter.5}% 51
-\BOOKMARK [2][-]{subsection.5.1.1}{Navigation}{section.5.1}% 52
-\BOOKMARK [2][-]{subsection.5.1.2}{Rezept}{section.5.1}% 53
-\BOOKMARK [2][-]{subsection.5.1.3}{Service Launcher}{section.5.1}% 54
-\BOOKMARK [1][-]{section.5.2}{Problembeschreibung}{chapter.5}% 55
-\BOOKMARK [1][-]{section.5.3}{L\366sungen}{chapter.5}% 56
-\BOOKMARK [0][-]{chapter.6}{Validierung}{}% 57
-\BOOKMARK [1][-]{section.6.1}{Vergleich mit Anforderungen}{chapter.6}% 58
-\BOOKMARK [2][-]{subsection.6.1.1}{Unterst\374tzung der Problemidentifikation}{section.6.1}% 59
-\BOOKMARK [2][-]{subsection.6.1.2}{Unterst\374tzung bei der Probleml\366sung}{section.6.1}% 60
-\BOOKMARK [2][-]{subsection.6.1.3}{Klustern von Problemen}{section.6.1}% 61
-\BOOKMARK [1][-]{section.6.2}{Aspekte des Assistenzsystems}{chapter.6}% 62
-\BOOKMARK [1][-]{section.6.3}{Nutzerbefragung}{chapter.6}% 63
-\BOOKMARK [2][-]{subsection.6.3.1}{Testm\366glichkeiten}{section.6.3}% 64
-\BOOKMARK [2][-]{subsection.6.3.2}{Der Fragebogen}{section.6.3}% 65
-\BOOKMARK [2][-]{subsection.6.3.3}{Auswertung des Fragebogens}{section.6.3}% 66
-\BOOKMARK [1][-]{section.6.4}{Bewertung}{chapter.6}% 67
-\BOOKMARK [0][-]{chapter.7}{Zusammenfassung und Ausblick}{}% 68
-\BOOKMARK [0][-]{Anhang.a.A}{Anhang Modulare Anlage}{}% 69
-\BOOKMARK [1][-]{section.a.A.1}{Zustandsmodell Services}{Anhang.a.A}% 70
-\BOOKMARK [0][-]{Anhang.a.B}{Anhang Prozessf\374hrungsebene}{}% 71
-\BOOKMARK [0][-]{Anhang.a.C}{Anhang Anhang Konzept}{}% 72
-\BOOKMARK [1][-]{section.a.C.1}{Farbschema}{Anhang.a.C}% 73
-\BOOKMARK [1][-]{section.a.C.2}{Anpassung an Problembereich - Aktivit\344tsdiagramm}{Anhang.a.C}% 74
-\BOOKMARK [0][-]{Anhang.a.D}{Anhang Fragebogen}{}% 75
-\BOOKMARK [0][-]{chapter*.133}{Literaturverzeichnis}{}% 76
+\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Aufbau der Arbeit}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Stand der Technik}{}% 5
+\BOOKMARK [1][-]{section.2.1}{Prozessindustrie}{chapter.2}% 6
+\BOOKMARK [2][-]{subsection.2.1.1}{Prozessautomatisierungssystem}{section.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.1.2}{Modulare Anlagen}{section.2.1}% 8
+\BOOKMARK [1][-]{section.2.2}{Probleml\366sen}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.1}{Unterscheidung von Problemen}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.2}{Arten von Probleml\366sern}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.3}{Einfl\374sse}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.4}{Phasen des Probleml\366sens}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.5}{St\366rungsdiagnose}{section.2.2}% 14
+\BOOKMARK [1][-]{section.2.3}{Kollaboration}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.4}{Kommunikation}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.5}{Assistenz}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.5.1}{Anforderungen an digitale Assistenzsysteme}{section.2.5}% 18
+\BOOKMARK [2][-]{subsection.2.5.2}{Einsatz von digitaler Assistenz}{section.2.5}% 19
+\BOOKMARK [2][-]{subsection.2.5.3}{Assistenzsysteme}{section.2.5}% 20
+\BOOKMARK [1][-]{section.2.6}{Gestaltung von Mensch-Maschine-Schnittstellen}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.6.1}{Ergonomisch gute Gestaltung}{section.2.6}% 22
+\BOOKMARK [2][-]{subsection.2.6.2}{User Experience}{section.2.6}% 23
+\BOOKMARK [2][-]{subsection.2.6.3}{Individualisierung}{section.2.6}% 24
+\BOOKMARK [1][-]{section.2.7}{Adaptive Systeme}{chapter.2}% 25
+\BOOKMARK [2][-]{subsection.2.7.1}{Multiagentensysteme}{section.2.7}% 26
+\BOOKMARK [2][-]{subsection.2.7.2}{Modellgest\374tztes User Interface}{section.2.7}% 27
+\BOOKMARK [0][-]{chapter.3}{Analyse}{}% 28
+\BOOKMARK [1][-]{section.3.1}{Use Case}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.2}{Vorhandene Informationen}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.2.1}{Modulare Anlage}{section.3.2}% 31
+\BOOKMARK [2][-]{subsection.3.2.2}{Prozessf\374hrungsebene}{section.3.2}% 32
+\BOOKMARK [1][-]{section.3.3}{Informationsbedarf}{chapter.3}% 33
+\BOOKMARK [2][-]{subsection.3.3.1}{Informationen nach Aufgabenbereich}{section.3.3}% 34
+\BOOKMARK [2][-]{subsection.3.3.2}{Informationsbedarf des Menschen}{section.3.3}% 35
+\BOOKMARK [1][-]{section.3.4}{Informationsanpassung}{chapter.3}% 36
+\BOOKMARK [2][-]{subsection.3.4.1}{Individualisierung f\374r den Menschen}{section.3.4}% 37
+\BOOKMARK [2][-]{subsection.3.4.2}{Anpassung an die Aufgabe}{section.3.4}% 38
+\BOOKMARK [1][-]{section.3.5}{Interaktionsmechaniken}{chapter.3}% 39
+\BOOKMARK [1][-]{section.3.6}{Anforderungen an das Assistenzsystem}{chapter.3}% 40
+\BOOKMARK [0][-]{chapter.4}{Konzept}{}% 41
+\BOOKMARK [1][-]{section.4.1}{Konzeptuelles Design}{chapter.4}% 42
+\BOOKMARK [2][-]{subsection.4.1.1}{Funktionen}{section.4.1}% 43
+\BOOKMARK [2][-]{subsection.4.1.2}{Anpassungen an den Problembereich}{section.4.1}% 44
+\BOOKMARK [2][-]{subsection.4.1.3}{Finden von L\366sungen}{section.4.1}% 45
+\BOOKMARK [2][-]{subsection.4.1.4}{Kollaboration zwischen Nutzer und Assistenz}{section.4.1}% 46
+\BOOKMARK [1][-]{section.4.2}{Physisches Design}{chapter.4}% 47
+\BOOKMARK [2][-]{subsection.4.2.1}{Problem beschreiben}{section.4.2}% 48
+\BOOKMARK [2][-]{subsection.4.2.2}{L\366sungen}{section.4.2}% 49
+\BOOKMARK [2][-]{subsection.4.2.3}{Entscheidung}{section.4.2}% 50
+\BOOKMARK [2][-]{subsection.4.2.4}{Mehrere Probleme bearbeiten}{section.4.2}% 51
+\BOOKMARK [0][-]{chapter.5}{Prototyp}{}% 52
+\BOOKMARK [1][-]{section.5.1}{Prozessf\374hrungsebene}{chapter.5}% 53
+\BOOKMARK [2][-]{subsection.5.1.1}{Navigation}{section.5.1}% 54
+\BOOKMARK [2][-]{subsection.5.1.2}{Rezept}{section.5.1}% 55
+\BOOKMARK [2][-]{subsection.5.1.3}{Service Launcher}{section.5.1}% 56
+\BOOKMARK [1][-]{section.5.2}{Problembeschreibung}{chapter.5}% 57
+\BOOKMARK [1][-]{section.5.3}{L\366sungen}{chapter.5}% 58
+\BOOKMARK [0][-]{chapter.6}{Validierung}{}% 59
+\BOOKMARK [1][-]{section.6.1}{Vergleich mit Anforderungen}{chapter.6}% 60
+\BOOKMARK [2][-]{subsection.6.1.1}{Unterst\374tzung der Problemidentifikation}{section.6.1}% 61
+\BOOKMARK [2][-]{subsection.6.1.2}{Unterst\374tzung bei der Probleml\366sung}{section.6.1}% 62
+\BOOKMARK [2][-]{subsection.6.1.3}{Klustern von Problemen}{section.6.1}% 63
+\BOOKMARK [1][-]{section.6.2}{Aspekte des Assistenzsystems}{chapter.6}% 64
+\BOOKMARK [1][-]{section.6.3}{Nutzerbefragung}{chapter.6}% 65
+\BOOKMARK [2][-]{subsection.6.3.1}{Testm\366glichkeiten}{section.6.3}% 66
+\BOOKMARK [2][-]{subsection.6.3.2}{Der Fragebogen}{section.6.3}% 67
+\BOOKMARK [2][-]{subsection.6.3.3}{Auswertung des Fragebogens}{section.6.3}% 68
+\BOOKMARK [1][-]{section.6.4}{Bewertung}{chapter.6}% 69
+\BOOKMARK [0][-]{chapter.7}{Fazit}{}% 70
+\BOOKMARK [1][-]{section.7.1}{Zusammenfassung}{chapter.7}% 71
+\BOOKMARK [1][-]{section.7.2}{Ausblick}{chapter.7}% 72
+\BOOKMARK [0][-]{Anhang.a.A}{Anhang Modulare Anlage}{}% 73
+\BOOKMARK [1][-]{section.a.A.1}{Zustandsmodell Services}{Anhang.a.A}% 74
+\BOOKMARK [0][-]{Anhang.a.B}{Anhang Prozessf\374hrungsebene}{}% 75
+\BOOKMARK [0][-]{Anhang.a.C}{Anhang Anhang Konzept}{}% 76
+\BOOKMARK [1][-]{section.a.C.1}{Farbschema}{Anhang.a.C}% 77
+\BOOKMARK [1][-]{section.a.C.2}{Anpassung an Problembereich - Aktivit\344tsdiagramm}{Anhang.a.C}% 78
+\BOOKMARK [0][-]{Anhang.a.D}{Anhang Fragebogen}{}% 79
+\BOOKMARK [0][-]{chapter*.132}{Literaturverzeichnis}{}% 80

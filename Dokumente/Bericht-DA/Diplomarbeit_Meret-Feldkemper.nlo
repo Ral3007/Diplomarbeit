@@ -1,6 +1,7 @@
 \nomenclatureentry{ba z. B.@[{z. B.}]\begingroup zum Beispiel\nomeqref {\relax 0}|nompageref}{xi}
 \nomenclatureentry{ba PFE@[{PFE}]\begingroup Prozessführungsebene\nomeqref {\relax 0}|nompageref}{xi}
-\nomenclatureentry{ba MTP@[{MTP}]\begingroup Module Type Package\nomeqref {\relax 0}|nompageref}{xi}
+\nomenclatureentry{ba MTP@[{MTP}]\begingroup Modul Type Package\nomeqref {\relax 0}|nompageref}{xi}
 \nomenclatureentry{ba bspw.@[{bspw.}]\begingroup beispielsweise\nomeqref {\relax 0}|nompageref}{xi}
 \nomenclatureentry{ba UX@[{UX}]\begingroup User Experience\nomeqref {\relax 0}|nompageref}{xi}
 \nomenclatureentry{ba vgl.@[{vgl.}]\begingroup vergleiche\nomeqref {\relax 0}|nompageref}{xi}
+\nomenclatureentry{ba HMI@[{HMI}]\begingroup Human Machine Interface\nomeqref {\relax 0}|nompageref}{xi}
