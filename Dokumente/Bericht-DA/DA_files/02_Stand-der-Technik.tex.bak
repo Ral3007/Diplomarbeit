@@ -130,7 +130,7 @@ Es wird davon ausgegangen, dass die \textbf{Art der Informationsdarbietung} eine
 \subsubsection*{Innere Faktoren}
 Die \textbf{Motivation} eines Menschen setzt erst den Problemlöseprozess in Gang \cite{Dorner1984}. Das Motiv des Problemlösers in Verbindung mit der aktuellen Situation hat dabei einen hohen Stellenwert. Dörner \cite{Dorner1984} bezeichnet im Zusammenhang mit dem Problemlösen das Kontrollmotiv als besonders bedeutsam. Wenn etwas nicht in den Erwartungshorizont des Menschen passt, dann kann dies einen Mangelzustand hervorrufen.
 
-Ebenfalls einen Einfluss haben \textbf{Emotionen}. Diese wirken sich auf den Ablauf des Denkens aus. So vermindern negative Emotionen die Anzahl an Selbstreflektionen beim Denken und rufen Notfallreaktionen hervor. Positive Emotionen können hingegen zu Nachlässigkeit und Oberflächlichkeit führen. Wie groß der Einfluss der Emotionen auf den Problemlöseprozess ist, hängt von dem Selbstkonzept des Individuums ab. Das Selbstkonzept beschreibt die Kompetenz, die in heuristische und epistemische Kompetenz eingeteilt ist. Die heuristische Kompetenz beschreibt das Zutrauen, das jemand in seine Fähigkeiten hat, mit Problemsituationen umzugehen, für die es keine eindeutige Verhaltensweise gibt. Die epistemische Kompetenz zeichnet sich durch das Zutrauen, eine Situation aufgrund des vorhandenen Wissens zu bewältigen, aus. Zusammen ergibt sich daraus die aktuelle Kompetenz. \cite{Dorner1984}
+Ebenfalls einen Einfluss haben \textbf{Emotionen}. Diese wirken sich auf den Ablauf des Denkens aus. So vermindern negative Emotionen die Anzahl an Selbstreflektionen beim Denken und rufen Notfallreaktionen hervor. Positive Emotionen können hingegen zu Nachlässigkeit und Oberflächlichkeit führen. Wie groß der Einfluss der Emotionen auf den Problemlöseprozess ist, hängt von dem Selbstkonzept des Individuums ab. Das Selbstkonzept beschreibt die Kompetenz, die in heuristische und epistemische Kompetenz eingeteilt ist. Die heuristische Kompetenz beschreibt das Zutrauen, das jemand in seine Fähigkeiten hat, mit Problemsituationen umzugehen, für die es keine eindeutige Verhaltensweise gibt. Die epistemische Kompetenz zeichnet sich durch das Zutrauen aus, eine Situation aufgrund des vorhandenen Wissens zu bewältigen. Zusammen ergibt sich daraus die aktuelle Kompetenz. \cite{Dorner1984}
 
 \subsection{Phasen des Problemlösens}
 \label{2:Phasen-Problemloesen}
@@ -193,7 +193,7 @@ Die Assistenz soll den Menschen bestmöglich unterstützen. Dabei sind seine Fä
 \begin{itemize}
 \item \textbf{Interaktivität:} Dem Mensch muss die Möglichkeit zur Interaktion gegeben werden. Die Ziele und Aufgaben sollten formulierbar sein ohne Rücksicht auf das System nehmen zu müssen.
 \item \textbf{Diagnose:} Das Assistenzsystem muss wissen, welche Effekte auftreten können, wenn der Nutzer \todo{Mensch?} fehlerhafte Eingaben tätigt.
-\item \textbf{Korrektur:} Wenn die Handlung des Nutzers von den Anweisungen abweicht, so muss das Assistenzsysteme diese Handlung trotzdem unterstützen können.
+\item \textbf{Korrektur:} Wenn die Handlung des Nutzers \todo{Menschen?} von den Anweisungen abweicht, so muss das Assistenzsysteme diese Handlung trotzdem unterstützen können.
 \end{itemize}
 
 \subsection{Einsatz von digitaler Assistenz}
@@ -224,11 +224,11 @@ Digitale Assistenz kann unter anderem folgende Aufgaben haben \cite{Wandke2005}:
 
 \subsection{Assistenzsysteme}
 \label{2:Assistenzsysteme}
-Zur Verbindung der Fähigkeiten des menschlichen Nutzers und den Systemfunktionen können Assistenzsysteme verwendet werden. Ein Assistenzsystem besteht aus mehreren Komponenten. Der Eingabemethode, also die Art und Weise, wie der Mensch mit dem System interagieren kann. Der tatsächlichen Schnittstelle, beispielsweise einem Computer, der Informationen anzeigt. Und dem Assistent als solches, der Informationen anpasst und bereit stellt.
+Zur Verbindung der Fähigkeiten des Menschen und den Systemfunktionen können Assistenzsysteme verwendet werden. Ein Assistenzsystem besteht aus mehreren Komponenten. Der Eingabemethode, also die Art und Weise, wie der Mensch mit dem System interagieren kann. Der tatsächlichen Schnittstelle, beispielsweise einem Computer, der Informationen anzeigt. Und dem Assistent als solches, der Informationen anpasst und bereit stellt.
 
 \subsubsection*{Eingabemethoden}
 \label{2:Eingabemethoden}
-Die Eingabemethoden orientieren sich maßgeblich an den Fähigkeiten des Menschen. Der Mensch verwendet meist Hände und Sprache. Insbesondere die Hände bieten eine Vielzahl an Möglichkeiten mit einem System zu interagieren. So können Hilfsmittel, wie Maus oder Tasten, verwendet werden oder die Interaktion erfolgt direkt mit Gesten oder über ein Touchscreen. Die Interaktionsmöglichkeiten sind in Tabelle \ref{tab:Interaktionsmöglichkeit} aufgeführt. \cite{Zuhlke2012, Heinecke2012}
+Die Eingabemethoden orientieren sich maßgeblich an den Fähigkeiten des Menschen. Er verwendet meist Hände und Sprache. Insbesondere die Hände bieten eine Vielzahl an Möglichkeiten mit einem System zu interagieren. So können Hilfsmittel, wie Maus oder Tasten, verwendet werden oder die Interaktion erfolgt direkt mit Gesten oder über ein Touchscreen. Die Interaktionsmöglichkeiten sind in Tabelle \ref{tab:Interaktionsmöglichkeit} aufgeführt. \cite{Zuhlke2012, Heinecke2012}
 
 \begin{sidewaystable}[ph!]
 \caption{Interaktionsmöglichkeiten mit einem Assistenzsystem}
@@ -306,7 +306,7 @@ Die richtige Informationsdarstellung ist wichtig, um den Problemlöseprozess nic
 \end{itemize}
 
 \subsection{User Experience}
-Im Zusammenhang mit einer guten Gestaltung werden die Erlebnisse, die der Nutzer bei der Verwendung von Technologien erfährt, immer wichtiger. 
+Im Zusammenhang mit einer optimalen Gestaltung werden die Erlebnisse, die der Nutzer bei der Verwendung von Technologien erfährt, immer wichtiger. 
 
 Technologie ist mehr als ein Tool, das verwendet wird um angenehme Zeit zu schaffen \todo{umformulieren!}. Es kann vielmehr selbst eine Quelle für Vergnügen sein. \cite{Hassenzahl2008}
 
@@ -315,7 +315,7 @@ User Experience (UX) verschiebt die Aufmerksamkeit von Produkt und Material (bsp
 \cite{Hassenzahl2006}
 
 \subsubsection*{Generierung positiver Erlebnisse}
-Interaktive Systeme werden von Nutzer aus zwei Perspektiven wahrgenommen. Zum einen aus der pragmatischen Sicht mit dem Fokus auf das Produkt. Zum anderen der hedonischen \footnote{Hedonisch bedeutet Lust und Freude} Sicht, welche den Fokus auf den Menschen hat und einem beispielsweise das Gefühl gibt, kompetent zu sein. Für positive Erlebnisse und damit einer guten UX muss vor allem zweiteres befriedigt werden. Damit sich ein Nutzer kompetent fühlt, müssen Herausforderungen und Erfolge in einem ausgewogenen Zusammenspiel geschehen. \cite{Hassenzahl2008}
+Interaktive Systeme werden vom Nutzer aus zwei Perspektiven wahrgenommen. Zum einen aus der pragmatischen Sicht mit dem Fokus auf das Produkt. Zum anderen der hedonischen \footnote{Hedonisch bedeutet Lust und Freude} Sicht, welche den Fokus auf den Menschen legt und beispielsweise das Gefühl gibt, kompetent zu sein. Für positive Erlebnisse und damit einer guten UX muss vor allem zweiteres befriedigt werden. Damit sich ein Nutzer kompetent fühlt, müssen Herausforderungen und Erfolge in einem ausgewogenen Zusammenspiel geschehen. \cite{Hassenzahl2008}
 
 Für das Design bedeutet das mehr konzeptionell zu denken, um bestimmte Gefühle zu wecken. Es ist mehr als nur Funktion mit einem schönen Design zu versehen \cite{Hassenzahl2008}. Leider sind negative Erlebnisse auch bei einem sehr guten UX Design unvermeidbar. Soll sich der Mensch kompetent fühlen, wird dadurch eine positive Aktivität generiert aber auch die negative Angst des Scheiterns \todo{Zitat?}. Am wichtigsten ist bei UX jedoch die Freude, die der Nutzer erfährt.
 
@@ -325,12 +325,12 @@ Für das Design bedeutet das mehr konzeptionell zu denken, um bestimmte Gefühle
 Wenn unterschiedliche Benutzer(gruppen) ein System nutzen, dann ist eine Individualisierung in Betracht zu ziehen. Individualisierung bedeutet, dass sich das Verhalten des Systems und die Darstellung der Benutzerschnittstellen-Elemente entsprechend anpassen. Die ISO 9241-129 \cite{ISO9241-129} listet einige Aspekt auf, bei denen es sinnvoll ist zu individualisieren:
 \begin{itemize}
 \item \textbf{Variation der Benutzermerkmale:} Fähigkeiten und Präferenzen der Nutzer sind verschieden.
-\item \textbf{Unterschiedliche Bedürfnisse und Ziele:} Durch entsprechende Individualisierung sollen alle Nutzer zufrieden sein.
+\item \textbf{Unterschiedliche Bedürfnisse und Ziele:} Durch entsprechende Individualisierung sollen alle Nutzer zufrieden gestellt werden.
 \item \textbf{Schwankung der Aufgabenmerkmale:} Wenn beispielsweise Komplexität, Schwierigkeit oder Informationsgehalt der Aufgabe sich verändern ist eine Individualisierung angebracht.
 \item \textbf{Verschiedene Einrichtungen, die von einem einzelnen Benutzer verwendet werden:} Wenn der Nutzer das System sowohl am Desktop Computer als auch am Mobiltelefon verwendet, ist eine Anpassung an diese Geräte sinnvoll.
 \item \textbf{Unterschiedliche Umgebungen, denen ein einzelner Nutzer ausgesetzt ist:} Der Nutzer verwendet das Gerät sowohl in hellen als auch in dunklen Umgebungen, wodurch eine bspw. eine Anpassung des Kontrastes nötig wird.
 \end{itemize}
-Trotz, oder grade wegen, der vielen Möglichkeiten von Individualisierung müssen bestimmte Grenzen eingehalten werden. So darf die individuelle Gestaltung der Mensch-Maschine-Schnittstelle folgende Faktoren nicht beeinflussen:
+Trotz, oder gerade wegen, der vielen Möglichkeiten von Individualisierung müssen bestimmte Grenzen eingehalten werden. So darf die individuelle Gestaltung der Mensch-Maschine-Schnittstelle folgende Faktoren nicht beeinflussen:
 \begin{itemize}
 \item Individualisierung darf kein Ersatz für ergonomisch gestalte Dialoge sein.
 \item Sicherheitskritische und aufgabenkritische Systeme dürfen in ihrer Funktion nicht eingeschränkt werden.
@@ -351,7 +351,7 @@ Herczeg \cite{Herczeg2006} hat zudem identifiziert, welche Eigenschaften eines S
 \begin{itemize}
 \item \textbf{Intentionale Ebene:} Veränderung der Aufgabenstruktur. Dadurch verändert sich die Gesamtfunktion des Systems.
 \item \textbf{Pragmatische Ebene:} Anpassung an bestimmte Arbeitsabläufe durch Veränderung von Prozeduren.
-\item \textbf{Semantische Ebene:} Veränderung der Arbeitsobjekte, z.B. durch Änderung der Voreinstellungen durch den Nutzer.
+\item \textbf{Semantische Ebene:} Veränderung der Arbeitsobjekte, z. B. durch die Änderung der Voreinstellungen durch den Nutzer.
 \item \textbf{Syntaktische Ebene:} Veränderung der Interaktionsformen.
 \item \textbf{Lexikalische Ebene:} Veränderung der Informationskodierung. Dadurch können verschiedene Sprachen oder Sehschwächen berücksichtigt werden.
 \item \textbf{Sensomotorische Ebene:} Veränderung von Eigenschaften der Ein- und Ausgabegeräte. Es kann beispielsweise die Helligkeit des Bildschirms oder die Tastenbelegungen verändert werden.
@@ -359,18 +359,18 @@ Herczeg \cite{Herczeg2006} hat zudem identifiziert, welche Eigenschaften eines S
 
 \section{Adaptive Systeme}
 \label{2:Adaptive-Systeme}
-Eine Möglichkeit Individualisierung umzusetzen sind adaptive Systeme. Diese erkennen das Nutzer- und/oder Systemverhalten und passen sich entsprechend an. Diese Anpassungen sind jedoch mit Vorsicht zu genießen \todo{kontrovers einzustufen?}, da es viele Charakteristika gibt, die einen Erfolg oder einen Misserfolg hervorrufen können \cite{Gajos2008}. Dabei ist die präzise Anpassung an den jeweiligen Menschen, neben der Vorhersagbarkeit, ein wichtiger Faktor \cite{Gajos2008}. Das größte Problem der adaptiven Systeme ist die Identifizierung der Bedingungen für die adaptiven Funktionen. So müssen sowohl die Abweichungen von dem Menschen, als auch von der Maschine erfasst werden. Der Status der Maschine ist sehr eindeutig und kann mit bestimmten Pattern verglichen werden. Der Status des Menschen, beispielsweise die Aufmerksamkeit des Operators, lässt sich nur schwer messen. Dies ist meist nur über Interaktionen mit dem System möglich. \cite{Viano2000}
+Eine Möglichkeit Individualisierung umzusetzen sind adaptive Systeme. Diese erkennen das Nutzer- und/oder Systemverhalten und passen sich entsprechend an. Diese Anpassungen sind jedoch mit Vorsicht zu genießen \todo{kontrovers einzustufen?}, da es viele Charakteristika gibt, die einen Erfolg oder einen Misserfolg hervorrufen können \cite{Gajos2008}. Dabei ist, neben der Vorhersagbarkeit, die präzise Anpassung an den jeweiligen Menschen ein wichtiger Faktor \cite{Gajos2008}. Das größte Problem der adaptiven Systeme ist die Identifizierung der Bedingungen für die adaptiven Funktionen. So müssen sowohl die Abweichungen von dem Menschen, als auch von der Maschine erfasst werden. Der Status der Maschine ist sehr eindeutig und kann mit bestimmten Pattern verglichen werden. Der Status des Menschen, beispielsweise die Aufmerksamkeit des Anlagenbedieners, lässt sich nur schwer messen. Dies ist meist nur über Interaktionen mit dem System möglich. \cite{Viano2000}
 
 \subsection{Multiagentensysteme}
-Eine Möglichkeit eine adaptive Nutzerschnittstelle für einen Operator umzusetzen beschreibt Viano et.al. \cite{Viano2000}. Es wird sich dabei am Konzept der Multiagentensysteme bedient. Ein Agent ist ein Computersystem, das in einer Umgebung existiert und unabhängig arbeitet. Intelligente Agenten sind charakterisiert durch ihre Flexibilität. Sie können ihr Verhalten an eine dynamische Umwelt anpassen und ihr Ziel im Auge behalten. Besteht ein System aus mehreren interagierenden Agenten, dann ist dies ein Multiagentensystem. Jeder Agent hat einen beschränkten Einflussbereich und steht mit anderen in Beziehung. Das adaptive User Interface von Viano \cite{Viano2000} verwendet folgende Agenten:
+Eine Möglichkeit eine adaptive Nutzerschnittstelle für einen Anlagenbediener umzusetzen beschreibt Viano et.al. \cite{Viano2000}. Es wird sich dabei am Konzept der Multiagentensysteme bedient. Ein Agent ist ein Computersystem, das in einer Umgebung existiert und unabhängig arbeitet. Intelligente Agenten sind charakterisiert durch ihre Flexibilität. Sie können ihr Verhalten an eine dynamische Umwelt anpassen und ihr Ziel im Auge behalten. Besteht ein System aus mehreren interagierenden Agenten, dann ist dies ein Multiagentensystem. Jeder Agent hat einen beschränkten Einflussbereich und steht mit anderen in Beziehung. Das adaptive User Interface von Viano \cite{Viano2000} verwendet folgende Agenten:
 \begin{itemize}
-\item \textbf{Prozessmodel Agent:} Beobachtet die Prozessinformationen und handelt unter Ausnutzung seines Wissens über den Prozess.
+\item \textbf{Prozess Model Agent:} Beobachtet die Prozessinformationen und handelt unter Ausnutzung seines Wissens über den Prozess.
 \item \textbf{Media Agent:} Ist verantwortlich für die Wiedergabe der Menge an Prozessinformationen.
 \item \textbf{Rendering Resolution Agent:} Interagiert mit Human Factors Database, Environmental Agent und Operator Agent. Entscheidet über die beste Wiedergabe der aktuellen Situation.
 \item \textbf{Environmental Agent:} Sammelt Informationen auf Basis der aktuellen Umgebungsbedingungen im Kontrollraum.
 \item \textbf{Human Factors Database:} Anhand von Heuristiken wird die beste Wiedergabe ausgewählt.
 \item \textbf{Presentation Agent:} Beobachtet welche Ressourcen für das Interface verwendet werden können.
-\item \textbf{Media Allocator Agent:} Trifft die finale Entscheidung für die Wiedergabe von Informationen. Es trifft seine Entscheidungen in Interaktion mit dem Presentation Agent.
+\item \textbf{Media Allocator Agent:} Trifft die finale Entscheidung für die Wiedergabe von Informationen in Interaktion mit dem Presentation Agent.
 \item \textbf{Operator Agent:} Beobachtet und speichert die Aktionen des Operators.
 \end{itemize}
 

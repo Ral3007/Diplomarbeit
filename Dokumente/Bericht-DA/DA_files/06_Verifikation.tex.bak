@@ -1,7 +1,7 @@
 \chapter{Validierung}
 \label{Validierung}
 
-Ein Ziel der Diplomarbeit ist die Entwicklung einer nutzerfreundlichen Oberfläche zur Problemlösung in modularen Anlangen. Dieses Kapitel bewertet die Qualität der Umsetzung. Dazu werden zunächst die definierten Anforderungen an das Assistenzsystem ausgewertet. Die Anforderungen beschreiben nur die Funktionalitäten und geben keinen Hinweise auf eine gute Gestaltung des Assistenzsystems. Für die Bewertung der Gestaltung wird der Prototyp unter anderem mit den Grundsätzen der Dialoggestaltung und den Aspekten für die Informationsdarstellung verglichen. Mit einer Umfrage unter Experten kann abschließend eingeschätzt werden, wie nutzerfreundlich das System ist und ob es Anwendung findet.
+Ein Ziel der Diplomarbeit ist die Entwicklung einer nutzerfreundlichen Oberfläche zur Problemlösung in modularen Anlangen. Dieses Kapitel bewertet die Qualität der Umsetzung. Dazu werden zunächst die definierten Anforderungen an das Assistenzsystem ausgewertet. Die Anforderungen beschreiben nur die Funktionalitäten und geben keinen Hinweise auf eine gute Gestaltung des Assistenzsystems. Für die Bewertung der Gestaltung wird der Prototyp unter anderem mit den Grundsätzen der Dialoggestaltung und den Aspekten für die Informationsdarstellung verglichen. Mit einer Umfrage unter Experten kann abschließend eingeschätzt werden, wie nutzerfreundlich das System ist, welche Funktionen noch verbessert werden müssen \todo{was noch?}  und ob es Anwendung findet.
 
 \section{Vergleich mit Anforderungen}
 In Abschnitt \ref{3:Anforderungen} wurden Anforderungen an das Assistenzsystem gestellt. Die Erfüllung der Anforderungen wird im Folgenden diskutiert. Eine erste Einschätzung gibt jeweils eine Tabelle. Ein \textbf{+} bedeutet voll erfüllt, ein \textbf{o} bedeutet teilweise erfüllt und ein \textbf{-} bedeutet nicht erfüllt.
@@ -22,12 +22,12 @@ Der Nutzer soll bei der Problemidentifikation unterstützt werden. Tabelle \ref{
 Insgesamt ist die Unterstützung der Problemidentifikation als positiv zu werten. Es gibt lediglich noch Anpassungsbedarf bei der Problembeschreibung. Dem Nutzer wird aktuell nicht die Möglichkeit gegeben, selber ein Problem zu melden. Weitere Details und Begründungen zu der Bewertung sind im Folgenden erläutert.
 
 \subsubsection*{PI 1.1 Problembeschreibung}
-Dem Nutzer sollte die Möglichkeit gegeben werden, das Problem zu beschreiben. Der Prototyp erfüllt diese, indem sowohl textuell die Beschreibung verändert werden kann, als auch die Parameter der Rahmenbedingung verändert werden können. Ein Beispiel dafür ist die Wartungsdauer. Der Nutzer kann in Absprache mit dem Hersteller festlegen, wie lange die Wartung für das Modul dauert.
+Dem Nutzer sollte die Möglichkeit gegeben werden, das Problem zu beschreiben. Der Prototyp erfüllt dieses, indem sowohl textuell die Beschreibung verändert werden kann, als auch die Parameter der Rahmenbedingung verändert werden können. Ein Beispiel dafür ist die Wartungsdauer. Der Nutzer kann in Absprache mit dem Hersteller festlegen, wie lange die Wartung für das Modul dauert.
 
 Hat der Nutzer selber ein Problem entdeckt, ist es derzeit nicht möglich dieses zu beschreiben. Dafür muss zunächst näher untersucht werden, welche Probleme die modulare Anlage nicht selber erkennt und durch den Nutzer gemeldet werden müssen. Das könnten beispielsweise Flüssigkeiten sein, die auslaufen oder ungewöhnliche Geräusche, die nicht durch Sensoren erfasst werden können. Erste Ideen gab es dazu bereits in \cite{Bieber2018}. Es ist zu prüfen, ob diese Ansätze auch für die modularen Anlagen umgesetzt werden können.
 
 \subsubsection*{PI 1.2 Zieldefinition}
-Dem Nutzer sollte die Möglichkeit gegeben sein die Ziele zu definieren, um anhand dieser die Lösungen zu finden. Der Prototyp erfüllt diese, indem sich die Parameter der Ziele verändern und neue Ziele hinzufügen lassen.
+Dem Nutzer sollte die Möglichkeit gegeben sein, die Ziele zu definieren, um anhand dieser die Lösungen zu finden. Der Prototyp erfüllt diese, indem sich die Parameter der Ziele verändern und neue Ziele hinzufügen lassen.
 
 \subsubsection*{PI 1.3 Informationen}
 In den Anforderungen steht, dass dem Nutzer alle relevanten Informationen über die aktuelle Situation zur Verfügung stehen sollen. Die Auswertung dieser Anforderung gestaltet sich sehr schwierig, da die Anforderung sehr unspezifisch formuliert ist.
@@ -70,10 +70,10 @@ Die Anforderungen für die Unterstützung bei der Problemlösung sind nur teilwe
 \end{table}
 
 \subsubsection*{PL 1 Assistenz schlägt Lösungen vor}
-Das Assistenzsystem wertet die definierten Ziele des Nutzer aus und sucht aus einem Pool an möglichen Lösungen die Besten aus. Dazu kann auch eine virtuelle modulare Anlage hinzugezogen werden, um vorab mögliche Fehlentscheidungen zu filtern. Die identifizierten Lösungsmöglichkeiten werden dem Nutzer zur Verfügung gestellt. Im Falle des Prototypen sind die Lösungen vordefiniert. Für zukünftige Arbeiten ist es interessant zu erfahren, welche Möglichkeiten zur Lösungsfindung im Rahmen der modularen Anlage existieren. Dabei ist der Unterschied zwischen modulspezifischen und anlagenspezifischen Problemen zu betrachten. Modulspezifisch bedeutet, dass sich das Problem auf das konkrete Modul bezieht und es irrelevant ist mit welchen anderen Modulen eine Verbindung besteht. Anlagenspezifische Probleme sind nur im Kontext aller verbundenen Module zu beurteilen. Wenn die Module also anders verbunden werden, ändern sich auch die Zusammenhänge von Problem und Lösungen.
+Das Assistenzsystem wertet die definierten Ziele des Nutzer aus und sucht aus einem Pool an möglichen Lösungen die Besten aus. Dazu kann auch eine virtuelle modulare Anlage hinzugezogen werden, um vorab mögliche Fehlentscheidungen zu filtern. Die identifizierten Lösungsmöglichkeiten werden dem Nutzer zur Verfügung gestellt. Im Falle des Prototypen sind die Lösungen vordefiniert. Für zukünftige Arbeiten ist es interessant zu erfahren, welche Möglichkeiten zur Lösungsfindung im Rahmen der modularen Anlage existieren. Dabei ist der Unterschied zwischen modulspezifischen und anlagenspezifischen Problemen zu betrachten. Modulspezifisch bedeutet, dass sich das Problem auf das konkrete Modul bezieht und es irrelevant ist, mit welchen anderen Modulen eine Verbindung besteht. Anlagenspezifische Probleme sind nur im Kontext aller verbundenen Module zu beurteilen. Wenn die Module also anders verbunden werden, ändern sich auch die Zusammenhänge von Problem und Lösungen.
 
 \subsubsection*{PL 2 Nutzer schlägt Lösungen vor}
-Dem Nutzer soll es möglich sein, selber Lösungen vorzuschlagen. Durch das Plus-Symbol im Reiter Lösungen ist das zwar angedacht, aber nicht ausgeführt. Um sich Gedanken zu machen, wie Lösungen eingegeben werden können, muss im ersten Schritt geklärt werden, was der Nutzer eingeben möchte. Im Rahmen des Modultauschs sollte es möglich sein, noch andere Module in Erwägung zu ziehen. Dazu ist zu prüfen, ob der PEA-Manager von Jan Funke \cite{Funke2018} eingebunden werden kann. Dadurch hat der Nutzer die Möglichkeit selber nach Modulen zu suchen. Die Tatsache, dass ein Mensch auch kreative Lösungen entwickeln kann, bietet eine ungeahnte Menge an Möglichkeiten und führt zu neuen Herausforderungen. Es ist nicht vorhersehbar, welche Ideen der Nutzer entwickelt. Mit Sicht auf den Use Case hat der Nutzer beispielsweise die Idee, eine andere Anlage vorübergehend still zu legen und ein Modul aus dieser zu nutzen. Solche und weitere Ideen machen das Design von Eingabemöglichkeiten sehr komplex und sind getrennt von dem entwickelten Prototypen zu betrachten.
+Dem Nutzer soll es möglich sein, selber Lösungen vorzuschlagen. Durch das Plus-Symbol im Reiter Lösungen ist das angedacht, aber nicht ausgeführt. Um sich Gedanken zu machen, wie Lösungen eingegeben werden können, muss im ersten Schritt geklärt werden, was der Nutzer eingeben möchte. Im Rahmen des Modultauschs sollte es möglich sein, noch andere Module in Erwägung zu ziehen. Es ist zu prüfen, ob der PEA-Manager von Jan Funke \cite{Funke2018} eingebunden werden kann. Dadurch hat der Nutzer die Möglichkeit selber nach Modulen zu suchen. Die Tatsache, dass ein Mensch auch kreative Lösungen entwickeln kann, bietet eine ungeahnte Menge an Möglichkeiten und führt zu neuen Herausforderungen. Es ist nicht vorhersehbar, welche Ideen der Nutzer entwickelt. Mit Sicht auf den Use Case hat der Nutzer beispielsweise die Idee, eine andere Anlage vorübergehend still zu legen und ein Modul aus dieser zu nutzen. Solche und weitere Ideen machen das Design von Eingabemöglichkeiten sehr komplex und sind getrennt von dem entwickelten Prototypen zu betrachten.
 
 \subsubsection*{PL 3.1 Auswirkung auf Anlage / Prozess}
 Der Prototyp zeigt dem Nutzer an, welche Veränderungen sich in der modularen Anlage durch die Lösung ergeben. Es werden Veränderungen im Rezept, in der Navigation und in den Services angezeigt. Die verfahrenstechnischen Auswirkungen auf den Prozess sind nicht dargestellt. Es ist also nicht abschätzbar, wie sich die Produktqualität durch die Lösung verändern könnte. Die Anbindung an eine virtuelle modulare Anlage, die mögliche Veränderungen berechnet und dem Nutzer mitteilt, ist noch zu entwickeln.
@@ -81,10 +81,10 @@ Der Prototyp zeigt dem Nutzer an, welche Veränderungen sich in der modularen An
 \subsubsection*{PL 3.2 Einflussfaktoren}
 Dem Nutzer wird durch das Assistenzsystem angezeigt, welche Einflussfaktoren sich zahlenmäßig unterscheiden. Im Konzept ist vorgesehen, dass alle relevanten Einflussfaktoren sichtbar sind (vgl. \ref{3:Anforderungen}). Relevant bedeutet, dass die Einflussfaktoren zuvor von dem Unternehmen oder dem Mitarbeiter als wichtig definiert wurden.
 
-Die notwendige Darstellung von Serviceabhängigkeiten ist in xx thematisiert, jedoch nicht umgesetzt. Für einen sinnvollen Entwurf ist noch zu untersuchen, wie stark Services voneinander abhängen können. Darauf aufbauend kann dann eine gute Darstellung entwickelt werden. Der Fokus dieser Arbeit richtet sich auf die Modulebene. Auf dieser werden die Einflüsse auf das Rezept und die Services durch Hervorhebung dargestellt.
+Die notwendige Darstellung von Serviceabhängigkeiten ist in xx \todo{Verweis} thematisiert, jedoch nicht umgesetzt. Für einen sinnvollen Entwurf ist noch zu untersuchen, wie stark Services voneinander abhängen können. Darauf aufbauend kann dann eine gute Darstellung entwickelt werden. Der Fokus dieser Arbeit richtet sich auf die Modulebene. Auf dieser werden die Einflüsse auf das Rezept und die Services durch Hervorhebung dargestellt.
 
 \subsubsection*{PL 4 Lösungen bewerten}
-In der Anforderung ist definiert, dass der Nutzer die einzelnen Lösungen bewerten kann, um eine Entscheidung zu treffen. Diese Anforderung wurde nicht umgesetzt, da eine Lösung nicht richtig oder falsch sein kann. Es ist möglich, dass eine Lösung besser oder schlechter ist, als eine andere. Die Bewertung dieser ist aber stark von der Gesamtsituation (z. B. verfügbare Mitarbeiter, Auftragslage) und dem Wissen des Mitarbeiters abhängig. Diese Anforderung ist daher kritisch zu hinterfragen. Bei Rückblick auf den allgemeinen Problemlöseprozess ist sichtbar, dass Lösungen erst nach Durchführung bewertet werden. Erst dann ist eindeutig, welchen Einfluss die Entscheidung hat. Aus diesem Grund ist eine Bewertung erst nach Anwendung der Lösung sinnvoll.
+In den Anforderungen ist definiert, dass der Nutzer die einzelnen Lösungen bewerten kann, um eine Entscheidung zu treffen. Diese Anforderung wurde nicht umgesetzt, da eine Lösung nicht richtig oder falsch sein kann. Es ist möglich, dass eine Lösung besser oder schlechter ist. Die Bewertung dieser ist von der Gesamtsituation (z. B. verfügbare Mitarbeiter, Auftragslage) und dem Wissen des Mitarbeiters abhängig. Diese Anforderung ist daher kritisch zu hinterfragen. Bei Rückblick auf den allgemeinen Problemlöseprozess ist sichtbar, dass Lösungen erst nach Durchführung bewertet werden. Erst dann ist eindeutig, welchen Einfluss die Entscheidung hat. Aus diesem Grund ist eine Bewertung erst nach Anwendung der Lösung sinnvoll.
 
 \subsection{Klustern von Problemen}
 Probleme sollen geklustert werden, damit mehrere Probleme parallel bearbeitet werden können. Wie Tabelle \ref{tab:Anforderungen-Probleme} zeigt, sind die Anforderungen erfüllt. Das Assistenzsystem sortiert die Probleme automatisch und macht damit den Nutzer auf das wichtigste aufmerksam.
@@ -138,7 +138,7 @@ Bereitstellung & o & Das Assistenzsystem stellt nur eine ausgewählte Menge und 
 \hline
 Filter & + & Das Assistenzsystem zeigt nur relevante Daten zur Entscheidungsfindung an.\\
 \hline
-Berater & o & Das Assistenzsystem liefert mehrere Vorschläge, macht aber keinen Vorschlage, welche Option die Beste sein könnte. \\
+Berater & o & Das Assistenzsystem liefert mehrere Vorschläge, macht aber keinen Vorschlag, welche Option die beste sein könnte. \\
 \hline
 Delegieren & - & Das Assistenzsystem unterstützt den Nutzer aktuell nicht bei der Anwendung der ausgewählten Lösung.\\
 \end{tabular}
@@ -164,7 +164,7 @@ Lern-förderlichkeit & o & Es gibt keine konkrete Unterstützung im Sinne von Er
 \hline
 Steuerbarkeit & + & Durch das Setzen der Ziele kann der Nutzer die Richtung steuern. Die Geschwindigkeit wird durch Betätigen der Buttons gesteuert. \\
 \hline
-Fehlertoleranz & + & Ziele können im Nachhinein noch mal geändert werden. \\
+Fehlertoleranz & + & Ziele können im Nachhinein noch einmal geändert werden. \\
 \hline
 Individualisier-barkeit & - & Dem Nutzer stehen aktuell keine Möglichkeiten zur Individualisierung zur Verfügung. \\
 \end{tabular}
@@ -202,16 +202,16 @@ Im Sinne von Herczeg \cite{Herczeg2006} findet die Individualisierung im Prototy
 
 \section{Nutzerbefragung}
 \label{6:Nutzerbefragung}
-Für eine gute Einschätzung der Nutzerfreundlichkeit ist es notwendig, den Nutzer des Systems zu befragen. Es ist nicht zielführend, wenn die Fakten auf dem Papier stimmen, der Nutzer jedoch mit der Bedienung unzufrieden ist. Aus diesem Grund werden im nächsten Abschnitt Möglichkeiten zur Nutzerbefragung aufgezeigt. Anschließend wird ein Test erstellt und einige  ausgewählten Experten befragt. Anhand des Ergebnis kann abgeschätzt werden, welche Elemente beibehalten werden sollen und wo Verbesserungspotential vorhanden ist.
+Für eine gute Einschätzung der Nutzerfreundlichkeit ist es notwendig, den Nutzer des Systems zu befragen. Es ist nicht zielführend, wenn die Fakten auf dem Papier \todo{umformulieren}stimmen, der Nutzer jedoch mit der Bedienung unzufrieden ist. Aus diesem Grund werden im nächsten Abschnitt Möglichkeiten zur Nutzerbefragung aufgezeigt. Anschließend wird ein Test erstellt und einige ausgewählten Experten befragt. Anhand des Ergebnis kann abgeschätzt werden, welche Elemente beibehalten werden sollen und wo Verbesserungspotential vorhanden ist.
 
 \subsection{Testmöglichkeiten}
-Möchte man die Benutzerfreundlichkeit eines Systems testen, kann man den Nutzer bspw. bei Verwendung des Systems beobachten. Laut xx\todo{Zitat} ist \glqq der vielleicht offensichtlichste Weg etwas über die Nutzerfreundlichkeit von etwas zu erfahren, den Nutzer zu fragen, ob er etwas über seine Erfahrung erzählt\grqq \ \citep[123]{Tullis2008}. Dazu können verschiedene Fragen mit verschiedenen Skalen oder offene Fragen gestellt werden. Offene Fragen sind schwieriger zu analysieren als Tests mit Skalen. Letztere lassen sich in individuelle und generalisierte Fragebögen einteilen. Individuelle Fragebögen lassen systemspezifische Fragen zu und können z.B. für die Auswahl der Testpersonen angewendet werden. Die generalisierten Fragebögen sind standardisiert und können somit auch Unterschiede zwischen verschiedenen Systemen aufzeigen. Einige dieser Fragebögen sind im Folgenden vorgestellt.
+Möchte man die Benutzerfreundlichkeit eines Systems testen, kann man den Nutzer bspw. bei Verwendung des Systems beobachten. Laut Tullis und Albert ist \glqq der vielleicht offensichtlichste Weg etwas über die Nutzerfreundlichkeit von etwas zu erfahren, den Nutzer zu fragen, ob er etwas über seine Erfahrung erzählt\grqq \ \citep[123]{Tullis2008}. Dazu können verschiedene Fragen mit verschiedenen Skalen oder offene Fragen gestellt werden. Offene Fragen sind schwieriger zu analysieren als Tests mit Skalen. Letztere lassen sich in individuelle und generalisierte Fragebögen einteilen. Individuelle Fragebögen lassen systemspezifische Fragen zu und können z.B. für die Auswahl der Testpersonen angewendet werden. Die generalisierten Fragebögen sind standardisiert und können somit auch Unterschiede zwischen verschiedenen Systemen aufzeigen. Einige dieser Fragebögen sind im Folgenden vorgestellt.
 
 \subsubsection*{System Usability Scale}
-Der SUS (System Usability Scale) Fragebogen ist ein standardisierter Fragebogen zur Bewertung der Nutzerfreundlichkeit eines Systems. Er besteht aus zehn Fragen und fünf Stufen zwischen \glqq Stimme Gar nicht zu\grqq und \glqq Stimme voll zu\grqq. Die eine Hälfte der Fragen (ungerade Zahlen) ist positiv formuliert, die andere Hälfte (gerade Zahlen) ist negativ formuliert. Für jede Frage werden abhängig von der Antwort zwischen 0 und 4 Punkte verteilt und summiert. Anschließend wird die Summe mit 2,5 multipliziert. Die Summe befindet sich auf einer Skala von 0 bis 100. Bei 100 ist die Nutzerfreundlichkeit voll erfüllt. \todo{Quelle}
+Der System Usability Scale (SUS) Fragebogen ist ein standardisierter Fragebogen zur Bewertung der Nutzerfreundlichkeit eines Systems. Er besteht aus zehn Fragen und fünf Stufen zwischen \glqq stimme gar nicht zu\grqq und \glqq stimme voll zu\grqq. Die eine Hälfte der Fragen (ungerade Zahlen) ist positiv, die andere Hälfte (gerade Zahlen) ist negativ formuliert. Für jede Frage werden abhängig von der Antwort zwischen 0 und 4 Punkte verteilt und summiert. Anschließend wird die Summe mit 2,5 multipliziert. Die Summe befindet sich auf einer Skala von 0 bis 100. Bei 100 ist die Nutzerfreundlichkeit voll erfüllt. \todo{Quelle}
 
 \subsubsection*{User Experience Questionnaire}
-Mit dem UEQ (User Experience Questionnaire) soll möglichst schnell und unmittelbare der Gesamteindruck des Nutzers eines Systems erfasst werden. Der Fragebogen besteht aus 26 Fragen und einer 7-stufigen Skala mit gegensätzlichen Begriffen, wie kompliziert und einfach. Eingeteilt sind die Fragen in folgende sechs Skalen \cite{Schrepp2015}:
+Mit dem User Experience Questionnaire (UEQ) soll möglichst schnell und unmittelbar der Gesamteindruck des Nutzers eines Systems erfasst werden. Der Fragebogen besteht aus 26 Fragen und einer 7-stufigen Skala mit gegensätzlichen Begriffen, wie kompliziert und einfach. Eingeteilt sind die Fragen in folgende sechs Skalen \cite{Schrepp2015}:
 \begin{itemize}
 \item \textbf{Attraktivität:} Mag der Nutzer das System? (6 Fragen)
 \item \textbf{Benutzerqualität} (jeweils 4 Fragen)
@@ -228,18 +228,18 @@ Mit dem UEQ (User Experience Questionnaire) soll möglichst schnell und unmittel
 \end{itemize}
 
 \subsubsection*{Computer System Usability Questionnaire}
-Die Fragen des CSUQ (Computer System Usability Questionaire) lassen sich auf einer Skala von 1 (gar keine Zustimmung) bis 7 (totale Zustimmung) beantworten. Er ist länger als der SUS Fragebogen, aber immer noch leicht zu beantworten. Eingeteilt wird der Fragebogen in drei Bereiche \cite{Lewis2018}:
+Die Fragen des CSUQ (Computer System Usability Questionaire) lassen sich auf einer Skala von 1 (gar keine Zustimmung) bis 7 (totale Zustimmung) beantworten. Er ist länger als der SUS Fragebogen, aber immer noch leicht zu beantworten. Eingeteilt ist der Fragebogen in drei Bereiche \cite{Lewis2018}:
 \begin{itemize}
 \item \textbf{Systemnutzbarkeit:} Fragen 1-6
 \item \textbf{Informationsqualität:} Fragen 7-12
-\item \textbf{Qualität der Bedienoberfläche:} Fragen 13-15
+\item \textbf{Qualität der Benutzeroberfläche:} Fragen 13-15
 \end{itemize}
 
 \subsection{Der Fragebogen}
 Der Fragebogen zur Validierung des Prototypen (siehe Anhang \ref{A:Fragebogen-Validierung}) besteht aus mehreren Teilen. Zu Beginn gibt es einige Fragen zum Vorwissen des Nutzers, um die Antworten besser einordnen zu können. Für die Auswertung des Assistenzsystems wird zum einen der SUS Fragebogen angewandt. Laut Forschung hat dieser eine \glqq exzellente Zuverlässigkeit, Aussagekraft und Empfindlichkeit zu einer breiten Auswahl an unabhängigen Variablen\grqq \ \citep[1150]{Lewis2018}. Zum anderen werden einige offene Fragen gestellt, um genau abschätzen zu können, welche Eigenschaften besonders positiv wahrgenommen werden und welche Funktionalitäten die Experten vermissen. 
 
 \subsection{Auswertung des Fragebogens}
-Für die Bewertung des Assistenzsystems wurden drei Experten \footnote{Für eine einfache Lesbarkeit wird hier genderneutral die männliche Form verwendet}, mit unterschiedlichem Vorwissen zum Thema modulare Anlagen und Assistenzsysteme (siehe Abbildung \ref{pic:Fragebogen-Vorwissen}), befragt. Alle Experten wissen, was modulare Anlagen sind und wie diese gesteuert werden. Erfahrung im Betrieb von verfahrenstechnischen Anlagen hat nur eine Person. Das ist genau der Experte, der keine Erfahrung mit Assistenzsystemen zum Problemlösen hat.
+Für die Bewertung des Assistenzsystems wurden drei Experten \footnote{Für eine einfache Lesbarkeit wird hier genderneutral die männliche Form verwendet}, die unterschiedliches Vorwissen zum Thema modulare Anlagen und Assistenzsysteme haben (siehe Abbildung \ref{pic:Fragebogen-Vorwissen}), befragt. Alle Experten wissen, was modulare Anlagen sind und wie diese gesteuert werden. Erfahrung im Betrieb von verfahrenstechnischen Anlagen hat nur eine Person. Das ist genau der Experte, der keine Erfahrung mit Assistenzsystemen zum Problemlösen hat.
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.65]{DA_files/Bilder/Validierung/Bild-Vorwissen.pdf}
