@@ -53,7 +53,7 @@
       }}%
     }
     \list{publisher}{1}{%
-      {Verein Deutsche Ingenieure}%
+      {Verein Deutscher Ingenieure}%
     }
     \strng{namehash}{VB1}
     \strng{fullhash}{VB1}
@@ -62,7 +62,7 @@
     \field{sortinit}{1}
     \field{sortinithash}{1}
     \field{title}{{Automatisierungstechnisches Engineering modularer Anlagen in
-  der Prozessindustrie - Allgemeines Konzept und Schnittstellen}}
+  der Prozessindustrie Blatt 1: Allgemeines Konzept und Schnittstellen}}
     \field{month}{06}
     \field{year}{2017}
   \endentry
@@ -78,7 +78,7 @@
       }}%
     }
     \list{publisher}{1}{%
-      {Verein Deutsche Ingenieure}%
+      {Verein Deutscher Ingenieure}%
     }
     \strng{namehash}{VB2}
     \strng{fullhash}{VB2}
@@ -87,7 +87,7 @@
     \field{sortinit}{3}
     \field{sortinithash}{3}
     \field{title}{{Automatisierungstechnisches Engineering modularer Anlagen in
-  der Prozessindustrie - Basisbibliothek}}
+  der Prozessindustrie Blatt 3: Basisbibliothek}}
     \field{month}{03}
     \field{year}{2019}
   \endentry
@@ -103,7 +103,7 @@
       }}%
     }
     \list{publisher}{1}{%
-      {Verein Deutsche Ingenieure}%
+      {Verein Deutscher Ingenieure}%
     }
     \strng{namehash}{VB3}
     \strng{fullhash}{VB3}
@@ -112,7 +112,33 @@
     \field{sortinit}{4}
     \field{sortinithash}{4}
     \field{title}{{Automatisierungstechnisches Engineering modularer Anlagen in
-  der Prozessindustrie - ?}}
+  der Prozessindustrie Blatt 4: Modellierung von Moduldiensten (Entwurf)}}
+    \field{year}{o.J.}
+  \endentry
+
+  \entry{ISO9241-110}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=DEI}{%
+         family={9241-110},
+         familyi={\bibinitperiod-\bibinitperiod},
+         given={DIN EN\bibnamedelima ISO},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
+  I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Deutsche Norm}%
+    }
+    \strng{namehash}{DEI1}
+    \strng{fullhash}{DEI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{9}
+    \field{sortinithash}{9}
+    \field{title}{{Ergonomie der Mensch-System-Interaktion Teil 110:
+  Grunds{\"{a}}tze der Dialggestaltung}}
+    \field{month}{09}
+    \field{year}{2008}
   \endentry
 
   \entry{ISO9241-112}{misc}{}
@@ -128,13 +154,14 @@
     \list{publisher}{1}{%
       {Deutsche Norm}%
     }
-    \strng{namehash}{DEI1}
-    \strng{fullhash}{DEI1}
+    \strng{namehash}{DEI2}
+    \strng{fullhash}{DEI2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{9}
     \field{sortinithash}{9}
-    \field{title}{{Grunds{\"{a}}tze der Informationsdarstellung}}
+    \field{title}{{Ergonomie der Mensch-System-Interaktion Teil 112:
+  Grunds{\"{a}}tze der Informationsdarstellung}}
     \field{month}{08}
     \field{year}{2017}
   \endentry
@@ -142,7 +169,7 @@
   \entry{ISO9241-129}{misc}{}
     \name{author}{1}{}{%
       {{hash=DEI}{%
-         family={9241-112},
+         family={9241-129},
          familyi={\bibinitperiod-\bibinitperiod},
          given={DIN EN\bibnamedelima ISO},
          giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
@@ -152,28 +179,16 @@
     \list{publisher}{1}{%
       {Deutsche Norm}%
     }
-    \strng{namehash}{DEI1}
-    \strng{fullhash}{DEI1}
+    \strng{namehash}{DEI3}
+    \strng{fullhash}{DEI3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{9}
     \field{sortinithash}{9}
-    \field{title}{{Leitlinien f{\"{u}}r die Individualisierung von Software}}
+    \field{title}{{Ergonomie der Mensch-System-Interaktion Teil 129: Leitlinien
+  f{\"{u}}r die Individualisierung von Software}}
     \field{month}{03}
     \field{year}{2011}
-  \endentry
-
-  \entry{ISO9241-110}{misc}{}
-    \list{organization}{1}{%
-      {Deutsche Elektrotechnische Kommission im DIN und VDE (DKE)}%
-    }
-    \keyw{Norm}
-    \field{label}{ISO9241-110}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-    \field{addendum}{DIN 40041 (1990-12)}
-    \field{title}{Zuverl{\"a}ssigkeit - Begriffe}
   \endentry
 
   \entry{DudenAssistenz}{misc}{}
@@ -226,7 +241,6 @@
     \verb{doi}
     \verb 10.1016/0005-1098(83)90046-8
     \endverb
-    \field{issn}{00051098}
     \field{number}{6}
     \field{pages}{775\bibrangedash 779}
     \field{title}{{Ironies of Automation}}
@@ -240,37 +254,37 @@
       {{hash=BJ}{%
          family={Bernshausen},
          familyi={B\bibinitperiod},
-         given={Jens},
+         given={J.},
          giveni={J\bibinitperiod},
       }}%
       {{hash=HA}{%
          family={Haller},
          familyi={H\bibinitperiod},
-         given={Axel},
+         given={A.},
          giveni={A\bibinitperiod},
       }}%
       {{hash=HT}{%
          family={Holm},
          familyi={H\bibinitperiod},
-         given={Thomas},
+         given={T.},
          giveni={T\bibinitperiod},
       }}%
       {{hash=HM}{%
          family={Hoernicke},
          familyi={H\bibinitperiod},
-         given={Mario},
+         given={M.},
          giveni={M\bibinitperiod},
       }}%
       {{hash=OM}{%
          family={Obst},
          familyi={O\bibinitperiod},
-         given={Michael},
+         given={M.},
          giveni={M\bibinitperiod},
       }}%
       {{hash=LJ}{%
          family={Ladiges},
          familyi={L\bibinitperiod},
-         given={Jan},
+         given={J.},
          giveni={J\bibinitperiod},
       }}%
     }
@@ -287,7 +301,7 @@
     \field{pages}{72\bibrangedash 81}
     \field{title}{{Namur Modul Type Package - Definition}}
     \field{volume}{58}
-    \field{journaltitle}{Atp Edition}
+    \field{journaltitle}{atp edition}
     \field{month}{01}
     \field{year}{2016}
   \endentry
@@ -322,7 +336,6 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{B}
     \field{sortinithash}{B}
-    \field{isbn}{9783642124730}
     \field{title}{{Denken - Urteilen, Entscheiden, Probleml{\"{o}}sen}}
     \list{location}{1}{%
       {Berlin Heidelberg}%
@@ -372,65 +385,61 @@
   \endentry
 
   \entry{Bloch2017}{article}{}
-    \name{author}{10}{}{%
+    \name{author}{9}{}{%
       {{hash=BH}{%
          family={Bloch},
          familyi={B\bibinitperiod},
-         given={Henry},
+         given={H.},
          giveni={H\bibinitperiod},
       }}%
       {{hash=HS}{%
          family={Hensel},
          familyi={H\bibinitperiod},
-         given={Stephan},
+         given={S.},
          giveni={S\bibinitperiod},
       }}%
       {{hash=HM}{%
          family={Hoernicke},
          familyi={H\bibinitperiod},
-         given={Mario},
+         given={M.},
          giveni={M\bibinitperiod},
       }}%
       {{hash=SK}{%
          family={Stark},
          familyi={S\bibinitperiod},
-         given={Katharina},
+         given={K.},
          giveni={K\bibinitperiod},
       }}%
       {{hash=MA}{%
          family={Menschner},
          familyi={M\bibinitperiod},
-         given={Anna},
+         given={A.},
          giveni={A\bibinitperiod},
       }}%
-      {{hash=UL}{%
+      {{hash=UALF}{%
          family={Urbas},
          familyi={U\bibinitperiod},
-         given={Leon},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=FA}{%
-         family={Fay},
-         familyi={F\bibinitperiod},
-         given={Alexander},
+         suffix={L.and\bibnamedelima Fay},
+         suffixi={L\bibinitperiod\bibinitdelim F\bibinitperiod},
+         given={A.},
          giveni={A\bibinitperiod},
       }}%
       {{hash=KT}{%
          family={Knohl},
          familyi={K\bibinitperiod},
-         given={Torsten},
+         given={T.},
          giveni={T\bibinitperiod},
       }}%
       {{hash=BJ}{%
          family={Bernshausen},
          familyi={B\bibinitperiod},
-         given={Jens},
+         given={J.},
          giveni={J\bibinitperiod},
       }}%
       {{hash=HA}{%
          family={Haller},
          familyi={H\bibinitperiod},
-         given={Axel},
+         given={A.},
          giveni={A\bibinitperiod},
       }}%
     }
@@ -450,6 +459,65 @@
     \field{journaltitle}{atp edition}
     \field{month}{11}
     \field{year}{2017}
+  \endentry
+
+  \entry{Bloech2014}{book}{}
+    \name{author}{6}{}{%
+      {{hash=BJ}{%
+         family={Bloech},
+         familyi={B\bibinitperiod},
+         given={Jürgen},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Bogaschewsky},
+         familyi={B\bibinitperiod},
+         given={Ronald},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BU}{%
+         family={Buscher},
+         familyi={B\bibinitperiod},
+         given={Udo},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Daub},
+         familyi={D\bibinitperiod},
+         given={Anke},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GU}{%
+         family={Götze},
+         familyi={G\bibinitperiod},
+         given={Uwe},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=RF}{%
+         family={Roland},
+         familyi={R\bibinitperiod},
+         given={Folker},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag}%
+    }
+    \strng{namehash}{BJ+3}
+    \strng{fullhash}{BJBRBUDAGURF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1007/978-3-642-31893-1
+    \endverb
+    \field{edition}{7. Auflage}
+    \field{title}{Einführung in die Produktion}
+    \list{location}{1}{%
+      {Berlin, Heidelberg}%
+    }
+    \field{year}{2014}
   \endentry
 
   \entry{Dorner1984}{article}{}
@@ -473,6 +541,32 @@
     \field{volume}{XXXV}
     \field{journaltitle}{Psychologische Rundschau}
     \field{year}{1984}
+  \endentry
+
+  \entry{ZVEI2015}{misc}{}
+    \name{editor}{1}{}{%
+      {{hash=uEeZE}{%
+         prefix={und},
+         prefixi={u\bibinitperiod},
+         family={Elektronikindustrie\bibnamedelima e.V.},
+         familyi={E\bibinitperiod\bibinitdelim e\bibinitperiod},
+         given={Zentralverband\bibnamedelima Elektrotechnik},
+         giveni={Z\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EeZEu1}
+    \strng{fullhash}{EeZEu1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{{Modulbasierte Produktion in der Prozessindustrie -
+  Auswirkungen auf die Automation im Umfeld von Industrie 4.0}}
+    \list{location}{1}{%
+      {Frankfurt am Main}%
+    }
+    \field{month}{02}
+    \field{year}{2015}
   \endentry
 
   \entry{Funke2018}{thesis}{}
@@ -595,7 +689,6 @@
     \verb{doi}
     \verb 10.1007/978-3-658-01951-8
     \endverb
-    \field{isbn}{9783658019501}
     \field{title}{{Produktionscontrolling}}
     \list{location}{1}{%
       {Wiesbaden}%
@@ -692,6 +785,40 @@
     \field{year}{2012}
   \endentry
 
+  \entry{Herczeg2003}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=HM}{%
+         family={Herczeg},
+         familyi={H\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=GM}{%
+         family={Grandt},
+         familyi={G\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HM2}
+    \strng{fullhash}{HM2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{booktitle}{Entscheidungsunterstützung für die Fahrzeug- und
+  Prozessführung}
+    \field{pages}{117\bibrangedash 131}
+    \field{title}{{Diagnostische Repositorien zur Unterst{\"{u}}tzung
+  kollaborativer Entscheidungsprozesse}}
+    \list{location}{1}{%
+      {Bonn}%
+    }
+    \field{year}{2003}
+  \endentry
+
   \entry{Herczeg2006}{book}{}
     \name{author}{1}{}{%
       {{hash=HM}{%
@@ -702,7 +829,7 @@
       }}%
     }
     \list{publisher}{1}{%
-      {Oldenbourg Wissenschaftsverlag GmbH}%
+      {Oldenbourg Wissenschaftsverlag}%
     }
     \strng{namehash}{HM2}
     \strng{fullhash}{HM2}
@@ -710,7 +837,6 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{H}
     \field{sortinithash}{H}
-    \field{isbn}{3-486-27565-8}
     \field{title}{Interaktionsdesign: Gestaltung interaktiver und multimedialer
   Systeme}
     \list{location}{1}{%
@@ -736,9 +862,6 @@
     \field{sortinithash}{J}
     \field{title}{{Computer Support for Interaction Regulation in Collaborative
   Problem-Solving}}
-    \verb{url}
-    \verb https://tecfa.unige.ch/tecfa/research/theses/jermann2004.pdf
-    \endverb
     \list{institution}{1}{%
       {Universität Genf}%
     }
@@ -746,7 +869,7 @@
     \field{year}{2004}
   \endentry
 
-  \entry{Kasselmann2016}{article}{}
+  \entry{Kasselmann2016}{thesis}{}
     \name{author}{2}{}{%
       {{hash=KS}{%
          family={Kasselmann},
@@ -767,12 +890,15 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{K}
     \field{sortinithash}{K}
-    \field{title}{{Interaktive Assistenzsysteme??}}
+    \field{title}{Interaktive Assistenzsysteme}
     \verb{url}
     \verb https://industrie40.it-haus.com/wp-content/uploads/2016/12/IPH_2016_A
     \verb ssistenz-Systeme.pdf
     \endverb
-    \field{journaltitle}{Technologie-Kompendium}
+    \list{institution}{1}{%
+      {Institut für Integrierte Produktion Hannover}%
+    }
+    \field{type}{Technologie-Kompendium}
     \field{year}{2016}
   \endentry
 
@@ -851,43 +977,43 @@
       {{hash=LJ}{%
          family={Ladiges},
          familyi={L\bibinitperiod},
-         given={Jan},
+         given={J.},
          giveni={J\bibinitperiod},
       }}%
       {{hash=KA}{%
          family={K{\"{o}}cher},
          familyi={K\bibinitperiod},
-         given={Aljosha},
+         given={A.},
          giveni={A\bibinitperiod},
       }}%
       {{hash=CP}{%
          family={Clement},
          familyi={C\bibinitperiod},
-         given={Peer},
+         given={P.},
          giveni={P\bibinitperiod},
       }}%
       {{hash=BH}{%
          family={Bloch},
          familyi={B\bibinitperiod},
-         given={Henry},
+         given={H.},
          giveni={H\bibinitperiod},
       }}%
       {{hash=HT}{%
          family={Holm},
          familyi={H\bibinitperiod},
-         given={Thomas},
+         given={T.},
          giveni={T\bibinitperiod},
       }}%
       {{hash=AP}{%
          family={Altmann},
          familyi={A\bibinitperiod},
-         given={Paul},
+         given={P.},
          giveni={P\bibinitperiod},
       }}%
       {{hash=FA}{%
          family={Fay},
          familyi={F\bibinitperiod},
-         given={Alexander},
+         given={A.},
          giveni={A\bibinitperiod},
       }}%
     }
@@ -934,7 +1060,6 @@
     \field{sortinit}{L}
     \field{sortinithash}{L}
     \field{edition}{3. Auflage}
-    \field{isbn}{9783642220739}
     \field{title}{Prozessautomatisierung 1}
     \list{location}{1}{%
       {Berlin Heidelberg}%
@@ -1069,7 +1194,8 @@
   Augmented Cognition}
     \field{pages}{1180\bibrangedash 1189}
     \field{title}{Implications of Adaptive vs. Adaptable UIs on Decision
-  Making: \glqq Why Automated Adaptiveness\grqq Is Not Always the Right Answer}
+  Making: \glqq Why Automated Adaptive-ness\grqq \ Is Not Always the Right
+  Answer}
     \list{location}{1}{%
       {Las Vegas}%
     }
@@ -1140,12 +1266,9 @@
   \entry{NAMURArbeitskreis1.122013}{misc}{}
     \name{author}{1}{}{%
       {{hash=N}{%
-         family={{NAMUR Arbeitskreis 1.12???}},
+         family={{NAMUR}},
          familyi={N\bibinitperiod},
       }}%
-    }
-    \list{publisher}{1}{%
-      {NAMUR}%
     }
     \strng{namehash}{N1}
     \strng{fullhash}{N1}
@@ -1153,7 +1276,7 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{N}
     \field{sortinithash}{N}
-    \field{title}{{NE 148 - Anforderungen an die Automatisierungstechnik durch
+    \field{title}{{NE 148: Anforderungen an die Automatisierungstechnik durch
   die Modularisierung verfahrenstechnischer Anlagen}}
     \field{month}{10}
     \field{year}{2013}
@@ -1164,61 +1287,61 @@
       {{hash=OM}{%
          family={Obst},
          familyi={O\bibinitperiod},
-         given={Michael},
+         given={M.},
          giveni={M\bibinitperiod},
       }}%
       {{hash=HT}{%
          family={Holm},
          familyi={H\bibinitperiod},
-         given={Thomas},
+         given={T.},
          giveni={T\bibinitperiod},
       }}%
       {{hash=BS}{%
          family={Bleuel},
          familyi={B\bibinitperiod},
-         given={Stephan},
+         given={S.},
          giveni={S\bibinitperiod},
       }}%
       {{hash=CU}{%
          family={Claussnitzer},
          familyi={C\bibinitperiod},
-         given={Ulf},
+         given={U.},
          giveni={U\bibinitperiod},
       }}%
       {{hash=EL}{%
          family={Evetz},
          familyi={E\bibinitperiod},
-         given={Lars},
+         given={L.},
          giveni={L\bibinitperiod},
       }}%
       {{hash=JT}{%
          family={J{\"{a}}ger},
          familyi={J\bibinitperiod},
-         given={Tobias},
+         given={T.},
          giveni={T\bibinitperiod},
       }}%
       {{hash=NT}{%
          family={Nekolla},
          familyi={N\bibinitperiod},
-         given={Tobias},
+         given={T.},
          giveni={T\bibinitperiod},
       }}%
       {{hash=PS}{%
          family={Pech},
          familyi={P\bibinitperiod},
-         given={Stephan},
+         given={S.},
          giveni={S\bibinitperiod},
       }}%
       {{hash=SS}{%
          family={Schmitz},
          familyi={S\bibinitperiod},
-         given={Stefan},
+         given={S.},
          giveni={S\bibinitperiod},
       }}%
       {{hash=UL}{%
          family={Urbas},
          familyi={U\bibinitperiod},
-         given={Leon},
+         given={L.},
          giveni={L\bibinitperiod},
       }}%
     }
@@ -1232,7 +1355,7 @@
     \field{pages}{24\bibrangedash 31}
     \field{title}{{Automatisierung im Life Cycle modularer Anlagen}}
     \field{volume}{55}
-    \field{journaltitle}{Atp Edition}
+    \field{journaltitle}{atp edition}
     \field{month}{01}
     \field{year}{2013}
   \endentry
@@ -1347,7 +1470,6 @@
     \verb{doi}
     \verb 10.1007/978-3-658-04682-8_8
     \endverb
-    \field{number}{1}
     \field{pages}{159\bibrangedash 171}
     \field{title}{Enabling Industrie 4.0 - Chancen und Nutzen f{\"{u}}r die
   Prozessindustrie}
@@ -1581,7 +1703,7 @@
     \field{year}{2018}
   \endentry
 
-  \entry{Schegner2017}{article}{}
+  \entry{Schegner2017}{inproceedings}{}
     \name{author}{4}{}{%
       {{hash=SL}{%
          family={Schegner},
@@ -1614,8 +1736,13 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{S}
     \field{sortinithash}{S}
+    \field{booktitle}{Tagungsband Automation 2018}
     \field{title}{{Autonomie und Assistenz in der Prozessindustrie}}
-    \field{journaltitle}{Tagungsband Automation 2018}
+    \list{location}{1}{%
+      {Baden-Baden}%
+    }
+    \field{month}{07}
+    \field{year}{2018}
   \endentry
 
   \entry{Dalgleish2007}{incollection}{}
@@ -1669,7 +1796,7 @@
     \field{year}{2007}
   \endentry
 
-  \entry{Schrepp2015}{article}{}
+  \entry{Schrepp2015}{misc}{}
     \name{author}{1}{}{%
       {{hash=SM}{%
          family={Schrepp},
@@ -1692,29 +1819,38 @@
     \field{year}{2015}
   \endentry
 
-  \entry{Sherdian1988}{article}{}
-    \name{author}{1}{}{%
-      {{hash=ST}{%
+  \entry{Sheridan1978}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=STB}{%
          family={Sheridan},
          familyi={S\bibinitperiod},
-         given={Thomas},
-         giveni={T\bibinitperiod},
+         given={Thomas\bibnamedelima B.},
+         giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=VWL}{%
+         family={Verplank},
+         familyi={V\bibinitperiod},
+         given={William\bibnamedelima L.},
+         giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
       }}%
     }
-    \strng{namehash}{ST1}
-    \strng{fullhash}{ST1}
+    \strng{namehash}{STBVWL1}
+    \strng{fullhash}{STBVWL1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{S}
     \field{sortinithash}{S}
-    \verb{doi}
-    \verb 10.1016/B978-044481862-1/50071-6
+    \field{title}{Human and Computer control of undersea teleoperators}
+    \verb{url}
+    \verb https://apps.dtic.mil/dtic/tr/fulltext/u2/a057655.pdf
     \endverb
-    \field{pages}{?}
-    \field{title}{Task Analysis, Task Allocation and Supervisory Control}
-    \field{journaltitle}{Handbook of human-computer interaction}
-    \field{month}{12}
-    \field{year}{1988}
+    \list{location}{1}{%
+      {Cambridge}%
+    }
+    \list{institution}{1}{%
+      {Massachusetts Institute of Technology, Man-Machine Systems Laboratory}%
+    }
+    \field{year}{1978}
   \endentry
 
   \entry{Tullis2008}{book}{}
@@ -1741,7 +1877,6 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{T}
     \field{sortinithash}{T}
-    \field{isbn}{9780080558264}
     \field{title}{Measuring the User Experience: Collecting, Analyzing, and
   Presenting Usability Metrics}
     \list{location}{1}{%
@@ -1772,7 +1907,7 @@
       }}%
     }
     \list{publisher}{1}{%
-      {Oldenbourg Industrieverl.}%
+      {Oldenbourg Industrieverlag}%
     }
     \strng{namehash}{ULKAZJ1}
     \strng{fullhash}{ULKAZJ1}
@@ -1780,7 +1915,6 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{U}
     \field{sortinithash}{U}
-    \field{isbn}{3835631985}
     \field{title}{Process control systems engineering}
     \list{location}{1}{%
       {M{\"{u}}nchen}%
@@ -1840,71 +1974,67 @@
     \field{pages}{44\bibrangedash 53}
     \field{title}{{Automatisierung von Prozessmodulen}}
     \field{volume}{54}
-    \field{journaltitle}{Atp Edition}
+    \field{journaltitle}{atp edition}
     \field{month}{01}
     \field{year}{2012}
   \endentry
 
   \entry{Viano2000}{inproceedings}{}
-    \name{author}{10}{}{%
+    \name{author}{9}{}{%
       {{hash=VG}{%
          family={Viano},
          familyi={V\bibinitperiod},
-         given={Gianni},
+         given={G.},
          giveni={G\bibinitperiod},
       }}%
       {{hash=PA}{%
          family={Parodi},
          familyi={P\bibinitperiod},
-         given={Andrea},
+         given={A.},
          giveni={A\bibinitperiod},
       }}%
       {{hash=AJ}{%
          family={Alty},
          familyi={A\bibinitperiod},
-         given={James},
+         given={J.},
          giveni={J\bibinitperiod},
       }}%
       {{hash=KC}{%
          family={Khalil},
          familyi={K\bibinitperiod},
-         given={Chris},
+         given={C.},
          giveni={C\bibinitperiod},
       }}%
       {{hash=AI}{%
          family={Angulo},
          familyi={A\bibinitperiod},
-         given={Inaki},
+         given={I.},
          giveni={I\bibinitperiod},
       }}%
       {{hash=BD}{%
          family={Biglino},
          familyi={B\bibinitperiod},
-         given={Daniele},
+         given={D.},
          giveni={D\bibinitperiod},
       }}%
-      {{hash=CM}{%
+      {{hash=CCMV}{%
          family={Crampes},
          familyi={C\bibinitperiod},
-         given={Michel},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=VC}{%
-         family={Vaudry},
-         familyi={V\bibinitperiod},
-         given={Christophe},
+         suffix={M.and\bibnamedelima Vaudry},
+         suffixi={M\bibinitperiod\bibinitdelim V\bibinitperiod},
+         given={C.},
          giveni={C\bibinitperiod},
       }}%
       {{hash=DV}{%
          family={Daurensan},
          familyi={D\bibinitperiod},
-         given={Veronique},
+         given={V.},
          giveni={V\bibinitperiod},
       }}%
       {{hash=LP}{%
          family={Lachaud},
          familyi={L\bibinitperiod},
-         given={Philippe},
+         given={P.},
          giveni={P\bibinitperiod},
       }}%
     }
@@ -1922,7 +2052,6 @@
     \verb{doi}
     \verb 10.1145/345513.345316
     \endverb
-    \field{isbn}{1581132522}
     \field{pages}{201\bibrangedash 204}
     \field{series}{AVI '00}
     \field{title}{{Adaptive user interface for process control based on
@@ -1960,23 +2089,23 @@
     \field{year}{2005}
   \endentry
 
-  \entry{Weidner2016}{book}{}
-    \name{author}{1}{}{%
+  \entry{Weidner2016}{proceedings}{}
+    \name{editor}{1}{}{%
       {{hash=WR}{%
          family={Weidner},
          familyi={W\bibinitperiod},
-         given={R.},
+         given={Robert},
          giveni={R\bibinitperiod},
       }}%
     }
     \strng{namehash}{WR1}
     \strng{fullhash}{WR1}
-    \field{labelnamesource}{author}
+    \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{sortinit}{W}
     \field{sortinithash}{W}
-    \field{booktitle}{Zweite Transdisziplin{\"{a}}re Konferenz}
-    \field{isbn}{9783868180909 ??}
+    \field{isbn}{978-3-86818-090-9}
+    \field{series}{Zweite Transdisziplin{\"{a}}re Konferenz}
     \field{title}{{Technische Unterst{\"{u}}tzungssysteme, die die Menschen
   wirklich wollen}}
     \list{location}{1}{%
@@ -1990,43 +2119,43 @@
       {{hash=WK}{%
          family={Weisner},
          familyi={W\bibinitperiod},
-         given={Kirsten},
+         given={K.},
          giveni={K\bibinitperiod},
       }}%
       {{hash=KM}{%
          family={Knittel},
          familyi={K\bibinitperiod},
-         given={Marco},
+         given={M.},
          giveni={M\bibinitperiod},
       }}%
       {{hash=WS}{%
          family={Wischniewski},
          familyi={W\bibinitperiod},
-         given={Sascha},
+         given={S.},
          giveni={S\bibinitperiod},
       }}%
       {{hash=JT}{%
          family={Jaitner},
          familyi={J\bibinitperiod},
-         given={Thomas},
+         given={T.},
          giveni={T\bibinitperiod},
       }}%
       {{hash=EH}{%
          family={Enderlein},
          familyi={E\bibinitperiod},
-         given={Heiko},
+         given={H.},
          giveni={H\bibinitperiod},
       }}%
       {{hash=KP}{%
          family={Kuhlang},
          familyi={K\bibinitperiod},
-         given={Peter},
+         given={P.},
          giveni={P\bibinitperiod},
       }}%
       {{hash=DJ}{%
          family={Deuse},
          familyi={D\bibinitperiod},
-         given={Jochen},
+         given={J.},
          giveni={J\bibinitperiod},
       }}%
     }
@@ -2066,30 +2195,11 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{Z}
     \field{sortinithash}{Z}
-    \field{isbn}{9783642220739}
     \field{title}{{Nutzergerechte Entwicklung von Mensch-Maschine-Systemen}}
     \list{location}{1}{%
       {Berlin Heidelberg}%
     }
     \field{year}{2012}
-  \endentry
-
-  \entry{ZVEI2015}{article}{}
-    \name{author}{1}{}{%
-      {{hash=Z}{%
-         family={ZVEI},
-         familyi={Z\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{Z1}
-    \strng{fullhash}{Z1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{Z}
-    \field{sortinithash}{Z}
-    \field{title}{{Modulbasierte Produktion in der Prozessindustrie -
-  Auswirkungen auf die Automation im Umfeld von Industrie 4.0}}
-    \field{year}{2015}
   \endentry
 \enddatalist
 \endinput

@@ -4,7 +4,7 @@
 \chapter{Analyse}
 \label{sec:Anforderungsanalyse}
 %%%%%%%%%%%%%%%%%%%%
-Ein kollaborativer Problemlöseprozess kennzeichnet sich durch die Symmetrie von Wissen, ein gemeinsames Ziel und die Zusammenarbeit \cite{Rummel1958}. Welches Wissen vorhanden ist und dem Nutzer derzeit zur Verfügung steht, beleuchtet dieses Kapitel. Offen ist, ob die aktuellen Informationen ausreichend sind, um ein Problem zu lösen. Es wird daher genauer betrachtet, welche Informationen zu Verfügung gestellt werden müssen, um Lösungen zu finden und Entscheidungen zu treffen. Für die Suche nach Lösungen sind vor allem die Ziele relevant. Probleme entstehen nur, wenn ein vorher definiertes Ziel nicht ohne weiteres erreicht werden kann \todo{Zitat}. 
+Ein kollaborativer Problemlöseprozess kennzeichnet sich durch die Symmetrie von Wissen, ein gemeinsames Ziel und die Zusammenarbeit \cite{Rummel1958}. Welches Wissen vorhanden ist und dem Nutzer derzeit zur Verfügung steht, beleuchtet dieses Kapitel. Offen ist, ob die aktuellen Informationen ausreichend sind, um ein Problem zu lösen. Es wird daher genauer betrachtet, welche Informationen zu Verfügung gestellt werden müssen, um Lösungen zu finden und Entscheidungen zu treffen. Für die Suche nach Lösungen sind vor allem die Ziele relevant. Probleme entstehen nur, wenn ein vorher definiertes Ziel durch auftretende Ereignisse nicht ohne weiteres erreicht werden kann \cite{Funke2015, Betsch2011}. 
 
 Zusammenarbeit -> Nutzer steht im Fokus. Wie wird/kann zusammen gearbeitet werden?
 

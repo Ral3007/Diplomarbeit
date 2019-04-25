@@ -1,12 +1,10 @@
-@article{Lewis2018,
-
-author = {Lewis, James R.},
-doi = {10.1080/10447318.2017.1418805},
-journal = {International Journal of Human-Computer Interaction},
-number = {12},
-pages = {1148--1156},
-publisher = {Taylor {\&} Francis},
-title = {{Measuring Perceived Usability: The CSUQ, SUS, and UMUX}},
-volume = {34},
-year = {2018}
+@article{Herczeg2003,
+author = {Herczeg, Michael},
+file = {:C$\backslash$:/Users/Meret Feldkamper/Documents/Diplomarbeit/Diplomarbeit/Literatur-sortiert/Herczeg - Diagnostische Repositorien zur Unterst{\"{u}}tzung kollaborativer Entscheidungsprozesse.pdf:pdf},
+keywords = {Motivation},
+mendeley-tags = {Motivation},
+pages = {117--131},
+title = {{Diagnostische Repositorien zur Unterst{\"{u}}tzung kollaborativer Entscheidungsprozesse}},
+url = {http://www.imis.uni-luebeck.de/publikationen/Herczeg-DGLR-2003-web.pdf},
+year = {2003}
 }

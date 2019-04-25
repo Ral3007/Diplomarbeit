@@ -4,8 +4,8 @@
 
 %modulare Anlagen
 @article{Obst2013,
-author = {Obst, Michael and Holm, Thomas and Bleuel, Stephan and Claussnitzer, Ulf and Evetz, Lars and J{\"{a}}ger, Tobias and Nekolla, Tobias and Pech, Stephan and Schmitz, Stefan and Urbas, Leon},
-journal = {Atp Edition},
+author = {Obst, M. and Holm, T. and Bleuel, S. and Claussnitzer, U. and Evetz, L. and J{\"{a}}ger, T. and Nekolla, T. and Pech, S. and Schmitz, S. and Urbas, L.},
+journal = {atp edition},
 number = {1-2},
 month = {01},
 pages = {24--31},
@@ -16,7 +16,7 @@ year = {2013}
 @article{Urbas2012,
 author = {Urbas, Leon and Bleuel, Stephan and J{\"{a}}ger, Tobias and Schmitz, Stephan and Evetz, Lars and Nekolla, Tobias},
 doi = {10.1140/epje/i2017-11542-4},
-journal = {Atp Edition},
+journal = {atp edition},
 month = {01},
 number = {1-2},
 pages = {44--53},
@@ -24,23 +24,23 @@ title = {{Automatisierung von Prozessmodulen}},
 volume = {54},
 year = {2012}
 }
-@article{ZVEI2015,
-author = {ZVEI},
+@misc{ZVEI2015,
+editor = {Zentralverband Elektrotechnik-  und Elektronikindustrie e.V.},
 title = {{Modulbasierte Produktion in der Prozessindustrie - Auswirkungen auf die Automation im Umfeld von Industrie 4.0}},
-url = {},
-year = {2015}
+year = {2015},
+month = {02},
+address = {Frankfurt am Main}
 }
 @misc{NAMURArbeitskreis1.122013,
-publisher = {NAMUR},
-author = {{NAMUR Arbeitskreis 1.12???}},
-title = {{NE 148 - Anforderungen an die Automatisierungstechnik durch die Modularisierung verfahrenstechnischer Anlagen}},
+author = {{NAMUR}},
+title = {{NE 148: Anforderungen an die Automatisierungstechnik durch die Modularisierung verfahrenstechnischer Anlagen}},
 year = {2013},
 month = {10}
 }
 
 @article{Bernshausen2016,
-author = {Bernshausen, Jens and Haller, Axel and Holm, Thomas and Hoernicke, Mario and Obst, Michael and Ladiges, Jan},
-journal = {Atp Edition},
+author = {Bernshausen, J. and Haller, A. and Holm, T. and Hoernicke, M. and Obst, M. and Ladiges, J.},
+journal = {atp edition},
 pages = {72--81},
 number = {1-2},
 month = {01},
@@ -50,7 +50,7 @@ year = {2016},
 doi = {10.17560/atp.v58i01-02.554 }
 }
 @article{Ladiges2018,
-author = {Ladiges, Jan and K{\"{o}}cher, Aljosha and Clement, Peer and Bloch, Henry and Holm, Thomas and Altmann, Paul and Fay, Alexander},
+author = {Ladiges, J. and K{\"{o}}cher, A. and Clement, P. and Bloch, H. and Holm, T. and Altmann, P. and Fay, A.},
 journal = {at - Automatisierungstechnik},
 number = {5},
 pages = {418--437},
@@ -80,7 +80,7 @@ volume = {21},
 year = {2018}
 }
 @article{Bloch2017,
-author = {Bloch, Henry and Hensel, Stephan and Hoernicke, Mario and Stark, Katharina and Menschner, Anna and Urbas, Leon and Fay, Alexander and Knohl, Torsten and Bernshausen, Jens and Haller, Axel},
+author = {Bloch, H. and Hensel, S. and Hoernicke, M. and Stark, K. and Menschner, A. and Urbas, L.and Fay, A. and Knohl, T. and Bernshausen, J. and Haller, A.},
 journal = {atp edition},
 pages = {46--57},
 title = {{Zustandsbasierte F{\"{u}}hrung modularer Prozessanlagen}},
@@ -113,7 +113,6 @@ year = {1984}
 address = {Berlin Heidelberg},
 author = {Betsch, Tilmann and Funke, Joachim and Plessner, Henning},
 publisher = {Springer-Verlag},
-isbn = {9783642124730},
 title = {{Denken - Urteilen, Entscheiden, Probleml{\"{o}}sen}},
 year = {2011}
 }
@@ -161,9 +160,7 @@ publisher = {Routledge},
 }
 @phdthesis{Jermann2004,
 author = {Jermann, Patrick},
-pages = {},
 title = {{Computer Support for Interaction Regulation in Collaborative Problem-Solving}},
-url = {https://tecfa.unige.ch/tecfa/research/theses/jermann2004.pdf},
 year = {2004},
 type = {Doktorarbeit},
 school = {Universität Genf}
@@ -192,6 +189,14 @@ organization={Duden online},
 url = {https://www.duden.de/node/750355/revisions/1783324/view},
 urldate={2019-01-03}
 }
+@misc{Sheridan1978,
+author = {Thomas B. Sheridan and William L. Verplank},
+title = {Human and Computer control of undersea teleoperators},
+year = {1978},
+address = {Cambridge},
+url = {https://apps.dtic.mil/dtic/tr/fulltext/u2/a057655.pdf},
+institution = {Massachusetts Institute of Technology, Man-Machine Systems Laboratory}
+}
 
 
 @InCollection{Dalgleish2007,
@@ -213,13 +218,12 @@ publisher = {Springer Vieweg},
 year = {2007},
 editor = {Bauernhansl, Thomas and ten Hompel, Michael and Vogel-Heuser, Brigit},
 doi = {10.1007/978-3-658-04682-8_8},
-number = {1},
 address = {Wiesbaden}
 }
 
 
 @article{Weisner2018,
-author = {Weisner, Kirsten and Knittel, Marco and Wischniewski, Sascha and Jaitner, Thomas and Enderlein, Heiko and Kuhlang, Peter and Deuse, Jochen},
+author = {Weisner, K. and Knittel, M. and Wischniewski, S. and Jaitner, T. and Enderlein, H. and Kuhlang, P. and Deuse, J.},
 number = {10},
 pages = {598--601},
 title = {{Assistenzsystem zur Individualisierung der Arbeitsgestaltung}},
@@ -246,21 +250,24 @@ publisher = {Springer Vieweg},
 title = {{Planbasierte Mensch-Maschine-Interaktion in multimodalen Assistenzsystemen}},
 year = {2015}
 }
-@article{Kasselmann2016,
+@phdThesis{Kasselmann2016,
 author = {Kasselmann, Sebastian and Willeke, Stefan},
-journal = {Technologie-Kompendium},
-title = {{Interaktive Assistenzsysteme??}},
+title = {Interaktive Assistenzsysteme},
+institution = {Institut für Integrierte Produktion Hannover},
+year = {2016},
+type = {Technologie-Kompendium},
 url = {https://industrie40.it-haus.com/wp-content/uploads/2016/12/IPH_2016_Assistenz-Systeme.pdf},
-year = {2016}
 }
-@book{Weidner2016,
-address = {Hamburg},
-author = {Weidner, R.},
-booktitle = {Zweite Transdisziplin{\"{a}}re Konferenz},
-isbn = {9783868180909 ??},
+
+@Proceedings{Weidner2016,
 title = {{Technische Unterst{\"{u}}tzungssysteme, die die Menschen wirklich wollen}},
-year = {2016}
+year = {2016},
+editor = {Weidner, Robert},
+series = {Zweite Transdisziplin{\"{a}}re Konferenz},
+address = {Hamburg},
+isbn = {978-3-86818-090-9},
 }
+
 
 @article{Koedinger2007,
 author = {Koedinger, Kenneth R. and Aleven, Vincent},
@@ -275,7 +282,7 @@ year = {2007}
 @inproceedings{Miller2005,
 author = {Christopher A. Miller and Harry Funk and Robert Goldman and John Meisner and Peggy Wu},
 title = {Implications of Adaptive vs. Adaptable UIs on Decision
-Making: \glqq Why Automated Adaptiveness\grqq Is Not Always the
+Making: \glqq Why Automated Adaptive-ness\grqq \ Is Not Always the
 Right Answer},
 booktitle = {In Proceedings of the 1st International Conference on Augmented Cognition},
 month = {07},
@@ -305,11 +312,34 @@ volume = {25},
 month = {06},
 year = {2013}
 }
-@article{Schegner2017,
+@InProceedings{Schegner2017,
 author = {Schegner, L.  and Krauss, M. and Birk, J.  and Urbas, L.},
 title = {{Autonomie und Assistenz in der Prozessindustrie}},
-journal = {Tagungsband Automation 2018}
+booktitle = {Tagungsband Automation 2018},
+year = {2018},
+month = {07},
+address = {Baden-Baden}
 }
+@InProceedings{•,
+author = {•},
+title = {•},
+booktitle = {•},
+OPTcrossref = {•},
+OPTkey = {•},
+OPTpages = {•},
+OPTyear = {•},
+OPTeditor = {•},
+OPTvolume = {•},
+OPTnumber = {•},
+OPTseries = {•},
+OPTaddress = {•},
+OPTmonth = {•},
+OPTorganization = {•},
+OPTpublisher = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
 
 %HMI
 @book{Heinecke2012,
@@ -324,7 +354,6 @@ year = {2012}
 @book{Zuhlke2012,
 address = {Berlin Heidelberg},
 author = {Z{\"{u}}hlke, Detlef},
-isbn = {9783642220739},
 publisher = {Springer-Verlag},
 title = {{Nutzergerechte Entwicklung von Mensch-Maschine-Systemen}},
 year = {2012}
@@ -332,55 +361,53 @@ year = {2012}
 @book{Herczeg2006,
 address = {M{\"{u}}nchen},
 author = {Michael Herczeg},
-isbn = {3-486-27565-8},
-publisher = {Oldenbourg Wissenschaftsverlag GmbH},
+publisher = {Oldenbourg Wissenschaftsverlag},
 title = {Interaktionsdesign: Gestaltung interaktiver und multimedialer Systeme},
 year = {2006}
 }
-@NORM{ISO9241-110,
-label = {ISO9241-110},
-title = {Zuverl{\"a}ssigkeit - Begriffe},
-organization = {Deutsche Elektrotechnische Kommission im DIN und VDE (DKE)},
-sortkey = {DIN 40041 (1990-12)},
-addendum = {DIN 40041 (1990-12)},
-keywords = {Norm},
-_NOTE = {Ausschu{\ss} Qualit{\"a}tssicherung und angewandte Statistik (AQS) im DIN Deutsches Institut f{\"u}r Normung e.V.}
+@misc{ISO9241-110,
+author = {DIN EN ISO 9241-110},
+publisher = {Deutsche Norm},
+title = {{Ergonomie der Mensch-System-Interaktion Teil 110: Grunds{\"{a}}tze der Dialggestaltung}},
+month = {09},
+year = {2008}
 }
-
 @misc{ISO9241-112,
 author = {DIN EN ISO 9241-112},
 publisher = {Deutsche Norm},
-title = {{Grunds{\"{a}}tze der Informationsdarstellung}},
+title = {{Ergonomie der Mensch-System-Interaktion
+Teil 112: Grunds{\"{a}}tze der Informationsdarstellung}},
 month = aug,
 year = {2017}
 }
 @misc{ISO9241-129,
-author = {DIN EN ISO 9241-112},
+author = {DIN EN ISO 9241-129},
 publisher = {Deutsche Norm},
-title = {{Leitlinien f{\"{u}}r die Individualisierung von Software}},
+title = {{Ergonomie der Mensch-System-Interaktion
+Teil 129: Leitlinien f{\"{u}}r die Individualisierung von Software}},
 month = mar,
 year = {2011}
 }
 @misc{VDI2658-Blatt1,
 author = {VDI/VDE/NAMUR 2658 Blatt 1},
-publisher = {Verein Deutsche Ingenieure},
-title = {{Automatisierungstechnisches Engineering modularer Anlagen in der Prozessindustrie - Allgemeines Konzept und Schnittstellen}},
+publisher = {Verein Deutscher Ingenieure},
+title = {{Automatisierungstechnisches Engineering modularer Anlagen in der Prozessindustrie Blatt 1: Allgemeines Konzept und Schnittstellen}},
 month = jun,
 year = {2017}
 }
 @misc{VDI2658-Blatt3,
 author = {VDI/VDE/NAMUR 2658 Blatt 3},
-publisher = {Verein Deutsche Ingenieure},
-title = {{Automatisierungstechnisches Engineering modularer Anlagen in der Prozessindustrie - Basisbibliothek}},
+publisher = {Verein Deutscher Ingenieure},
+title = {{Automatisierungstechnisches Engineering modularer Anlagen in der Prozessindustrie Blatt 3: Basisbibliothek}},
 month = {03},
 year = {2019}
 }
 @misc{VDI2658-Blatt4,
 author = {VDI/VDE/NAMUR 2658 Blatt 4},
-publisher = {Verein Deutsche Ingenieure},
-title = {{Automatisierungstechnisches Engineering modularer Anlagen in der Prozessindustrie - ?}},
+publisher = {Verein Deutscher Ingenieure},
+title = {{Automatisierungstechnisches Engineering modularer Anlagen in der Prozessindustrie Blatt 4: Modellierung von Moduldiensten (Entwurf)}},
 month = {},
-year = {}
+year = {o.J.}
 }
 
 %User Experience
@@ -410,15 +437,13 @@ title = {Measuring the User Experience: Collecting, Analyzing, and Presenting Us
 publisher = {{Elsevier Science and Technology}},
 year = {2008},
 address = {Burlington},
-isbn = {9780080558264}
 }
 
 
 %Adaptive Systeme
 @InProceedings{Viano2000,
-author = {Viano, Gianni and Parodi, Andrea and Alty, James and Khalil, Chris and Angulo, Inaki and Biglino, Daniele and Crampes, Michel and Vaudry, Christophe and Daurensan, Veronique and Lachaud, Philippe},
+author = {Viano, G. and Parodi, A. and Alty, J. and Khalil, C. and Angulo, I. and Biglino, D. and Crampes, M.and Vaudry, C. and Daurensan, V. and Lachaud, P.},
 doi = {10.1145/345513.345316},
-isbn = {1581132522},
 booktitle = {Proceedings of the Working Conference on Advanced visual interfaces },
 pages = {201--204},
 title = {{Adaptive user interface for process control based on multi-agent approach}},
@@ -464,7 +489,6 @@ address = {Berlin Heidelberg}
 address = {Berlin Heidelberg},
 author = {Lauber, Rudolf and G{\"{o}}hner,Peter},
 edition = {3. Auflage},
-isbn = {9783642220739},
 publisher = {Springer-Verlag},
 title = {Prozessautomatisierung 1},
 year = {1999}
@@ -480,8 +504,7 @@ year = {2014}
 @book {UrbasP2012,
 author = { Urbas, Leon AND Krause, Annett AND Ziegler, Jens },
 title = { Process control systems engineering},
-publisher = {Oldenbourg Industrieverl.},
-isbn = {3835631985},
+publisher = {Oldenbourg Industrieverlag},
 year = {2012},
 address = { M{\"{u}}nchen},
 }
@@ -491,7 +514,6 @@ address = { M{\"{u}}nchen},
 address = {Wiesbaden},
 author = {Gottmann, Juliane},
 doi = {10.1007/978-3-658-01951-8},
-isbn = {9783658019501},
 publisher = {Springer Fachmedien},
 title = {{Produktionscontrolling}},
 year = {2016}
@@ -509,7 +531,7 @@ title = {{Measuring Perceived Usability: The CSUQ, SUS, and UMUX}},
 volume = {34},
 year = {2018}
 }
-@article{Schrepp2015,
+@misc{Schrepp2015,
 author = {Schrepp, Martin},
 year = {2015},
 month = {09},
@@ -522,13 +544,21 @@ doi = {10.13140/RG.2.1.2815.0245}
 @article{Bainbridge1983,
 author = {Bainbridget, Lisanne},
 doi = {10.1016/0005-1098(83)90046-8},
-issn = {00051098},
 journal = {Automatica},
 number = {6},
 pages = {775-779},
 title = {{Ironies of Automation}},
 volume = {19},
 year = {1983}
+}
+@inProceedings{Herczeg2003,
+author = {Herczeg, Michael},
+pages = {117--131},
+title = {{Diagnostische Repositorien zur Unterst{\"{u}}tzung kollaborativer Entscheidungsprozesse}},
+booktitle = {Entscheidungsunterstützung für die Fahrzeug- und Prozessführung},
+editor = {M. Grandt},
+address = {Bonn},
+year = {2003}
 }
 @INPROCEEDINGS{Rahm2018, 
 author={J. {Rahm} and M. {Graube} and R. {Müller} and T. {Klaeger} and L. {Schegner} and A. {Schult} and R. {Bönse} and S. {Carsch} and L. {Oehm} and L. {Urbas}}, 
@@ -539,7 +569,18 @@ volume={1},
 number={}, 
 pages={999-1006}, 
 doi={10.1109/ETFA.2018.8502615}, 
-month={Sep.},}
+month={Sep.},
+}
+
+@book{Bloech2014,
+author = { Bloech, Jürgen and Bogaschewsky, Ronald AND Buscher, Udo AND Daub, Anke AND Götze, Uwe AND Roland, Folker },
+title = { Einführung in die Produktion },
+edition = { 7. Auflage} ,
+publisher = {Springer-Verlag},
+year = {2014},
+address = { Berlin, Heidelberg},
+doi = {10.1007/978-3-642-31893-1}
+}
 
 @phdthesis{Funke2018,
 author = {Funke, Jan},
