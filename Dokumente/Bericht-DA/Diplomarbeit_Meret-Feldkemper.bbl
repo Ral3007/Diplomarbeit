@@ -42,6 +42,15 @@
     \field{urlyear}{2019}
   \endentry
 
+  \entry{axure}{misc}{}
+    \list{organization}{1}{%
+      {Axure Software Solutions, Inc.}%
+    }
+    \verb{url}
+    \verb https://www.axure.com/
+    \endverb
+  \endentry
+
   \entry{VDI2658-Blatt1}{misc}{}
     \name{author}{1}{}{%
       {{hash=VB}{%
