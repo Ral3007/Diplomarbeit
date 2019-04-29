@@ -1,0 +1,375 @@
+%Beschreibung der Stand der Technik
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Stand der Technik}
+\label{sec:StandDerTechnik}
+Diese Kapitel umfasst die wesentlichen Grundlagen für ein besseres Verständnis der Arbeit und die bereits vorhandenen Konzepte für eine mögliche Umsetzung der Problemstellung. Da das Thema der Arbeit im Kontext der modularen Anlagen steht, sind zunächst die Grundlagen der Prozessautomatisierung und darauf aufbauend das Konzept der modularen Anlagen erläutert. Entsteht ein Problem beim Betrieb der Anlage muss dieses behoben werden. Um nachvollziehen zu können, wie Menschen Probleme lösen, wird der allgemeine Problemlöseprozess beschrieben. Hierbei wird auch Bezug auf die verschiedenen Einflussfaktoren, sowohl menschliche als auch technische, bei einem Problem genommen. Möchte man den Nutzer bei einem solchen Problemlöseprozess unterstützen, muss klar werden, was ein Assistenzsystem leisten kann und welche Möglichkeiten zur Kommunikation bestehen. Damit bei der Entwicklung des Prototypen der Nutzer immer in Vordergrund bleibt, ist in diesem Kapitel auch beschrieben, was bei der nutzerzentrierten Entwicklung zu berücksichtigen ist.
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Prozessindustrie}
+Die Prozessindustrie umfasst viele verschiedene Branchen. Unter anderem die Chemie-, Pharmazie-, Öl- und Gas- oder Papierindustrie. Sie unterscheiden sich hinsichtlich der individuellen Risiken, der Prozesse und Anlagen voneinander. Dennoch gibt es einige Konzepte, die für alle Bereiche gültig sind \cite{UrbasP2012}.
+\begin{itemize}
+\item \textbf{Grundoperationen:} Eine Grundoperation ist ein einfacher chemischer oder physikalischer Vorgang, wie mischen, filtrieren oder separieren.
+\item \textbf{Batchprozesse:} Der Prozess wird in einzelne Schritte eingeteilt, die einem Rezept folgen.
+\item \textbf{Kontinuierliche Prozesse:} Die Materialzufuhr erfolgt kontinuierlich an mehrere Teilanlagen. Jede Teilanlage führt einen einzelnen Arbeitsschritt durch.
+\end{itemize}
+
+\subsection{Prozessautomatisierungssystem}
+Die Prozessautomatisierung umfasst die Automatisierung technischer Prozesse und kann sich aus folgenden Bestandteilen zusammen setzen \cite{Lauber1999}:
+\begin{itemize}
+\item \textbf{Sensoren und Aktoren} sind die Schnittstelle zwischen dem Automatisierungssystem und dem zu automatisierenden technischen System.
+\item Das \textbf{Kommunikationssystem} umfasst sowohl das prozessnahe Bus-System als auch das Bus-System zum Informationsaustausch zwischen den Rechnern.
+\item Die \textbf{Automatisierungs-Computersysteme} sind für die Automatisierung eingesetzten Rechner. Bei jedem Rechner muss zwischen dem Hardware- und dem Softwaresystem unterschieden werden.
+\item \textbf{Fest verdrahtete Einzelgeräte} können beispielsweise Sicherheitseinrichtungen, Back-up-Regler oder Relaissteuerungen sein.
+\item \textbf{Einrichtungen für die Mensch-Prozess-Kommunikation} sind beispielsweise Bildschirme, Anzeige- und Meldegeräte oder Tastaturen.
+\item Das \textbf{Prozessbedienpersonal} verfolgt das Prozessgeschehen und leitet und beeinflusst die Vorgänge.
+\end{itemize}
+
+\subsection{Modulare Anlagen}
+\label{2:Modulare-Anlagen}
+Das Konzept der Modularisierung findet vor allem in der verfahrenstechnischen Industrie Anwendung. Treibender Faktor ist dabei eine erhöhte Flexibilität und eine Beschleunigung von Konzeption, Engineering, Aufbau und Inbetriebnahme der Anlage \cite{Urbas2012}. Ein Modul ist eine geschlossene funktionale Einheit und stellt eine verfahrenstechnische Grundoperation als Dienst der Prozessführungsebene (PFE) zur Verfügung. Die Grundfunktionalitäten der PFE müssen unterstützt werden \cite{Bernshausen2016}.
+\begin{itemize}
+\item \textbf{Mensch-Maschine-Schnittstelle:} Übertragung der Daten zur Anzeige und Bedienung
+\item \textbf{Steuern und Überwachen:} Übertragung der internen Zustände des Moduls
+\end{itemize}
+
+In der Namur-Empfehlung NE 148 \cite{NAMURArbeitskreis1.122013} ist beschrieben, welche Daten an das übergeordnete Automatisierungssystem übertragen werden und welche dem Modullieferanten zur Wartungsunterstützung zur Verfügung stehen. Die Daten für das übergeordnete Automatisierungssystem umfassen unter anderem die Verriegelungs-, Steuerungs- und Regelungsstruktur, die Prozess- und Sollwerte sowie den Status des Moduls / der Services. Für die Wartungsunterstüzungen werden nur hersteller- und modulspezifische und keine prozessspezifischen Daten übertragen.
+
+Die Funktionalitäten der Module sind in Services gekapselt und werden zustandsbasiert gesteuert. Im Gegensatz zu herkömmlichen Anlagen kann im automatisierten Betrieb nicht mehr auf die einzelnen Aktoren zugegriffen werden. Jeder Service kann 16 verschiedene Zustände mit entsprechenden Zustandsübergängen annehmen (siehe Anhang \ref{A:Zustandsmodell-Services}).
+
+Die Services können nicht nur modulintern, sondern auch modulübergreifende Abhängigkeiten aufweisen. Die Abhängigkeiten sind in 4 Relationen eingeteilt \cite{Ladiges2018}.
+\begin{itemize}
+\item \textbf{Allow:} Service 2 darf nur gestartet werden, wenn Service 1 in einem bestimmten Zustand ist.
+\item \textbf{Prohibit:} Service 2 darf nur gestartet werden, wenn Service 1 NICHT in einem bestimmten Zustand ist.
+\item \textbf{Change:} Service 1 darf zu Betriebsart 2 in Zustand 2 nur wechseln, wenn Service 1 in Betriebsart 1 in Zustand 1 ist.
+\item \textbf{Sync:} Service 2 wechselt in Zustand 2, wenn Service 1 in Zustand 1 wechselt.
+\end{itemize} 
+Die Beschreibungen der Services und ihrer Betriebsarten sind modulspezifisch und müssen vom Modulingenieur angegeben werden.
+
+Mittels einer Rezeptfahrweise können die Services orchestriert werden. An den Transitionen wird der Status des Service überprüft. Bei Übereinstimmung mit der festgelegten Bedingung wird die Transition geschalten. In jedem Rezeptschritt kann ein entsprechender Service Command mit Serviceparametern gesetzt werden. Das Rezept teilt sich in drei Abstraktionsebenen ein (siehe auch Anhang \ref{A:Rezept}). Auf der höchsten Abstraktionsebene, den Phases, kann der Operator einen groben Überblick über den Prozess erlagen. Die zweite Ebene umfasst die Procedures. Zu jeder Procedure wird das entsprechende Modul zugeordnet. Eine Procedure besteht aus mehreren Steps, die die Service Commands auslösen. \cite{Bloch2017}
+
+\section{Problemlösen}
+Man geht davon aus, dass Probleme selbstverständlich existieren. Probleme entstehen allerdings erst, wenn eine konkrete Zielsetzung vorhanden ist, die sich nicht durch Routine erreichen lässt. Ohne Handlungsziele gäbe es keine Probleme. \cite{Funke2015, Betsch2011,  Dorner1984}
+
+Liegt ein Problem vor, könnte der Problemlöseprozess sehr einfach sein, indem der Ausgangszustand erkannt, der Zielzustand festgelegt und die Operatoren gefunden werden. Allerdings haben alle diese Aspekte Eigenschaften, die den Prozess erschweren. So kann der Ausgangszustand nicht immer klar definiert sein und es muss eindeutig sein, welche Voraussetzungen als erfüllt angenommen werden können. Bei einem unklaren Ausgangszustand lässt sich auch der Zielzustand nicht eindeutig beschreiben. Die notwendigen Operatoren für die Überführung von einem Ausgangs- zu einem Zielzustand hängen mit dem Ziel zusammen. Entweder wird der Zielzustand betrachtet und nach geeigneten Operatoren gesucht, die unter Umständen nicht vorhanden sind. Oder es sind bestimmte Operatoren vorhanden und es wird davon ausgehend das bestmöglichste Ziel bestimmt. \cite{Funke2015}
+
+Wann gilt ein Problem nun als gelöst? Laut Funke \cite{Funke2015} ist ein Problem gelöst, wenn die Suche nach der Lösung abgebrochen wird. Dabei wird die Suche durch verschiedene Abbruchkriterien geleitet:
+\begin{itemize}
+\item \textbf{Ziel:} Was ist der Zielzustand?
+\item \textbf{Operatoren:} Welche Mittel stehen mir zur Verfügung?
+\item \textbf{Beschränkungen:} Was sind die Randbedingungen?
+\item \textbf{Repräsentation:} In welcher Form wird das Problem dargestellt?
+\item \textbf{Eleganz der Lösung:} Wie schön ist die Lösung?
+\end{itemize}
+
+\subsection{Unterscheidung von Problemen}
+\label{2:Unterscheidung-Probleme}
+Probleme unterscheiden sich hinsichtlich vieler Aspekte, die beim Problemlösen berücksichtigt werden müssen. \cite{Betsch2011}
+\begin{itemize}
+\item \textbf{Klarheit:} Es wird zwischen wohl-definierten und schlecht-definierten Problemen unterschieden. Wohl-definierte Probleme kennzeichnen sich durch einen eindeutigen Ausgangs- und Zielzustand sowie klar beschriebene Operatoren. Bei schlecht-definierten Problemen ist dies nicht der Fall.
+\item \textbf{Zeitskala:} Unterscheidung zwischen kurzfristigen und langfristigen Problemen. Kurzfristige Probleme lassen sich meist schnell beheben.
+\item \textbf{Zeitdruck:} Bei Zeitdruck muss eine schnelle Entscheidung getroffen werden, ohne die Möglichkeit alle Lösungsmöglichkeiten zu durchdenken. Ohne Zeitdruck können alle Optionen in Ruhe abgewägt werden.
+\item \textbf{Geforderte kognitive Aktivität:} Wenn eine Vielzahl von Maßnahmen durchgeführt werden müssen, um das Ziel zu erreichen, so ist eine hohe kognitive Aktivität gefordert.
+\item \textbf{Bereiche:} Die Problemlösestrategie kann davon abhängig sein, in welchem Umfeld das Problem auftritt. Probleme unterscheiden sich in ihrer Art je nach Umfeld.
+\end{itemize}
+Außerdem kann zwischen einfachen und komplexen Problemen unterschieden werden. Ein einfaches Problem kann durch eine einzelne Veränderung gelöst werden. Ein komplexes Problem wird durch mehrere Unbekannte beeinflusst \cite{Betsch2011}. Manche treten erst bei Bearbeitung des Problems auf. Ein komplexes Problem kennzeichnet sich durch die folgenden Merkmale \cite{Funke2015}: 
+\begin{itemize}
+\item \textbf{Komplexität der Problemsituation:} Bei hoher Komplexität muss das Problem auf das Wesentliche reduziert werden. 
+\item \textbf{Vernetztheit der beteiligten Variablen:} Je stärker die einzelnen Aspekte des Problems und der Lösung zusammenhängen, desto komplexer ist das Problem. Es ist wichtig die Abhängigkeiten zu kennen.
+\item \textbf{Dynamik der Problemsituation:} Einerseits können durch Eingriffe in ein komplexes vernetztes System Prozesse in Gang gesetzt werden, die nicht beabsichtigt waren. Andererseits kann sich ein Problem über die Zeit verändern.
+\item \textbf{Intransparenz:} Es liegen sowohl in Hinblick auf die Zielstellung, als auch auf die Variablen nicht alle erforderlichen Informationen vor. Das fordert Informationsbeschaffung.
+\item \textbf{Projektile:} Meistens gibt es nicht nur ein Ziel, sondern mehrere Teilziele. Es ist möglich, dass nicht alle Teilziele erreicht werden können. Daher ist ein Abwägen und Balancieren der Kriterien notwendig.
+\end{itemize}
+
+\subsection{Arten von Problemlösern}
+Nicht nur Probleme sind verschieden, sondern auch die Art, Probleme zu lösen. Es wird zwischen drei bipolaren Dimensionen unterschieden \cite{Betsch2011}. Diese beeinflussen zum einen die Art und Weise, wie Menschen Probleme und Informationen wahrnehmen. Zum anderen, wie sie die Daten verarbeiten und mögliche Lösungen generieren.
+
+Die \textbf{Veränderungsorientierung} beschreibt den Umgang mit Grenzen und Vorgaben und macht deutlich, wie der Mensch auf Herausforderungen reagiert.
+	\begin{itemize}
+	\item \textbf{Explorer:} Überwindet vorgegebene Grenzen und sucht Herausforderungen.
+	\item \textbf{Developer:} Liebt Pläne und Vorgaben, ist meist gut organisiert und vermeidet Risiken.
+	\end{itemize}
+
+Mit dem \textbf{Verarbeitungsstil} wird beschrieben, welche Präferenz der Mensch beim Handhaben von Informationen beim Problemlösen hat. Zudem ist relevant, wann Menschen ihre Gedanken teilen und mit anderen interagieren.
+	\begin{itemize}
+	\item \textbf{External:} Lässt Ideen durch Diskussionen mit anderen wachsen. Er empfindet eine unruhige Umgebung nicht als störend und handelt, während andere noch nachdenken.
+	\item \textbf{Internal:} Entwickelt Ideen zunächst für sich alleine und teilt sie dann. Er bevorzugt eine ruhige Umgebung und stilles Nachdenken.
+	\end{itemize}
+	
+Der \textbf{Entscheidungfokus} bezieht sich auf die Frage, welche Faktoren welche Priorität bekommen.
+	\begin{itemize}
+	\item \textbf{People:} Der personenbezogene Entscheider betrachtet zuerst die Konsequenzen in Bezug auf Personen. Er schätzt die Harmonie zwischen den Menschen.
+	\item \textbf{Task:} Der aufgabenbezogene Entscheider legt Wert auf begründbare, logisch nachvollziehbare Entscheidungen.
+	\end{itemize}
+
+\subsection{Einflüsse}
+Es gibt viele Faktoren, die den Prozess des Problemlösens beeinflussen. Es kann zwischen äußeren Faktoren, wie die Ausgangssituation und die verfügbaren Operatoren, und den inneren Faktoren, wie Motivation und Emotionen, unterschieden werden.
+
+\subsubsection*{Äußere Faktoren}
+Für das Problemlösen sind die Elemente Ausgangszustand, Zielzustand und die vorhandenen Operatoren entscheidend. Der Ausgangszustand ist häufig nicht konkret und als geschlossenes Problem beschreibbar. Zielzustand und vorhandene Operatoren beeinflussen sich wechselseitig. Bei einem konkreten Ziel kann nach bestimmten Operatoren gesucht werden. Stehen nur bestimmte Operatoren zur Verfügung, können nur bestimmte Zielzustände in Betracht gezogen werden. \cite{Funke2015}
+\\ \\
+Zudem beschreibt Funke \cite{Funke2015} einige Situationsfaktoren, die beim komplexen Problemlösen eine Relevanz haben.
+
+Die \textbf{Art der Aufgabenstellung} zeigt beispielsweise unterschiedliche Ergebnisse beim Wissenserwerb und der Steuerleistung. Personen die nur beobachten, erwerben Wissen über die Systemvariablen und deren Beziehungen, aber lernen nicht, wie man das System kontrolliert. Personen die aktiv eingreifen können, erzielen eine besser Steuerleistung, können aber die Zusammenhänge nicht so gut verbalisieren.
+
+\textbf{Stress} hat viele Facetten. Bei lärminduziertem Stress planen die Individuen selten vorausschauend, sondern reagieren auf eingetretene Ereignisse. Viel relevanter ist der Stress, der durch die Problemlösesituation selbst hervorgerufen wird. Dieser kann eine Notfallreaktion des kognitiven Systems hervorrufen. Effekte, die durch die Notfallreaktion hervorgerufen werden, sind unter anderem:
+\begin{itemize}
+\item \textbf{Senkung des intellektuellen Niveaus:} Die Selbstreflektion sinkt ab, die Absichten und Vorannahmen sinken ab, es kommt zu einer Stereotypisierung und die realisierten Absichten reduzieren sich.
+\item \textbf{Tendenz zu schnellem Handeln:} Die Risikobereitschaft erhört sich, die Regelverstöße werden mehr und die Fluchttendenzen steigen.
+\item \textbf{Degeneration der Hypothesenbildung:} Es werden Hypothesen global gebildet und Ziele werden unkonkreter.
+\end{itemize}
+
+\textbf{Gruppen} erzielen beim komplexen Problemlösen, im Gegensatz zu Einzelpersonen, bessere Ergebnisse. Zudem werden Gruppenentscheidungen meist besser akzeptiert. Den größten Einfluss auf die Gruppenleistung hat das individuelle Vorwissen.
+
+Die hohe \textbf{Transparenz} eines Systems kann zu besseren Leistungen führen. Es ist jedoch nicht eindeutig in welchem Maße die Transparenz einen Einfluss hat, da es gegensätzliche Untersuchungen dazu gibt.
+
+Es wird davon ausgegangen, dass die \textbf{Art der Informationsdarbietung} einen Einfluss auf die Informationsverarbeitung hat.
+
+\subsubsection*{Innere Faktoren}
+Die \textbf{Motivation} eines Menschen setzt erst den Problemlöseprozess in Gang \cite{Dorner1984}. Das Motiv des Problemlösers hat dabei, in Verbindung mit der aktuellen Situation, einen hohen Stellenwert. Dörner \cite{Dorner1984} bezeichnet im Zusammenhang mit dem Problemlösen das Kontrollmotiv als besonders bedeutsam. Wenn etwas nicht in den Erwartungshorizont des Menschen passt, dann kann dies einen Mangelzustand hervorrufen.
+
+Ebenfalls einen Einfluss haben \textbf{Emotionen}. Diese wirken sich auf den Ablauf des Denkens aus. So vermindern negative Emotionen die Anzahl an Selbstreflektionen beim Denken und rufen Notfallreaktionen hervor. Positive Emotionen können hingegen zu Nachlässigkeit und Oberflächlichkeit führen. Wie groß der Einfluss der Emotionen auf den Problemlöseprozess ist, hängt von dem Selbstkonzept des Individuums ab. Das Selbstkonzept beschreibt die Kompetenz, die in heuristische und epistemische Kompetenz eingeteilt ist. Die heuristische Kompetenz beschreibt das Zutrauen, das jemand in seine Fähigkeiten hat, mit Problemsituationen umzugehen, für die es keine eindeutige Verhaltensweise gibt. Die epistemische Kompetenz zeichnet sich durch das Zutrauen aus, eine Situation aufgrund des vorhandenen Wissens zu bewältigen. Zusammen ergibt sich daraus die aktuelle Kompetenz. \cite{Dorner1984}
+
+\subsection{Phasen des Problemlösens}
+\label{2:Phasen-Problemloesen}
+Der Problemlöseprozess teilt sich in fünf Phasen auf. Die erste ist die \textbf{Problemidentifikation}. \glqq Ein Problem ist identifiziert, wenn man Ziele setzt und erkennt, dass ein bestimmtes Ziel nicht ohne weiteres Nachdenken erreicht werden kann\grqq \ \citep[146]{Betsch2011}. Die zweite Phase ist die \textbf{Ziel- und Situationsanalyse}. Dabei muss zunächst der zu erreichende Zielzustand geklärt und die Eigenschaften und Beschränkungen erkannt werden. Anschließend ist zu klären, warum es nicht geht und was zur Verfügung steht bzw. was man gebrauchen kann. Die \textbf{Planerstellung} erfolgt in Phase drei. Diese umfasst die Vorbereitung des konkreten Vorgehens mit folgenden Aspekten:
+\begin{enumerate}
+\item Abfolgen erkennen
+\item Randbedingungen erkennen
+\item Zwischenzielbildung
+\item Verfügbarkeit von Alternativen
+\item Angemessenheit der Auflösung
+\end{enumerate}
+Nach der Planerstellung folgt in Phase vier die \textbf{Planausführung}. Eine wichtige Voraussetzung ist dabei die Planüberwachung und Fehlerdiagnostik. Treten bei der Planausführung Störungen auf, sind möglicherweise Planänderungen vorzunehmen. Wie die Störungen diagnostiziert werden können ist in Abschnitt \ref{2-Störungsdiagnose} beschrieben.
+
+Abschließend erfolgt in Phase fünf die \textbf{Ergebnisbewertung}. In dieser wird analysiert, in wie weit formulierten Ziele aus der Zielanalyse erfolgreich umgesetzt werden konnten. Je nach Ergebnis der Evaluation kann das Ziel verworfen oder ein neuer Lösungsansatz gefunden werden.
+\cite{Betsch2011}
+
+\subsection{Störungsdiagnose}
+\label{2-Störungsdiagnose}
+Bei der Störungsdiagnose ist im Störfall eine effiziente Problemlösung gefragt. Das Wissen und Handeln des Individuums steht dabei im Kontext technischer Systeme. Es werden die beiden Wissensarten das Strukturwissen und das Kontroll- \& Steuerungswissen unterschieden. \cite{Funke2015}
+
+Das Strukturwissen bezieht sich auf die Schnittstellenebene, das Interface, und die Systemebene. Es beinhaltet Faktenwissen über die Funktionsweise und Organisation der Komponenten und deren möglichen Zustände. Es ist möglich, dass ein Bediener umfassende Kenntnisse über das Interface hat, aber über keinerlei Systemwissen verfügt. Eine Steuerung des Systems ist mit reinem Strukturwissen nicht möglich. \cite{Funke2015, Kluwe1997}
+
+Das Kontroll- \& Steuerungswissen bezieht sich auf Regeln, anhand derer die Zustände des Systems mit den Zielen des Operators durch Systemeingriffe verknüpft werden können \cite{Funke2015}. Kluwe \cite{Kluwe1997} teilt das Wissen in mehrere Ebenen. Auf der Ebene des Eingriffswissens führt der Operator verfügbare Prozeduren ohne weiteres Wissen über das System aus. Dies ähnelt einer Black-Box. Auf der Ebene des Kausalwissens verfügt der Operator zusätzlich über Kenntnisse des Ursache-Wirkungsgefüges. Welches Wissen wichtig ist hängt von den Aufgaben des Operators ab.
+
+Beim Bearbeiten von komplexen Problemen muss anhand der Anforderungen zwischen den verschiedenen Wissensarten flexibel gewechselt werden können. \cite{Funke2015}
+
+\section{Kollaboration}
+Kollaboration bietet die Chance verteilte Informationen für das Lösen von Problemen zu nutzen und unterscheidet sich von reiner Kooperation. Mit Kooperation ist eine Arbeitsteilung gemeint, bei der jeder Person eine konkrete Aufgabe zugeteilt wird und die Ergebnisse zum Schluss zusammen getragen werden \cite{Jermann2004}. Kollaboration ist durch die Symmetrie von Wissen, einem gemeinsamen Ziel und der Zusammenarbeit gekennzeichnet \cite{Rummel1958}. Dabei spielt insbesondere die Interaktion untereinander eine große Rolle, da diese den kollaborativen Lerneffekt fördert \cite{Jermann2004}.
+
+\section{Kommunikation}
+Kommunikation ist beim kollaborativen Problemlösen ein wichtiger Aspekt. Mittels Kommunikation kann das gemeinsame Verständnis des Problems hergestellt und aufrecht gehalten werden. Um Missverständnisse vorzubeugen, ist es erforderlich klare und geeignete Fragen zu stellen. Das Stellen von Fragen ist wichtig, um ungeteilte Informationen auszutauschen. Ebenso wichtig ist das richtige Zuhören, da die meisten Menschen besser Informationen geben als aufnehmen können. Zudem sollten nur die Informationen weitergegeben werden, die für die Situation notwendig sind. \cite{Rohner2016}
+
+Während Menschen direkt kommunizieren können, ist bei der Kommunikation mit einer digitalen Assistenz noch ein zusätzliches System notwendig. Welche Systeme dafür verwendbar sind, ist in Abschnitt \ref{2:Assistenzsysteme} näher beschrieben. Bei Betrachtung des Aspekts wie kommuniziert wird, fällt auf, dass es vielfältige Möglichkeiten gibt. Häufig angewandt werden Dialogsysteme. Ein Dialog entsteht, wenn Mensch und Maschine in Kooperation eine Aufgabe lösen bei der mehrere Schritte notwendig sind. Dialoge in der Mensch-Maschine-Interaktion können folgende Formen haben \cite{Heinecke2012}:
+\begin{itemize}
+\item \textbf{Kommando:} Der Mensch gibt über eine Tastatur vordefinierte Kommandos ein, an die er sich erinnern muss. Dialoge mit Kommandos sind benutzerbestimmt, da das System nur auf die Eingaben des Nutzers reagiert.
+\item \textbf{Menü:} Die Kommandos werden mit Hilfe einer Liste zur Verfügung gestellt. Der Nutzer kann dann aus diesen auswählen. Ist das Menü statisch, dann ist es systembestimmt.
+\item \textbf{Formulare/Masken:} Ein Formular gruppiert Interaktionselemente und kann vielfältig verwendet werden.
+\item \textbf{Fenster:} Abgegrenzter steuerbarer Bereich.
+\item \textbf{Direkte Manipulation:} Objekte können direkt bearbeitet werden. Beispiele sind das Verändern der Größe oder das Verschieben von Objekten.
+\end{itemize}
+Damit die Kommunikation zwischen Mensch und System möglich ist, müssen geeignete Mittel zur Verfügung stehen, die in Abschnitt \ref{2:Assistenzsysteme} konkreter thematisiert sind.
+
+\section{Assistenz}
+Laut Duden bedeutet Assistenz Beistand oder Mithilfe \cite{DudenAssistenz}. Das Verb assistieren wird mit den Worten \glqq jemanden nach dessen Anweisungen zur Hand gehen, bei einer Arbeit oder Tätigkeit behilflich sein\grqq \ beschrieben \cite{DudenAssistieren}. In der Literatur finden sich eine Vielzahl von Definitionen. Diese reichen vom Schraubendreher, über autonome Ausführung von Funktionen bis hin zur individualisierten Nutzerunterstützung \cite{Ludwig}. Zur Einordnung, inwieweit der Nutzer durch das Assistenzsystem unterstützt wird, finden die zehn Level der Automatisierung von Sheridan \cite{Sheridan1978} \todo{Quelle korrigieren} häufig Anwendung \cite{Wandke2005}.
+\begin{enumerate}
+\item Der Mensch erledigt alles alleine.
+\item Der Computer unterstützt den Menschen bei der Ermittlung der möglichen Optionen.
+\item Der Computer unterstützt den Menschen bei der Ermittlung der möglichen Optionen und wählt ein paar aus.
+\item Der Computer wählt eine Option aus, die der Mensch verfolgen kann, aber nicht muss.
+\item Der Computer wählt eine Option aus und führt sie durch, wenn der Mensch dies bestätigt.
+\item Der Computer wählt eine Option aus und führt diese durch, wenn der Mensch diese nicht innerhalb einer bestimmten Zeit abbricht.
+\item Der Computer erledigt alles alleine und informiert den Menschen, was er getan hat.
+\item Der Computer erledigt alles alleine und informiert den Mensch, wenn dieser nachfragt.
+\item Der Computer erledigt alles alleine und informiert den Menschen, wenn er der Meinung ist, dass dies notwendig ist.
+\item Der Computer erledigt alles alleine, wenn er der Meinung ist, dass es notwendig ist. Er informiert den Menschen, wenn er es für notwendig erachtet.
+\end{enumerate}
+
+\subsection{Anforderungen an digitale Assistenzsysteme}
+Die Assistenz soll den Menschen bestmöglich unterstützen. Dabei sind seine Fähigkeiten zu berücksichtigen und eine Überlastung ist zu vermeiden. Es müssen dabei unter anderem folgende Aspekte beachtet werden \cite{Ludwig}:
+\begin{itemize}
+\item \textbf{Interaktivität:} Dem Nutzer muss die Möglichkeit zur Interaktion gegeben werden. Die Ziele und Aufgaben sollten formulierbar sein ohne Rücksicht auf das System nehmen zu müssen.
+\item \textbf{Diagnose:} Das Assistenzsystem muss wissen, welche Effekte auftreten können, wenn der Nutzer fehlerhafte Eingaben tätigt.
+\item \textbf{Korrektur:} Wenn die Handlung des Nutzers von den Anweisungen abweicht, so muss das Assistenzsysteme diese Handlung trotzdem unterstützen können.
+\end{itemize}
+
+\subsection{Einsatz von digitaler Assistenz}
+\label{2:Einsatz-Assistenz}
+Digitale Assistenz findet sich mittlerweile überall. So gibt es für fast jede Anwendung eine Onlinehilfe, die mit Tool-Tipps Assistenz leistet. Im Alltag finden sich für blinde Menschen akustische Signale an Ampeln wieder. Zuhause gibt es mittlerweile Smart Home Geräte, die automatisch die Heizung ausstellen, wenn das Fenster geöffnet wird. Das Handy fügt automatisch Termine aus eMails dem Terminkalender hinzu und erinnert anschließend an den Termin.
+
+Digitale Assistenz kann unter anderem folgende Aufgaben haben \cite{Wandke2005}:
+\begin{itemize}
+\item \textbf{Aktivierung}
+	\begin{itemize}
+	\item \textbf{Warnung:} Die Assistenz warnt bevor der Mensch eventuell einen Fehler macht.
+	\item \textbf{Signale:} Die Assistenz sorgt dafür, dass alle relevanten Informationen für den Nutzer erkennbar sind.
+	\item \textbf{Orientierung:} Unterstützung beim Setzen und Ändern von Zielen.
+	\end{itemize}
+\item \textbf{Informationsintegration:} Darstellung von Symbolen, die dem Nutzer bekannt sind (z.B. km/h vs. mph). Erläuterung von möglichen Konsequenzen.
+	\begin{itemize}
+	\item \textbf{Kennzeichnung:} Legenden für die verschiedenen Symbole.
+	\item \textbf{Erklärung:} Mit Sicht auf die Interessen und das Wissen des Nutzers.
+	\end{itemize}
+\item \textbf{Entscheidungen:} Unterstützung bei der Auswahl, was als nächstes getan werden muss
+	\begin{itemize}
+	\item \textbf{Bereitstellung:} Darstellung aller möglichen Informationen und Optionen.
+	\item \textbf{Filter:} Es werden nur die Informationen und Optionen dargestellt, die für die Aufgabe wichtig sind.
+	\item \textbf{Berater:} Die Assistenz liefert einen Vorschlag. Der Mensch kann entscheiden, ob er die vorgeschlagene Option durchführt.
+	\item \textbf{Delegieren:} Die Assistenz begleitet die Durchführung von Aufgaben oder führt sie auf Befehl aus.
+	\end{itemize}
+\end{itemize}
+
+\subsection{Assistenzsysteme}
+\label{2:Assistenzsysteme}
+Zur Verbindung der Fähigkeiten des Menschen und den Systemfunktionen können Assistenzsysteme verwendet werden. Ein Assistenzsystem besteht aus mehreren Komponenten. Der Eingabemethode, also die Art und Weise, wie der Mensch mit dem System interagieren kann. Der tatsächlichen Schnittstelle, beispielsweise einem Computer, der Informationen anzeigt. Und dem Assistent als solches, der Informationen anpasst und bereit stellt.
+
+\subsubsection*{Eingabemethoden}
+\label{2:Eingabemethoden}
+Die Eingabemethoden orientieren sich maßgeblich an den Fähigkeiten des Menschen. Er verwendet meist Hände und Sprache. Insbesondere die Hände bieten eine Vielzahl an Möglichkeiten mit einem System zu interagieren. So können Hilfsmittel, wie Maus oder Tasten, verwendet werden oder die Interaktion erfolgt direkt mit Gesten oder über ein Touchscreen. Die Interaktionsmöglichkeiten sind in Tabelle \ref{tab:Interaktionsmöglichkeit} aufgeführt. \cite{Zuhlke2012, Heinecke2012}
+
+\begin{sidewaystable}[ph!]
+\caption{Interaktionsmöglichkeiten mit einem Assistenzsystem}
+\begin{tabular}{p{3cm}|p{3cm}|p{3,5cm}|p{4cm}|p{3,5cm}}
+	\textbf{Interaktions-möglichkeit} & \textbf{Merkmale} & \textbf{Vorteile} & \textbf{Nachteile} & \textbf{Einsatz} \\
+	\hline
+	Taste & führt zugewiesene Aktions aus & universell einsetzbar & & zur Auswahl von Funktionen \\
+	\hline
+	Maus & zweidimensionale Bewegung & Bedienung ist einfach zu erlernen & benötigt eine ebene saubere Fläche & vor allem im Bürobereich\\
+	\hline
+	Joystick & wird durch kippen bedient & schnelle Richtungswechsel möglich & & als Mausersatz; bei Zielverfolgungsaufgaben \\
+	\hline
+	Touchscreen & Interaktion durch Berühren des Bildschirms & direkte Bedienung; keine zusätzliche Hardware nötig & Verschmutzt schnell & weitreichend: von Industrie bis Labor \\
+	\hline
+	Spracheingabe & Steuerung über Laute oder Sprache & einfach zu bedienen & Artikulation von Sprachkommandos erfordert hohe kognitive Leistung & Auswahlvorgänge, Kommandos \\
+	\hline
+	Gesten & werden mit Kamera erfasst & einfach anwendbar & sichere Erkennung muss gewährleistet sein & \\
+	%\hline
+\end{tabular}
+\label{tab:Interaktionsmöglichkeit}
+\end{sidewaystable}
+
+\subsubsection*{Schnittstelle}
+\label{2:Schnittstelle}
+Mit Schnittstelle ist gemeint, wie und mit welchen Mitteln Informationen dem Nutzer zur Verfügung gestellt werden. Diese reichen mittlerweile vom stationären Computer über Wearables, wie Smartwatches, bis hin zu Augumentet Reality Anwendungen, die Informationen in das Blickfeld projizieren. Mögliche Systeme für eine Repräsentation der Informationen sind in Tabelle \ref{tab:Interaktionssystem} dargestellt. \cite{Zuhlke2012, Kasselmann2016, Weidner2016, Ludwig}
+
+\begin{sidewaystable}[ph!]
+\caption{Interaktionssysteme zur Bereitstellung von Informationen}
+\begin{tabular}{p{2,6cm}|p{3,2cm}|p{3,7cm}|p{3,7cm}|p{3,5cm}}
+	\textbf{Interaktions-system} & \textbf{Funktionsweise} & \textbf{Vorteile} & \textbf{Nachteile} & \textbf{Anwendung} \\
+	\hline
+	Projektor & Beleuchtung des relevanten Objekts & gut geeignet für Arbeiter mit kognitiven Einschränkungen & Einsatz ist abhängig von geforderter Projektionsgenauigkeit & Unterstützung des Kommissionierungsvorgangs, Bohrlöcher \\
+	\hline
+	AR-Brillen & Einblendung von Zusatzinformationen in das Sichtfeld & handsfree; komplexe Arbeitsabläufe können fehlerärmer umgesetzt werden & Sichtfeld ist geringfügig eingeschränkt & Checklisten; Anleitungen; Anzeige von Messdaten \\
+	\hline
+	Headset & gibt akustisch Hinweise und Informationen & handsfree; verwendbar, wenn visueller Kanal nicht zur Verfügung steht & funktioniert nur bedingt in lauter Umgebung & Call-Center; Logistik \\
+	\hline
+	Smartwatch & kann wenige wichtige Informationen anzeigen & handsfree; kompakt & begrenzte Displaygröße & Navigation; Information \\
+	\hline
+	Tablet & & einfache Handhabung & nur eine freie Hand & Anleitung; Wartung von Maschinen\\
+	\hline
+	stationärer Computer & & großer Bildschirm & nicht transportabel; Vielzahl an auswählbaren Befehlen & Übersicht über viele Informationen\\
+\end{tabular}
+\label{tab:Interaktionssystem}
+\end{sidewaystable}
+
+\section{Gestaltung von Mensch-Maschine-Schnittstellen}
+Die richtige Gestaltung der Mensch-Maschine-Schnittstelle ist essenziell. Durch die steigende Komplexität von Maschinen und Anlagen wird meist auch die Bedienung komplexer \cite{Zuhlke2012}. Umso wichtiger ist eine nutzerfreundliche Gestaltung. Diese orientiert sich maßgeblich an den Bedürfnissen des Nutzers, welche in den Entwicklungsprozess mit einzubeziehen sind \cite{Heinecke2012, Zuhlke2012}. Es gibt eine Vielzahl an Richtlinien, die erläutern, was eine ergonomisch gute Gestaltung von Benutzerschnittstellen ausmacht. Die gute Gestaltung soll Benutzungsprobleme vermeiden.
+
+Immer wichtiger wird zudem die User Experience, also das gezielte Schaffen von Erlebnissen, die der Nutzer mit dem System erfährt. Ein ansprechendes Design ist wichtig, da dadurch ein menschliches Bedürfnis befriedigt wird. Frustration und Unzufriedenheit zu vermeiden war schon immer relevant.  \todo{eventuell umschreiben} Die User Experience legt zusätzlich den Fokus auf positive Emotionen, wie Freude, Spaß und Stolz. \cite{Hassenzahl2006}
+
+\subsection{Ergonomisch gute Gestaltung}
+\label{2:ergonomische-Gestaltung}
+In der DIN EN ISO 9241 sind Empfehlungen für die Ergonomie der Mensch-System-Interaktion aufgelistet. An dieser Stelle wird nur auf einige, für diese Arbeit relevante Aspekte, eingegangen. Teil 110 \cite{ISO9241-110} beschreibt die Grundsätze der Dialoggestaltung:
+\begin{itemize}
+\item \textbf{Aufgabenangemessenheit:} Funktionalität und Dialog sollen den Eigenschaften der Arbeitsaufgabe entsprechen.
+\item \textbf{Selbstbeschreibungsfähigkeit:}  Es muss eindeutig sein, an welcher Stelle sich der Nutzer befindet, welche Handlungen durchgeführt werden können und wie diese auszuführen sind.
+\item \textbf{Erwartungskonformität:} Der Dialog entspricht den anerkannten Konventionen und ist vorhersehbar.
+\item \textbf{Lernförderlichkeit:} Der Nutzer wird beim Erlernen der Nutzung des interaktiven Systems unterstützt.
+\item \textbf{Steuerbarkeit:} Der Nutzer hat Einfluss auf Richtung und Geschwindigkeit des interaktiven Systems.
+\item \textbf{Fehlertoleranz:} Das beabsichtigte Arbeitsergebnis kann bei fehlerhaften Eingaben trotzdem mit keinem oder minimalem Korrekturaufwand erreicht werden.
+\item \textbf{Individualisierbarkeit:} Nutzer kann die Darstellung von Informationen so ändern, dass sie seinen Bedürfnissen und Fähigkeiten entsprechen.
+\end{itemize}
+Es ist deutlich zu erwähnen, dass in den meisten Fällen nicht alle Aspekte gleichermaßen berücksichtigt werden können.
+
+\subsubsection*{Informationsdarstellung}
+Die richtige Informationsdarstellung ist wichtig, um den Problemlöseprozess nicht noch komplizierter zu machen. Teil 112 \cite{ISO9241-112} der DIN EN ISO 9241 beschreibt folgende wichtige Aspekte für eine gute Informationsdarstellung:
+\begin{itemize}
+\item \textbf{Entdeckbarkeit:} Das System sollte so geschaltet sein, dass Informationen und Steuerelemente gut wahrgenommen werden können. Außerdem sollten Informationen in dem Tempo dargestellt werden das dem Nutzer entspricht.
+\item \textbf{Ablenkungsfreiheit:} Der Nutzer sollte nicht von anderen Informationen abgelenkt werden, die nicht für die Bearbeitung der Aufgabe notwendig sind.
+\item \textbf{Unterscheidbarkeit:} Es sollte eindeutig sein, welche Informationen zusammenhängen.
+\item \textbf{Eindeutige Interpretierbarkeit:} Informationen sollten eine eindeutige Bedeutung haben, verständlich und an die Fähigkeiten des Nutzers angepasst sein.
+\item \textbf{Kompaktheit:} Es sollen nur notwendige Informationen dargestellt sein und die Interaktion mit dem System kompakt gehalten werden.
+\item \textbf{Konsistenz:} Interaktionselemente mit ähnlichem Zweck sollten ähnlich dargestellt sein. Zudem sind allgemeine Konventionen zu beachten.
+\end{itemize}
+
+\subsection{User Experience}
+Im Zusammenhang mit einer optimalen Gestaltung werden die Erlebnisse, die der Nutzer bei der Verwendung von Technologien erfährt, immer wichtiger. Technologie ist mehr als ein Tool, das verwendet wird um Zeit zu generieren, die schön gestaltet werden kann. \nicetohave{umformulieren!} Sie kann vielmehr selbst eine Quelle für Vergnügen sein. \cite{Hassenzahl2008}
+
+User Experience (UX) verschiebt die Aufmerksamkeit von Produkt und Material (bspw. Funktionen und Interaktionen) zu den Menschen und den Gefühlen \cite{Hassenzahl2008}. Für Hassenzahl \citep[12]{Hassenzahl2008} ist UX \glqq a momentary, primarily evaluative feeling (good-bad) while interacting with a product or service.\grqq \ Der Titel \glqq Attention web designers: You have 50 milliseconds to make a good first impression!\grqq \ \citep[92]{Hassenzahl2006} beschreibt die Relevanz eines guten UX-Designs sehr treffend. 
+%Unterschiedliche konzeptuelle und methodische Ansätze führen zu verschiedenen Blickwinkeln, die stark voneinander profitieren.
+\cite{Hassenzahl2006}
+
+\subsubsection*{Generierung positiver Erlebnisse}
+Interaktive Systeme werden vom Nutzer aus zwei Perspektiven wahrgenommen. Zum einen aus der pragmatischen Sicht mit dem Fokus auf das Produkt. Zum anderen der hedonischen \footnote{Hedonisch bedeutet Lust und Freude} Sicht, welche den Fokus auf den Menschen legt und beispielsweise das Gefühl gibt, kompetent zu sein. Für positive Erlebnisse und damit einer guten UX muss vor allem zweiteres befriedigt werden. Damit sich ein Nutzer kompetent fühlt, müssen Herausforderungen und Erfolge in einem ausgewogenen Zusammenspiel geschehen. \cite{Hassenzahl2008}
+
+Für das Design bedeutet das, mehr konzeptionell zu denken, um bestimmte Gefühle zu wecken. Es ist mehr als nur Funktion mit einem schönen Design zu versehen. Leider sind negative Erlebnisse auch bei einem sehr guten UX Design unvermeidbar. Soll sich der Mensch kompetent fühlen, wird dadurch eine positive Aktivität generiert aber auch die negative Angst des Scheiterns Am wichtigsten ist bei UX jedoch die Freude, die der Nutzer erfährt. \cite{Hassenzahl2008}
+
+\subsection{Individualisierung}
+\label{2:Individualisierung}
+Wenn unterschiedliche Benutzer(gruppen) ein System nutzen, dann ist eine Individualisierung in Betracht zu ziehen. Individualisierung bedeutet, dass sich das Verhalten des Systems und die Darstellung der Benutzerschnittstellen-Elemente entsprechend anpassen. Die ISO 9241-129 \cite{ISO9241-129} listet einige Aspekt auf, bei denen es sinnvoll ist zu individualisieren:
+\begin{itemize}
+\item \textbf{Variation der Benutzermerkmale:} Fähigkeiten und Präferenzen der Nutzer sind verschieden.
+\item \textbf{Unterschiedliche Bedürfnisse und Ziele:} Durch entsprechende Individualisierung sollen alle Nutzer zufrieden gestellt werden.
+\item \textbf{Schwankung der Aufgabenmerkmale:} Wenn beispielsweise Komplexität, Schwierigkeit oder Informationsgehalt der Aufgabe sich verändern ist eine Individualisierung angebracht.
+\item \textbf{Verschiedene Einrichtungen, die von einem einzelnen Benutzer verwendet werden:} Wenn der Nutzer das System sowohl am Desktop Computer als auch am Mobiltelefon verwendet, ist eine Anpassung an diese Geräte sinnvoll.
+\item \textbf{Unterschiedliche Umgebungen, denen ein einzelner Nutzer ausgesetzt ist:} Der Nutzer verwendet das Gerät sowohl in hellen als auch in dunklen Umgebungen, wodurch eine bspw. eine Anpassung des Kontrastes nötig wird.
+\end{itemize}
+Trotz, oder gerade wegen, der vielen Möglichkeiten von Individualisierung müssen bestimmte Grenzen eingehalten werden. So darf die individuelle Gestaltung der Mensch-Maschine-Schnittstelle folgende Faktoren nicht beeinflussen:
+\begin{itemize}
+\item Individualisierung darf kein Ersatz für ergonomisch gestalte Dialoge sein.
+\item Sicherheitskritische und aufgabenkritische Systeme dürfen in ihrer Funktion nicht eingeschränkt werden.
+\item Individualisierung darf nicht zu einer Reduktion von Wirtschaftlichkeit und Produktivität führen.
+\item Individualisierung darf nicht zu Problemen bei der Gebrauchstauglichkeit oder Zugänglichkeit führen.
+\end{itemize}
+
+%Um diesen Anforderungen gerecht zu werden wurden entsprechende Leitlinien formuliert. \todo{eventuell löschen}
+%\begin{itemize}
+%\item \textbf{Zugänglichkeit:} Ein System mit Möglichkeiten zur Individualisierung muss ISO 9241-171 entsprechen.
+%\item \textbf{Steuerbarkeit:} Der Nutzer sollte die Kontrolle über die Individualisierung behalten.
+%\item \textbf{Erkennbarkeit:} Der Benutzer sollte die Individualisierungsmöglichkeiten kennen und bei Änderungen durch das System informiert werden.
+%\item \textbf{Widerspruchsfreiheit:} Die Individualisierung sollte konsistent sein.
+%\item \textbf{Gebrauchstauglichkeit:} Der Benutzer soll durch die Individualisierung nicht in der Nutzung des Systems eingeschränkt sein.
+%\end{itemize}
+
+Herczeg \cite{Herczeg2006} hat zudem identifiziert, welche Eigenschaften eines System sich für die Individualisierung verändern lassen:
+\begin{itemize}
+\item \textbf{Intentionale Ebene:} Veränderung der Aufgabenstruktur. Dadurch verändert sich die Gesamtfunktion des Systems.
+\item \textbf{Pragmatische Ebene:} Anpassung an bestimmte Arbeitsabläufe durch Veränderung von Prozeduren.
+\item \textbf{Semantische Ebene:} Veränderung der Arbeitsobjekte, z. B. durch die Änderung der Voreinstellungen durch den Nutzer.
+\item \textbf{Syntaktische Ebene:} Veränderung der Interaktionsformen.
+\item \textbf{Lexikalische Ebene:} Veränderung der Informationskodierung. Dadurch können verschiedene Sprachen oder Sehschwächen berücksichtigt werden.
+\item \textbf{Sensomotorische Ebene:} Veränderung von Eigenschaften der Ein- und Ausgabegeräte. Es kann beispielsweise die Helligkeit des Bildschirms oder die Tastenbelegungen verändert werden.
+\end{itemize}
+
+\section{Adaptive Systeme}
+\label{2:Adaptive-Systeme}
+Eine Möglichkeit Individualisierung umzusetzen sind adaptive Systeme. Diese erkennen das Nutzer- und/oder Systemverhalten und passen sich entsprechend an. Diese Anpassungen sind jedoch differneziert zu betrachten, da es viele Charakteristika gibt, die einen Erfolg oder einen Misserfolg hervorrufen können \cite{Gajos2008}. Dabei ist, neben der Vorhersagbarkeit, die präzise Anpassung an den jeweiligen Menschen ein wichtiger Faktor \cite{Gajos2008}. Das größte Problem der adaptiven Systeme ist die Identifizierung der Bedingungen für die adaptiven Funktionen. So müssen sowohl die Abweichungen von dem Menschen, als auch von der Maschine erfasst werden. Der Status der Maschine ist sehr eindeutig und kann mit bestimmten Pattern verglichen werden. Der Status des Menschen, beispielsweise die Aufmerksamkeit des Anlagenbedieners, lässt sich nur schwer messen. Dies ist meist nur über Interaktionen mit dem System möglich. \cite{Viano2000}
+
+\subsection{Multiagentensysteme}
+Eine Möglichkeit eine adaptive Nutzerschnittstelle für einen Anlagenbediener umzusetzen beschreibt Viano et.al. \cite{Viano2000}. Es wird sich dabei am Konzept der Multiagentensysteme bedient. Ein Agent ist ein Computersystem, das in einer Umgebung existiert und unabhängig arbeitet. Intelligente Agenten sind charakterisiert durch ihre Flexibilität. Sie können ihr Verhalten an eine dynamische Umwelt anpassen und ihr Ziel im Auge behalten. Besteht ein System aus mehreren interagierenden Agenten, dann ist dies ein Multiagentensystem. Jeder Agent hat einen beschränkten Einflussbereich und steht mit anderen in Beziehung. Das adaptive User Interface von Viano \cite{Viano2000} verwendet folgende Agenten:
+\begin{itemize}
+\item \textbf{Prozess Model Agent:} Beobachtet die Prozessinformationen und handelt unter Ausnutzung seines Wissens über den Prozess.
+\item \textbf{Media Agent:} Ist verantwortlich für die Wiedergabe der Menge an Prozessinformationen.
+\item \textbf{Rendering Resolution Agent:} Interagiert mit Human Factors Database, Environmental Agent und Operator Agent. Entscheidet über die beste Wiedergabe der aktuellen Situation.
+\item \textbf{Environmental Agent:} Sammelt Informationen auf Basis der aktuellen Umgebungsbedingungen im Kontrollraum.
+\item \textbf{Human Factors Database:} Anhand von Heuristiken wird die beste Wiedergabe ausgewählt.
+\item \textbf{Presentation Agent:} Beobachtet welche Ressourcen für das Interface verwendet werden können.
+\item \textbf{Media Allocator Agent:} Trifft die finale Entscheidung für die Wiedergabe von Informationen in Interaktion mit dem Presentation Agent.
+\item \textbf{Operator Agent:} Beobachtet und speichert die Aktionen des Operators.
+\end{itemize}
+
+\subsection{Modellgestütztes User Interface}
+Der modellgestütze Ansatz teilt die Benutzerschnittstelle in drei Ebenen mit unterschiedlichen Abstraktionsgraden ein. An oberster Stelle steht die \textbf{abstrakte Benutzerschnittstelle} in der die Aufgaben definiert sind. Die \textbf{konkrete Benutzerschnittstelle} umfasst die Interaktionsmöglichkeiten des Nutzers mit dem System. Die explizite Darstellung der Benutzerschnittstelle wird mit der \textbf{finalen Benutzerschnittstelle} vorgenommen. \cite{Meixner2011, Park2015}
+
+Durch diese Einteilung ist eine strukturierte und verteilte Entwicklung der Benutzerschnittstelle möglich. So können auch einzelne Teile später verändert werden, ohne die Schnittstelle komplett neu entwickeln zu müssen. \cite{Meixner2011}

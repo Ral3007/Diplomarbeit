@@ -5,10 +5,10 @@
 Die Analyse zeigt, dass die bestehende PFE dem Nutzer nur Informationen über den aktuellen Zustand der Anlage bereitstellt. Der Nutzer erhält bei auftretenden Problemen keine Unterstützung, obwohl das MTP entsprechende Schnittstellen zur Übertragung von Meldungen, Warnungen und Alarmen vorsieht. Ausreichend sind diese Parameter nicht, da ein Problem nur entsteht, wenn die bekannten Ziele nicht erreicht werden können. Mit dem konzeptuellen Design wird herausgearbeitet, welche Funktionen konkret umgesetzt werden müssen und wie Nutzer und Assistenz miteinander interagieren. Dabei ist zu berücksichtigen, dass Anlagenbediener eine mittleres Level an Automatisierung wünschen \cite{Sauer2018}. Darauf aufbauend erfolgt der Entwurf eine physischen Designs. Mit diesem wird ein Vorschlag geliefert, wie ein System zur Problemlösung aussehen kann. Die konkrete Darstellung sollte sich laut Analyse am Probleminhalt orientieren.
 
 \section{Konzeptuelles Design}
-Der Nutzer soll durch den Problemlöseprozess sinnvoll begleitet werden. Das Assistenzsystem kann durch Unterscheidung von Problemen Informationen anpassen. Es kann Lösungen darstellen und mit einer guter User Experience Entscheidungen unterstützen (siehe Abbildung \ref{pic:Nutzer-Unterstuetzen}). Wie dies konkret umgesetzt wird, beschreibt dieses Kapitel.
+Der Nutzer soll durch den Problemlöseprozess sinnvoll begleitet werden. Das Assistenzsystem kann, durch Unterscheidung von Problemen, Informationen anpassen. Es kann Lösungen darstellen und mit einer guter User Experience Entscheidungen unterstützen (siehe Abbildung \ref{pic:Nutzer-Unterstuetzen}). Wie dies konkret umgesetzt wird, beschreibt dieses Kapitel.
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.43]{DA_files/Bilder/Konzept/Nutzer-unterstuetzen.pdf}
+\includegraphics[scale=0.45]{DA_files/Bilder/Konzept/Nutzer-unterstuetzen.pdf}
 \caption{Aspekte des Assistenzsystems}
 \label{pic:Nutzer-Unterstuetzen}
 \end{figure}
@@ -27,7 +27,7 @@ Wie kann nun der Nutzer durch den Problemlöseprozess begleitet werden? In Absch
 \label{pic:Konzeptidee}
 \end{figure}
 
-Zunächst muss das Problem identifiziert werden. Dazu stehen dem Nutzer alle Informationen über den aktuellen Status der modularen Anlage zur Verfügung. Durch Meldungen, Warnungen und Alarme können Probleme durch das System signalisiert werden. Weiterführend ist es denkbar, dass auch der Nutzer ein Problem definiert. Ist das Problem identifiziert, müssen auch die Randbedingungen \footnote{im Folgenden auch Ziele genannt} definiert werden. Im Fall eines zu wartenden Moduls kann z. B. ein maximaler Produktionsausfall angegeben werden.
+Zunächst muss das Problem identifiziert werden. Dazu stehen dem Nutzer alle Informationen über den aktuellen Status der modularen Anlage zur Verfügung. Durch Meldungen, Warnungen und Alarme können Probleme durch das System signalisiert werden. Weiterführend ist es denkbar, dass auch der Nutzer ein Problem definiert. Ist das Problem identifiziert, müssen auch die Randbedingungen\footnote{Im Folgenden auch Ziele genannt.} definiert werden. Im Fall eines zu wartenden Moduls kann z. B. ein maximaler Produktionsausfall angegeben werden.
 
 Ist das Problem identifiziert und die Randbedingungen definiert, müssen die möglichen Lösungen betrachtet werden. Lösungen können sowohl vom System, als auch vom Nutzer vorgeschlagen werden. Nach Bestimmung der Lösungen erfolgt ein Vergleich dieser.
 
@@ -53,7 +53,7 @@ Wie die konkrete Lösung für ein Problem aussieht ist nicht vorherbestimmt. Das
 In vielen Fällen gibt es nicht nur eine richtige Lösung, sondern mehrere Lösungsmöglichkeiten, die gegeneinander abgewogen werden müssen. Dem Nutzer werden dazu die Unterschiede zwischen den Lösungen aufgezeigt. Diese können rein zahlenmäßig sein, wie entstehende Kosten oder die Länge des Stillstands. Es ist jedoch auch möglich, dass sich Lösungen strukturell unterscheiden, z. B. anhand der zur Verfügung gestellten Dienste. Durch einen Vergleich der Lösungen kann der Nutzer eine Entscheidung treffen und damit den Problemlöseprozess abschließen.
 
 \subsubsection*{Klustern von Problemen}
-Mit dem Assistenzsystem soll es möglich sein, mehrere Probleme gleichzeitig zu bearbeiten, wenn das aktuelle Problem nicht sofort gelöst werden muss. Der Nutzer hat zu jedem Zeitpunkt der Problemlösung die Möglichkeit, das Problem zu wechseln. Für eine bessere Übersichtlichkeit wird das Problem mit den Merkmalen Zeit, Komplexität und Arbeitsaufwand versehen. Diese Angaben sollen dem Nutzer dabei helfen zu entscheiden, an welchem Problem er weiterarbeitet. Zusätzlich werden die Probleme hierarchisch geordnet, sodass im besten Fall das oberste Problem das aktuell relevanteste ist. Für die Sortierung wird im ersten Schritt die Zeit verwendet, da diese angibt bis wann das Problem gelöst sein muss. Im zweiten Schritt ist die Komplexität des Problems relevant. Je komplexer das Problem, desto schwieriger ist es, eine Lösung zu finden. Für besonders komplexe Probleme wird angenommen, dass man besonders lange braucht, um geeignete Lösungen zu finden und eine Entscheidung zu treffen. \nicetohave{wer ist zuständig? Assistenz oder Nutzer?}
+Mit dem Assistenzsystem soll es möglich sein, mehrere Probleme gleichzeitig zu bearbeiten, wenn das aktuelle Problem nicht sofort gelöst werden muss. Der Nutzer hat zu jedem Zeitpunkt der Problemlösung die Möglichkeit, das Problem zu wechseln. Für eine bessere Übersichtlichkeit wird das Problem mit den Merkmalen Zeit, Komplexität und Arbeitsaufwand versehen. Diese Angaben sollen dem Nutzer dabei helfen zu entscheiden, an welchem Problem er weiterarbeitet. Zusätzlich werden die Probleme hierarchisch geordnet, sodass im besten Fall das oberste Problem das aktuell relevanteste ist. Für die Sortierung wird im ersten Schritt die Zeit verwendet, da diese angibt bis wann das Problem gelöst sein muss. Im zweiten Schritt ist die Komplexität des Problems relevant. Je komplexer das Problem, desto schwieriger ist es, eine Lösung zu finden. Für besonders komplexe Probleme wird angenommen, dass man besonders lange braucht, um geeignete Lösungen zu finden und eine Entscheidung zu treffen.
 
 \subsection{Anpassungen an den Problembereich}
 \label{4:Anpassung-Problembereich}
@@ -72,7 +72,7 @@ Ein einzelnes Modul ist unabhängig, da es grundsätzlich auch alleine betrieben
 Die Services weisen eine Vielzahl an Abhängigkeiten auf.  Ein Service kann direkt mit anderen Services gekoppelt sein (vgl. Abschnitt \ref{2:Modulare-Anlagen}), oder durch Parameter eines anderen Services gestartet werden. Diese Kopplung ist auch modulübergreifend möglich. Löst nun ein Service ein Problem aus, werden die abhängigen Services markiert. Dies erleichtert dem Nutzer die Eingrenzung des Problembereichs. Bei der Suche nach Lösungen muss es dem Nutzer möglich sein, alle Optionen in Erwägung zu ziehen. Dafür steht dem Nutzer auch die Information über das zugehörige Equipment der Services zur Verfügung, sofern diese vom Modulhersteller zur Verfügung gestellt werden.
 
 \subsubsection*{Rezept}
-Wird das Rezept automatisch ausgeführt, besteht die Möglichkeit, dass dieses aufgrund eines Fehlers nicht vollständig ausgeführt werden kann. In so einem Fall wird dem Nutzer angezeigt, an welcher Stelle das Rezept unterbrochen wurde und welche Services zugehörig \todo{zuständig?} sind. Ausgehend von der Position im Rezept können die notwendigen Bedingungen überprüft und mögliche Ursachen in Erwägung gezogen werden. Ist die Ursache identifiziert, können mithilfe des Assistenzsystems Lösungen gefunden werden. So ist es dem Nutzer möglich, Veränderungen an der entsprechenden Stelle im Rezept vorzunehmen. Diese können dann vom Assistenzsysteme virtuell geprüft werden. Auf diese Weise entsteht eine kollaborative Problemlösung.  
+Wird das Rezept automatisch ausgeführt, besteht die Möglichkeit, dass dieses aufgrund eines Fehlers nicht vollständig ausgeführt werden kann. In so einem Fall wird dem Nutzer angezeigt, an welcher Stelle das Rezept unterbrochen wurde und welche Services zugehörig sind. Ausgehend von der Position im Rezept können die notwendigen Bedingungen überprüft und mögliche Ursachen in Erwägung gezogen werden. Ist die Ursache identifiziert, können mithilfe des Assistenzsystems Lösungen gefunden werden. So ist es dem Nutzer möglich, Veränderungen an der entsprechenden Stelle im Rezept vorzunehmen. Diese können dann vom Assistenzsysteme virtuell geprüft werden. Auf diese Weise entsteht eine kollaborative Problemlösung.  
 
 \subsubsection*{KPI}
 Die Key Performace Indicator beinhalten Kennzahlen zu dem Prozess im Modul. Treten Unregelmäßigkeiten auf, oder überschreiten die KPIs vorher festgelegte Grenzwerte, kann dadurch ein Problem ausgelöst werden. Aktuell liegen keine beispielhaften KPIs vor. Denkbar ist es, dass zu den KPI zugehörige Module und Services markiert werden.
@@ -116,7 +116,7 @@ Das Assistenzsystem verarbeitet alle zur Verfügung stehenden Informationen und 
 
 \section{Physisches Design}
 \label{4:Physikalische-Design}
-Ausgehend vom konzeptuellen Design wird das physische Design entworfen. Es beschreibt die konkrete Darstellung der Funktionen und Informationen. Das Design baut auf der bereits existierenden PFE auf und erweitert diese. Grundlage bietet das Material Design \cite{MaterialDesign} der Google Inc. Zur klaren Abgrenzung von Assistenzsystem und PFE wird auch das Farbschema erweitert. Das Assistenzsystem bedient sich an Grüntönen (siehe Anhang \ref{A:Farbschema-Assistenz}), die mittels des Color Tools \cite{ColorTool} ausgewählt wurden.
+Ausgehend vom konzeptuellen Design wird das physische Design entworfen. Es beschreibt die konkrete Darstellung der Funktionen und Informationen. Das Design baut auf der bereits existierenden PFE auf und erweitert diese. Grundlage bietet das Material Design \cite{MaterialDesign}, entwickelt von Google. Zur klaren Abgrenzung von Assistenzsystem und PFE wird auch das Farbschema erweitert. Das Assistenzsystem bedient sich an Grüntönen (siehe Anhang \ref{A:Farbschema-Assistenz}), die mittels des Color Tools \cite{ColorTool} ausgewählt wurden.
 
 %\subsection{Prozessführungsebene}
 In der bereits existierenden Prozessführungsebene ist der aktuelle Status sichtbar. In Bild \ref{pic:pD-PFE} ist die PFE um eine Meldung erweitert. Über den Button \textbf{Problem bearbeiten} gelangt man zur Problembeschreibung.
@@ -163,7 +163,7 @@ Für ein gegebenes Problem und anvisierte Ziele ist vor allem der Weg zum Ziel r
 \end{figure}
 
 \subsection{Entscheidung}
-Hat der Nutzer sich für eine Lösung entschieden, sind keine Änderungen mehr möglich. Die Entscheidung wird hervorgehoben (siehe Bild \ref{pic:pD-Entscheidung}) und analog zu den Lösungen auch in der PFE markiert. Das Assistenzsystem könnte aus dieser Entscheidung lernen und so den Wissensschatz erweitern. \nicetohave{Verweis auf Kommdia}
+Hat der Nutzer sich für eine Lösung entschieden, sind keine Änderungen mehr möglich. Die Entscheidung wird hervorgehoben (siehe Bild \ref{pic:pD-Entscheidung}) und analog zu den Lösungen auch in der PFE markiert. Das Assistenzsystem könnte aus dieser Entscheidung lernen und so den Wissensschatz erweitern \cite{Rahm2018}.
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.7]{DA_files/Bilder/Konzept/Skizze-Entscheidung.png}

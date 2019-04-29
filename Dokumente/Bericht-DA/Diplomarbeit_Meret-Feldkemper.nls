@@ -1,0 +1,22 @@
+\begin{thenomenclature} 
+
+ \nomgroup{B}
+
+  \item [{bspw.}]\begingroup beispielsweise\nomeqref {\relax 0}
+		\nompageref{xi}
+  \item [{HMI}]\begingroup Human Machine Interface\nomeqref {\relax 0}
+		\nompageref{xi}
+  \item [{MTP}]\begingroup Modul Type Package\nomeqref {\relax 0}
+		\nompageref{xi}
+  \item [{PFE}]\begingroup Prozessführungsebene\nomeqref {\relax 0}
+		\nompageref{xi}
+  \item [{SUS}]\begingroup System Usability Scale\nomeqref {\relax 0}
+		\nompageref{xi}
+  \item [{UX}]\begingroup User Experience\nomeqref {\relax 0}
+		\nompageref{xi}
+  \item [{vgl.}]\begingroup vergleiche\nomeqref {\relax 0}
+		\nompageref{xi}
+  \item [{z. B.}]\begingroup zum Beispiel\nomeqref {\relax 0}
+		\nompageref{xi}
+
+\end{thenomenclature}

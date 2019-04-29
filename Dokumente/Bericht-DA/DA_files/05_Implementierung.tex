@@ -1,9 +1,8 @@
 \chapter{Prototyp}
 \label{Prototyp}
-\nicetohave{Einleitung?}
-Das Konzept beschreibt, welche Funktionen umgesetzt werden müssen und wie die Informationen für den Problemlöseprozess dargestellt werden können. In diesem Abschnitt wird das Konzept in das Design der PFE \cite{} \todo{Verweis} eingegliedert und anhand des Use Case prototypisch dargestellt.
+Das Konzept beschreibt, welche Funktionen umgesetzt werden müssen und wie die Informationen für den Problemlöseprozess dargestellt werden können. In diesem Abschnitt wird das Konzept in das Design der PFE \cite{Hensel2019} eingegliedert und anhand des Use Case prototypisch dargestellt.
 
-Der Prototyp wird mit dem Programm Axure \cite{axure} \todo{Verweis} umgesetzt. Neben der Möglichkeit einen digitalen Prototypen umfangreich umzusetzen, bietet das Programm auch sehr gute Voraussetzungen für eine abschließende Validierung.
+Der Prototyp wird mit dem Programm Axure \cite{axure} umgesetzt. Neben der Möglichkeit einen digitalen Prototypen umfangreich umzusetzen, bietet das Programm auch sehr gute Voraussetzungen für eine abschließende Validierung.
 \\ \\
 Während des Problemlöseprozesses nimmt das Systeme verschiedene Zustände an (siehe Abbildung \ref{pic:Zustandsdiagramm-Assistenzsystem}). Zu Beginn ist nur die grundlegende PFE dargestellt. Nach sieben Sekunden zeigt das System eine Meldung an, die durch das Modul Temper ausgelöst wurde. Nach Erscheinen der Meldung hat der Nutzer die Möglichkeit auf den Button \textbf{Problem bearbeiten} zu klicken. Durch diese Aktion wird das Problem genauer angezeigt. Die Interaktionsmöglichkeiten in diesem Zustand sind in Abschnitt \ref{5:Problembeschreibung} näher beschrieben. Nach der Begutachtung und Spezifikation des Problems wechselt das Assistenzsystem durch Betätigung des Buttons\textbf{ Lösungen finden}, abhängig von den eingegebenen Zielen, in den Zustand \textit{Lösungen}. Soll das Problem bearbeitet werden so kann in den Zustand \textit{Problem} durch Klicken auf \textbf{Problembeschreibung} gewechselt werden. 
 
@@ -58,11 +57,11 @@ Innerhalb der verschiedenen Zustände des Rezepts sind weitere Interaktionen mö
 \end{figure}
 
 \subsection{Service Launcher}
-Der Service Launcher zeigt, abhängig von der gewählten Sortierung und dem ausgewählten Modul, in der Navigation die Services an (siehe Abbildung \ref{pic:Aktivitaetsdiagramm-ServiceLauncher}). Der Nutzer hat zudem die Möglichkeit durch Klicken auf den Service weitere Informationen zu bekommen. Es werden die möglichen Zustandsübergänge, der Operation Mode und die Strategy angezeigt (siehe Bild \ref{pic:Service-offen} \todo{ Quelle}). Ebenso kann der Nutzer durch Klicken auf das Zahnrad-Symbol die Einstellung der Parameter, der Strategy und des Operation Mode ändern. Solange ein Service ausgewählt ist, werden die anderen ausgeblendet und sind erst wieder anwählbar, wenn der aktuelle Service geschlossen wurde.
+Der Service Launcher zeigt, abhängig von der gewählten Sortierung und dem ausgewählten Modul, in der Navigation die Services an (siehe Abbildung \ref{pic:Aktivitaetsdiagramm-ServiceLauncher}). Der Nutzer hat zudem die Möglichkeit durch Klicken auf den Service weitere Informationen zu bekommen. Es werden die möglichen Zustandsübergänge, der Operation Mode und die Strategy angezeigt (siehe Bild \ref{pic:Service-offen}). Ebenso kann der Nutzer durch Klicken auf das Zahnrad-Symbol die Einstellung der Parameter, der Strategy und des Operation Mode ändern. Solange ein Service ausgewählt ist, werden die anderen ausgeblendet und sind erst wieder anwählbar, wenn der aktuelle Service geschlossen wurde.
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.7]{DA_files/Bilder/Prototyp/Service-offen.png}
-\caption{Angeklickter  Service}
+\caption[Angeklickter  Service \textit{nach Hensel et. al.}]{Angeklickter  Service \textit{nach Hensel et. al.} \cite{Hensel2019}}
 \label{pic:Service-offen}
 \end{figure}
 

@@ -35,7 +35,7 @@ Das Konzept der Modularisierung findet vor allem in der verfahrenstechnischen In
 
 In der Namur-Empfehlung NE 148 \cite{NAMURArbeitskreis1.122013} ist beschrieben, welche Daten an das übergeordnete Automatisierungssystem übertragen werden und welche dem Modullieferanten zur Wartungsunterstützung zur Verfügung stehen. Die Daten für das übergeordnete Automatisierungssystem umfassen unter anderem die Verriegelungs-, Steuerungs- und Regelungsstruktur, die Prozess- und Sollwerte sowie den Status des Moduls / der Services. Für die Wartungsunterstüzungen werden nur hersteller- und modulspezifische und keine prozessspezifischen Daten übertragen.
 
-Die Funktionalitäten der Module sind in Services gekapselt und werden zustandsbasiert gesteuert. Im Gegensatz zu herkömmlichen Anlagen kann im automatisierten Betrieb nicht mehr auf die einzelnen Aktoren zugegriffen werden. Jeder Service kann 16 verschiedene Zustände mit entsprechenden Zustandsübergängen annehmen (siehe Bild \ref{pic:Zustandsmodell-Service} in Anhang \ref{A:Zustandsmodell-Services}).
+Die Funktionalitäten der Module sind in Services gekapselt und werden zustandsbasiert gesteuert. Im Gegensatz zu herkömmlichen Anlagen kann im automatisierten Betrieb nicht mehr auf die einzelnen Aktoren zugegriffen werden. Jeder Service kann 16 verschiedene Zustände mit entsprechenden Zustandsübergängen annehmen (siehe Anhang \ref{A:Zustandsmodell-Services}).
 
 Die Services können nicht nur modulintern, sondern auch modulübergreifende Abhängigkeiten aufweisen. Die Abhängigkeiten sind in 4 Relationen eingeteilt \cite{Ladiges2018}.
 \begin{itemize}
@@ -46,9 +46,7 @@ Die Services können nicht nur modulintern, sondern auch modulübergreifende Abh
 \end{itemize} 
 Die Beschreibungen der Services und ihrer Betriebsarten sind modulspezifisch und müssen vom Modulingenieur angegeben werden.
 
-Mittels einer Rezeptfahrweise können die Services orchestriert werden. An den Transitionen wird der Status des Service überprüft. Bei Übereinstimmung mit der festgelegten Bedingung wird die Transition geschalten. In jedem Rezeptschritt kann ein entsprechender Service Command mit Serviceparametern gesetzt werden. Das Rezept teilt sich in drei Abstraktionsebenen ein. Auf der höchsten Abstraktionsebene, den Phases, kann der Operator einen groben Überblick über den Prozess erlagen. Die zweite Ebene umfasst die Procedures. Zu jeder Procedure wird das entsprechende Modul zugeordnet. Eine Procedure besteht aus mehreren Steps, die die Service Commands auslösen. \cite{Bloch2017} \todo{Bild einfügen -> Anhang}
-
-\todo{Übergang Problemlösen}
+Mittels einer Rezeptfahrweise können die Services orchestriert werden. An den Transitionen wird der Status des Service überprüft. Bei Übereinstimmung mit der festgelegten Bedingung wird die Transition geschalten. In jedem Rezeptschritt kann ein entsprechender Service Command mit Serviceparametern gesetzt werden. Das Rezept teilt sich in drei Abstraktionsebenen ein (siehe auch Anhang \ref{A:Rezept}). Auf der höchsten Abstraktionsebene, den Phases, kann der Operator einen groben Überblick über den Prozess erlagen. Die zweite Ebene umfasst die Procedures. Zu jeder Procedure wird das entsprechende Modul zugeordnet. Eine Procedure besteht aus mehreren Steps, die die Service Commands auslösen. \cite{Bloch2017}
 
 \section{Problemlösen}
 Man geht davon aus, dass Probleme selbstverständlich existieren. Probleme entstehen allerdings erst, wenn eine konkrete Zielsetzung vorhanden ist, die sich nicht durch Routine erreichen lässt. Ohne Handlungsziele gäbe es keine Probleme. \cite{Funke2015, Betsch2011,  Dorner1984}
@@ -84,7 +82,7 @@ Außerdem kann zwischen einfachen und komplexen Problemen unterschieden werden. 
 \end{itemize}
 
 \subsection{Arten von Problemlösern}
-Nicht nur Probleme können sich unterscheiden, sondern auch die Art, Probleme zu lösen. Es wird zwischen drei bipolaren Dimensionen unterschieden \cite{Betsch2011}. Diese beeinflussen zum einen die Art und Weise, wie Menschen Probleme und Informationen wahrnehmen. Zum anderen, wie sie die Daten verarbeiten und mögliche Lösungen generieren.
+Nicht nur Probleme sind verschieden, sondern auch die Art, Probleme zu lösen. Es wird zwischen drei bipolaren Dimensionen unterschieden \cite{Betsch2011}. Diese beeinflussen zum einen die Art und Weise, wie Menschen Probleme und Informationen wahrnehmen. Zum anderen, wie sie die Daten verarbeiten und mögliche Lösungen generieren.
 
 Die \textbf{Veränderungsorientierung} beschreibt den Umgang mit Grenzen und Vorgaben und macht deutlich, wie der Mensch auf Herausforderungen reagiert.
 	\begin{itemize}
@@ -105,7 +103,7 @@ Der \textbf{Entscheidungfokus} bezieht sich auf die Frage, welche Faktoren welch
 	\end{itemize}
 
 \subsection{Einflüsse}
-Es gibt viele Faktoren, die den Prozess des Problemlösens beeinflussen. Es kann \todo{wird?} zwischen äußeren Faktoren, wie die Ausgangssituation und die verfügbaren Operatoren, und den inneren Faktoren, wie Motivation und Emotionen, unterschieden werden.
+Es gibt viele Faktoren, die den Prozess des Problemlösens beeinflussen. Es kann zwischen äußeren Faktoren, wie die Ausgangssituation und die verfügbaren Operatoren, und den inneren Faktoren, wie Motivation und Emotionen, unterschieden werden.
 
 \subsubsection*{Äußere Faktoren}
 Für das Problemlösen sind die Elemente Ausgangszustand, Zielzustand und die vorhandenen Operatoren entscheidend. Der Ausgangszustand ist häufig nicht konkret und als geschlossenes Problem beschreibbar. Zielzustand und vorhandene Operatoren beeinflussen sich wechselseitig. Bei einem konkreten Ziel kann nach bestimmten Operatoren gesucht werden. Stehen nur bestimmte Operatoren zur Verfügung, können nur bestimmte Zielzustände in Betracht gezogen werden. \cite{Funke2015}
@@ -121,14 +119,14 @@ Die \textbf{Art der Aufgabenstellung} zeigt beispielsweise unterschiedliche Erge
 \item \textbf{Degeneration der Hypothesenbildung:} Es werden Hypothesen global gebildet und Ziele werden unkonkreter.
 \end{itemize}
 
-\textbf{Gruppen} erzielen beim komplexen Problemlösen im Gegensatz zu Einzelpersonen bessere Ergebnisse. Zudem werden Gruppenentscheidungen meist besser akzeptiert. Den größten Einfluss auf die Gruppenleistung hat das individuelle Vorwissen.
+\textbf{Gruppen} erzielen beim komplexen Problemlösen, im Gegensatz zu Einzelpersonen, bessere Ergebnisse. Zudem werden Gruppenentscheidungen meist besser akzeptiert. Den größten Einfluss auf die Gruppenleistung hat das individuelle Vorwissen.
 
 Die hohe \textbf{Transparenz} eines Systems kann zu besseren Leistungen führen. Es ist jedoch nicht eindeutig in welchem Maße die Transparenz einen Einfluss hat, da es gegensätzliche Untersuchungen dazu gibt.
 
 Es wird davon ausgegangen, dass die \textbf{Art der Informationsdarbietung} einen Einfluss auf die Informationsverarbeitung hat.
 
 \subsubsection*{Innere Faktoren}
-Die \textbf{Motivation} eines Menschen setzt erst den Problemlöseprozess in Gang \cite{Dorner1984}. Das Motiv des Problemlösers in Verbindung mit der aktuellen Situation hat dabei einen hohen Stellenwert. Dörner \cite{Dorner1984} bezeichnet im Zusammenhang mit dem Problemlösen das Kontrollmotiv als besonders bedeutsam. Wenn etwas nicht in den Erwartungshorizont des Menschen passt, dann kann dies einen Mangelzustand hervorrufen.
+Die \textbf{Motivation} eines Menschen setzt erst den Problemlöseprozess in Gang \cite{Dorner1984}. Das Motiv des Problemlösers hat dabei, in Verbindung mit der aktuellen Situation, einen hohen Stellenwert. Dörner \cite{Dorner1984} bezeichnet im Zusammenhang mit dem Problemlösen das Kontrollmotiv als besonders bedeutsam. Wenn etwas nicht in den Erwartungshorizont des Menschen passt, dann kann dies einen Mangelzustand hervorrufen.
 
 Ebenfalls einen Einfluss haben \textbf{Emotionen}. Diese wirken sich auf den Ablauf des Denkens aus. So vermindern negative Emotionen die Anzahl an Selbstreflektionen beim Denken und rufen Notfallreaktionen hervor. Positive Emotionen können hingegen zu Nachlässigkeit und Oberflächlichkeit führen. Wie groß der Einfluss der Emotionen auf den Problemlöseprozess ist, hängt von dem Selbstkonzept des Individuums ab. Das Selbstkonzept beschreibt die Kompetenz, die in heuristische und epistemische Kompetenz eingeteilt ist. Die heuristische Kompetenz beschreibt das Zutrauen, das jemand in seine Fähigkeiten hat, mit Problemsituationen umzugehen, für die es keine eindeutige Verhaltensweise gibt. Die epistemische Kompetenz zeichnet sich durch das Zutrauen aus, eine Situation aufgrund des vorhandenen Wissens zu bewältigen. Zusammen ergibt sich daraus die aktuelle Kompetenz. \cite{Dorner1984}
 
@@ -149,7 +147,7 @@ Abschließend erfolgt in Phase fünf die \textbf{Ergebnisbewertung}. In dieser w
 
 \subsection{Störungsdiagnose}
 \label{2-Störungsdiagnose}
-Bei der Störungsdiagnose ist im Störfall eine effiziente Problemlösung gefragt. Das Wissen und Handeln des Individuums steht dabei im Kontext technischer Systeme. Es werden die beiden Wissensarten Strukturwissen und das Kontroll- \& Steuerungswissen unterschieden. \cite{Funke2015}
+Bei der Störungsdiagnose ist im Störfall eine effiziente Problemlösung gefragt. Das Wissen und Handeln des Individuums steht dabei im Kontext technischer Systeme. Es werden die beiden Wissensarten das Strukturwissen und das Kontroll- \& Steuerungswissen unterschieden. \cite{Funke2015}
 
 Das Strukturwissen bezieht sich auf die Schnittstellenebene, das Interface, und die Systemebene. Es beinhaltet Faktenwissen über die Funktionsweise und Organisation der Komponenten und deren möglichen Zustände. Es ist möglich, dass ein Bediener umfassende Kenntnisse über das Interface hat, aber über keinerlei Systemwissen verfügt. Eine Steuerung des Systems ist mit reinem Strukturwissen nicht möglich. \cite{Funke2015, Kluwe1997}
 
@@ -163,7 +161,7 @@ Kollaboration bietet die Chance verteilte Informationen für das Lösen von Prob
 \section{Kommunikation}
 Kommunikation ist beim kollaborativen Problemlösen ein wichtiger Aspekt. Mittels Kommunikation kann das gemeinsame Verständnis des Problems hergestellt und aufrecht gehalten werden. Um Missverständnisse vorzubeugen, ist es erforderlich klare und geeignete Fragen zu stellen. Das Stellen von Fragen ist wichtig, um ungeteilte Informationen auszutauschen. Ebenso wichtig ist das richtige Zuhören, da die meisten Menschen besser Informationen geben als aufnehmen können. Zudem sollten nur die Informationen weitergegeben werden, die für die Situation notwendig sind. \cite{Rohner2016}
 
-Während Menschen direkt kommunizieren können, ist bei der Kommunikation mit einer digitalen Assistenz noch ein zusätzliches System notwendig. Welche Systeme dafür verwendbar sind ist in Abschnitt \ref{2:Assistenzsysteme} näher beschrieben. Bei Betrachtung des Aspekts wie kommuniziert wird, fällt auf, dass es vielfältige Möglichkeiten gibt. Häufig angewandt werden Dialogsysteme. Ein Dialog entsteht, wenn Mensch und Maschine in Kooperation eine Aufgabe lösen bei der mehrere Schritte notwendig sind. Dialoge in der Mensch-Maschine-Interaktion können folgende Formen haben \cite{Heinecke2012}:
+Während Menschen direkt kommunizieren können, ist bei der Kommunikation mit einer digitalen Assistenz noch ein zusätzliches System notwendig. Welche Systeme dafür verwendbar sind, ist in Abschnitt \ref{2:Assistenzsysteme} näher beschrieben. Bei Betrachtung des Aspekts wie kommuniziert wird, fällt auf, dass es vielfältige Möglichkeiten gibt. Häufig angewandt werden Dialogsysteme. Ein Dialog entsteht, wenn Mensch und Maschine in Kooperation eine Aufgabe lösen bei der mehrere Schritte notwendig sind. Dialoge in der Mensch-Maschine-Interaktion können folgende Formen haben \cite{Heinecke2012}:
 \begin{itemize}
 \item \textbf{Kommando:} Der Mensch gibt über eine Tastatur vordefinierte Kommandos ein, an die er sich erinnern muss. Dialoge mit Kommandos sind benutzerbestimmt, da das System nur auf die Eingaben des Nutzers reagiert.
 \item \textbf{Menü:} Die Kommandos werden mit Hilfe einer Liste zur Verfügung gestellt. Der Nutzer kann dann aus diesen auswählen. Ist das Menü statisch, dann ist es systembestimmt.
@@ -306,7 +304,7 @@ Die richtige Informationsdarstellung ist wichtig, um den Problemlöseprozess nic
 \end{itemize}
 
 \subsection{User Experience}
-Im Zusammenhang mit einer optimalen Gestaltung werden die Erlebnisse, die der Nutzer bei der Verwendung von Technologien erfährt, immer wichtiger. Technologie ist mehr als ein Tool, das verwendet wird um Zeit zu generieren, die schön gestaltet werden kann. \nicetohave{umformulieren!}. Sie kann vielmehr selbst eine Quelle für Vergnügen sein. \cite{Hassenzahl2008}
+Im Zusammenhang mit einer optimalen Gestaltung werden die Erlebnisse, die der Nutzer bei der Verwendung von Technologien erfährt, immer wichtiger. Technologie ist mehr als ein Tool, das verwendet wird um Zeit zu generieren, die schön gestaltet werden kann. \nicetohave{umformulieren!} Sie kann vielmehr selbst eine Quelle für Vergnügen sein. \cite{Hassenzahl2008}
 
 User Experience (UX) verschiebt die Aufmerksamkeit von Produkt und Material (bspw. Funktionen und Interaktionen) zu den Menschen und den Gefühlen \cite{Hassenzahl2008}. Für Hassenzahl \citep[12]{Hassenzahl2008} ist UX \glqq a momentary, primarily evaluative feeling (good-bad) while interacting with a product or service.\grqq \ Der Titel \glqq Attention web designers: You have 50 milliseconds to make a good first impression!\grqq \ \citep[92]{Hassenzahl2006} beschreibt die Relevanz eines guten UX-Designs sehr treffend. 
 %Unterschiedliche konzeptuelle und methodische Ansätze führen zu verschiedenen Blickwinkeln, die stark voneinander profitieren.

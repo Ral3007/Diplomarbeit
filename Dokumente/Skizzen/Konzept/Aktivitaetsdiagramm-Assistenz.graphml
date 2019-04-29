@@ -44,7 +44,7 @@ Anlage auswerten<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMo
       <data key="d6">
         <y:GenericNode configuration="com.yworks.sbgn.Tag">
           <y:Geometry height="40.0" width="80.0" x="767.9345333333334" y="216.26488888888883"/>
-          <y:Fill color="#CCFFCC" transparent="false"/>
+          <y:Fill color="#98BF33" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="center" visible="true" width="46.01171875" x="16.994140625" xml:space="preserve" y="10.6494140625">Hinweis<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
@@ -57,7 +57,7 @@ Anlage auswerten<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMo
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.networkMessage">
           <y:Geometry height="40.0" width="80.0" x="500.924" y="308.75234421798683"/>
-          <y:Fill color="#CCFFCC" transparent="false"/>
+          <y:Fill color="#98BF33" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="30.009765625" x="24.9951171875" xml:space="preserve" y="10.6494140625">Ziele<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
@@ -81,7 +81,7 @@ suchen<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:Mod
       <data key="d6">
         <y:GenericNode configuration="com.yworks.sbgn.Tag">
           <y:Geometry height="40.0" width="80.0" x="767.9345333333334" y="308.75234421798683"/>
-          <y:Fill color="#CCFFCC" transparent="false"/>
+          <y:Fill color="#98BF33" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="center" visible="true" width="56.716796875" x="11.6416015625" xml:space="preserve" y="10.6494140625">Lösungen<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
@@ -130,7 +130,7 @@ suchen<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:Mod
       <data key="d6">
         <y:GenericNode configuration="com.yworks.sbgn.Tag">
           <y:Geometry height="40.0" width="80.0" x="500.924" y="384.87617210899344"/>
-          <y:Fill color="#CCFFCC" transparent="false"/>
+          <y:Fill color="#98BF33" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="center" visible="true" width="56.03125" x="11.984375" xml:space="preserve" y="3.298828125">Lösung
 speichern<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -158,7 +158,7 @@ abspeichern<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       <data key="d6">
         <y:GenericNode configuration="com.yworks.sbgn.Tag">
           <y:Geometry height="40.0" width="103.68000000000006" x="500.924" y="461.00000000000006"/>
-          <y:Fill color="#CCFFCC" transparent="false"/>
+          <y:Fill color="#98BF33" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="center" visible="true" width="84.056640625" x="9.811679687500032" xml:space="preserve" y="3.298828125">Problem
 abgeschlossen<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>

@@ -1,0 +1,14 @@
+\chapter{Ausblick}
+\label{Ausblick}
+Diese Arbeit zeigt, dass der Entwurf einen Assistenzsystems für modulare Anlagen vielschichtig ist und von vielen Faktoren beeinflusst wird. Für eine erfolgreiche Anwendung der Nutzeroberfläche sind noch einige Bereiche zu untersuchen. Der Prototyp und auch Teile des Konzepts bauen auf einem konkreten Use Case auf. Das Konzept betrachtet, welche groben Zusammenhänge zwischen Problemauslöser und Gesamtanlage bestehen. Für eine ideale Anpassung an Probleme bleibt zu überprüfen, ob die groben Bereiche Modul, KPI, Rezept und Service ausreichend sind. Bis jetzt ist noch nicht eindeutig, welche Probleme in modularen Anlagen im Detail entstehen bzw. entstehen können. Mit diesen Informationen kann die Nutzerplattform weiter entwickelt und getestet werden. Eine Möglichkeit wäre, zunächst zwischen anlagen- und modulspezifischen Problemen zu unterscheiden. 
+
+\todo{überarbeiten}
+%Diese Arbeit zeigt, dass viele Faktoren den Entwurf eines Assistenzsystems für modulare Anlagen beeinflussen. Für eine erfolgreiche Umsetzung sind noch entsprechend viele Bereich zu untersuchen. Der Prototyp und auch Teile des Konzepts bauen auf einem konkreten Use Case auf. Das Konzept betrachtet, welche groben Zusammenhänge zwischen Problemauslöser und Gesamtanlage bestehen. Damit sich die Interaktionsplattform ideal anpassen kann, muss noch erforscht werden, welche Probleme im Detail entstehen bzw. entstehen könnten und wie sich diese konkret unterscheiden lassen. Eine Möglichkeit ist, zunächst zwischen anlagen- und modulspezifischen Problemen zu unterscheiden. Im Zuge dessen ist auch zu untersuchen, welche Daten vom Modul an die Assistenz und welche Daten von der Assistenz an die Interaktionsplattform übertragen werden müssen. Bei der Datenübertragung ist sowohl die Problembeschreibung als auch die Lösungsfindung zu berücksichtigen. 
+
+Es ist noch nicht geklärt, welche Daten vom MTP bereitgestellt werden müssen, damit die Assistenz Lösungen finden und den Nutzer ideal unterstützen kann. Dafür ist auch zu untersuchen, welche Möglichkeiten zur Lösungsfindung anwendbar sind. Es stellen sich folgende Fragen: Basieren Lösungen auf schon vorher bearbeitenden Problemen? Hat der Nutzer über eine virtuelle modulare Anlagen die Möglichkeit, vorab Lösungen zu testen? Kann die Assistenz die Lösung von ähnlichen Probleme mit der virtuellen Anlage testen, um vorab zu bestimmen, ob es eine sinnvolle Lösung ist? Diese Fragen müssen für die Anwendung der Nutzeroberfläche noch beantwortet werden.
+---------------------------------------------
+
+Welche Informationen sind für welche Ziele relevant?
+
+Wie unterscheiden sich Meldungen, Warnungen, Alarme hinsichtlich Zeit, Komplexität? Kann man dort schon Probleme unterscheiden? Welche Informationen müssen übergeben werden?
+

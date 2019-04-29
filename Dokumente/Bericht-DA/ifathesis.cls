@@ -613,7 +613,7 @@
           \ifthenelse{\equal{\@ifaThesis}{Studienarbeit}}{STUDIENARBEIT}{}
           \ifthenelse{\equal{\@ifaThesis}{Final Project}}{FINAL PROJECT}{}
           \ifthenelse{\equal{\@ifaThesis}{Forschungspraktikum}}{FORSCHUNGSPRAKTIKUM}{}
-          \hfill Bearbeiter: \@ifaAuthor
+          \hfill Bearbeiterin: \@ifaAuthor
         \end{flushleft}
       }{
         \thispagestyle{\chapterpagestyle}

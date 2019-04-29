@@ -90,6 +90,13 @@ year = {2017},
 month = {11},
 doi = {10.17560/atp.v59i10.1899}
 }
+@phdthesis{Hensel2019,
+author = {S. Hensel and A. Menschner and H. Bloch and S. Heinze and M. Hoernicke and K.Stark and T. Knohl and J. Bernshausen and G.Lustig and A. Wittenbrink, A. Fay and L. Urbas},
+title = {A Service-oriented orchestration and visualization approach for the state-based control of modular process plants},
+year = {2019},
+type = {Technischer Bericht},
+school = {TU Dresden, Institut für Prozessleittechnik, Arbeitsgruppe Systemverfahrenstechnik}
+}
 
 %Problemsolving
 @book{Funke2015,
@@ -282,7 +289,7 @@ year = {2007}
 @inproceedings{Miller2005,
 author = {Christopher A. Miller and Harry Funk and Robert Goldman and John Meisner and Peggy Wu},
 title = {Implications of Adaptive vs. Adaptable UIs on Decision
-Making: \glqq Why Automated Adaptive-ness\grqq \ Is Not Always the
+Making: \glqq Why Automated Adaptiveness\grqq \ Is Not Always the
 Right Answer},
 booktitle = {In Proceedings of the 1st International Conference on Augmented Cognition},
 month = {07},
@@ -539,6 +546,21 @@ pages = {},
 title = {User Experience Questionnaire Handbook},
 doi = {10.13140/RG.2.1.2815.0245}
 }
+@article{Brooke2013,
+ author = {Brooke, John},
+ title = {SUS: A Retrospective},
+ journal = {Journal of Usability Studies},
+ issue_date = {February 2013},
+ volume = {8},
+ number = {2},
+ month = feb,
+ year = {2013},
+ pages = {29--40},
+ numpages = {12},
+ acmid = {2817913},
+ publisher = {Usability Professionals' Association},
+ address = {Bloomingdale, IL}
+} 
 
 %Sonstige
 @article{Bainbridge1983,
@@ -598,17 +620,18 @@ type = {Studienarbeit}
 }
 @misc{MaterialDesign,
 url = {https://material.io/},
-organization={Google Inc},
+organization={Google},
 urldate={2019-04-17}
 }
 
 @misc{ColorTool,
 url = {https://material.io/tools/color/#!/?view.left=0&view.right=0&primary.color=689F38},
-organization={Google Inc},
+organization={Google},
 urldate={2019-04-17}
 }
 
 @misc{axure,
 url = {https://www.axure.com/},
-organization = {Axure Software Solutions, Inc.}
+organization = {Axure Software Solutions, Inc.},
+urldate={2019-04-29}
 }

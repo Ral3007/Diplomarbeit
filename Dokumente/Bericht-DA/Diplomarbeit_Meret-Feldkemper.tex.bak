@@ -40,13 +40,14 @@
 \usepackage{rotating} %Für Tabellen im Querformat
 %\usepackage{amsmath}
 \usepackage{glossaries}
-
+%\usepackage{subcaption} %Für Caption von Subfigure
+%\usepackage{subfigure}
 
 % Farben für Text
 \definecolor{darkgreen}{HTML}{387002}
-\definecolor{green}{HTML}{689f38}
-\definecolor{lightgreen}{HTML}{99d066}
-\definecolor{white}{HTML}{ffffff}
+\definecolor{green}{HTML}{689F38}
+\definecolor{lightgreen}{HTML}{99D066}
+\definecolor{white}{HTML}{FFFFFF}
 
 % Center Text in Tabelle mit fester Breite
 \newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
@@ -113,6 +114,7 @@
 %\usepackage{textcomp}
 
 \newcommand{\nicetohave}[1]{\todo[color=green!40]{#1}}
+\newcommand{\robert}[1]{\todo[color=blue!40]{#1}}
 
 \begin{document}
 %\printglossaries
