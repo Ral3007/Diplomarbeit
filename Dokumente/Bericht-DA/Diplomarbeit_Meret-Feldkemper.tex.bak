@@ -13,9 +13,9 @@
 % ******************************************************************************/
 
 \documentclass[
-  print,          % print optimized version of the thesis, standard option
+  %print,          % print optimized version of the thesis, standard option
                   % alternative:
-  % screen,        % makes the thesis better readable on screens (onesided, coloured links)
+  screen,        % makes the thesis better readable on screens (onesided, coloured links)
                   % use only 'print' OR 'screen'
                   % ATTENTION: 'screen' changes size of text area slightly. Always optimize document WITH
                   % 'print' option first for printing (size of graphics etc.) and convert afterwards
@@ -115,6 +115,8 @@
 
 \newcommand{\nicetohave}[1]{\todo[color=green!40]{#1}}
 \newcommand{\robert}[1]{\todo[color=blue!40]{#1}}
+
+%\usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm]{geometry}
 
 \begin{document}
 %\printglossaries

@@ -28,7 +28,7 @@ In der Navigation kann die Ansicht zwischen dem Shopfloor und der ausgewählten 
 Zeigt die Navigation die Subplant an, kann der Nutzer durch Klicken ein Modul anwählen. Diese Auswahl hat Einfluss auf die Rezeptansicht und den Service Launcher. Die entsprechenden Aktionen des Systems sind in Abbildung \ref{pic:Aktivitaetsdiagramm-Navigation-Subplant} dargestellt.
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.6]{DA_files/UML/Prototyp/Aktivitaetsdiagramm-Navigation-Module.pdf}
+\includegraphics[scale=0.58]{DA_files/UML/Prototyp/Aktivitaetsdiagramm-Navigation-Module.pdf}
 \caption{Aktivitätsdiagramm Navigation Subplant - Prototyp}
 \label{pic:Aktivitaetsdiagramm-Navigation-Subplant}
 \end{figure}
@@ -37,14 +37,14 @@ Zeigt die Navigation die Subplant an, kann der Nutzer durch Klicken ein Modul an
 Das Rezept zeigt entweder die Phases, die Procedures oder die Steps an. Ein Wechsel zwischen diesen Ansichten kann zum einen durch die Navigation ausgelöst werden. Zum anderen hat der Nutzer die Möglichkeit durch Klicken auf die einzelnen Phases und Procedurs den angezeigten Detailgrad des Rezepts zu verändern (siehe Abbildung \ref{pic:Zustandsdiagramm-Rezept}).
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.6]{DA_files/UML/Prototyp/Zustandsdiagramm-Rezept.pdf}
+\includegraphics[scale=0.58]{DA_files/UML/Prototyp/Zustandsdiagramm-Rezept.pdf}
 \caption{Zustandsdiagramm Rezept - Prototyp}
 \label{pic:Zustandsdiagramm-Rezept}
 \end{figure}
 Innerhalb der verschiedenen Zustände des Rezepts sind weitere Interaktionen möglich. In den Procedures wird das angewählte Modul hervorgehoben (siehe Abbildung \ref{pic:Aktivitaetsdiagramm-Rezept-Procedures}). Bei den Steps ist es möglich durch Hoverfunktionen weitere Informationen zu erhalten (siehe Abbildung \ref{pic:Aktivitaetsdiagramm-Rezept-Steps}).
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.6]{DA_files/UML/Prototyp/Aktivitaetsdiagramm-Rezept-Procedures.pdf}
+\includegraphics[scale=0.48]{DA_files/UML/Prototyp/Aktivitaetsdiagramm-Rezept-Procedures.pdf}
 \caption{Aktivitätsdiagramm Rezept Procedures - Prototyp}
 \label{pic:Aktivitaetsdiagramm-Rezept-Procedures}
 \end{figure}
@@ -87,9 +87,9 @@ Im Konzept sind bereits die Funktionalitäten für die Problembeschreibung erlä
 \label{5:Loesungen}
 Die präsentierten Lösungen des Assistenzsystems orientieren sich an den eingegebenen Zielen des Nutzers. Der Nutzer hat die Möglichkeit durch Anwählen einer Lösung, die Veränderung in der Navigation, dem Rezept und dem Service Launcher anzusehen. Wie das Assistenzsystem auf die Auswahl des Nutzer reagiert, ist in Abbildung \ref{pic:Aktivitaetsdiagramm-Loesungen} dargestellt. Die Interaktionsmöglichkeiten der Prozessführungsebene verändern sich dabei nicht.
 
-\begin{figure}[htbp]
+\begin{figure}[h!]
 \centering
-\includegraphics[scale=0.6]{DA_files/UML/Prototyp/Aktivitaetsdiagramm-Loesungen.pdf}
+\includegraphics[scale=0.56]{DA_files/UML/Prototyp/Aktivitaetsdiagramm-Loesungen.pdf}
 \caption{Aktivitätsdiagramm Lösungen - Prototyp}
 \label{pic:Aktivitaetsdiagramm-Loesungen}
 \end{figure}

@@ -20,14 +20,26 @@
 \begin{document}
 
 \section{Motivation}
-Durch Voranschreiten der Automatisierung in der Prozessführung sind Anlagenbediener vor allem in kritischen Situationen für Entscheidungen verantwortlich \cite{bainbridget_ironies_1983}. Der Mensch trifft seine Entscheidungen anhand von Beobachtungen und Erfahrungen. Im Zuge der entwickelten Modularisierungskonzept wird dies zunehmend schwieriger. Die Flexibilität der modularen Anlagen stellt die Anlagenbediener vor die Herausforderung, Probleme nicht mehr auf Grundlage von umfangreicher Erfahrung lösen zu können \cite{mueller_2018}. Assistenzsysteme bieten dem Anlagenbediener bei Erkennung von Problemen, deren Zusammenhängen und möglichen Lösungsansätzen Unterstützung. Dabei ist der Mensch mit einzubeziehen und seine Kompetenzen zu würdigen.
+Durch Voranschreiten der Automatisierung sind Anlagenbediener vor allem in kritischen Situationen für Entscheidungen verantwortlich \cite{bainbridget_ironies_1983}. Der Mensch trifft seine Entscheidungen anhand von Beobachtungen und Erfahrungen. Im Zuge der entwickelten Modularisierungskonzepte für die Prozessindustrie wird dies zunehmend schwieriger. Die Flexibilität der modularen Anlagen stellt die Anlagenbediener vor die Herausforderung, Probleme nicht mehr auf Grundlage von umfangreicher Erfahrung lösen zu können \cite{mueller_2018}. Assistenzsysteme können den Anlagenbediener bei Erkennung von Problemen, deren Zusammenhängen und möglichen Lösungsansätzen Unterstützung bieten. 
+%Dabei ist der Mensch mit einzubeziehen und seine Kompetenzen zu würdigen.
+
+Für ein Assistenzsystem in modularen Anlagen wurde zunächst identifiziert, welche Faktoren bei der Entwicklung berücksichtigt werden müssen. Darauf aufbauend entstand ein Konzept für eine Nutzeroberfläche, die zwischen Assistenz und Nutzer kommuniziert (siehe Abbildung \ref{Assistenzsystem}).
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.65]{DA_files/Ablauf-Assistenzsystem.pdf}
+\caption{Assistenzsystem}
+\label{Assistenzsystem}
+\end{figure}
 
 \section{Analyse}
-Tritt ein Problem auf, muss der Nutzer darauf aufmerksam gemacht werden. Wichtig für das Assistenzsystem ist nicht nur die Einordnung, wodurch das Problem ausgelöst wurde, sondern auch wie zeitkritisch und wie komplex das Problem ist. Anhand dieser Merkmale sollte sich die Menge und Art der dargestellten Informationen orientieren. Aktuell erhält der Nutzer mit der Prozessführungsebene (PFE) nur eine Gesamtübersicht über den aktuellen Zustand der Anlage. Treten Meldungen auf, wird dem Nutzer nicht sichtbar gemacht, welcher Bereich betroffen ist und wie die Zusammenhänge sind.
+Tritt in der modularen Anlage ein Problem auf, muss der Nutzer darauf aufmerksam gemacht werden. Wichtig für die Assistenz ist nicht nur die Einordnung, wodurch das Problem ausgelöst wurde, sondern auch, wie zeitkritisch und komplex das Problem ist. Anhand dieser Merkmale soll sich die Menge und Art der dargestellten Informationen orientieren.
+%Aktuell erhält der Nutzer mit der Prozessführungsebene (PFE) nur eine Gesamtübersicht über den aktuellen Zustand der Anlage. Treten Meldungen auf, wird dem Nutzer nicht sichtbar gemacht, welcher Bereich betroffen ist und wie die Zusammenhänge sind.
 
 Sollen Lösungen für ein entstandenes Problem gefunden werden, sind vor allem die Ziele eines produzierenden Unternehmens zu berücksichtigen. Diese reichen von der Verfügbarkeit von Mitarbeitern bis zum Aufwand Änderungen an der Anlage vorzunehmen.
 
 \section{Konzept}
+Die entwickelte Nutzeroberfläche baut auf einer bereits entwickelten Prozessführungsebene (PFE) auf und begleitet den Nutzer durch den Problemlöseprozess. Die Anpassung an den Problembereich wurde integriert, indem irrelevante Informationen versteckt werden. Der Nutzer kann, durch die Anpassung der Ziele an die aktuellen Bedingungen im Unternehmen, den Problemlöseprozess steuern. Anhand der eingegebenen Spezifikationen sucht das Assistenzsystem dann nach Lösungsmöglichkeiten, die dem Nutzer sowohl visuell als auch zahlenmäßig dargestellt werden (siehe Abbildung \ref{PFE-Loesungen}). Diese Angaben sollen eine Entscheidung erleichtern.
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.4]{DA_files/Prototyp-PFE-Loesung2.png}
@@ -35,18 +47,22 @@ Sollen Lösungen für ein entstandenes Problem gefunden werden, sind vor allem d
 \label{PFE-Loesungen}
 \end{figure}
 
-Das entwickelte User Interface baut auf einer bereits entwickelten PFE auf. Dies bietet den Vorteil, dass sich der Nutzer bei Anwendung des Assistenzsystem nicht an eine neue Benutzeroberfläche gewöhnen muss. Die Anpassung an den Problembereich wurde integriert, indem irrelevante Informationen versteckt werden. Der Nutzer kann durch die Anpassung der Ziele an die aktuellen Bedingungen im Unternehmen den Problemlöseprozess steuern. Anhand der eingegebenen Spezifikationen sucht das Assistenzsystem dann nach Lösungsmöglichkeiten, die dem Nutzer sowohl visuell als auch zahlenmäßig dargestellt werden (siehe Abbildung \ref{PFE-Loesungen}). Da ein Mensch 
-
- die der Nutzer begutachten kann, um eine Entscheidung zu treffen.
-
-
 \section{Validierung}
-Die Befragung einiger Experten zu dem vorgestellten Prototypen ergab ein insgesamt positive Bewertung. Sie schätzen insbesondere die gute Übersichtlichkeit und einfache Bedienung des Assistenzsystems. Besonders hervorgehoben wurde die Tatsache, dass die Assistenz bereits eine Vorauswahl an möglichen Zielen und Lösungen trifft. Dadurch wird der Nutzer nicht mit zu vielen Informationen überfordert.
+Die Umfrage unter Experten ergab, dass die Entscheidung zwar erleichtert wird, sie jedoch immer noch schwierig ist.
+Sie wünschen sich einheitlich die Angabe von Gesamtkosten, die bei Anwendung der Lösung entstehen. Dadurch erhoffen sie sich eine bessere Vergleichbarkeit der einzelnen Lösungen. Insgesamt wurde der Automatisierungsgrad des Assistenten positiv bewertet. Die Auswahl an Zielen und Lösungen ist, laut der Experten, angemessen, da diese den Nutzer gut leiten. Aufgrund des schlichten Aufbaus, der Übersichtlichkeit und der einfachen Bedienung wird die Nutzeroberfläche von den Experten empfohlen. 
+%Für eine konkrete Anwendung der Nutzeroberfläche wird zudem gewünscht, den Nutzer auch bei der Durchführung der Lösung zu unterstützen.
+%Die Befragung einiger Experten zu dem vorgestellten Prototypen ergab ein insgesamt positive Bewertung. Sie schätzen insbesondere die gute Übersichtlichkeit und einfache Bedienung des Assistenzsystems. Besonders hervorgehoben wurde die Tatsache, dass die Assistenz bereits eine Vorauswahl an möglichen Zielen und Lösungen trifft. Dadurch wird der Nutzer nicht mit zu vielen Informationen überfordert. 
 
 
 \section{Zusammenfassung und Ausblick}
-Nutzer kann mit entsprechenden Informationen geeignet unterstützt werden. Offen bleibt, wie der Nutzer selber Probleme und Lösungen eingeben kann.
+Der Anlagenbediener wird mit dem Assistenzsystem durch die Phasen des Problemlöseprozesses begleitet. Die
+Nutzeroberfläche stellt die Probleme und Lösungen dar und dient zur Kommunikation zwischen Mensch und Assistenz.
+Die Assistenz analysiert im Hintergrund die vorhandenen Informationen und teilt sie dem Nutzer über die Nutzeroberfläche mit. Dadurch entsteht ein kollaborativer Problemlöseprozess. Die Auswertung der Umfrage zeigt, dass die Nutzeroberfläche, bei Erweiterung um ein intelligentes System, Anwendung findet.
 
+%Offen bleibt, wie der Nutzer selber Probleme und Lösungen eingeben kann.
+Mit der entwickelten Nutzeroberfläche kann nun untersucht werden, welchen Einfluss die Menge der Informationen über Problem und Lösung auf die Entscheidung des Anlagenbediener hat.
+
+Was muss im MTP noch übertragen werden??
 
  {\tiny\renewcommand{\section}[2]{}%
  	 \begin{thebibliography}{8.5}

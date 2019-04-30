@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.30)  23 APR 2019 15:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.30)  30 APR 2019 16:10
 entering extended mode
 **./DA_Poster_Meret-Feldkemper.tex
 (DA_Poster_Meret-Feldkemper.tex
@@ -1328,11 +1328,17 @@ File: DA_files/Passbild.jpg Graphic file (type jpg)
 <use DA_files/Passbild.jpg>
 Package pdftex.def Info: DA_files/Passbild.jpg  used on input line 20.
 (pdftex.def)             Requested size: 99.58464pt x 139.49097pt.
-<DA_files/Prototyp-PFE-Loesung2.png, id=6, 1202.24156pt x 694.09312pt>
+<DA_files/Ablauf-Assistenzsystem.pdf, id=6, 743.77875pt x 520.94624pt>
+File: DA_files/Ablauf-Assistenzsystem.pdf Graphic file (type pdf)
+<use DA_files/Ablauf-Assistenzsystem.pdf>
+Package pdftex.def Info: DA_files/Ablauf-Assistenzsystem.pdf  used on input lin
+e 30.
+(pdftex.def)             Requested size: 483.45045pt x 338.61105pt.
+<DA_files/Prototyp-PFE-Loesung2.png, id=7, 1202.24156pt x 694.09312pt>
 File: DA_files/Prototyp-PFE-Loesung2.png Graphic file (type png)
 <use DA_files/Prototyp-PFE-Loesung2.png>
 Package pdftex.def Info: DA_files/Prototyp-PFE-Loesung2.png  used on input line
- 33.
+ 45.
 (pdftex.def)             Requested size: 480.8881pt x 277.63232pt.
  [1{C:/Users/Meret Feldkamper/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
 }
@@ -1342,26 +1348,27 @@ Non-PDF special ignored!
 <special> header=./a0header.ps
 Non-PDF special ignored!
 <special> papersize=59.4cm,41.98cm
- <./TU_Logo_SW.pdf> <./DA_files/Passbild.jpg> <./DA_files/Prototyp-PFE-Loesung2
-.png>] (DA_Poster_Meret-Feldkemper.aux) ) 
+ <./TU_Logo_SW.pdf> <./DA_files/Passbild.jpg> <./DA_files/Ablauf-Assistenzsyste
+m.pdf> <./DA_files/Prototyp-PFE-Loesung2.png>] (DA_Poster_Meret-Feldkemper.aux)
+ ) 
 Here is how much of TeX's memory you used:
- 18963 strings out of 493305
- 352688 string characters out of 3138839
- 486085 words of memory out of 3000000
- 22107 multiletter control sequences out of 15000+200000
- 14256 words of font info for 69 fonts, out of 3000000 for 9000
+ 18979 strings out of 493305
+ 352996 string characters out of 3138839
+ 488093 words of memory out of 3000000
+ 22112 multiletter control sequences out of 15000+200000
+ 14511 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,13n,94p,825b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
-s12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on DA_Poster_Meret-Feldkemper.pdf (1 page, 439437 bytes).
+ 60i,13n,94p,762b,396s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmti12.pfb>
+Output written on DA_Poster_Meret-Feldkemper.pdf (1 page, 515278 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18460 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 18465 words of extra memory for PDF output out of 20736 (max. 10000000)
 
