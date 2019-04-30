@@ -248,14 +248,14 @@ Für die Bewertung des Assistenzsystems wurden drei Experten\footnote{Für eine 
 \end{figure}
 
 Die Gesamtauswertung des SUS Fragebogens liefert einen Wert von 75,8. Auf der Skala von 0 bis 100 ist dieser Wert insgesamt als positiv zu bewerten.  Auffällig ist, dass alle Experten bei der Bedienung des Assistenzsystems etwas unsicher waren (siehe Abbildung \ref{pic:SUS-positiv}). Laut deren Aussage lag das vor allem an versteckten Funktionalitäten. Von keinem der Experten wurde die Möglichkeit gefunden, ein Ziel zu löschen. Es war nicht ersichtlich, dass man ein Ziel überhaupt löschen kann. Ideen der Experten sind zum einen das Mülleimer-Symbol auszugrauen und hervorzuheben, wenn man ein Ziel markiert. Zum anderen wurde gewünscht ein Ziel direkt mit einem Kreuz am rechten Rand zu löschen. Ebenfalls nicht ersichtlich war für einen Experten die Möglichkeit zurück zu navigieren. Warum die Funktion nicht im ersten Schritt gefunden wurde, konnte nicht geklärt werden. Die größte Schwierigkeit bestand in der Entscheidungsfindung. Alles merkten an, dass sie mit der Anzahl an Mitarbeitern wenig anfangen können und wünschen sich die Angabe, welche Kosten ein Mitarbeiter verursacht. Noch leichter wird es aus Ihrer Sicht, wenn sie eine eine Gesamtübersicht der Kosten haben. Sie erhoffen sich davon besser abschätzen zu können, was die beste Variante ist. Der Prototyp bietet ideale Voraussetzung zu überprüfen, wie sich die Entscheidung bei unterschiedlich bereitgestellten Informationen verändert.
+
+Die Experten sind sich einig, dass die meisten Leute das Assistenzsystem schnell beherrschen können (siehe Abbildung \ref{pic:SUS-positiv}). Gelobt wurden dabei der schlichte Aufbau und die grundsätzlich einfache Bedienung. Ebenfalls positiv kam die Vorauswahl an Zielen und Lösungen an, da diese den Nutzer leiten können. Wenn der Nutzer sich vollständig selber überlegen muss, welche Ziele wichtig und welche Lösungen möglich sind, rechnen die Experten mit Konflikten. Insgesamt schätzen die Experten die Menge an Informationen als sehr gut ein und können sich vorstellen das Assistenzsystem regelmäßig zu nutzen.
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.65]{DA_files/Bilder/Validierung/Bild-negative_Aussagen.pdf}
 \caption{Bewertung negativer Aussagen SUS Fragebogen}
 \label{pic:SUS-negativ}
 \end{figure}
-
-Die Experten sind sich einig, dass die meisten Leute das Assistenzsystem schnell beherrschen können (siehe Abbildung \ref{pic:SUS-positiv}). Gelobt wurden dabei der schlichte Aufbau und die grundsätzlich einfache Bedienung. Ebenfalls positiv kam die Vorauswahl an Zielen und Lösungen an, da diese den Nutzer leiten können. Wenn der Nutzer sich vollständig selber überlegen muss, welche Ziele wichtig und welche Lösungen möglich sind, rechnen die Experten mit Konflikten. Insgesamt schätzen die Experten die Menge an Informationen als sehr gut ein und können sich vorstellen das Assistenzsystem regelmäßig zu nutzen.
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.65]{DA_files/Bilder/Validierung/Bild-positive_Aussagen.pdf}

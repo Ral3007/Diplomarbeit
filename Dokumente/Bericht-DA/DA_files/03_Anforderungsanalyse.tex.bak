@@ -79,7 +79,7 @@ Neben den Problemen, die sich auf herkömmliche Anlage übertragen lassen, könn
 
 \subsection{Prozessführungsebene}
 \label{3:PFE}
-Das MTP stellt eine Reihe an Informationen zur Verfügung. Welche davon wie angezeigt werden, ist Aufgabe der Prozessführungsebene. Für eine bessere Übersicht ist diese in vier Ebenen eingeteilt, die anhand ihrer Detailgrade variieren (siehe Anhang \ref{A:PFE}). Die PFE besteht in Ebene zwei, drei und vier aus vier Bereichen (siehe Bild \ref{pic:Bereiche-PFE}). Ebene eins unterscheidet sich davon. In dieser sind lediglich die KPI, die Navigation und das Rezept sichtbar. Zwischen den verschiedenen Ebenen kann mittels der Navigation gewechselt werden. \cite{Hensel2019}
+Das MTP stellt eine Reihe an Informationen zur Verfügung. Welche davon wie angezeigt werden, ist Aufgabe der Prozessführungsebene. Für eine bessere Übersicht ist diese in vier Ebenen eingeteilt, die anhand ihrer Detailgrade variieren (siehe Anhang \ref{A:PFE}). Die PFE besteht in Ebene zwei, drei und vier aus vier Bereichen (siehe Abbildung \ref{pic:Bereiche-PFE}). Ebene eins unterscheidet sich davon. In dieser sind lediglich die KPI, die Navigation und das Rezept sichtbar. Zwischen den verschiedenen Ebenen kann mittels der Navigation gewechselt werden. \cite{Hensel2019}
 \begin{itemize}
 \item \textbf{KPI:} Zeigt die KPI der einzelnen Module an.
 \item \textbf{Navigation:} Zeigt eine Übersicht über die modulare Anlage an. Durch Klicken auf einzelne Module gelangt man zu mehr Details.
