@@ -1,0 +1,11 @@
+Installationsanleitung
+
+Für die Ansicht des Prototypen wird ein Browser benötigt.
+
+Der Prototypen kann durch Öffnen von "Prototyp-starten" im Ordner Projekt/Software angesehen werden.
+Alternativ kann die Datei problem.html in Ordner Projekt/Software/Assistenzsystem geöffnet werden.
+
+
+
+Für die Veränderung des Prototypen wird (mindestens) Axure Verion 8 benötigt.
+Die Datei findest sich unter Projekt/Software/Protoyp.rp.
