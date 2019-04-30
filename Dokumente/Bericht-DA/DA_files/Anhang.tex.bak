@@ -4,7 +4,7 @@
 
  \begin{figure}[htbp]
  \centering
- \includegraphics[scale=0.31]{DA_files/Bilder/Anhang/Zustandsdiagramm-Services.pdf}
+ \includegraphics[scale=0.34]{DA_files/Bilder/Anhang/Zustandsdiagramm-Services.pdf}
  \caption[Zustandsmodell Services \textit{nach VDI 2658 Blatt 4}]{Zustandsmodell Services \textit{nach VDI 2658 Blatt 4} \citep[]{VDI2658-Blatt4}}
  \label{pic:Zustandsmodell-Service}
  \end{figure}
@@ -12,21 +12,21 @@
 \newpage
 \section{Rezept}
 \label{A:Rezept}
-\begin{figure}
+\begin{figure}[h!]
 \centering
-\includegraphics[scale=0.37]{DA_files/Bilder/Anhang/Phases.pdf}
+\includegraphics[scale=0.29]{DA_files/Bilder/Anhang/Phases.pdf}
 \caption[Rezeptstruktur modulare Anlage - Phases \textit{nach Bloch et.al.}]{Rezeptstruktur - Phases \textit{nach Bloch et.al.} \citep[53]{Bloch2017}}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[h!]
 \centering
-\includegraphics[scale=0.3]{DA_files/Bilder/Anhang/Procedures.pdf}
+\includegraphics[scale=0.29]{DA_files/Bilder/Anhang/Procedures.pdf}
 \caption[Rezeptstruktur modulare Anlage - Procedures \textit{nach Bloch et.al.}]{Rezeptstruktur - Procedures \textit{nach Bloch et.al.} \citep[53]{Bloch2017}}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[h!]
 \centering
-\includegraphics[scale=0.28]{DA_files/Bilder/Anhang/Steps.pdf}
+\includegraphics[scale=0.29]{DA_files/Bilder/Anhang/Steps.pdf}
 \caption[Rezeptstruktur modulare Anlage - Steps \textit{nach Bloch et.al.}]{Rezeptstruktur - Steps \textit{nach Bloch et.al.} \citep[53]{Bloch2017}}
 \end{figure}
 
@@ -50,8 +50,6 @@ Für eine besser Übersicht ist die PFE in vier Ebenen eingeteilt. Auf der obers
 \label{tab:Ebenen-PFE}
 \end{table}
 
-\todo{Bilder PFE}
-
 \chapter{Konzept}
 \section{Farbschema des Assistenzsystems}
 \label{A:Farbschema-Assistenz}
@@ -74,15 +72,19 @@ Anwendung & Header & & Buttons\\
 \label{A:Fragebogen-Validierung}
 %\section{Fragebogen User Experience}
 
-\begin{figure}[htbp]
+\begin{figure}[h!]
 \centering
-\includegraphics[scale=0.8]{DA_files/Bilder/Anhang/Fragebogen-Vorwissen.pdf}
-\caption{Aussagen zum Vorwissen}
+\includegraphics[scale=0.71]{DA_files/Bilder/Anhang/Fragebogen-Vorwissen.pdf}
+\caption{Fragebogen: Aussagen zum Vorwissen}
+\end{figure}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.71]{DA_files/Bilder/Anhang/Fragebogen-Auswertung-1.pdf}
+\caption{Fragebogen: SUS Fragebogen}
 \end{figure}
 
-\begin{figure}[htbp]
+\begin{figure}[t!]
 \centering
-\includegraphics[scale=0.8]{DA_files/Bilder/Anhang/Fragebogen-Auswertung.pdf}
-\caption{Auswertung}
+\includegraphics[scale=0.71]{DA_files/Bilder/Anhang/Fragebogen-Auswertung-2.pdf}
+\caption{Fragebogen: Offene Fragen}
 \end{figure}
-

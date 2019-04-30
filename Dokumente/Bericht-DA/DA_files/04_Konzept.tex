@@ -19,7 +19,7 @@ Die \textbf{Lösungen für das Problem} sollen sinnvoll dargestellt werden. Dabe
 
 Mit einer guten \textbf{User Experience} soll die Entscheidung des Nutzers unterstützt werden. Dieser soll mittels geeignetem Autonomiegrad nicht unterfordert werden. Durch die angemessene Darstellung der Informationen ist eine Überforderung zu vermeiden. Die Darstellung der Informationen hängt auch mit der Vergleichbarkeit der Lösungen zusammen. Gibt es mehrere Lösungen, so muss der Nutzer Unterschiede gut erkennen können, um eine geeignete Entscheidung zu treffen.
 \\ \\
-Wie kann nun der Nutzer durch den Problemlöseprozess begleitet werden? In Abschnitt \ref{2:Phasen-Problemloesen} sind die Phasen des Problemlösens beschrieben. Angelehnt daran wird folgender Ablauf mit entsprechender Unterstützung durch das Assistenzsystem vorgesehen (siehe Bild \ref{pic:Konzeptidee}).
+Wie kann nun der Nutzer durch den Problemlöseprozess begleitet werden? In Abschnitt \ref{2:Phasen-Problemloesen} sind die Phasen des Problemlösens beschrieben. Angelehnt daran wird folgender Ablauf mit entsprechender Unterstützung durch das Assistenzsystem vorgesehen (siehe Abbildung \ref{pic:Konzeptidee}).
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.45]{DA_files/Bilder/Konzept/Konzeptidee.pdf}
@@ -37,7 +37,7 @@ Die Entscheidung für eine entsprechende Lösung wird mittels einer geeignete Da
 Wie kann nun der oben beschriebene Problemlöseprozess unterstützt werden? Zunächst muss der Nutzer einen Überblick über den aktuellen Status erhalten. Taucht ein neues Problem auf, interagieren Nutzer und Assistent bis eine geeignete Lösung gefunden wird (siehe Abschnitt \ref{4:Kollaboration}). Die notwendigen Funktionen für diesen kollaborativen Problemlöseprozess sind im Folgenden detailliert beschrieben.
 
 \subsubsection*{Aktueller Status}
-Der aktuelle Status kann über die PFE abgelesen werden. Diese gibt einen Überblick über die aktuelle Verschaltung der Module, das Rezept, die Key Performace Indicator (KPIs) und die Services. Auch eine Übersicht über das Anlagenequipment eines jeden Moduls ist vorhanden. Die notwendigen Meldungen, Warnungen und Alarme werden derzeit vom Modul nicht über das MTP bereitgestellt und daher auch nicht angezeigt. Durch die Integration dieser kann der Nutzer bei der Problemidentifikation unterstützt werden. Tritt beispielsweise eine Meldung auf, hat der Nutzer die Möglichkeit dieses als Problem aufzunehmen und nach Lösungen zu suchen.
+Der aktuelle Status kann über die PFE abgelesen werden. Diese gibt einen Überblick über die aktuelle Verschaltung der Module, das Rezept, die Key Performance Indicator (KPIs) und die Services. Auch eine Übersicht über das Anlagenequipment eines jeden Moduls ist vorhanden. Die notwendigen Meldungen, Warnungen und Alarme werden derzeit vom Modul nicht über das MTP bereitgestellt und daher auch nicht angezeigt. Durch die Integration dieser kann der Nutzer bei der Problemidentifikation unterstützt werden. Tritt beispielsweise eine Meldung auf, hat der Nutzer die Möglichkeit dieses als Problem aufzunehmen und nach Lösungen zu suchen.
 
 \subsubsection*{Neues Problem}
 Welche Rahmenbedingungen sind für die Charakterisierung eines Problems relevant? In der Analyse (Abschnitt \ref{3:Informationsbedarf-Operator}) wird sowohl auf die technischen als auch auf die wirtschaftlichen Ziele verwiesen. Im Kontext eines produzierenden Unternehmens ist die Wirtschaftlichkeit eine wichtige ökonomische Zielgröße \cite{Bloech2014}. Dem Nutzer wird aus diesem Grund die Möglichkeit gegeben, relevante Ziele hinzuzufügen und genauer zu spezifizieren. Welche dies sind, ist von dem Unternehmen und dem Problem abhängig.
@@ -154,7 +154,7 @@ Hat der Nutzer alles erfasst und die notwendigen Ziele definiert, kann er über 
 
 \subsection{Lösungen}
 \label{4:pD-Loesungen}
-Für ein gegebenes Problem und anvisierte Ziele ist vor allem der Weg zum Ziel relevant. Das Assistenzsystem stellt dafür mehrere Lösungsmöglichkeiten bereit. Damit der Nutzer diese gut vergleichen kann, sind die verschiedenen Lösungen in einer Tabelle dargestellt. In der ganz linken Spalte findet der Nutzer alle Informationen wieder, die bereits in der Problembeschreibung angegeben wurden. Zudem können auch noch weitere Einflussfaktoren, wie Leihkosten und Hinweise, durch das Assistenzsystem ergänzt werden, um die Entscheidungsfindung des Nutzers zu erleichtern. Möchte der Nutzer nicht nur Fakten sehen, werden durch Auswahl einer Lösung auch die Bereiche in der PFE markiert. Beim Ersetzen von einem Modul durch zwei wird sichtbar, welche Bereiche im Rezept angepasst werden müssen (siehe Abbildung \ref{pic:pD-Loesungen}). Hat der Nutzer eine Entscheidung getroffen kann er, nach Auswahl der Lösung, über den Button \textbf{Entscheiden} diese speichern und den Problemlöseprozess beenden.
+Für ein gegebenes Problem und anvisierte Ziele ist vor allem der Weg zum Ziel relevant. Das Assistenzsystem stellt dafür mehrere Lösungsmöglichkeiten bereit. Damit der Nutzer diese gut vergleichen kann, sind die verschiedenen Lösungen in einer Tabelle dargestellt. In der ganz linken Spalte findet der Nutzer alle Informationen wieder, die bereits in der Problembeschreibung angegeben wurden. Zudem können auch noch weitere Einflussfaktoren, wie Leihkosten und Hinweise, durch das Assistenzsystem ergänzt werden, um die Entscheidungsfindung des Nutzers zu erleichtern. Möchte der Nutzer nicht nur Fakten sehen, werden durch Auswahl einer Lösung auch die Bereiche in der PFE markiert. Beim Ersetzen von einem Modul durch zwei wird sichtbar, welche Bereiche im Rezept angepasst werden müssen (siehe Bild \ref{pic:pD-Loesungen}). Hat der Nutzer eine Entscheidung getroffen kann er, nach Auswahl der Lösung, über den Button \textbf{Entscheiden} diese speichern und den Problemlöseprozess beenden.
 \begin{figure}[htbp]
 \centering
 \includegraphics[angle=90,scale=0.47]{DA_files/Bilder/Konzept/Skizze-Loesungen-PFE.png}
@@ -178,7 +178,7 @@ Hat der Nutzer sich für eine Lösung entschieden, sind keine Änderungen mehr m
 \item ...wie komplex das Problem ist. Bei einer hohen Komplexität bestehen besonders viele Zusammenhänge.
 \item ...wie viele Arbeitsstunden benötigt werden, um das Problem zu beheben.
 \end{itemize}
-Zur Unterstützung der Lesbarkeit wurden Symbole für jede Spezifikation hinzugefügt, wie in Abbildung \ref{pic:pD-Probleme-klustern} zu sehen. Für die Einstellungen findet das Zahnrad-Symbol Anwendung. Dies ermöglicht, bei Weiterentwicklung des Prototypen, einen erweiterten Funktionsumfang.
+Zur Unterstützung der Lesbarkeit wurden Symbole für jede Spezifikation hinzugefügt, wie in Bild \ref{pic:pD-Probleme-klustern} zu sehen. Für die Einstellungen findet das Zahnrad-Symbol Anwendung. Dies ermöglicht, bei Weiterentwicklung des Prototypen, einen erweiterten Funktionsumfang.
 \begin{figure}[htbp]
 \centering
 \vspace{0,2cm}

@@ -91,7 +91,7 @@ month = {11},
 doi = {10.17560/atp.v59i10.1899}
 }
 @phdthesis{Hensel2019,
-author = {S. Hensel and A. Menschner and H. Bloch and S. Heinze and M. Hoernicke and K.Stark and T. Knohl and J. Bernshausen and G.Lustig and A. Wittenbrink, A. Fay and L. Urbas},
+author = {S. Hensel and A. Menschner and H. Bloch and S. Heinze and M. Hoernicke and K.Stark and T. Knohl and J. Bernshausen and G.Lustig and A. Wittenbrink and A. Fay and L. Urbas},
 title = {A Service-oriented orchestration and visualization approach for the state-based control of modular process plants},
 year = {2019},
 type = {Technischer Bericht},
@@ -202,13 +202,14 @@ title = {Human and Computer control of undersea teleoperators},
 year = {1978},
 address = {Cambridge},
 url = {https://apps.dtic.mil/dtic/tr/fulltext/u2/a057655.pdf},
-institution = {Massachusetts Institute of Technology, Man-Machine Systems Laboratory}
+organization = {Massachusetts Institute of Technology, Man-Machine Systems Laboratory},
+urldate = {2019-04-25}
 }
 
 
 @InCollection{Dalgleish2007,
 author = {Alexander Schlie{\ss}mann},
-title = {iProduction, die Mensch-Maschine-Kommunikation in der Smart Factory},
+title = {iProduction, die Mensch-Maschine-Kommuni\-kation in der Smart Factory},
 booktitle = {{Industrie 4.0 in Produktion, Automatisierung und Logistik}},
 pages = {451--480},
 publisher = {Springer Vieweg},
@@ -264,6 +265,7 @@ institution = {Institut für Integrierte Produktion Hannover},
 year = {2016},
 type = {Technologie-Kompendium},
 url = {https://industrie40.it-haus.com/wp-content/uploads/2016/12/IPH_2016_Assistenz-Systeme.pdf},
+urldate = {2018-11-23}
 }
 
 @Proceedings{Weidner2016,
@@ -362,7 +364,7 @@ year = {2012}
 address = {Berlin Heidelberg},
 author = {Z{\"{u}}hlke, Detlef},
 publisher = {Springer-Verlag},
-title = {{Nutzergerechte Entwicklung von Mensch-Maschine-Systemen}},
+title = {{Nutzergerechte Entwicklung von Mensch-Maschine-Syste\-men}},
 year = {2012}
 }
 @book{Herczeg2006,

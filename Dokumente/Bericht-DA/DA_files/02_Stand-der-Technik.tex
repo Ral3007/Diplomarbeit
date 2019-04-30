@@ -3,7 +3,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Stand der Technik}
 \label{sec:StandDerTechnik}
-Diese Kapitel umfasst die wesentlichen Grundlagen für ein besseres Verständnis der Arbeit und die bereits vorhandenen Konzepte für eine mögliche Umsetzung der Problemstellung. Da das Thema der Arbeit im Kontext der modularen Anlagen steht, sind zunächst die Grundlagen der Prozessautomatisierung und darauf aufbauend das Konzept der modularen Anlagen erläutert. Entsteht ein Problem beim Betrieb der Anlage muss dieses behoben werden. Um nachvollziehen zu können, wie Menschen Probleme lösen, wird der allgemeine Problemlöseprozess beschrieben. Hierbei wird auch Bezug auf die verschiedenen Einflussfaktoren, sowohl menschliche als auch technische, bei einem Problem genommen. Möchte man den Nutzer bei einem solchen Problemlöseprozess unterstützen, muss klar werden, was ein Assistenzsystem leisten kann und welche Möglichkeiten zur Kommunikation bestehen. Damit bei der Entwicklung des Prototypen der Nutzer immer in Vordergrund bleibt, ist in diesem Kapitel auch beschrieben, was bei der nutzerzentrierten Entwicklung zu berücksichtigen ist.
+Dieses Kapitel umfasst die wesentlichen Grundlagen für ein besseres Verständnis der Arbeit und die bereits vorhandenen Konzepte für eine mögliche Umsetzung der Problemstellung. Da das Thema der Arbeit im Kontext der modularen Anlagen steht, sind zunächst die Grundlagen der Prozessautomatisierung und darauf aufbauend das Konzept der modularen Anlagen erläutert. Entsteht ein Problem beim Betrieb der Anlage, muss dieses behoben werden. Um nachvollziehen zu können, wie Menschen Probleme lösen, wird der allgemeine Problemlöseprozess beschrieben. Hierbei wird auch Bezug auf die verschiedenen Einflussfaktoren, sowohl menschliche als auch technische, bei einem Problem genommen. Möchte man den Nutzer bei einem solchen Problemlöseprozess unterstützen, muss klar werden, was ein Assistenzsystem leisten kann und welche Möglichkeiten zur Kommunikation bestehen. Damit bei der Entwicklung des Prototypen der Nutzer immer in Vordergrund bleibt, ist in diesem Kapitel auch beschrieben, was bei der nutzerzentrierten Entwicklung zu berücksichtigen ist.
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 \section{Prozessindustrie}
@@ -46,7 +46,7 @@ Die Services können nicht nur modulintern, sondern auch modulübergreifende Abh
 \end{itemize} 
 Die Beschreibungen der Services und ihrer Betriebsarten sind modulspezifisch und müssen vom Modulingenieur angegeben werden.
 
-Mittels einer Rezeptfahrweise können die Services orchestriert werden. An den Transitionen wird der Status des Service überprüft. Bei Übereinstimmung mit der festgelegten Bedingung wird die Transition geschalten. In jedem Rezeptschritt kann ein entsprechender Service Command mit Serviceparametern gesetzt werden. Das Rezept teilt sich in drei Abstraktionsebenen ein (siehe auch Anhang \ref{A:Rezept}). Auf der höchsten Abstraktionsebene, den Phases, kann der Operator einen groben Überblick über den Prozess erlagen. Die zweite Ebene umfasst die Procedures. Zu jeder Procedure wird das entsprechende Modul zugeordnet. Eine Procedure besteht aus mehreren Steps, die die Service Commands auslösen. \cite{Bloch2017}
+Mittels einer Rezeptfahrweise können die Services orchestriert werden. An den Transitionen wird der Status des Service überprüft. Bei Übereinstimmung mit der festgelegten Bedingung wird die Transition geschalten. In jedem Rezeptschritt kann ein entsprechender Service Command mit Serviceparametern gesetzt werden. Das Rezept teilt sich in drei Abstraktionsebenen ein (siehe auch Anhang \ref{A:Rezept}). Auf der höchsten Abstraktionsebene, den Phases, kann der Anlagenbediener einen groben Überblick über den Prozess erlagen. Die zweite Ebene umfasst die Procedures. Zu jeder Procedure wird das entsprechende Modul zugeordnet. Eine Procedure besteht aus mehreren Steps, die die Service Commands auslösen. \cite{Bloch2017}
 
 \section{Problemlösen}
 Man geht davon aus, dass Probleme selbstverständlich existieren. Probleme entstehen allerdings erst, wenn eine konkrete Zielsetzung vorhanden ist, die sich nicht durch Routine erreichen lässt. Ohne Handlungsziele gäbe es keine Probleme. \cite{Funke2015, Betsch2011,  Dorner1984}
@@ -102,7 +102,7 @@ Der \textbf{Entscheidungfokus} bezieht sich auf die Frage, welche Faktoren welch
 	\item \textbf{Task:} Der aufgabenbezogene Entscheider legt Wert auf begründbare, logisch nachvollziehbare Entscheidungen.
 	\end{itemize}
 
-\subsection{Einflüsse}
+\subsection{Einflüsse auf den Problemlöseprozess}
 Es gibt viele Faktoren, die den Prozess des Problemlösens beeinflussen. Es kann zwischen äußeren Faktoren, wie die Ausgangssituation und die verfügbaren Operatoren, und den inneren Faktoren, wie Motivation und Emotionen, unterschieden werden.
 
 \subsubsection*{Äußere Faktoren}
@@ -133,6 +133,7 @@ Ebenfalls einen Einfluss haben \textbf{Emotionen}. Diese wirken sich auf den Abl
 \subsection{Phasen des Problemlösens}
 \label{2:Phasen-Problemloesen}
 Der Problemlöseprozess teilt sich in fünf Phasen auf. Die erste ist die \textbf{Problemidentifikation}. \glqq Ein Problem ist identifiziert, wenn man Ziele setzt und erkennt, dass ein bestimmtes Ziel nicht ohne weiteres Nachdenken erreicht werden kann\grqq \ \citep[146]{Betsch2011}. Die zweite Phase ist die \textbf{Ziel- und Situationsanalyse}. Dabei muss zunächst der zu erreichende Zielzustand geklärt und die Eigenschaften und Beschränkungen erkannt werden. Anschließend ist zu klären, warum es nicht geht und was zur Verfügung steht bzw. was man gebrauchen kann. Die \textbf{Planerstellung} erfolgt in Phase drei. Diese umfasst die Vorbereitung des konkreten Vorgehens mit folgenden Aspekten:
+\newpage
 \begin{enumerate}
 \item Abfolgen erkennen
 \item Randbedingungen erkennen
@@ -151,7 +152,7 @@ Bei der Störungsdiagnose ist im Störfall eine effiziente Problemlösung gefrag
 
 Das Strukturwissen bezieht sich auf die Schnittstellenebene, das Interface, und die Systemebene. Es beinhaltet Faktenwissen über die Funktionsweise und Organisation der Komponenten und deren möglichen Zustände. Es ist möglich, dass ein Bediener umfassende Kenntnisse über das Interface hat, aber über keinerlei Systemwissen verfügt. Eine Steuerung des Systems ist mit reinem Strukturwissen nicht möglich. \cite{Funke2015, Kluwe1997}
 
-Das Kontroll- \& Steuerungswissen bezieht sich auf Regeln, anhand derer die Zustände des Systems mit den Zielen des Operators durch Systemeingriffe verknüpft werden können \cite{Funke2015}. Kluwe \cite{Kluwe1997} teilt das Wissen in mehrere Ebenen. Auf der Ebene des Eingriffswissens führt der Operator verfügbare Prozeduren ohne weiteres Wissen über das System aus. Dies ähnelt einer Black-Box. Auf der Ebene des Kausalwissens verfügt der Operator zusätzlich über Kenntnisse des Ursache-Wirkungsgefüges. Welches Wissen wichtig ist hängt von den Aufgaben des Operators ab.
+Das Kontroll- \& Steuerungswissen bezieht sich auf Regeln, anhand derer die Zustände des Systems mit den Zielen des Anlagenbedieners durch Systemeingriffe verknüpft werden können \cite{Funke2015}. Kluwe \cite{Kluwe1997} teilt das Wissen in mehrere Ebenen. Auf der Ebene des Eingriffswissens führt der Anlagenbediener verfügbare Prozeduren ohne weiteres Wissen über das System aus. Dies ähnelt einer Black-Box. Auf der Ebene des Kausalwissens verfügt der Anlagenbediener zusätzlich über Kenntnisse des Ursache-Wirkungsgefüges. Welches Wissen wichtig ist hängt von den Aufgaben des Anlagenbediener ab.
 
 Beim Bearbeiten von komplexen Problemen muss anhand der Anforderungen zwischen den verschiedenen Wissensarten flexibel gewechselt werden können. \cite{Funke2015}
 
@@ -172,7 +173,7 @@ Während Menschen direkt kommunizieren können, ist bei der Kommunikation mit ei
 Damit die Kommunikation zwischen Mensch und System möglich ist, müssen geeignete Mittel zur Verfügung stehen, die in Abschnitt \ref{2:Assistenzsysteme} konkreter thematisiert sind.
 
 \section{Assistenz}
-Laut Duden bedeutet Assistenz Beistand oder Mithilfe \cite{DudenAssistenz}. Das Verb assistieren wird mit den Worten \glqq jemanden nach dessen Anweisungen zur Hand gehen, bei einer Arbeit oder Tätigkeit behilflich sein\grqq \ beschrieben \cite{DudenAssistieren}. In der Literatur finden sich eine Vielzahl von Definitionen. Diese reichen vom Schraubendreher, über autonome Ausführung von Funktionen bis hin zur individualisierten Nutzerunterstützung \cite{Ludwig}. Zur Einordnung, inwieweit der Nutzer durch das Assistenzsystem unterstützt wird, finden die zehn Level der Automatisierung von Sheridan \cite{Sheridan1978} \todo{Quelle korrigieren} häufig Anwendung \cite{Wandke2005}.
+Laut Duden bedeutet Assistenz Beistand oder Mithilfe \cite{DudenAssistenz}. Das Verb assistieren wird mit den Worten \glqq jemanden nach dessen Anweisungen zur Hand gehen, bei einer Arbeit oder Tätigkeit behilflich sein\grqq \ beschrieben \cite{DudenAssistieren}. In der Literatur finden sich eine Vielzahl von Definitionen. Diese reichen vom Schraubendreher, über autonome Ausführung von Funktionen bis hin zur individualisierten Nutzerunterstützung \cite{Ludwig}. Zur Einordnung, inwieweit der Nutzer durch das Assistenzsystem unterstützt wird, finden die zehn Level der Automatisierung von Sheridan \cite{Sheridan1978} häufig Anwendung \cite{Wandke2005}.
 \begin{enumerate}
 \item Der Mensch erledigt alles alleine.
 \item Der Computer unterstützt den Menschen bei der Ermittlung der möglichen Optionen.
@@ -276,7 +277,7 @@ Mit Schnittstelle ist gemeint, wie und mit welchen Mitteln Informationen dem Nut
 \section{Gestaltung von Mensch-Maschine-Schnittstellen}
 Die richtige Gestaltung der Mensch-Maschine-Schnittstelle ist essenziell. Durch die steigende Komplexität von Maschinen und Anlagen wird meist auch die Bedienung komplexer \cite{Zuhlke2012}. Umso wichtiger ist eine nutzerfreundliche Gestaltung. Diese orientiert sich maßgeblich an den Bedürfnissen des Nutzers, welche in den Entwicklungsprozess mit einzubeziehen sind \cite{Heinecke2012, Zuhlke2012}. Es gibt eine Vielzahl an Richtlinien, die erläutern, was eine ergonomisch gute Gestaltung von Benutzerschnittstellen ausmacht. Die gute Gestaltung soll Benutzungsprobleme vermeiden.
 
-Immer wichtiger wird zudem die User Experience, also das gezielte Schaffen von Erlebnissen, die der Nutzer mit dem System erfährt. Ein ansprechendes Design ist wichtig, da dadurch ein menschliches Bedürfnis befriedigt wird. Frustration und Unzufriedenheit zu vermeiden war schon immer relevant.  \todo{eventuell umschreiben} Die User Experience legt zusätzlich den Fokus auf positive Emotionen, wie Freude, Spaß und Stolz. \cite{Hassenzahl2006}
+Immer wichtiger wird zudem die User Experience, also das gezielte Schaffen von Erlebnissen, die der Nutzer mit dem System erfährt. Ein ansprechendes Design ist wichtig, da dadurch ein menschliches Bedürfnis befriedigt wird. Frustration und Unzufriedenheit zu vermeiden war schon immer relevant.  Die User Experience legt zusätzlich den Fokus auf die Generierung von positiven Emotionen, wie Freude, Spaß und Stolz. \cite{Hassenzahl2006}
 
 \subsection{Ergonomisch gute Gestaltung}
 \label{2:ergonomische-Gestaltung}
@@ -304,20 +305,20 @@ Die richtige Informationsdarstellung ist wichtig, um den Problemlöseprozess nic
 \end{itemize}
 
 \subsection{User Experience}
-Im Zusammenhang mit einer optimalen Gestaltung werden die Erlebnisse, die der Nutzer bei der Verwendung von Technologien erfährt, immer wichtiger. Technologie ist mehr als ein Tool, das verwendet wird um Zeit zu generieren, die schön gestaltet werden kann. \nicetohave{umformulieren!} Sie kann vielmehr selbst eine Quelle für Vergnügen sein. \cite{Hassenzahl2008}
+Im Zusammenhang mit einer optimalen Gestaltung werden die Erlebnisse, die der Nutzer bei der Verwendung von Technologien erfährt, immer wichtiger. Technologie ist mehr als ein Tool, das verwendet wird um Zeit zu generieren, die schön gestaltet werden kann. Sie kann vielmehr selbst eine Quelle für Vergnügen sein. \cite{Hassenzahl2008}
 
 User Experience (UX) verschiebt die Aufmerksamkeit von Produkt und Material (bspw. Funktionen und Interaktionen) zu den Menschen und den Gefühlen \cite{Hassenzahl2008}. Für Hassenzahl \citep[12]{Hassenzahl2008} ist UX \glqq a momentary, primarily evaluative feeling (good-bad) while interacting with a product or service.\grqq \ Der Titel \glqq Attention web designers: You have 50 milliseconds to make a good first impression!\grqq \ \citep[92]{Hassenzahl2006} beschreibt die Relevanz eines guten UX-Designs sehr treffend. 
 %Unterschiedliche konzeptuelle und methodische Ansätze führen zu verschiedenen Blickwinkeln, die stark voneinander profitieren.
 \cite{Hassenzahl2006}
 
 \subsubsection*{Generierung positiver Erlebnisse}
-Interaktive Systeme werden vom Nutzer aus zwei Perspektiven wahrgenommen. Zum einen aus der pragmatischen Sicht mit dem Fokus auf das Produkt. Zum anderen der hedonischen \footnote{Hedonisch bedeutet Lust und Freude} Sicht, welche den Fokus auf den Menschen legt und beispielsweise das Gefühl gibt, kompetent zu sein. Für positive Erlebnisse und damit einer guten UX muss vor allem zweiteres befriedigt werden. Damit sich ein Nutzer kompetent fühlt, müssen Herausforderungen und Erfolge in einem ausgewogenen Zusammenspiel geschehen. \cite{Hassenzahl2008}
+Interaktive Systeme werden vom Nutzer aus zwei Perspektiven wahrgenommen. Zum einen aus der pragmatischen Sicht mit dem Fokus auf das Produkt. Zum anderen der hedonischen\footnote{Hedonisch bedeutet Lust und Freude.} Sicht, welche den Fokus auf den Menschen legt und beispielsweise das Gefühl gibt, kompetent zu sein. Für positive Erlebnisse und damit einer guten UX muss vor allem zweiteres befriedigt werden. Damit sich ein Nutzer kompetent fühlt, müssen Herausforderungen und Erfolge in einem ausgewogenen Zusammenspiel geschehen. \cite{Hassenzahl2008}
 
 Für das Design bedeutet das, mehr konzeptionell zu denken, um bestimmte Gefühle zu wecken. Es ist mehr als nur Funktion mit einem schönen Design zu versehen. Leider sind negative Erlebnisse auch bei einem sehr guten UX Design unvermeidbar. Soll sich der Mensch kompetent fühlen, wird dadurch eine positive Aktivität generiert aber auch die negative Angst des Scheiterns Am wichtigsten ist bei UX jedoch die Freude, die der Nutzer erfährt. \cite{Hassenzahl2008}
 
 \subsection{Individualisierung}
 \label{2:Individualisierung}
-Wenn unterschiedliche Benutzer(gruppen) ein System nutzen, dann ist eine Individualisierung in Betracht zu ziehen. Individualisierung bedeutet, dass sich das Verhalten des Systems und die Darstellung der Benutzerschnittstellen-Elemente entsprechend anpassen. Die ISO 9241-129 \cite{ISO9241-129} listet einige Aspekt auf, bei denen es sinnvoll ist zu individualisieren:
+Wenn unterschiedliche Benutzer(gruppen) ein System verwenden, dann ist eine Individualisierung in Betracht zu ziehen. Individualisierung bedeutet, dass sich das Verhalten des Systems und die Darstellung der Benutzerschnittstellen-Elemente entsprechend anpassen. Die ISO 9241-129 \cite{ISO9241-129} listet einige Aspekt auf, bei denen es sinnvoll ist zu individualisieren:
 \begin{itemize}
 \item \textbf{Variation der Benutzermerkmale:} Fähigkeiten und Präferenzen der Nutzer sind verschieden.
 \item \textbf{Unterschiedliche Bedürfnisse und Ziele:} Durch entsprechende Individualisierung sollen alle Nutzer zufrieden gestellt werden.

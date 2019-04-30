@@ -828,7 +828,7 @@
   \endentry
 
   \entry{Hensel2019}{thesis}{}
-    \name{author}{11}{}{%
+    \name{author}{12}{}{%
       {{hash=HS}{%
          family={Hensel},
          familyi={H\bibinitperiod},
@@ -879,11 +879,17 @@
          family={G.Lustig},
          familyi={G\bibinitperiod},
       }}%
-      {{hash=AWAF}{%
-         family={A.\bibnamedelima Wittenbrink},
-         familyi={A\bibinitperiod\bibinitdelim W\bibinitperiod},
-         given={A.\bibnamedelima Fay},
-         giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+      {{hash=WA}{%
+         family={Wittenbrink},
+         familyi={W\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Fay},
+         familyi={F\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
       }}%
       {{hash=UL}{%
          family={Urbas},
@@ -893,7 +899,7 @@
       }}%
     }
     \strng{namehash}{HS+1}
-    \strng{fullhash}{HSMABHHSHMKKTBJGAWAFUL1}
+    \strng{fullhash}{HSMABHHSHMKKTBJGWAFAUL1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{H}
@@ -1023,6 +1029,9 @@
     }
     \field{type}{Technologie-Kompendium}
     \field{year}{2016}
+    \field{urlday}{23}
+    \field{urlmonth}{11}
+    \field{urlyear}{2018}
   \endentry
 
   \entry{Kluwe1997}{incollection}{}
@@ -1914,7 +1923,7 @@
     \verb 10.1007/978-3-658-04682-8_22
     \endverb
     \field{pages}{451\bibrangedash 480}
-    \field{title}{iProduction, die Mensch-Maschine-Kommunikation in der Smart
+    \field{title}{iProduction, die Mensch-Maschine-Kommuni\-kation in der Smart
   Factory}
     \field{year}{2007}
   \endentry
@@ -1957,6 +1966,9 @@
          giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
       }}%
     }
+    \list{organization}{1}{%
+      {Massachusetts Institute of Technology, Man-Machine Systems Laboratory}%
+    }
     \strng{namehash}{STBVWL1}
     \strng{fullhash}{STBVWL1}
     \field{labelnamesource}{author}
@@ -1970,10 +1982,10 @@
     \list{location}{1}{%
       {Cambridge}%
     }
-    \list{institution}{1}{%
-      {Massachusetts Institute of Technology, Man-Machine Systems Laboratory}%
-    }
     \field{year}{1978}
+    \field{urlday}{25}
+    \field{urlmonth}{04}
+    \field{urlyear}{2019}
   \endentry
 
   \entry{Tullis2008}{book}{}
@@ -2318,7 +2330,7 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{Z}
     \field{sortinithash}{Z}
-    \field{title}{{Nutzergerechte Entwicklung von Mensch-Maschine-Systemen}}
+    \field{title}{{Nutzergerechte Entwicklung von Mensch-Maschine-Syste\-men}}
     \list{location}{1}{%
       {Berlin Heidelberg}%
     }
