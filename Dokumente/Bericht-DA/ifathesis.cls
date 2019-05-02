@@ -82,7 +82,7 @@
   \if@isReadyForPrint%    
     \if@isAFivePaper 10mm\else 15mm\fi                                                                
   \else%                                                    
-    15mm      
+    0mm      
   \fi
 }
 
@@ -93,7 +93,7 @@
   \if@isReadyForPrint%                                      
     \if@isAFivePaper 13\else 10\fi                          
   \else%                                                    
-    \if@isAFivePaper 11\else 10\fi         
+    \if@isAFivePaper 11\else 9\fi         
   \fi
 }
 
